@@ -19,10 +19,12 @@ only returned if \code{return_df = TRUE}
 }
 \description{
 This function fetches the status of all available SDFI services.
-The API that this package wraps is one of these. It checks \href{https://erdataforsyningennede.site24x7statusiq.com/}{this status url})
+The API that this package wraps is one of these. It checks \href{https://erdataforsyningennede.site24x7statusiq.com/}{this status url}
 }
 \examples{
 
 status_check()
+
+status_check(return_df = TRUE)
 
 }
