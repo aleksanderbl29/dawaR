@@ -19,4 +19,5 @@ Suggests:
 Config/testthat/edition: 3
 Imports: 
     cli,
-    httr2
+    httr2,
+    tidyRSS
