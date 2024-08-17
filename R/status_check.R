@@ -42,17 +42,24 @@ status_check <- function(return_df = FALSE, error_if_unavailable = FALSE) {
     operational <- FALSE
   }
 
-  if (return_df == TRUE) {
-    return(dataframe)
+  if (operational == FALSE) {
+    not_op <- dataframe[dataframe$status != "OK",]
   }
+
+  offline_service <- not_op$service
 
   if (operational == TRUE) {
     cli::cli_alert_success("All systems are operational")
   } else if (operational == FALSE) {
     if (error_if_unavailable == TRUE) {
-      cli::cli_abort("X system is not operational")
+      cli::cli_abort("{offline_service} {?is/are} not operational")
     } else {
-      cli::cli_alert_danger("X system is not operational")
+      cli::cli_alert_danger("{offline_service} {?is/are} not operational")
     }
   }
+
+  if (return_df == TRUE) {
+    return(dataframe)
+  }
+
 }
