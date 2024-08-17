@@ -31,6 +31,10 @@ dawa <- function(section,
     dawa_request <- base_request
   }
 
+  if (verbose == TRUE) {
+    cli::cli_alert_info("Accessing {.url {dawa_request[1]}}")
+  }
+
   httr2::req_perform(dawa_request) |>
     httr2::resp_body_json()
 }
