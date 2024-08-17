@@ -1,5 +1,10 @@
 #' Check that all DAWA services are operational
 #'
+#' @description This function fetches the status of all available SDFI services.
+#' The API that this package wraps is one of these. It checks [this status
+#' url](https://erdataforsyningennede.site24x7statusiq.com/)
+#'
+#'
 #' @param return_df This option makes the function return a dataframe object
 #'   with the services and their statuses listed
 #' @param error_if_unavailable This option forces the function to throw an error

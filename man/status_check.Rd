@@ -18,7 +18,8 @@ Returns a data frame object with the services and their statuses. Is
 only returned if \code{return_df = TRUE}
 }
 \description{
-Check that all DAWA services are operational
+This function fetches the status of all available SDFI services.
+The API that this package wraps is one of these. It checks \href{https://erdataforsyningennede.site24x7statusiq.com/}{this status url})
 }
 \examples{
 
