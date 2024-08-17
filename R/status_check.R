@@ -1,3 +1,18 @@
+#' Check that all DAWA services are operational
+#'
+#' @param return_df This option makes the function return a dataframe object
+#'   with the services and their statuses listed
+#' @param error_if_unavailable This option forces the function to throw an error
+#'   in the event that one or more services are unreachable.
+#'
+#' @return Returns a data frame object with the services and their statuses. Is
+#'   only returned if `return_df = TRUE`
+#' @export
+#'
+#' @examples
+#'
+#' status_check()
+#'
 status_check <- function(return_df = FALSE, error_if_unavailable = FALSE) {
   status_url <- "https://erdataforsyningennede.site24x7statusiq.com/rss"
 
