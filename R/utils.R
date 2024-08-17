@@ -1,8 +1,13 @@
-api <- function(section, append_to_url = "") {
+dawa <- function(section, append_to_url = "") {
 
   base_url <- "https://api.dataforsyningen.dk"
 
-  if (section == "sogne") {
+  if (section %in% c(
+    "adgangsadresser",
+    "adresser"
+  )) {
+    append_to_url <- "/afstemningsomraader"
+  } else if (section == "sogne") {
     append_to_url <- "/sogne"
   } else {
     cli::cli_abort(c(
@@ -11,11 +16,11 @@ api <- function(section, append_to_url = "") {
       ))
   }
 
-  cli::cli_alert_info("Requesting {.var {section}} from DAWA")
+  cli::cli_alert("Requesting {.var {section}} from DAWA")
 
-  req_url <- paste0(base_url, append_to_url)
-
-  httr2::request(req_url) |>
+  httr2::request(base_url) |>
+    httr2::req_url_path_append(section) |>
+    httr2::req_user_agent("dawaR (http://dawa-pkg.aleksanderbl.dk)") |>
     httr2::req_perform() |>
     httr2::resp_body_json()
 }
