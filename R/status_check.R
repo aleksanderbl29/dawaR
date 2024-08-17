@@ -44,9 +44,9 @@ status_check <- function(return_df = FALSE, error_if_unavailable = FALSE) {
 
   if (operational == FALSE) {
     not_op <- dataframe[dataframe$status != "OK",]
+    offline_service <- not_op$service
   }
 
-  offline_service <- not_op$service
 
   if (operational == TRUE) {
     cli::cli_alert_success("All systems are operational")
