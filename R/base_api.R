@@ -11,7 +11,7 @@
 #' @param ... <[`dynamic-dots`][rlang::dyn-dots]> input query parameters.
 #' @param append_to_url This options enables you to append a string to the url.
 #'   It is inserted in the request after the `section` but before the `...`.
-#' @param verbose Wether or not to provide {cli} output for the user. Enabled by
+#' @param verbose Wether or not to provide `{cli}` output for the user. Enabled by
 #'   default, but disabled for all functions that wrap `dawa()` in this package.
 #' @param cache Option to use caching in a `tempdir()`. Enabled by default. More
 #'   info can be found in the documentation for `httr2::req_cache()`.

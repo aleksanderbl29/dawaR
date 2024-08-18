@@ -22,7 +22,7 @@ dawa(
 \item{append_to_url}{This options enables you to append a string to the url.
 It is inserted in the request after the \code{section} but before the \code{...}.}
 
-\item{verbose}{Wether or not to provide {cli} output for the user. Enabled by
+\item{verbose}{Wether or not to provide \code{{cli}} output for the user. Enabled by
 default, but disabled for all functions that wrap \code{dawa()} in this package.}
 
 \item{cache}{Option to use caching in a \code{tempdir()}. Enabled by default. More
