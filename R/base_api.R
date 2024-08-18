@@ -1,8 +1,40 @@
+#' Base API function
+#'
+#' @description This function is the foundation of all communication with the
+#'   api in this package. Not intended for end-users, but it provides all the
+#'   flexibility of the api without the nice conveniences of the other functions
+#'   in this package.
+#'
+#' @param section Defines what section of the api should be called.
+#'   `available_sections()` exposes all options for this parameter.
+#'
+#' @param ... <[`dynamic-dots`][rlang::dyn-dots]> input query parameters.
+#' @param append_to_url This options enables you to append a string to the url.
+#'   It is inserted in the request after the `section` but before the `...`.
+#' @param verbose Wether or not to provide {cli} output for the user. Enabled by
+#'   default, but disabled for all functions that wrap `dawa()` in this package.
+#' @param cache Option to use caching in a `tempdir()`. Enabled by default. More
+#'   info can be found in the documentation for `httr2::req_cache()`.
+#' @param dry_run With this option enabled, the function will output the request
+#'   that has been created - Without sending it to the api. This is useful for
+#'   debugging.
+#'
+#' @export
+#'
+#' @examples
+#' x <- dawa(section = "sogne")
+#'
+#' x[[1]]
 dawa <- function(section,
+                 ...,
                  append_to_url = "",
-                 extra_params = "",
                  verbose = TRUE,
-                 cache = TRUE) {
+                 cache = TRUE,
+                 dry_run = FALSE) {
+
+  params <- list(
+    ...
+  )
 
   base_url <- "https://api.dataforsyningen.dk"
 
@@ -20,7 +52,7 @@ dawa <- function(section,
   base_request <- httr2::request(base_url) |>
     httr2::req_url_path_append(section) |>
     httr2::req_url_path_append(append_to_url) |>
-    httr2::req_url_path_append(extra_params) |>
+    httr2::req_url_query(!!!params) |>
     httr2::req_user_agent("dawaR (http://dawa-pkg.aleksanderbl.dk)")
 
   if (cache == TRUE) {
@@ -35,7 +67,11 @@ dawa <- function(section,
     cli::cli_alert_info("Accessing {.url {dawa_request[1]}}")
   }
 
-  httr2::req_perform(dawa_request) |>
-    httr2::resp_body_json()
+  if (dry_run == TRUE) {
+    httr2::req_dry_run(dawa_request)
+  } else if (dry_run == FALSE) {
+    httr2::req_perform(dawa_request) |>
+      httr2::resp_body_json()
+  }
 }
 
