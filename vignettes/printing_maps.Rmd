@@ -1,0 +1,26 @@
+---
+title: "Printing maps with {dawaR} and {ggplot2}"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Printing maps with {dawaR} and {ggplot2}}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(dawaR)
+```
+
+```{r simplify}
+# Simplificerer geodata
+afstemningssteder_geodata <- rmapshaper::ms_simplify(afstemningssteder_geodata,
+                                                     keep = 0.01,
+                                                     keep_shapes = TRUE)
+```
