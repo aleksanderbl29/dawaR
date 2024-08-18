@@ -20,7 +20,7 @@ library(dawaR)
 
 ```{r simplify}
 # Simplificerer geodata
-afstemningssteder_geodata <- rmapshaper::ms_simplify(afstemningssteder_geodata,
-                                                     keep = 0.01,
-                                                     keep_shapes = TRUE)
+# afstemningssteder_geodata <- rmapshaper::ms_simplify(afstemningssteder_geodata,
+#                                                      keep = 0.01,
+#                                                      keep_shapes = TRUE)
 ```
