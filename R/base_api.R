@@ -81,10 +81,12 @@ dawa <- function(section,
   if (dry_run == TRUE) {
     httr2::req_dry_run(dawa_request)
   } else if (dry_run == FALSE) {
-    if (format %in% c("geojson", "geojsonz")){
-      httr2::req_perform(dawa_request) |>
-        # httr2::resp_raw()
-        httr2::resp_body_string()
+    if (!is.null(format)) {
+      if (format %in% c("geojson", "geojsonz")){
+        httr2::req_perform(dawa_request) |>
+          # httr2::resp_raw()
+          httr2::resp_body_string()
+      }
     } else {
     httr2::req_perform(dawa_request) |>
       httr2::resp_body_json()
