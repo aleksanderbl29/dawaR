@@ -7,7 +7,8 @@
 dawa(
   section,
   ...,
-  append_to_url = "",
+  append_to_url = NULL,
+  format = NULL,
   verbose = TRUE,
   cache = TRUE,
   dry_run = FALSE
@@ -22,8 +23,14 @@ dawa(
 \item{append_to_url}{This options enables you to append a string to the url.
 It is inserted in the request after the \code{section} but before the \code{...}.}
 
-\item{verbose}{Wether or not to provide \code{{cli}} output for the user. Enabled by
-default, but disabled for all functions that wrap \code{dawa()} in this package.}
+\item{format}{The format to provide as a query parameter for the api call. By
+default it has value \code{NULL} and triggers default json formatting. When
+\code{geojson} or \code{geojsonz} is provided, the function will return the raw json
+data in sted of the usual data.frame.}
+
+\item{verbose}{Wether or not to provide \code{{cli}} output for the user. Enabled
+by default, but disabled for all functions that wrap \code{dawa()} in this
+package.}
 
 \item{cache}{Option to use caching in a \code{tempdir()}. Enabled by default. More
 info can be found in the documentation for \code{httr2::req_cache()}.}
@@ -36,7 +43,8 @@ debugging.}
 This function is the foundation of all communication with the
 api in this package. Not intended for end-users, but it provides all the
 flexibility of the api without the nice conveniences of the other functions
-in this package.
+in this package. By default it reformats the api response (which is json)
+to a data.frame object.
 }
 \examples{
 x <- dawa(section = "sogne")

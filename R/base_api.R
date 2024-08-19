@@ -3,7 +3,8 @@
 #' @description This function is the foundation of all communication with the
 #'   api in this package. Not intended for end-users, but it provides all the
 #'   flexibility of the api without the nice conveniences of the other functions
-#'   in this package.
+#'   in this package. By default it reformats the api response (which is json)
+#'   to a data.frame object.
 #'
 #' @param section Defines what section of the api should be called.
 #'   `available_sections()` exposes all options for this parameter.
@@ -11,8 +12,13 @@
 #' @param ... <[`dynamic-dots`][rlang::dyn-dots]> input query parameters.
 #' @param append_to_url This options enables you to append a string to the url.
 #'   It is inserted in the request after the `section` but before the `...`.
-#' @param verbose Wether or not to provide `{cli}` output for the user. Enabled by
-#'   default, but disabled for all functions that wrap `dawa()` in this package.
+#' @param format The format to provide as a query parameter for the api call. By
+#'   default it has value `NULL` and triggers default json formatting. When
+#'   `geojson` or `geojsonz` is provided, the function will return the raw json
+#'   data in sted of the usual data.frame.
+#' @param verbose Wether or not to provide `{cli}` output for the user. Enabled
+#'   by default, but disabled for all functions that wrap `dawa()` in this
+#'   package.
 #' @param cache Option to use caching in a `tempdir()`. Enabled by default. More
 #'   info can be found in the documentation for `httr2::req_cache()`.
 #' @param dry_run With this option enabled, the function will output the request
