@@ -31,9 +31,9 @@ jobs:
       R_KEEP_PKG_SOURCE: yes
 
     steps:
-      - run: ping api.dataforysningen.dk -c 3
       - run: ping 188.64.168.195 -c 3
       - run: nslookup api.dataforsyningen.dk
+      - run: ping api.dataforysningen.dk -c 3
 
       - uses: actions/checkout@v4
 
