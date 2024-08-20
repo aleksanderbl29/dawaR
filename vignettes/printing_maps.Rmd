@@ -1,8 +1,8 @@
 ---
-title: "Printing maps with `{dawaR}` and `{ggplot2}`"
+title: "Printing maps with dawaR and ggplot2"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{Printing maps with `{dawaR}` and `{ggplot2}`}
+  %\VignetteIndexEntry{Printing maps with dawaR and ggplot2}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---

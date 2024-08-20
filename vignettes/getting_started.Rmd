@@ -1,5 +1,5 @@
 ---
-title: "Getting started with `{dawaR}`"
+title: "Getting started with dawaR"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{getting_started}
