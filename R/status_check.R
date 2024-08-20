@@ -2,7 +2,8 @@
 #'
 #' @description This function fetches the status of all available SDFI services.
 #' The API that this package wraps is one of these. It checks [this status
-#' url](https://erdataforsyningennede.site24x7statusiq.com/)
+#' url](https://erdataforsyningennede.site24x7statusiq.com/). The status can
+#' also be followed on the official [X-page](https://x.com/DriftDataforsyn).
 #'
 #'
 #' @param return_df This option makes the function return a dataframe object
@@ -11,7 +12,7 @@
 #'   in the event that one or more services are unreachable.
 #'
 #' @return Returns a data frame object with the services and their statuses. Is
-#'   only returned if `return_df = TRUE`
+#'   only returned if `return_df = TRUE`.
 #' @export
 #'
 #' @examples
