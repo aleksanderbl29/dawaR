@@ -1,8 +1,8 @@
 ---
-title: "Printing maps with {dawaR} and {ggplot2}"
+title: "Printing maps with `{dawaR}` and `{ggplot2}`"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{Printing maps with {dawaR} and {ggplot2}}
+  %\VignetteIndexEntry{Printing maps with `{dawaR}` and `{ggplot2}`}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
@@ -14,13 +14,82 @@ knitr::opts_chunk$set(
 )
 ```
 
-```{r setup}
+This article will show you how to use `get_map_data()` and {ggplot2} to draw nice looking maps of Denmark.
+
+First we need to load the packages. Here, we load the entirety of `{tidyverse}` for convenience's sake.
+
+```{r setup, message=FALSE}
+library(tidyverse)
 library(dawaR)
 ```
 
-```{r simplify}
-# Simplificerer geodata
-# afstemningssteder_geodata <- rmapshaper::ms_simplify(afstemningssteder_geodata,
-#                                                      keep = 0.01,
-#                                                      keep_shapes = TRUE)
+## Getting map data
+
+After loading the required packages we need to get the map data. We will request map data for all (98) danish municipalities. The danish word for *municipality* is *kommune* which is what we will request.
+
+```{r get_data_municipality}
+municipalities <- get_map_data("kommuner")
 ```
+
+In the dropdown below you can see the `head()` of the data we have received.
+
+<details>
+  <summary>`head(municipalities)`</summary>
+  ```{r, echo = FALSE, eval = TRUE}
+  head(municipalities)
+  ```
+</details>
+
+The data can then be passed to a `ggplot2::geom_sf()` to print the map. I have also specified that the fill color should be based on the municipality name to make it a bit more colorful.
+
+```{r print_map_municipality}
+municipalities %>% 
+  ggplot(aes(fill = navn)) +
+  geom_sf() +
+  cowplot::theme_map() +
+  theme(legend.position = "none")
+```
+
+## Drawing maps with many lines
+
+The above example is not very resource intensive. Trying to plot all the danish voting precincts on the other hand, is somewhat more intensive. To ease the production of such maps, I will now demonstrate how easy it is to simplify the lines (without loss of substantial quality) to faster plot the map. We will use the `rmapshaper::ms_simplify()` function to do this.
+
+First we get the data with `get_map_data()` and provide the *afstemningsomraader* (voting areas) as the type.
+
+```{r get_voting_data}
+voting <- get_map_data("afstemningsomraader")
+```
+
+Then let's quickly examine how many more polygons we now have to draw.
+
+```{r compare_rows}
+nrow(municipalities)
+nrow(voting)
+```
+
+I have printed the amount of polygons for the municipality level as well as the voting precinct level.
+
+To plot all these polygons takes a substantial amount of time - You can either just trust me on that or try it out for yourself after finishing this article!
+
+To accomodate this larger number of polygons we will simplify the lines that make up said polygons.
+
+
+```{r simplify}
+voting_simplified <- rmapshaper::ms_simplify(
+  voting,
+  keep = 0.01,
+  keep_shapes = TRUE
+)
+```
+
+After simplifying the data we can now plot it.
+
+```{r plot_voting}
+voting_simplified %>% 
+  ggplot(aes(fill = kommunenavn, color = navn)) +
+  geom_sf() +
+  cowplot::theme_map() +
+  theme(legend.position = "none")
+```
+
+Here, I have colored the shapes based on the municipality and then turned the lines of each shape to a different color based on the voting precincts name.
