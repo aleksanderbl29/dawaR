@@ -16,11 +16,11 @@ knitr::opts_chunk$set(
 
 This article will show you how to use `get_map_data()` and {ggplot2} to draw nice looking maps of Denmark.
 
-First we need to load the packages. Here, we load the entirety of `{tidyverse}` for convenience's sake.
+First we need to load the packages. Here, we only load `{ggplot2}` to minimise dependencies, but you can definately load the entire `{tidyverse}` for convenience.
 
 ```{r setup, message=FALSE}
-library(tidyverse)
 library(dawaR)
+library(ggplot2)
 ```
 
 ## Getting map data
@@ -43,8 +43,7 @@ In the dropdown below you can see the `head()` of the data we have received.
 The data can then be passed to a `ggplot2::geom_sf()` to print the map. I have also specified that the fill color should be based on the municipality name to make it a bit more colorful.
 
 ```{r print_map_municipality}
-municipalities %>% 
-  ggplot(aes(fill = navn)) +
+ggplot(municipalities, aes(fill = navn)) +
   geom_sf() +
   cowplot::theme_map() +
   theme(legend.position = "none")
@@ -85,11 +84,39 @@ voting_simplified <- rmapshaper::ms_simplify(
 After simplifying the data we can now plot it.
 
 ```{r plot_voting}
-voting_simplified %>% 
-  ggplot(aes(fill = kommunenavn, color = navn)) +
+ggplot(voting_simplified, aes(fill = kommunenavn, color = navn)) +
   geom_sf() +
   cowplot::theme_map() +
   theme(legend.position = "none")
 ```
 
 Here, I have colored the shapes based on the municipality and then turned the lines of each shape to a different color based on the voting precincts name.
+
+## Overlaying multiple maps
+
+If you would like to plot how different municipalities are distributed in the police regions you can simply get the data for both maps and pass them as their own dataset/geom combos in `{ggplot2}`.
+
+```{r}
+police <- get_map_data("politikredse")
+# We will reuse the municipality data from earlier.
+```
+
+Then you can pass it to `{ggplot2}` as follows.
+
+```{r}
+ggplot() +
+  geom_sf(
+    data = police,
+    aes(fill = navn),
+    color = NA
+  ) +
+  geom_sf(
+    data = municipalities,
+    color = "black",
+    fill = NA
+  ) +
+  cowplot::theme_map() +
+  theme(legend.position = "none")
+```
+
+As you can see, we have now produced a map with shapes from different subsections of Denmark.
