@@ -17,7 +17,10 @@ BugReports: https://github.com/aleksanderbl29/dawaR/issues
 Suggests: 
     knitr,
     rmarkdown,
-    testthat (>= 3.0.0)
+    ggplot2,
+    testthat (>= 3.0.0),
+    cowplot (>= 1.1.0),
+    rmapshaper (>= 0.5.0)
 Config/testthat/edition: 3
 Depends:
   R (>= 3.5.0)
