@@ -29,8 +29,7 @@ default it has value \code{NULL} and triggers default json formatting. When
 data in sted of the usual data.frame.}
 
 \item{verbose}{Wether or not to provide \code{{cli}} output for the user. Enabled
-by default, but disabled for all functions that wrap \code{dawa()} in this
-package.}
+by default, but disabled for all functions that wrap this function}
 
 \item{cache}{Option to use caching in a \code{tempdir()}. Enabled by default. More
 info can be found in the documentation for \code{httr2::req_cache()}.}

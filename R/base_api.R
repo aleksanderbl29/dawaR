@@ -17,8 +17,7 @@
 #'   `geojson` or `geojsonz` is provided, the function will return the raw json
 #'   data in sted of the usual data.frame.
 #' @param verbose Wether or not to provide `{cli}` output for the user. Enabled
-#'   by default, but disabled for all functions that wrap `dawa()` in this
-#'   package.
+#'   by default, but disabled for all functions that wrap this function
 #' @param cache Option to use caching in a `tempdir()`. Enabled by default. More
 #'   info can be found in the documentation for `httr2::req_cache()`.
 #' @param dry_run With this option enabled, the function will output the request
