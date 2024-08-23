@@ -30,27 +30,21 @@ You can install the development version of dawaR from [GitHub](https://github.co
 pak::pak("aleksanderbl29/dawaR")
 ```
 
-## Example
+## Examples
 
-This is a basic example which shows you how to solve a common problem:
+This package has multiple use cases, though they all revolve around data from the Danish Web Address API.
 
-```{r example}
+### Using DAWA map data
+
+The function `get_map_data()` fetches data in `geojson` format and transforms the geometries to `{sf}` polygons. These polygons can be drawn as nice maps with `{ggplot2}`.
+
+```{r}
 library(dawaR)
-## basic example code
+library(ggplot2)
+
+municipalities <- get_map_data("kommuner")
+ggplot(municipalities, aes(fill = regionsnavn)) +
+  geom_sf(color = "black") +
+  cowplot::theme_map()
 ```
 
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
-
-```{r cars}
-summary(cars)
-```
-
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this.
-
-You can also embed plots, for example:
-
-```{r pressure, echo = FALSE}
-plot(pressure)
-```
-
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub and CRAN.
