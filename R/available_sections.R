@@ -1,12 +1,16 @@
 #' List of available sections for `dawa()`
 #'
 #' @description Simple function to list all available options for the `section`
-#' parameter in `dawa()`. Useful when getting to know the base api function of
-#' this package.
+#'   parameter in `dawa()`. Useful when getting to know the base api function of
+#'   this package.
 #'
 #'
 #' @param as_list This options controls the output format. The output is either
 #'   a named list or an atomic vector with the available sections
+#' @param format Specify a format type. The function now returns only available
+#'   sections that can respond with that format. Currently `geojson` is the only
+#'   format that is specified.
+#' @inheritParams dawa
 #'
 #' @return The function returns either a named list or an atomic vector with the
 #'   available sections in the API. The format is decided by `as_list`.
@@ -18,7 +22,9 @@
 #'
 #' available_sections(as_list = TRUE)
 #'
-available_sections <- function(as_list = FALSE) {
+available_sections <- function(as_list = FALSE,
+                               format = NULL,
+                               verbose = TRUE) {
 
   adresser_sections <- c(
     "adgangsadresser",
@@ -35,7 +41,7 @@ available_sections <- function(as_list = FALSE) {
     "afstemningsomraader",
     "kommuner",
     "landsdele",
-    "menigheddsraadsafstemningsomraader",
+    "menighedsraadsafstemningsomraader",
     "opstillingskredse",
     "politikredse",
     "postnumre",
@@ -63,6 +69,18 @@ available_sections <- function(as_list = FALSE) {
     "bygninger"
   )
 
+  if (!is.null(format)) {
+    if (verbose == TRUE) {
+      cli::cli_alert_info("Only showing sections available with {.var {format}}")
+    }
+    if (format == "geojson") {
+      not_geojson_friendly <- c("autocomplete", "vejnavne", "stednavntyper")
+
+      adresser_sections[!adresser_sections %in% not_geojson_friendly]
+      stednavne[!stednavne %in% not_geojson_friendly]
+    }
+  }
+
   if (as_list == TRUE) {
     output <- list(
       adresser = adresser_sections,
@@ -85,3 +103,9 @@ available_sections <- function(as_list = FALSE) {
 
 }
 
+sort_format_sections <- function(section, unfriendly_c) {
+
+  section[!section %in% unfriendly_c]
+  return(section)
+
+}

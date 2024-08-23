@@ -6,7 +6,7 @@ test_that("Available sections can be called and returns in the proper format", {
                           "postnumre")
 
   dagi_sections <- c("afstemningsomraader", "kommuner", "landsdele",
-                     "menigheddsraadsafstemningsomraader", "opstillingskredse",
+                     "menighedsraadsafstemningsomraader", "opstillingskredse",
                      "politikredse", "postnumre", "regioner", "retskredse",
                      "sogne", "storkredse", "supplerendebynavne2",
                      "valglandsdele")

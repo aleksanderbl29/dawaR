@@ -4,11 +4,18 @@
 \alias{available_sections}
 \title{List of available sections for \code{dawa()}}
 \usage{
-available_sections(as_list = FALSE)
+available_sections(as_list = FALSE, format = NULL, verbose = TRUE)
 }
 \arguments{
 \item{as_list}{This options controls the output format. The output is either
 a named list or an atomic vector with the available sections}
+
+\item{format}{Specify a format type. The function now returns only available
+sections that can respond with that format. Currently \code{geojson} is the only
+format that is specified.}
+
+\item{verbose}{Wether or not to provide \code{{cli}} output for the user. Enabled
+by default, but disabled for all functions that wrap this function}
 }
 \value{
 The function returns either a named list or an atomic vector with the
