@@ -2,4 +2,5 @@
 
 export(available_sections)
 export(dawa)
+export(get_map_data)
 export(status_check)
