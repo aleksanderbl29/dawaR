@@ -5,6 +5,8 @@ on:
     paths:
       - "R/**"
       - "README.Rmd"
+      - '.github/workflows/document.yaml'
+  workflow_dispatch:
 
 name: document.yaml
 
