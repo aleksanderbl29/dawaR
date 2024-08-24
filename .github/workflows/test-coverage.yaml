@@ -19,6 +19,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - uses: szenius/set-timezone@v2.0
+        if: runner.os == 'macos'
+        with:
+          timezoneMacos: "Europe/Denmark"
+
       - uses: r-lib/actions/setup-r@v2
         with:
           use-public-rspm: true
