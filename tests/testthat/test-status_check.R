@@ -14,9 +14,9 @@ test_that("Status check function parses the rss feed and returns a dataframe if 
   expect_equal(observed_df, expected_df)
 })
 
-test_that("Status check fails when asked to fail on error") {
+test_that("Status check fails when asked to fail on error", {
   expect_error(status_check(error_if_unavailable = TRUE))
-}
+})
 
 cli::test_that_cli("Status check message prints properly in {cli}", {
   testthat::expect_snapshot({

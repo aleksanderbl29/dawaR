@@ -22,6 +22,7 @@
 #' status_check(return_df = TRUE)
 #'
 status_check <- function(return_df = FALSE, error_if_unavailable = FALSE) {
+
   status_url <- "https://erdataforsyningennede.site24x7statusiq.com/rss"
 
   suppressMessages(rss_resp <- tidyRSS::tidyfeed(status_url))
@@ -53,6 +54,10 @@ status_check <- function(return_df = FALSE, error_if_unavailable = FALSE) {
       "OK"} else {"Down"}
   )
 
+  if ((testthat::is_testing() | testthat::is_snapshot() | testthat::is_checking()) & error_if_unavailable == TRUE) {
+    status[1] <- "Down"
+  }
+
   overall_list <- list(services, status)
 
   dataframe <- as.data.frame(do.call(cbind, overall_list))
@@ -73,12 +78,14 @@ status_check <- function(return_df = FALSE, error_if_unavailable = FALSE) {
 
   if (operational == TRUE) {
     cli::cli_alert_success("All systems are operational")
-  } else if (operational == FALSE) {
-    if (error_if_unavailable == TRUE) {
-      cli::cli_abort("{offline_service} {?is/are} not operational")
+  } else if (operational == FALSE & error_if_unavailable == TRUE) {
+    if (testthat::is_testing() | testthat::is_snapshot() | testthat::is_checking()) {
+      cli::cli_abort("{offline_service} {?is/are} not operational. This is a simulation to test the scenario that a service is unavailable")
     } else {
-      cli::cli_alert_danger("{offline_service} {?is/are} not operational")
+      cli::cli_abort("{offline_service} {?is/are} not operational")
     }
+  } else if (operational == FALSE & error_if_unavailable == FALSE) {
+      cli::cli_alert_danger("{offline_service} {?is/are} not operational")
   }
 
   if (return_df == TRUE) {
