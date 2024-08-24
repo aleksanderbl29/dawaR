@@ -4,7 +4,7 @@ pkgdown_sha: ~
 articles:
   getting_started: getting_started.html
   printing_maps: printing_maps.html
-last_built: 2024-08-24T20:45Z
+last_built: 2024-08-24T20:54Z
 urls:
-  reference: https://aleksanderbl29.github.io/dawaR/reference
-  article: https://aleksanderbl29.github.io/dawaR/articles
+  reference: http://dawar.aleksanderbl.dk/reference
+  article: http://dawar.aleksanderbl.dk/articles
