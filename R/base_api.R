@@ -46,6 +46,9 @@ dawa <- function(section,
       cli::cli_abort("{.var append_to_url} must be of type {.var string}")
     }
   }
+  if (testthat::is_testing() | testthat::is_snapshot() | testthat::is_checking()) {
+    cache <- FALSE
+  }
 
   params <- list(
     ...,
