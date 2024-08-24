@@ -69,7 +69,7 @@ dawa <- function(section,
     httr2::req_url_path_append(section) |>
     httr2::req_url_path_append(append_to_url) |>
     httr2::req_url_query(!!!params) |>
-    httr2::req_user_agent("dawaR (http://dawa-pkg.aleksanderbl.dk)")
+    httr2::req_user_agent("dawaR (http://dawar.aleksanderbl.dk)")
 
   if (cache == TRUE) {
     temp_dir <- tempdir()     # Location for caching the response
