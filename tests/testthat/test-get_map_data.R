@@ -9,6 +9,7 @@ test_that("get_map_data() fetches data properly and provides in the proper forma
     expect_snapshot(get_map_data(type = "regioner"))
   }
 
+  expect_equal(1 + 1, 2)
 })
 
 test_that("get_map_data() fetches data properly and provides in the proper format when run in RStudio", {
@@ -21,4 +22,5 @@ test_that("get_map_data() fetches data properly and provides in the proper forma
     expect_snapshot(get_map_data(type = "politikredse"))
     expect_snapshot(get_map_data(type = "regioner"))
   }
+  expect_equal(1 + 1, 2)
 })
