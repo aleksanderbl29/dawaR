@@ -8,3 +8,6 @@ inst/doc
 docs
 /doc/
 /Meta/
+
+R/convert_time.R
+
