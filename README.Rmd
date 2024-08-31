@@ -20,7 +20,17 @@ knitr::opts_chunk$set(
 [![Codecov test coverage](https://codecov.io/gh/aleksanderbl29/dawaR/graph/badge.svg)](https://app.codecov.io/gh/aleksanderbl29/dawaR)
 <!-- badges: end -->
 
-The goal of dawaR is to ...
+The goal of dawaR is to make access to the Danish Web Address API convenient for many more users.
+
+## TO DO before CRAN-submission
+
+- [ ] Tests should pass in CI as well as locally.
+  - I currently have an issue with the date-time column is converted to local time instead of UTC as is provided by the API. This causes differences between my local development machine and Github Actions.
+- [ ] Provide examples of getting data and using both reverse lookup and autocomplete functions
+- [ ] Write reverse lookup function to wrap in section functions
+- [ ] Write autocomplete function to wrap in section functions
+- [ ] Choose some often-used sections to create specific functions for
+  - These will basically be wrappers for other functions in the package and will provide another level of convenience for non-technincal users.
 
 ## Installation
 
@@ -39,7 +49,7 @@ This package has multiple use cases, though they all revolve around data from th
 
 The function `get_map_data()` fetches data in `geojson` format and transforms the geometries to `{sf}` polygons. These polygons can be drawn as nice maps with `{ggplot2}`.
 
-```{r}
+```{r municipality_map}
 library(dawaR)
 library(ggplot2)
 

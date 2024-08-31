@@ -10,7 +10,23 @@
 coverage](https://codecov.io/gh/aleksanderbl29/dawaR/graph/badge.svg)](https://app.codecov.io/gh/aleksanderbl29/dawaR)
 <!-- badges: end -->
 
-The goal of dawaR is to …
+The goal of dawaR is to make access to the Danish Web Address API
+convenient for many more users.
+
+## TO DO before CRAN-submission
+
+- [ ] Tests should pass in CI as well as locally.
+  - I currently have an issue with the date-time column is converted to
+    local time instead of UTC as is provided by the API. This causes
+    differences between my local development machine and Github Actions.
+- [ ] Provide examples of getting data and using both reverse lookup and
+  autocomplete functions
+- [ ] Write reverse lookup function to wrap in section functions
+- [ ] Write autocomplete function to wrap in section functions
+- [ ] Choose some often-used sections to create specific functions for
+  - These will basically be wrappers for other functions in the package
+    and will provide another level of convenience for non-technincal
+    users.
 
 ## Installation
 
@@ -43,4 +59,4 @@ ggplot(municipalities, aes(fill = regionsnavn)) +
   cowplot::theme_map()
 ```
 
-<img src="man/figures/README-unnamed-chunk-2-1.png" width="100%" />
+<img src="man/figures/README-municipality_map-1.png" width="100%" />
