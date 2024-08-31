@@ -42,8 +42,8 @@ dawa <- function(section,
     format <- match.arg(format, c("json", "jsonp", "ndjson", "csv", "geojson", "geojsonz"))
   }
   if (!is.null(append_to_url)) {
-    if (!inherits(append_to_url, "a")) {
-      cli::cli_abort("{.var append_to_url} must be of type {.var string}")
+    if (!typeof(append_to_url) == "character") {
+      cli::cli_abort("{.var append_to_url} must be of type {.var character}")
     }
   }
   if (testthat::is_testing() | testthat::is_snapshot() | testthat::is_checking()) {
