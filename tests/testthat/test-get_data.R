@@ -26,7 +26,10 @@ test_that("get_data() returns data and in the proper format", {
   expect_equal(response_no_list[1,], expected_no_list[1,])
   expect_equal(response_list[[1]], expected_list)
 
-  expect_snapshot(get_data("kommuner"))
+  expect_snapshot(get_data(section = "afstemningsomraader"))
+  expect_snapshot(get_data(section = "kommuner"))
+  expect_snapshot(get_data(section = "politikredse"))
+  expect_snapshot(get_data(section = "regioner"))
 
   expect_error(get_data(section = "section that does not exists"))
 })
