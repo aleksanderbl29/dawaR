@@ -43,23 +43,11 @@ In the dropdown below you can see the `head()` of the data we have received.
 
 The data can then be passed to a `ggplot2::geom_sf()` to print the map. I have also specified that the fill color should be based on the municipality name to make it a bit more colorful.
 
-```{r print_map_municipality, eval=FALSE}
+```{r print_map_municipality}
 ggplot(municipalities, aes(fill = navn)) +
   geom_sf() +
   cowplot::theme_map() +
   theme(legend.position = "none")
-```
-
-```{r, eval=FALSE, echo=FALSE}
-obj <- ggplot(municipalities, aes(fill = navn)) +
-  geom_sf() +
-  cowplot::theme_map() +
-  theme(legend.position = "none")
-saveRDS(obj, "vignettes/muni_obj_graph.rds")
-```
-
-```{r, echo=FALSE}
-readRDS("vignettes/muni_obj_graph.rds")
 ```
 
 ## Drawing maps with many lines
