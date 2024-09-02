@@ -15,10 +15,13 @@ convenient for many more users.
 
 ## TO DO before CRAN-submission
 
-- [ ] Tests should pass in CI as well as locally.
-  - I currently have an issue with the date-time column is converted to
-    local time instead of UTC as is provided by the API. This causes
-    differences between my local development machine and Github Actions.
+- [x] Tests should pass in CI as well as locally.
+  - I used to have problems with a dependency that would convert the
+    time column provided by `get_map_data()`. It is fixed with commit
+    \`\` *- I currently have an issue with the date-time column is
+    converted to local time instead of UTC as is provided by the API.
+    This causes differences between my local development machine and
+    Github Actions.*
 - [ ] Provide examples of getting data and using both reverse lookup and
   autocomplete functions
 - [ ] Write reverse lookup function to wrap in section functions
