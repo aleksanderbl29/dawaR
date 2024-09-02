@@ -52,8 +52,10 @@ jobs:
         with:
           extra-packages: |
             any::rcmdcheck
+            any::sf
           needs: |
             check
+            sf
 
       - uses: r-lib/actions/check-r-package@v2
         if: runner.os != 'macos'
