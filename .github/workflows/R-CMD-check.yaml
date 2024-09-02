@@ -52,10 +52,8 @@ jobs:
         with:
           extra-packages: |
             any::rcmdcheck
-            any::cowplot
           needs: |
             check
-            cowplot
 
       - uses: r-lib/actions/check-r-package@v2
         with:
