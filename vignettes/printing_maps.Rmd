@@ -25,7 +25,7 @@ library(ggplot2)
 ```
 
 ```{r, echo=FALSE}
-install.packages("cowplot")
+install.packages("cowplot", repos = "https://cloud.r-project.org/")
 ```
 
 
