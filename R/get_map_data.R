@@ -24,7 +24,9 @@ get_map_data <- function(type) {
 
   tz <- Sys.getenv("TZ")
 
-  if (tz == "") {
+  if (testthat::is_testing() | testthat::is_snapshot() | testthat::is_checking()) {
+    Sys.setenv(TZ = "UTC")
+  } else if (tz == "") {
     Sys.setenv(TZ = "Europe/Copenhagen")
   }
 
