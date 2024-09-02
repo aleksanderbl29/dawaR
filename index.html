@@ -62,9 +62,10 @@
 </h2>
 <ul class="task-list">
 <li>
-<label><input type="checkbox">Tests should pass in CI as well as locally.</label>
+<label><input type="checkbox" checked>Tests should pass in CI as well as locally.</label>
 <ul>
-<li>I currently have an issue with the date-time column is converted to local time instead of UTC as is provided by the API. This causes differences between my local development machine and Github Actions.</li>
+<li>I used to have problems with a dependency that would convert the time column provided by <code><a href="reference/get_map_data.html">get_map_data()</a></code>. It is fixed with commit `` <em>- I currently have an issue with the date-time column is converted to local time instead of UTC as is provided by the API. This causes differences between my local development machine and Github Actions.</em>
+</li>
 </ul>
 </li>
 <li><label><input type="checkbox">Provide examples of getting data and using both reverse lookup and autocomplete functions</label></li>
