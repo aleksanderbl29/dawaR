@@ -17,6 +17,8 @@ get_map_data <- function(type) {
     cli::cli_abort("You have provided type {.var {type}} that is not compatible with this function.")
   }
 
+  Sys.setenv(TZ = "Europe/Copenhagen")
+
   api_response <- dawa(
     section = type,
     format = "geojson",
