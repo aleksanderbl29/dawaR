@@ -18,7 +18,7 @@ convenient for many more users.
 - [x] Tests should pass in CI as well as locally.
   - I used to have problems with a dependency that would convert the
     time column provided by `get_map_data()`. It is fixed with commit
-    \`\` *- I currently have an issue with the date-time column is
+    `23ade73`. *- I currently have an issue with the date-time column is
     converted to local time instead of UTC as is provided by the API.
     This causes differences between my local development machine and
     Github Actions.*
