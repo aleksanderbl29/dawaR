@@ -17,6 +17,12 @@ provided.
 \description{
 Fetch map data to use with \code{{sf}}.
 }
+\section{The returned dataframe has date-time columns to inform when the infromation}{
+was last changed. It is returned in Europe/Copenhagen time as that is the
+\emph{local time} for the API. You can change that behaviour by setting
+\code{Sys.env(TZ = "Your/Timezone")}.
+}
+
 \examples{
 x <- get_map_data("regioner")
 ggplot2::ggplot(x) +
