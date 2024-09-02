@@ -1,5 +1,10 @@
 #' Fetch map data to use with `{sf}`.
 #'
+#' # The returned dataframe has date-time columns to inform when the infromation
+#' was last changed. It is returned in Europe/Copenhagen time as that is the
+#' *local time* for the API. You can change that behaviour by setting
+#' `Sys.env(TZ = "Your/Timezone")`.
+#'
 #' @param type Defines the type of map data to request from DAWA. Run
 #'   `available_sections(format = "geojson")` to your options.
 #'
@@ -17,7 +22,11 @@ get_map_data <- function(type) {
     cli::cli_abort("You have provided type {.var {type}} that is not compatible with this function.")
   }
 
-  Sys.setenv(TZ = "Europe/Copenhagen")
+  tz <- Sys.getenv("TZ")
+
+  if (tz == "") {
+    Sys.setenv(TZ = "Europe/Copenhagen")
+  }
 
   api_response <- dawa(
     section = type,
