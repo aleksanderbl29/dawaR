@@ -24,11 +24,6 @@ library(dawaR)
 library(ggplot2)
 ```
 
-```{r, echo=FALSE}
-install.packages("cowplot", repos = "https://cloud.r-project.org/")
-```
-
-
 ## Getting map data
 
 After loading the required packages we need to get the map data. We will request map data for all (98) danish municipalities. The danish word for *municipality* is *kommune* which is what we will request.
@@ -51,7 +46,7 @@ The data can then be passed to a `ggplot2::geom_sf()` to print the map. I have a
 ```{r print_map_municipality}
 ggplot(municipalities, aes(fill = navn)) +
   geom_sf() +
-  cowplot::theme_map() +
+  theme_void() +
   theme(legend.position = "none")
 ```
 
