@@ -59,6 +59,12 @@
     <p>Returns a <code>data.frame</code> object that contains polygons for the section
 provided.</p>
     </div>
+    <div class="section level2">
+    <h2 id="the-returned-dataframe-has-date-time-columns-to-inform-when-the-infromation">The returned dataframe has date-time columns to inform when the infromation<a class="anchor" aria-label="anchor" href="#the-returned-dataframe-has-date-time-columns-to-inform-when-the-infromation"></a></h2>
+    <p>was last changed. It is returned in Europe/Copenhagen time as that is the
+<em>local time</em> for the API. You can change that behaviour by setting
+<code>Sys.env(TZ = "Your/Timezone")</code>.</p>
+    </div>
 
     <div class="section level2">
     <h2 id="ref-examples">Examples<a class="anchor" aria-label="anchor" href="#ref-examples"></a></h2>
