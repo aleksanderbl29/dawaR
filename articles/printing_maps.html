@@ -72,17 +72,6 @@ load the entire <a href="https://tidyverse.tidyverse.org" class="external-link">
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://dawar.aleksanderbl.dk/" class="external-link">dawaR</a></span><span class="op">)</span></span>
 <span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://ggplot2.tidyverse.org" class="external-link">ggplot2</a></span><span class="op">)</span></span></code></pre></div>
-<pre><code><span><span class="co">#&gt; # Downloading packages -------------------------------------------------------</span></span>
-<span><span class="co">#&gt; - Downloading cowplot from CRAN ...             OK [1.3 Mb in 0.18s]</span></span>
-<span><span class="co">#&gt; Successfully downloaded 1 package in 1.1 seconds.</span></span>
-<span><span class="co">#&gt; </span></span>
-<span><span class="co">#&gt; The following package(s) will be installed:</span></span>
-<span><span class="co">#&gt; - cowplot [1.1.3]</span></span>
-<span><span class="co">#&gt; These packages will be installed into "~/.cache/R/renv/library/dawaR-c4bb29f2/linux-ubuntu-jammy/R-4.4/x86_64-pc-linux-gnu".</span></span>
-<span><span class="co">#&gt; </span></span>
-<span><span class="co">#&gt; # Installing packages --------------------------------------------------------</span></span>
-<span><span class="co">#&gt; - Installing cowplot ...                        OK [installed binary and cached in 0.88s]</span></span>
-<span><span class="co">#&gt; Successfully installed 1 package in 0.93 seconds.</span></span></code></pre>
 <div class="section level2">
 <h2 id="getting-map-data">Getting map data<a class="anchor" aria-label="anchor" href="#getting-map-data"></a>
 </h2>
@@ -90,7 +79,7 @@ load the entire <a href="https://tidyverse.tidyverse.org" class="external-link">
 will request map data for all (98) danish municipalities. The danish
 word for <em>municipality</em> is <em>kommune</em> which is what we will
 request.</p>
-<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">municipalities</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/get_map_data.html">get_map_data</a></span><span class="op">(</span><span class="st">"kommuner"</span><span class="op">)</span></span></code></pre></div>
 <p>In the dropdown below you can see the <code><a href="https://rdrr.io/r/utils/head.html" class="external-link">head()</a></code> of the data
 we have received.</p>
@@ -124,10 +113,10 @@ we have received.</p>
 </details><p>The data can then be passed to a <code><a href="https://ggplot2.tidyverse.org/reference/ggsf.html" class="external-link">ggplot2::geom_sf()</a></code> to
 print the map. I have also specified that the fill color should be based
 on the municipality name to make it a bit more colorful.</p>
-<div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html" class="external-link">ggplot</a></span><span class="op">(</span><span class="va">municipalities</span>, <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html" class="external-link">aes</a></span><span class="op">(</span>fill <span class="op">=</span> <span class="va">navn</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span></span>
 <span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggsf.html" class="external-link">geom_sf</a></span><span class="op">(</span><span class="op">)</span> <span class="op">+</span></span>
-<span>  <span class="fu">cowplot</span><span class="fu">::</span><span class="fu"><a href="https://wilkelab.org/cowplot/reference/theme_map.html" class="external-link">theme_map</a></span><span class="op">(</span><span class="op">)</span> <span class="op">+</span></span>
+<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggtheme.html" class="external-link">theme_void</a></span><span class="op">(</span><span class="op">)</span> <span class="op">+</span></span>
 <span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/theme.html" class="external-link">theme</a></span><span class="op">(</span>legend.position <span class="op">=</span> <span class="st">"none"</span><span class="op">)</span></span></code></pre></div>
 <p><img src="printing_maps_files/figure-html/print_map_municipality-1.png" width="700"></p>
 </div>
@@ -142,11 +131,11 @@ quality) to faster plot the map. We will use the
 <code><a href="https://rdrr.io/pkg/rmapshaper/man/ms_simplify.html" class="external-link">rmapshaper::ms_simplify()</a></code> function to do this.</p>
 <p>First we get the data with <code><a href="../reference/get_map_data.html">get_map_data()</a></code> and provide
 the <em>afstemningsomraader</em> (voting areas) as the type.</p>
-<div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">voting</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/get_map_data.html">get_map_data</a></span><span class="op">(</span><span class="st">"afstemningsomraader"</span><span class="op">)</span></span></code></pre></div>
 <p>Then let’s quickly examine how many more polygons we now have to
 draw.</p>
-<div class="sourceCode" id="cb7"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/base/nrow.html" class="external-link">nrow</a></span><span class="op">(</span><span class="va">municipalities</span><span class="op">)</span></span>
 <span><span class="co">#&gt; [1] 99</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/base/nrow.html" class="external-link">nrow</a></span><span class="op">(</span><span class="va">voting</span><span class="op">)</span></span>
@@ -158,14 +147,14 @@ can either just trust me on that or try it out for yourself after
 finishing this article!</p>
 <p>To accomodate this larger number of polygons we will simplify the
 lines that make up said polygons.</p>
-<div class="sourceCode" id="cb8"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb7"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">voting_simplified</span> <span class="op">&lt;-</span> <span class="fu">rmapshaper</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/rmapshaper/man/ms_simplify.html" class="external-link">ms_simplify</a></span><span class="op">(</span></span>
 <span>  <span class="va">voting</span>,</span>
 <span>  keep <span class="op">=</span> <span class="fl">0.01</span>,</span>
 <span>  keep_shapes <span class="op">=</span> <span class="cn">TRUE</span></span>
 <span><span class="op">)</span></span></code></pre></div>
 <p>After simplifying the data we can now plot it.</p>
-<div class="sourceCode" id="cb9"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb8"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html" class="external-link">ggplot</a></span><span class="op">(</span><span class="va">voting_simplified</span>, <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html" class="external-link">aes</a></span><span class="op">(</span>fill <span class="op">=</span> <span class="va">kommunenavn</span>, color <span class="op">=</span> <span class="va">navn</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span></span>
 <span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggsf.html" class="external-link">geom_sf</a></span><span class="op">(</span><span class="op">)</span> <span class="op">+</span></span>
 <span>  <span class="fu">cowplot</span><span class="fu">::</span><span class="fu"><a href="https://wilkelab.org/cowplot/reference/theme_map.html" class="external-link">theme_map</a></span><span class="op">(</span><span class="op">)</span> <span class="op">+</span></span>
@@ -182,11 +171,11 @@ precincts name.</p>
 distributed in the police regions you can simply get the data for both
 maps and pass them as their own dataset/geom combos in
 <a href="https://ggplot2.tidyverse.org" class="external-link">ggplot2</a>.</p>
-<div class="sourceCode" id="cb10"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb9"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">police</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/get_map_data.html">get_map_data</a></span><span class="op">(</span><span class="st">"politikredse"</span><span class="op">)</span></span>
 <span><span class="co"># We will reuse the municipality data from earlier.</span></span></code></pre></div>
 <p>Then you can pass it to <a href="https://ggplot2.tidyverse.org" class="external-link">ggplot2</a> as follows.</p>
-<div class="sourceCode" id="cb11"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb10"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html" class="external-link">ggplot</a></span><span class="op">(</span><span class="op">)</span> <span class="op">+</span></span>
 <span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggsf.html" class="external-link">geom_sf</a></span><span class="op">(</span></span>
 <span>    data <span class="op">=</span> <span class="va">police</span>,</span>
@@ -200,7 +189,7 @@ maps and pass them as their own dataset/geom combos in
 <span>  <span class="op">)</span> <span class="op">+</span></span>
 <span>  <span class="fu">cowplot</span><span class="fu">::</span><span class="fu"><a href="https://wilkelab.org/cowplot/reference/theme_map.html" class="external-link">theme_map</a></span><span class="op">(</span><span class="op">)</span> <span class="op">+</span></span>
 <span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/theme.html" class="external-link">theme</a></span><span class="op">(</span>legend.position <span class="op">=</span> <span class="st">"none"</span><span class="op">)</span></span></code></pre></div>
-<p><img src="printing_maps_files/figure-html/unnamed-chunk-5-1.png" width="700"></p>
+<p><img src="printing_maps_files/figure-html/unnamed-chunk-4-1.png" width="700"></p>
 <p>As you can see, we have now produced a map with shapes from different
 subsections of Denmark.</p>
 </div>
