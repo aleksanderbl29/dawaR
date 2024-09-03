@@ -102,3 +102,23 @@ dawa <- function(section,
   }
 }
 
+
+
+reverse <- function(section, ...) {
+  dawa(
+    section = section,
+    append_to_url = "reverse",
+    verbose = FALSE,
+    ... = ...
+  )
+}
+
+autocomplete <- function(section, input, ...) {
+  dawa(
+    section = section,
+    append_to_url = "autocomplete",
+    verbose = FALSE,
+    q = input,
+    ... = ...
+  )
+}
