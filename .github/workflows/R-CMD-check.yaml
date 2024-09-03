@@ -46,7 +46,9 @@ jobs:
 
       - name: Install macOS system dependencies
         if: runner.os == 'macos'
-        run: brew install gdal proj
+        run: |
+          brew install gdal proj
+          brew start gdal proj
 
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
