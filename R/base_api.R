@@ -24,6 +24,10 @@
 #'   that has been created - Without sending it to the api. This is useful for
 #'   debugging.
 #'
+#' @returns By default returns the API response as a list output. For
+#'   `geojson(z)` formats it returns the raw json. When `dry_run = TRUE` it
+#'   returns the request that has been created but does not run it.
+#'
 #' @export
 #'
 #' @examples
