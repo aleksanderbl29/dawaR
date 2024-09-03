@@ -38,6 +38,11 @@ info can be found in the documentation for \code{httr2::req_cache()}.}
 that has been created - Without sending it to the api. This is useful for
 debugging.}
 }
+\value{
+By default returns the API response as a list output. For
+\code{geojson(z)} formats it returns the raw json. When \code{dry_run = TRUE} it
+returns the request that has been created but does not run it.
+}
 \description{
 This function is the foundation of all communication with the
 api in this package. Not intended for end-users, but it provides all the
