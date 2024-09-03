@@ -1,3 +1,4 @@
+#' @export
 get_data <- function(section,
                      as_list = FALSE) {
 
