@@ -55,9 +55,9 @@ afstemningsomraader_autocomplete <- function(input) {
   )
 
   if (length(response) > 1) {
-    output <- response[[1]]$afstemningsområde$navn
+    output <- response[[1]][[2]]$navn
   } else if (length(response == 1)) {
-    output <- response$afstemningsområde$navn
+    output <- response[[2]]$navn
   } else if (length(response) < 1) {
     cli::cli_alert_danger("No entry found for {.var {input}}")
     output <- NA
