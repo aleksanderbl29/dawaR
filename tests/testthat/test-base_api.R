@@ -13,4 +13,7 @@ test_that("API base function properly", {
   new <- dawa("sogne", verbose = FALSE)
 
   expect_equal(old[[1]], new[[1]])
+
+  expect_snapshot(dawa("regioner"))
+  expect_snapshot(dawa("regioner", cache = FALSE))
 })
