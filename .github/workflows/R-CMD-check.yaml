@@ -44,22 +44,18 @@ jobs:
           http-user-agent: ${{ matrix.config.http-user-agent }}
           use-public-rspm: true
 
-      - name: Install macOS system dependencies
-        if: runner.os == 'macos'
-        run: |
-          brew install gdal proj
-          brew start gdal proj
+      # - name: Install macOS system dependencies
+      #   if: runner.os == 'macos'
+      #   run: |
+      #     brew install gdal proj
 
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
           extra-packages: |
             any::rcmdcheck
-            any::sf
-            any::ggplot2
+
           needs: |
             check
-            sf
-            geom_sf
 
       - uses: r-lib/actions/check-r-package@v2
         with:
