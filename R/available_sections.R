@@ -35,7 +35,8 @@ available_sections <- function(as_list = FALSE,
     "vejnavne",
     "vejnavnpostnummerrelationer",
     "supplerendebynavne2",
-    "postnumre")
+    "postnumre"
+  )
 
   dagi_sections <- c(
     "afstemningsomraader",
@@ -71,7 +72,9 @@ available_sections <- function(as_list = FALSE,
 
   if (!is.null(format)) {
     if (verbose == TRUE) {
-      cli::cli_alert_info("Only showing sections available with {.var {format}}")
+      cli::cli_alert_info(c(
+        "Only showing sections available with {.var {format}}"
+      ))
     }
     if (format == "geojson") {
       not_geojson_friendly <- c("autocomplete", "vejnavne", "stednavntyper")
