@@ -102,10 +102,3 @@ available_sections <- function(as_list = FALSE,
   return(output)
 
 }
-
-sort_format_sections <- function(section, unfriendly_c) {
-
-  section[!section %in% unfriendly_c]
-  return(section)
-
-}
