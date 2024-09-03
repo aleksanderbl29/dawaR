@@ -79,7 +79,8 @@ dawa <- function(section,
     dawa_request <- base_request |>
       httr2::req_cache(temp_dir)
   } else if (cache == FALSE) {
-    dawa_request <- base_request
+    dawa_request <- base_request |>
+      httr2::req_url_query(cache = "no-cache")
   }
 
   if (verbose == TRUE) {
