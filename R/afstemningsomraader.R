@@ -1,0 +1,67 @@
+#' @export
+afstemningsomraader_reverse <- function(x,
+                                        y,
+                                        type = NULL,
+                                        as_df = FALSE,
+                                        as_list = FALSE) {
+  if (!is.null(type)) {
+    if (check_coordinate_type(type)) {
+      coord <- coordinate_type(type)
+    }
+  } else {
+    coord <- type
+  }
+
+  response <- reverse(
+    section = "afstemningsomraader",
+    x = x,
+    y = y,
+    srid = coord
+  )
+
+  name <- response$afstemningssted$navn
+  address <- response$afstemningssted$adgangsadresse$adressebetegnelse
+  municipality <- response$kommune$navn
+  region <- response$region$navn
+  constituency <- response$opstillingskreds$navn
+
+  if (as_df) {
+    output <- data.frame(name, address, municipality, region, constituency)
+  } else if (as_list) {
+    output <- list(
+      "name" = name,
+      "address" = address,
+      "municipality" = municipality,
+      "region" = region,
+      "constituency" = constituency
+    )
+  } else {
+    output <- name
+  }
+
+  return(output)
+}
+
+#' @export
+afstemningsomraader_autocomplete <- function(input) {
+
+  if (!is.character(input)) {
+    cli::cli_abort("{.var input} is not of type {.var character}")
+  }
+
+  response <- autocomplete(
+    section = "afstemningsomraader",
+    input = input
+  )
+
+  if (length(response) > 1) {
+    output <- response[[1]]$afstemningsområde$navn
+  } else if (length(response == 1)) {
+    output <- response$afstemningsområde$navn
+  } else if (length(response) < 1) {
+    cli::cli_alert_danger("No entry found for {.var {input}}")
+    output <- NA
+  }
+
+  return(output)
+}
