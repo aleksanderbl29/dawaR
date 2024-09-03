@@ -53,9 +53,11 @@ jobs:
           extra-packages: |
             any::rcmdcheck
             any::sf
+            any::ggplot2
           needs: |
             check
             sf
+            geom_sf
 
       - uses: r-lib/actions/check-r-package@v2
         with:
