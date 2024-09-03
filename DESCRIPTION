@@ -22,6 +22,7 @@ Suggests:
     cowplot (>= 1.1.0),
     rmapshaper (>= 0.5.0)
 Config/testthat/edition: 3
+Config/testthat/parallel: true
 Depends:
   R (>= 3.5.0)
 Imports: 

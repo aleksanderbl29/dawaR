@@ -1,26 +1,15 @@
-test_that("get_map_data() fetches data properly and provides in the proper format when run in CI", {
-
-  is_rstudio <- .Platform$GUI == "RStudio"
-
-  if (!is_rstudio) {
-    expect_snapshot(get_map_data(type = "afstemningsomraader"))
-    expect_snapshot(get_map_data(type = "kommuner"))
-    expect_snapshot(get_map_data(type = "politikredse"))
-    expect_snapshot(get_map_data(type = "regioner"))
-  }
-
-  expect_equal(1 + 1, 2)
+test_that("get_map_data() fetches data properly and provides `afstemningsomraader` in the proper format", {
+  expect_snapshot(get_map_data(type = "afstemningsomraader"))
 })
 
-test_that("get_map_data() fetches data properly and provides in the proper format when run in RStudio", {
+test_that("get_map_data() fetches data properly and provides `kommuner` in the proper format", {
+  expect_snapshot(get_map_data(type = "kommuner"))
+})
 
-  is_rstudio <- .Platform$GUI == "RStudio"
+test_that("get_map_data() fetches data properly and provides `politikredse` in the proper format", {
+  expect_snapshot(get_map_data(type = "politikredse"))
+})
 
-  if (is_rstudio) {
-    expect_snapshot(get_map_data(type = "afstemningsomraader"))
-    expect_snapshot(get_map_data(type = "kommuner"))
-    expect_snapshot(get_map_data(type = "politikredse"))
-    expect_snapshot(get_map_data(type = "regioner"))
-  }
-  expect_equal(1 + 1, 2)
+test_that("get_map_data() fetches data properly and provides `regioner` in the proper format", {
+  expect_snapshot(get_map_data(type = "regioner"))
 })

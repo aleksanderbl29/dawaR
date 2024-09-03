@@ -1,4 +1,4 @@
-# get_map_data() fetches data properly and provides in the proper format when run in CI
+# get_map_data() fetches data properly and provides `afstemningsomraader` in the proper format
 
     Code
       get_map_data(type = "afstemningsomraader")
@@ -98,7 +98,7 @@
       9         55.64696 MULTIPOLYGON (((12.55133 55...
       10        55.68001 MULTIPOLYGON (((12.55518 55...
 
----
+# get_map_data() fetches data properly and provides `kommuner` in the proper format
 
     Code
       get_map_data(type = "kommuner")
@@ -143,7 +143,7 @@
       9         12.42582        55.74143 MULTIPOLYGON (((12.40408 55...
       10        12.35232        55.68497 MULTIPOLYGON (((12.36431 55...
 
----
+# get_map_data() fetches data properly and provides `politikredse` in the proper format
 
     Code
       get_map_data(type = "politikredse")
@@ -188,7 +188,7 @@
       9  MULTIPOLYGON (((12.31077 56...
       10 MULTIPOLYGON (((12.46655 55...
 
----
+# get_map_data() fetches data properly and provides `regioner` in the proper format
 
     Code
       get_map_data(type = "regioner")
