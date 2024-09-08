@@ -2,6 +2,8 @@
 
     Code
       afstemningsomraader_reverse(x = 12.58515, y = 55.68324)
+    Message
+      > Requesting `afstemningsomraader - reverse` from DAWA
     Output
       [1] "Nyboder Skole"
 
@@ -9,6 +11,8 @@
 
     Code
       afstemningsomraader_reverse(x = 12.58515, y = 55.68324, as_df = TRUE)
+    Message
+      > Requesting `afstemningsomraader - reverse` from DAWA
     Output
                  name                             address municipality
       1 Nyboder Skole Øster Voldgade 15, 1350 København K    København
@@ -19,6 +23,8 @@
 
     Code
       afstemningsomraader_reverse(x = 12.58515, y = 55.68324, as_list = TRUE)
+    Message
+      > Requesting `afstemningsomraader - reverse` from DAWA
     Output
       $name
       [1] "Nyboder Skole"
