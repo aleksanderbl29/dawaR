@@ -2,3 +2,5 @@
 *.R
 *.qmd
 
+
+/.quarto/
