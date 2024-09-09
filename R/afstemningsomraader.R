@@ -1,4 +1,3 @@
-#' @export
 afstemningsomraader_reverse <- function(x,
                                         y,
                                         type = NULL,
@@ -42,7 +41,6 @@ afstemningsomraader_reverse <- function(x,
   return(output)
 }
 
-#' @export
 afstemningsomraader_autocomplete <- function(input) {
 
   if (!is.character(input)) {
