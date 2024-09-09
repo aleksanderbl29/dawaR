@@ -99,16 +99,65 @@ dawa <- function(section,
 }
 
 
+#' Base function for interacting with `reverse geocoding` of sections.
+#'
+#' @description This function reverse geocodes the coordinates provided. When
+#' used out of the box, the function wants WGS84 coordinates (lat/long). ETRS89
+#' or UTM zone 32 can be provided as well.
+#'
+#'
+#' @param x The X coordinate to geocode. If no `srid` is provided this should be
+#'   the lattitude.
+#' @param y The Y coordinate to geocode. If no `srid` is provided this should be
+#'   the longitude.
+#' @param type The coordinate type for the API to parse. By default none is
+#'   provided and `WGS84` is used. The options are `ETRS89`, `UTM32` and
+#'   `WGS84`. The functions checks the input against the available types and
+#'   errs if the type is not allowed.
+#'
+#' @inheritParams dawa
+#'
+#' @return Returns
+#' @export
+#'
+#' @examples
+#' # example code
+#' reverse("regioner", x = 12.58515, y = 55.68324)
+reverse <- function(section, x, y, verbose = TRUE, type = NULL, ...) {
 
-reverse <- function(section, ...) {
+  if (!is.null(type)) {
+    if (check_coordinate_type(type)) {
+      coord <- coordinate_type(type)
+    }
+  } else {
+    coord <- type
+  }
+
+  section_info(section, verbose, type = "reverse")
+
   dawa(
     section = section,
     append_to_url = "reverse",
     verbose = FALSE,
-    ... = ...
+    x = x,
+    y = y,
+    srid = coord,
+    ...
   )
 }
 
+#' Base function for interacting with `autocomplete` of sections.
+#'
+#' @description This function is very handy when needing to either validate or
+#' simply "fill in gaps" with autocompletion from the API.
+#'
+#'
+#' @param input The input to autocomplete. Could be a name, a place and similar.
+#'
+#' @inheritParams dawa
+#' @export
+#' @examples
+#' autocomplete("regioner", "midt")
 autocomplete <- function(section, input, ...) {
   dawa(
     section = section,
