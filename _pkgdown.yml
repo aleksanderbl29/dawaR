@@ -3,4 +3,27 @@ template:
   bootstrap: 5
   light-switch: true
 
+reference:
+  - title: Base functions
+    desc: >
+      Base function to access all parts of the api.
+      These functions does not filter the API-response
+      but simply formats it as a list.
+    contents:
+      - dawa
+      - reverse
+      - autocomplete
+  - title: Data functions
+    desc: >
+      These functions returns data from a specified seciton and formats it as
+      needed.
+    contents:
+      - get_data
+      - get_map_data
 
+  - title: Utilities
+    desc: >
+      Utility functions to check the api and help with workflow creation.
+    contents:
+      - available_sections
+      - status_check
