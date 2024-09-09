@@ -32,7 +32,8 @@ Returns
 \description{
 This function reverse geocodes the coordinates provided. When
 used out of the box, the function wants WGS84 coordinates (lat/long). ETRS89
-or UTM zone 32 can be provided as well.
+or UTM zone 32 can be provided as well. When coordinates from outside of
+Denmark is provided, the function will fail with a code \code{404}.
 }
 \examples{
 # example code
