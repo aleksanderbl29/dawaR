@@ -43,14 +43,16 @@ dawa <- function(section,
                  dry_run = FALSE) {
 
   if (!is.null(format)) {
-    format <- match.arg(format, c("json", "jsonp", "ndjson", "csv", "geojson", "geojsonz"))
+    format <- match.arg(format, c("json", "jsonp", "ndjson",
+                                  "csv", "geojson", "geojsonz"))
   }
   if (!is.null(append_to_url)) {
     if (!typeof(append_to_url) == "character") {
       cli::cli_abort("{.var append_to_url} must be of type {.var character}")
     }
   }
-  if (testthat::is_testing() | testthat::is_snapshot() | testthat::is_checking()) {
+
+  if (testthat::is_testing() || testthat::is_snapshot() || testthat::is_checking()) {
     cache <- FALSE
   }
 

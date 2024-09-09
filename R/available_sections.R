@@ -119,7 +119,7 @@ section_info <- function(section, verbose = TRUE, type = NULL) {
   } else {
     cli::cli_abort(c(
       "You have provided {.var {section}} as a section for this api.",
-      "x" = "{.var {section}} is either not supported by this package or the api"
+      "x" = "{.var {section}} is not supported by this package or the api"
     ))
   }
 
