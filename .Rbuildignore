@@ -12,3 +12,4 @@
 ^Meta$
 ^vignettes/articles$
 ^vignettes/.quarto
+^sticker.R
