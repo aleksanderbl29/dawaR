@@ -541,13 +541,13 @@
     },
     "wk": {
       "Package": "wk",
-      "Version": "0.9.2",
+      "Version": "0.9.3",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R"
       ],
-      "Hash": "877644b9b942d429f3708e12c98d1a22"
+      "Hash": "9ca478d7cb1450b42dcb8af2ea5681cc"
     },
     "xml2": {
       "Package": "xml2",
