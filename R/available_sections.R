@@ -105,3 +105,22 @@ available_sections <- function(as_list = FALSE,
   return(output)
 
 }
+
+section_info <- function(section, verbose = TRUE, type = NULL) {
+
+  if (section %in% available_sections()) {
+    if (verbose == TRUE) {
+      if (is.null(type)) {
+        cli::cli_alert("Requesting {.var {section}} from DAWA")
+      } else if (!is.null(type)) {
+        cli::cli_alert("Requesting {.var {section} - {type}} from DAWA")
+      }
+    }
+  } else {
+    cli::cli_abort(c(
+      "You have provided {.var {section}} as a section for this api.",
+      "x" = "{.var {section}} is either not supported by this package or the api"
+    ))
+  }
+
+}

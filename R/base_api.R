@@ -61,16 +61,7 @@ dawa <- function(section,
 
   base_url <- "https://api.dataforsyningen.dk"
 
-  if (section %in% available_sections()) {
-    if (verbose == TRUE) {
-      cli::cli_alert("Requesting {.var {section}} from DAWA")
-    }
-  } else {
-    cli::cli_abort(c(
-          "You have provided {.var {section}} as a section for this api.",
-      "x" = "{.var {section}} is either not supported by this package or the api"
-      ))
-  }
+  section_info(section, verbose)
 
   base_request <- httr2::request(base_url) |>
     httr2::req_url_path_append(section) |>
