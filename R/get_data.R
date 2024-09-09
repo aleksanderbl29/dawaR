@@ -1,4 +1,17 @@
+#' Get data from section
+#'
+#' @param as_list Wether or not to return the data as a list or in a dataframe.
+#'   Data.frame is the default output.
+#'
+#' @inheritParams dawa
+#'
+#' @return Returns either a dataframe with all the data for the specified
+#'   section or a list with the same information.
 #' @export
+#'
+#' @examples
+#' x <- get_data("regioner")
+#' head(x)
 get_data <- function(section,
                      as_list = FALSE) {
 
