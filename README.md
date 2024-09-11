@@ -47,6 +47,10 @@ You can install the development version of dawaR from
 devtools::install_github("aleksanderbl29/dawaR")
 ```
 
+To use the `get_map_data()` functions on MacOS you need to install the
+`{sf}` package from source [following the official
+instructions](https://github.com/r-spatial/sf?tab=readme-ov-file#macos).
+
 ## Examples
 
 This package has multiple use cases, though they all revolve around data
