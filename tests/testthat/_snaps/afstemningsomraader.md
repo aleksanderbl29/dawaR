@@ -1,7 +1,7 @@
-# Afstemningsomraader reverse geocode returns proper information in different formats
+# Voting reverse geocode returns information in different formats
 
     Code
-      afstemningsomraader_reverse(x = 12.58515, y = 55.68324)
+      vote_rev(x = 12.58515, y = 55.68324)
     Message
       > Requesting `afstemningsomraader - reverse` from DAWA
     Output
@@ -10,7 +10,7 @@
 ---
 
     Code
-      afstemningsomraader_reverse(x = 12.58515, y = 55.68324, as_df = TRUE)
+      vote_rev(x = 12.58515, y = 55.68324, as_df = TRUE)
     Message
       > Requesting `afstemningsomraader - reverse` from DAWA
     Output
@@ -22,7 +22,7 @@
 ---
 
     Code
-      afstemningsomraader_reverse(x = 12.58515, y = 55.68324, as_list = TRUE)
+      vote_rev(x = 12.58515, y = 55.68324, as_list = TRUE)
     Message
       > Requesting `afstemningsomraader - reverse` from DAWA
     Output
@@ -45,14 +45,14 @@
 # Afstemningsomraader autocomplete returns the right answer
 
     Code
-      afstemningsomraader_autocomplete(input = "Dok")
+      vote_ac(input = "Dok")
     Output
       [1] "DOKK1"
 
 ---
 
     Code
-      afstemningsomraader_autocomplete(input = "Æbel")
+      vote_ac(input = "Æbel")
     Message
       x No entry found for `Æbel`
     Output
@@ -61,14 +61,14 @@
 ---
 
     Code
-      afstemningsomraader_autocomplete(input = "Røddi")
+      vote_ac(input = "Røddi")
     Output
       [1] "Rødding"
 
 ---
 
     Code
-      afstemningsomraader_autocomplete(input = "brønder")
+      vote_ac(input = "brønder")
     Output
       [1] "Brønderslev"
 
