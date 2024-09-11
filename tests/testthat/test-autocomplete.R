@@ -1,5 +1,4 @@
 test_that("Autocomplete returns the right answer", {
-
   expect_snapshot(autocomplete(section = "regioner", input = "Dok"))
   expect_snapshot(autocomplete(section = "kommuner", input = "Dok"))
   expect_snapshot(autocomplete(section = "politikredse", input = "Dok"))
@@ -19,5 +18,4 @@ test_that("Autocomplete returns the right answer", {
   expect_snapshot(autocomplete(section = "kommuner", input = "brønder"))
   expect_snapshot(autocomplete(section = "politikredse", input = "brønder"))
   expect_snapshot(autocomplete(section = "afstemningsomraader", input = "brønder"))
-
 })

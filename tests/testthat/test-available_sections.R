@@ -1,19 +1,22 @@
 test_that("Available sections can be called and returns in the proper format", {
+  adresser_sections <- c(
+    "adgangsadresser", "adresser", "autocomplete",
+    "navngivneveje", "vejstykker", "vejnavne",
+    "vejnavnpostnummerrelationer", "supplerendebynavne2",
+    "postnumre"
+  )
 
-  adresser_sections <- c("adgangsadresser", "adresser", "autocomplete",
-                          "navngivneveje", "vejstykker", "vejnavne",
-                          "vejnavnpostnummerrelationer", "supplerendebynavne2",
-                          "postnumre")
-
-  dagi_sections <- c("afstemningsomraader", "kommuner", "landsdele",
-                     "menighedsraadsafstemningsomraader", "opstillingskredse",
-                     "politikredse", "postnumre", "regioner", "retskredse",
-                     "sogne", "storkredse", "supplerendebynavne2",
-                     "valglandsdele")
+  dagi_sections <- c(
+    "afstemningsomraader", "kommuner", "landsdele",
+    "menighedsraadsafstemningsomraader", "opstillingskredse",
+    "politikredse", "postnumre", "regioner", "retskredse",
+    "sogne", "storkredse", "supplerendebynavne2",
+    "valglandsdele"
+  )
 
   matrikelkortet <- c("ejerlav", "jordstykker")
 
-  stednavne <- c("steder","stednavne2", "stednavntyper", "bebyggelser")
+  stednavne <- c("steder", "stednavne2", "stednavntyper", "bebyggelser")
 
   bygningspolygoner <- c("bygninger")
 
@@ -36,5 +39,4 @@ test_that("Available sections can be called and returns in the proper format", {
   expect_equal(available_sections(), expect)
   expect_equal(available_sections(as_list = FALSE), expect)
   expect_equal(available_sections(as_list = TRUE), expect_list)
-
 })

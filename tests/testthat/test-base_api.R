@@ -6,7 +6,7 @@ test_that("API base function properly", {
 
   old <- httr2::request(
     "https://api.dataforsyningen.dk/sogne"
-    ) |>
+  ) |>
     httr2::req_perform() |>
     httr2::resp_body_json()
 

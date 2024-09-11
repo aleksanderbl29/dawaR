@@ -41,10 +41,11 @@ dawa <- function(section,
                  verbose = TRUE,
                  cache = TRUE,
                  dry_run = FALSE) {
-
   if (!is.null(format)) {
-    format <- match.arg(format, c("json", "jsonp", "ndjson",
-                                  "csv", "geojson", "geojsonz"))
+    format <- match.arg(format, c(
+      "json", "jsonp", "ndjson",
+      "csv", "geojson", "geojsonz"
+    ))
   }
   if (!is.null(append_to_url)) {
     if (!typeof(append_to_url) == "character") {
@@ -52,9 +53,13 @@ dawa <- function(section,
     }
   }
 
-  if (testthat::is_testing() || testthat::is_snapshot() || testthat::is_checking()) {
+  # nolint start
+  if (testthat::is_testing() ||
+    testthat::is_snapshot() ||
+    testthat::is_checking()) {
     cache <- FALSE
   }
+  # nolint end
 
   params <- list(
     ...,
@@ -72,7 +77,7 @@ dawa <- function(section,
     httr2::req_user_agent("dawaR (http://dawar.aleksanderbl.dk)")
 
   if (cache == TRUE) {
-    temp_dir <- tempdir()     # Location for caching the response
+    temp_dir <- tempdir() # Location for caching the response
     dawa_request <- base_request |>
       httr2::req_cache(temp_dir)
   } else if (cache == FALSE) {
@@ -90,12 +95,11 @@ dawa <- function(section,
     if (!is.null(format)) {
       if (format %in% c("geojson", "geojsonz")) {
         httr2::req_perform(dawa_request) |>
-          # httr2::resp_raw()
           httr2::resp_body_string()
       }
     } else {
-    httr2::req_perform(dawa_request) |>
-      httr2::resp_body_json()
+      httr2::req_perform(dawa_request) |>
+        httr2::resp_body_json()
     }
   }
 }
@@ -127,7 +131,6 @@ dawa <- function(section,
 #' # example code
 #' reverse("regioner", x = 12.58515, y = 55.68324)
 reverse <- function(section, x, y, verbose = TRUE, type = NULL, ...) {
-
   if (!is.null(type)) {
     if (check_coordinate_type(type)) {
       coord <- coordinate_type(type)

@@ -22,8 +22,8 @@ test_that("get_data() returns data and in the proper format", {
   expected <- as.data.frame(expected_list)
   expected_no_list <- expected
 
-  expect_equal(response[1,], expected[1,])
-  expect_equal(response_no_list[1,], expected_no_list[1,])
+  expect_equal(response[1, ], expected[1, ])
+  expect_equal(response_no_list[1, ], expected_no_list[1, ])
   expect_equal(response_list[[1]], expected_list)
 
   expect_snapshot(get_data(section = "afstemningsomraader"))

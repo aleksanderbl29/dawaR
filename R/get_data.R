@@ -14,23 +14,23 @@
 #' head(x)
 get_data <- function(section,
                      as_list = FALSE) {
-
   if (!section %in% available_sections()) {
-    cli::cli_abort("You have provided section {.var {section}}. It is not available through the api")
+    cli::cli_abort("You have provided section {.var {section}}.
+                   It is not available through the api")
   }
 
-  response <- dawa(section = section,
-                   verbose = FALSE,
-                   struktur = "flad")
+  response <- dawa(
+    section = section,
+    verbose = FALSE,
+    struktur = "flad"
+  )
 
   if (as_list == TRUE) {
-
     output <- lapply(response, function(x) {
-      x[1] <- as.numeric(x[1])  # Convert the first element to double
-      x[2] <- as.numeric(x[2])  # Convert the second element to double
+      x[1] <- as.numeric(x[1]) # Convert the first element to double
+      x[2] <- as.numeric(x[2]) # Convert the second element to double
       return(x)
     })
-
   } else if (as_list == FALSE) {
     df <- do.call(rbind.data.frame, response)
     df[[1]] <- as.double(df[[1]])
@@ -40,5 +40,4 @@ get_data <- function(section,
   }
 
   return(output)
-
 }

@@ -25,7 +25,6 @@
 available_sections <- function(as_list = FALSE,
                                format = NULL,
                                verbose = TRUE) {
-
   adresser_sections <- c(
     "adgangsadresser",
     "adresser",
@@ -103,11 +102,9 @@ available_sections <- function(as_list = FALSE,
   }
 
   return(output)
-
 }
 
 section_info <- function(section, verbose = TRUE, type = NULL) {
-
   if (section %in% available_sections()) {
     if (verbose == TRUE) {
       if (is.null(type)) {
@@ -122,5 +119,4 @@ section_info <- function(section, verbose = TRUE, type = NULL) {
       "x" = "{.var {section}} is not supported by this package or the api"
     ))
   }
-
 }

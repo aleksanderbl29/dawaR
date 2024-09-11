@@ -17,18 +17,22 @@
 #' ggplot2::ggplot(x) +
 #'   ggplot2::geom_sf()
 get_map_data <- function(type) {
-
   if (!type %in% available_sections(format = "geojson", verbose = FALSE)) {
-    cli::cli_abort("You have provided type {.var {type}} that is not compatible with this function.")
+    cli::cli_abort("You have provided type {.var {type}}
+                   which is not compatible with this function.")
   }
 
   tz <- Sys.getenv("TZ")
 
-  if (testthat::is_testing() | testthat::is_snapshot() | testthat::is_checking()) {
+  # nolint start
+  if (testthat::is_testing() ||
+    testthat::is_snapshot() ||
+    testthat::is_checking()) {
     Sys.setenv(TZ = "UTC")
   } else if (tz == "") {
     Sys.setenv(TZ = "Europe/Copenhagen")
   }
+  # nolint end
 
   api_response <- dawa(
     section = type,
