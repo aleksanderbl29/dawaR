@@ -24,21 +24,27 @@ convenient for many more users.
     Github Actions.*
 - [ ] Provide examples of getting data and using both reverse lookup and
   autocomplete functions
-- [ ] Write reverse lookup function to wrap in section functions
-- [ ] Write autocomplete function to wrap in section functions
+- [x] Write reverse lookup function to wrap in section functions
+- [x] Write autocomplete function to wrap in section functions
 - [ ] Choose some often-used sections to create specific functions for
   - These will basically be wrappers for other functions in the package
-    and will provide another level of convenience for non-technincal
+    and will provide another level of convenience for non-technical
     users.
 
 ## Installation
+
+Once the package is on cran; You can install `{dawaR}` from CRAN with:
+
+``` r
+install.packages("dawaR")
+```
 
 You can install the development version of dawaR from
 [GitHub](https://github.com/) with:
 
 ``` r
-# install.packages("pak")
-pak::pak("aleksanderbl29/dawaR")
+# install.packages("devtools")
+devtools::install_github("aleksanderbl29/dawaR")
 ```
 
 ## Examples
