@@ -28,6 +28,6 @@ Depends:
 Imports: 
     cli,
     httr2,
-    sf,
+    sf (= 1.0-16),
     tidyRSS
 VignetteBuilder: knitr
