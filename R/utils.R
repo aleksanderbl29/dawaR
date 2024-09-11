@@ -13,15 +13,19 @@ available_coordinates <- function() {
 }
 
 check_coordinate_type <- function(type_to_check) {
-  type_to_check %in% available_coordinates()
+  test <- type_to_check %in% available_coordinates()
+  return(test)
 }
 
 coordinate_type <- function(type) {
   if (check_coordinate_type(type)) {
     if (type %in% c("WGS84", "4326")) {
-      return("4326")
-    } else if (type %in% c("ETRS89", "UTM zone 32 Nord", "UTM32", "utm32", "25832")) {
-      return("25832")
+      type_to_return <- "4326"
+    } else if (type %in% c(
+      "ETRS89", "UTM zone 32 Nord",
+      "UTM32", "utm32", "25832"
+    )) {
+      type_to_return <- "25832"
     }
   } else {
     cli::cli_abort(
@@ -31,5 +35,5 @@ coordinate_type <- function(type) {
       )
     )
   }
-
+  return(type_to_return)
 }
