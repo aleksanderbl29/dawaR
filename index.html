@@ -19,7 +19,7 @@
 <script src="deps/headroom-0.11.0/headroom.min.js"></script><script src="deps/headroom-0.11.0/jQuery.headroom.min.js"></script><script src="deps/bootstrap-toc-1.0.1/bootstrap-toc.min.js"></script><script src="deps/clipboard.js-2.0.11/clipboard.min.js"></script><script src="deps/search-1.0.0/autocomplete.jquery.min.js"></script><script src="deps/search-1.0.0/fuse.min.js"></script><script src="deps/search-1.0.0/mark.min.js"></script><!-- pkgdown --><script src="pkgdown.js"></script><meta property="og:title" content="An API Wrapper Package for DAWA - The Danish Address Web API">
 <meta name="description" content="Package providing functions to interact with all sections of the official Danish Address Web API (also known as DAWA). The development of this package is completely independent from the [government entity that maintains the API](sdfi.dk).">
 <meta property="og:description" content="Package providing functions to interact with all sections of the official Danish Address Web API (also known as DAWA). The development of this package is completely independent from the [government entity that maintains the API](sdfi.dk).">
-<meta property="og:image" content="http://dawar.aleksanderbl.dk/logo.png">
+<meta property="og:image" content="https://dawar.aleksanderbl.dk/logo.png">
 </head>
 <body>
     <a href="#main" class="visually-hidden-focusable">Skip to contents</a>
@@ -87,12 +87,12 @@
 </ul>
 </li>
 <li><label><input type="checkbox">Provide examples of getting data and using both reverse lookup and autocomplete functions</label></li>
-<li><label><input type="checkbox">Write reverse lookup function to wrap in section functions</label></li>
-<li><label><input type="checkbox">Write autocomplete function to wrap in section functions</label></li>
+<li><label><input type="checkbox" checked>Write reverse lookup function to wrap in section functions</label></li>
+<li><label><input type="checkbox" checked>Write autocomplete function to wrap in section functions</label></li>
 <li>
 <label><input type="checkbox">Choose some often-used sections to create specific functions for</label>
 <ul>
-<li>These will basically be wrappers for other functions in the package and will provide another level of convenience for non-technincal users.</li>
+<li>These will basically be wrappers for other functions in the package and will provide another level of convenience for non-technical users.</li>
 </ul>
 </li>
 </ul>
@@ -100,10 +100,13 @@
 <div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
 </h2>
-<p>You can install the development version of dawaR from <a href="https://github.com/" class="external-link">GitHub</a> with:</p>
+<p>Once the package is on cran; You can install <a href="https://dawar.aleksanderbl.dk/">dawaR</a> from CRAN with:</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="co"># install.packages("pak")</span></span>
-<span><span class="fu">pak</span><span class="fu">::</span><span class="fu"><a href="https://pak.r-lib.org/reference/pak.html" class="external-link">pak</a></span><span class="op">(</span><span class="st">"aleksanderbl29/dawaR"</span><span class="op">)</span></span></code></pre></div>
+<code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="st">"dawaR"</span><span class="op">)</span></span></code></pre></div>
+<p>You can install the development version of dawaR from <a href="https://github.com/" class="external-link">GitHub</a> with:</p>
+<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co"># install.packages("devtools")</span></span>
+<span><span class="fu">devtools</span><span class="fu">::</span><span class="fu">install_github</span><span class="op">(</span><span class="st">"aleksanderbl29/dawaR"</span><span class="op">)</span></span></code></pre></div>
 </div>
 <div class="section level2">
 <h2 id="examples">Examples<a class="anchor" aria-label="anchor" href="#examples"></a>
@@ -113,8 +116,8 @@
 <h3 id="using-dawa-map-data">Using DAWA map data<a class="anchor" aria-label="anchor" href="#using-dawa-map-data"></a>
 </h3>
 <p>The function <code><a href="reference/get_map_data.html">get_map_data()</a></code> fetches data in <code>geojson</code> format and transforms the geometries to <a href="https://r-spatial.github.io/sf/" class="external-link">sf</a> polygons. These polygons can be drawn as nice maps with <a href="https://ggplot2.tidyverse.org" class="external-link">ggplot2</a>.</p>
-<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://dawar.aleksanderbl.dk/" class="external-link">dawaR</a></span><span class="op">)</span></span>
+<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://dawar.aleksanderbl.dk/">dawaR</a></span><span class="op">)</span></span>
 <span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://ggplot2.tidyverse.org" class="external-link">ggplot2</a></span><span class="op">)</span></span>
 <span></span>
 <span><span class="va">municipalities</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/get_map_data.html">get_map_data</a></span><span class="op">(</span><span class="st">"kommuner"</span><span class="op">)</span></span>
