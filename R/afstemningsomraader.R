@@ -1,8 +1,20 @@
-afstemningsomraader_reverse <- function(x,
-                                        y,
-                                        type = NULL,
-                                        as_df = FALSE,
-                                        as_list = FALSE) {
+afstemningsomraader <- function(func, ...) {
+  if (func == "reverse") {
+    vote_rev(!!!...)
+  } else if (func == "autocomplete") {
+    vote_ac(!!!...)
+  }
+}
+
+vote <- function(...) {
+  afstemningsomraader(!!!...)
+}
+
+vote_rev <- function(x,
+                     y,
+                     type = NULL,
+                     as_df = FALSE,
+                     as_list = FALSE) {
   if (!is.null(type)) {
     if (check_coordinate_type(type)) {
       coord <- coordinate_type(type)
@@ -41,8 +53,7 @@ afstemningsomraader_reverse <- function(x,
   return(output)
 }
 
-afstemningsomraader_autocomplete <- function(input) {
-
+vote_ac <- function(input) {
   if (!is.character(input)) {
     cli::cli_abort("{.var input} is not of type {.var character}")
   }
