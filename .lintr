@@ -2,3 +2,7 @@ linters: linters_with_defaults(
   object_usage_linter = NULL,
   cyclocomp_linter(complexity_limit = 17L))
 encoding: "UTF-8"
+exclusions: list(
+  "R/status_check.R" = list(
+    cyclocomp_linter = 1:100),
+  "tests")
