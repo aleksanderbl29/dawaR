@@ -54,7 +54,6 @@ jobs:
         with:
           extra-packages: |
             any::rcmdcheck
-
           needs: |
             check
 
