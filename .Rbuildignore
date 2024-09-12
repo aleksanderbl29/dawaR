@@ -1,8 +1,8 @@
-^$.eml
 ^.lintr
 ^LICENSE\.md$
 ^Meta$
 ^README\.Rmd$
+^[.]eml$
 ^\.Rproj\.user$
 ^\.github$
 ^\.pre-commit-config\.yaml$
