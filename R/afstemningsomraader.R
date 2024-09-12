@@ -7,7 +7,9 @@ afstemningsomraader <- function(func, ...) {
 }
 
 vote <- function(...) {
+  
   afstemningsomraader(!!!...)
+  
 }
 
 vote_rev <- function(x,
