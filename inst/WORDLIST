@@ -1,8 +1,8 @@
 Afstemningsomraader
+afstemningsomraader
 Aleksander
 aleksanderbl
 api
-april
 aut
 autocomplete
 BBR
@@ -23,6 +23,7 @@ dawaR
 dawar
 desc
 dk
+dropdown
 geocode
 ggplot
 Github
@@ -30,6 +31,7 @@ github
 https
 httr
 knitr
+kommune
 MacOS
 Nordjylland
 ORCID
@@ -38,8 +40,6 @@ rmarkdown
 Roxygen
 RoxygenNote
 sdfi
-seciton
-technincal
 testthat
 tidyRSS
 VignetteBuilder
