@@ -407,9 +407,14 @@
     },
     "sf": {
       "Package": "sf",
-      "Version": "1.0-17",
-      "Source": "Repository",
-      "Repository": "RSPM",
+      "Version": "1.0-18",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "sf",
+      "RemoteUsername": "r-spatial",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "a07adc642096c14bbddd417cc34646f850efd10b",
       "Requirements": [
         "DBI",
         "R",
@@ -426,7 +431,7 @@
         "units",
         "utils"
       ],
-      "Hash": "453a7d0263eae87a7831242a74fe9b60"
+      "Hash": "466932ef25c654d306766d85aa32f330"
     },
     "sys": {
       "Package": "sys",
