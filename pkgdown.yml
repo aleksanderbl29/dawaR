@@ -3,7 +3,8 @@ pkgdown: 2.1.0
 pkgdown_sha: ~
 articles:
   getting_started: getting_started.html
-last_built: 2024-09-12T21:45Z
+  status: status.html
+last_built: 2024-09-12T22:03Z
 urls:
   reference: https://dawar.aleksanderbl.dk/reference
   article: https://dawar.aleksanderbl.dk/articles
