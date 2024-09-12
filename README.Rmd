@@ -35,10 +35,9 @@ The goal of dawaR is to make access to the Danish Web Address API convenient for
 
 ## Installation
 
-Once the package is on cran;
 You can install `{dawaR}` from CRAN with:
 
-```{r, eval=FALSE}
+``` r
 install.packages("dawaR")
 ```
 
@@ -54,7 +53,26 @@ To use the `get_map_data()` functions on MacOS you need to install the `{sf}` pa
 
 ## Examples
 
-This package has multiple use cases, though they all revolve around data from the Danish Web Address API.
+This package has multiple use cases, though they all revolve around data from the Danish Web Address API. If the below examples are not enough, please do read through the vignettes.
+
+### Using DAWA to crosstab municipalities and their regions.
+
+The function `get_data()` fetches the data in `json` format and by default transforms it to a data.frame.
+
+```{r}
+library(dawaR)
+library(tidyverse)
+
+municipalities <- get_data("kommuner")
+
+nordjylland <- municipalities %>%
+  filter(regionsnavn == "Region Nordjylland") %>%
+  pull(navn)
+
+nordjylland
+```
+
+Here we have extracted all the municipalities that are in "Region Nordjylland". The same can be done for voting precincts or police regions. It can also be done for addresses and others. Look through the available sections with `available_sections()`.
 
 ### Using DAWA map data
 
