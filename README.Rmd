@@ -56,6 +56,11 @@ This package has multiple use cases, though they all revolve around data from th
 
 ### Using DAWA to crosstab municipalities and their regions.
 
+```{r, include=FALSE}
+library(tidyverse)
+```
+
+
 The function `get_data()` fetches the data in `json` format and by default transforms it to a data.frame.
 
 ```{r}
@@ -65,8 +70,8 @@ library(dplyr)
 municipalities <- get_data("kommuner")
 
 nordjylland <- municipalities |>
-  filter(regionsnavn == "Region Nordjylland") |>
-  pull(navn)
+  dplyr::filter(regionsnavn == "Region Nordjylland") |>
+  dplyr::pull(navn)
 
 nordjylland
 ```
@@ -84,10 +89,11 @@ library(ggplot2)
 municipalities <- get_map_data("kommuner")
 ggplot(municipalities, aes(fill = regionsnavn)) +
   geom_sf(color = "black") +
+  labs(fill = "Region") +
   cowplot::theme_map()
 ```
 
-## DAWA will be phased out
+## DAWA *will* be phased out
 
 The government entity that maintains the Danish Web Address API has disclosed that the API will be phased out at some point. When that time comes, this package will become deprecated and I will have another package ready to provide the same functionality. The service that is to replace DAWA is called Datafordeleren (The Data Distribution) and is in the works. Some functionality in relation to The Central Register og Buildings (BBR) has already been moved to the new service.
 

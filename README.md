@@ -63,20 +63,12 @@ default transforms it to a data.frame.
 ``` r
 library(dawaR)
 library(dplyr)
-#> 
-#> Vedhæfter pakke: 'dplyr'
-#> De følgende objekter er maskerede fra 'package:stats':
-#> 
-#>     filter, lag
-#> De følgende objekter er maskerede fra 'package:base':
-#> 
-#>     intersect, setdiff, setequal, union
 
 municipalities <- get_data("kommuner")
 
 nordjylland <- municipalities |>
-  filter(regionsnavn == "Region Nordjylland") |>
-  pull(navn)
+  dplyr::filter(regionsnavn == "Region Nordjylland") |>
+  dplyr::pull(navn)
 
 nordjylland
 #>  [1] "Morsø"           "Thisted"         "Brønderslev"     "Frederikshavn"  
@@ -102,12 +94,13 @@ library(ggplot2)
 municipalities <- get_map_data("kommuner")
 ggplot(municipalities, aes(fill = regionsnavn)) +
   geom_sf(color = "black") +
+  labs(fill = "Region") +
   cowplot::theme_map()
 ```
 
 <img src="man/figures/README-municipality_map-1.png" width="100%" />
 
-## DAWA will be phased out
+## DAWA *will* be phased out
 
 The government entity that maintains the Danish Web Address API has
 disclosed that the API will be phased out at some point. When that time
