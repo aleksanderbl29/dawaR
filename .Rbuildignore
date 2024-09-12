@@ -1,4 +1,4 @@
-^*.eml
+^$.eml
 ^.lintr
 ^LICENSE\.md$
 ^Meta$
