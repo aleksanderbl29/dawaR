@@ -57,7 +57,7 @@ This package has multiple use cases, though they all revolve around data from th
 ### Using DAWA to crosstab municipalities and their regions.
 
 ```{r, include=FALSE}
-library(tidyverse)
+library(dplyr)
 ```
 
 
