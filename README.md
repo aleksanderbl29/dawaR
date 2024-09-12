@@ -107,7 +107,7 @@ disclosed that the API will be phased out at some point. When that time
 comes, this package will become deprecated and I will have another
 package ready to provide the same functionality. The service that is to
 replace DAWA is called Datafordeleren (The Data Distribution) and is in
-the works. Some functionality in relation to The Central Register og
+the works. Some functionality in relation to The Central Register of
 Buildings (BBR) has already been moved to the new service.
 
 If you know how to read danish (or use machine-translation) you can keep
