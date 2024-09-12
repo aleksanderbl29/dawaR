@@ -27,7 +27,6 @@ The goal of dawaR is to make access to the Danish Web Address API convenient for
 - [x] Tests should pass in CI as well as locally.
   - I used to have problems with a dependency that would convert the time column provided by `get_map_data()`. It is fixed with commit `23ade73`.
   *- I currently have an issue with the date-time column is converted to local time instead of UTC as is provided by the API. This causes differences between my local development machine and Github Actions.*
-- [ ] Provide examples of getting data and using both reverse lookup and autocomplete functions
 - [x] Write reverse lookup function to wrap in section functions
 - [x] Write autocomplete function to wrap in section functions
 - [ ] Choose some often-used sections to create specific functions for
@@ -61,12 +60,12 @@ The function `get_data()` fetches the data in `json` format and by default trans
 
 ```{r}
 library(dawaR)
-library(tidyverse)
+library(dplyr)
 
 municipalities <- get_data("kommuner")
 
-nordjylland <- municipalities %>%
-  filter(regionsnavn == "Region Nordjylland") %>%
+nordjylland <- municipalities |>
+  filter(regionsnavn == "Region Nordjylland") |>
   pull(navn)
 
 nordjylland
@@ -87,3 +86,11 @@ ggplot(municipalities, aes(fill = regionsnavn)) +
   geom_sf(color = "black") +
   cowplot::theme_map()
 ```
+
+## DAWA will be phased out
+
+The government entity that maintains the Danish Web Address API has disclosed that the API will be phased out at some point. When that time comes, this package will become deprecated and I will have another package ready to provide the same functionality. The service that is to replace DAWA is called Datafordeleren (The Data Distribution) and is in the works. Some functionality in relation to The Central Register og Buildings (BBR) has already been moved to the new service.
+
+If you know how to read danish (or use machine-translation) you can keep yourself up to date on [this page](https://dataforsyningen.dk/data/4924).
+
+But no worries! It does not sound like the shutdown of DAWA will happen anytime soon or without due notice. You can read more about this and read the history of updates in `vignette("status")`.

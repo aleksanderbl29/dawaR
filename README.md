@@ -22,8 +22,6 @@ convenient for many more users.
     converted to local time instead of UTC as is provided by the API.
     This causes differences between my local development machine and
     Github Actions.*
-- [ ] Provide examples of getting data and using both reverse lookup and
-  autocomplete functions
 - [x] Write reverse lookup function to wrap in section functions
 - [x] Write autocomplete function to wrap in section functions
 - [ ] Choose some often-used sections to create specific functions for
@@ -64,22 +62,20 @@ default transforms it to a data.frame.
 
 ``` r
 library(dawaR)
-library(tidyverse)
-#> ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
-#> ✔ dplyr     1.1.4     ✔ readr     2.1.5
-#> ✔ forcats   1.0.0     ✔ stringr   1.5.1
-#> ✔ ggplot2   3.5.1     ✔ tibble    3.2.1
-#> ✔ lubridate 1.9.3     ✔ tidyr     1.3.1
-#> ✔ purrr     1.0.2     
-#> ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
-#> ✖ dplyr::filter() masks stats::filter()
-#> ✖ dplyr::lag()    masks stats::lag()
-#> ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+library(dplyr)
+#> 
+#> Vedhæfter pakke: 'dplyr'
+#> De følgende objekter er maskerede fra 'package:stats':
+#> 
+#>     filter, lag
+#> De følgende objekter er maskerede fra 'package:base':
+#> 
+#>     intersect, setdiff, setequal, union
 
 municipalities <- get_data("kommuner")
 
-nordjylland <- municipalities %>%
-  filter(regionsnavn == "Region Nordjylland") %>%
+nordjylland <- municipalities |>
+  filter(regionsnavn == "Region Nordjylland") |>
   pull(navn)
 
 nordjylland
@@ -110,3 +106,21 @@ ggplot(municipalities, aes(fill = regionsnavn)) +
 ```
 
 <img src="man/figures/README-municipality_map-1.png" width="100%" />
+
+## DAWA will be phased out
+
+The government entity that maintains the Danish Web Address API has
+disclosed that the API will be phased out at some point. When that time
+comes, this package will become deprecated and I will have another
+package ready to provide the same functionality. The service that is to
+replace DAWA is called Datafordeleren (The Data Distribution) and is in
+the works. Some functionality in relation to The Central Register og
+Buildings (BBR) has already been moved to the new service.
+
+If you know how to read danish (or use machine-translation) you can keep
+yourself up to date on [this
+page](https://dataforsyningen.dk/data/4924).
+
+But no worries! It does not sound like the shutdown of DAWA will happen
+anytime soon or without due notice. You can read more about this and
+read the history of updates in `vignette("status")`.
