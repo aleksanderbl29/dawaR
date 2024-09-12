@@ -3,6 +3,10 @@ template:
   bootstrap: 5
   light-switch: true
 
+authors:
+  Aleksander Bang-Larsen:
+    href: https://aleksanderbl.dk
+
 reference:
   - title: Base functions
     desc: >
@@ -15,7 +19,7 @@ reference:
       - autocomplete
   - title: Data functions
     desc: >
-      These functions returns data from a specified seciton and formats it as
+      These functions returns data from a specified section and formats it as
       needed.
     contents:
       - get_data
