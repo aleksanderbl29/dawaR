@@ -50,6 +50,8 @@ jobs:
           http-user-agent: ${{ matrix.config.http-user-agent }}
           use-public-rspm: true
 
+      - run: Rscript -e 'install.packages("remotes")'
+
       - run: Rscript -e 'remotes::install_github("r-spatial/sf", configure.args = "--with-proj-lib=$(brew --prefix)/lib/")'
 
       - uses: r-lib/actions/setup-r-dependencies@v2
