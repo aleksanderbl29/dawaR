@@ -37,6 +37,7 @@ The goal of dawaR is to make access to the Danish Web Address API convenient for
 ## Installation
 
 ```{r check_cran, include=FALSE}
+if (!require(available)) install.packages("available")
 is_on_cran <- !available::available_on_cran("dawaR")
 ```
 
