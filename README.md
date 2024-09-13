@@ -31,12 +31,6 @@ convenient for many more users.
 
 ## Installation
 
-You can install `{dawaR}` from CRAN with:
-
-``` r
-install.packages("dawaR")
-```
-
 You can install the development version of dawaR from
 [GitHub](https://github.com/) with:
 

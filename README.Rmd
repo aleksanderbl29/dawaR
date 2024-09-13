@@ -36,12 +36,17 @@ The goal of dawaR is to make access to the Danish Web Address API convenient for
 
 ## Installation
 
-You can install `{dawaR}` from CRAN with:
-
-``` r
-install.packages("dawaR")
+```{r check_cran, include=FALSE}
+is_on_cran <- !available::available_on_cran("dawaR")
 ```
 
+```{r cran_instruct, echo=FALSE, results='asis', eval=is_on_cran}
+cat("You can install `{dawaR}` from CRAN with:")
+```
+
+```{r cran_code, eval=FALSE, include=is_on_cran}
+install.packages("dawaR")
+```
 
 You can install the development version of dawaR from [GitHub](https://github.com/) with:
 
