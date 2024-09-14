@@ -17,10 +17,10 @@ provided.
 \description{
 Fetch map data to use with \code{{sf}}.
 }
-\section{The returned dataframe has date-time columns to inform when the infromation}{
+\section{The returned dataframe has date-time columns to inform when the information}{
 was last changed. It is returned in Europe/Copenhagen time as that is the
-\emph{local time} for the API. You can change that behaviour by setting
-\code{Sys.env(TZ = "Your/Timezone")}.
+\emph{local time} for the API. You can change that behavior by setting
+\code{Sys.setenv(TZ = "Your/Timezone")}.
 }
 
 \examples{

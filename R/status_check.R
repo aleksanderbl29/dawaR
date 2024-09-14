@@ -106,17 +106,7 @@ status_check <- function(return_df = FALSE, error_if_unavailable = FALSE) {
   if (operational == TRUE) {
     cli::cli_alert_success("All systems are operational")
   } else if (operational == FALSE && error_if_unavailable == TRUE) {
-    # nolint start
-    if (testthat::is_testing() ||
-      testthat::is_snapshot() ||
-      testthat::is_checking()) {
-      # nolint end
-      cli::cli_abort("{offline_service} {?is/are} not operational.
-                     This is a simulation to test the scenario that
-                     a service is unavailable")
-    } else {
-      cli::cli_abort("{offline_service} {?is/are} not operational")
-    }
+    cli::cli_abort("{offline_service} {?is/are} not operational")
   } else if (operational == FALSE && error_if_unavailable == FALSE) {
     cli::cli_alert_danger("{offline_service} {?is/are} not operational")
   }
