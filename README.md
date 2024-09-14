@@ -61,8 +61,8 @@ library(dplyr)
 municipalities <- get_data("kommuner")
 
 nordjylland <- municipalities |>
-  dplyr::filter(regionsnavn == "Region Nordjylland") |>
-  dplyr::pull(navn)
+  filter(regionsnavn == "Region Nordjylland") |>
+  pull(navn)
 
 nordjylland
 #>  [1] "Morsø"           "Thisted"         "Brønderslev"     "Frederikshavn"  
