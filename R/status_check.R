@@ -76,15 +76,6 @@ status_check <- function(return_df = FALSE, error_if_unavailable = FALSE) {
   )
   # nolint end
 
-  # nolint start
-  if ((testthat::is_testing() ||
-    testthat::is_snapshot() ||
-    testthat::is_checking()) &&
-    error_if_unavailable == TRUE) {
-    status[1] <- "Down"
-  }
-  # nolint end
-
   overall_list <- list(services, status)
 
   dataframe <- as.data.frame(do.call(cbind, overall_list))
