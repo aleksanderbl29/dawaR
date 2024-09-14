@@ -51,8 +51,10 @@ jobs:
           use-public-rspm: true
 
       - run: Rscript -e 'install.packages("remotes")'
+        if: runner.os == 'macos'
 
       - run: Rscript -e 'remotes::install_github("r-spatial/sf", configure.args = "--with-proj-lib=$(brew --prefix)/lib/")'
+        if: runner.os == 'macos'
 
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
