@@ -4,7 +4,7 @@
       dawa("regioner")
     Message
       > Requesting `regioner` from DAWA
-      i Accessing <https://api.dataforsyningen.dk/regioner?cache=no-cache>
+      i Accessing <https://api.dataforsyningen.dk/regioner>
     Output
       [[1]]
       [[1]]$ændret

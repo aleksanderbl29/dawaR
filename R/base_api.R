@@ -53,13 +53,6 @@ dawa <- function(section,
     }
   }
 
-  # nolint start
-  if (testthat::is_testing() ||
-    testthat::is_snapshot() ||
-    testthat::is_checking()) {
-    cache <- FALSE
-  }
-  # nolint end
 
   params <- list(
     ...,
