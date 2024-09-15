@@ -15,15 +15,6 @@ convenient for many more users.
 
 ## TO DO before CRAN-submission
 
-- [x] Tests should pass in CI as well as locally.
-  - I used to have problems with a dependency that would convert the
-    time column provided by `get_map_data()`. It is fixed with commit
-    `23ade73`. *- I currently have an issue with the date-time column is
-    converted to local time instead of UTC as is provided by the API.
-    This causes differences between my local development machine and
-    Github Actions.*
-- [x] Write reverse lookup function to wrap in section functions
-- [x] Write autocomplete function to wrap in section functions
 - [ ] Choose some often-used sections to create specific functions for
   - These will basically be wrappers for other functions in the package
     and will provide another level of convenience for non-technical
@@ -43,56 +34,10 @@ To use the `get_map_data()` functions on MacOS you need to install the
 `{sf}` package from source [following the official
 instructions](https://github.com/r-spatial/sf?tab=readme-ov-file#macos).
 
-## Examples
+## Usage
 
-This package has multiple use cases, though they all revolve around data
-from the Danish Web Address API. If the below examples are not enough,
-please do read through the vignettes.
-
-### Using DAWA to crosstab municipalities and their regions.
-
-The function `get_data()` fetches the data in `json` format and by
-default transforms it to a data.frame.
-
-``` r
-library(dawaR)
-library(dplyr)
-
-municipalities <- get_data("kommuner")
-
-nordjylland <- municipalities |>
-  filter(regionsnavn == "Region Nordjylland") |>
-  pull(navn)
-
-nordjylland
-#>  [1] "Morsø"           "Thisted"         "Brønderslev"     "Frederikshavn"  
-#>  [5] "Vesthimmerlands" "Læsø"            "Rebild"          "Mariagerfjord"  
-#>  [9] "Jammerbugt"      "Aalborg"         "Hjørring"
-```
-
-Here we have extracted all the municipalities that are in “Region
-Nordjylland”. The same can be done for voting precincts or police
-regions. It can also be done for addresses and others. Look through the
-available sections with `available_sections()`.
-
-### Using DAWA map data
-
-The function `get_map_data()` fetches data in `geojson` format and
-transforms the geometries to `{sf}` polygons. These polygons can be
-drawn as nice maps with `{ggplot2}`.
-
-``` r
-library(dawaR)
-library(ggplot2)
-
-municipalities <- get_map_data("kommuner")
-ggplot(municipalities, aes(fill = regionsnavn)) +
-  geom_sf(color = "black") +
-  labs(fill = "Region") +
-  cowplot::theme_map()
-```
-
-<img src="man/figures/README-municipality_map-1.png" width="100%" />
+Be sure to see the [getting started](articles/dawaR.html) and [the guide
+on how to make maps with {dawaR}](articles//printing_maps.html).
 
 ## DAWA *will* be phased out
 
