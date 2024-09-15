@@ -1,4 +1,4 @@
-# dawaR 0.1.0
+# dawaR 0.1.0 (2024-09-16)
 
 * Initial CRAN submission.
 * Added functions base:
