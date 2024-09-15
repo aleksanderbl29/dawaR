@@ -3,11 +3,11 @@
 api in this package. Not intended for end-users, but it provides all the
 flexibility of the api without the nice conveniences of the other functions
 in this package. By default it reformats the api response (which is json)
-to a data.frame object."><meta property="og:description" content="This function is the foundation of all communication with the
+to a list object."><meta property="og:description" content="This function is the foundation of all communication with the
 api in this package. Not intended for end-users, but it provides all the
 flexibility of the api without the nice conveniences of the other functions
 in this package. By default it reformats the api response (which is json)
-to a data.frame object."><meta property="og:image" content="https://dawar.aleksanderbl.dk/logo.png"></head><body>
+to a list object."><meta property="og:image" content="https://dawar.aleksanderbl.dk/logo.png"></head><body>
     <a href="#main" class="visually-hidden-focusable">Skip to contents</a>
 
 
@@ -15,7 +15,7 @@ to a data.frame object."><meta property="og:image" content="https://dawar.aleksa
 
     <a class="navbar-brand me-2" href="../index.html">dawaR</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.0.0.9000</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.1.0</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,6 +31,7 @@ to a data.frame object."><meta property="og:image" content="https://dawar.aleksa
     <li><a class="dropdown-item" href="../articles/status.html">Checking the API status</a></li>
     <li><a class="dropdown-item" href="../articles/renv-issues.html">Issues with `{sf}` when installing with `{renv}`</a></li>
   </ul></li>
+<li class="nav-item"><a class="nav-link" href="../news/index.html">Changelog</a></li>
       </ul><ul class="navbar-nav"><li class="nav-item"><form class="form-inline" role="search">
  <input class="form-control" type="search" name="search-input" id="search-input" autocomplete="off" aria-label="Search site" placeholder="Search for" data-search-index="../search.json"></form></li>
 <li class="nav-item"><a class="external-link nav-link" href="https://github.com/aleksanderbl29/dawaR/" aria-label="GitHub"><span class="fa fab fa-github fa-lg"></span></a></li>
@@ -57,7 +58,7 @@ to a data.frame object."><meta property="og:image" content="https://dawar.aleksa
 api in this package. Not intended for end-users, but it provides all the
 flexibility of the api without the nice conveniences of the other functions
 in this package. By default it reformats the api response (which is json)
-to a data.frame object.</p>
+to a list object.</p>
     </div>
 
     <div class="section level2">
@@ -95,11 +96,11 @@ It is inserted in the request after the <code>section</code> but before the <cod
 <dd><p>The format to provide as a query parameter for the api call. By
 default it has value <code>NULL</code> and triggers default json formatting. When
 <code>geojson</code> or <code>geojsonz</code> is provided, the function will return the raw json
-data in sted of the usual data.frame.</p></dd>
+data instead of the usual list.</p></dd>
 
 
 <dt id="arg-verbose">verbose<a class="anchor" aria-label="anchor" href="#arg-verbose"></a></dt>
-<dd><p>Wether or not to provide <code>{cli}</code> output for the user. Enabled
+<dd><p>whether or not to provide <code>{cli}</code> output for the user. Enabled
 by default, but disabled for all functions that wrap this function</p></dd>
 
 

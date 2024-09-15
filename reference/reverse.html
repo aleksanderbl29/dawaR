@@ -13,7 +13,7 @@ Denmark is provided, the function will fail with a code 404."><meta property="og
 
     <a class="navbar-brand me-2" href="../index.html">dawaR</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.0.0.9000</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.1.0</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,6 +29,7 @@ Denmark is provided, the function will fail with a code 404."><meta property="og
     <li><a class="dropdown-item" href="../articles/status.html">Checking the API status</a></li>
     <li><a class="dropdown-item" href="../articles/renv-issues.html">Issues with `{sf}` when installing with `{renv}`</a></li>
   </ul></li>
+<li class="nav-item"><a class="nav-link" href="../news/index.html">Changelog</a></li>
       </ul><ul class="navbar-nav"><li class="nav-item"><form class="form-inline" role="search">
  <input class="form-control" type="search" name="search-input" id="search-input" autocomplete="off" aria-label="Search site" placeholder="Search for" data-search-index="../search.json"></form></li>
 <li class="nav-item"><a class="external-link nav-link" href="https://github.com/aleksanderbl29/dawaR/" aria-label="GitHub"><span class="fa fab fa-github fa-lg"></span></a></li>
@@ -82,7 +83,7 @@ the longitude.</p></dd>
 
 
 <dt id="arg-verbose">verbose<a class="anchor" aria-label="anchor" href="#arg-verbose"></a></dt>
-<dd><p>Wether or not to provide <code>{cli}</code> output for the user. Enabled
+<dd><p>whether or not to provide <code>{cli}</code> output for the user. Enabled
 by default, but disabled for all functions that wrap this function</p></dd>
 
 
@@ -99,13 +100,13 @@ errs if the type is not allowed.</p></dd>
 </dl></div>
     <div class="section level2">
     <h2 id="value">Value<a class="anchor" aria-label="anchor" href="#value"></a></h2>
-    <p>Returns</p>
+    <p>Returns a list object with information about the provided <code>section</code>
+for the location that is input.</p>
     </div>
 
     <div class="section level2">
     <h2 id="ref-examples">Examples<a class="anchor" aria-label="anchor" href="#ref-examples"></a></h2>
-    <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="co"># example code</span></span></span>
-<span class="r-in"><span><span class="fu">reverse</span><span class="op">(</span><span class="st">"regioner"</span>, x <span class="op">=</span> <span class="fl">12.58515</span>, y <span class="op">=</span> <span class="fl">55.68324</span><span class="op">)</span></span></span>
+    <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="fu">reverse</span><span class="op">(</span><span class="st">"regioner"</span>, x <span class="op">=</span> <span class="fl">12.58515</span>, y <span class="op">=</span> <span class="fl">55.68324</span><span class="op">)</span></span></span>
 <span class="r-msg co"><span class="r-pr">#&gt;</span> → Requesting `regioner - reverse` from DAWA</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> $ændret</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [1] "2024-02-05T22:01:25.064Z"</span>
