@@ -4,8 +4,9 @@ pkgdown_sha: ~
 articles:
   dawaR: dawaR.html
   articles/printing_maps: printing_maps.html
+  renv-issues: renv-issues.html
   status: status.html
-last_built: 2024-09-15T16:00Z
+last_built: 2024-09-15T18:30Z
 urls:
   reference: https://dawar.aleksanderbl.dk/reference
   article: https://dawar.aleksanderbl.dk/articles

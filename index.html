@@ -44,7 +44,8 @@
   <button class="nav-link dropdown-toggle" type="button" id="dropdown-articles" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">Articles</button>
   <ul class="dropdown-menu" aria-labelledby="dropdown-articles">
 <li><a class="dropdown-item" href="articles/printing_maps.html">Printing maps with dawaR and ggplot2</a></li>
-    <li><a class="dropdown-item" href="articles/status.html">Checking the API status</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="articles/index.html">More articles...</a></li>
   </ul>
 </li>
       </ul>
@@ -96,12 +97,12 @@
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co"># install.packages("devtools")</span></span>
 <span><span class="fu">devtools</span><span class="fu">::</span><span class="fu">install_github</span><span class="op">(</span><span class="st">"aleksanderbl29/dawaR"</span><span class="op">)</span></span></code></pre></div>
-<p>To use the <code><a href="reference/get_map_data.html">get_map_data()</a></code> functions on MacOS you need to install the <a href="https://r-spatial.github.io/sf/" class="external-link">sf</a> package from source <a href="https://github.com/r-spatial/sf?tab=readme-ov-file#macos" class="external-link">following the official instructions</a>.</p>
+<p>If you install the package in an environment that is configured with <a href="https://rstudio.github.io/renv/index.html" class="external-link"><code>renv</code></a> on MacOS, please consult <code><a href="articles/renv-issues.html">vignette("renv-issues")</a></code> to ensure that <code><a href="reference/get_map_data.html">get_map_data()</a></code> works as intended.</p>
 </div>
 <div class="section level2">
 <h2 id="usage">Usage<a class="anchor" aria-label="anchor" href="#usage"></a>
 </h2>
-<p>Be sure to see the <a href="articles/dawaR.html">getting started</a> and <a href="articles//printing_maps.html">the guide on how to make maps with {dawaR}</a>.</p>
+<p>Be sure to see the <a href="articles/dawaR.html">getting started</a> and the <a href="articles//printing_maps.html">guide on how to make maps with {dawaR}</a>.</p>
 </div>
 <div class="section level2">
 <h2 id="dawa-will-be-phased-out">DAWA <em>will</em> be phased out<a class="anchor" aria-label="anchor" href="#dawa-will-be-phased-out"></a>
