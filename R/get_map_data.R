@@ -1,9 +1,11 @@
 #' Fetch map data to use with `{sf}`.
 #'
-#' # The returned dataframe has date-time columns to inform when the information
-#' was last changed. It is returned in Europe/Copenhagen time as that is the
-#' *local time* for the API. You can change that behavior by setting
-#' `Sys.setenv(TZ = "Your/Timezone")`.
+#' @description
+#' This function returns map data from DAWA. It is ready to use with `{sf}`
+#' functions. The returned dataframe has date-time columns to inform when the
+#' information was last changed. It is returned in Europe/Copenhagen time as
+#' that is the *local time* for the API. You can change that behavior by
+#' setting `Sys.setenv(TZ = "Your/Timezone")`.
 #'
 #' @param type Defines the type of map data to request from DAWA. Run
 #'   `available_sections(format = "geojson")` to your options.

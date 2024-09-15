@@ -15,14 +15,12 @@ Returns a \code{data.frame} object that contains polygons for the section
 provided.
 }
 \description{
-Fetch map data to use with \code{{sf}}.
+This function returns map data from DAWA. It is ready to use with \code{{sf}}
+functions. The returned dataframe has date-time columns to inform when the
+information was last changed. It is returned in Europe/Copenhagen time as
+that is the \emph{local time} for the API. You can change that behavior by
+setting \code{Sys.setenv(TZ = "Your/Timezone")}.
 }
-\section{The returned dataframe has date-time columns to inform when the information}{
-was last changed. It is returned in Europe/Copenhagen time as that is the
-\emph{local time} for the API. You can change that behavior by setting
-\code{Sys.setenv(TZ = "Your/Timezone")}.
-}
-
 \examples{
 x <- get_map_data("regioner")
 ggplot2::ggplot(x) +

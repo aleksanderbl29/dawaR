@@ -4,7 +4,7 @@
 #'   api in this package. Not intended for end-users, but it provides all the
 #'   flexibility of the api without the nice conveniences of the other functions
 #'   in this package. By default it reformats the api response (which is json)
-#'   to a data.frame object.
+#'   to a list object.
 #'
 #' @param section Defines what section of the api should be called.
 #'   `available_sections()` exposes all options for this parameter.
@@ -15,8 +15,8 @@
 #' @param format The format to provide as a query parameter for the api call. By
 #'   default it has value `NULL` and triggers default json formatting. When
 #'   `geojson` or `geojsonz` is provided, the function will return the raw json
-#'   data in sted of the usual data.frame.
-#' @param verbose Wether or not to provide `{cli}` output for the user. Enabled
+#'   data instead of the usual list.
+#' @param verbose whether or not to provide `{cli}` output for the user. Enabled
 #'   by default, but disabled for all functions that wrap this function
 #' @param cache Option to use caching in a `tempdir()`. Enabled by default. More
 #'   info can be found in the documentation for `httr2::req_cache()`.
@@ -117,11 +117,11 @@ dawa <- function(section,
 #'
 #' @inheritParams dawa
 #'
-#' @return Returns
+#' @return Returns a list object with information about the provided `section`
+#'    for the location that is input.
 #' @export
 #'
 #' @examples
-#' # example code
 #' reverse("regioner", x = 12.58515, y = 55.68324)
 reverse <- function(section, x, y, verbose = TRUE, type = NULL, ...) {
   if (!is.null(type)) {
@@ -154,7 +154,11 @@ reverse <- function(section, x, y, verbose = TRUE, type = NULL, ...) {
 #' @param input The input to autocomplete. Could be a name, a place and similar.
 #'
 #' @inheritParams dawa
+#'
+#' @return Returns the autocomplete information for the provided `section`
+#'    given the input.
 #' @export
+#'
 #' @examples
 #' autocomplete("regioner", "midt")
 autocomplete <- function(section, input, ...) {

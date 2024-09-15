@@ -14,7 +14,7 @@ a named list or an atomic vector with the available sections}
 sections that can respond with that format. Currently \code{geojson} is the only
 format that is specified.}
 
-\item{verbose}{Wether or not to provide \code{{cli}} output for the user. Enabled
+\item{verbose}{whether or not to provide \code{{cli}} output for the user. Enabled
 by default, but disabled for all functions that wrap this function}
 }
 \value{

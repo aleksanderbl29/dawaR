@@ -16,7 +16,7 @@ the lattitude.}
 \item{y}{The Y coordinate to geocode. If no \code{srid} is provided this should be
 the longitude.}
 
-\item{verbose}{Wether or not to provide \code{{cli}} output for the user. Enabled
+\item{verbose}{whether or not to provide \code{{cli}} output for the user. Enabled
 by default, but disabled for all functions that wrap this function}
 
 \item{type}{The coordinate type for the API to parse. By default none is
@@ -27,7 +27,8 @@ errs if the type is not allowed.}
 \item{...}{<\code{\link[rlang:dyn-dots]{dynamic-dots}}> input query parameters.}
 }
 \value{
-Returns
+Returns a list object with information about the provided \code{section}
+for the location that is input.
 }
 \description{
 This function reverse geocodes the coordinates provided. When
@@ -36,6 +37,5 @@ or UTM zone 32 can be provided as well. When coordinates from outside of
 Denmark is provided, the function will fail with a code \code{404}.
 }
 \examples{
-# example code
 reverse("regioner", x = 12.58515, y = 55.68324)
 }

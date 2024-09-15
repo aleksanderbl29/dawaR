@@ -5,6 +5,7 @@ aleksanderbl
 api
 aut
 autocomplete
+autocompletion
 BBR
 BugReports
 cli
@@ -25,6 +26,7 @@ desc
 dk
 dplyr
 dropdown
+ETRS
 geocode
 ggplot
 Github
@@ -32,13 +34,16 @@ github
 href
 https
 httr
+json
 knitr
 kommune
+lattitude
 MacOS
 microbenchmark
 navbar
 Nordjylland
 ORCID
+reformats
 renv
 repo
 rmapshaper
@@ -49,3 +54,4 @@ sdfi
 testthat
 tidyRSS
 VignetteBuilder
+WGS

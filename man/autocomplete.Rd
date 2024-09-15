@@ -14,6 +14,10 @@ autocomplete(section, input, ...)
 
 \item{...}{<\code{\link[rlang:dyn-dots]{dynamic-dots}}> input query parameters.}
 }
+\value{
+Returns the autocomplete information for the provided \code{section}
+given the input.
+}
 \description{
 This function is very handy when needing to either validate or
 simply "fill in gaps" with autocompletion from the API.
