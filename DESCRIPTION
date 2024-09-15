@@ -7,7 +7,8 @@ Authors@R:
            comment = c(ORCID = "0009-0007-7984-4650"))
 Description: Package providing functions to interact with all sections of
     the official Danish Address Web API (also known as DAWA). The development
-    of this package is completely independent from the [government entity that maintains the API](sdfi.dk).
+    of this package is completely independent from the 
+    [government entity that maintains the API](sdfi.dk).
 License: GPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
