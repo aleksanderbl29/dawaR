@@ -30,7 +30,7 @@ You can install the development version of dawaR from
 devtools::install_github("aleksanderbl29/dawaR")
 ```
 
-If you install the package in an environment that is configured with
+If you install the package in an environment configured with
 [`renv`](https://rstudio.github.io/renv/index.html) on MacOS, please
 consult `vignette("renv-issues")` to ensure that `get_map_data()` works
 as intended.
