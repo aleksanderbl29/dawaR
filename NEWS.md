@@ -1,4 +1,4 @@
-# dawaR (development version)
+# dawaR 0.1.0
 
 * Initial CRAN submission.
 * Added functions base:
