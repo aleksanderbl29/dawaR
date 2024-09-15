@@ -31,3 +31,16 @@ reference:
     contents:
       - available_sections
       - status_check
+
+
+articles:
+  - title: Get to know the package
+    navbar: ~
+    contents:
+      - dawaR
+      - articles/printing_maps
+
+  - title: Technical vignettes
+    contents:
+      - status
+      - renv-issues
