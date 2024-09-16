@@ -1,4 +1,5 @@
 ^.lintr
+^CRAN-SUBMISSION$
 ^LICENSE\.md$
 ^Meta$
 ^README\.Rmd$
