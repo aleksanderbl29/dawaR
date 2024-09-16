@@ -43,6 +43,7 @@ The government entity that maintains the Danish Web Address API has disclosed th
 If you know how to read danish (or use machine-translation) you can keep yourself up to date on [this page](https://dataforsyningen.dk/data/4924).
 
 But no worries! It does not sound like the shutdown of DAWA will happen anytime soon or without due notice. 
+Any updates will be written below.
 
 ### Change history
 

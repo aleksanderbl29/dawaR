@@ -58,4 +58,6 @@ page](https://dataforsyningen.dk/data/4924).
 
 But no worries! It does not sound like the shutdown of DAWA will happen
 anytime soon or without due notice. You can read more about this and
-read the history of updates in `vignette("status")`.
+read the history of updates in `vignette("status")`. Any minor updates
+will be shown there. Major ones will be on this page. Both will be
+communicated with `lifecycle` in the functions.
