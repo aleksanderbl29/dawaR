@@ -21,7 +21,7 @@ renv::purge("dawaR")
 renv::remove("dawaR")
 
 reprex::reprex({
-  options(repos = c("https://packagemanager.posit.co/cran/latest"))
+  options(repos = c(CRAN = "https://packagemanager.posit.co/cran/latest"))
   renv::install("sf")
   renv::install("aleksanderbl29/dawaR")
   dawaR::get_map_data("regioner")
