@@ -1,5 +1,7 @@
-bibentry("Manual",
-         other = unlist(citation(auto = meta), recursive = FALSE))
+bibentry(
+  bibtype  = "Manual",
+  other = unlist(citation(auto = meta), recursive = FALSE),
+  key   = "dawaR")
 
 bibentry(
   bibtype  = "misc",
