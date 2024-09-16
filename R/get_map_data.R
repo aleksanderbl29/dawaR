@@ -24,6 +24,8 @@ get_map_data <- function(type) {
                    which is not compatible with this function.")
   }
 
+  check_sf_installation(verbose = FALSE)
+
   api_response <- dawa(
     section = type,
     format = "geojson",
