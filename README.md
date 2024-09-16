@@ -15,13 +15,6 @@ status](https://www.r-pkg.org/badges/version/dawaR)](https://CRAN.R-project.org/
 The goal of dawaR is to make access to the Danish Web Address API
 convenient for many more users.
 
-## TO DO before CRAN-submission
-
-- [ ] Choose some often-used sections to create specific functions for
-  - These will basically be wrappers for other functions in the package
-    and will provide another level of convenience for non-technical
-    users.
-
 ## Installation
 
 You can install the development version of dawaR from
