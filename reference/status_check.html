@@ -84,16 +84,16 @@ only returned if <code>return_df = TRUE</code>.</p>
     <h2 id="ref-examples">Examples<a class="anchor" aria-label="anchor" href="#ref-examples"></a></h2>
     <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span></span></span>
 <span class="r-in"><span><span class="fu">status_check</span><span class="op">(</span><span class="op">)</span></span></span>
-<span class="r-msg co"><span class="r-pr">#&gt;</span> <span style="color: #00BB00;">✔</span> All systems are operational</span>
+<span class="r-msg co"><span class="r-pr">#&gt;</span> <span style="color: #BB0000;">✖</span> Arkiv kort, Dataforsyningen.dk, FTPS, and Gsearch are not operational</span>
 <span class="r-in"><span></span></span>
 <span class="r-in"><span><span class="fu">status_check</span><span class="op">(</span>return_df <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span></span>
-<span class="r-msg co"><span class="r-pr">#&gt;</span> <span style="color: #00BB00;">✔</span> All systems are operational</span>
+<span class="r-msg co"><span class="r-pr">#&gt;</span> <span style="color: #BB0000;">✖</span> Arkiv kort, Dataforsyningen.dk, FTPS, and Gsearch are not operational</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>              service status</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> 1           Adresser     OK</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 2         Arkiv kort     OK</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 3 Dataforsyningen.dk     OK</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 4               FTPS     OK</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 5            Gsearch     OK</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 2         Arkiv kort   Down</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 3 Dataforsyningen.dk   Down</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 4               FTPS   Down</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 5            Gsearch   Down</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> 6 WMS - forvaltning2     OK</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> 7        sdfekort.dk     OK</span>
 <span class="r-in"><span></span></span>
