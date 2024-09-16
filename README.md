@@ -8,6 +8,8 @@
 [![R-CMD-check](https://github.com/aleksanderbl29/dawaR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/aleksanderbl29/dawaR/actions/workflows/R-CMD-check.yaml)
 [![Codecov test
 coverage](https://codecov.io/gh/aleksanderbl29/dawaR/graph/badge.svg)](https://app.codecov.io/gh/aleksanderbl29/dawaR)
+[![CRAN
+status](https://www.r-pkg.org/badges/version/dawaR)](https://CRAN.R-project.org/package=dawaR)
 <!-- badges: end -->
 
 The goal of dawaR is to make access to the Danish Web Address API
