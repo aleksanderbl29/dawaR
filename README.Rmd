@@ -21,6 +21,7 @@ knitr::opts_chunk$set(
 [![R-CMD-check](https://github.com/aleksanderbl29/dawaR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/aleksanderbl29/dawaR/actions/workflows/R-CMD-check.yaml)
 [![Codecov test coverage](https://codecov.io/gh/aleksanderbl29/dawaR/graph/badge.svg)](https://app.codecov.io/gh/aleksanderbl29/dawaR)
 [![CRAN status](https://www.r-pkg.org/badges/version/dawaR)](https://CRAN.R-project.org/package=dawaR)
+![r-universe](https://r-lib.r-universe.dev/badges/dawaR)
 <!-- badges: end -->
 
 The goal of dawaR is to make access to the Danish Web Address API convenient for many more users.
@@ -38,6 +39,24 @@ cat("You can install `{dawaR}` from CRAN with:")
 
 ```{r cran_code, eval=FALSE, include=is_on_cran}
 install.packages("dawaR")
+```
+
+```{r r_universe_instruct, echo=FALSE, results='asis'}
+if (is_on_cran) {
+  cat("Or you can install `{dawaR}` from r-universe with:")
+} else if (!is_on_cran) {
+  cat("You can install `{dawaR}` from r-universe with:")
+}
+```
+
+```{r r_universe, eval=FALSE, include=!is_on_cran}
+install.packages(
+  "dawaR",
+  repos = c(
+    aleksanderbl29 = "https://aleksanderbl29.r-universe.dev",
+    getOption("repos")
+  )
+)
 ```
 
 You can install the development version of dawaR from [GitHub](https://github.com/) with:

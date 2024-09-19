@@ -10,12 +10,25 @@
 coverage](https://codecov.io/gh/aleksanderbl29/dawaR/graph/badge.svg)](https://app.codecov.io/gh/aleksanderbl29/dawaR)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/dawaR)](https://CRAN.R-project.org/package=dawaR)
+![r-universe](https://r-lib.r-universe.dev/badges/dawaR)
 <!-- badges: end -->
 
 The goal of dawaR is to make access to the Danish Web Address API
 convenient for many more users.
 
 ## Installation
+
+You can install `{dawaR}` from r-universe with:
+
+``` r
+install.packages(
+  "dawaR",
+  repos = c(
+    aleksanderbl29 = "https://aleksanderbl29.r-universe.dev",
+    getOption("repos")
+  )
+)
+```
 
 You can install the development version of dawaR from
 [GitHub](https://github.com/) with:
