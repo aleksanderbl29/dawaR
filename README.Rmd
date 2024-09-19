@@ -24,7 +24,7 @@ knitr::opts_chunk$set(
 ![r-universe](https://aleksanderbl29.r-universe.dev/badges/dawaR)
 <!-- badges: end -->
 
-The goal of dawaR is to make access to the Danish Web Address API convenient for many more users.
+The goal of `{dawaR}` is to make access to the Danish Web Address API convenient for many more users.
 
 ## Installation
 

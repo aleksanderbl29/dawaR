@@ -13,7 +13,7 @@ status](https://www.r-pkg.org/badges/version/dawaR)](https://CRAN.R-project.org/
 ![r-universe](https://aleksanderbl29.r-universe.dev/badges/dawaR)
 <!-- badges: end -->
 
-The goal of dawaR is to make access to the Danish Web Address API
+The goal of `{dawaR}` is to make access to the Danish Web Address API
 convenient for many more users.
 
 ## Installation
