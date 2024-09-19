@@ -10,7 +10,7 @@
 coverage](https://codecov.io/gh/aleksanderbl29/dawaR/graph/badge.svg)](https://app.codecov.io/gh/aleksanderbl29/dawaR)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/dawaR)](https://CRAN.R-project.org/package=dawaR)
-![r-universe](https://r-lib.r-universe.dev/badges/dawaR)
+![r-universe](https://aleksanderbl29.r-universe.dev/badges/dawaR)
 <!-- badges: end -->
 
 The goal of dawaR is to make access to the Danish Web Address API
