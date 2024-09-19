@@ -31,7 +31,7 @@ install.packages(
 ```
 
 You can install the development version of `{dawaR}` from
-[GitHub](https://github.com/) with:
+[GitHub](https://github.com/aleksanderbl29/dawaR) with:
 
 ``` r
 # install.packages("devtools")
