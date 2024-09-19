@@ -82,8 +82,17 @@
 <div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
 </h2>
-<p>You can install the development version of dawaR from <a href="https://github.com/" class="external-link">GitHub</a> with:</p>
+<p>You can install <a href="https://dawar.aleksanderbl.dk/">dawaR</a> from r-universe with:</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span></span>
+<span>  <span class="st">"dawaR"</span>,</span>
+<span>  repos <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span></span>
+<span>    aleksanderbl29 <span class="op">=</span> <span class="st">"https://aleksanderbl29.r-universe.dev"</span>,</span>
+<span>    <span class="fu"><a href="https://rdrr.io/r/base/options.html" class="external-link">getOption</a></span><span class="op">(</span><span class="st">"repos"</span><span class="op">)</span></span>
+<span>  <span class="op">)</span></span>
+<span><span class="op">)</span></span></code></pre></div>
+<p>You can install the development version of dawaR from <a href="https://github.com/" class="external-link">GitHub</a> with:</p>
+<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co"># install.packages("devtools")</span></span>
 <span><span class="fu">devtools</span><span class="fu">::</span><span class="fu">install_github</span><span class="op">(</span><span class="st">"aleksanderbl29/dawaR"</span><span class="op">)</span></span></code></pre></div>
 <p>If you install the package in an environment configured with <a href="https://rstudio.github.io/renv/index.html" class="external-link"><code>renv</code></a> on MacOS, please consult <code><a href="articles/renv-issues.html">vignette("renv-issues")</a></code> to ensure that <code><a href="reference/get_map_data.html">get_map_data()</a></code> works as intended.</p>
@@ -151,7 +160,7 @@
 </div>
 
 <div class="pkgdown-footer-right">
-  <p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.1.0.</p>
+  <p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.1.1.</p>
 </div>
 
     </footer>
