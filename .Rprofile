@@ -1,6 +1,8 @@
 source("renv/activate.R")
 
-options(repos = c(CRAN = "https://cran.rstudio.com/"))
+if (Sys.info()[["sysname"]] == "Darwin") {
+  options(repos = c(CRAN = "https://cran.rstudio.com/"))
+}
 
 if (interactive()) {
   suppressMessages(require(devtools))
