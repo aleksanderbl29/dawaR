@@ -30,7 +30,7 @@ install.packages(
 )
 ```
 
-You can install the development version of dawaR from
+You can install the development version of `{dawaR}` from
 [GitHub](https://github.com/) with:
 
 ``` r
