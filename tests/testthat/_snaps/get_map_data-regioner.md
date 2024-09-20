@@ -2,6 +2,10 @@
 
     Code
       get_map_data(type = "regioner")
+    Message
+      Fetching data from the API
+      Reading data to `st`
+      Converting map data to `sf` object
     Output
       Simple feature collection with 5 features and 9 fields
       Geometry type: MULTIPOLYGON
