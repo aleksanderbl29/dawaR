@@ -8,7 +8,7 @@
 #' setting `Sys.setenv(TZ = "Your/Timezone")`.
 #'
 #' @param type Defines the type of map data to request from DAWA. Run
-#'   `available_sections(format = "geojson")` to your options.
+#'   `available_sections(format = "geojson")` to see your options.
 #'
 #' @return Returns a `data.frame` object that contains polygons for the section
 #'   provided.
