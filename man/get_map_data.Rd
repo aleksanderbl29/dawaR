@@ -8,7 +8,7 @@ get_map_data(type)
 }
 \arguments{
 \item{type}{Defines the type of map data to request from DAWA. Run
-\code{available_sections(format = "geojson")} to your options.}
+\code{available_sections(format = "geojson")} to see your options.}
 }
 \value{
 Returns a \code{data.frame} object that contains polygons for the section
