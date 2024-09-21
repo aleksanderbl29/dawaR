@@ -2,6 +2,10 @@
 
     Code
       get_map_data(type = "politikredse")
+    Message
+      Fetching data from the API
+      Reading data to `st`
+      Converting map data to `sf` object
     Output
       Simple feature collection with 12 features and 8 fields
       Geometry type: MULTIPOLYGON

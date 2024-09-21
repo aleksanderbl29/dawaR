@@ -2,6 +2,10 @@
 
     Code
       get_map_data(type = "kommuner")
+    Message
+      Fetching data from the API
+      Reading data to `st`
+      Converting map data to `sf` object
     Output
       Simple feature collection with 99 features and 11 fields
       Geometry type: MULTIPOLYGON

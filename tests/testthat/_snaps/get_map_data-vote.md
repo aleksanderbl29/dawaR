@@ -2,6 +2,10 @@
 
     Code
       get_map_data(type = "afstemningsomraader")
+    Message
+      Fetching data from the API
+      Reading data to `st`
+      Converting map data to `sf` object
     Output
       Simple feature collection with 1298 features and 23 fields
       Geometry type: MULTIPOLYGON

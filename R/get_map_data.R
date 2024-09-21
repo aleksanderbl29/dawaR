@@ -26,16 +26,23 @@ get_map_data <- function(type) {
 
   check_sf_installation(verbose = FALSE)
 
+  cli::cli_progress_message("Fetching data from the API")
+
   api_response <- dawa(
     section = type,
     format = "geojson",
     verbose = FALSE
   )
 
+  cli::cli_progress_message("Reading data to `st`")
+
   resp_st <- sf::st_read(
     api_response,
     quiet = TRUE
   )
+
+  cli::cli_progress_message("Converting map data to `sf` object")
+
   map_data <- sf::st_as_sf(resp_st)
 
   return(map_data)
