@@ -11,6 +11,7 @@ if (Sys.info()[["sysname"]] == "Darwin") {
 }
 
 print(Sys.info()[["sysname"]])
+print(interactive())
 stop()
 
 if (interactive()) {
