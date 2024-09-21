@@ -10,7 +10,7 @@ get_data(section, as_list = FALSE)
 \item{section}{Defines what section of the api should be called.
 \code{available_sections()} exposes all options for this parameter.}
 
-\item{as_list}{Wether or not to return the data as a list or in a dataframe.
+\item{as_list}{Whether or not to return the data as a list or in a dataframe.
 Data.frame is the default output.}
 }
 \value{
