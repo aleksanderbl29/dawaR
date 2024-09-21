@@ -51,6 +51,11 @@ repos:
     -   id: parsable-R
     -   id: no-browser-statement
     -   id: no-print-statement
+        exclude: >
+          (?x)^(
+          .Rprofile|
+          renv/.*|
+          )$
     -   id: no-debug-statement
     -   id: deps-in-desc
         exclude: >
