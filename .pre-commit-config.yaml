@@ -64,7 +64,6 @@ repos:
           .Rprofile|
           renv/.*|
           )$
-    -   id: pkgdown
 -   repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.6.0
     hooks:
@@ -94,4 +93,3 @@ repos:
 
 ci:
     autoupdate_schedule: monthly
-    skip: [pkgdown]
