@@ -16,7 +16,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-This article will show you how to use `get_map_data()` and {ggplot2} to draw nice looking maps of Denmark.
+This article will show you how to use `get_map_data()` and `{ggplot2}` to draw nice looking maps of Denmark.
 
 First we need to load the packages. Here, we only load `{ggplot2}` to minimize dependencies, but you can definitely load the entire `{tidyverse}` for convenience.
 
