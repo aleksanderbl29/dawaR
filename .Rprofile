@@ -4,7 +4,7 @@ if (Sys.info()[["sysname"]] == "Darwin") {
   options(repos = c(
     binary = "https://packagemanager.rstudio.com/all/__linux__/focal/latest",
     source = "https://packagemanager.rstudio.com/all/latest",
-    CRAN = "https://cloud.r-project.org",
+    CRAN = "https://cloud.r-project.org"
   ))
 } else {
   options(repos = c(CRAN = "https://cloud.r-project.org/"))
