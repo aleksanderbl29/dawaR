@@ -10,10 +10,6 @@ if (Sys.info()[["sysname"]] == "Darwin") {
   options(repos = c(CRAN = "https://cloud.r-project.org/"))
 }
 
-print(Sys.info()[["sysname"]])
-print(interactive())
-stop()
-
 if (interactive()) {
   source("~/.Rprofile")
 }
