@@ -97,7 +97,10 @@ will request map data for all (98) danish municipalities. The danish
 word for <em>municipality</em> is <em>kommune</em> which is what we will
 request.</p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="va">municipalities</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/get_map_data.html">get_map_data</a></span><span class="op">(</span><span class="st">"kommuner"</span><span class="op">)</span></span></code></pre></div>
+<code class="sourceCode R"><span><span class="va">municipalities</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/get_map_data.html">get_map_data</a></span><span class="op">(</span><span class="st">"kommuner"</span><span class="op">)</span></span>
+<span><span class="co">#&gt; Fetching data from the API</span></span>
+<span><span class="co">#&gt; Reading data to `st`</span></span>
+<span><span class="co">#&gt; Converting map data to `sf` object</span></span></code></pre></div>
 <p>In the dropdown below you can see the <code><a href="https://rdrr.io/r/utils/head.html" class="external-link">head()</a></code> of the data
 we have received.</p>
 <details><summary><code>head(municipalities)</code>
@@ -149,7 +152,10 @@ quality) to faster plot the map. We will use the
 <p>First we get the data with <code><a href="../reference/get_map_data.html">get_map_data()</a></code> and provide
 the <em>afstemningsomraader</em> (voting areas) as the type.</p>
 <div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="va">voting</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/get_map_data.html">get_map_data</a></span><span class="op">(</span><span class="st">"afstemningsomraader"</span><span class="op">)</span></span></code></pre></div>
+<code class="sourceCode R"><span><span class="va">voting</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/get_map_data.html">get_map_data</a></span><span class="op">(</span><span class="st">"afstemningsomraader"</span><span class="op">)</span></span>
+<span><span class="co">#&gt; Fetching data from the API</span></span>
+<span><span class="co">#&gt; Reading data to `st`</span></span>
+<span><span class="co">#&gt; Converting map data to `sf` object</span></span></code></pre></div>
 <p>Then let’s quickly examine how many more polygons we now have to
 draw.</p>
 <div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
@@ -190,6 +196,9 @@ maps and pass them as their own dataset/geom combos in
 <a href="https://ggplot2.tidyverse.org" class="external-link">ggplot2</a>.</p>
 <div class="sourceCode" id="cb9"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">police</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/get_map_data.html">get_map_data</a></span><span class="op">(</span><span class="st">"politikredse"</span><span class="op">)</span></span>
+<span><span class="co">#&gt; Fetching data from the API</span></span>
+<span><span class="co">#&gt; Reading data to `st`</span></span>
+<span><span class="co">#&gt; Converting map data to `sf` object</span></span>
 <span><span class="co"># We will reuse the municipality data from earlier.</span></span></code></pre></div>
 <p>Then you can pass it to <a href="https://ggplot2.tidyverse.org" class="external-link">ggplot2</a> as follows.</p>
 <div class="sourceCode" id="cb10"><pre class="downlit sourceCode r">
