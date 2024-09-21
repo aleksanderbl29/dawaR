@@ -11,14 +11,14 @@ get_map_data(type)
 \code{available_sections(format = "geojson")} to see your options.}
 }
 \value{
-Returns a \code{data.frame} object that contains polygons for the section
-provided.
+Returns a \code{data.frame} object that contains polygons (or points) for
+the section provided.
 }
 \description{
-This function returns map data from DAWA. It is ready to use with \code{{sf}}
-functions. The returned dataframe has date-time columns to inform when the
-information was last changed. It is returned in Europe/Copenhagen time as
-that is the \emph{local time} for the API. You can change that behavior by
+This function returns map data from DAWA. It is ready to use
+with \code{{sf}} functions. The returned dataframe has date-time columns to inform
+when the information was last changed. It is returned in Europe/Copenhagen
+time as that is the \emph{local time} for the API. You can change that behavior by
 setting \code{Sys.setenv(TZ = "Your/Timezone")}.
 }
 \examples{
