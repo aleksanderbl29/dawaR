@@ -62,6 +62,7 @@ repos:
         exclude: >
           (?x)^(
           .Rprofile
+          renv/.*|
           )$
     -   id: pkgdown
 -   repo: https://github.com/pre-commit/pre-commit-hooks
