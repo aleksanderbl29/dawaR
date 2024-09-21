@@ -61,7 +61,7 @@ repos:
     -   id: deps-in-desc
         exclude: >
           (?x)^(
-          .Rprofile
+          .Rprofile|
           renv/.*|
           )$
     -   id: pkgdown
