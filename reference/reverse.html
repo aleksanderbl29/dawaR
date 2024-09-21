@@ -108,52 +108,7 @@ for the location that is input.</p>
     <h2 id="ref-examples">Examples<a class="anchor" aria-label="anchor" href="#ref-examples"></a></h2>
     <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="fu">reverse</span><span class="op">(</span><span class="st">"regioner"</span>, x <span class="op">=</span> <span class="fl">12.58515</span>, y <span class="op">=</span> <span class="fl">55.68324</span><span class="op">)</span></span></span>
 <span class="r-msg co"><span class="r-pr">#&gt;</span> → Requesting `regioner - reverse` from DAWA</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> $ændret</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] "2024-02-05T22:01:25.064Z"</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> $geo_version</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 30</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> $geo_ændret</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] "2024-02-05T22:01:25.064Z"</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> $bbox</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> $bbox[[1]]</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 11.60212</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> $bbox[[2]]</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 54.98355</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> $bbox[[3]]</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 15.31831</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> $bbox[[4]]</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 56.2052</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> $visueltcenter</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> $visueltcenter[[1]]</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 12.27937</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> $visueltcenter[[2]]</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 55.97239</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> $dagi_id</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] "389099"</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> $kode</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] "1084"</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> $navn</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] "Region Hovedstaden"</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> $nuts2</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] "DK01"</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> $href</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] "https://api.dataforsyningen.dk/regioner/1084"</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
+<span class="r-err co"><span class="r-pr">#&gt;</span> <span class="error">Error in httr2::req_perform(dawa_request):</span> HTTP 502 Bad Gateway.</span>
 </code></pre></div>
     </div>
   </main><aside class="col-md-3"><nav id="toc" aria-label="Table of contents"><h2>On this page</h2>
