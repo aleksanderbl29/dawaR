@@ -51,11 +51,17 @@ repos:
     -   id: parsable-R
     -   id: no-browser-statement
     -   id: no-print-statement
+        exclude: >
+          (?x)^(
+          .Rprofile|
+          renv/.*|
+          )$
     -   id: no-debug-statement
     -   id: deps-in-desc
         exclude: >
           (?x)^(
-          .Rprofile
+          .Rprofile|
+          renv/.*|
           )$
     -   id: pkgdown
 -   repo: https://github.com/pre-commit/pre-commit-hooks
