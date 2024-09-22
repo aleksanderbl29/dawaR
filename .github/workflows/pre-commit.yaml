@@ -29,6 +29,8 @@ jobs:
         run: |
           # your system installation code here
           # sudo apt-get install -y libcurl4-openssl-dev
+          sudo apt-get install libudunits2-dev
+          sudo apt-get -y update && sudo apt-get install -y libudunits2-dev libgdal-dev libgeos-dev libproj-dev
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -52,4 +54,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref }}
     env:
-      RENV_CONFIG_CACHE_ENABLED: FALSE
+      RENV_CONFIG_CACHE_ENABLED: TRUE

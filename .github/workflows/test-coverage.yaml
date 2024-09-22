@@ -2,9 +2,9 @@
 # Need help debugging build failures? Start at https://github.com/r-lib/actions#where-to-find-help
 on:
   push:
-    branches: [main, master]
+    branches: main
   pull_request:
-    branches: [main, master]
+    branches: main
 
 name: test-coverage.yaml
 
@@ -20,17 +20,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: szenius/set-timezone@v2.0
-        if: runner.os == 'Linux'
-        with:
-          timezoneLinux: "Europe/Copenhagen"
-
       - uses: r-lib/actions/setup-r@v2
         with:
           use-public-rspm: true
 
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
+          cache-version: 2
           extra-packages: any::covr, any::xml2
           needs: coverage
 

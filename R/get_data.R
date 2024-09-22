@@ -1,6 +1,6 @@
 #' Get data from section
 #'
-#' @param as_list Wether or not to return the data as a list or in a dataframe.
+#' @param as_list Whether or not to return the data as a list or in a dataframe.
 #'   Data.frame is the default output.
 #'
 #' @inheritParams dawa

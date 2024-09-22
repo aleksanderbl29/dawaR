@@ -6,7 +6,7 @@
 #'   also be followed on the official [X-page](https://x.com/DriftDataforsyn).
 #'
 #'
-#' @param return_df This option makes the function return a dataframe object
+#' @param return_df This option makes the function return a data.frame object
 #'   with the services and their statuses listed
 #' @param error_if_unavailable This option forces the function to throw an error
 #'   in the event that one or more services are unreachable.
@@ -24,7 +24,9 @@
 status_check <- function(return_df = FALSE, error_if_unavailable = FALSE) {
   status_url <- "https://erdataforsyningennede.site24x7statusiq.com/rss"
 
-  suppressMessages(rss_resp <- tidyRSS::tidyfeed(status_url))
+  suppressMessages(
+    rss_resp <- tidyRSS::tidyfeed(status_url)
+  )
 
   services <- list(
     "Adresser",

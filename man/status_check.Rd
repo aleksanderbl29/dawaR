@@ -7,7 +7,7 @@
 status_check(return_df = FALSE, error_if_unavailable = FALSE)
 }
 \arguments{
-\item{return_df}{This option makes the function return a dataframe object
+\item{return_df}{This option makes the function return a data.frame object
 with the services and their statuses listed}
 
 \item{error_if_unavailable}{This option forces the function to throw an error
