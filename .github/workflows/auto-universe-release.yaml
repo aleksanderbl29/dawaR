@@ -11,17 +11,22 @@ permissions:
 
 jobs:
   create_pull_request:
+
     runs-on: ubuntu-latest
+
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+
     steps:
       - uses: actions/checkout@v4
         with:
           ref: universe-release
+
       - name: Reset promotion branch
         run: |
           git fetch origin main:main
           git reset --hard main
+
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
         with:
