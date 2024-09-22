@@ -30,9 +30,9 @@ Config/testthat/parallel: true
 Depends:
   R (>= 3.5.0)
 Imports: 
+    memoise (>= 2.0.0),
     cli,
     httr2,
-    memoise (>= 2.0.0),
     sf,
     tidyRSS
 VignetteBuilder: knitr
