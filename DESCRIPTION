@@ -32,6 +32,7 @@ Depends:
 Imports: 
     cli,
     httr2,
+    memoise (>= 2.0.0),
     sf,
     tidyRSS
 VignetteBuilder: knitr
