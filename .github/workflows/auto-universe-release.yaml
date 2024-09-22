@@ -10,8 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-          ref: universe-release
         with:
+          ref: universe-release
       - name: Reset promotion branch
         run: |
           git fetch origin main:main
