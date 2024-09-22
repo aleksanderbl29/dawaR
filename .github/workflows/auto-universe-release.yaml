@@ -5,6 +5,10 @@ on:
     branches:
       - main # Trigger the workflow when changes are pushed to the 'main' branch
 
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   create_pull_request:
     runs-on: ubuntu-latest
