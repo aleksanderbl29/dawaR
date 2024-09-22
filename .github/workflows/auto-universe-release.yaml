@@ -5,6 +5,10 @@ on:
     branches:
       - main # Trigger the workflow when changes are pushed to the 'main' branch
 
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   create_pull_request:
     runs-on: ubuntu-latest
@@ -21,4 +25,4 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
         with:
-          branch: universe-release/update
+          branch: universe-release
