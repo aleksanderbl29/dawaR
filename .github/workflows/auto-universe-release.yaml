@@ -17,7 +17,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: main
+          ref: universe-release
       - name: Reset promotion branch
         run: |
           git fetch origin main:main
@@ -25,4 +25,4 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
         with:
-          branch: universe-release
+          branch: main
