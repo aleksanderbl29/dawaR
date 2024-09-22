@@ -12,7 +12,7 @@ jobs:
     steps:
       # Step 1: Checkout the current code
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       # Step 2: Create the pull request from 'main' to 'universe-release'
       - name: Create Pull Request
