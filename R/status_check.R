@@ -1,7 +1,7 @@
 #' Check that all DAWA services are operational
 #'
 #' @description This function fetches the status of all available SDFI services.
-#'   The API that this package wraps is one of these. It checks [this status
+#'   This package depends on at least one of these. It checks [this status
 #'   url](https://erdataforsyningennede.site24x7statusiq.com/). The status can
 #'   also be followed on the official [X-page](https://x.com/DriftDataforsyn).
 #'
