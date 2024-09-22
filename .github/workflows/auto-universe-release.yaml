@@ -12,7 +12,7 @@ jobs:
     steps:
       # Step 1: Checkout the current code
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       # Step 2: Create the pull request from 'main' to 'universe-release'
       - name: Create Pull Request
@@ -28,74 +28,3 @@ jobs:
           reviewers: |
             aleksanderbl29 # Request review from aleksanderbl29
           branch: auto-pr-branch
-
-  auto_merge:
-    needs: create_pull_request
-    runs-on: ubuntu-latest
-    if: success()
-
-    steps:
-      # Step 3: Wait for PR checks to pass
-      - name: Wait for PR checks to pass
-        uses: actions/github-script@v6
-        id: wait_for_checks
-        with:
-          script: |
-            const prNumber = ${{ steps.create_pr.outputs.pull_request_number }};
-            const pr = await github.pulls.get({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              pull_number: prNumber
-            });
-
-            // Wait for all checks to pass
-            const checks = await github.checks.listForRef({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              ref: pr.data.head.sha
-            });
-
-            const allChecksPassed = checks.data.check_runs.every(check => check.conclusion === 'success');
-
-            if (!allChecksPassed) {
-              return 'Checks are still running or failed.';
-            }
-
-            return 'Checks passed.';
-
-      # Step 4: Check if 'aleksanderbl29' has approved the PR
-      - name: Check if 'aleksanderbl29' has approved the PR
-        uses: actions/github-script@v6
-        id: check_reviews
-        with:
-          script: |
-            const prNumber = ${{ steps.create_pr.outputs.pull_request_number }};
-            const reviews = await github.pulls.listReviews({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              pull_number: prNumber
-            });
-
-            const aleksanderApproved = reviews.data.some(review =>
-              review.user.login === 'aleksanderbl29' && review.state === 'APPROVED'
-            );
-
-            if (!aleksanderApproved) {
-              return 'PR has not been approved by aleksanderbl29 yet.';
-            }
-
-            return 'PR approved by aleksanderbl29.';
-
-      # Step 5: Merge the Pull Request if all conditions are met
-      - name: Merge the Pull Request
-        uses: actions/github-script@v6
-        if: steps.wait_for_checks.outputs.result == 'Checks passed.' && steps.check_reviews.outputs.result == 'PR approved by aleksanderbl29.'
-        with:
-          script: |
-            const prNumber = ${{ steps.create_pr.outputs.pull_request_number }};
-            await github.pulls.merge({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              pull_number: prNumber,
-              merge_method: 'merge'
-            });
