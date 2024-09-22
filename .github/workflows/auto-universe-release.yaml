@@ -20,7 +20,7 @@ jobs:
           ref: main
       - name: Reset promotion branch
         run: |
-          git fetch origin main
+          git fetch origin main:main
           git reset --hard main
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
