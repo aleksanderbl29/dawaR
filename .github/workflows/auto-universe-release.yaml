@@ -37,7 +37,7 @@ jobs:
     steps:
       # Step 3: Wait for PR checks to pass
       - name: Wait for PR checks to pass
-        uses: actions/github-script@v6
+        uses: actions/github-script@v7
         id: wait_for_checks
         with:
           script: |
@@ -65,7 +65,7 @@ jobs:
 
       # Step 4: Check if 'aleksanderbl29' has approved the PR
       - name: Check if 'aleksanderbl29' has approved the PR
-        uses: actions/github-script@v6
+        uses: actions/github-script@v7
         id: check_reviews
         with:
           script: |
@@ -88,7 +88,7 @@ jobs:
 
       # Step 5: Merge the Pull Request if all conditions are met
       - name: Merge the Pull Request
-        uses: actions/github-script@v6
+        uses: actions/github-script@v7
         if: steps.wait_for_checks.outputs.result == 'Checks passed.' && steps.check_reviews.outputs.result == 'PR approved by aleksanderbl29.'
         with:
           script: |
