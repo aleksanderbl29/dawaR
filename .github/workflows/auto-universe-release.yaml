@@ -8,23 +8,15 @@ on:
 jobs:
   create_pull_request:
     runs-on: ubuntu-latest
-
     steps:
-      # Step 1: Checkout the current code
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      # Step 2: Create the pull request from 'main' to 'universe-release'
-      - name: Create Pull Request
-        id: create_pr
-        uses: peter-evans/create-pull-request@v5
+      - uses: actions/checkout@v4
+          ref: universe-release
         with:
-          base: universe-release
-          head: main
-          title: "Automated Pull Request from main to universe-release"
-          body: "This PR was created automatically by GitHub Actions."
-          labels: |
-            auto-pr
-          reviewers: |
-            aleksanderbl29 # Request review from aleksanderbl29
-          branch: auto-pr-branch
+      - name: Reset promotion branch
+        run: |
+          git fetch origin main:main
+          git reset --hard main
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: universe-release-promotion
