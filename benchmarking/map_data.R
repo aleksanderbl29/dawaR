@@ -54,6 +54,14 @@ bench::mark(
   iterations = 10,
   check = FALSE
 )
+bench::mark(
+  dawaR::get_map_data("sogne"),
+  manual_passthrough(),
+  download_file(),
+  temp_httr2(),
+  iterations = 3,
+  check = FALSE
+)
 
 microbenchmark::microbenchmark(
   dawaR::get_map_data("sogne"),
