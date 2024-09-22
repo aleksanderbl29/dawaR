@@ -13,7 +13,7 @@ permissions: read-all
 jobs:
   lint:
     runs-on: ubuntu-latest
-   if: ${{ github.actor != 'aleksanderbl29' }} # Only run if the actor is NOT aleksanderbl29
+    if: ${{ github.actor != 'aleksanderbl29' }} # Only run if the actor is NOT aleksanderbl29
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     steps:
