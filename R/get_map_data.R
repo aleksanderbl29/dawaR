@@ -24,6 +24,7 @@ get_map_data <- function(type, cache = TRUE) {
     if (memoise::has_cache(get_map_data_w_cache)(type)) {
       cli::cli_alert("Using cached response.")
     }
+
     get_map_data_w_cache(type = type)
   } else if (cache == FALSE) {
     get_map_data_nocache(type = type, cache = FALSE)
