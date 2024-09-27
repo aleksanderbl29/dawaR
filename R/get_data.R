@@ -24,7 +24,7 @@ get_data <- function(section,
     section = section,
     verbose = FALSE,
     struktur = "flad",
-    ...
+    ... = ...
   )
 
   if (as_list == TRUE) {
