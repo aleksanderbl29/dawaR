@@ -15,8 +15,6 @@
 get_data <- function(section,
                      as_list = FALSE,
                      ...) {
-                     as_list = FALSE,
-                     ...) {
   if (!section %in% available_sections()) {
     cli::cli_abort("You have provided section {.var {section}}.
                    It is not available through the api")
