@@ -258,9 +258,9 @@
     },
     "httr2": {
       "Package": "httr2",
-      "Version": "1.0.4",
+      "Version": "1.0.5",
       "Source": "Repository",
-      "Repository": "RSPM",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "R6",
@@ -275,7 +275,7 @@
         "vctrs",
         "withr"
       ],
-      "Hash": "836e9564fbeca3bb390bb429a53cd401"
+      "Hash": "d84e4c33206aaace37714901ac2b00c3"
     },
     "jsonlite": {
       "Package": "jsonlite",
