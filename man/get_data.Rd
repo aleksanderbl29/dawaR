@@ -4,7 +4,7 @@
 \alias{get_data}
 \title{Get data from section}
 \usage{
-get_data(section, as_list = FALSE, ...)
+get_data(section, as_list = FALSE)
 }
 \arguments{
 \item{section}{Defines what section of the api should be called.
@@ -12,8 +12,6 @@ get_data(section, as_list = FALSE, ...)
 
 \item{as_list}{Whether or not to return the data as a list or in a dataframe.
 Data.frame is the default output.}
-
-\item{...}{<\code{\link[rlang:dyn-dots]{dynamic-dots}}> input query parameters.}
 }
 \value{
 Returns either a dataframe with all the data for the specified
