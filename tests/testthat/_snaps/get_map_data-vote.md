@@ -212,6 +212,7 @@
       get_map_data(type = "afstemningsomraader")
     Message
       > Using cached response.
+      Change this behaviour by setting cache = FALSE
     Output
       Simple feature collection with 1298 features and 23 fields
       Geometry type: MULTIPOLYGON
@@ -314,6 +315,7 @@
       get_map_data(type = "afstemningsomraader")
     Message
       > Using cached response.
+      Change this behaviour by setting cache = FALSE
     Output
       Simple feature collection with 1298 features and 23 fields
       Geometry type: MULTIPOLYGON
@@ -416,6 +418,7 @@
       get_map_data(type = "afstemningsomraader")
     Message
       > Using cached response.
+      Change this behaviour by setting cache = FALSE
     Output
       Simple feature collection with 1298 features and 23 fields
       Geometry type: MULTIPOLYGON

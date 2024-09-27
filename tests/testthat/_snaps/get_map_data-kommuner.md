@@ -102,6 +102,7 @@
       get_map_data(type = "kommuner")
     Message
       > Using cached response.
+      Change this behaviour by setting cache = FALSE
     Output
       Simple feature collection with 99 features and 11 fields
       Geometry type: MULTIPOLYGON
@@ -149,6 +150,7 @@
       get_map_data(type = "kommuner")
     Message
       > Using cached response.
+      Change this behaviour by setting cache = FALSE
     Output
       Simple feature collection with 99 features and 11 fields
       Geometry type: MULTIPOLYGON
@@ -196,6 +198,7 @@
       get_map_data(type = "kommuner")
     Message
       > Using cached response.
+      Change this behaviour by setting cache = FALSE
     Output
       Simple feature collection with 99 features and 11 fields
       Geometry type: MULTIPOLYGON

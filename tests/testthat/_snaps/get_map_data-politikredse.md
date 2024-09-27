@@ -102,6 +102,7 @@
       get_map_data(type = "politikredse")
     Message
       > Using cached response.
+      Change this behaviour by setting cache = FALSE
     Output
       Simple feature collection with 12 features and 8 fields
       Geometry type: MULTIPOLYGON
@@ -149,6 +150,7 @@
       get_map_data(type = "politikredse")
     Message
       > Using cached response.
+      Change this behaviour by setting cache = FALSE
     Output
       Simple feature collection with 12 features and 8 fields
       Geometry type: MULTIPOLYGON
@@ -196,6 +198,7 @@
       get_map_data(type = "politikredse")
     Message
       > Using cached response.
+      Change this behaviour by setting cache = FALSE
     Output
       Simple feature collection with 12 features and 8 fields
       Geometry type: MULTIPOLYGON
