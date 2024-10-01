@@ -18,10 +18,11 @@ knitr::opts_chunk$set(
 # dawaR <a href="https://dawar.aleksanderbl.dk/"><img src="man/figures/logo.png" align="right" height="139" alt="dawaR website" /></a>
 
 <!-- badges: start -->
-[![R-CMD-check](https://github.com/aleksanderbl29/dawaR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/aleksanderbl29/dawaR/actions/workflows/R-CMD-check.yaml)
-[![Codecov test coverage](https://codecov.io/gh/aleksanderbl29/dawaR/graph/badge.svg)](https://app.codecov.io/gh/aleksanderbl29/dawaR)
 [![CRAN status](https://www.r-pkg.org/badges/version/dawaR)](https://CRAN.R-project.org/package=dawaR)
 [![r-universe](https://aleksanderbl29.r-universe.dev/badges/dawaR)](https://aleksanderbl29.r-universe.dev/dawaR)
+[![R-CMD-check](https://github.com/aleksanderbl29/dawaR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/aleksanderbl29/dawaR/actions/workflows/R-CMD-check.yaml)
+[![Codecov test coverage](https://codecov.io/gh/aleksanderbl29/dawaR/graph/badge.svg)](https://app.codecov.io/gh/aleksanderbl29/dawaR)
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 <!-- badges: end -->
 
 The goal of `{dawaR}` is to make access to the Danish Web Address API convenient for many more users.
