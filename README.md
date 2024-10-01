@@ -33,12 +33,12 @@ install.packages(
 )
 ```
 
-You can install the development version of `{dawaR}` from
+You can install the latest development version of `{dawaR}` from
 [GitHub](https://github.com/aleksanderbl29/dawaR) with:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("aleksanderbl29/dawaR")
+devtools::install_github("aleksanderbl29/dawaR@devel")
 ```
 
 If you install the package in an environment configured with
