@@ -9,6 +9,7 @@
 ^\.pre-commit-config\.yaml$
 ^_pkgdown\.yml$
 ^benchmarking$
+^codemeta\.json$
 ^cran-comments\.md$
 ^dawaR\.Rproj$
 ^doc$
