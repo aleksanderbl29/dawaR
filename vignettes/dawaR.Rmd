@@ -23,12 +23,12 @@ library(dawaR)
 ## Getting regional data for Denmark
 
 To get a dataframe of all the regions in Denmark, you can use the `get_data()` function.
- 
+
 ```{r}
 get_data("regioner")
 ```
 
-This will return data on each of the five regions. 
+This will return data on each of the five regions.
 
 ### Using DAWA to crosstab municipalities and their regions.
 

@@ -1,3 +1,9 @@
+# dawaR 0.2.0 (2024-09-22)
+
+* Add caching for `get_map_data()`
+  * Enabled by default
+  * Adds new dependency `{memoise}`
+
 # dawaR 0.1.0 (2024-09-16)
 
 * Initial CRAN submission.

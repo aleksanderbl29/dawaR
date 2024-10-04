@@ -8,6 +8,8 @@
 #'
 #' @param type Defines the type of map data to request from DAWA. Run
 #'   `available_sections(format = "geojson")` to see your options.
+#' @param cache Boolean to determine whether or not to cache the api call and
+#'   the function output. Default is `TRUE`.
 #'
 #' @return Returns a `data.frame` object that contains polygons (or points) for
 #'   the section provided.
@@ -17,7 +19,23 @@
 #' x <- get_map_data("regioner")
 #' ggplot2::ggplot(x) +
 #'   ggplot2::geom_sf()
-get_map_data <- function(type) {
+get_map_data <- function(type, cache = TRUE) {
+  if (cache == TRUE) {
+    if (memoise::has_cache(get_map_data_w_cache)(type)) {
+      cli::cli_alert("Using cached response.")
+    }
+
+    get_map_data_w_cache(type = type)
+  } else if (cache == FALSE) {
+    get_map_data_nocache(type = type, cache = FALSE)
+  }
+}
+
+get_map_data_w_cache <- memoise::memoise(function(type) {
+  get_map_data_nocache(type = type, cache = TRUE)
+})
+
+get_map_data_nocache <- function(type, cache = FALSE) {
   if (!type %in% available_sections(format = "geojson", verbose = FALSE)) {
     cli::cli_abort("You have provided type {.var {type}}
                    which is not compatible with this function.")
@@ -30,7 +48,8 @@ get_map_data <- function(type) {
   api_response <- dawa(
     section = type,
     format = "geojson",
-    verbose = FALSE
+    verbose = FALSE,
+    cache = cache
   )
 
   cli::cli_progress_message("Reading data to `st`")
