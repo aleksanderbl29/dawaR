@@ -1,3 +1,5 @@
+# dawaR 0.2.1
+
 # dawaR 0.2.0 (2024-09-22)
 
 * Add caching for `get_map_data()`
