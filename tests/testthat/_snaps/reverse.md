@@ -6,13 +6,13 @@
       > Requesting `regioner - reverse` from DAWA
     Output
       $ændret
-      [1] "2024-02-05T22:01:25.064Z"
+      [1] "2024-10-04T21:02:54.978Z"
       
       $geo_version
-      [1] 30
+      [1] 31
       
       $geo_ændret
-      [1] "2024-02-05T22:01:25.064Z"
+      [1] "2024-10-04T21:02:54.978Z"
       
       $bbox
       $bbox[[1]]
@@ -190,13 +190,13 @@
       > Requesting `regioner - reverse` from DAWA
     Output
       $ændret
-      [1] "2024-02-05T22:01:25.064Z"
+      [1] "2024-10-04T21:02:54.978Z"
       
       $geo_version
-      [1] 31
+      [1] 32
       
       $geo_ændret
-      [1] "2024-02-05T22:01:25.064Z"
+      [1] "2024-10-04T21:02:54.978Z"
       
       $bbox
       $bbox[[1]]
@@ -244,13 +244,13 @@
       > Requesting `politikredse - reverse` from DAWA
     Output
       $ændret
-      [1] "2024-01-29T22:05:34.069Z"
+      [1] "2024-10-04T21:02:54.978Z"
       
       $geo_version
-      [1] 16
+      [1] 17
       
       $geo_ændret
-      [1] "2024-01-29T22:05:34.069Z"
+      [1] "2024-10-04T21:02:54.978Z"
       
       $bbox
       $bbox[[1]]
