@@ -1,4 +1,7 @@
-# dawaR 0.2.1
+# dawaR 0.2.1 (2024-10-6)
+
+* Add more elaborate {cli} messaging for `get_map_data()`
+  * Including rough second or minute estimates for mostly used sections
 
 # dawaR 0.2.0 (2024-09-22)
 
