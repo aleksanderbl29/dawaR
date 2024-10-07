@@ -32,8 +32,7 @@ available_sections <- function(as_list = FALSE,
     "navngivneveje",
     "vejstykker",
     "vejnavne",
-    "vejnavnpostnummerrelationer",
-    "supplerendebynavne2"
+    "vejnavnpostnummerrelationer"
   )
 
   dagi_sections <- c(
@@ -60,7 +59,6 @@ available_sections <- function(as_list = FALSE,
   stednavne <- c(
     "steder",
     "stednavne2",
-    "stednavntyper",
     "bebyggelser"
   )
 
