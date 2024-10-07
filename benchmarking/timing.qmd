@@ -1,0 +1,37 @@
+# `get_map_data()` timings
+
+This file is meant to benchmark the timings of `get_map_data()` calls.
+
+```{r}
+# Load packages
+library(dawaR)
+library(bench)
+```
+
+```{r}
+benchmark <- bench::mark(
+  dawaR::get_map_data("afstemningsomraader", cache = FALSE),
+  dawaR::get_map_data("kommuner", cache = FALSE),
+  dawaR::get_map_data("landsdele", cache = FALSE),
+  dawaR::get_map_data("menighedsraadsafstemningsomraader", cache = FALSE),
+  dawaR::get_map_data("opstillingskredse", cache = FALSE),
+  dawaR::get_map_data("politikredse", cache = FALSE),
+  dawaR::get_map_data("postnumre", cache = FALSE),
+  dawaR::get_map_data("regioner", cache = FALSE),
+  dawaR::get_map_data("retskredse", cache = FALSE),
+  dawaR::get_map_data("sogne", cache = FALSE),
+  dawaR::get_map_data("steder", cache = FALSE),
+  dawaR::get_map_data("storkredse", cache = FALSE),
+  dawaR::get_map_data("valglandsdele", cache = FALSE),
+  iterations = 10,
+  check = FALSE
+)
+```
+
+## Summary
+
+The main findings (e.g. the median timings for each function) is reported as `api_timings` in `utils.R`.
+
+```{r}
+head(benchmark, 20)
+```

@@ -8,6 +8,8 @@
 #'
 #' @param type Defines the type of map data to request from DAWA. Run
 #'   `available_sections(format = "geojson")` to see your options.
+#' @param cache Boolean to determine whether or not to cache the api call and
+#'   the function output. Default is `TRUE`.
 #'
 #' @return Returns a `data.frame` object that contains polygons (or points) for
 #'   the section provided.
@@ -17,7 +19,24 @@
 #' x <- get_map_data("regioner")
 #' ggplot2::ggplot(x) +
 #'   ggplot2::geom_sf()
-get_map_data <- function(type) {
+get_map_data <- function(type, cache = TRUE) {
+  if (cache == TRUE) {
+    if (memoise::has_cache(get_map_data_w_cache)(type)) {
+      cli::cli_alert("Using cached response.
+                        Change this behaviour by setting cache = FALSE")
+    }
+
+    get_map_data_w_cache(type = type)
+  } else if (cache == FALSE) {
+    get_map_data_nocache(type = type, cache = FALSE)
+  }
+}
+
+get_map_data_w_cache <- memoise::memoise(function(type) {
+  get_map_data_nocache(type = type, cache = TRUE)
+})
+
+get_map_data_nocache <- function(type, cache = FALSE) {
   if (!type %in% available_sections(format = "geojson", verbose = FALSE)) {
     cli::cli_abort("You have provided type {.var {type}}
                    which is not compatible with this function.")
@@ -25,15 +44,29 @@ get_map_data <- function(type) {
 
   check_sf_installation(verbose = FALSE)
 
-  cli::cli_progress_message("Fetching data from the API")
+  time_info <- api_timings[type]
+
+  if (is.na(names(time_info))) {
+    time_info <- "a very long time"
+  }
+
+  cli::cli_alert(
+    "Getting data on {.var {type}}. This usually takes {time_info}."
+  )
+
+  cli::cli_progress_message(
+    "Fetching data from the API. This will take some time."
+  )
 
   api_response <- dawa(
     section = type,
     format = "geojson",
-    verbose = FALSE
+    verbose = FALSE,
+    cache = cache
   )
 
-  cli::cli_progress_message("Reading data to `st`")
+  cli::cli_progress_message("Reading data to `st`.
+                              This will also take some time.")
 
   resp_st <- sf::st_read(
     api_response,
