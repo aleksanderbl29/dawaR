@@ -28,6 +28,7 @@ Codecov
 codecov
 codemeta
 codeRepository
+compatability
 ComputerLanguage
 conditionCall
 Config
@@ -67,6 +68,7 @@ fileSize
 fmls
 fn
 fO
+funciton
 fx
 geocode
 getClasses
@@ -121,6 +123,7 @@ renv
 repo
 req
 retskredse
+rlang
 rmapshaper
 rmarkdown
 Roxygen
@@ -129,6 +132,7 @@ rstudio
 runtimePlatform
 sameAs
 sdfi
+Sepcify
 setopt
 SHA
 simpleMessage

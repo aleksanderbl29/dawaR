@@ -440,7 +440,7 @@
     },
     "sf": {
       "Package": "sf",
-      "Version": "1.0-17",
+      "Version": "1.0-18",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -459,7 +459,7 @@
         "units",
         "utils"
       ],
-      "Hash": "453a7d0263eae87a7831242a74fe9b60"
+      "Hash": "801bec14b3bae0f37eef4d187ee0bb44"
     },
     "sys": {
       "Package": "sys",
@@ -574,13 +574,13 @@
     },
     "wk": {
       "Package": "wk",
-      "Version": "0.9.3",
+      "Version": "0.9.4",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R"
       ],
-      "Hash": "9ca478d7cb1450b42dcb8af2ea5681cc"
+      "Hash": "37be35d733130f1de1ef51672cf7cdc0"
     },
     "xml2": {
       "Package": "xml2",

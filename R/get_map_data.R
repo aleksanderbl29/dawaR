@@ -13,36 +13,47 @@
 #'
 #' @return Returns a `data.frame` object that contains polygons (or points) for
 #'   the section provided.
+#'
+#' @inheritParams dawa
+#'
 #' @export
 #'
 #' @examples
 #' x <- get_map_data("regioner")
 #' ggplot2::ggplot(x) +
 #'   ggplot2::geom_sf()
-get_map_data <- function(type, cache = TRUE) {
+get_map_data <- function(type, cache = TRUE, ...) {
+  params <- rlang::list2(...)
+
   if (cache == TRUE) {
-    if (memoise::has_cache(get_map_data_w_cache)(type)) {
+    if (memoise::has_cache(get_map_data_w_cache)(type, params)) {
       cli::cli_alert("Using cached response.
                         Change this behaviour by setting cache = FALSE")
     }
 
-    get_map_data_w_cache(type = type)
+    get_map_data_w_cache(type = type, params = params)
   } else if (cache == FALSE) {
-    get_map_data_nocache(type = type, cache = FALSE)
+    get_map_data_nocache(type = type, cache = FALSE, params = params)
   }
 }
 
-get_map_data_w_cache <- memoise::memoise(function(type) {
-  get_map_data_nocache(type = type, cache = TRUE)
+#' @importFrom rlang splice list2
+get_map_data_w_cache <- memoise::memoise(function(type, params = list()) {
+  get_map_data_nocache(type = type, cache = TRUE, params = params)
 })
 
-get_map_data_nocache <- function(type, cache = FALSE) {
+#' @importFrom rlang splice list2
+get_map_data_nocache <- function(type, cache = FALSE, params = list()) {
   if (!type %in% available_sections(format = "geojson", verbose = FALSE)) {
     cli::cli_abort("You have provided type {.var {type}}
                    which is not compatible with this function.")
   }
 
   check_sf_installation(verbose = FALSE)
+
+  if (length(params) == 0) {
+    params <- NULL
+  }
 
   time_info <- api_timings[type]
 
@@ -62,7 +73,8 @@ get_map_data_nocache <- function(type, cache = FALSE) {
     section = type,
     format = "geojson",
     verbose = FALSE,
-    cache = cache
+    cache = cache,
+    func_params = params
   )
 
   cli::cli_progress_message("Reading data to `st`.
