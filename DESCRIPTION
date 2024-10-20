@@ -1,7 +1,7 @@
 Package: dawaR
 Title: An API Wrapper Package for DAWA - The Danish Address Web API
 Date: 2024-09-16
-Version: 0.1.0
+Version: 0.2.1
 Authors@R: 
     person("Aleksander", "Bang-Larsen", , "contact@aleksanderbl.dk",
            role = c("aut", "cre", "cph"),
@@ -30,8 +30,10 @@ Config/testthat/parallel: true
 Depends:
   R (>= 3.5.0)
 Imports: 
+    memoise (>= 2.0.0),
     cli,
     httr2,
     sf,
-    tidyRSS
+    tidyRSS,
+    rlang
 VignetteBuilder: knitr
