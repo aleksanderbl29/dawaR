@@ -6,7 +6,6 @@ on:
       - "R/**"
       - "README.Rmd"
       - '.github/workflows/document.yaml'
-  pull_request:
   workflow_dispatch:
 
 name: document.yaml
