@@ -2,7 +2,9 @@
 #'
 #' @description Simple function to list all available options for the `section`
 #'   parameter in `dawa()`. Useful when getting to know the base api function of
-#'   this package.
+#'   this package. To filter based on funciton usage you can provide `format =
+#'   "geojson"` to ensure compatability with `get_map_data()` and `func =
+#'   "get_data"` to ensure compatability with `get_data()`.
 #'
 #'
 #' @param as_list This options controls the output format. The output is either
@@ -10,6 +12,9 @@
 #' @param format Specify a format type. The function now returns only available
 #'   sections that can respond with that format. Currently `geojson` is the only
 #'   format that is specified.
+#' @param func Sepcify the function you would like to ensure section
+#'   compatability with.
+#'
 #' @inheritParams dawa
 #'
 #' @return The function returns either a named list or an atomic vector with the
@@ -24,7 +29,8 @@
 #'
 available_sections <- function(as_list = FALSE,
                                format = NULL,
-                               verbose = TRUE) {
+                               verbose = TRUE,
+                               func = NULL) {
   adresser_sections <- c(
     "adgangsadresser",
     "adresser",
@@ -76,8 +82,24 @@ available_sections <- function(as_list = FALSE,
     if (format == "geojson") {
       not_geojson_friendly <- c("autocomplete", "vejnavne", "stednavntyper")
 
-      adresser_sections[!adresser_sections %in% not_geojson_friendly]
-      stednavne[!stednavne %in% not_geojson_friendly]
+      adresser_sections <-
+        adresser_sections[!adresser_sections %in% not_geojson_friendly]
+      stednavne <- stednavne[!stednavne %in% not_geojson_friendly]
+    }
+  }
+  if (!is.null(func)) {
+    if (func == "get_data") {
+      not_friendly <- c(
+        "adresser", "adgangsadresser", "autocomplete",
+        "bebyggelser", "navngivneveje", "steder",
+        "stednavne2", "vejnavnpostnummerrelationer",
+        "vejstykker"
+      )
+      adresser_sections <-
+        adresser_sections[!adresser_sections %in% not_friendly]
+      stednavne <- stednavne[!stednavne %in% not_friendly]
+      bygningspolygoner <- NULL
+      matrikelkortet <- NULL
     }
   }
 
