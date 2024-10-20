@@ -13,6 +13,8 @@
 #'
 #' @return Returns a data frame object with the services and their statuses. Is
 #'   only returned if `return_df = TRUE`.
+#'
+#' @importFrom tidyRSS tidyfeed
 #' @export
 #'
 #' @examples
