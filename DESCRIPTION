@@ -34,5 +34,6 @@ Imports:
     cli,
     httr2,
     sf,
-    tidyRSS
+    tidyRSS,
+    rlang
 VignetteBuilder: knitr

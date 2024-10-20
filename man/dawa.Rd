@@ -11,7 +11,8 @@ dawa(
   format = NULL,
   verbose = TRUE,
   cache = TRUE,
-  dry_run = FALSE
+  dry_run = FALSE,
+  func_params = list()
 )
 }
 \arguments{

@@ -59,7 +59,7 @@ available_sections <- function(as_list = FALSE,
   stednavne <- c(
     "steder",
     "stednavne2",
-    "stednavntyper",
+    # "stednavntyper",
     "bebyggelser"
   )
 

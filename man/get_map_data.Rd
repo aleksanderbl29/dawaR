@@ -4,7 +4,7 @@
 \alias{get_map_data}
 \title{Fetch map data to use with \code{{sf}}.}
 \usage{
-get_map_data(type, cache = TRUE)
+get_map_data(type, cache = TRUE, ...)
 }
 \arguments{
 \item{type}{Defines the type of map data to request from DAWA. Run
@@ -12,6 +12,8 @@ get_map_data(type, cache = TRUE)
 
 \item{cache}{Boolean to determine whether or not to cache the api call and
 the function output. Default is \code{TRUE}.}
+
+\item{...}{<\code{\link[rlang:dyn-dots]{dynamic-dots}}> input query parameters.}
 }
 \value{
 Returns a \code{data.frame} object that contains polygons (or points) for

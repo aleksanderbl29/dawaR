@@ -13,16 +13,19 @@
 #' x <- get_data("regioner")
 #' head(x)
 get_data <- function(section,
-                     as_list = FALSE) {
+                     as_list = FALSE, ...) {
   if (!section %in% available_sections()) {
     cli::cli_abort("You have provided section {.var {section}}.
                    It is not available through the api")
   }
 
+  params <- rlang::list2(...)
+
   response <- dawa(
     section = section,
     verbose = FALSE,
-    struktur = "flad"
+    struktur = "flad",
+    func_params = params
   )
 
   if (as_list == TRUE) {

@@ -40,7 +40,8 @@ dawa <- function(section,
                  format = NULL,
                  verbose = TRUE,
                  cache = TRUE,
-                 dry_run = FALSE) {
+                 dry_run = FALSE,
+                 func_params = list()) {
   if (!is.null(format)) {
     format <- match.arg(format, c(
       "json", "jsonp", "ndjson",
@@ -52,7 +53,6 @@ dawa <- function(section,
       cli::cli_abort("{.var append_to_url} must be of type {.var character}")
     }
   }
-
 
   params <- list(
     ...,
@@ -66,7 +66,8 @@ dawa <- function(section,
   base_request <- httr2::request(base_url) |>
     httr2::req_url_path_append(section) |>
     httr2::req_url_path_append(append_to_url) |>
-    httr2::req_url_query(!!!params) |>
+    httr2::req_url_query(!!!params) |> # user provided query params
+    httr2::req_url_query(!!!func_params) |> # list of inputs from funcs
     httr2::req_user_agent("dawaR (https://dawar.aleksanderbl.dk)")
 
   if (cache == TRUE) {
