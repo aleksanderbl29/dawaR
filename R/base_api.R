@@ -23,6 +23,10 @@
 #' @param dry_run With this option enabled, the function will output the request
 #'   that has been created - Without sending it to the api. This is useful for
 #'   debugging.
+#' @param func_params Option to include extra parameters (just like `...`
+#'   above). This option is used to pass down the dot-inputs from `get_data()`
+#'   and `get_map_data()`. It is recommended to use the dynamic dots instead of
+#'   this option, as an end user.
 #'
 #' @returns By default returns the API response as a list output. For
 #'   `geojson(z)` formats it returns the raw json. When `dry_run = TRUE` it
