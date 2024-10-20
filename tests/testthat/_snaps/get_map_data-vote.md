@@ -7,7 +7,7 @@
       Reading data to `st`
       Converting map data to `sf` object
     Output
-      Simple feature collection with 1298 features and 23 fields
+      Simple feature collection with 1308 features and 23 fields
       Geometry type: MULTIPOLYGON
       Dimension:     XY
       Bounding box:  xmin: 8.07251 ymin: 54.55908 xmax: 15.1974 ymax: 57.75257
