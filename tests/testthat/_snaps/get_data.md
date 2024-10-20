@@ -3,1305 +3,1315 @@
     Code
       get_data(section = "afstemningsomraader")
     Output
-           dagi_id nummer                                 navn
-      1     707732      1                          1. Østerbro
-      2     711932      2                              1. Nord
-      3     704936      3                               1. Syd
-      4     706160      5                              1. Vest
-      5     710802      6                          1. Nordvest
-      6     711204      7                      2. Sundbyvester
-      7     706166      8                              2. Nord
-      8     706562      9                               2. Syd
-      9     712286     10                              2. Vest
-      10    711926     11                          3. Indre By
-      11    709378     12                              3. Nord
-      12    704846     13                               3. Syd
-      13    707672     14                               3. Øst
-      14    707726     16                       4. Sundbyøster
-      15    704930     17                              4. Nord
-      16    706154     18                               4. Syd
-      17    701580     19                               4. Øst
-      18    706196     20                          5. Nørrebro
-      19    706184     21                              5. Nord
-      20    703386     22                               5. Syd
-      21    704962     23                               5. Øst
-      22    710832     24                              5. Vest
-      23    704956     25                          5. Nordvest
-      24    707738     27                        6. Bispebjerg
-      25    701606     28                              6. Nord
-      26    706172     29                               6. Øst
-      27    710808     30                               6. Syd
-      28    704944     31                          7. Brønshøj
-      29    710820     32                              7. Nord
-      30    701626     33                          7. Rødkilde
-      31    706178     34                               7. Øst
-      32    711946     35                              7. Vest
-      33    707744     36                          7. Nordvest
-      34    704950     39                        7. Katrinedal
-      35    703374     40                        7. Kirkebjerg
-      36    710814     41                           7. Vanløse
-      37    707648     42                             8. Valby
-      38    709306     43                              8. Nord
-      39    704776     44                               8. Syd
-      40    711890     46                              8. Vest
-      41    701520     47                            8. Sydøst
-      42    704784     48                              8. Midt
-      43    709384     49                         9. Vesterbro
-      44    701612     50                              9. Nord
-      45    706112     51                               9. Syd
-      46    709330     52                               9. Øst
-      47    709338     53                              9. Vest
-      48    704918     54                              9. Midt
-      49    706120     55                           9. Sydhavn
-      50    725338     56                               1. Øst
-      51    725346     57                               2. Øst
-      52    725352     58                    5. Nørrebrohallen
-      53    725358     59                              6. Vest
-      54    701758      1                    10. Kreds, Søerne
-      55    705122      2             10. Kreds, Grundtvigsvej
-      56    709590      3                 10. Kreds, Bülowsvej
-      57    711030      4                    10. Kreds, Duevej
-      58    709552      5                 11. Kreds, Lindevang
-      59    703490      6     11. Kreds, Frederiksberghallerne
-      60    701726      7                  11. Kreds, Rådhuset
-      61    710972      8               11. Kreds, Nyelandsvej
-      62    701002      1                              Tapeten
-      63    706986      2            Baltorpskolen - Rugvænget
-      64    710146      3              Skovvejens Skole - Vest
-      65    710158      4                      Grantoftehallen
-      66    705652      5                         Idrætshallen
-      67    704024      6         Skovlunde Skole - Lundebjerg
-      68    706992      8                         Måløv Ny Hal
-      69    710152      9                       Egebjerghallen
-      70    710164     10                       Østerhøjhallen
-      71    707090      1                  Brøndbyvester Skole
-      72    707084      2                      Tjørnehøjhallen
-      73    708674      3                     Lindelundshallen
-      74    702442      4                            Nørregård
-      75    702448      5                  Kulturhuset Brønden
-      76    748690      6                         Søholthallen
-      77    706596      1                         Dragør Skole
-      78    701922      4                      Hollænderhallen
-      79    707338      1                           Jægersborg
-      80    704436      2                            Munkegård
-      81    702884      3                             Rådhuset
-      82    702878      4                            Bakkegård
-      83    711716      5                            Dyssegård
-      84    702890      6                            Maglegård
-      85    701254      7                             Hellerup
-      86    702872      8                               Ordrup
-      87    704424      9                           Skovshoved
-      88    708814     10                             Skovgård
-      89    708600      1                             Bagsværd
-      90    711428      2                     Hovedbiblioteket
-      91    702286      3                              Egegård
-      92    710060      4                           Grønnemose
-      93    700958      5                              Mørkhøj
-      94    700934      6                             Stengård
-      95    706974      7                               Søborg
-      96    708592      8                              Vadgård
-      97    706944      9                              Værebro
-      98    702064      1                       Nordvanghallen
-      99    708406      2                          Sognegården
-      100   708412      3                     Søndervanghallen
-      101   700820      4                     Vestervangskolen
-      102   711278      5                           Ejbyhallen
-      103   700826      6                      Hvissingehallen
-      104   705798      1                  Herlev Medborgerhus
-      105   710346      2                      Herlev Hallerne
-      106   701152      3                      Kildegårdhallen
-      107   704718      1                   Herstedøster Skole
-      108   709136      2                        Egelundskolen
-      109   710708      3                    Herstedlund Skole
-      110   709130      4                    Kongsholmcenteret
-      111   706090      5                  Herstedvester Skole
-      112   703836      1                     Holmegårdshallen
-      113   709882      2                     Præstemoseskolen
-      114   702088      3                      Sønderkærskolen
-      115   706734      4                              Kometen
-      116   702094      5                       Dansborghallen
-      117   702070      6               Frihedens Idrætscenter
-      118   702080      7                        Avedøre Skole
-      119   706740      8                 Avedøre Idrætscenter
-      120   701852      1                Børne- og Kulturhuset
-      121   701958      2                           Parkskolen
-      122   703720      4                Taastrup Kulturcenter
-      123   707896      6                             Rådhuset
-      124   706412      7         Hallen ved Rønnevangsstrøget
-      125   703634      8                       Torstorp Skole
-      126   701952      9                            Sengeløse
-      127   701970     10                      Charlotteskolen
-      128   709780     12                         Fløng Hallen
-      129   711110     13                       Reerslev Skole
-      130   748591     14                Springcenter Nærheden
-      131   710178      1                          Lyngby Midt
-      132   708642      2                      Lyngby Idrætsby
-      133   704030      3                             Trongård
-      134   706998      4                           Engelsborg
-      135   711474      5                              Taarbæk
-      136   704050      6                                Virum
-      137   710170      7                          Hummeltofte
-      138   702310      8                        Virumhallerne
-      139   710194      9                            Lundtofte
-      140   707822      1                             Ørbygård
-      141   705072      2                            Tinderhøj
-      142   705066      3                              Rødovre
-      143   707814      4                               Valhøj
-      144   709566      5                        Rødovrehallen
-      145   706324      6                                Islev
-      146   724738      7                           Milestedet
-      147   708518      1                        Ishøj Landsby
-      148   709938      2                       Vibeholmskolen
-      149   700870      3                        Gildbroskolen
-      150   700876      4                     Strandgårdskolen
-      151   709944      5                       Ishøj Bycenter
-      152   711216      1                           Vestamager
-      153   701986      2                           Pilegården
-      154   709804      3                               Tårnby
-      155   708328      4                            Korsvejen
-      156   701992      5                          Løjtegården
-      157   708012      6                              Kastrup
-      158   707962      1         Vallensbæk Skole, Multisalen
-      159   709762      2                         Egholmskolen
-      160   701896      3                       Pilehaveskolen
-      161   700970      1                              Værløse
-      162   710110      2                             Hareskov
-      163   703986      3                             Søndersø
-      164   710104      4                             Jonstrup
-      165   708606      5                           Stavnsholt
-      166   705614      6                              Solvang
-      167   706956      7                             Paltholm
-      168   711248      1                            Blovstrød
-      169   703802      2                             Skovvang
-      170   706698      3                             Lillerød
-      171   705404      4                                Lynge
-      172   705398      5                            Ravnsholt
-      173   703808      1                           Asminderød
-      174   709824      2                          Fredensborg
-      175   703766      3                             Humlebæk
-      176   703814      4                           Baunebjerg
-      177   709818      5                             Kokkedal
-      178   702010      7                              Niverød
-      179   700760      8                              Karlebo
-      180   708376      9                                 Nivå
-      181   701118      1                     Helsingør Hallen
-      182   710298      2                  Skolen ved Gurrevej
-      183   705752      3                 Laden, Gl. Vapnagård
-      184   707098      4                               Bølgen
-      185   708702      5                        Hornbæk Skole
-      186   707136      6                         Nygård Skole
-      187   708696      7                          Tikøb Skole
-      188   705746      8                Kvistgård Idrætsanlæg
-      189   702682      9                   Snekkersten Hallen
-      190   702690     10                 Espergærde Bibliotek
-      191   710304     11                        Mørdrupskolen
-      192   748170     12                         Toldkammeret
-      193   708774      1                          Royal Stage
-      194   704344      2                 Hillerødsholmsskolen
-      195   701190      3                            Brødeskov
-      196   707252      4                          Hammersholt
-      197   702782      5                           Alsønderup
-      198   701196      6                              Ullerød
-      199   707266      7                               Nødebo
-      200   710380      8                             Gadevang
-      201   701210      9          Grønnevang Skole, Jespervej
-      202   711644     10          Grønnevang Skole, Østervang
-      203   705868     11                         Lille Lyngby
-      204   705844     12              Skævinge, Harløse, Strø
-      205   702788     13                              Gørløse
-      206   711650     14                               Uvelse
-      207   707664      1                             Hørsholm
-      208   709324      2                              Usserød
-      209   707688      3                             Rungsted
-      210   707682      4                           Grønnegade
-      211   711902      5                             Vallerød
-      212   711588      1                             Birkerød
-      213   704274      3                           Grünersvej
-      214   702734      4                                Nærum
-      215   702728      5                               Sjælsø
-      216   705784      6                               Skovly
-      217   707194      7                            Toftevang
-      218   708708      8                               Trørød
-      219   701142      9                              Vangebo
-      220   710334     10                               Vedbæk
-      221   703642      1                Ledøje Forsamlingshus
-      222   711116      2                  Smørum Idrætscenter
-      223   709714      3                             Stenløse
-      224   712198      4                                Veksø
-      225   706424      5                              Ganløse
-      226   705194      6                           Slagslunde
-      227   703648      7                             Ølstykke
-      228   701864      8                      Stengårdsskolen
-      229   705206      9                     Bækkegårdsskolen
-      230   710206      1                   Frederikssund Midt
-      231   701052      2                   Frederikssund Nord
-      232   704056      3                    Frederikssund Syd
-      233   702366      4                               Skibby
-      234   704070      5                           Jægerspris
-      235   707024      6                            Slangerup
-      236   718892      1    Arenaskolen ved Greve Kultur-Base
-      237   718916      2                   Greve Idrætscenter
-      238   718898      3                         Mosedeskolen
-      239   718922      4                   Karlslundehallerne
-      240   718910      5                         Tunehallerne
-      241   711336      1                              Køge By
-      242   709930      2                       Køge By - Vest
-      243   705508      3                                 Ølby
-      244   708480      4                            Ølsemagle
-      245   705502      5                              Hastrup
-      246   705496      6                             Herfølge
-      247   700864      7                                 Ejby
-      248   706854      8                            Vemmedrup
-      249   711350      9                           Bjæverskov
-      250   702164     10                              Gørslev
-      251   703912     11                                Borup
-      252   704878      1                            Hundested
-      253   704906      2                                Melby
-      254   707654      3                             Enghaven
-      255   707698      4                        Frederiksværk
-      256   710776      5                               Ølsted
-      257   707284      1                     Roskilde Bymidte
-      258   708806      2                        Klostermarken
-      259   704350      3                         Sankt Jørgen
-      260   710476      4                          Hedegårdene
-      261   704378      5                            Østervang
-      262   702794      6                             Himmelev
-      263   705900      7                           Svogerslev
-      264   704396      8                             Vindinge
-      265   711680      9                             Vor Frue
-      266   711710     10                           Tjørnegård
-      267   704320     11                          Gundsølille
-      268   704358     13                             Jyllinge
-      269   711686     14                          Gundsømagle
-      270   710404     15                             Baunehøj
-      271   707314     16                             Gadstrup
-      272   707326     17                                 Viby
-      273   707332     18                            Snoldelev
-      274   704402     21                            Trekroner
-      275   705362      1                              Havdrup
-      276   703748      4            Det Nordlige Strandområde
-      277   703740      5             Det Sydlige Strandområde
-      278   708756      1                             Blistrup
-      279   701158      2                           Esbønderup
-      280   708732      3                                Valby
-      281   704286      4                              Græsted
-      282   705834      5                              Annisse
-      283   711598      6                            Gilleleje
-      284   707246      7                               Søborg
-      285   704298      8                             Helsinge
-      286   705812      9                                Mårum
-      287   702752     10                              Ramløse
-      288   704292     11                                Vejby
-      289   701184     12                              Tibirke
-      290   701320      1                                Asnæs
-      291   704442      2                            Fårevejle
-      292   710508      3                             Grevinge
-      293   711730      4                                Hørve
-      294   708906      5                                Odden
-      295   704468      6                                  Vig
-      296   710514      7                             Nykøbing
-      297   701300      8                               Rørvig
-      298   708896     10                             Egebjerg
-      299   708820     11                                Højby
-      300   701326     12                               Lumsås
-      301   707376     13                        Nr. Asmindrup
-      302   708890      1                           Holbæk Øst
-      303   705950      2                          Holbæk Vest
-      304   702906      3                          Holbæk Midt
-      305   705924      4                             Vipperød
-      306   705958      5                                 Tuse
-      307   708868      6                                 Udby
-      308   708878      7                              Tølløse
-      309   701294      8                          St. Merløse
-      310   707370      9                             Regstrup
-      311   704456     10                              Undløse
-      312   704450     11                              Jyderup
-      313   701314     12                               Mørkøv
-      314   708862     13                            Svinninge
-      315   710502     14                             Gislinge
-      316   707528     15                                  Orø
-      317   702698      1                            Haslev 01
-      318   704216      2                            Haslev 02
-      319   701130      3                                 Faxe
-      320   701124      4                            Hylleholt
-      321   710310      5                               Karise
-      322   707142      6                                Dalby
-      323   710328      7                              Rønnede
-      324   705664      1                            Snertinge
-      325   708648      2                               Sejerø
-      326   701040      3                             Svebølle
-      327   707012      4                               Gørlev
-      328   704036      5                         Kr. Helsinge
-      329   702334      6                               Reersø
-      330   707004      7                            Svallerup
-      331   708654      8                                 Ubby
-      332   702316      9                                 Høng
-      333   701026     10                               Buerup
-      334   702322     11                             Gierslev
-      335   701032     12                     Kalundborghallen
-      336   711468     13                            Rynkevang
-      337   705658     14                             Tømmerup
-      338   701008     15                           Årby-Rørby
-      339   711460     16                               Raklev
-      340   710188     17                               Røsnæs
-      341   702328     18                               Ulshøj
-      342   711804      1                   Ringsted Nørretorv
-      343   703062      2                           Bringstrup
-      344   710656      3                            Gyrstinge
-      345   703050      4                              Benløse
-      346   711816      5                           Haraldsted
-      347   704618      6                Ringsted Dagmarskolen
-      348   710650      8                              Jystrup
-      349   709042      9                             Kværkeby
-      350   706072     10                           Vetterslev
-      351   707472     11                              Sneslev
-      352   711810     12                              Nordrup
-      353   704612     13                            Vigersted
-      354   703056     14                               Ørslev
-      355   711606      1                              Dalmose
-      356   701164      3                        Slots Bjergby
-      357   711630      4                           Sørbymagle
-      358   701098      5                  Korsør Søndre Bydel
-      359   720074      6                  Korsør Nordre Bydel
-      360   701108      7                             Tårnborg
-      361   705790      8                             Vemmelev
-      362   702758      9                           Søndermark
-      363   705710     10                                 Rude
-      364   748430     11                             Skælskør
-      365   704408     12                               Agersø
-      366   710288     13                            Boeslunde
-      367   704418     17                                  Omø
-      368   705804     19                      Slagelse Hallen
-      369   710362     21                           Vesthallen
-      370   711566     22                           Nordhallen
-      371   705820     24                           Vestermose
-      372   707240     25                            Stillinge
-      373   706800      1                         Hårlevhallen
-      374   706794      2                  Strøby Idrætscenter
-      375   703848      3                         Stevnshallen
-      376   705452      4                      Sydstevnshallen
-      377   705570      1                            Dianalund
-      378   705564      2                           Ruds Vedby
-      379   711404      4                    Alsted Fjenneslev
-      380   702234      5                                 Sorø
-      381   711410      6                        Frederiksberg
-      382   700914      8                           Pedersborg
-      383   710022     10                            Stenlille
-      384   703440      1                      Hyllinge-Lyndby
-      385   707756      2                                  Rye
-      386   703454      3                         Sæby-Gershøj
-      387   706260      4                             Sonnerup
-      388   712044      5                                 Glim
-      389   707762      6                               Hvalsø
-      390   712008      8                              Kr.Såby
-      391   706216      9                             Gevninge
-      392   710890     11                                Lejre
-      393   703434     12                                Osted
-      394   708426      1                            Errindlev
-      395   700840      3                               Holeby
-      396   706762      8                               Sandby
-      397   706822     11                            Søllested
-      398   705484     13                               Maribo
-      399   709912     14                                 Askø
-      400   708456     19                              Østofte
-      401   705458     20                         Nakskov Vest
-      402   705464     21                          Nakskov Øst
-      403   706808     26                               Birket
-      404   709900     27                                 Fejø
-      405   706816     28                                 Femø
-      406   703864     29                            Horslunde
-      407   706746     35                            Dannemare
-      408   702106     36                                Rødby
-      409   703882     37                            Rødbyhavn
-      410   711122      1                           Fuglebjerg
-      411   707904      2                             Everdrup
-      412   712210      3                       Grønbro Hallen
-      413   707910      4                        Fladså Hallen
-      414   703660      5                              Tybjerg
-      415   707924      6                           Tappernøje
-      416   711128      7             Hammer - Vester Egesborg
-      417   707918      8                             Fensmark
-      418   709726      9                        Holme-Olstrup
-      419   712222     10                             Toksværd
-      420   703666     11                               Glumsø
-      421   707930     12                               Sandby
-      422   705200     14                          Herlufmagle
-      423   701870     20      Lille Næstved Skole - Digtervej
-      424   703654     21                  Grønnegades Kaserne
-      425   706454     22                  Næstved Firma Sport
-      426   701858     23                        Arena Næstved
-      427   706430     24                   Sct. Jørgens Skole
-      428   712204     26 Lille Næstved Skole - Herlufsholmvej
-      429   711136     27                    Herlufsholmhallen
-      430   711142     28            Kobberbakkeskolen - Sydby
-      431   706418     29         Kobberbakkeskolen - Rønnebæk
-      432   706398     31                             Hyllinge
-      433   703592     32       Lille Næstved Skole - Karrebæk
-      434   709646      1                                 Byen
-      435   703554      2                             Østerbro
-      436   706380      3                            Lindeskov
-      437   706386      4                               Ejegod
-      438   712124      5                             Kraghave
-      439   701778      6                               Toreby
-      440   701828      7                               Sundby
-      441   712080      8                               Nysted
-      442   705042      9                         Øster Ulslev
-      443   701748     10                         Nørre Alslev
-      444   711018     11                          Nørre Vedby
-      445   712156     12                           Eskilstrup
-      446   707852     13                           Sakskøbing
-      447   709572     14                             Majbølle
-      448   709670     15                            Våbensted
-      449   703496     16                         Stubbekøbing
-      450   709640     17                              Horreby
-      451   703548     18                             Idestrup
-      452   701764     19                           Væggerløse
-      453   705108     20                               Gedser
-      454   711010      1                          Vordingborg
-      455   706314      2                           Masnedsund
-      456   705084      3                                Nyråd
-      457   705078      4                              Kastrup
-      458   709558      5                                Bårse
-      459   705010      6                               Lundby
-      460   709584      7                               Ørslev
-      461   707768      8                                Stege
-      462   712094      9                               Østmøn
-      463   701698     10                              Vestmøn
-      464   701742     11                                 Bogø
-      465   706306     12                               Præstø
-      466   701732     13                            Allerslev
-      467   703480     14                           Jungshoved
-      468   707828     15                                 Mern
-      469   705054     16                            Kalvehave
-      470   706330     17                             Stensved
-      471   703208      1                              Allinge
-      472   707574      2                           Østermarie
-      473   703086      3                              Svaneke
-      474   703286      4                                 Nexø
-      475   709262      5                            Pedersker
-      476   704742      6                            Aakirkeby
-      477   712002      7                           Klemensker
-      478   711102      8                                Rønne
-      479   707890      9                                Hasle
-      480   706714      1                         Middelfart V
-      481   708394      2                         Middelfart Ø
-      482   703828      3                                Strib
-      483   705440      4                             Hyllehøj
-      484   706728      5                                Aulby
-      485   709862      6                           Nørre Aaby
-      486   711266      7                              Baaring
-      487   705422      8                                 Ejby
-      488   708388      9                              Gelsted
-      489   700808     10                            Brenderup
-      490   705434     11                    Fjelsted/Harndrup
-      491   702974      1                          Christiansø
-      492   710764      1                               Assens
-      493   709318      2                       Ebberup/Helnæs
-      494   711914      3                                Turup
-      495   709286      4                            Salbrovad
-      496   748073      5                          Aarup/Kerte
-      497   748071      6                                Rørup
-      498   710796      7                          Orte/Ørsted
-      499   704912      8                 Glamsbjerg/Søllested
-      500   701534      9                             Flemløse
-      501   748072     10                                 Køng
-      502   748070     11                          Vissenbjerg
-      503   701526     12                            Dreslette
-      504   707710     13                               Haarby
-      505   711908     14                             Jordløse
-      506   701552     15                               Brylle
-      507   710784     16                             Tommerup
-      508   704924     17                          Tommerup St
-      509   707704     18                       Verninge/Nårup
-      510   709036      1                       Allested-Vejle
-      511   707478      2                            Brobyværk
-      512   707442      3                          Nørre Broby
-      513   704606      4                       Vester Hæsinge
-      514   711756      5                             Avernakø
-      515   701392      7                              Faaborg
-      516   710612      8                                Horne
-      517   709008      9                              Korinth
-      518   704544     10                                  Lyø
-      519   704554     11                            Svanninge
-      520   708944     12                          Vester Aaby
-      521   709014     13                                 Espe
-      522   703044     14                           Hillerslev
-      523   711798     15                                Ringe
-      524   710674     16                             Søllinge
-      525   704576     17                               Gislev
-      526   704582     18                            Kværndrup
-      527   701422     19                             Ryslinge
-      528   707460     20                         Nr. Lyndelse
-      529   707454     21                           Ferritslev
-      530   706054     22                               Årslev
-      531   712260      1                            Hindsholm
-      532   706574      2                           Kerteminde
-      533   748590      3                             Nymarken
-      534   705322      4                              Marslev
-      535   705316      5                            Langeskov
-      536   707976      6                              Munkebo
-      537   705368      1                        Aunslevhallen
-      538   703754      2                         Nyborghallen
-      539   706634      3                            Bastionen
-      540   705374      4              Vindinge Forsamlingshus
-      541   709812      5        Langå, Svindinge Og Øksendrup
-      542   708334      6                            Ullerslev
-      543   701998      7                              Ellinge
-      544   703760      8                            Skellerup
-      545   708340      9                             Langtved
-      546   708346     10                                Ørbæk
-      547   705380     11                      Frørup Og Tårup
-      548   702004     12                Ellested Og Herrested
-      549   706642     13             Kullerup Og Refsvindinge
-      550   746369      1                  Skt. Jørgens Hallen
-      551   707258      2                      Sct. Hans Skole
-      552   705850      3                         Risingskolen
-      553   711668      4                     Munkebjergskolen
-      554   707294      5                     Ejerslykkeskolen
-      555   705856      6                        Agedrup Skole
-      556   708762      7                     Fjordager-Hallen
-      557   710386      9                Fraugde Fritidscenter
-      558   707300     11                     Seniorhus Odense
-      559   708782     12                           CSV-Skolen
-      560   702812     13                          Lumby Skole
-      561   702824     14                          Stige Skole
-      562   701218     16                     Spurvelundskolen
-      563   702818     17                      Kroggårdsskolen
-      564   701224     18                          Tarup Skole
-      565   702830     19                        Paarup Hallen
-      566   710430     20                          Korup Skole
-      567   707308     21       Ubberud Kultur & Bevægelseshus
-      568   705888     23                             Rådhuset
-      569   705876     24                 Sct. Knuds Gymnasium
-      570   705894     25                      Rosengårdskolen
-      571   711692     26                       Sanderumhallen
-      572   705882     28                   Rasmus Rask-Skolen
-      573   711698     29                      Tingløkkeskolen
-      574   702866     30                          Dalumskolen
-      575   708794     31                   Skt. Klemensskolen
-      576   708800     32                Fangel Forsamlingshus
-      577   711704     33                          Højby Skole
-      578   711662     35                               Camp U
-      579   705862     36       UngOdense (Tidl.Bækholmskolen)
-      580   705276      1                                 Byen
-      581   701944      2                               Nordre
-      582   705356      3                                Østre
-      583   748110      4                             Bjerreby
-      584   707990      5                            Bregninge
-      585   703708      6                                Drejø
-      586   705328      7                               Egense
-      587   705344      8                               Landet
-      588   703734      9                               Skårup
-      589   709768     10                                Thurø
-      590   703728     11                                 Tved
-      591   709774     14                              Kirkeby
-      592   706616     16                              Ollerup
-      593   701964     17                            Stenstrup
-      594   708006     19                          V.Skerninge
-      595   705350     21                             Gudbjerg
-      596   709786     23                                Gudme
-      597   712298     25                           Hesselager
-      598   707982     27                                 Oure
-      599   748639      1                              Bogense
-      600   748634      2                               Klinte
-      601   748632      3                           Krogsbølle
-      602   748636      4                              Otterup
-      603   748630      5                            Skovløkke
-      604   748631      6                             Veflinge
-      605   748635      7                              Hårslev
-      606   748633      8                                Morud
-      607   748638      9                              Særslev
-      608   748637     10                             Søndersø
-      609   707504      1                             Bagenkop
-      610   704630      2                               Humble
-      611   704594      5                            Rudkøbing
-      612   701464      7                           Tullebølle
-      613   748510     11                                Snøde
-      614   706902      1                              Marstal
-      615   702246      2                           Ærøskøbing
-      616   700952      3                                 Søby
-      617   706096      1                       Haderslev Nord
-      618   707626      2                        Haderslev Syd
-      619   704724      3                       Haderslev Vest
-      620   701494      4                              Moltrup
-      621   704736      5                            Fjelstrup
-      622   709256      6                              Aastrup
-      623   709300      7                                 Aarø
-      624   711866      8                                 Øsby
-      625   710846      9                               Starup
-      626   711872     10                             Kelstrup
-      627   709412     11                              Hoptrup
-      628   703422     12                             Marstrup
-      629   703202     13                             Hammelev
-      630   706202     14                         Over Jerstal
-      631   703080     15                              Bevtoft
-      632   704730     16                           Skrydstrup
-      633   707620     17                               Vojens
-      634   707612     18                           Sommersted
-      635   710748     19                              Nustrup
-      636   703400     20                                 Gram
-      637   709148     21                                Arnum
-      638   709390     22                                 Fole
-      639   704500      1                              Billund
-      640   701374      2                            Sdr. Omme
-      641   704532      3                             Vorbasse
-      642   702968      4                              Filskov
-      643   710594      5                         St./Krogager
-      644   707400      6                            Grindsted
-      645   708930      7                             Hejnsvig
-      646   703038      1                             Nordborg
-      647   710634      2                            Havnbjerg
-      648   701408      3                                 Egen
-      649   701428      4                              Fynshav
-      650   710642      5                         Augustenborg
-      651   707448      6                                Hørup
-      652   703032      7                               Sydals
-      653   707466      8                               Kegnæs
-      654   701434      9                 Humlehøj, Sønderborg
-      655   704588     10               Sønderskov, Sønderborg
-      656   710622     11                 Kongevej, Sønderborg
-      657   701416     12                               Dybbøl
-      658   706060     13                       Vester Sottrup
-      659   706040     14                              Ullerup
-      660   706048     15                              Broager
-      661   704566     16                              Gråsten
-      662   706066     17                                Kværs
-      663   712106      1                             Bredebro
-      664   703560      2                               Ballum
-      665   711072      3                                Visby
-      666   706374      4                                Højer
-      667   707858      7                       Sdr. Sejerslev
-      668   706368      8                          Møgeltønder
-      669   701834     12                         Løgumkloster
-      670   711084     14                            Nr. Løgum
-      671   703566     15                              Bedsted
-      672   709676     16                          Øster Højst
-      673   701806     17                             Agerskov
-      674   711066     18                               Arrild
-      675   709622     19                            Branderup
-      676   709616     21                              Døstrup
-      677   701800     23                             Toftlund
-      678   711078     24                                Brøns
-      679   705136     25                               Tønder
-      680   701794     27                                Abild
-      681   707840     29                              Hostrup
-      682   705128     51                                 Rømø
-      683   709602     61                              Skærbæk
-      684   705162     71                               Vodder
-      685   705826      2                       Esbjerg Rådhus
-      686   708726      3                               Skovbo
-      687   701204      4                              Rørkjær
-      688   710374      5                                Jerne
-      689   702746      6                           Boldesager
-      690   702806      7                            Østerbyen
-      691   705174      8                                Skads
-      692   708768     11                              Gjesing
-      693   701840     12                              Bryndum
-      694   704330     15                              Sædding
-      695   712150     16                             Hjerting
-      696   709664     17                             Guldager
-      697   703522     20                            Tjæreborg
-      698   702740     21                             Kvaglund
-      699   710368     22                               Ådalen
-      700   710398     23                      Grønlandsparken
-      701   711090     24                            Sønderris
-      702   703542     25                             Bramming
-      703   703580     28                                 Ribe
-      704   707870     32                       Egebæk-Hviding
-      705   701812     33                          Gredstedbro
-      706   703586     35                                Mandø
-      707   707876     38                                  Høm
-      708   707864     40                              Gørding
-      709   702962      1                               Nordby
-      710   710532      2                             Sønderho
-      711   701470      1                             Varde By
-      712   707512      4                                  Sig
-      713   709030      5                               Billum
-      714   709048      6                              Tinghøj
-      715   704642      7                               Alslev
-      716   707556      8                                Horne
-      717   706084      9                             Janderup
-      718   710668     10                                Lunde
-      719   707430     13                          Nørre Nebel
-      720   703068     14                                Henne
-      721   710662     15                               Outrup
-      722   707498     18                               Oksbøl
-      723   708972     19                              Blåvand
-      724   709060     22                                 Årre
-      725   704694     23                              Agerbæk
-      726   704654     24                               Fåborg
-      727   707562     26                             Næsbjerg
-      728   704648     27                               Starup
-      729   706078     28                           Nordenskov
-      730   710690     30                                Ølgod
-      731   704624     31                              Tistrup
-      732   701482     32                              Ansager
-      733   709054     33                             Skovlund
-      734   703026      1                               Brørup
-      735   706022      2                             Lindknud
-      736   701368      3                              Holsted
-      737   706028      4                              Føvling
-      738   707412      5                            Glejbjerg
-      739   707418      6                              Hovborg
-      740   701350      7                              Rødding
-      741   704526      8                           Sdr. Hygum
-      742   706016      9                                 Jels
-      743   710606     10                              Lintrup
-      744   704538     11                             Skodborg
-      745   701380     12                           Københoved
-      746   710600     13                         Øster Lindet
-      747   704514     14                                Vejen
-      748   703014     15                               Læborg
-      749   701362     16                           Askov-Malt
-      750   704520     17                                Andst
-      751   703020     18                               Gesten
-      752   701386     19                                Bække
-      753   705386      1                             Hovslund
-      754   703772      2                             Hellevad
-      755   706666      3                              Rødekro
-      756   701976      4                                 Løjt
-      757   705392      5                             Hjordkær
-      758   706648      6                              Ravsted
-      759   708364      7                           Bolderslev
-      760   703784      8                               Ensted
-      761   708358      9                              Felsted
-      762   708352     10                               Varnæs
-      763   706654     11                             Bylderup
-      764   711228     12                              Tinglev
-      765   706660     13                              Kliplev
-      766   709794     14                                Kruså
-      767   709832     15                              Padborg
-      768   702016     16                        Aabenraa Midt
-      769   703778     17                         Aabenraa Syd
-      770   700772     18                        Aabenraa Nord
-      771   707936      1                            Gymnasiet
-      772   709738      2                   Bredstrup-Pjedsted
-      773   701876      3                              Erritsø
-      774   709732      4                              Herslev
-      775   705216      5                               Taulov
-      776   707944      6                         Søndermarken
-      777   711148      7                             Bøgeskov
-      778   712216      8                             Indre By
-      779   710898      1                            Sønderbro
-      780   704998      2                             Vestbyen
-      781   706286      3                             Midtbyen
-      782   706240      4                             Endelave
-      783   706268      5                                Forum
-      784   701652      6                               Dagnæs
-      785   707750      7                              Torsted
-      786   706280      8                              Hatting
-      787   710912      9                                 Lund
-      788   706274     10                             Egebjerg
-      789   710904     11                           Stensballe
-      790   709464     12                            Højvangen
-      791   701658     13                            Brædstrup
-      792   706254     14                                  Nim
-      793   706298     15                          Sdr.Vissing
-      794   701646     16                              Østbirk
-      795   712014     17                               Gedved
-      796   709470     18                            Hovedgård
-      797   712020     19                               Søvind
-      798   712056     20                       Tønning-Træden
-      799   703428     21                           Sundparken
-      800   709476     22                                Sejet
-      801   706610      1                         Centrum Nord
-      802   701938      2                             Nordbyen
-      803   706604      3                             Vestbyen
-      804   705338      4         Strandhuse/Nr. Bjert/ Eltang
-      805   706622      5                          Bramdrupdam
-      806   701932      6            Alminde-Viuf/Vester Nebel
-      807   708000      7                   Lunderskov/Jordrup
-      808   701902      8                          Centrum Syd
-      809   701916      9                              Sydbyen
-      810   712320     10                                Seest
-      811   701908     11                     Dalby/Tved/Rebæk
-      812   705308     12         S Bjert/S Stenderup/Vejstrup
-      813   707970     13                              Vonsild
-      814   712326     14                  Vamdrup/Hjarup/Ødis
-      815   712312     15         Chr.Feld/Stepping/Taps/Hejls
-      816   708612      1                         Brejning Syd
-      817   711442      2                           Børkop Syd
-      818   700976      3                          Gårslev Syd
-      819   702298      4                        Smidstrup Syd
-      820   710116      5                           Ødsted Syd
-      821   710134      6                           Egtved Syd
-      822   711448      7                           Jerlev Syd
-      823   710122      8                     Øster Starup Syd
-      824   708618      9                        DGI-Huset Syd
-      825   710128     10                 Multihuset Højen Syd
-      826   703992     11            Vinding Idræts Center Syd
-      827   705630     12                    Mølholmhallen Syd
-      828   700984     13                    Kvartershuset Syd
-      829   705620     14                      CSV - Vejle Syd
-      830   703998     15               Rødkilde Gymnasium Syd
-      831   702280     16                   Skibet Hallen Nord
-      832   711436     17                            Give Nord
-      833   700940     18                        Thyregod Nord
-      834   706950     19                        Gadbjerg Nord
-      835   700946     20                         Givskud Nord
-      836   706962     21                       Grønbjerg Nord
-      837   702264     22                      Lindeballe Nord
-      838   703974     23                   Øster Nykirke Nord
-      839   708586     24                         Jelling Nord
-      840   703968     25                Kollerup-Sandvad Nord
-      841   710054     26                           Grejs Nord
-      842   702272     27                        Bredsten Nord
-      843   708580     28                           Nørup Nord
-      844   702258     29                          Vandel Nord
-      845   705588     30                Nørremarkshallen Nord
-      846   703960     31                           Engum Nord
-      847   706968     32                  Hældagerhallen Nord
-      848   705594     33                      Grejsdalen Nord
-      849   703980     34               Petersmindehallen Nord
-      850   712062      1                              Herning
-      851   706292      2                              Arnborg
-      852   703462      5                                Kibæk
-      853   701670      6                               Kølkær
-      854   712050      7                                 Lind
-      855   701664      8                         Sdr. Felding
-      856   710918      9                             Skarrild
-      857   704992     11                            Studsgård
-      858   709506     13                                Aulum
-      859   709514     14                             Feldborg
-      860   701676     15                           Gullestrup
-      861   701720     16                              Haderup
-      862   703468     17                             Hammerum
-      863   705004     18                             Hodsager
-      864   705024     19                               Ilskov
-      865   701684     20                            Simmelkær
-      866   701714     21                              Sinding
-      867   703474     22                     Skibbild/Nøvling
-      868   707802     23                            Snejbjerg
-      869   712068     24                                Sunds
-      870   710958     25                              Timring
-      871   709528     26                             Tjørring
-      872   712074     27                            Vildbjerg
-      873   709520     28                                 Vind
-      874   701690     29                              Vinding
-      875   705030     30                               Ørnhøj
-      876   709372      1                         Musikteatret
-      877   703344      2                               Mejdal
-      878   707720      3                                Skave
-      879   703338      4                               Mejrup
-      880   711920      5                 Nørreboulevardskolen
-      881   701564      6                             Vinderup
-      882   706148      7                                Sevel
-      883   706142      8                              Ulfborg
-      884   703316      9                                 Vemb
-      885   709344     10                          Sdr. Nissum
-      886   706536      1                               Lemvig
-      887   711166      2                         Nørre Nissum
-      888   711178      3                              Klinkby
-      889   711172      4                                Ramme
-      890   712242      5                              Bøvling
-      891   711198      6                              Flynder
-      892   706550      7                             Thyborøn
-      893   701882      8                             Harboøre
-      894   711302      1                               Struer
-      895   702100      2                              Gimsing
-      896   703842      3                                Hjerm
-      897   700832      4                               Humlum
-      898   706786      5                              Bremdal
-      899   708418      6                              Langhøj
-      900   709888      7                            Hvidbjerg
-      901   701596      1                             Ebeltoft
-      902   703350      2                                 Mols
-      903   703380      3                             Tirstrup
-      904   711940      4                               Kolind
-      905   711952      5                             Ryomgård
-      906   701618      6                             Hornslet
-      907   710826      7                                Mørke
-      908   711958      8                                Rønde
-      909   709078      1               Kulturhuset Pavillonen
-      910   711832      2                         Anholt Skole
-      911   709066      3                Kulturhuset Stationen
-      912   707484      4                  Grenaa Idrætscenter
-      913   709072      5                             Glesborg
-      914   707518      6                                 Ørum
-      915   704660      7                               Ørsted
-      916   710680      8                           Allingåbro
-      917   709084      9                               Auning
-      918   701476     10                               Vivild
-      919   712100      1                         Hadsten Nord
-      920   711042      2                          Hadsten Syd
-      921   709610      3                             Hadbjerg
-      922   706354      4                          Hammel Nord
-      923   706342      5                           Hammel Syd
-      924   709596      6               Haldum-Hinnerup/Vitten
-      925   705102      7                      Rønbæk/Grundfør
-      926   704336      8                               Foldby
-      927   707834      9                              Ulstrup
-      928   707278     10                   Thorsø/Haurum/Sall
-      929   711048     11                  Laurbjerg/Houlbjerg
-      930   711674     12                               Søften
-      931   706360     13                               Voldum
-      932   707272     14                               Lading
-      933   709406      1                                Odder
-      934   701640      2                              Torrild
-      935   701632      3                      Saksild - Nølev
-      936   709400      4                   Randlev - Bjerager
-      937   703392      5                Hou, Gosmer - Halling
-      938   704968      6                              Gylling
-      939   706210      7                       Ørting-Falling
-      940   704986      8                            Hundslund
-      941   711964      9                                 Alrø
-      942   710838     10                                 Tunø
-      943   704314      1                    Kulturhuset Langå
-      944   702764      2            Stevnstrup Forsamlingshus
-      945   701178      4               Jebjerg Forsamlingshus
-      946   704136      5                        Havndalhallen
-      947   704222      6                  Råby Forsamlingshus
-      948   705768      7         Øster Tørslev Fritidslokaler
-      949   710316      8                        Korshøjskolen
-      950   702710      9                  Hald Forsamlingshus
-      951   701136     10                Gjerlev Aktivitetshus
-      952   707150     11                       Rismølleskolen
-      953   704268     12                      Trekløverskolen
-      954   707188     13                        Hornbækhallen
-      955   710340     14                        Blicherskolen
-      956   705778     15        Kultur-Aktivitetshuset Gassum
-      957   708750     16                   Asferg Træningshus
-      958   708738     17                         Purhushallen
-      959   702776     21         Ø. Bjerregrav Forsamlingshus
-      960   707212     24                     Psykiatriens Hus
-      961   702770     25                    Hobrovejens Skole
-      962   707182     26              Randers Badmintonhaller
-      963   710322     27                     Nørrevangsskolen
-      964   711624     28                       Fritidscentret
-      965   711576     29                    Vestervangsskolen
-      966   711582     30                     Østervangsskolen
-      967   708744     31                     Søndermarkskolen
-      968   711638     32                     Tirsdalens Skole
-      969   704280     33                    Paderup Gymnasium
-      970   702716     34                 Romalt Aktivitetshal
-      971   710392     36                      Assentofthallen
-      972   707204     37             Uggelhuse Forsamlingshus
-      973   708400      1                                  Ans
-      974   700814      2                               Funder
-      975   705416      3                              Fårvang
-      976   709876      4                                Gjern
-      977   711288      5                            Grauballe
-      978   711296      6                               Gødvad
-      979   711260      7                            Kjellerup
-      980   711222      8                            Kragelund
-      981   711254      9                              Lemming
-      982   711272     10                                 Linå
-      983   700766     11                             Resenbro
-      984   706706     12                              Sejling
-      985   705410     13                                 Sejs
-      986   709870     14                             Sjørslev
-      987   702058     15                              Sorring
-      988   703820     16                             Thorning
-      989   708382     17                           Vinderslev
-      990   705446     18                                 Voel
-      991   709850     21                                Balle
-      992   700802     22                               Bryrup
-      993   706686     23                            Buskelund
-      994   706692     24                               Gjessø
-      995   702052     25                             Hjøllund
-      996   709856     26                         Langsøskolen
-      997   702040     27                               Lysbro
-      998   702046     28                           Alderslyst
-      999   706680     29                           Jysk Arena
-      1000  700790     30                                 Them
-      1001  711242     31                     Vestergadehallen
-      1002  700796     32                             Virklund
-      1003  709154      1                           Tranebjerg
-      1004  704790      2                               Nordby
-      1005  700784      1                        Ejer Bavnehøj
-      1006  702022      2                               Galten
-      1007  702034      3                              Gl. Rye
-      1008  709844      4                              Hørning
-      1009  702028      5                                Låsby
-      1010  700778      6                         Morten Børup
-      1011  711236      7                        Niels Ebbesen
-      1012  703790      8                                   Ry
-      1013  708370      9                               Skovby
-      1014  703796     10                             Stilling
-      1015  706674     11                                Stjær
-      1016  709838     12                              Virring
-      1017  702188      1               Frederiksbjerghallerne
-      1018  706884      2                Folkehuset Ankersgade
-      1019  706890      3                 Rundhøjhallen, Holme
-      1020  703936      4            Kragelundskolen, Højbjerg
-      1021  702228      6                      Tranbjerg Skole
-      1022  700922      7              Rosenvangskolen, Viby J
-      1023  700928      8                          Viby Hallen
-      1024  709990      9                          Beder Skole
-      1025  708544     10                                DOKK1
-      1026  711386     11                        Malling Skole
-      1027  703942     12                        Mårslet Skole
-      1028  709996     13                             Solbjerg
-      1029  748351     14        Generationernes Hus, Aarhus Ø
-      1030  705582     16                   Ormslev Præstegård
-      1031  703954     18                    Hasselager Hallen
-      1032  702240     19              Højvangskolen, Stavtrup
-      1033  748350     20        Folkestedet, Carl Blochs Gade
-      1034  708568     21                         Rådhushallen
-      1035  700890     22             Gammelgårdskolen, Åbyhøj
-      1036  706860     23                          Hasle Skole
-      1037  706938     24                      Brabrand Hallen
-      1038  710046     25                             Globus 1
-      1039  710040     26                      Skjoldhøjskolen
-      1040  723742     27            Via University, Ceresbyen
-      1041  703948     28              TST Aktiv-Center, Tilst
-      1042  711422     30                         Næshøjhallen
-      1043  705576     31                 Borum Forsamlingshus
-      1044  710034     33           Sabro-Korsvejskolen, Sabro
-      1045  711398     41                     Samsøgades Skole
-      1046  708530     42                       Skovvangskolen
-      1047  706866     43                      Møllevangskolen
-      1048  705526     44                       Lisbjergskolen
-      1049  709972     45                     Bellevuehallerne
-      1050  705532     47                       Lystrup Hallen
-      1051  711374     48               Virupskolen, Hjortshøj
-      1052  702208     49                    Sølystskolen, Egå
-      1053  708574     50                        Skæring Skole
-      1054  705544     51                     Skødstrup Hallen
-      1055  705514     53              Bjørnshøjcentret, Trige
-      1056  705520     55                   Spørring Fælleshus
-      1057  711356     56                         Hårup Hallen
-      1058  711368     61                Vejlby-Risskov Hallen
-      1059  711416     62             Søndervangskolen, Viby J
-      1060  709952     63                      FrydenlundHUSET
-      1061  710028     64                           Åby Hallen
-      1062  711392     65              Ellevangskolen, Risskov
-      1063  700902     66                          Skåde Skole
-      1064  703918     67                   Katrinebjergskolen
-      1065  708524     68                      Vorrevangskolen
-      1066  705552      1                              Ejstrup
-      1067  703930      2                             Gludsted
-      1068  709984      3                          Nørre Snede
-      1069  713316      4                             Klovborg
-      1070  702176      5                               Brande
-      1071  713298      6                               Blåhøj
-      1072  711380      7                                Ikast
-      1073  703924      8                              Isenvad
-      1074  713304      9                              Bording
-      1075  713310     10                            Engesvang
-      1076  707956      1                                 Tarm
-      1077  706404      2                            Holmsland
-      1078  748670      4                                 Ådum
-      1079  748671      7                               Hemmet
-      1080  712176     10                          Hvide Sande
-      1081  706556     12                              Velling
-      1082  705180     14                           Ringkøbing
-      1083  712306     16                                  Hee
-      1084  711192     21                                  Lem
-      1085  706568     22                                  Tim
-      1086  711186     24                               Skjern
-      1087  703690     25                               Borris
-      1088  703702     27                         Rækker Mølle
-      1089  709682     28                             Stauning
-      1090  706530     30                              Videbæk
-      1091  707950     32                            Troldhede
-      1092  711210     33                         Vorgod-Barde
-      1093  703684     35                               Spjald
-      1094  702112      1                            Hedensted
-      1095  706834      2                              Løsning
-      1096  702132      3                          Øster Snede
-      1097  705478      4                              Daugård
-      1098  703888      5                              Korning
-      1099  711322      6                               Ølsted
-      1100  705470      7                      Juelsminde - As
-      1101  706828     10                               Barrit
-      1102  703906     11                   Stenderup - Bjerre
-      1103  711310     12                             Hornsyld
-      1104  709924     13                               Stouby
-      1105  700852     14                                Rårup
-      1106  702118     15                        Glud - Hjarnø
-      1107  703900     17     Rask Mølle - Hvirring - Hornborg
-      1108  700846     20                              Lindved
-      1109  703894     21                              Tørring
-      1110  706840     22                                Uldum
-      1111  709918     23                    Aale - Hjortsvang
-      1112  711316     24                               Ølholm
-      1113  705682      1                             Nordmors
-      1114  702454      2                             Midtmors
-      1115  711508      3                              Sydmors
-      1116  711514      4                          Sydvestmors
-      1117  710282      5                             Nykøbing
-      1118  701060     20                                  Fur
-      1119  748653     21                                Skive
-      1120  748654     22                              Højslev
-      1121  748651     23                              Balling
-      1122  748656     24                              Rødding
-      1123  748650     25                             Glyngøre
-      1124  748652     26                               Roslev
-      1125  748655     27                                Breum
-      1126  705918      1                              Thisted
-      1127  748371      2                             Snedsted
-      1128  748374      3                                Hurup
-      1129  748376      4                            Hanstholm
-      1130  702944      5                             Sjørring
-      1131  709112      6                               Vesløs
-      1132  705906      7                            Vestervig
-      1133  704712      8                              Bedsted
-      1134  748375      9                                 Nors
-      1135  708884     10                             Frøstrup
-      1136  748372     11                              Vorupør
-      1137  748370     12                               Koldby
-      1138  748373     13                             Østerild
-      1139  748377     14                              Sennels
-      1140  701270     15                           Klitmøller
-      1141  708912      1                            Frederiks
-      1142  702938      2                             Hald Ege
-      1143  711744      3                                Karup
-      1144  701332      4                             Løgstrup
-      1145  702956      5                              Mønsted
-      1146  704488      6                              Stoholm
-      1147  704480      7                             Vridsted
-      1148  702932      8                               Viborg
-      1149  704706      9                          Bjerringbro
-      1150  701488     11                           Hammershøj
-      1151  711838     12                              Møldrup
-      1152  709124     13                              Houlkær
-      1153  709100     14                              Rødding
-      1154  710696     15                           Rødkærsbro
-      1155  709090     16                                Skals
-      1156  709106     17                                 Ørum
-      1157  708624      1                             Agersted
-      1158  708636      2                                 Asaa
-      1159  705640      3                         Dronninglund
-      1160  700996      4                         Flauenskjold
-      1161  700990      5                            Hjallerup
-      1162  704006      6                          Klokkerholm
-      1163  710140     10                          Brønderslev
-      1164  702304     34                               Stenum
-      1165  704012     40                                Thise
-      1166  705646     50                       Ø. Brønderslev
-      1167  704018     56                              Hallund
-      1168  711454     70                              Jerslev
-      1169  708630     80                           Serritslev
-      1170  705148      1                               Skagen
-      1171  748530      2                                Ålbæk
-      1172  705156      3                                Jerup
-      1173  709634      4                               Elling
-      1174  712132      5                             Strandby
-      1175  711060      6                        Frederikshavn
-      1176  748390      7                             Ravnshøj
-      1177  710978      8                                Gærum
-      1178  748391      9                                 Sæby
-      1179  709628     10                               Dybvad
-      1180  703530     11                                Hørby
-      1181  705142     12                             Thorshøj
-      1182  748393     13                               Voerså
-      1183  712112     14                             Volstrup
-      1184  703516     15                             Østervrå
-      1185  708562      1                            Aalestrup
-      1186  705538      2                                Farsø
-      1187  708538      3                             Strandby
-      1188  700858      4                                 Aars
-      1189  711328      5                            Hvalpsund
-      1190  710016      6                      Gislum-Vognsild
-      1191  710008      7                              Gedsted
-      1192  705558      8                       Hornum-Ulstrup
-      1193  710002      9                        Vester Hornum
-      1194  702144     10                              Løgstør
-      1195  709958     11                                Ranum
-      1196  706876     12                              Salling
-      1197  700908     13                             Overlade
-      1198  709966     14                         Skivum-Giver
-      1199  702460     15                                 Læsø
-      1200  707882      1                             Støvring
-      1201  709658      2                             Skørping
-      1202  703572      3                             Terndrup
-      1203  712170      4                              Suldrup
-      1204  712164      5                              Nørager
-      1205  709652      6                            Haverslev
-      1206  701822      7                         Øster Hornum
-      1207  711096      8                                Bælum
-      1208  706392      9                            Ravnkilde
-      1209  712144     10                            Blenstrup
-      1210  705168     11                             Veggerby
-      1211  708668      2                               Assens
-      1212  700964      3                             Mariager
-      1213  707018      4                                Arden
-      1214  702354      8                             Valsgård
-      1215  701046      9                           Vebbestrup
-      1216  705600     11                              Hadsund
-      1217  702360     14                       Veddum-Skelund
-      1218  710066     18                                  Als
-      1219  708660     20                                Hørby
-      1220  706980     22                               Onsild
-      1221  702292     27                                Hobro
-      1222  709280      1                              Aabybro
-      1223  701500      2                             Biersted
-      1224  701540      3                             Nørhalne
-      1225  711896      4                              Vedsted
-      1226  710716      5                                 Gjøl
-      1227  709244      6                             Ingstrup
-      1228  709274      7                       V. Hjermitslev
-      1229  711858      8                               Brovst
-      1230  706102      9                           Halvrimmen
-      1231  703190     10                          Arentsminde
-      1232  709250     11                               Tranum
-      1233  707638     12                            Skovsgård
-      1234  707632     13                          Fjerritslev
-      1235  704750     14                               Thorup
-      1236  711844     15                               Ørebro
-      1237  703196     16                            Trekroner
-      1238  704764     18                             Jetsmark
-      1239  701514     20                                 Hune
-      1240  703310     21                               Saltum
-      1241  711766      3        Gl. Lindholm Skole, Kulturhus
-      1242  748032      4          PFA Kollegiet i Nørresundby
-      1243  707424      5                        Løvvanghallen
-      1244  706034      7          Multihallen Ved Vadumhallen
-      1245  748570      9     Vestbjerg Idræts og Kulturcenter
-      1246  701402     10                     Sulsted Skolehal
-      1247  708960     11        Vodskov Kultur & Idrætscenter
-      1248  748033     12               HF&VUC Nord, Godsbanen
-      1249  705992     14                   Vesterkærets Skole
-      1250  704474     15                          Haraldslund
-      1251  711774     16                        Aalborghallen
-      1252  710526     17                 Skipperens Idrætshus
-      1253  704462     18              Hallen Ved Skalborggård
-      1254  701344     19                        Kfum - Hallen
-      1255  748031     20                   Hasseris Gymnasium
-      1256  705964     22             Frejlev Skoles Idrætshal
-      1257  708924     24                      Svenstruphallen
-      1258  708938     27                      Sønderbroskolen
-      1259  748030     28                            Nordkraft
-      1260  704506     29                            Gigantium
-      1261  707394     30                       Vejgaardhallen
-      1262  708918     31                 Vejgaard Østre Skole
-      1263  711750     32          Mellervangskolens Idrætshal
-      1264  701338     33                         Klaruphallen
-      1265  706010     34                            Gug Skole
-      1266  702950     35             Gistrup Skoles Idrætshal
-      1267  748034     36                 Aalborghus Gymnasium
-      1268  705970     38                     Ferslev Skolehal
-      1269  704494     40                Tornhøjskolen, Hallen
-      1270  710544     43                Vester Hassing Hallen
-      1271  710552     44                           Hals Skole
-      1272  708966     46                         Ulstedhallen
-      1273  705942     47                          Nibe Hallen
-      1274  707350     52                       Farstruphallen
-      1275  707406     56             Idrætscentret Kongerslev
-      1276  702918     58                            Mou Hotel
-      1277  701356     61                      Båndby - Hallen
-      1278  702860      1                                Horne
-      1279  710464      3                            Hirtshals
-      1280  710442      4                   Hjørring - Centrum
-      1281  710458      6                               Tornby
-      1282  708788      7                             Bindslev
-      1283  710470      8                             Tversted
-      1284  701230     11                                Taars
-      1285  710436     12                      Vrejlev-Hæstrup
-      1286  710488     13                       Bjergby-Mygdal
-      1287  701236     14                            Skallerup
-      1288  704384     15                      Hjørring - Nord
-      1289  702842     16                       Hjørring - Syd
-      1290  702836     18                      Hjørring - Vest
-      1291  702854     19                                  Vrå
-      1292  710482     20                             Hundelev
-      1293  702848     21                               Løkken
-      1294  707320     22                               Sindal
-      1295  704372     23                               Astrup
-      1296  710452     26                                Tolne
-      1297  701248     27                                Ugilt
-      1298  701242     28                               Lendum
+           dagi_id nummer                                             navn
+      1     707732      1                                      1. Østerbro
+      2     711932      2                                          1. Nord
+      3     704936      3                                           1. Syd
+      4     706160      5                                          1. Vest
+      5     710802      6                                      1. Nordvest
+      6     711204      7                                  2. Sundbyvester
+      7     706166      8                                          2. Nord
+      8     706562      9                                           2. Syd
+      9     712286     10                                          2. Vest
+      10    711926     11                                      3. Indre By
+      11    709378     12                                          3. Nord
+      12    704846     13                                           3. Syd
+      13    707672     14                                           3. Øst
+      14    707726     16                                   4. Sundbyøster
+      15    704930     17                                          4. Nord
+      16    706154     18                                           4. Syd
+      17    701580     19                                           4. Øst
+      18    706196     20                                      5. Nørrebro
+      19    706184     21                                          5. Nord
+      20    703386     22                                           5. Syd
+      21    704962     23                                           5. Øst
+      22    710832     24                                          5. Vest
+      23    704956     25                                      5. Nordvest
+      24    707738     27                                    6. Bispebjerg
+      25    701606     28                                          6. Nord
+      26    706172     29                                           6. Øst
+      27    710808     30                                           6. Syd
+      28    704944     31                                      7. Brønshøj
+      29    710820     32                                          7. Nord
+      30    701626     33                                      7. Rødkilde
+      31    706178     34                                           7. Øst
+      32    711946     35                                          7. Vest
+      33    707744     36                                      7. Nordvest
+      34    704950     39                                    7. Katrinedal
+      35    703374     40                                    7. Kirkebjerg
+      36    710814     41                                       7. Vanløse
+      37    707648     42                                         8. Valby
+      38    709306     43                                          8. Nord
+      39    704776     44                                           8. Syd
+      40    711890     46                                          8. Vest
+      41    701520     47                                        8. Sydøst
+      42    704784     48                                          8. Midt
+      43    709384     49                                     9. Vesterbro
+      44    701612     50                                          9. Nord
+      45    706112     51                                           9. Syd
+      46    709330     52                                           9. Øst
+      47    709338     53                                          9. Vest
+      48    704918     54                                          9. Midt
+      49    706120     55                                       9. Sydhavn
+      50    725338     56                                           1. Øst
+      51    725346     57                                           2. Øst
+      52    725352     58                                5. Nørrebrohallen
+      53    725358     59                                          6. Vest
+      54    701758      1                                10. Kreds, Søerne
+      55    705122      2                         10. Kreds, Grundtvigsvej
+      56    709590      3                             10. Kreds, Bülowsvej
+      57    711030      4                                10. Kreds, Duevej
+      58    709552      5                             11. Kreds, Lindevang
+      59    703490      6                 11. Kreds, Frederiksberghallerne
+      60    701726      7                              11. Kreds, Rådhuset
+      61    710972      8                           11. Kreds, Nyelandsvej
+      62    701002      1                                          Tapeten
+      63    706986      2                        Baltorpskolen - Rugvænget
+      64    710146      3                          Skovvejens Skole - Vest
+      65    710158      4                                  Grantoftehallen
+      66    705652      5                                     Idrætshallen
+      67    704024      6                     Skovlunde Skole - Lundebjerg
+      68    706992      8                                     Måløv Ny Hal
+      69    710152      9                                   Egebjerghallen
+      70    710164     10                                   Østerhøjhallen
+      71    707090      1                              Brøndbyvester Skole
+      72    707084      2                                  Tjørnehøjhallen
+      73    708674      3                                 Lindelundshallen
+      74    702442      4                                        Nørregård
+      75    702448      5                              Kulturhuset Brønden
+      76    748690      6                                     Søholthallen
+      77    706596      1                                     Dragør Skole
+      78    701922      4                                  Hollænderhallen
+      79    707338      1                                       Jægersborg
+      80    704436      2                                        Munkegård
+      81    702884      3                                         Rådhuset
+      82    702878      4                                        Bakkegård
+      83    711716      5                                        Dyssegård
+      84    702890      6                                        Maglegård
+      85    701254      7                                         Hellerup
+      86    702872      8                                           Ordrup
+      87    704424      9                                       Skovshoved
+      88    708814     10                                         Skovgård
+      89    708600      1                                         Bagsværd
+      90    711428      2                                 Hovedbiblioteket
+      91    702286      3                                          Egegård
+      92    710060      4                                       Grønnemose
+      93    700958      5                                          Mørkhøj
+      94    700934      6                                         Stengård
+      95    706974      7                                           Søborg
+      96    708592      8                                          Vadgård
+      97    706944      9                                          Værebro
+      98    702064      1                                   Nordvanghallen
+      99    708406      2                                      Sognegården
+      100   708412      3                                 Søndervanghallen
+      101   700820      4                                 Vestervangskolen
+      102   711278      5                                       Ejbyhallen
+      103   700826      6                                  Hvissingehallen
+      104   705798      1                              Herlev Medborgerhus
+      105   710346      2                                  Herlev Hallerne
+      106   701152      3                                  Kildegårdhallen
+      107   704718      1                               Herstedøster Skole
+      108   709136      2                                    Egelundskolen
+      109   710708      3                                Herstedlund Skole
+      110   709130      4                                Kongsholmcenteret
+      111   706090      5                              Herstedvester Skole
+      112   703836      1                                 Holmegårdshallen
+      113   709882      2                                 Præstemoseskolen
+      114   702088      3                                  Sønderkærskolen
+      115   706734      4                                          Kometen
+      116   702094      5                                   Dansborghallen
+      117   702070      6                           Frihedens Idrætscenter
+      118   702080      7                                    Avedøre Skole
+      119   706740      8                             Avedøre Idrætscenter
+      120   701852      1                            Børne- og Kulturhuset
+      121   701958      2                                       Parkskolen
+      122   703720      4                            Taastrup Kulturcenter
+      123   707896      6                                         Rådhuset
+      124   706412      7                     Hallen ved Rønnevangsstrøget
+      125   703634      8                                   Torstorp Skole
+      126   701952      9                                        Sengeløse
+      127   701970     10                                  Charlotteskolen
+      128   709780     12                                     Fløng Hallen
+      129   711110     13                                   Reerslev Skole
+      130   748591     14                            Springcenter Nærheden
+      131   710178      1                                      Lyngby Midt
+      132   708642      2                                  Lyngby Idrætsby
+      133   704030      3                                         Trongård
+      134   706998      4                                       Engelsborg
+      135   711474      5                                          Taarbæk
+      136   704050      6                                            Virum
+      137   710170      7                                      Hummeltofte
+      138   702310      8                                    Virumhallerne
+      139   710194      9                                        Lundtofte
+      140   707822      1                                         Ørbygård
+      141   705072      2                                        Tinderhøj
+      142   705066      3                                          Rødovre
+      143   707814      4                                           Valhøj
+      144   709566      5                                    Rødovrehallen
+      145   706324      6                                            Islev
+      146   724738      7                                       Milestedet
+      147   708518      1                                    Ishøj Landsby
+      148   709938      2                                   Vibeholmskolen
+      149   700870      3                                    Gildbroskolen
+      150   700876      4                                 Strandgårdskolen
+      151   709944      5                                   Ishøj Bycenter
+      152   711216      1                                       Vestamager
+      153   701986      2                                       Pilegården
+      154   709804      3                                           Tårnby
+      155   708328      4                                        Korsvejen
+      156   701992      5                                      Løjtegården
+      157   708012      6                                          Kastrup
+      158   707962      1                     Vallensbæk Skole, Multisalen
+      159   709762      2                                     Egholmskolen
+      160   701896      3                                   Pilehaveskolen
+      161   700970      1                                          Værløse
+      162   710110      2                                         Hareskov
+      163   703986      3                                         Søndersø
+      164   710104      4                                         Jonstrup
+      165   708606      5                                       Stavnsholt
+      166   705614      6                                          Solvang
+      167   706956      7                                         Paltholm
+      168   711248      1                                        Blovstrød
+      169   703802      2                                         Skovvang
+      170   706698      3                                         Lillerød
+      171   705404      4                                            Lynge
+      172   705398      5                                        Ravnsholt
+      173   703808      1                                       Asminderød
+      174   709824      2                                      Fredensborg
+      175   703766      3                                         Humlebæk
+      176   703814      4                                       Baunebjerg
+      177   709818      5                                         Kokkedal
+      178   702010      7                                          Niverød
+      179   700760      8                                          Karlebo
+      180   708376      9                                             Nivå
+      181   701118      1                                 Helsingør Hallen
+      182   710298      2                              Skolen ved Gurrevej
+      183   705752      3                             Laden, Gl. Vapnagård
+      184   707098      4                                           Bølgen
+      185   708702      5                                    Hornbæk Skole
+      186   707136      6                                     Nygård Skole
+      187   708696      7                                      Tikøb Skole
+      188   705746      8                            Kvistgård Idrætsanlæg
+      189   702682      9                               Snekkersten Hallen
+      190   702690     10                             Espergærde Bibliotek
+      191   710304     11                                    Mørdrupskolen
+      192   748170     12                                     Toldkammeret
+      193   708774      1                                      Royal Stage
+      194   704344      2                             Hillerødsholmsskolen
+      195   701190      3                                        Brødeskov
+      196   707252      4                                      Hammersholt
+      197   702782      5                                       Alsønderup
+      198   701196      6                                          Ullerød
+      199   707266      7                                           Nødebo
+      200   710380      8                                         Gadevang
+      201   701210      9                      Grønnevang Skole, Jespervej
+      202   711644     10                      Grønnevang Skole, Østervang
+      203   705868     11                                     Lille Lyngby
+      204   705844     12                          Skævinge, Harløse, Strø
+      205   702788     13                                          Gørløse
+      206   711650     14                                           Uvelse
+      207   707664      1                                         Hørsholm
+      208   709324      2                                          Usserød
+      209   707688      3                                         Rungsted
+      210   707682      4                                       Grønnegade
+      211   711902      5                                         Vallerød
+      212   711588      1                                         Birkerød
+      213   748890      2                                       Grünersvej
+      214   704274      3                                            Nærum
+      215   702734      4                                           Sjælsø
+      216   702728      5                                           Skovly
+      217   705784      6                                        Toftevang
+      218   707194      7                                           Trørød
+      219   708708      8                                          Vangebo
+      220   701142      9                                           Vedbæk
+      221   703642      1                            Ledøje Forsamlingshus
+      222   711116      2                              Smørum Idrætscenter
+      223   709714      3                                         Stenløse
+      224   712198      4                                            Veksø
+      225   706424      5                                          Ganløse
+      226   705194      6                                       Slagslunde
+      227   703648      7                                         Ølstykke
+      228   701864      8                                  Stengårdsskolen
+      229   705206      9                                 Bækkegårdsskolen
+      230   710206      1                               Frederikssund Midt
+      231   701052      2                               Frederikssund Nord
+      232   704056      3                                Frederikssund Syd
+      233   702366      4                                           Skibby
+      234   704070      5                                       Jægerspris
+      235   707024      6                                        Slangerup
+      236   718892      1                Arenaskolen ved Greve Kultur-Base
+      237   718916      2                               Greve Idrætscenter
+      238   718898      3                                     Mosedeskolen
+      239   718922      4                               Karlslundehallerne
+      240   718910      5                                     Tunehallerne
+      241   711336      1                                          Køge By
+      242   709930      2                                   Køge By - Vest
+      243   705508      3                                             Ølby
+      244   708480      4                                        Ølsemagle
+      245   705502      5                                          Hastrup
+      246   705496      6                                         Herfølge
+      247   700864      7                                             Ejby
+      248   706854      8                                        Vemmedrup
+      249   711350      9                                       Bjæverskov
+      250   702164     10                                          Gørslev
+      251   703912     11                                            Borup
+      252   704878      1                                        Hundested
+      253   704906      2                                            Melby
+      254   707654      3                                         Enghaven
+      255   707698      4                                    Frederiksværk
+      256   710776      5                                           Ølsted
+      257   707284      1                                 Roskilde Bymidte
+      258   708806      2                                    Klostermarken
+      259   704350      3                                     Sankt Jørgen
+      260   710476      4                                      Hedegårdene
+      261   704378      5                                        Østervang
+      262   702794      6                                         Himmelev
+      263   705900      7                                       Svogerslev
+      264   704396      8                                         Vindinge
+      265   711680      9                                         Vor Frue
+      266   711710     10                                       Tjørnegård
+      267   704320     11                                      Gundsølille
+      268   704358     13                                         Jyllinge
+      269   711686     14                                      Gundsømagle
+      270   710404     15                                         Baunehøj
+      271   707314     16                                         Gadstrup
+      272   707326     17                                             Viby
+      273   707332     18                                        Snoldelev
+      274   704402     21                                        Trekroner
+      275   705362      1                                          Havdrup
+      276   703748      4                        Det Nordlige Strandområde
+      277   703740      5                         Det Sydlige Strandområde
+      278   708756      1                                         Blistrup
+      279   701158      2                                       Esbønderup
+      280   708732      3                                            Valby
+      281   704286      4                                          Græsted
+      282   705834      5                                          Annisse
+      283   711598      6                                        Gilleleje
+      284   707246      7                                           Søborg
+      285   704298      8                                         Helsinge
+      286   705812      9                                            Mårum
+      287   702752     10                                          Ramløse
+      288   704292     11                                            Vejby
+      289   701184     12                                          Tibirke
+      290   701320      1                                            Asnæs
+      291   704442      2                                        Fårevejle
+      292   710508      3                                         Grevinge
+      293   711730      4                                            Hørve
+      294   708906      5                                            Odden
+      295   704468      6                                              Vig
+      296   710514      7                                         Nykøbing
+      297   701300      8                                           Rørvig
+      298   708896     10                                         Egebjerg
+      299   708820     11                                            Højby
+      300   701326     12                                           Lumsås
+      301   707376     13                                    Nr. Asmindrup
+      302   708890      1                                       Holbæk Øst
+      303   705950      2                                      Holbæk Vest
+      304   702906      3                                      Holbæk Midt
+      305   705924      4                                         Vipperød
+      306   705958      5                                             Tuse
+      307   708868      6                                             Udby
+      308   708878      7                                          Tølløse
+      309   701294      8                                      St. Merløse
+      310   707370      9                                         Regstrup
+      311   704456     10                                          Undløse
+      312   704450     11                                          Jyderup
+      313   701314     12                                           Mørkøv
+      314   708862     13                                        Svinninge
+      315   710502     14                                         Gislinge
+      316   707528     15                                              Orø
+      317   702698      1                                        Haslev 01
+      318   704216      2                                        Haslev 02
+      319   701130      3                                             Faxe
+      320   701124      4                                        Hylleholt
+      321   710310      5                                           Karise
+      322   707142      6                                            Dalby
+      323   710328      7                                          Rønnede
+      324   705664      1                                        Snertinge
+      325   708648      2                                           Sejerø
+      326   701040      3                                         Svebølle
+      327   707012      4                                           Gørlev
+      328   704036      5                                     Kr. Helsinge
+      329   702334      6                                           Reersø
+      330   707004      7                                        Svallerup
+      331   708654      8                                             Ubby
+      332   702316      9                                             Høng
+      333   701026     10                                           Buerup
+      334   702322     11                                         Gierslev
+      335   701032     12                                 Kalundborghallen
+      336   711468     13                                        Rynkevang
+      337   705658     14                                         Tømmerup
+      338   701008     15                                       Årby-Rørby
+      339   711460     16                                           Raklev
+      340   710188     17                                           Røsnæs
+      341   702328     18                                           Ulshøj
+      342   711804      1                               Ringsted Nørretorv
+      343   703062      2                                       Bringstrup
+      344   710656      3                                        Gyrstinge
+      345   703050      4                                          Benløse
+      346   711816      5                                       Haraldsted
+      347   704618      6                            Ringsted Dagmarskolen
+      348   710650      8                                          Jystrup
+      349   709042      9                                         Kværkeby
+      350   706072     10                                       Vetterslev
+      351   707472     11                                          Sneslev
+      352   711810     12                                          Nordrup
+      353   704612     13                                        Vigersted
+      354   703056     14                                           Ørslev
+      355   711606      1                        Vemmelev - Vemmelevhallen
+      356   748854      2              Tårnborg - Taarnborg Forsamlingshus
+      357   701164      3                   Korsør - Broskolen - Broskolen
+      358   711630      4     Korsør - Storebæltshallen - Storebæltshallen
+      359   701098      5                     Boeslunde - Boeslunde Hallen
+      360   720074      6                        Skælskør - Skælskørhallen
+      361   701108      7                            Agersø - Agersøhallen
+      362   705790      8                         Omø - Omø Forsamlingshus
+      363   702758      9                           Rude - Kirkeskovskolen
+      364   705710     10                          Dalmose - Dalmosehallen
+      365   748430     11                     Slots Bjergby - Hashøjskolen
+      366   704408     12           Sørbymagle - Sørbymagle forsamlingshus
+      367   710288     13             Vestermose - Hallelev Forsamlingshus
+      368   748852     14                      Stillinge - Stillingehallen
+      369   748851     15               Slagelse - Vesthallen - Vesthallen
+      370   748850     16               Slagelse - Nordhallen - Nordhallen
+      371   704418     17 Slagelse - Søndermarkshallen - Søndermarkshallen
+      372   748853     18     Slagelse - Slagelse Hallen - Slagelse Hallen
+      373   706800      1                                     Hårlevhallen
+      374   706794      2                              Strøby Idrætscenter
+      375   703848      3                                     Stevnshallen
+      376   705452      4                                  Sydstevnshallen
+      377   705570      1                                        Dianalund
+      378   705564      2                                       Ruds Vedby
+      379   711404      4                                Alsted Fjenneslev
+      380   702234      5                                             Sorø
+      381   711410      6                                    Frederiksberg
+      382   700914      8                                       Pedersborg
+      383   710022     10                                        Stenlille
+      384   703440      1                                  Hyllinge-Lyndby
+      385   707756      2                                              Rye
+      386   703454      3                                     Sæby-Gershøj
+      387   706260      4                                         Sonnerup
+      388   712044      5                                             Glim
+      389   707762      6                                           Hvalsø
+      390   712008      8                                          Kr.Såby
+      391   706216      9                                         Gevninge
+      392   710890     11                                            Lejre
+      393   703434     12                                            Osted
+      394   708426      1                                        Errindlev
+      395   700840      3                                           Holeby
+      396   706762      8                                           Sandby
+      397   706822     11                                        Søllested
+      398   705484     13                                           Maribo
+      399   709912     14                                             Askø
+      400   708456     19                                          Østofte
+      401   705458     20                                     Nakskov Vest
+      402   705464     21                                      Nakskov Øst
+      403   706808     26                                           Birket
+      404   709900     27                                             Fejø
+      405   706816     28                                             Femø
+      406   703864     29                                        Horslunde
+      407   706746     35                                        Dannemare
+      408   702106     36                                            Rødby
+      409   703882     37                                        Rødbyhavn
+      410   711122      1                                       Fuglebjerg
+      411   707904      2                                         Everdrup
+      412   712210      3                                   Grønbro Hallen
+      413   707910      4                                    Fladså Hallen
+      414   703660      5                                          Tybjerg
+      415   707924      6                                       Tappernøje
+      416   711128      7                         Hammer - Vester Egesborg
+      417   707918      8                                         Fensmark
+      418   709726      9                                    Holme-Olstrup
+      419   712222     10                                         Toksværd
+      420   703666     11                                           Glumsø
+      421   707930     12                                           Sandby
+      422   705200     14                                      Herlufmagle
+      423   701870     20                  Lille Næstved Skole - Digtervej
+      424   703654     21                              Grønnegades Kaserne
+      425   706454     22                              Næstved Firma Sport
+      426   701858     23                                    Arena Næstved
+      427   706430     24                               Sct. Jørgens Skole
+      428   712204     26             Lille Næstved Skole - Herlufsholmvej
+      429   711136     27                                Herlufsholmhallen
+      430   711142     28                        Kobberbakkeskolen - Sydby
+      431   706418     29                     Kobberbakkeskolen - Rønnebæk
+      432   706398     31                                         Hyllinge
+      433   703592     32                   Lille Næstved Skole - Karrebæk
+      434   709646      1                                             Byen
+      435   703554      2                                         Østerbro
+      436   706380      3                                        Lindeskov
+      437   706386      4                                           Ejegod
+      438   712124      5                                         Kraghave
+      439   701778      6                                           Toreby
+      440   701828      7                                           Sundby
+      441   712080      8                                           Nysted
+      442   705042      9                                     Øster Ulslev
+      443   701748     10                                     Nørre Alslev
+      444   711018     11                                      Nørre Vedby
+      445   712156     12                                       Eskilstrup
+      446   707852     13                                       Sakskøbing
+      447   709572     14                                         Majbølle
+      448   709670     15                                        Våbensted
+      449   703496     16                                     Stubbekøbing
+      450   709640     17                                          Horreby
+      451   703548     18                                         Idestrup
+      452   701764     19                                       Væggerløse
+      453   705108     20                                           Gedser
+      454   711010      1                                      Vordingborg
+      455   706314      2                                       Masnedsund
+      456   705084      3                                            Nyråd
+      457   705078      4                                          Kastrup
+      458   709558      5                                            Bårse
+      459   705010      6                                           Lundby
+      460   709584      7                                           Ørslev
+      461   707768      8                                            Stege
+      462   712094      9                                           Østmøn
+      463   701698     10                                          Vestmøn
+      464   701742     11                                             Bogø
+      465   706306     12                                           Præstø
+      466   701732     13                                        Allerslev
+      467   703480     14                                       Jungshoved
+      468   707828     15                                             Mern
+      469   705054     16                                        Kalvehave
+      470   706330     17                                         Stensved
+      471   703208      1                                          Allinge
+      472   707574      2                                       Østermarie
+      473   703086      3                                          Svaneke
+      474   703286      4                                             Nexø
+      475   709262      5                                        Pedersker
+      476   704742      6                                        Aakirkeby
+      477   712002      7                                       Klemensker
+      478   711102      8                                            Rønne
+      479   707890      9                                            Hasle
+      480   706714      1                                     Middelfart V
+      481   708394      2                                     Middelfart Ø
+      482   703828      3                                            Strib
+      483   705440      4                                         Hyllehøj
+      484   706728      5                                            Aulby
+      485   709862      6                                       Nørre Aaby
+      486   711266      7                                          Baaring
+      487   705422      8                                             Ejby
+      488   708388      9                                          Gelsted
+      489   700808     10                                        Brenderup
+      490   705434     11                                Fjelsted/Harndrup
+      491   702974      1                                      Christiansø
+      492   710764      1                                           Assens
+      493   709318      2                                   Ebberup/Helnæs
+      494   711914      3                                            Turup
+      495   709286      4                                        Salbrovad
+      496   748073      5                                      Aarup/Kerte
+      497   748071      6                                            Rørup
+      498   710796      7                                      Orte/Ørsted
+      499   704912      8                             Glamsbjerg/Søllested
+      500   701534      9                                         Flemløse
+      501   748072     10                                             Køng
+      502   748070     11                                      Vissenbjerg
+      503   701526     12                                        Dreslette
+      504   707710     13                                           Haarby
+      505   711908     14                                         Jordløse
+      506   701552     15                                           Brylle
+      507   710784     16                                         Tommerup
+      508   704924     17                                      Tommerup St
+      509   707704     18                                   Verninge/Nårup
+      510   709036      1                                   Allested-Vejle
+      511   707478      2                                        Brobyværk
+      512   707442      3                                      Nørre Broby
+      513   704606      4                                   Vester Hæsinge
+      514   711756      5                                         Avernakø
+      515   701392      7                                          Faaborg
+      516   710612      8                                            Horne
+      517   709008      9                                          Korinth
+      518   704544     10                                              Lyø
+      519   704554     11                                        Svanninge
+      520   708944     12                                      Vester Aaby
+      521   709014     13                                             Espe
+      522   703044     14                                       Hillerslev
+      523   711798     15                                            Ringe
+      524   710674     16                                         Søllinge
+      525   704576     17                                           Gislev
+      526   704582     18                                        Kværndrup
+      527   701422     19                                         Ryslinge
+      528   707460     20                                     Nr. Lyndelse
+      529   707454     21                                       Ferritslev
+      530   706054     22                                           Årslev
+      531   712260      1                                        Hindsholm
+      532   706574      2                                       Kerteminde
+      533   748590      3                                         Nymarken
+      534   705322      4                                          Marslev
+      535   705316      5                                        Langeskov
+      536   707976      6                                          Munkebo
+      537   705368      1                                    Aunslevhallen
+      538   703754      2                                     Nyborghallen
+      539   706634      3                                        Bastionen
+      540   705374      4                          Vindinge Forsamlingshus
+      541   709812      5                    Langå, Svindinge Og Øksendrup
+      542   708334      6                                        Ullerslev
+      543   701998      7                                          Ellinge
+      544   703760      8                                        Skellerup
+      545   708340      9                                         Langtved
+      546   708346     10                                            Ørbæk
+      547   705380     11                                  Frørup Og Tårup
+      548   702004     12                            Ellested Og Herrested
+      549   706642     13                         Kullerup Og Refsvindinge
+      550   746369      1                              Skt. Jørgens Hallen
+      551   707258      2                                  Sct. Hans Skole
+      552   705850      3                                     Risingskolen
+      553   711668      4                                 Munkebjergskolen
+      554   707294      5                                 Ejerslykkeskolen
+      555   705856      6                                    Agedrup Skole
+      556   708762      7                                 Fjordager-Hallen
+      557   710386      9                            Fraugde Fritidscenter
+      558   707300     11                                 Seniorhus Odense
+      559   708782     12                                       CSV-Skolen
+      560   702812     13                                      Lumby Skole
+      561   702824     14                                      Stige Skole
+      562   701218     16                                 Spurvelundskolen
+      563   702818     17                                  Kroggårdsskolen
+      564   701224     18                                      Tarup Skole
+      565   702830     19                                    Paarup Hallen
+      566   710430     20                                      Korup Skole
+      567   707308     21                   Ubberud Kultur & Bevægelseshus
+      568   705888     23                                         Rådhuset
+      569   705876     24                             Sct. Knuds Gymnasium
+      570   705894     25                                  Rosengårdskolen
+      571   711692     26                                   Sanderumhallen
+      572   705882     28                               Rasmus Rask-Skolen
+      573   711698     29                                  Tingløkkeskolen
+      574   702866     30                                      Dalumskolen
+      575   708794     31                               Skt. Klemensskolen
+      576   708800     32                            Fangel Forsamlingshus
+      577   711704     33                                      Højby Skole
+      578   711662     35                                           Camp U
+      579   705862     36                   UngOdense (Tidl.Bækholmskolen)
+      580   705276      1                                             Byen
+      581   701944      2                                           Nordre
+      582   705356      3                                            Østre
+      583   748110      4                                         Bjerreby
+      584   707990      5                                        Bregninge
+      585   703708      6                                            Drejø
+      586   705328      7                                           Egense
+      587   705344      8                                           Landet
+      588   703734      9                                           Skårup
+      589   709768     10                                            Thurø
+      590   703728     11                                             Tved
+      591   709774     14                                          Kirkeby
+      592   706616     16                                          Ollerup
+      593   701964     17                                        Stenstrup
+      594   708006     19                                      V.Skerninge
+      595   705350     21                                         Gudbjerg
+      596   709786     23                                            Gudme
+      597   712298     25                                       Hesselager
+      598   707982     27                                             Oure
+      599   748639      1                                          Bogense
+      600   748634      2                                           Klinte
+      601   748632      3                                       Krogsbølle
+      602   748636      4                                          Otterup
+      603   748630      5                                        Skovløkke
+      604   748631      6                                         Veflinge
+      605   748635      7                                          Hårslev
+      606   748633      8                                            Morud
+      607   748638      9                                          Særslev
+      608   748637     10                                         Søndersø
+      609   707504      1                                         Bagenkop
+      610   704630      2                                           Humble
+      611   704594      5                                        Rudkøbing
+      612   701464      7                                       Tullebølle
+      613   748510     11                                            Snøde
+      614   706902      1                                          Marstal
+      615   702246      2                                       Ærøskøbing
+      616   700952      3                                             Søby
+      617   706096      1                                   Haderslev Nord
+      618   707626      2                                    Haderslev Syd
+      619   704724      3                                   Haderslev Vest
+      620   701494      4                                          Moltrup
+      621   704736      5                                        Fjelstrup
+      622   709256      6                                          Aastrup
+      623   709300      7                                             Aarø
+      624   711866      8                                             Øsby
+      625   710846      9                                           Starup
+      626   711872     10                                         Kelstrup
+      627   709412     11                                          Hoptrup
+      628   703422     12                                         Marstrup
+      629   703202     13                                         Hammelev
+      630   706202     14                                     Over Jerstal
+      631   703080     15                                          Bevtoft
+      632   704730     16                                       Skrydstrup
+      633   707620     17                                           Vojens
+      634   707612     18                                       Sommersted
+      635   710748     19                                          Nustrup
+      636   703400     20                                             Gram
+      637   709148     21                                            Arnum
+      638   709390     22                                             Fole
+      639   704500      1                                          Billund
+      640   701374      2                                        Sdr. Omme
+      641   704532      3                                         Vorbasse
+      642   702968      4                                          Filskov
+      643   710594      5                                     St./Krogager
+      644   707400      6                                        Grindsted
+      645   708930      7                                         Hejnsvig
+      646   703038      1                                         Nordborg
+      647   710634      2                                        Havnbjerg
+      648   701408      3                                             Egen
+      649   701428      4                                          Fynshav
+      650   710642      5                                     Augustenborg
+      651   707448      6                                            Hørup
+      652   703032      7                                           Sydals
+      653   707466      8                                           Kegnæs
+      654   701434      9                             Humlehøj, Sønderborg
+      655   704588     10                           Sønderskov, Sønderborg
+      656   710622     11                             Kongevej, Sønderborg
+      657   701416     12                                           Dybbøl
+      658   706060     13                                   Vester Sottrup
+      659   706040     14                                          Ullerup
+      660   706048     15                                          Broager
+      661   704566     16                                          Gråsten
+      662   706066     17                                            Kværs
+      663   712106      1                                         Bredebro
+      664   703560      2                                           Ballum
+      665   711072      3                                            Visby
+      666   706374      4                                            Højer
+      667   707858      7                                   Sdr. Sejerslev
+      668   706368      8                                      Møgeltønder
+      669   701834     12                                     Løgumkloster
+      670   711084     14                                        Nr. Løgum
+      671   703566     15                                          Bedsted
+      672   709676     16                                      Øster Højst
+      673   701806     17                                         Agerskov
+      674   711066     18                                           Arrild
+      675   709622     19                                        Branderup
+      676   709616     21                                          Døstrup
+      677   701800     23                                         Toftlund
+      678   711078     24                                            Brøns
+      679   705136     25                                           Tønder
+      680   701794     27                                            Abild
+      681   707840     29                                          Hostrup
+      682   705128     51                                             Rømø
+      683   709602     61                                          Skærbæk
+      684   705162     71                                           Vodder
+      685   705826      2                                   Esbjerg Rådhus
+      686   708726      3                                           Skovbo
+      687   701204      4                                          Rørkjær
+      688   710374      5                                            Jerne
+      689   702746      6                                       Boldesager
+      690   702806      7                                        Østerbyen
+      691   705174      8                                            Skads
+      692   708768     11                                          Gjesing
+      693   701840     12                                          Bryndum
+      694   704330     15                                          Sædding
+      695   712150     16                                         Hjerting
+      696   709664     17                                         Guldager
+      697   703522     20                                        Tjæreborg
+      698   702740     21                                         Kvaglund
+      699   710368     22                                           Ådalen
+      700   710398     23                                  Grønlandsparken
+      701   711090     24                                        Sønderris
+      702   703542     25                                         Bramming
+      703   703580     28                                             Ribe
+      704   707870     32                                   Egebæk-Hviding
+      705   701812     33                                      Gredstedbro
+      706   703586     35                                            Mandø
+      707   707876     38                                              Høm
+      708   707864     40                                          Gørding
+      709   702962      1                                           Nordby
+      710   710532      2                                         Sønderho
+      711   701470      1                                         Varde By
+      712   707512      4                                              Sig
+      713   709030      5                                           Billum
+      714   709048      6                                          Tinghøj
+      715   704642      7                                           Alslev
+      716   707556      8                                            Horne
+      717   706084      9                                         Janderup
+      718   710668     10                                            Lunde
+      719   707430     13                                      Nørre Nebel
+      720   703068     14                                            Henne
+      721   710662     15                                           Outrup
+      722   707498     18                                           Oksbøl
+      723   708972     19                                          Blåvand
+      724   709060     22                                             Årre
+      725   704694     23                                          Agerbæk
+      726   704654     24                                           Fåborg
+      727   707562     26                                         Næsbjerg
+      728   704648     27                                           Starup
+      729   706078     28                                       Nordenskov
+      730   710690     30                                            Ølgod
+      731   704624     31                                          Tistrup
+      732   701482     32                                          Ansager
+      733   709054     33                                         Skovlund
+      734   703026      1                                           Brørup
+      735   706022      2                                         Lindknud
+      736   701368      3                                          Holsted
+      737   706028      4                                          Føvling
+      738   707412      5                                        Glejbjerg
+      739   707418      6                                          Hovborg
+      740   701350      7                                          Rødding
+      741   704526      8                                       Sdr. Hygum
+      742   706016      9                                             Jels
+      743   710606     10                                          Lintrup
+      744   704538     11                                         Skodborg
+      745   701380     12                                       Københoved
+      746   710600     13                                     Øster Lindet
+      747   704514     14                                            Vejen
+      748   703014     15                                           Læborg
+      749   701362     16                                       Askov-Malt
+      750   704520     17                                            Andst
+      751   703020     18                                           Gesten
+      752   701386     19                                            Bække
+      753   705386      1                                         Hovslund
+      754   703772      2                                         Hellevad
+      755   706666      3                                          Rødekro
+      756   701976      4                                             Løjt
+      757   705392      5                                         Hjordkær
+      758   706648      6                                          Ravsted
+      759   708364      7                                       Bolderslev
+      760   703784      8                                           Ensted
+      761   708358      9                                          Felsted
+      762   708352     10                                           Varnæs
+      763   706654     11                                         Bylderup
+      764   711228     12                                          Tinglev
+      765   706660     13                                          Kliplev
+      766   709794     14                                            Kruså
+      767   709832     15                                          Padborg
+      768   702016     16                                    Aabenraa Midt
+      769   703778     17                                     Aabenraa Syd
+      770   700772     18                                    Aabenraa Nord
+      771   707936      1                                        Gymnasiet
+      772   709738      2                               Bredstrup-Pjedsted
+      773   701876      3                                          Erritsø
+      774   709732      4                                          Herslev
+      775   705216      5                                           Taulov
+      776   707944      6                                     Søndermarken
+      777   711148      7                                         Bøgeskov
+      778   712216      8                                         Indre By
+      779   710898      1                                        Sønderbro
+      780   704998      2                                         Vestbyen
+      781   706286      3                                         Midtbyen
+      782   706240      4                                         Endelave
+      783   706268      5                                            Forum
+      784   701652      6                                           Dagnæs
+      785   707750      7                                          Torsted
+      786   706280      8                                          Hatting
+      787   710912      9                                             Lund
+      788   706274     10                                         Egebjerg
+      789   710904     11                                       Stensballe
+      790   709464     12                                        Højvangen
+      791   701658     13                                        Brædstrup
+      792   706254     14                                              Nim
+      793   706298     15                                      Sdr.Vissing
+      794   701646     16                                          Østbirk
+      795   712014     17                                           Gedved
+      796   709470     18                                        Hovedgård
+      797   712020     19                                           Søvind
+      798   712056     20                                   Tønning-Træden
+      799   703428     21                                       Sundparken
+      800   709476     22                                            Sejet
+      801   706610      1                                     Centrum Nord
+      802   701938      2                                         Nordbyen
+      803   706604      3                                         Vestbyen
+      804   705338      4                     Strandhuse/Nr. Bjert/ Eltang
+      805   706622      5                                      Bramdrupdam
+      806   701932      6                        Alminde-Viuf/Vester Nebel
+      807   708000      7                               Lunderskov/Jordrup
+      808   701902      8                                      Centrum Syd
+      809   701916      9                                          Sydbyen
+      810   712320     10                                            Seest
+      811   701908     11                                 Dalby/Tved/Rebæk
+      812   705308     12                     S Bjert/S Stenderup/Vejstrup
+      813   707970     13                                          Vonsild
+      814   712326     14                              Vamdrup/Hjarup/Ødis
+      815   712312     15                     Chr.Feld/Stepping/Taps/Hejls
+      816   708612      1                                     Brejning Syd
+      817   711442      2                                       Børkop Syd
+      818   700976      3                                      Gårslev Syd
+      819   702298      4                                    Smidstrup Syd
+      820   710116      5                                       Ødsted Syd
+      821   710134      6                                       Egtved Syd
+      822   711448      7                                       Jerlev Syd
+      823   710122      8                                 Øster Starup Syd
+      824   708618      9                                    DGI-Huset Syd
+      825   710128     10                             Multihuset Højen Syd
+      826   703992     11                        Vinding Idræts Center Syd
+      827   705630     12                                Mølholmhallen Syd
+      828   700984     13                                Kvartershuset Syd
+      829   705620     14                                  CSV - Vejle Syd
+      830   703998     15                           Rødkilde Gymnasium Syd
+      831   702280     16                               Skibet Hallen Nord
+      832   711436     17                                        Give Nord
+      833   700940     18                                    Thyregod Nord
+      834   706950     19                                    Gadbjerg Nord
+      835   700946     20                                     Givskud Nord
+      836   706962     21                                   Grønbjerg Nord
+      837   702264     22                                  Lindeballe Nord
+      838   703974     23                               Øster Nykirke Nord
+      839   708586     24                                     Jelling Nord
+      840   703968     25                            Kollerup-Sandvad Nord
+      841   710054     26                                       Grejs Nord
+      842   702272     27                                    Bredsten Nord
+      843   708580     28                                       Nørup Nord
+      844   702258     29                                      Vandel Nord
+      845   705588     30                            Nørremarkshallen Nord
+      846   703960     31                                       Engum Nord
+      847   706968     32                              Hældagerhallen Nord
+      848   705594     33                                  Grejsdalen Nord
+      849   703980     34                           Petersmindehallen Nord
+      850   712062      1                                          Herning
+      851   706292      2                                          Arnborg
+      852   703462      5                                            Kibæk
+      853   701670      6                                           Kølkær
+      854   712050      7                                             Lind
+      855   701664      8                                     Sdr. Felding
+      856   710918      9                                         Skarrild
+      857   704992     11                                        Studsgård
+      858   709506     13                                            Aulum
+      859   709514     14                                         Feldborg
+      860   701676     15                                       Gullestrup
+      861   701720     16                                          Haderup
+      862   703468     17                                         Hammerum
+      863   705004     18                                         Hodsager
+      864   705024     19                                           Ilskov
+      865   701684     20                                        Simmelkær
+      866   701714     21                                          Sinding
+      867   703474     22                                 Skibbild/Nøvling
+      868   707802     23                                        Snejbjerg
+      869   712068     24                                            Sunds
+      870   710958     25                                          Timring
+      871   709528     26                                         Tjørring
+      872   712074     27                                        Vildbjerg
+      873   709520     28                                             Vind
+      874   701690     29                                          Vinding
+      875   705030     30                                           Ørnhøj
+      876   709372      1                                     Musikteatret
+      877   703344      2                                           Mejdal
+      878   707720      3                                            Skave
+      879   703338      4                                           Mejrup
+      880   711920      5                             Nørreboulevardskolen
+      881   701564      6                                         Vinderup
+      882   706148      7                                            Sevel
+      883   706142      8                                          Ulfborg
+      884   703316      9                                             Vemb
+      885   709344     10                                      Sdr. Nissum
+      886   706536      1                                           Lemvig
+      887   711166      2                                     Nørre Nissum
+      888   711178      3                                          Klinkby
+      889   711172      4                                            Ramme
+      890   712242      5                                          Bøvling
+      891   711198      6                                          Flynder
+      892   706550      7                                         Thyborøn
+      893   701882      8                                         Harboøre
+      894   711302      1                                           Struer
+      895   702100      2                                          Gimsing
+      896   703842      3                                            Hjerm
+      897   700832      4                                           Humlum
+      898   706786      5                                          Bremdal
+      899   708418      6                                          Langhøj
+      900   709888      7                                        Hvidbjerg
+      901   701596      1                                         Ebeltoft
+      902   703350      2                                             Mols
+      903   703380      3                                         Tirstrup
+      904   711940      4                                           Kolind
+      905   711952      5                                         Ryomgård
+      906   701618      6                                         Hornslet
+      907   710826      7                                            Mørke
+      908   711958      8                                            Rønde
+      909   709078      1                           Kulturhuset Pavillonen
+      910   711832      2                                     Anholt Skole
+      911   709066      3                            Kulturhuset Stationen
+      912   707484      4                              Grenaa Idrætscenter
+      913   709072      5                                         Glesborg
+      914   707518      6                                             Ørum
+      915   704660      7                                           Ørsted
+      916   710680      8                                       Allingåbro
+      917   709084      9                                           Auning
+      918   701476     10                                           Vivild
+      919   712100      1                                     Hadsten Nord
+      920   711042      2                                      Hadsten Syd
+      921   709610      3                                         Hadbjerg
+      922   706354      4                                      Hammel Nord
+      923   706342      5                                       Hammel Syd
+      924   709596      6                           Haldum-Hinnerup/Vitten
+      925   705102      7                                  Rønbæk/Grundfør
+      926   704336      8                                           Foldby
+      927   707834      9                                          Ulstrup
+      928   707278     10                               Thorsø/Haurum/Sall
+      929   711048     11                              Laurbjerg/Houlbjerg
+      930   711674     12                                           Søften
+      931   706360     13                                           Voldum
+      932   707272     14                                           Lading
+      933   709406      1                                            Odder
+      934   701640      2                                          Torrild
+      935   701632      3                                  Saksild - Nølev
+      936   709400      4                               Randlev - Bjerager
+      937   703392      5                            Hou, Gosmer - Halling
+      938   704968      6                                          Gylling
+      939   706210      7                                   Ørting-Falling
+      940   704986      8                                        Hundslund
+      941   711964      9                                             Alrø
+      942   710838     10                                             Tunø
+      943   704314      1                                Kulturhuset Langå
+      944   702764      2                        Stevnstrup Forsamlingshus
+      945   701178      4                           Jebjerg Forsamlingshus
+      946   704136      5                                    Havndalhallen
+      947   704222      6                              Råby Forsamlingshus
+      948   705768      7                     Øster Tørslev Fritidslokaler
+      949   710316      8                                    Korshøjskolen
+      950   702710      9                              Hald Forsamlingshus
+      951   701136     10                            Gjerlev Aktivitetshus
+      952   707150     11                                   Rismølleskolen
+      953   704268     12                                  Trekløverskolen
+      954   707188     13                                    Hornbækhallen
+      955   710340     14                                    Blicherskolen
+      956   705778     15                    Kultur-Aktivitetshuset Gassum
+      957   708750     16                               Asferg Træningshus
+      958   708738     17                                     Purhushallen
+      959   702776     21                     Ø. Bjerregrav Forsamlingshus
+      960   707212     24                                 Psykiatriens Hus
+      961   702770     25                                Hobrovejens Skole
+      962   707182     26                          Randers Badmintonhaller
+      963   710322     27                                 Nørrevangsskolen
+      964   711624     28                                   Fritidscentret
+      965   711576     29                                Vestervangsskolen
+      966   711582     30                                 Østervangsskolen
+      967   708744     31                                 Søndermarkskolen
+      968   711638     32                                 Tirsdalens Skole
+      969   704280     33                                Paderup Gymnasium
+      970   702716     34                             Romalt Aktivitetshal
+      971   710392     36                                  Assentofthallen
+      972   707204     37                         Uggelhuse Forsamlingshus
+      973   708400      1                                              Ans
+      974   700814      2                                           Funder
+      975   705416      3                                          Fårvang
+      976   709876      4                                            Gjern
+      977   711288      5                                        Grauballe
+      978   711296      6                                           Gødvad
+      979   711260      7                                        Kjellerup
+      980   711222      8                                        Kragelund
+      981   711254      9                                          Lemming
+      982   711272     10                                             Linå
+      983   700766     11                                         Resenbro
+      984   705410     13                                             Sejs
+      985   709870     14                                         Sjørslev
+      986   702058     15                                          Sorring
+      987   703820     16                                         Thorning
+      988   708382     17                                       Vinderslev
+      989   705446     18                                             Voel
+      990   709850     21                                            Balle
+      991   700802     22                                           Bryrup
+      992   706686     23                                        Buskelund
+      993   706692     24                                           Gjessø
+      994   702052     25                                         Hjøllund
+      995   709856     26                                     Langsøskolen
+      996   702046     28                                       Alderslyst
+      997   706680     29                                       Jysk Arena
+      998   700790     30                                             Them
+      999   711242     31                                 Vestergadehallen
+      1000  700796     32                                         Virklund
+      1001  709154      1                                       Tranebjerg
+      1002  704790      2                                           Nordby
+      1003  700784      1                                    Ejer Bavnehøj
+      1004  702022      2                                           Galten
+      1005  702034      3                                          Gl. Rye
+      1006  709844      4                                          Hørning
+      1007  702028      5                                            Låsby
+      1008  700778      6                                     Morten Børup
+      1009  711236      7                                    Niels Ebbesen
+      1010  703790      8                                               Ry
+      1011  708370      9                                           Skovby
+      1012  703796     10                                         Stilling
+      1013  706674     11                                            Stjær
+      1014  709838     12                                          Virring
+      1015  702188      1                           Frederiksbjerghallerne
+      1016  706884      2                            Folkehuset Ankersgade
+      1017  706890      3                             Rundhøjhallen, Holme
+      1018  703936      4                        Kragelundskolen, Højbjerg
+      1019  702228      6                                  Tranbjerg Skole
+      1020  700922      7                          Rosenvangskolen, Viby J
+      1021  700928      8                                      Viby Hallen
+      1022  709990      9                                      Beder Skole
+      1023  708544     10                                            DOKK1
+      1024  711386     11                                    Malling Skole
+      1025  703942     12                                    Mårslet Skole
+      1026  709996     13                                         Solbjerg
+      1027  748351     14                    Generationernes Hus, Aarhus Ø
+      1028  705582     16                               Ormslev Præstegård
+      1029  703954     18                                Hasselager Hallen
+      1030  702240     19                          Højvangskolen, Stavtrup
+      1031  748350     20                    Folkestedet, Carl Blochs Gade
+      1032  708568     21                                     Rådhushallen
+      1033  700890     22                         Gammelgårdskolen, Åbyhøj
+      1034  706860     23                                      Hasle Skole
+      1035  706938     24                                  Brabrand Hallen
+      1036  710046     25                                         Globus 1
+      1037  710040     26                                  Skjoldhøjskolen
+      1038  723742     27                        Via University, Ceresbyen
+      1039  703948     28                          TST Aktiv-Center, Tilst
+      1040  711422     30                                     Næshøjhallen
+      1041  705576     31                             Borum Forsamlingshus
+      1042  710034     33                       Sabro-Korsvejskolen, Sabro
+      1043  711398     41                                 Samsøgades Skole
+      1044  708530     42                                   Skovvangskolen
+      1045  706866     43                                  Møllevangskolen
+      1046  705526     44                                   Lisbjergskolen
+      1047  709972     45                                 Bellevuehallerne
+      1048  705532     47                                   Lystrup Hallen
+      1049  711374     48                           Virupskolen, Hjortshøj
+      1050  702208     49                                Sølystskolen, Egå
+      1051  708574     50                                    Skæring Skole
+      1052  705544     51                                 Skødstrup Hallen
+      1053  705514     53                          Bjørnshøjcentret, Trige
+      1054  705520     55                               Spørring Fælleshus
+      1055  711356     56                                     Hårup Hallen
+      1056  711368     61                            Vejlby-Risskov Hallen
+      1057  711416     62                         Søndervangskolen, Viby J
+      1058  709952     63                                  FrydenlundHUSET
+      1059  710028     64                                       Åby Hallen
+      1060  711392     65                          Ellevangskolen, Risskov
+      1061  700902     66                                      Skåde Skole
+      1062  703918     67                               Katrinebjergskolen
+      1063  708524     68                                  Vorrevangskolen
+      1064  705552      1                                          Ejstrup
+      1065  703930      2                                         Gludsted
+      1066  709984      3                                      Nørre Snede
+      1067  713316      4                                         Klovborg
+      1068  702176      5                                           Brande
+      1069  713298      6                                           Blåhøj
+      1070  711380      7                                            Ikast
+      1071  703924      8                                          Isenvad
+      1072  713304      9                                          Bording
+      1073  713310     10                                        Engesvang
+      1074  707956      1                                             Tarm
+      1075  706404      2                                        Holmsland
+      1076  748670      4                                             Ådum
+      1077  748671      7                                           Hemmet
+      1078  712176     10                                      Hvide Sande
+      1079  706556     12                                          Velling
+      1080  705180     14                                       Ringkøbing
+      1081  712306     16                                              Hee
+      1082  711192     21                                              Lem
+      1083  706568     22                                              Tim
+      1084  711186     24                                           Skjern
+      1085  703690     25                                           Borris
+      1086  703702     27                                     Rækker Mølle
+      1087  709682     28                                         Stauning
+      1088  706530     30                                          Videbæk
+      1089  707950     32                                        Troldhede
+      1090  711210     33                                     Vorgod-Barde
+      1091  703684     35                                           Spjald
+      1092  702112      1                                        Hedensted
+      1093  706834      2                                          Løsning
+      1094  702132      3                                      Øster Snede
+      1095  705478      4                                          Daugård
+      1096  703888      5                                          Korning
+      1097  711322      6                                           Ølsted
+      1098  705470      7                                  Juelsminde - As
+      1099  706828     10                                           Barrit
+      1100  703906     11                               Stenderup - Bjerre
+      1101  711310     12                                         Hornsyld
+      1102  709924     13                                           Stouby
+      1103  700852     14                                            Rårup
+      1104  702118     15                                    Glud - Hjarnø
+      1105  703900     17                 Rask Mølle - Hvirring - Hornborg
+      1106  700846     20                                          Lindved
+      1107  703894     21                                          Tørring
+      1108  706840     22                                            Uldum
+      1109  709918     23                                Aale - Hjortsvang
+      1110  711316     24                                           Ølholm
+      1111  705682      1                                         Nordmors
+      1112  702454      2                                         Midtmors
+      1113  711508      3                                          Sydmors
+      1114  711514      4                                      Sydvestmors
+      1115  710282      5                                         Nykøbing
+      1116  748880      1                                           Aakjær
+      1117  748883      2                                         Skivehus
+      1118  748874      3                                           Brårup
+      1119  748881      4                                          Højslev
+      1120  748877      5                                    Ørslevkloster
+      1121  748876      6                                         Rønbjerg
+      1122  748871      7                                              Hem
+      1123  748885      8                                            Lihme
+      1124  748870      9                                 Oddense - Otting
+      1125  748884     10                                          Rødding
+      1126  748872     11                                         Glyngøre
+      1127  748886     12                                            Durup
+      1128  748879     13                                           Roslev
+      1129  748875     14                                     Jebjerg-Lyby
+      1130  748878     15                                          Balling
+      1131  748882     16                                            Breum
+      1132  748887     17                                    Håsum-Ramsing
+      1133  748873     18                                            Selde
+      1134  748888     19                                        Lem-Vejby
+      1135  701060     20                                              Fur
+      1136  705918      1                                          Thisted
+      1137  748371      2                                         Snedsted
+      1138  748374      3                                            Hurup
+      1139  748376      4                                        Hanstholm
+      1140  702944      5                                         Sjørring
+      1141  709112      6                                           Vesløs
+      1142  705906      7                                        Vestervig
+      1143  704712      8                                          Bedsted
+      1144  748375      9                                             Nors
+      1145  708884     10                                         Frøstrup
+      1146  748372     11                                          Vorupør
+      1147  748370     12                                           Koldby
+      1148  748373     13                                         Østerild
+      1149  748377     14                                          Sennels
+      1150  701270     15                                       Klitmøller
+      1151  708912      1                                        Frederiks
+      1152  702938      2                                         Hald Ege
+      1153  711744      3                                            Karup
+      1154  701332      4                                         Løgstrup
+      1155  702956      5                                          Mønsted
+      1156  704488      6                                          Stoholm
+      1157  704480      7                                         Vridsted
+      1158  702932      8                                           Viborg
+      1159  704706      9                                      Bjerringbro
+      1160  701488     11                                       Hammershøj
+      1161  711838     12                                          Møldrup
+      1162  709124     13                                          Houlkær
+      1163  709100     14                                          Rødding
+      1164  710696     15                                       Rødkærsbro
+      1165  709090     16                                            Skals
+      1166  709106     17                                             Ørum
+      1167  708624      1                                         Agersted
+      1168  708636      2                                             Asaa
+      1169  705640      3                                     Dronninglund
+      1170  700996      4                                     Flauenskjold
+      1171  700990      5                                        Hjallerup
+      1172  704006      6                                      Klokkerholm
+      1173  710140     10                                      Brønderslev
+      1174  702304     34                                           Stenum
+      1175  704012     40                                            Thise
+      1176  705646     50                                   Ø. Brønderslev
+      1177  704018     56                                          Hallund
+      1178  711454     70                                          Jerslev
+      1179  708630     80                                       Serritslev
+      1180  705148      1                                           Skagen
+      1181  748530      2                                            Ålbæk
+      1182  705156      3                                            Jerup
+      1183  709634      4                                           Elling
+      1184  712132      5                                         Strandby
+      1185  711060      6                                    Frederikshavn
+      1186  748390      7                                         Ravnshøj
+      1187  710978      8                                            Gærum
+      1188  748391      9                                             Sæby
+      1189  709628     10                                           Dybvad
+      1190  703530     11                                            Hørby
+      1191  705142     12                                         Thorshøj
+      1192  748393     13                                           Voerså
+      1193  712112     14                                         Volstrup
+      1194  703516     15                                         Østervrå
+      1195  708562      1                                        Aalestrup
+      1196  705538      2                                            Farsø
+      1197  708538      3                                         Strandby
+      1198  700858      4                                             Aars
+      1199  711328      5                                        Hvalpsund
+      1200  710016      6                                  Gislum-Vognsild
+      1201  710008      7                                          Gedsted
+      1202  705558      8                                   Hornum-Ulstrup
+      1203  710002      9                                    Vester Hornum
+      1204  702144     10                                          Løgstør
+      1205  709958     11                                            Ranum
+      1206  706876     12                                          Salling
+      1207  700908     13                                         Overlade
+      1208  709966     14                                     Skivum-Giver
+      1209  702460     15                                             Læsø
+      1210  707882      1                                         Støvring
+      1211  709658      2                                         Skørping
+      1212  703572      3                                         Terndrup
+      1213  712170      4                                          Suldrup
+      1214  712164      5                                          Nørager
+      1215  709652      6                                        Haverslev
+      1216  701822      7                                     Øster Hornum
+      1217  711096      8                                            Bælum
+      1218  706392      9                                        Ravnkilde
+      1219  712144     10                                        Blenstrup
+      1220  705168     11                                         Veggerby
+      1221  708668      2                                           Assens
+      1222  700964      3                                         Mariager
+      1223  707018      4                                            Arden
+      1224  702354      8                                         Valsgård
+      1225  701046      9                                       Vebbestrup
+      1226  705600     11                                          Hadsund
+      1227  702360     14                                   Veddum-Skelund
+      1228  710066     18                                              Als
+      1229  708660     20                                            Hørby
+      1230  706980     22                                           Onsild
+      1231  702292     27                                            Hobro
+      1232  709280      1                                          Aabybro
+      1233  701500      2                                         Biersted
+      1234  701540      3                                         Nørhalne
+      1235  711896      4                                          Vedsted
+      1236  710716      5                                             Gjøl
+      1237  709244      6                                         Ingstrup
+      1238  709274      7                                   V. Hjermitslev
+      1239  711858      8                                           Brovst
+      1240  706102      9                                       Halvrimmen
+      1241  703190     10                                      Arentsminde
+      1242  709250     11                                           Tranum
+      1243  707638     12                                        Skovsgård
+      1244  707632     13                                      Fjerritslev
+      1245  704750     14                                           Thorup
+      1246  711844     15                                           Ørebro
+      1247  703196     16                                        Trekroner
+      1248  704764     18                                         Jetsmark
+      1249  701514     20                                             Hune
+      1250  703310     21                                           Saltum
+      1251  711766      3                    Gl. Lindholm Skole, Kulturhus
+      1252  748032      4                      PFA Kollegiet i Nørresundby
+      1253  707424      5                                    Løvvanghallen
+      1254  706034      7                      Multihallen Ved Vadumhallen
+      1255  748570      9                 Vestbjerg Idræts og Kulturcenter
+      1256  701402     10                                 Sulsted Skolehal
+      1257  708960     11                    Vodskov Kultur & Idrætscenter
+      1258  748033     12                           HF&VUC Nord, Godsbanen
+      1259  705992     14                               Vesterkærets Skole
+      1260  704474     15                                      Haraldslund
+      1261  711774     16                                    Aalborghallen
+      1262  710526     17                             Skipperens Idrætshus
+      1263  704462     18                          Hallen Ved Skalborggård
+      1264  701344     19                                    Kfum - Hallen
+      1265  748031     20                               Hasseris Gymnasium
+      1266  705964     22                         Frejlev Skoles Idrætshal
+      1267  708924     24                                  Svenstruphallen
+      1268  708938     27                                  Sønderbroskolen
+      1269  748030     28                                        Nordkraft
+      1270  704506     29                                        Gigantium
+      1271  707394     30                                   Vejgaardhallen
+      1272  708918     31                             Vejgaard Østre Skole
+      1273  711750     32                      Mellervangskolens Idrætshal
+      1274  701338     33                                     Klaruphallen
+      1275  706010     34                                        Gug Skole
+      1276  702950     35                         Gistrup Skoles Idrætshal
+      1277  748034     36                             Aalborghus Gymnasium
+      1278  705970     38                                 Ferslev Skolehal
+      1279  704494     40                            Tornhøjskolen, Hallen
+      1280  710544     43                            Vester Hassing Hallen
+      1281  710552     44                                       Hals Skole
+      1282  708966     46                                     Ulstedhallen
+      1283  705942     47                                      Nibe Hallen
+      1284  707350     52                                   Farstruphallen
+      1285  707406     56                         Idrætscentret Kongerslev
+      1286  702918     58                                        Mou Hotel
+      1287  701356     61                                  Båndby - Hallen
+      1288  702860      1                                            Horne
+      1289  710464      3                                        Hirtshals
+      1290  710442      4                               Hjørring - Centrum
+      1291  710458      6                                           Tornby
+      1292  708788      7                                         Bindslev
+      1293  710470      8                                         Tversted
+      1294  701230     11                                            Taars
+      1295  710436     12                                  Vrejlev-Hæstrup
+      1296  710488     13                                   Bjergby-Mygdal
+      1297  701236     14                                        Skallerup
+      1298  704384     15                                  Hjørring - Nord
+      1299  702842     16                                   Hjørring - Syd
+      1300  702836     18                                  Hjørring - Vest
+      1301  702854     19                                              Vrå
+      1302  710482     20                                         Hundelev
+      1303  702848     21                                           Løkken
+      1304  707320     22                                           Sindal
+      1305  704372     23                                           Astrup
+      1306  710452     26                                            Tolne
+      1307  701248     27                                            Ugilt
+      1308  701242     28                                           Lendum
                                                            afstemningsstednavn
       1                                                            Idrætshuset
       2                                                         Vibenhus Skole
@@ -1657,24 +1667,24 @@
       352                                               Nordrup Forsamlingshus
       353                                             Vigersted Forsamlingshus
       354                                                     Ørslev Kulturhus
-      355                                                        Dalmosehallen
-      356                                                         Hashøjskolen
-      357                                            Sørbymagle Forsamlingshus
+      355                                                       Vemmelevhallen
+      356                                             Taarnborg Forsamlingshus
+      357                                                            Broskolen
       358                                                     Storebæltshallen
-      359                                                            Broskolen
-      360                                             Taarnborg Forsamlingshus
-      361                                                       Vemmelevhallen
-      362                                                    Søndermarkshallen
+      359                                                     Boeslunde Hallen
+      360                                                       Skælskørhallen
+      361                                                         Agersøhallen
+      362                                                   Omø Forsamlingshus
       363                                                      Kirkeskovskolen
-      364                                                       Skælskørhallen
-      365                                                         Agersøhallen
-      366                                                     Boeslunde Hallen
-      367                                                   Omø Forsamlingshus
-      368                                                      Slagelse Hallen
+      364                                                        Dalmosehallen
+      365                                                         Hashøjskolen
+      366                                            Sørbymagle forsamlingshus
+      367                                              Hallelev Forsamlingshus
+      368                                                      Stillingehallen
       369                                                           Vesthallen
       370                                                           Nordhallen
-      371                                              Hallelev Forsamlingshus
-      372                                                      Stillingehallen
+      371                                                    Søndermarkshallen
+      372                                                      Slagelse Hallen
       373                                                         Hårlevhallen
       374                                                  Strøby Idrætscenter
       375                                                         Stevnshallen
@@ -1793,7 +1803,7 @@
       488                                            Gelsted Skole - Festsalen
       489                                             Brenderup Forsamlingshus
       490                                              Fjelsted-Harndrup Skole
-      491                                                         Gæstgiveriet
+      491                                               Forsamlingshuset Månen
       492                                                         ARENA ASSENS
       493                                                       EBBERUP HALLEN
       494                                                 TURUP FORSAMLINGSHUS
@@ -2284,323 +2294,333 @@
       979                                                    Arena Midt, Hal A
       980                                                     Kragelund Hallen
       981                                               Lemming Forsamlingshus
-      982                                                          Linå Hallen
+      982                                                  Linå Forsamlingshus
       983                                                       Resenbrohallen
-      984                                               Sejling Forsamlingshus
-      985                                                           Multihuset
-      986                                                   Sjørslev Sognegård
-      987                                               Sorring Forsamlingshus
-      988                                              Thorning Forsamlingshus
-      989                                            Vinderslev Forsamlingshus
-      990                                                   Voel Hallen, Hal 1
-      991                                                     Balleskolens Hal
-      992                                                 Bryrup Skole, Aulaen
-      993                                               Buskelundhallen, Hal 1
-      994                                         Gjessø Skole, Gymnastiksalen
-      995                                                 Vrads Forsamlingshus
-      996                                           Langsøhallen, Gymnastiksal
-      997                               Lysbro Uddannelsescenter, Gymnastiksal
-      998                                                     Alderslysthallen
-      999                                                    JYSK arena, Hal A
-      1000                          Toftebjerg, Them Bibliotek og Medborgerhus
-      1001                                                    Vestergadehallen
-      1002                              Virklund Fritidscenter, Virklundhallen
-      1003                                                        Samsø Hallen
-      1004                                                    Nordby Bibliotek
-      1005                                                Ejer Bavnehøj Skolen
-      1006                                                       Galten Hallen
-      1007                                                       Gl. Rye Skole
-      1008                                                      Hørning Hallen
-      1009                                                        Låsby Hallen
-      1010                                                 Morten Børup Hallen
-      1011                                                Niels Ebbesen Skolen
-      1012                                                           Ry Hallen
-      1013                                                       Skovby Hallen
-      1014                                                     Stilling Hallen
-      1015                                                 Stjær Skole, Aulaen
-      1016                                               Virring Skole, Hallen
-      1017                                              Frederiksbjerghallerne
-      1018                                               Folkehuset Ankersgade
-      1019                                                       Rundhøjhallen
-      1020                                                     Kragelundskolen
-      1021                                                     Tranbjerg Skole
-      1022                                                     Rosenvangskolen
-      1023                                                         Viby Hallen
-      1024                                                         Beder Skole
-      1025                                                               DOKK1
-      1026                                                       Malling Skole
-      1027                                                       Mårslet Skole
-      1028                                                            Solbjerg
-      1029                                                 Generationernes Hus
-      1030                                                  Ormslev Præstegård
-      1031                                                   Hasselager Hallen
-      1032                                                       Højvangskolen
-      1033                                                         Folkestedet
-      1034                                                        Rådhushallen
-      1035                                                    Gammelgårdskolen
-      1036                                                         Hasle Skole
-      1037                                                     Brabrand Hallen
-      1038                                                            Globus 1
-      1039                                                     Skjoldhøjskolen
-      1040                                           Via University, Ceresbyen
-      1041                                                    TST Aktiv-Center
-      1042                                                        Næshøjhallen
-      1043                                                Borum Forsamlingshus
-      1044                                                 Sabro-Korsvejskolen
-      1045                                                    Samsøgades Skole
-      1046                                                      Skovvangskolen
-      1047                                                     Møllevangskolen
-      1048                                                      Lisbjergskolen
-      1049                                                    Bellevuehallerne
-      1050                                                      Lystrup Hallen
-      1051                                              Virupskolen, Hjortshøj
-      1052                                                        Sølystskolen
-      1053                                                       Skæring Skole
-      1054                                                    Skødstrup Hallen
-      1055                                                    Bjørnshøjcentret
-      1056                                                  Spørring Fælleshus
-      1057                                                        Hårup Hallen
-      1058                                               Vejlby-Risskov Hallen
-      1059                                                    Søndervangskolen
-      1060                                                     FrydenlundHUSET
-      1061                                                          Åby Hallen
-      1062                                                      Ellevangskolen
-      1063                                                         Skåde Skole
-      1064                                                  Katrinebjergskolen
-      1065                                                     Vorrevangskolen
-      1066                                                  Ejstrupholm Hallen
-      1067                                                  Gludsted Sognegård
-      1068                                                  Nørre Snede Hallen
-      1069                                             Klovborg Forsamlingshus
-      1070                                                     Brande Hallerne
-      1071                                                     Blåhøj Multihus
-      1072                                                  Sportscenter Ikast
-      1073                                                             SENTRUM
-      1074                                              Bording Forsamlingshus
-      1075                                                    Engesvang Hallen
-      1076                                            Tarm Idrætscenter, Hal A
-      1077                                   Holmsland Idræts- og Kulturcenter
-      1078                                                         Ådum Hallen
-      1079                                                            Bork kro
-      1080                                               Hvide Sande Bibliotek
-      1081                                              Velling Forsamlingshus
-      1082                                                 ROFI-Centret, Hal 2
-      1083                                             Hee Gl. Stationsbygning
-      1084                                                  Hotel Smedegaarden
-      1085                                                          Tim Hallen
-      1086                    Ringkøbing-Skjern Kulturcenter, Hal 1, Indgang B
-      1087                                                       Borris Hallen
-      1088                                                 Rækker Mølle Hallen
-      1089                                      Stauning Skole, Gymnastiksalen
-      1090                    Videbæk Idræts- og Fritidscenter, Hovedindgangen
-      1091                                   Troldhede Kultur- og Idrætscenter
-      1092                                               Vorgod Forsamlingshus
-      1093                                                    Spjald Kulturhus
-      1094                                                Hedensted - Byhallen
-      1095                                          Løsning Skole - Boldhallen
-      1096                                                  Øster Snede Hallen
-      1097                                              Daugård Skole - Aulaen
-      1098                                      Korning Skole - Gymnastiksalen
-      1099                                                       Ølsted Hallen
-      1100                                                 Juelsminde Hallerne
-      1101                                                  Barrithus - Hallen
-      1102                                                  Stenderup Multihal
-      1103                                               Hornsyld Idrætscenter
-      1104                                                     Stouby Multihus
-      1105                                                        Rårup Hallen
-      1106                                                         Glud Hallen
-      1107                                         Rask Mølle Hallerne - Hal 2
-      1108                                                      Lindved Hallen
-      1109                                      Tørring Skole - Gymnastiksalen
-      1110                                                        Uldum Hallen
-      1111                                             Aale-Hjortsvang Minihal
-      1112                                       Ølholm Skole - Gymnastiksalen
-      1113                                                     Nordmors Hallen
-      1114                                                      Midtmors Sport
-      1115                                           Sydmors Skole og Børnehus
-      1116                                 Sydvestmors Kultur og Fritidscenter
-      1117                                                     Nykøbing Hallen
-      1118                                    Fur Medborger- og forsamlingshus
-      1119                                           Kulturcenter Skive, Hal B
-      1120                                       Højslev Skole, Gymnastiksalen
-      1121                                           Spøttrup Aktivitetscenter
-      1122                                              Rødding Forsamlingshus
-      1123                                                     Glyngøre Hallen
-      1124                                                    Salling Hallerne
-      1125                                             Kulturcenter Østsalling
-      1126                                                         Munkehallen
-      1127                                                     Snedsted Hallen
-      1128                                                      Hurup Hallerne
-      1129                                                  Hanstholm Hallerne
-      1130                                    Sjørring Idræts- og Kulturcenter
-      1131                                                       Hannæs Hallen
-      1132                                    Aktivitetscenter Vestervig-Agger
-      1133                                                      Bedsted Hallen
-      1134                                                         Nors Hallen
-      1135                                     Hannæs-Østerild Skole, Frøstrup
-      1136                                                   Vorupør gl. skole
-      1137                                                        Koldby Skole
-      1138                                     Hannæs-Østerild Skole, Østerild
-      1139                                                      Nordthy Hallen
-      1140                                               Ældrecenter Klitrosen
-      1141                                    Alhedens Idræts- og Kulturcenter
-      1142                                               Hald Ege Idrætscenter
-      1143                                                           Jethallen
-      1144                                                     Løgstrup Hallen
-      1145                                                    Østfjends Hallen
-      1146                                    Stoholm Fritids- og Kulturcenter
-      1147                                                   Vestfjends Hallen
-      1148                                   Viborg Stadion Center - HAL 5 & 6
-      1149                                 Bjerringbro Idræts- og Kulturcenter
-      1150                                                   Hammershøj Hallen
-      1151                                                      Møldrup Hallen
-      1152                                                       Houlkærhallen
-      1153                                 Røddinghus Kultur- og Fritidscenter
-      1154                                                   Rødkærsbro Hallen
-      1155                                                  Skals Idrætscenter
-      1156                                                       Tjelecenteret
-      1157                                                    Rosendalcenteret
-      1158                                                         Asaa-Hallen
-      1159                                                  Dronninglund Skole
-      1160                                                  Jyske Ås Kulturhus
-      1161                                                 Hjallerup Kulturhus
-      1162                                                  Klokkerholm Hallen
-      1163                                                  Brønderslev Hallen
-      1164                                    Stenum Kultur- og Forsamlingshus
-      1165                                             Manna-Thise Samlingshus
-      1166                                                       Østsidehallen
-      1167                                                         Hallund Kro
-      1168                                                      Borgen Jerslev
-      1169                                           Serritslev Forsamlingshus
-      1170                                     Skagen Kultur- og Fritidscenter
-      1171                                                     Ålbæk Kulturhus
-      1172                                                Jerup Forsamlingshus
-      1173                                        Bannerslundhallens Cafeteria
-      1174                                       Strandby Borger- og Kulturhus
-      1175                                                          Arena Nord
-      1176                                                      Ravnshøj Skole
-      1177                                                         Gærum Skole
-      1178                                                      Sæby Kulturhus
-      1179                                                        Dybvadhallen
-      1180                                                      Hørby Sognehus
-      1181                                                Thorshøj gamle skole
-      1182                                                      Stensnæsskolen
-      1183                                                      Syvsten Hallen
-      1184                                     Østervrå Idræts- & Kulturcenter
-      1185                                              Aalestrup Idrætscenter
-      1186                                            Dronning Ingrid Hallerne
-      1187                                       Vesthimmerlands Naturfriskole
-      1188                                          Messecenter Vesthimmerland
-      1189                                                    Hvalpsund Hallen
-      1190                                                       Vestrup Skole
-      1191                                                      Gedsted Hallen
-      1192                                                       Hornum Hallen
-      1193                                                Vester Hornum Hallen
-      1194                                   Kultur- og Idrætscenter Lanternen
-      1195                                                Ranum Multikulturhus
-      1196                                                    Bakkeskolehallen
-      1197                                                   Overlade Friskole
-      1198                                         Vegger Idræts- og Kulturhus
-      1199                                                         Læsø Hallen
-      1200                                                     Støvring Hallen
-      1201                                               Skørping Idrætscenter
-      1202                                               Terndrup Idrætscenter
-      1203                                                         Suldrup Kro
-      1204                                                             Kig Ind
-      1205                                  Selskabslokalerne Haverslev Hallen
-      1206                                                    Forsamlingshuset
-      1207                                                         Bælum Skole
-      1208                                                    Forsamlingshuset
-      1209                                                    Blenstrup Hallen
-      1210                                      Hjeds Kultur og Forsamlingshus
-      1211                                                       Assens Hallen
-      1212                                                     Mariager Hallen
-      1213                                                      Arden Hallerne
-      1214                                                     Valsgård Hallen
-      1215                                               Vebbestrup Multiforum
-      1216                                                    Hadsund Hallerne
-      1217                                                          Veddum Sal
-      1218                                                          Als Hallen
-      1219                                                      Rosendalhallen
-      1220                                                       Onsild Hallen
-      1221                                                  Hobro Idrætscenter
-      1222                                                           DGI-Huset
-      1223                                                      Biersted Skole
-      1224                                                     Nørhalne Hallen
-      1225                                                     Birkelse Hallen
-      1226                                                          Gjøl Skole
-      1227                                             Ingstrup Forsamlingshus
-      1228                                                              Lunden
-      1229                                               Sport og Kulturcenter
-      1230                                           Halvrimmen Forsamlingshus
-      1231                                               Arentsminde Cafeteria
-      1232                                                Tranum Forsamlinghus
-      1233                                                     Skovsgård Hotel
-      1234                                                   Fjerritslev Skole
-      1235                                               Thorup Forsamlingshus
-      1236                                                        Ørebroskolen
-      1237                                             Trekroner Landsbycenter
-      1238                                                Jetsmark Skolecenter
-      1239                                                 Hune Forsamlingshus
-      1240                                                          Norshallen
-      1241                                     Gl. Lindholm Skole, Kulturhuset
-      1242                                         PFA Kollegiet i Nørresundby
-      1243                                                       Løvvanghallen
-      1244                                         Multihallen ved Vadumhallen
-      1245                                    Vestbjerg Idræts og Kulturcenter
-      1246                                                    Sulsted Skolehal
-      1247                                  Vodskov Kultur & Idrætscenter, Sal
-      1248                                              HF&VUC Nord, Godsbanen
-      1249                                                  Vesterkærets Skole
-      1250                                   Haraldslund, salen, fra P-pladsen
-      1251                                                       Aalborghallen
-      1252                                                Skipperens Idrætshus
-      1253                                              Agri Nord Idrætscenter
-      1254                                                       KFUM - Hallen
-      1255                                                  Hasseris Gymnasium
-      1256                                            Frejlev Skoles Idrætshal
-      1257                                                     Svenstruphallen
-      1258                                                     Sønderbroskolen
-      1259                                                           Nordkraft
-      1260                                                           Gigantium
-      1261                                                      Vejgaardhallen
-      1262                                                Vejgaard Østre Skole
-      1263                                         Mellervangskolens Idrætshal
-      1264                                                        Klaruphallen
-      1265                                                           Gug Skole
-      1266                                            Gistrup Skoles Idrætshal
-      1267                                                Aalborghus Gymnasium
-      1268                                                    Ferslev Skolehal
-      1269                                               Tornhøjskolen, Hallen
-      1270                                               Vester Hassing Hallen
-      1271                                                          Hals Skole
-      1272                                                        Ulstedhallen
-      1273                                                  Nibe Hallen, Hal B
-      1274                                                      Farstruphallen
-      1275                                            Idrætscentret Kongerslev
-      1276                                                           Mou Hotel
-      1277                                                       Båndby-Hallen
-      1278                                                     Stendyssehallen
-      1279                                              Hirtshals Idrætscenter
-      1280                                                         Vendelbohus
-      1281                                                     Tornby - Hallen
-      1282                                                   Bindslev Sognehus
-      1283                                                          Klitgården
-      1284                                                          Tårshallen
-      1285                                              Vrejlev-Hæstrup Hallen
-      1286                                               Bjergby-Mygdal Hallen
-      1287                                                     Skalleruphallen
-      1288                                                       Højene Hallen
-      1289                                                       Bagterphallen
-      1290                                                    Lundergårdhallen
-      1291                                             Idrætscenter Vendsyssel
-      1292                                     Friskolen for Hundelev og Omegn
-      1293                                                 Løkken Idrætscenter
-      1294                                                       Sindal Hallen
-      1295                                               Astrup Forsamlingshus
-      1296                                         Tolne Efterskole (i hallen)
-      1297                                                Ugilt Forsamlingshus
-      1298                                                       Lendum Hallen
+      984                                                           Multihuset
+      985                                                   Sjørslev Sognegård
+      986                                               Sorring Forsamlingshus
+      987                                              Thorning Forsamlingshus
+      988                                            Vinderslev Forsamlingshus
+      989                                                  Voel Forsamlingshus
+      990                                                     Balleskolens Hal
+      991                                                 Bryrup Skole, Aulaen
+      992                                               Buskelundhallen, Hal 1
+      993                                         Gjessø Skole, Gymnastiksalen
+      994                                                 Vrads Forsamlingshus
+      995                                           Langsøhallen, Gymnastiksal
+      996                                                     Alderslysthallen
+      997                                                    JYSK arena, Hal A
+      998                           Toftebjerg, Them Bibliotek og Medborgerhus
+      999                                                     Vestergadehallen
+      1000                              Virklund Fritidscenter, Virklundhallen
+      1001                                                        Samsø Hallen
+      1002                                                    Nordby Bibliotek
+      1003                                                Ejer Bavnehøj Skolen
+      1004                                                       Galten Hallen
+      1005                                                       Gl. Rye Skole
+      1006                                                      Hørning Hallen
+      1007                                                        Låsby Hallen
+      1008                                                 Morten Børup Hallen
+      1009                                                Niels Ebbesen Skolen
+      1010                                                           Ry Hallen
+      1011                                                       Skovby Hallen
+      1012                                                     Stilling Hallen
+      1013                                                 Stjær Skole, Aulaen
+      1014                                               Virring Skole, Hallen
+      1015                                              Frederiksbjerghallerne
+      1016                                               Folkehuset Ankersgade
+      1017                                                       Rundhøjhallen
+      1018                                                     Kragelundskolen
+      1019                                                     Tranbjerg Skole
+      1020                                                     Rosenvangskolen
+      1021                                                         Viby Hallen
+      1022                                                         Beder Skole
+      1023                                                               DOKK1
+      1024                                                       Malling Skole
+      1025                                                       Mårslet Skole
+      1026                                                            Solbjerg
+      1027                                                 Generationernes Hus
+      1028                                                  Ormslev Præstegård
+      1029                                                   Hasselager Hallen
+      1030                                                       Højvangskolen
+      1031                                                         Folkestedet
+      1032                                                        Rådhushallen
+      1033                                                    Gammelgårdskolen
+      1034                                                         Hasle Skole
+      1035                                                     Brabrand Hallen
+      1036                                                            Globus 1
+      1037                                                     Skjoldhøjskolen
+      1038                                           Via University, Ceresbyen
+      1039                                                    TST Aktiv-Center
+      1040                                                        Næshøjhallen
+      1041                                                Borum Forsamlingshus
+      1042                                                 Sabro-Korsvejskolen
+      1043                                                    Samsøgades Skole
+      1044                                                      Skovvangskolen
+      1045                                                     Møllevangskolen
+      1046                                                      Lisbjergskolen
+      1047                                                    Bellevuehallerne
+      1048                                                      Lystrup Hallen
+      1049                                              Virupskolen, Hjortshøj
+      1050                                                        Sølystskolen
+      1051                                                       Skæring Skole
+      1052                                                    Skødstrup Hallen
+      1053                                                    Bjørnshøjcentret
+      1054                                                  Spørring Fælleshus
+      1055                                                        Hårup Hallen
+      1056                                               Vejlby-Risskov Hallen
+      1057                                                    Søndervangskolen
+      1058                                                     FrydenlundHUSET
+      1059                                                          Åby Hallen
+      1060                                                      Ellevangskolen
+      1061                                                         Skåde Skole
+      1062                                                  Katrinebjergskolen
+      1063                                                     Vorrevangskolen
+      1064                                                  Ejstrupholm Hallen
+      1065                                                  Gludsted Sognegård
+      1066                                                  Nørre Snede Hallen
+      1067                                             Klovborg Forsamlingshus
+      1068                                                     Brande Hallerne
+      1069                                                     Blåhøj Multihus
+      1070                                                  Sportscenter Ikast
+      1071                                                             SENTRUM
+      1072                                              Bording Forsamlingshus
+      1073                                                    Engesvang Hallen
+      1074                                            Tarm Idrætscenter, Hal A
+      1075                                   Holmsland Idræts- og Kulturcenter
+      1076                                                         Ådum Hallen
+      1077                                                            Bork kro
+      1078                                               Hvide Sande Bibliotek
+      1079                                              Velling Forsamlingshus
+      1080                                                 ROFI-Centret, Hal 2
+      1081                                             Hee Gl. Stationsbygning
+      1082                                                  Hotel Smedegaarden
+      1083                                                          Tim Hallen
+      1084                    Ringkøbing-Skjern Kulturcenter, Hal 1, Indgang B
+      1085                                                       Borris Hallen
+      1086                                                 Rækker Mølle Hallen
+      1087                                      Stauning Skole, Gymnastiksalen
+      1088                    Videbæk Idræts- og Fritidscenter, Hovedindgangen
+      1089                                   Troldhede Kultur- og Idrætscenter
+      1090                                               Vorgod Forsamlingshus
+      1091                                                    Spjald Kulturhus
+      1092                                                Hedensted - Byhallen
+      1093                                          Løsning Skole - Boldhallen
+      1094                                                  Øster Snede Hallen
+      1095                                              Daugård Skole - Aulaen
+      1096                                      Korning Skole - Gymnastiksalen
+      1097                                                       Ølsted Hallen
+      1098                                                 Juelsminde Hallerne
+      1099                                                  Barrithus - Hallen
+      1100                                                  Stenderup Multihal
+      1101                                               Hornsyld Idrætscenter
+      1102                                                     Stouby Multihus
+      1103                                                        Rårup Hallen
+      1104                                                         Glud Hallen
+      1105                                         Rask Mølle Hallerne - Hal 2
+      1106                                                      Lindved Hallen
+      1107                                      Tørring Skole - Gymnastiksalen
+      1108                                                        Uldum Hallen
+      1109                                             Aale-Hjortsvang Minihal
+      1110                                       Ølholm Skole - Gymnastiksalen
+      1111                                                     Nordmors Hallen
+      1112                                                      Midtmors Sport
+      1113                                           Sydmors Skole og Børnehus
+      1114                                 Sydvestmors Kultur og Fritidscenter
+      1115                                                     Nykøbing Hallen
+      1116                                          Aakjærhallen - Aakjær Torv
+      1117                                             Skivehus Skole (hallen)
+      1118                                               Brårup Skole (hallen)
+      1119                                              Højslev Skole (hallen)
+      1120                         Ørslevkloster Børneunivers (gymnastiksalen)
+      1121                                          Rønbjerg Hallen/Hedemarken
+      1122                                                  Hem Skole (hallen)
+      1123                                                  Lihme Medborgerhus
+      1124                                          Oddense Hus Sport & Kultur
+      1125                                              Rødding Forsamlingshus
+      1126                                                     Glyngøre Hallen
+      1127                                                        Durup Hallen
+      1128                                                    Salling Hallerne
+      1129                                       Sport- og Eventcenter Jebjerg
+      1130                                           Spøttrup Aktivitetscenter
+      1131                                             Kulturcenter Østsalling
+      1132                                              Ramsing Forsamlingshus
+      1133                                                      Fursund Hallen
+      1134                                                     Lem Samlingshus
+      1135                                    Fur Medborger- og forsamlingshus
+      1136                                                         Munkehallen
+      1137                                                     Snedsted Hallen
+      1138                                                      Hurup Hallerne
+      1139                                                  Hanstholm Hallerne
+      1140                                    Sjørring Idræts- og Kulturcenter
+      1141                                                       Hannæs Hallen
+      1142                                    Aktivitetscenter Vestervig-Agger
+      1143                                                      Bedsted Hallen
+      1144                                                         Nors Hallen
+      1145                                     Hannæs-Østerild Skole, Frøstrup
+      1146                                                   Vorupør gl. skole
+      1147                                                        Koldby Skole
+      1148                                     Hannæs-Østerild Skole, Østerild
+      1149                                                      Nordthy Hallen
+      1150                                               Ældrecenter Klitrosen
+      1151                                    Alhedens Idræts- og Kulturcenter
+      1152                                               Hald Ege Idrætscenter
+      1153                                                           Jethallen
+      1154                                                     Løgstrup Hallen
+      1155                                                    Østfjends Hallen
+      1156                                    Stoholm Fritids- og Kulturcenter
+      1157                                                   Vestfjends Hallen
+      1158                                   Viborg Stadion Center - HAL 5 & 6
+      1159                                 Bjerringbro Idræts- og Kulturcenter
+      1160                                                   Hammershøj Hallen
+      1161                                                      Møldrup Hallen
+      1162                                                       Houlkærhallen
+      1163                                 Røddinghus Kultur- og Fritidscenter
+      1164                                                   Rødkærsbro Hallen
+      1165                                                  Skals Idrætscenter
+      1166                                                       Tjelecenteret
+      1167                                                    Rosendalcenteret
+      1168                                                         Asaa-Hallen
+      1169                                                  Dronninglund Skole
+      1170                                                  Jyske Ås Kulturhus
+      1171                                                 Hjallerup Kulturhus
+      1172                                                  Klokkerholm Hallen
+      1173                                                  Brønderslev Hallen
+      1174                                    Stenum Kultur- og Forsamlingshus
+      1175                                             Manna-Thise Samlingshus
+      1176                                                       Østsidehallen
+      1177                                                         Hallund Kro
+      1178                                                      Borgen Jerslev
+      1179                                           Serritslev Forsamlingshus
+      1180                                     Skagen Kultur- og Fritidscenter
+      1181                                                     Ålbæk Kulturhus
+      1182                                                Jerup Forsamlingshus
+      1183                                        Bannerslundhallens Cafeteria
+      1184                                       Strandby Borger- og Kulturhus
+      1185                                                          Arena Nord
+      1186                                                      Ravnshøj Skole
+      1187                                                         Gærum Skole
+      1188                                                      Sæby Kulturhus
+      1189                                                        Dybvadhallen
+      1190                                                      Hørby Sognehus
+      1191                                                Thorshøj gamle skole
+      1192                                                      Stensnæsskolen
+      1193                                                      Syvsten Hallen
+      1194                                     Østervrå Idræts- & Kulturcenter
+      1195                                              Aalestrup Idrætscenter
+      1196                                            Dronning Ingrid Hallerne
+      1197                                       Vesthimmerlands Naturfriskole
+      1198                                          Messecenter Vesthimmerland
+      1199                                                    Hvalpsund Hallen
+      1200                                                       Vestrup Skole
+      1201                                                      Gedsted Hallen
+      1202                                                       Hornum Hallen
+      1203                                                Vester Hornum Hallen
+      1204                                   Kultur- og Idrætscenter Lanternen
+      1205                                                Ranum Multikulturhus
+      1206                                                    Bakkeskolehallen
+      1207                                                   Overlade Friskole
+      1208                                         Vegger Idræts- og Kulturhus
+      1209                                                         Læsø Hallen
+      1210                                                     Støvring Hallen
+      1211                                               Skørping Idrætscenter
+      1212                                               Terndrup Idrætscenter
+      1213                                                         Suldrup Kro
+      1214                                                             Kig Ind
+      1215                                  Selskabslokalerne Haverslev Hallen
+      1216                                                    Forsamlingshuset
+      1217                                                         Bælum Skole
+      1218                                                    Forsamlingshuset
+      1219                                                    Blenstrup Hallen
+      1220                                      Hjeds Kultur og Forsamlingshus
+      1221                                                       Assens Hallen
+      1222                                                     Mariager Hallen
+      1223                                                      Arden Hallerne
+      1224                                                     Valsgård Hallen
+      1225                                               Vebbestrup Multiforum
+      1226                                                    Hadsund Hallerne
+      1227                                                          Veddum Sal
+      1228                                                          Als Hallen
+      1229                                                      Rosendalhallen
+      1230                                                       Onsild Hallen
+      1231                                                  Hobro Idrætscenter
+      1232                                                           DGI-Huset
+      1233                                                      Biersted Skole
+      1234                                                     Nørhalne Hallen
+      1235                                                     Birkelse Hallen
+      1236                                                          Gjøl Skole
+      1237                                             Ingstrup Forsamlingshus
+      1238                                                              Lunden
+      1239                                               Sport og Kulturcenter
+      1240                                           Halvrimmen Forsamlingshus
+      1241                                               Arentsminde Cafeteria
+      1242                                                Tranum Forsamlinghus
+      1243                                                     Skovsgård Hotel
+      1244                                                   Fjerritslev Skole
+      1245                                               Thorup Forsamlingshus
+      1246                                                        Ørebroskolen
+      1247                                             Trekroner Landsbycenter
+      1248                                                Jetsmark Skolecenter
+      1249                                                 Hune Forsamlingshus
+      1250                                                          Norshallen
+      1251                                     Gl. Lindholm Skole, Kulturhuset
+      1252                                         PFA Kollegiet i Nørresundby
+      1253                                                       Løvvanghallen
+      1254                                         Multihallen ved Vadumhallen
+      1255                                    Vestbjerg Idræts og Kulturcenter
+      1256                                                    Sulsted Skolehal
+      1257                                  Vodskov Kultur & Idrætscenter, Sal
+      1258                                              HF&VUC Nord, Godsbanen
+      1259                                                  Vesterkærets Skole
+      1260                                   Haraldslund, salen, fra P-pladsen
+      1261                                                       Aalborghallen
+      1262                                                Skipperens Idrætshus
+      1263                                              Agri Nord Idrætscenter
+      1264                                                       KFUM - Hallen
+      1265                                                  Hasseris Gymnasium
+      1266                                            Frejlev Skoles Idrætshal
+      1267                                                     Svenstruphallen
+      1268                                                     Sønderbroskolen
+      1269                                                           Nordkraft
+      1270                                                           Gigantium
+      1271                                                      Vejgaardhallen
+      1272                                                Vejgaard Østre Skole
+      1273                                         Mellervangskolens Idrætshal
+      1274                                                        Klaruphallen
+      1275                                                           Gug Skole
+      1276                                            Gistrup Skoles Idrætshal
+      1277                                                Aalborghus Gymnasium
+      1278                                                    Ferslev Skolehal
+      1279                                               Tornhøjskolen, Hallen
+      1280                                               Vester Hassing Hallen
+      1281                                                          Hals Skole
+      1282                                                        Ulstedhallen
+      1283                                                  Nibe Hallen, Hal B
+      1284                                                      Farstruphallen
+      1285                                            Idrætscentret Kongerslev
+      1286                                                           Mou Hotel
+      1287                                                       Båndby-Hallen
+      1288                                                     Stendyssehallen
+      1289                                              Hirtshals Idrætscenter
+      1290                                                         Vendelbohus
+      1291                                                     Tornby - Hallen
+      1292                                                   Bindslev Sognehus
+      1293                                                          Klitgården
+      1294                                                          Tårshallen
+      1295                                              Vrejlev-Hæstrup Hallen
+      1296                                               Bjergby-Mygdal Hallen
+      1297                                                     Skalleruphallen
+      1298                                                       Højene Hallen
+      1299                                                       Bagterphallen
+      1300                                                    Lundergårdhallen
+      1301                                             Idrætscenter Vendsyssel
+      1302                                     Friskolen for Hundelev og Omegn
+      1303                                                 Løkken Idrætscenter
+      1304                                                       Sindal Hallen
+      1305                                               Astrup Forsamlingshus
+      1306                                         Tolne Efterskole (i hallen)
+      1307                                                Ugilt Forsamlingshus
+      1308                                                       Lendum Hallen
                        afstemningsstedadresseid
       1    0a3f507a-8121-32b8-e044-0003ba298018
       2    0a3f507a-a532-32b8-e044-0003ba298018
@@ -2956,24 +2976,24 @@
       352  0a3f5084-0bba-32b8-e044-0003ba298018
       353  0a3f5084-1a7c-32b8-e044-0003ba298018
       354  0a3f5084-17fc-32b8-e044-0003ba298018
-      355  0a3f5082-fd63-32b8-e044-0003ba298018
-      356  0a3f5082-f424-32b8-e044-0003ba298018
-      357  0a3f5082-fd9f-32b8-e044-0003ba298018
+      355  0a3f5083-bba8-32b8-e044-0003ba298018
+      356  0a3f5083-ace5-32b8-e044-0003ba298018
+      357  0a3f5083-a6e5-32b8-e044-0003ba298018
       358  0a3f5083-c33d-32b8-e044-0003ba298018
-      359  0a3f5083-a6e5-32b8-e044-0003ba298018
-      360  0a3f5083-ace5-32b8-e044-0003ba298018
-      361  0a3f5083-bba8-32b8-e044-0003ba298018
-      362  0a3f5084-413f-32b8-e044-0003ba298018
+      359  0a3f5084-206c-32b8-e044-0003ba298018
+      360  0a3f5084-3357-32b8-e044-0003ba298018
+      361  0a3f5084-23b7-32b8-e044-0003ba298018
+      362  0a3f5084-2730-32b8-e044-0003ba298018
       363  0a3f5084-2e29-32b8-e044-0003ba298018
-      364  0a3f5084-3357-32b8-e044-0003ba298018
-      365  0a3f5084-23b7-32b8-e044-0003ba298018
-      366  0a3f5084-206c-32b8-e044-0003ba298018
-      367  0a3f5084-2730-32b8-e044-0003ba298018
-      368  0a3f5084-5f25-32b8-e044-0003ba298018
+      364  0a3f5082-fd63-32b8-e044-0003ba298018
+      365  0a3f5082-f424-32b8-e044-0003ba298018
+      366  0a3f5082-fd9f-32b8-e044-0003ba298018
+      367  0a3f5084-49c2-32b8-e044-0003ba298018
+      368  0a3f5084-3c84-32b8-e044-0003ba298018
       369  0a3f5084-6503-32b8-e044-0003ba298018
       370  0a3f5084-5dd8-32b8-e044-0003ba298018
-      371  0a3f5084-49c2-32b8-e044-0003ba298018
-      372  0a3f5084-3c84-32b8-e044-0003ba298018
+      371  0a3f5084-413f-32b8-e044-0003ba298018
+      372  0a3f5084-5f25-32b8-e044-0003ba298018
       373  0a3f5082-6755-32b8-e044-0003ba298018
       374  0a3f5082-69cc-32b8-e044-0003ba298018
       375  0a3f5086-d2aa-32b8-e044-0003ba298018
@@ -3092,7 +3112,7 @@
       488  0a3f5088-02ed-32b8-e044-0003ba298018
       489  0a3f5087-ff7d-32b8-e044-0003ba298018
       490  0a3f5088-01c0-32b8-e044-0003ba298018
-      491  0a3f5087-b10b-32b8-e044-0003ba298018
+      491  12f92f56-e32b-4291-be6c-2caa6b3661a2
       492  3d119192-1721-4edd-8069-72dffa59dddb
       493  0a3f5087-cbee-32b8-e044-0003ba298018
       494  0a3f5087-c4a4-32b8-e044-0003ba298018
@@ -3403,7 +3423,7 @@
       799  0a3f508f-a7ac-32b8-e044-0003ba298018
       800  0a3f508f-c14f-32b8-e044-0003ba298018
       801  0a3f5090-286a-32b8-e044-0003ba298018
-      802  ade6aef6-999f-4753-aa3a-55f20c1e21e1
+      802  0a3f5090-1f68-32b8-e044-0003ba298018
       803  dda91fa8-da3c-41f7-89f5-725af8483532
       804  0a3f5090-4183-32b8-e044-0003ba298018
       805  0a3f5090-169e-32b8-e044-0003ba298018
@@ -3583,323 +3603,333 @@
       979  6bd46a49-e600-71a9-e044-00144f3ead67
       980  5ebb1129-645b-40a0-8d73-fb44d2ab9243
       981  0a3f5095-6f41-32b8-e044-0003ba298018
-      982  0a3f5095-70ff-32b8-e044-0003ba298018
+      982  0a3f5095-7101-32b8-e044-0003ba298018
       983  0a3f5095-851d-32b8-e044-0003ba298018
-      984  0a3f5095-5054-32b8-e044-0003ba298018
-      985  0a3f5095-676f-32b8-e044-0003ba298018
-      986  0a3f5097-9e2f-32b8-e044-0003ba298018
-      987  0a3f5093-7d9f-32b8-e044-0003ba298018
-      988  0a3f5097-8da5-32b8-e044-0003ba298018
-      989  0a3f5097-a476-32b8-e044-0003ba298018
-      990  0a3f5093-8446-32b8-e044-0003ba298018
-      991  0a3f5095-4656-32b8-e044-0003ba298018
-      992  0a3f5095-d7d3-32b8-e044-0003ba298018
-      993  0a3f5095-4a1b-32b8-e044-0003ba298018
-      994  0a3f5095-cdf6-32b8-e044-0003ba298018
-      995  0a3f5095-d911-32b8-e044-0003ba298018
-      996  0a3f5095-5f43-32b8-e044-0003ba298018
-      997  0a3f5095-73ee-32b8-e044-0003ba298018
-      998  0a3f5095-7977-32b8-e044-0003ba298018
-      999  0a3f5095-43ef-32b8-e044-0003ba298018
-      1000 0a3f5095-d6d9-32b8-e044-0003ba298018
-      1001 0a3f5095-929f-32b8-e044-0003ba298018
-      1002 0a3f5095-7cd7-32b8-e044-0003ba298018
-      1003 0a3f5095-385e-32b8-e044-0003ba298018
-      1004 0a3f5095-39d6-32b8-e044-0003ba298018
-      1005 0a3f5095-b0d3-32b8-e044-0003ba298018
-      1006 0a3f5093-7048-32b8-e044-0003ba298018
-      1007 0a3f5095-1773-32b8-e044-0003ba298018
-      1008 0a3f5093-fb8b-32b8-e044-0003ba298018
-      1009 0a3f5095-1733-32b8-e044-0003ba298018
-      1010 20911bab-097b-4b00-b0f5-55578d2f0a34
-      1011 0a3f5095-a6f9-32b8-e044-0003ba298018
-      1012 0a3f5095-1ed7-32b8-e044-0003ba298018
-      1013 0a3f5093-7224-32b8-e044-0003ba298018
-      1014 0a3f5095-a291-32b8-e044-0003ba298018
-      1015 0a3f5093-735d-32b8-e044-0003ba298018
-      1016 11ba94af-0e84-4303-a533-04d7608276e0
-      1017 0a3f5096-2069-32b8-e044-0003ba298018
-      1018 0a3f5095-e0b6-32b8-e044-0003ba298018
-      1019 0a3f5096-4f75-32b8-e044-0003ba298018
-      1020 0a3f5096-b135-32b8-e044-0003ba298018
-      1021 0a3f5096-6ff4-32b8-e044-0003ba298018
-      1022 0a3f5096-bf9b-32b8-e044-0003ba298018
-      1023 0a3f5096-d457-32b8-e044-0003ba298018
-      1024 0a3f5096-dcfb-32b8-e044-0003ba298018
-      1025 c1496b42-51c0-48ed-afc7-b340ac97ae13
-      1026 0a3f5096-8989-32b8-e044-0003ba298018
-      1027 0a3f5097-0833-32b8-e044-0003ba298018
-      1028 0a3f5096-7c3e-32b8-e044-0003ba298018
-      1029 dfbdc1b9-1a43-4780-83cf-08e8c8bc096c
-      1030 0a3f5096-adec-32b8-e044-0003ba298018
-      1031 0a3f5096-767d-32b8-e044-0003ba298018
-      1032 0a3f5096-73f8-32b8-e044-0003ba298018
-      1033 0a3f5096-04c4-32b8-e044-0003ba298018
-      1034 0a3f5096-c91f-32b8-e044-0003ba298018
-      1035 0a3f5096-049f-32b8-e044-0003ba298018
-      1036 3cae7253-1322-0f90-e044-0003ba298018
-      1037 0a3f5096-1a49-32b8-e044-0003ba298018
-      1038 0a3f5096-3682-32b8-e044-0003ba298018
-      1039 0a3f5096-dc5a-32b8-e044-0003ba298018
-      1040 3d740452-2b29-417e-a1ff-1fffac6970da
-      1041 0a3f5097-09de-32b8-e044-0003ba298018
-      1042 14ad30a9-fef8-4f6b-b955-ca300756a227
-      1043 0a3f5095-f1e8-32b8-e044-0003ba298018
-      1044 b8cf3780-3334-43f1-a4ce-6e8079d76c56
-      1045 0a3f5096-a406-32b8-e044-0003ba298018
-      1046 0a3f5096-e30c-32b8-e044-0003ba298018
-      1047 0a3f5096-9cd5-32b8-e044-0003ba298018
-      1048 30131285-ddff-3865-e044-0003ba298018
-      1049 0a3f5097-23e2-32b8-e044-0003ba298018
-      1050 0a3f5096-8bd5-32b8-e044-0003ba298018
-      1051 0a3f5097-27d1-32b8-e044-0003ba298018
-      1052 0a3f5096-10fa-32b8-e044-0003ba298018
-      1053 0a3f5096-e877-32b8-e044-0003ba298018
-      1054 0a3f5096-be67-32b8-e044-0003ba298018
-      1055 0a3f5096-2d95-32b8-e044-0003ba298018
-      1056 0a3f5096-2bdb-32b8-e044-0003ba298018
-      1057 0a3f5096-cc52-32b8-e044-0003ba298018
-      1058 0a3f5097-1d3a-32b8-e044-0003ba298018
-      1059 0a3f5097-03d5-32b8-e044-0003ba298018
-      1060 0a3f5096-567a-32b8-e044-0003ba298018
-      1061 0a3f5097-33bb-32b8-e044-0003ba298018
-      1062 0a3f5096-6248-32b8-e044-0003ba298018
-      1063 0a3f5096-aa83-32b8-e044-0003ba298018
-      1064 0a3f5096-6d4c-32b8-e044-0003ba298018
-      1065 0a3f5097-2a17-32b8-e044-0003ba298018
-      1066 0a3f5090-83aa-32b8-e044-0003ba298018
-      1067 0a3f5090-80af-32b8-e044-0003ba298018
-      1068 0a3f5090-804a-32b8-e044-0003ba298018
-      1069 0a3f5090-7a73-32b8-e044-0003ba298018
-      1070 0a3f5091-1599-32b8-e044-0003ba298018
-      1071 0a3f5091-0c58-32b8-e044-0003ba298018
-      1072 0a3f5092-1c43-32b8-e044-0003ba298018
-      1073 a75d34b1-d905-4592-b0fd-d5c1ba3db5fc
-      1074 0a3f5092-1f0b-32b8-e044-0003ba298018
-      1075 0a3f5092-0387-32b8-e044-0003ba298018
-      1076 0a3f5091-2225-32b8-e044-0003ba298018
-      1077 0a3f5091-9c50-32b8-e044-0003ba298018
-      1078 0a3f5091-2d74-32b8-e044-0003ba298018
-      1079 0a3f5091-35a1-32b8-e044-0003ba298018
-      1080 0a3f5091-b12b-32b8-e044-0003ba298018
-      1081 0a3f5092-6c12-32b8-e044-0003ba298018
-      1082 0a3f5092-5c04-32b8-e044-0003ba298018
-      1083 0a3f5092-63ef-32b8-e044-0003ba298018
-      1084 0a3f5092-5ad2-32b8-e044-0003ba298018
-      1085 0a3f5092-6f0f-32b8-e044-0003ba298018
-      1086 795b0afd-6d3b-44da-8bea-62eba4792538
-      1087 0a3f5092-7239-32b8-e044-0003ba298018
-      1088 0a3f5092-862e-32b8-e044-0003ba298018
-      1089 0a3f5092-79f9-32b8-e044-0003ba298018
-      1090 0a3f5093-029e-32b8-e044-0003ba298018
-      1091 0a3f5092-f641-32b8-e044-0003ba298018
-      1092 0a3f5092-ed1e-32b8-e044-0003ba298018
-      1093 f606c27a-747d-4872-a139-87e64c8f47e2
-      1094 4ca54b0f-345b-0052-e044-0003ba298018
-      1095 0a3f508f-7a2f-32b8-e044-0003ba298018
-      1096 0a3f508f-7cb6-32b8-e044-0003ba298018
-      1097 0a3f508f-7e8f-32b8-e044-0003ba298018
-      1098 0a3f508f-7511-32b8-e044-0003ba298018
-      1099 0a3f508f-7470-32b8-e044-0003ba298018
-      1100 9537d039-18e4-4434-a730-f1deb4341bc2
-      1101 0a3f508f-f69b-32b8-e044-0003ba298018
-      1102 70f8f976-39d5-03b7-e044-00144f3ead67
-      1103 0a3f508f-fd2f-32b8-e044-0003ba298018
-      1104 0a3f508f-f50a-32b8-e044-0003ba298018
-      1105 0a3f508f-f6e0-32b8-e044-0003ba298018
-      1106 052b10a1-a4e0-467b-9e53-4b3835886be0
-      1107 0a3f5090-9560-32b8-e044-0003ba298018
-      1108 6affdf41-8780-40dc-94cf-f7d0c2a67e8d
-      1109 0a3f5090-95f2-32b8-e044-0003ba298018
-      1110 0a3f5090-8fdb-32b8-e044-0003ba298018
-      1111 0a3f5090-93b0-32b8-e044-0003ba298018
-      1112 0a3f5090-95ef-32b8-e044-0003ba298018
-      1113 0a3f5097-caef-32b8-e044-0003ba298018
-      1114 d86d93fd-4483-41bd-9427-1041015d4bc6
-      1115 0a3f5097-cd16-32b8-e044-0003ba298018
-      1116 0a3f5097-c312-32b8-e044-0003ba298018
-      1117 0a3f5097-c274-32b8-e044-0003ba298018
-      1118 0a3f5098-4897-32b8-e044-0003ba298018
-      1119 0a3f5098-1e43-32b8-e044-0003ba298018
-      1120 0a3f5098-1d71-32b8-e044-0003ba298018
-      1121 0a3f5098-34f1-32b8-e044-0003ba298018
-      1122 0a3f5098-2c6a-32b8-e044-0003ba298018
-      1123 0a3f5097-f1b5-32b8-e044-0003ba298018
-      1124 0a3f5097-f59e-32b8-e044-0003ba298018
-      1125 0a3f5098-4773-32b8-e044-0003ba298018
-      1126 0a3f5098-8d7e-32b8-e044-0003ba298018
-      1127 0a3f5098-a9c2-32b8-e044-0003ba298018
-      1128 0a3f5098-59ae-32b8-e044-0003ba298018
-      1129 0a3f5097-634d-32b8-e044-0003ba298018
-      1130 0a3f5098-7da9-32b8-e044-0003ba298018
-      1131 0a3f5098-782f-32b8-e044-0003ba298018
-      1132 0a3f5098-6700-32b8-e044-0003ba298018
-      1133 0a3f5098-6961-32b8-e044-0003ba298018
-      1134 0a3f5098-84ea-32b8-e044-0003ba298018
-      1135 0a3f5097-6ccb-32b8-e044-0003ba298018
-      1136 0a3f5098-a666-32b8-e044-0003ba298018
-      1137 8164d52d-21de-480d-8c82-c039823ee9e3
-      1138 1de21027-a746-1d9f-e044-0003ba298018
-      1139 0a3f5098-97ef-32b8-e044-0003ba298018
-      1140 0a3f5097-689c-32b8-e044-0003ba298018
-      1141 0a3f5097-896a-32b8-e044-0003ba298018
-      1142 0a3f5098-beef-32b8-e044-0003ba298018
-      1143 0a3f5097-88ad-32b8-e044-0003ba298018
-      1144 0a3f5099-02f1-32b8-e044-0003ba298018
-      1145 0a3f5097-5524-32b8-e044-0003ba298018
-      1146 0a3f5097-5b28-32b8-e044-0003ba298018
-      1147 0a3f5097-5283-32b8-e044-0003ba298018
-      1148 0a3f5098-f688-32b8-e044-0003ba298018
-      1149 0a3f5097-4ddd-32b8-e044-0003ba298018
-      1150 0a3f5098-bacd-32b8-e044-0003ba298018
-      1151 0a3f5097-e269-32b8-e044-0003ba298018
-      1152 0a3f5098-eb5d-32b8-e044-0003ba298018
-      1153 5d4567e8-0742-4a33-8a63-8e5d9db99126
-      1154 0a3f5097-38d2-32b8-e044-0003ba298018
-      1155 0a3f5097-dead-32b8-e044-0003ba298018
-      1156 0a3f5098-b8da-32b8-e044-0003ba298018
-      1157 0a3f5099-63cc-32b8-e044-0003ba298018
-      1158 0a3f5099-6e32-32b8-e044-0003ba298018
-      1159 0a3f5099-71ea-32b8-e044-0003ba298018
-      1160 0a3f5099-7dfe-32b8-e044-0003ba298018
-      1161 0a3f5099-6f13-32b8-e044-0003ba298018
-      1162 0a3f5099-5fb9-32b8-e044-0003ba298018
-      1163 0a3f5099-4997-32b8-e044-0003ba298018
-      1164 0a3f5099-5a86-32b8-e044-0003ba298018
-      1165 0a3f5099-47dc-32b8-e044-0003ba298018
-      1166 0a3f5099-52fb-32b8-e044-0003ba298018
-      1167 0a3f5099-57da-32b8-e044-0003ba298018
-      1168 0a3f5099-3afc-32b8-e044-0003ba298018
-      1169 0a3f5099-46a0-32b8-e044-0003ba298018
-      1170 0a3f509b-905f-32b8-e044-0003ba298018
-      1171 29d58755-c54b-4983-e044-0003ba298018
-      1172 0a3f5099-dfce-32b8-e044-0003ba298018
-      1173 0a3f5099-bcd1-32b8-e044-0003ba298018
-      1174 0a3f5099-e124-32b8-e044-0003ba298018
-      1175 adea222d-e0ce-4e34-859d-fc2f6a336e6f
-      1176 0a3f5099-d9b7-32b8-e044-0003ba298018
-      1177 0a3f5099-b0b3-32b8-e044-0003ba298018
-      1178 0a3f509b-eeac-32b8-e044-0003ba298018
-      1179 6825e2c1-73ef-501c-e044-00144f3ead67
-      1180 0a3f509b-e077-32b8-e044-0003ba298018
-      1181 b303ed55-08b9-4b6e-ac47-7416e906984e
-      1182 0a3f509b-fb1c-32b8-e044-0003ba298018
-      1183 0a3f509b-e33d-32b8-e044-0003ba298018
-      1184 0a3f509b-d6b5-32b8-e044-0003ba298018
-      1185 0a3f5099-0fc3-32b8-e044-0003ba298018
-      1186 0a3f5099-8890-32b8-e044-0003ba298018
-      1187 0a3f5099-80b1-32b8-e044-0003ba298018
-      1188 0a3f509c-fd40-32b8-e044-0003ba298018
-      1189 0a3f5099-8590-32b8-e044-0003ba298018
-      1190 0a3f509d-0684-32b8-e044-0003ba298018
-      1191 0a3f5099-1083-32b8-e044-0003ba298018
-      1192 9d7961f8-0a6c-45a4-bfac-fbaa59821ee3
-      1193 0a3f5099-86d6-32b8-e044-0003ba298018
-      1194 36f861f3-1e1a-47c1-ac25-24957f7ba24e
-      1195 0a3f509a-e5a9-32b8-e044-0003ba298018
-      1196 0a3f509a-d6e2-32b8-e044-0003ba298018
-      1197 0a3f509a-d53d-32b8-e044-0003ba298018
-      1198 0a3f509c-f74e-32b8-e044-0003ba298018
-      1199 0a3f509a-cf5c-32b8-e044-0003ba298018
-      1200 0a3f509b-bc55-32b8-e044-0003ba298018
-      1201 0a3f509b-ad51-32b8-e044-0003ba298018
-      1202 0a3f509b-b7ea-32b8-e044-0003ba298018
-      1203 0a3f509b-c348-32b8-e044-0003ba298018
-      1204 0a3f509b-2426-32b8-e044-0003ba298018
-      1205 0a3f509b-22b0-32b8-e044-0003ba298018
-      1206 0a3f509b-cafa-32b8-e044-0003ba298018
-      1207 0a3f509b-b4b3-32b8-e044-0003ba298018
-      1208 0a3f509b-1b98-32b8-e044-0003ba298018
-      1209 0a3f509b-a781-32b8-e044-0003ba298018
-      1210 0a3f509b-c7bb-32b8-e044-0003ba298018
-      1211 0a3f5094-0f0f-32b8-e044-0003ba298018
-      1212 0a3f5094-1151-32b8-e044-0003ba298018
-      1213 0a3f5099-18d7-32b8-e044-0003ba298018
-      1214 0a3f5099-22dc-32b8-e044-0003ba298018
-      1215 0a3f5099-1d2e-32b8-e044-0003ba298018
-      1216 77162517-0492-3bb8-e044-00144f3ead67
-      1217 0a3f509a-0f03-32b8-e044-0003ba298018
-      1218 0a3f509a-1070-32b8-e044-0003ba298018
-      1219 0a3f509a-ad93-32b8-e044-0003ba298018
-      1220 0a3f509a-bbc7-32b8-e044-0003ba298018
-      1221 0a3f509a-abac-32b8-e044-0003ba298018
-      1222 0a3f509c-045d-32b8-e044-0003ba298018
-      1223 0a3f509c-03d3-32b8-e044-0003ba298018
-      1224 0a3f509c-0212-32b8-e044-0003ba298018
-      1225 0a3f509c-0105-32b8-e044-0003ba298018
-      1226 0a3f509c-0ad0-32b8-e044-0003ba298018
-      1227 0a3f509b-5311-32b8-e044-0003ba298018
-      1228 0a3f509b-2620-32b8-e044-0003ba298018
-      1229 0a3f5099-2661-32b8-e044-0003ba298018
-      1230 0a3f5099-2532-32b8-e044-0003ba298018
-      1231 0a3f5099-344d-32b8-e044-0003ba298018
-      1232 0a3f5099-34b5-32b8-e044-0003ba298018
-      1233 0a3f5099-2a1f-32b8-e044-0003ba298018
-      1234 0a3f5099-9837-32b8-e044-0003ba298018
-      1235 0a3f5099-a9b3-32b8-e044-0003ba298018
-      1236 0a3f5099-ab4e-32b8-e044-0003ba298018
-      1237 362e6b23-5821-0f9b-e044-0003ba298018
-      1238 11716610-f466-46cb-8e1c-68c931fa0845
-      1239 0a3f509b-5438-32b8-e044-0003ba298018
-      1240 0a3f509b-42ee-32b8-e044-0003ba298018
-      1241 0a3f509c-790e-32b8-e044-0003ba298018
-      1242 e7dae8fa-8f65-4d95-8699-5b2b000761a9
-      1243 0a3f509c-7e55-32b8-e044-0003ba298018
-      1244 0a3f509c-c92f-32b8-e044-0003ba298018
-      1245 29eb40d4-35bf-4737-a2f2-d7f615ecee3e
-      1246 0a3f509c-315b-32b8-e044-0003ba298018
-      1247 0a3f509c-2246-32b8-e044-0003ba298018
-      1248 f71f152e-d89e-4723-9b25-ab99ddc92b4d
-      1249 0a3f509c-b4c2-32b8-e044-0003ba298018
-      1250 0a3f509c-65a1-32b8-e044-0003ba298018
-      1251 0a3f509c-363d-32b8-e044-0003ba298018
-      1252 39ece5fb-f8cd-0ee2-e044-0003ba298018
-      1253 0a3f509c-5828-32b8-e044-0003ba298018
-      1254 0a3f509c-d874-32b8-e044-0003ba298018
-      1255 0a3f509c-4fdc-32b8-e044-0003ba298018
-      1256 0a3f509c-3d04-32b8-e044-0003ba298018
-      1257 7db01d22-1107-4550-9ad2-f8e19f2df4b5
-      1258 0a3f509c-af0f-32b8-e044-0003ba298018
-      1259 76d11a0f-ef88-6818-e044-00144f3ead67
-      1260 40afd2f6-0847-3373-e044-0003ba298018
-      1261 0a3f509c-dc3a-32b8-e044-0003ba298018
-      1262 0a3f509c-26cc-32b8-e044-0003ba298018
-      1263 ea16ccda-3927-431e-beb7-e2728857a321
-      1264 0a3f509c-51db-32b8-e044-0003ba298018
-      1265 0a3f509c-b928-32b8-e044-0003ba298018
-      1266 0a3f509c-4cd4-32b8-e044-0003ba298018
-      1267 0a3f509c-b85d-32b8-e044-0003ba298018
-      1268 0a3f509c-a840-32b8-e044-0003ba298018
-      1269 0a3f509c-d253-32b8-e044-0003ba298018
-      1270 0a3f509a-195c-32b8-e044-0003ba298018
-      1271 0a3f509a-2e61-32b8-e044-0003ba298018
-      1272 0a3f509a-2a45-32b8-e044-0003ba298018
-      1273 0a3f509b-0e39-32b8-e044-0003ba298018
-      1274 0a3f509b-126b-32b8-e044-0003ba298018
-      1275 0a3f509b-5e26-32b8-e044-0003ba298018
-      1276 0a3f509b-5bc3-32b8-e044-0003ba298018
-      1277 0a3f509b-69ad-32b8-e044-0003ba298018
-      1278 0a3f509a-55e1-32b8-e044-0003ba298018
-      1279 0a3f509a-427f-32b8-e044-0003ba298018
-      1280 0a3f509a-8ba7-32b8-e044-0003ba298018
-      1281 0a3f509a-5217-32b8-e044-0003ba298018
-      1282 0a3f509a-5ad5-32b8-e044-0003ba298018
-      1283 0a3f509a-5cba-32b8-e044-0003ba298018
-      1284 0a3f509a-73ce-32b8-e044-0003ba298018
-      1285 0a3f509a-8e12-32b8-e044-0003ba298018
-      1286 0a3f509a-5ed4-32b8-e044-0003ba298018
-      1287 0a3f509a-a608-32b8-e044-0003ba298018
-      1288 c72ac67b-f3f0-4e56-99aa-63612e514632
-      1289 0a3f509a-6ea1-32b8-e044-0003ba298018
-      1290 0a3f509a-62db-32b8-e044-0003ba298018
-      1291 0a3f509b-01c3-32b8-e044-0003ba298018
-      1292 0a3f509b-0025-32b8-e044-0003ba298018
-      1293 0a3f509b-02b9-32b8-e044-0003ba298018
-      1294 0a3f509b-7443-32b8-e044-0003ba298018
-      1295 0a3f509b-6f97-32b8-e044-0003ba298018
-      1296 0a3f509b-7002-32b8-e044-0003ba298018
-      1297 0a3f509b-7f3c-32b8-e044-0003ba298018
-      1298 0a3f509b-7052-32b8-e044-0003ba298018
+      984  0a3f5095-676f-32b8-e044-0003ba298018
+      985  0a3f5097-9e2f-32b8-e044-0003ba298018
+      986  0a3f5093-7d9f-32b8-e044-0003ba298018
+      987  0a3f5097-8da5-32b8-e044-0003ba298018
+      988  0a3f5097-a476-32b8-e044-0003ba298018
+      989  0a3f5093-8445-32b8-e044-0003ba298018
+      990  0a3f5095-4656-32b8-e044-0003ba298018
+      991  0a3f5095-d7d3-32b8-e044-0003ba298018
+      992  0a3f5095-4a1b-32b8-e044-0003ba298018
+      993  0a3f5095-cdf6-32b8-e044-0003ba298018
+      994  0a3f5095-d911-32b8-e044-0003ba298018
+      995  0a3f5095-5f43-32b8-e044-0003ba298018
+      996  0a3f5095-7977-32b8-e044-0003ba298018
+      997  0a3f5095-43ef-32b8-e044-0003ba298018
+      998  0a3f5095-d6d9-32b8-e044-0003ba298018
+      999  0a3f5095-929f-32b8-e044-0003ba298018
+      1000 0a3f5095-7cd7-32b8-e044-0003ba298018
+      1001 0a3f5095-385e-32b8-e044-0003ba298018
+      1002 0a3f5095-39d6-32b8-e044-0003ba298018
+      1003 0a3f5095-b0d3-32b8-e044-0003ba298018
+      1004 0a3f5093-7048-32b8-e044-0003ba298018
+      1005 0a3f5095-1773-32b8-e044-0003ba298018
+      1006 0a3f5093-fb8b-32b8-e044-0003ba298018
+      1007 0a3f5095-1733-32b8-e044-0003ba298018
+      1008 20911bab-097b-4b00-b0f5-55578d2f0a34
+      1009 0a3f5095-a6f9-32b8-e044-0003ba298018
+      1010 0a3f5095-1ed7-32b8-e044-0003ba298018
+      1011 0a3f5093-7224-32b8-e044-0003ba298018
+      1012 0a3f5095-a291-32b8-e044-0003ba298018
+      1013 0a3f5093-735d-32b8-e044-0003ba298018
+      1014 11ba94af-0e84-4303-a533-04d7608276e0
+      1015 0a3f5096-2069-32b8-e044-0003ba298018
+      1016 0a3f5095-e0b6-32b8-e044-0003ba298018
+      1017 0a3f5096-4f75-32b8-e044-0003ba298018
+      1018 0a3f5096-b135-32b8-e044-0003ba298018
+      1019 0a3f5096-6ff4-32b8-e044-0003ba298018
+      1020 0a3f5096-bf9b-32b8-e044-0003ba298018
+      1021 0a3f5096-d457-32b8-e044-0003ba298018
+      1022 0a3f5096-dcfb-32b8-e044-0003ba298018
+      1023 c1496b42-51c0-48ed-afc7-b340ac97ae13
+      1024 0a3f5096-8989-32b8-e044-0003ba298018
+      1025 0a3f5097-0833-32b8-e044-0003ba298018
+      1026 0a3f5096-7c3e-32b8-e044-0003ba298018
+      1027 dfbdc1b9-1a43-4780-83cf-08e8c8bc096c
+      1028 0a3f5096-adec-32b8-e044-0003ba298018
+      1029 0a3f5096-767d-32b8-e044-0003ba298018
+      1030 0a3f5096-73f8-32b8-e044-0003ba298018
+      1031 0a3f5096-04c4-32b8-e044-0003ba298018
+      1032 0a3f5096-c91f-32b8-e044-0003ba298018
+      1033 0a3f5096-049f-32b8-e044-0003ba298018
+      1034 3cae7253-1322-0f90-e044-0003ba298018
+      1035 0a3f5096-1a49-32b8-e044-0003ba298018
+      1036 0a3f5096-3682-32b8-e044-0003ba298018
+      1037 0a3f5096-dc5a-32b8-e044-0003ba298018
+      1038 3d740452-2b29-417e-a1ff-1fffac6970da
+      1039 0a3f5097-09de-32b8-e044-0003ba298018
+      1040 14ad30a9-fef8-4f6b-b955-ca300756a227
+      1041 0a3f5095-f1e8-32b8-e044-0003ba298018
+      1042 b8cf3780-3334-43f1-a4ce-6e8079d76c56
+      1043 0a3f5096-a406-32b8-e044-0003ba298018
+      1044 0a3f5096-e30c-32b8-e044-0003ba298018
+      1045 0a3f5096-9cd5-32b8-e044-0003ba298018
+      1046 30131285-ddff-3865-e044-0003ba298018
+      1047 0a3f5097-23e2-32b8-e044-0003ba298018
+      1048 0a3f5096-8bd5-32b8-e044-0003ba298018
+      1049 0a3f5097-27d1-32b8-e044-0003ba298018
+      1050 0a3f5096-10fa-32b8-e044-0003ba298018
+      1051 0a3f5096-e877-32b8-e044-0003ba298018
+      1052 0a3f5096-be67-32b8-e044-0003ba298018
+      1053 0a3f5096-2d95-32b8-e044-0003ba298018
+      1054 0a3f5096-2bdb-32b8-e044-0003ba298018
+      1055 0a3f5096-cc52-32b8-e044-0003ba298018
+      1056 0a3f5097-1d3a-32b8-e044-0003ba298018
+      1057 0a3f5097-03d5-32b8-e044-0003ba298018
+      1058 0a3f5096-567a-32b8-e044-0003ba298018
+      1059 0a3f5097-33bb-32b8-e044-0003ba298018
+      1060 0a3f5096-6248-32b8-e044-0003ba298018
+      1061 0a3f5096-aa83-32b8-e044-0003ba298018
+      1062 0a3f5096-6d4c-32b8-e044-0003ba298018
+      1063 0a3f5097-2a17-32b8-e044-0003ba298018
+      1064 0a3f5090-83aa-32b8-e044-0003ba298018
+      1065 0a3f5090-80af-32b8-e044-0003ba298018
+      1066 0a3f5090-804a-32b8-e044-0003ba298018
+      1067 0a3f5090-7a73-32b8-e044-0003ba298018
+      1068 0a3f5091-1599-32b8-e044-0003ba298018
+      1069 0a3f5091-0c58-32b8-e044-0003ba298018
+      1070 0a3f5092-1c43-32b8-e044-0003ba298018
+      1071 a75d34b1-d905-4592-b0fd-d5c1ba3db5fc
+      1072 0a3f5092-1f0b-32b8-e044-0003ba298018
+      1073 0a3f5092-0387-32b8-e044-0003ba298018
+      1074 0a3f5091-2225-32b8-e044-0003ba298018
+      1075 0a3f5091-9c50-32b8-e044-0003ba298018
+      1076 0a3f5091-2d74-32b8-e044-0003ba298018
+      1077 0a3f5091-35a1-32b8-e044-0003ba298018
+      1078 0a3f5091-b12b-32b8-e044-0003ba298018
+      1079 0a3f5092-6c12-32b8-e044-0003ba298018
+      1080 0a3f5092-5c04-32b8-e044-0003ba298018
+      1081 0a3f5092-63ef-32b8-e044-0003ba298018
+      1082 0a3f5092-5ad2-32b8-e044-0003ba298018
+      1083 0a3f5092-6f0f-32b8-e044-0003ba298018
+      1084 795b0afd-6d3b-44da-8bea-62eba4792538
+      1085 0a3f5092-7239-32b8-e044-0003ba298018
+      1086 0a3f5092-862e-32b8-e044-0003ba298018
+      1087 0a3f5092-79f9-32b8-e044-0003ba298018
+      1088 0a3f5093-029e-32b8-e044-0003ba298018
+      1089 0a3f5092-f641-32b8-e044-0003ba298018
+      1090 0a3f5092-ed1e-32b8-e044-0003ba298018
+      1091 f606c27a-747d-4872-a139-87e64c8f47e2
+      1092 4ca54b0f-345b-0052-e044-0003ba298018
+      1093 0a3f508f-7a2f-32b8-e044-0003ba298018
+      1094 0a3f508f-7cb6-32b8-e044-0003ba298018
+      1095 0a3f508f-7e8f-32b8-e044-0003ba298018
+      1096 0a3f508f-7511-32b8-e044-0003ba298018
+      1097 0a3f508f-7470-32b8-e044-0003ba298018
+      1098 9537d039-18e4-4434-a730-f1deb4341bc2
+      1099 0a3f508f-f69b-32b8-e044-0003ba298018
+      1100 70f8f976-39d5-03b7-e044-00144f3ead67
+      1101 0a3f508f-fd2f-32b8-e044-0003ba298018
+      1102 0a3f508f-f50a-32b8-e044-0003ba298018
+      1103 0a3f508f-f6e0-32b8-e044-0003ba298018
+      1104 052b10a1-a4e0-467b-9e53-4b3835886be0
+      1105 0a3f5090-9560-32b8-e044-0003ba298018
+      1106 6affdf41-8780-40dc-94cf-f7d0c2a67e8d
+      1107 0a3f5090-95f2-32b8-e044-0003ba298018
+      1108 0a3f5090-8fdb-32b8-e044-0003ba298018
+      1109 0a3f5090-93b0-32b8-e044-0003ba298018
+      1110 0a3f5090-95ef-32b8-e044-0003ba298018
+      1111 0a3f5097-caef-32b8-e044-0003ba298018
+      1112 d86d93fd-4483-41bd-9427-1041015d4bc6
+      1113 0a3f5097-cd16-32b8-e044-0003ba298018
+      1114 0a3f5097-c312-32b8-e044-0003ba298018
+      1115 0a3f5097-c274-32b8-e044-0003ba298018
+      1116 0a3f5098-02e1-32b8-e044-0003ba298018
+      1117 0a3f5098-1b94-32b8-e044-0003ba298018
+      1118 0a3f5097-fbd4-32b8-e044-0003ba298018
+      1119 0a3f5098-1d71-32b8-e044-0003ba298018
+      1120 0a3f5098-078d-32b8-e044-0003ba298018
+      1121 0a3f5098-1008-32b8-e044-0003ba298018
+      1122 0a3f5098-1b98-32b8-e044-0003ba298018
+      1123 a7b8e11d-f207-425f-a352-cfa5356287a1
+      1124 0a3f5098-2b71-32b8-e044-0003ba298018
+      1125 0a3f5098-2c6a-32b8-e044-0003ba298018
+      1126 0a3f5097-f1b5-32b8-e044-0003ba298018
+      1127 0a3f5097-f379-32b8-e044-0003ba298018
+      1128 0a3f5097-f59e-32b8-e044-0003ba298018
+      1129 0a3f5098-4cb0-32b8-e044-0003ba298018
+      1130 0a3f5098-34f1-32b8-e044-0003ba298018
+      1131 0a3f5098-4773-32b8-e044-0003ba298018
+      1132 0a3f5098-33cf-32b8-e044-0003ba298018
+      1133 0a3f5098-45cd-32b8-e044-0003ba298018
+      1134 0a3f5098-3058-32b8-e044-0003ba298018
+      1135 0a3f5098-4897-32b8-e044-0003ba298018
+      1136 0a3f5098-8d7e-32b8-e044-0003ba298018
+      1137 0a3f5098-a9c2-32b8-e044-0003ba298018
+      1138 0a3f5098-59ae-32b8-e044-0003ba298018
+      1139 0a3f5097-634d-32b8-e044-0003ba298018
+      1140 0a3f5098-7da9-32b8-e044-0003ba298018
+      1141 0a3f5098-782f-32b8-e044-0003ba298018
+      1142 0a3f5098-6700-32b8-e044-0003ba298018
+      1143 0a3f5098-6961-32b8-e044-0003ba298018
+      1144 0a3f5098-84ea-32b8-e044-0003ba298018
+      1145 0a3f5097-6ccb-32b8-e044-0003ba298018
+      1146 0a3f5098-a666-32b8-e044-0003ba298018
+      1147 8164d52d-21de-480d-8c82-c039823ee9e3
+      1148 1de21027-a746-1d9f-e044-0003ba298018
+      1149 0a3f5098-97ef-32b8-e044-0003ba298018
+      1150 0a3f5097-689c-32b8-e044-0003ba298018
+      1151 0a3f5097-896a-32b8-e044-0003ba298018
+      1152 0a3f5098-beef-32b8-e044-0003ba298018
+      1153 0a3f5097-88ad-32b8-e044-0003ba298018
+      1154 0a3f5099-02f1-32b8-e044-0003ba298018
+      1155 0a3f5097-5524-32b8-e044-0003ba298018
+      1156 0a3f5097-5b28-32b8-e044-0003ba298018
+      1157 0a3f5097-5283-32b8-e044-0003ba298018
+      1158 0a3f5098-f688-32b8-e044-0003ba298018
+      1159 0a3f5097-4ddd-32b8-e044-0003ba298018
+      1160 0a3f5098-bacd-32b8-e044-0003ba298018
+      1161 0a3f5097-e269-32b8-e044-0003ba298018
+      1162 0a3f5098-eb5d-32b8-e044-0003ba298018
+      1163 5d4567e8-0742-4a33-8a63-8e5d9db99126
+      1164 0a3f5097-38d2-32b8-e044-0003ba298018
+      1165 0a3f5097-dead-32b8-e044-0003ba298018
+      1166 0a3f5098-b8da-32b8-e044-0003ba298018
+      1167 0a3f5099-63cc-32b8-e044-0003ba298018
+      1168 0a3f5099-6e32-32b8-e044-0003ba298018
+      1169 0a3f5099-71ea-32b8-e044-0003ba298018
+      1170 0a3f5099-7dfe-32b8-e044-0003ba298018
+      1171 0a3f5099-6f13-32b8-e044-0003ba298018
+      1172 0a3f5099-5fb9-32b8-e044-0003ba298018
+      1173 0a3f5099-4997-32b8-e044-0003ba298018
+      1174 0a3f5099-5a86-32b8-e044-0003ba298018
+      1175 0a3f5099-47dc-32b8-e044-0003ba298018
+      1176 0a3f5099-52fb-32b8-e044-0003ba298018
+      1177 0a3f5099-57da-32b8-e044-0003ba298018
+      1178 0a3f5099-3afc-32b8-e044-0003ba298018
+      1179 0a3f5099-46a0-32b8-e044-0003ba298018
+      1180 0a3f509b-905f-32b8-e044-0003ba298018
+      1181 29d58755-c54b-4983-e044-0003ba298018
+      1182 0a3f5099-dfce-32b8-e044-0003ba298018
+      1183 0a3f5099-bcd1-32b8-e044-0003ba298018
+      1184 0a3f5099-e124-32b8-e044-0003ba298018
+      1185 adea222d-e0ce-4e34-859d-fc2f6a336e6f
+      1186 0a3f5099-d9b7-32b8-e044-0003ba298018
+      1187 0a3f5099-b0b3-32b8-e044-0003ba298018
+      1188 0a3f509b-eeac-32b8-e044-0003ba298018
+      1189 6825e2c1-73ef-501c-e044-00144f3ead67
+      1190 0a3f509b-e077-32b8-e044-0003ba298018
+      1191 b303ed55-08b9-4b6e-ac47-7416e906984e
+      1192 0a3f509b-fb1c-32b8-e044-0003ba298018
+      1193 0a3f509b-e33d-32b8-e044-0003ba298018
+      1194 0a3f509b-d6b5-32b8-e044-0003ba298018
+      1195 0a3f5099-0fc3-32b8-e044-0003ba298018
+      1196 0a3f5099-8890-32b8-e044-0003ba298018
+      1197 0a3f5099-80b1-32b8-e044-0003ba298018
+      1198 0a3f509c-fd40-32b8-e044-0003ba298018
+      1199 0a3f5099-8590-32b8-e044-0003ba298018
+      1200 0a3f509d-0684-32b8-e044-0003ba298018
+      1201 0a3f5099-1083-32b8-e044-0003ba298018
+      1202 9d7961f8-0a6c-45a4-bfac-fbaa59821ee3
+      1203 0a3f5099-86d6-32b8-e044-0003ba298018
+      1204 36f861f3-1e1a-47c1-ac25-24957f7ba24e
+      1205 0a3f509a-e5a9-32b8-e044-0003ba298018
+      1206 0a3f509a-d6e2-32b8-e044-0003ba298018
+      1207 0a3f509a-d53d-32b8-e044-0003ba298018
+      1208 0a3f509c-f74e-32b8-e044-0003ba298018
+      1209 0a3f509a-cf5c-32b8-e044-0003ba298018
+      1210 0a3f509b-bc55-32b8-e044-0003ba298018
+      1211 0a3f509b-ad51-32b8-e044-0003ba298018
+      1212 0a3f509b-b7ea-32b8-e044-0003ba298018
+      1213 0a3f509b-c348-32b8-e044-0003ba298018
+      1214 0a3f509b-2426-32b8-e044-0003ba298018
+      1215 0a3f509b-22b0-32b8-e044-0003ba298018
+      1216 0a3f509b-cafa-32b8-e044-0003ba298018
+      1217 0a3f509b-b4b3-32b8-e044-0003ba298018
+      1218 0a3f509b-1b98-32b8-e044-0003ba298018
+      1219 0a3f509b-a781-32b8-e044-0003ba298018
+      1220 0a3f509b-c7bb-32b8-e044-0003ba298018
+      1221 0a3f5094-0f0f-32b8-e044-0003ba298018
+      1222 0a3f5094-1151-32b8-e044-0003ba298018
+      1223 0a3f5099-18d7-32b8-e044-0003ba298018
+      1224 0a3f5099-22dc-32b8-e044-0003ba298018
+      1225 0a3f5099-1d2e-32b8-e044-0003ba298018
+      1226 77162517-0492-3bb8-e044-00144f3ead67
+      1227 0a3f509a-0f03-32b8-e044-0003ba298018
+      1228 0a3f509a-1070-32b8-e044-0003ba298018
+      1229 0a3f509a-ad93-32b8-e044-0003ba298018
+      1230 0a3f509a-bbc7-32b8-e044-0003ba298018
+      1231 0a3f509a-abac-32b8-e044-0003ba298018
+      1232 0a3f509c-045d-32b8-e044-0003ba298018
+      1233 0a3f509c-03d3-32b8-e044-0003ba298018
+      1234 0a3f509c-0212-32b8-e044-0003ba298018
+      1235 0a3f509c-0105-32b8-e044-0003ba298018
+      1236 0a3f509c-0ad0-32b8-e044-0003ba298018
+      1237 0a3f509b-5311-32b8-e044-0003ba298018
+      1238 0a3f509b-2620-32b8-e044-0003ba298018
+      1239 0a3f5099-2661-32b8-e044-0003ba298018
+      1240 0a3f5099-2532-32b8-e044-0003ba298018
+      1241 0a3f5099-344d-32b8-e044-0003ba298018
+      1242 0a3f5099-34b5-32b8-e044-0003ba298018
+      1243 0a3f5099-2a1f-32b8-e044-0003ba298018
+      1244 0a3f5099-9837-32b8-e044-0003ba298018
+      1245 0a3f5099-a9b3-32b8-e044-0003ba298018
+      1246 0a3f5099-ab4e-32b8-e044-0003ba298018
+      1247 362e6b23-5821-0f9b-e044-0003ba298018
+      1248 11716610-f466-46cb-8e1c-68c931fa0845
+      1249 0a3f509b-5438-32b8-e044-0003ba298018
+      1250 0a3f509b-42ee-32b8-e044-0003ba298018
+      1251 0a3f509c-790e-32b8-e044-0003ba298018
+      1252 e7dae8fa-8f65-4d95-8699-5b2b000761a9
+      1253 0a3f509c-7e55-32b8-e044-0003ba298018
+      1254 0a3f509c-c92f-32b8-e044-0003ba298018
+      1255 29eb40d4-35bf-4737-a2f2-d7f615ecee3e
+      1256 0a3f509c-315b-32b8-e044-0003ba298018
+      1257 0a3f509c-2246-32b8-e044-0003ba298018
+      1258 f71f152e-d89e-4723-9b25-ab99ddc92b4d
+      1259 0a3f509c-b4c2-32b8-e044-0003ba298018
+      1260 0a3f509c-65a1-32b8-e044-0003ba298018
+      1261 0a3f509c-363d-32b8-e044-0003ba298018
+      1262 39ece5fb-f8cd-0ee2-e044-0003ba298018
+      1263 0a3f509c-5828-32b8-e044-0003ba298018
+      1264 0a3f509c-d874-32b8-e044-0003ba298018
+      1265 0a3f509c-4fdc-32b8-e044-0003ba298018
+      1266 0a3f509c-3d04-32b8-e044-0003ba298018
+      1267 7db01d22-1107-4550-9ad2-f8e19f2df4b5
+      1268 0a3f509c-af0f-32b8-e044-0003ba298018
+      1269 76d11a0f-ef88-6818-e044-00144f3ead67
+      1270 40afd2f6-0847-3373-e044-0003ba298018
+      1271 0a3f509c-dc3a-32b8-e044-0003ba298018
+      1272 0a3f509c-26cc-32b8-e044-0003ba298018
+      1273 ea16ccda-3927-431e-beb7-e2728857a321
+      1274 0a3f509c-51db-32b8-e044-0003ba298018
+      1275 0a3f509c-b928-32b8-e044-0003ba298018
+      1276 0a3f509c-4cd4-32b8-e044-0003ba298018
+      1277 0a3f509c-b85d-32b8-e044-0003ba298018
+      1278 0a3f509c-a840-32b8-e044-0003ba298018
+      1279 0a3f509c-d253-32b8-e044-0003ba298018
+      1280 0a3f509a-195c-32b8-e044-0003ba298018
+      1281 0a3f509a-2e61-32b8-e044-0003ba298018
+      1282 0a3f509a-2a45-32b8-e044-0003ba298018
+      1283 0a3f509b-0e39-32b8-e044-0003ba298018
+      1284 0a3f509b-126b-32b8-e044-0003ba298018
+      1285 0a3f509b-5e26-32b8-e044-0003ba298018
+      1286 0a3f509b-5bc3-32b8-e044-0003ba298018
+      1287 0a3f509b-69ad-32b8-e044-0003ba298018
+      1288 0a3f509a-55e1-32b8-e044-0003ba298018
+      1289 0a3f509a-427f-32b8-e044-0003ba298018
+      1290 0a3f509a-8ba7-32b8-e044-0003ba298018
+      1291 0a3f509a-5217-32b8-e044-0003ba298018
+      1292 0a3f509a-5ad5-32b8-e044-0003ba298018
+      1293 0a3f509a-5cba-32b8-e044-0003ba298018
+      1294 0a3f509a-73ce-32b8-e044-0003ba298018
+      1295 0a3f509a-8e12-32b8-e044-0003ba298018
+      1296 0a3f509a-5ed4-32b8-e044-0003ba298018
+      1297 0a3f509a-a608-32b8-e044-0003ba298018
+      1298 c72ac67b-f3f0-4e56-99aa-63612e514632
+      1299 0a3f509a-6ea1-32b8-e044-0003ba298018
+      1300 0a3f509a-62db-32b8-e044-0003ba298018
+      1301 0a3f509b-01c3-32b8-e044-0003ba298018
+      1302 0a3f509b-0025-32b8-e044-0003ba298018
+      1303 0a3f509b-02b9-32b8-e044-0003ba298018
+      1304 0a3f509b-7443-32b8-e044-0003ba298018
+      1305 0a3f509b-6f97-32b8-e044-0003ba298018
+      1306 0a3f509b-7002-32b8-e044-0003ba298018
+      1307 0a3f509b-7f3c-32b8-e044-0003ba298018
+      1308 0a3f509b-7052-32b8-e044-0003ba298018
                                afstemningsstedadressebetegnelse
       1             Gunnar Nu Hansens Plads 7, 2100 København Ø
       2                     Kertemindegade 10, 2100 København Ø
@@ -4255,24 +4285,24 @@
       352                Nordrupvej 130, Nordrup, 4100 Ringsted
       353         Vigersted Bygade 41, Vigersted, 4100 Ringsted
       354                  Terslevvej 75, Ørslev, 4100 Ringsted
-      355                         Stationsvej 53A, 4261 Dalmose
-      356                Brovej 1, Slots Bjergby, 4200 Slagelse
-      357         Sørby Hovedgade 21, Sørbymagle, 4200 Slagelse
+      355                             Skolevej 2, 4241 Vemmelev
+      356                           Frølundevej 50, 4220 Korsør
+      357                          Birkemosevej 11, 4220 Korsør
       358                        Teilmanns Alle 12, 4220 Korsør
-      359                          Birkemosevej 11, 4220 Korsør
-      360                           Frølundevej 50, 4220 Korsør
-      361                             Skolevej 2, 4241 Vemmelev
-      362                         Byskov Alle 41, 4200 Slagelse
+      359                       Borgbjergvej 18, 4242 Boeslunde
+      360                             Sorøvej 90, 4230 Skælskør
+      361                               Gamlevej 6, 4244 Agersø
+      362                          Husmandsstræde 16A, 4245 Omø
       363             Næstved Landevej 632A, Venslev, 4243 Rude
-      364                             Sorøvej 90, 4230 Skælskør
-      365                               Gamlevej 6, 4244 Agersø
-      366                       Borgbjergvej 18, 4242 Boeslunde
-      367                          Husmandsstræde 16A, 4245 Omø
-      368                             Parkvej 33, 4200 Slagelse
+      364                         Stationsvej 53A, 4261 Dalmose
+      365                Brovej 1, Slots Bjergby, 4200 Slagelse
+      366         Sørby Hovedgade 21, Sørbymagle, 4200 Slagelse
+      367               Hallelevvej 27, Hallelev, 4200 Slagelse
+      368         Bildsøvej 74B, Kirke Stillinge, 4200 Slagelse
       369                           Skjoldsvej 8, 4200 Slagelse
       370                     Nørrevangstorvet 8, 4200 Slagelse
-      371               Hallelevvej 27, Hallelev, 4200 Slagelse
-      372         Bildsøvej 74B, Kirke Stillinge, 4200 Slagelse
+      371                         Byskov Alle 41, 4200 Slagelse
+      372                             Parkvej 33, 4200 Slagelse
       373                           Industrivej 39, 4652 Hårlev
       374                             Lendrumvej 3, 4671 Strøby
       375                        Parkvej 3, 4660 Store Heddinge
@@ -4391,7 +4421,7 @@
       488                  Gelstedvej 29, Gelsted, 5591 Gelsted
       489     Brenderupvej 22, Gl Brenderup, 5464 Brenderup Fyn
       490             Fjellerupvej 26, Fjellerup, 5463 Harndrup
-      491                        Ullasvej 23, Rønne, 3700 Rønne
+      491                           Christiansø 1, 3760 Gudhjem
       492                           Rådhus Allé 25, 5610 Assens
       493                              Skolevej 7, 5631 Ebberup
       494                      Kærvangen 17, Turup, 5610 Assens
@@ -4702,7 +4732,7 @@
       799                              Hybenvej 8, 8700 Horsens
       800                  Sejet Bygade 16, Sejet, 8700 Horsens
       801                              Fynsvej 49, 6000 Kolding
-      802                        Dyrehavevej 108B, 6000 Kolding
+      802                         Dyrehavevej 108, 6000 Kolding
       803                           Munkevænget 4, 6000 Kolding
       804               Lyshøj Alle 1, Strandhuse, 6000 Kolding
       805        Bramdrupskovvej 110, Bramdrupdam, 6000 Kolding
@@ -4882,323 +4912,333 @@
       979                          Hasselvej 15, 8620 Kjellerup
       980                    Frederiksdalvej 9D, 8600 Silkeborg
       981                    Lemming Skolevej 10B, 8632 Lemming
-      982                         Linå Bygade 2, 8600 Silkeborg
+      982                         Linå Bygade 5, 8600 Silkeborg
       983                       Skellerupvej 16, 8600 Silkeborg
-      984                          Ebstrupvej 6, 8600 Silkeborg
-      985            Julsøvej 126, Sejs-Svejbæk, 8600 Silkeborg
-      986            Sognegårdsvej 41, Sjørslev, 8620 Kjellerup
-      987                           Hovedgaden 21, 8641 Sorring
-      988              Blichersvej 35, Thorning, 8620 Kjellerup
-      989          Vinderslevvej 30, Vinderslev, 8620 Kjellerup
-      990                   Sorringvej 28, Voel, 8600 Silkeborg
-      991                    Balle Kirkevej 120, 8600 Silkeborg
-      992                              Skolevej 14, 8654 Bryrup
-      993                    Buskelundtoften 3A, 8600 Silkeborg
-      994                   Brandevej 6, Gjessø, 8600 Silkeborg
-      995                  St Bredlundvej 3, Vrads, 8654 Bryrup
-      996                           Hejrevej 25, 8600 Silkeborg
-      997                        Lysbrohøjen 14, 8600 Silkeborg
-      998                         Nylandsvej 16, 8600 Silkeborg
-      999                            Ansvej 114, 8600 Silkeborg
-      1000                              Røllikevej 3, 8653 Them
-      1001                        Vestergade 80, 8600 Silkeborg
-      1002                     Paradisvænget 1A, 8600 Silkeborg
-      1003            Marsk Stigs Vej 5, Tranebjerg, 8305 Samsø
-      1004                      Nordby Hovedgade 27, 8305 Samsø
-      1005                         Risvej 28A, 8660 Skanderborg
-      1006                            Røddikvej 18, 8464 Galten
-      1007                            Nyvej 1, Gl. Rye, 8680 Ry
-      1008                           Toftevej 53B, 8362 Hørning
-      1009                        Niels Bohrs Vej 7, 8670 Låsby
-      1010                Morten Børups Vej 3, 8660 Skanderborg
-      1011                  Højvangens Torv 4, 8660 Skanderborg
-      1012                                 Thorsvej 32, 8680 Ry
-      1013                     Skråvejen 1, Skovby, 8464 Galten
-      1014               Gramvej 10, Stilling, 8660 Skanderborg
-      1015                     Stjærvej 100, Stjær, 8464 Galten
-      1016            Skoletoften 11, Virring, 8660 Skanderborg
-      1017                F. Vestergaards Gade 5, 8000 Aarhus C
-      1018                         Ankersgade 21, 8000 Aarhus C
-      1019                          Holmevej 200, 8270 Højbjerg
-      1020                            Parkvej 18, 8270 Højbjerg
-      1021                     Kirketorvet 22, 8310 Tranbjerg J
-      1022                      Rosenvangs Allé 49, 8260 Viby J
-      1023                      Skanderborgvej 224, 8260 Viby J
-      1024                            Skoleparken 6, 8330 Beder
-      1025                Hack Kampmanns Plads 2, 8000 Aarhus C
-      1026                    Lundshøjgårdsvej 19, 8340 Malling
-      1027                           Testrupvej 4, 8320 Mårslet
-      1028                         Kærgårdsvej 4, 8355 Solbjerg
-      1029                   Thit Jensens Gade 3, 8000 Aarhus C
-      1030                 Ormslevvej 455, Ormslev, 8260 Viby J
-      1031                          Koltvej 39, 8361 Hasselager
-      1032               Klokkeskovvej 1, Stavtrup, 8260 Viby J
-      1033                   Carl Blochs Gade 28, 8000 Aarhus C
-      1034                       Rådhuspladsen 2, 8000 Aarhus C
-      1035                     Carit Etlars Vej 31, 8230 Åbyhøj
-      1036                  Herredsvej 15, Hasle, 8210 Aarhus V
-      1037                         Engdalsvej 86, 8220 Brabrand
-      1038                         Gudrunsvej 3A, 8220 Brabrand
-      1039                     Skjoldhøjvej 9, True, 8381 Tilst
-      1040                          Ceresbyen 24, 8000 Aarhus C
-      1041                       Tilst Skolevej 13A, 8381 Tilst
-      1042               Gammel Stillingvej 424M, 8462 Harlev J
-      1043                    Borum Byvej 13, Borum, 8471 Sabro
-      1044                        Sabro Skolevej 4K, 8471 Sabro
-      1045                       Ny Munkegade 17, 8000 Aarhus C
-      1046                      Skovvangsvej 150, 8200 Aarhus N
-      1047                    Møllevangs Allé 20, 8210 Aarhus V
-      1048      Jørgen Clevins Gade 31, Lisbjerg, 8200 Aarhus N
-      1049                  Vestre Strandallé 170, 8240 Risskov
-      1050                  Lystrup Centervej 102, 8520 Lystrup
-      1051                          Virupvej 75, 8530 Hjortshøj
-      1052                               Egå Havvej 5, 8250 Egå
-      1053                       Skæring Skolevej 200, 8250 Egå
-      1054                        Rosenbakken 4, 8541 Skødstrup
-      1055                          Gartnerparken 1, 8380 Trige
-      1056             Gammel Landevej 31, Spørring, 8380 Trige
-      1057                Salonikivej 12, Hårup, 8530 Hjortshøj
-      1058                    Vejlby Centervej 51, 8240 Risskov
-      1059                     Søndervangs Allé 40, 8260 Viby J
-      1060                            Høgevej 25, 8210 Aarhus V
-      1061                               Åbyvej 80, 8230 Åbyhøj
-      1062                         Jellebakken 17, 8240 Risskov
-      1063                         Mantziusvej 5, 8270 Højbjerg
-      1064                    Katrinebjergvej 60, 8200 Aarhus N
-      1065                   Vorregårds Allé 109, 8200 Aarhus N
-      1066                     Vestergade 10B, 7361 Ejstrupholm
-      1067           Smedebækvej 30, Gludsted, 7361 Ejstrupholm
-      1068                      Skolegade 16B, 8766 Nørre Snede
-      1069                       Grønnevænget 17, 8765 Klovborg
-      1070                        Ole Bendix Vej 1, 7330 Brande
-      1071                       Blåhøj Skolevej 1, 7330 Brande
-      1072                          Stadion Alle 2B, 7430 Ikast
-      1073                               Bygaden 39, 7430 Ikast
-      1074             Jens Christensens Plads 10, 7441 Bording
-      1075                         Dybdalsvej 3, 7442 Engesvang
-      1076                                Skovvej 25, 6880 Tarm
-      1077             Bandsbyvej 2, Holmsland, 6950 Ringkøbing
-      1078                      Tøstrupvej 26A, Ådum, 6880 Tarm
-      1079                Nr. Lydumvej 2, Sdr Bork, 6893 Hemmet
-      1080                         Skolevej 1, 6960 Hvide Sande
-      1081         Velling Kirkeby 17, Velling, 6950 Ringkøbing
-      1082                 Kirkevej 26, Rindum, 6950 Ringkøbing
-      1083                   Ringgaden 3A, Hee, 6950 Ringkøbing
-      1084                          Jernbanegade 2, 6940 Lem St
-      1085                                  Åvænget 3, 6980 Tim
-      1086                           Ranunkelvej 1, 6900 Skjern
-      1087                  Stadionalle 10, Borris, 6900 Skjern
-      1088              Tylvadvej 2B, Rækker Mølle, 6900 Skjern
-      1089                 Kirkebyvej 65, Stauning, 6900 Skjern
-      1090                          Vestervang 28, 6920 Videbæk
-      1091                Idrætsalle 1, Troldhede, 6920 Videbæk
-      1092                     Bardevej 3, Vorgod, 6920 Videbæk
-      1093                     Nr Søndergårdsvej 1, 6971 Spjald
-      1094                           Østerled 8, 8722 Hedensted
-      1095                        Ny Skolegade 13, 8723 Løsning
-      1096                  Ribevej 67, Kragelund, 8723 Løsning
-      1097                             Skolevej 4, 8721 Daugård
-      1098                          Korningvej 70, 8700 Horsens
-      1099             Kirstinelundsvej 9, Ølsted, 8723 Løsning
-      1100                    Tofteskovvej 12D, 7130 Juelsminde
-      1101                             Kirkebro 4A, 7150 Barrit
-      1102                      Hedenstedvej 38, 8781 Stenderup
-      1103                       Nørremarksvej 3, 8783 Hornsyld
-      1104                            Idrætsvej 12, 7140 Stouby
-      1105              Kirkedalsvej 53, Rårup, 7130 Juelsminde
-      1106              Sønderbakken 25B, Glud, 7130 Juelsminde
-      1107                       Skolebakken 1, 8763 Rask Mølle
-      1108                Sognegårdsvej 1B, Lindved, 7100 Vejle
-      1109                          Skolevænget 4, 7160 Tørring
-      1110                             Kærvejen 30B, 7171 Uldum
-      1111                      Pogensvej 5, Aale, 7160 Tørring
-      1112                   Skolevej 103, Ølholm, 7160 Tørring
-      1113             Sejersvej 42, Sejerslev, 7900 Nykøbing M
-      1114             Poulsen Dalsvej 12, Galtrup, 7950 Erslev
-      1115              Smedebjergevej 61, Vejerslev, 7980 Vils
-      1116             Næssundvej 325A, V Hvidbjerg, 7960 Karby
-      1117                           Nygade 29, 7900 Nykøbing M
-      1118                 Nr. Madsbadvej 36, Madsbad, 7884 Fur
-      1119                             Skyttevej 12, 7800 Skive
-      1120                            Skolevej 13, 7840 Højslev
-      1121                 Nørregade 18, Balling, 7860 Spøttrup
-      1122                Borgergade 16, Rødding, 7860 Spøttrup
-      1123                    Ringvej 24, Glyngøre, 7870 Roslev
-      1124                               Viumvej 8, 7870 Roslev
-      1125              M. P. Stisens Vej 2, Breum, 7870 Roslev
-      1126                            Munkevej 9E, 7700 Thisted
-      1127                         Øster Alle 10, 7752 Snedsted
-      1128                          Idrætsvej 7, 7760 Hurup Thy
-      1129                   Fyrvej 104, Nytorp, 7730 Hanstholm
-      1130                    Hjørnet 2, Sjørring, 7700 Thisted
-      1131                     Gl. Feggesundvej 29, 7742 Vesløs
-      1132                       Teglgårdsvej 5, 7770 Vestervig
-      1133                      Ved Stadion 7, 7755 Bedsted Thy
-      1134                    Kirkebyvej 17, Nors, 7700 Thisted
-      1135                            Skolevej 2, 7741 Frøstrup
-      1136             Vesterhavsgade 13, Vorupør, 7700 Thisted
-      1137                 Kastanievej 4, Koldby, 7752 Snedsted
-      1138                Vesterbyvej 1, Østerild, 7700 Thisted
-      1139                Sennelsvej 128, Sennels, 7700 Thisted
-      1140                   Krovej 3, Klitmøller, 7700 Thisted
-      1141                Trehusevej 7, Frederiks, 7470 Karup J
-      1142             Birgittelystvej 2, Hald Ege, 8800 Viborg
-      1143                          Stadionvej 59, 7470 Karup J
-      1144                           Vordevej 1C, 8831 Løgstrup
-      1145                Kalkværksvej 1A, Mønsted, 8800 Viborg
-      1146                     Søndergade 56, 7850 Stoholm Jyll
-      1147                Dåsbjergvej 25A, Vridsted, 7800 Skive
-      1148                          Stadion Alle 3, 8800 Viborg
-      1149                   Vestre Ringvej 7, 8850 Bjerringbro
-      1150                Vorningvej 31, Hammershøj, 8830 Tjele
-      1151                            Rugvænget 2, 9632 Møldrup
-      1152                           Odshøjvej 65B, 8800 Viborg
-      1153                 Meldgårdsvej 26, Rødding, 8830 Tjele
-      1154                    Brandstrupvej 25, 8840 Rødkærsbro
-      1155                                 Kærvej 9, 8832 Skals
-      1156                         Tjelevej 9, Ørum, 8830 Tjele
-      1157       Dronninglundvej 8, Agersted, 9330 Dronninglund
-      1158                             Møllehusvej 7, 9340 Asaa
-      1159                     Rørholtvej 20, 9330 Dronninglund
-      1160       Ålborgvej 583, Flauenskjold, 9330 Dronninglund
-      1161                        Nørre Alle 3A, 9320 Hjallerup
-      1162            Anemonevej 5, Klokkerholm, 9320 Hjallerup
-      1163                       Knudsgade 15, 9700 Brønderslev
-      1164                      Tømmerbyvej 6, 9700 Brønderslev
-      1165                  Jens Thise Vej 33, 9700 Brønderslev
-      1166                        Elmevej 122, 9700 Brønderslev
-      1167                        Sølvgade 74, 9700 Brønderslev
-      1168                        Borgergade 30, 9740 Jerslev J
-      1169                         Hybenvej 3, 9700 Brønderslev
-      1170                             Kirkevej 19, 9990 Skagen
-      1171                             Møldamvej 9B, 9982 Ålbæk
-      1172                           Skagensvej 448, 9981 Jerup
-      1173         Grundtvigsvej 73, Elling, 9900 Frederikshavn
-      1174                            Skolevej 2, 9970 Strandby
-      1175          Harald Nielsens Plads 9, 9900 Frederikshavn
-      1176        Ravnshøjvej 155, Ravnshøj, 9900 Frederikshavn
-      1177                Brønderslevvej 99, 9900 Frederikshavn
-      1178                           Rådhuspladsen 2, 9300 Sæby
-      1179                               Ørnevej 8, 9352 Dybvad
-      1180                    Hjørringvej 105, Hørby, 9300 Sæby
-      1181            Hjørringvej 216A, Thorshøj, 9750 Østervrå
-      1182                  Østkystvejen 314, Voerså, 9300 Sæby
-      1183                    Idræts Alle 3, Syvsten, 9300 Sæby
-      1184                            Bredgade 6, 9750 Østervrå
-      1185                      Skolevænget 17A, 9620 Aalestrup
-      1186                     Jeppe Aakjærs Vej 27, 9640 Farsø
-      1187                    Farsøvej 13, Strandby, 9640 Farsø
-      1188                                Messevej 1, 9600 Aars
-      1189                  Hesselvej 34, Hvalpsund, 9640 Farsø
-      1190                    Vestrupvej 23, Vestrup, 9600 Aars
-      1191                           Stadionvej 1, 9631 Gedsted
-      1192                  Hvalpsundvej 13A, Hornum, 9600 Aars
-      1193                 Hovedgaden 79B, V Hornum, 9640 Farsø
-      1194                          Lanternevej 1, 9670 Løgstør
-      1195                          Seminarievej 27, 9681 Ranum
-      1196                 Brøndumvej 56, Brøndum, 9670 Løgstør
-      1197            Bjørnsholmvej 132, Overlade, 9670 Løgstør
-      1198                  Himmerlandsvej 8, Vegger, 9240 Nibe
-      1199                         Skolevej 4, Byrum, 9940 Læsø
-      1200                       Bavnebakken 103, 9530 Støvring
-      1201                     Himmerlandsvej 59, 9520 Skørping
-      1202                     Terndrup Center 6, 9575 Terndrup
-      1203                        Hjedsbækvej 326, 9541 Suldrup
-      1204                       Vestermarksvej 2, 9610 Nørager
-      1205              Strandvejen 21, Haverslev, 9610 Nørager
-      1206             Nibevej 177, Øster Hornum, 9530 Støvring
-      1207                               Skolevej 2, 9574 Bælum
-      1208                  Bygaden 19, Ravnkilde, 9610 Nørager
-      1209                    Blenstrup Halvej 1, 9520 Skørping
-      1210             Kirketerpvej 60, Kirketerp, 9541 Suldrup
-      1211                  Edderupvej 1, Assens, 9550 Mariager
-      1212                         Gl Hobrovej 1, 9550 Mariager
-      1213                              Hvarrevej 6, 9510 Arden
-      1214                  Ulstrupvej 3B, Valsgård, 9500 Hobro
-      1215              Ndr Truevej 14A, Vebbestrup, 9500 Hobro
-      1216                          Stadionvej 25, 9560 Hadsund
-      1217             Veddum Hovedgade 3, Veddum, 9560 Hadsund
-      1218                       Vikingvej 6, Als, 9560 Hadsund
-      1219                     Døstrupvej 23, Hørby, 9500 Hobro
-      1220              Præstemarken 2A, Sdr Onsild, 9500 Hobro
-      1221                            Amerikavej 22, 9500 Hobro
-      1222                      Jens Møllersvej 3, 9440 Aabybro
-      1223                 Idrætsvej 11, Biersted, 9440 Aabybro
-      1224           Gustav Zimmersvej 27, Nørhalne, 9430 Vadum
-      1225             Gl. Landevej 62B, Birkelse, 9440 Aabybro
-      1226                    Rønnebærvej 8, Gjøl, 9440 Aabybro
-      1227                   Tværgade 11, Ingstrup, 9480 Løkken
-      1228     Assenbækvej 33, V. Hjermitslev, 9700 Brønderslev
-      1229                             Damengvej 2, 9460 Brovst
-      1230                   Banevej 7, Halvrimmen, 9460 Brovst
-      1231                  Thyvej 16, Arentsminde, 9460 Brovst
-      1232                      Tranhøj 13, Tranum, 9460 Brovst
-      1233                Hovedgaden 26, Skovsgård, 9460 Brovst
-      1234                      Borups Alle 8, 9690 Fjerritslev
-      1235           Toftholmvej 16, V Thorup, 9690 Fjerritslev
-      1236              Ørebrovej 128, Ørebro, 9690 Fjerritslev
-      1237          Skolevænget 3B, Trekroner, 9690 Fjerritslev
-      1238                    Jetsmark Kirkevej 5, 9490 Pandrup
-      1239                       Vesterhavsvej 27, 9492 Blokhus
-      1240                               Nolsvej 1, 9493 Saltum
-      1241                    Lindholmsvej 65, 9400 Nørresundby
-      1242                 Lindholm Brygge 35, 9400 Nørresundby
-      1243                        Løvbakken 6, 9400 Nørresundby
-      1244                          Søndermarken 20, 9430 Vadum
-      1245                      Bakmøllevej 278, 9380 Vestbjerg
-      1246                             Elkærvej 2, 9381 Sulsted
-      1247                         Brorsonsvej 3A, 9310 Vodskov
-      1248                           På Sporet 8B, 9000 Aalborg
-      1249                         Skydebanevej 1, 9000 Aalborg
-      1250                           Kastetvej 83, 9000 Aalborg
-      1251                         Europa Plads 2, 9000 Aalborg
-      1252                       Provstejorden 15, 9000 Aalborg
-      1253                        Hobrovej 437, 9200 Aalborg SV
-      1254                          Under Lien 77, 9000 Aalborg
-      1255                        Hasserisvej 300, 9000 Aalborg
-      1256                 Frejlev Skolevej 11, 9200 Aalborg SV
-      1257              Svenstrup Skolevej 23, 9230 Svenstrup J
-      1258                        Sjællandsgade 2, 9000 Aalborg
-      1259                      Kjellerups Torv 5, 9000 Aalborg
-      1260               Willy Brandts Vej 31, 9220 Aalborg Øst
-      1261                         Vejgård Torv 3, 9000 Aalborg
-      1262                   Christen Kolds Vej 1, 9000 Aalborg
-      1263                        Budumvej 50, 9220 Aalborg Øst
-      1264                            Hellasvej 11, 9270 Klarup
-      1265                        Solhøjsvej 2, 9210 Aalborg SØ
-      1266                         Hadsundvej 407, 9260 Gistrup
-      1267                   Sohngårdsholmsvej 60, 9000 Aalborg
-      1268                      Rævedalsvej 5, 9230 Svenstrup J
-      1269                       Tornhøjvej 1, 9220 Aalborg Øst
-      1270           Halsvej 199A, Vester Hassing, 9310 Vodskov
-      1271                           Skovsgårdsvej 1, 9370 Hals
-      1272                      Nørtoftvej 5, Ulsted, 9370 Hals
-      1273                      Hobrovej 36, Vokslev, 9240 Nibe
-      1274                 Nymøllevej 118B, Farstrup, 9240 Nibe
-      1275                         Idrætsvej 3, 9293 Kongerslev
-      1276                 Gl. Egensevej 8, Mou, 9280 Storvorde
-      1277                        Tofthøjvej 40, 9280 Storvorde
-      1278            Stendyssevej 80F, Ø Horne, 9850 Hirtshals
-      1279                           Halvejen 4, 9850 Hirtshals
-      1280                          Nørregade 22, 9800 Hjørring
-      1281                Rævskærvej 12, Tornby, 9850 Hirtshals
-      1282                           Vesterbro 3, 9881 Bindslev
-      1283                 Østervej 10, Tversted, 9881 Bindslev
-      1284                                 Halvej 14, 9830 Tårs
-      1285                       Poulstrup Skolevej 5, 9760 Vrå
-      1286                  Asdalvej 14, Bjergby, 9800 Hjørring
-      1287                       Villerupvej 120, 9800 Hjørring
-      1288                   Vellingshøjvej 380B, 9800 Hjørring
-      1289                         Fuglsigvej 23, 9800 Hjørring
-      1290                            Bodøvej 13, 9800 Hjørring
-      1291                              Stadionvej 17, 9760 Vrå
-      1292                Sejlstrupvej 7, Hundelev, 9480 Løkken
-      1293                           Søndergade 42, 9480 Løkken
-      1294                          Islandsgade 22, 9870 Sindal
-      1295                Bøgstedvej 307, Astrup, 9800 Hjørring
-      1296                 Dvergetvedvej 95, Tolne, 9870 Sindal
-      1297                  Ugiltvej 304, Linderum, 9870 Sindal
-      1298                   Enghavevej 4A, Lendum, 9870 Sindal
+      984            Julsøvej 126, Sejs-Svejbæk, 8600 Silkeborg
+      985            Sognegårdsvej 41, Sjørslev, 8620 Kjellerup
+      986                           Hovedgaden 21, 8641 Sorring
+      987              Blichersvej 35, Thorning, 8620 Kjellerup
+      988          Vinderslevvej 30, Vinderslev, 8620 Kjellerup
+      989                   Sorringvej 26, Voel, 8600 Silkeborg
+      990                    Balle Kirkevej 120, 8600 Silkeborg
+      991                              Skolevej 14, 8654 Bryrup
+      992                    Buskelundtoften 3A, 8600 Silkeborg
+      993                   Brandevej 6, Gjessø, 8600 Silkeborg
+      994                  St Bredlundvej 3, Vrads, 8654 Bryrup
+      995                           Hejrevej 25, 8600 Silkeborg
+      996                         Nylandsvej 16, 8600 Silkeborg
+      997                            Ansvej 114, 8600 Silkeborg
+      998                               Røllikevej 3, 8653 Them
+      999                         Vestergade 80, 8600 Silkeborg
+      1000                     Paradisvænget 1A, 8600 Silkeborg
+      1001            Marsk Stigs Vej 5, Tranebjerg, 8305 Samsø
+      1002                      Nordby Hovedgade 27, 8305 Samsø
+      1003                         Risvej 28A, 8660 Skanderborg
+      1004                            Røddikvej 18, 8464 Galten
+      1005                            Nyvej 1, Gl. Rye, 8680 Ry
+      1006                           Toftevej 53B, 8362 Hørning
+      1007                        Niels Bohrs Vej 7, 8670 Låsby
+      1008                Morten Børups Vej 3, 8660 Skanderborg
+      1009                  Højvangens Torv 4, 8660 Skanderborg
+      1010                                 Thorsvej 32, 8680 Ry
+      1011                     Skråvejen 1, Skovby, 8464 Galten
+      1012               Gramvej 10, Stilling, 8660 Skanderborg
+      1013                     Stjærvej 100, Stjær, 8464 Galten
+      1014            Skoletoften 11, Virring, 8660 Skanderborg
+      1015                F. Vestergaards Gade 5, 8000 Aarhus C
+      1016                         Ankersgade 21, 8000 Aarhus C
+      1017                          Holmevej 200, 8270 Højbjerg
+      1018                            Parkvej 18, 8270 Højbjerg
+      1019                     Kirketorvet 22, 8310 Tranbjerg J
+      1020                      Rosenvangs Allé 49, 8260 Viby J
+      1021                      Skanderborgvej 224, 8260 Viby J
+      1022                            Skoleparken 6, 8330 Beder
+      1023                Hack Kampmanns Plads 2, 8000 Aarhus C
+      1024                    Lundshøjgårdsvej 19, 8340 Malling
+      1025                           Testrupvej 4, 8320 Mårslet
+      1026                         Kærgårdsvej 4, 8355 Solbjerg
+      1027                   Thit Jensens Gade 3, 8000 Aarhus C
+      1028                 Ormslevvej 455, Ormslev, 8260 Viby J
+      1029                          Koltvej 39, 8361 Hasselager
+      1030               Klokkeskovvej 1, Stavtrup, 8260 Viby J
+      1031                   Carl Blochs Gade 28, 8000 Aarhus C
+      1032                       Rådhuspladsen 2, 8000 Aarhus C
+      1033                     Carit Etlars Vej 31, 8230 Åbyhøj
+      1034                  Herredsvej 15, Hasle, 8210 Aarhus V
+      1035                         Engdalsvej 86, 8220 Brabrand
+      1036                         Gudrunsvej 3A, 8220 Brabrand
+      1037                     Skjoldhøjvej 9, True, 8381 Tilst
+      1038                          Ceresbyen 24, 8000 Aarhus C
+      1039                       Tilst Skolevej 13A, 8381 Tilst
+      1040               Gammel Stillingvej 424M, 8462 Harlev J
+      1041                    Borum Byvej 13, Borum, 8471 Sabro
+      1042                        Sabro Skolevej 4K, 8471 Sabro
+      1043                       Ny Munkegade 17, 8000 Aarhus C
+      1044                      Skovvangsvej 150, 8200 Aarhus N
+      1045                    Møllevangs Allé 20, 8210 Aarhus V
+      1046      Jørgen Clevins Gade 31, Lisbjerg, 8200 Aarhus N
+      1047                  Vestre Strandallé 170, 8240 Risskov
+      1048                  Lystrup Centervej 102, 8520 Lystrup
+      1049                          Virupvej 75, 8530 Hjortshøj
+      1050                               Egå Havvej 5, 8250 Egå
+      1051                       Skæring Skolevej 200, 8250 Egå
+      1052                        Rosenbakken 4, 8541 Skødstrup
+      1053                          Gartnerparken 1, 8380 Trige
+      1054             Gammel Landevej 31, Spørring, 8380 Trige
+      1055                Salonikivej 12, Hårup, 8530 Hjortshøj
+      1056                    Vejlby Centervej 51, 8240 Risskov
+      1057                     Søndervangs Allé 40, 8260 Viby J
+      1058                            Høgevej 25, 8210 Aarhus V
+      1059                               Åbyvej 80, 8230 Åbyhøj
+      1060                         Jellebakken 17, 8240 Risskov
+      1061                         Mantziusvej 5, 8270 Højbjerg
+      1062                    Katrinebjergvej 60, 8200 Aarhus N
+      1063                   Vorregårds Allé 109, 8200 Aarhus N
+      1064                     Vestergade 10B, 7361 Ejstrupholm
+      1065           Smedebækvej 30, Gludsted, 7361 Ejstrupholm
+      1066                      Skolegade 16B, 8766 Nørre Snede
+      1067                       Grønnevænget 17, 8765 Klovborg
+      1068                        Ole Bendix Vej 1, 7330 Brande
+      1069                       Blåhøj Skolevej 1, 7330 Brande
+      1070                          Stadion Alle 2B, 7430 Ikast
+      1071                               Bygaden 39, 7430 Ikast
+      1072             Jens Christensens Plads 10, 7441 Bording
+      1073                         Dybdalsvej 3, 7442 Engesvang
+      1074                                Skovvej 25, 6880 Tarm
+      1075             Bandsbyvej 2, Holmsland, 6950 Ringkøbing
+      1076                      Tøstrupvej 26A, Ådum, 6880 Tarm
+      1077                Nr. Lydumvej 2, Sdr Bork, 6893 Hemmet
+      1078                         Skolevej 1, 6960 Hvide Sande
+      1079         Velling Kirkeby 17, Velling, 6950 Ringkøbing
+      1080                 Kirkevej 26, Rindum, 6950 Ringkøbing
+      1081                   Ringgaden 3A, Hee, 6950 Ringkøbing
+      1082                          Jernbanegade 2, 6940 Lem St
+      1083                                  Åvænget 3, 6980 Tim
+      1084                           Ranunkelvej 1, 6900 Skjern
+      1085                  Stadionalle 10, Borris, 6900 Skjern
+      1086              Tylvadvej 2B, Rækker Mølle, 6900 Skjern
+      1087                 Kirkebyvej 65, Stauning, 6900 Skjern
+      1088                          Vestervang 28, 6920 Videbæk
+      1089                Idrætsalle 1, Troldhede, 6920 Videbæk
+      1090                     Bardevej 3, Vorgod, 6920 Videbæk
+      1091                     Nr Søndergårdsvej 1, 6971 Spjald
+      1092                           Østerled 8, 8722 Hedensted
+      1093                        Ny Skolegade 13, 8723 Løsning
+      1094                  Ribevej 67, Kragelund, 8723 Løsning
+      1095                             Skolevej 4, 8721 Daugård
+      1096                          Korningvej 70, 8700 Horsens
+      1097             Kirstinelundsvej 9, Ølsted, 8723 Løsning
+      1098                    Tofteskovvej 12D, 7130 Juelsminde
+      1099                             Kirkebro 4A, 7150 Barrit
+      1100                      Hedenstedvej 38, 8781 Stenderup
+      1101                       Nørremarksvej 3, 8783 Hornsyld
+      1102                            Idrætsvej 12, 7140 Stouby
+      1103              Kirkedalsvej 53, Rårup, 7130 Juelsminde
+      1104              Sønderbakken 25B, Glud, 7130 Juelsminde
+      1105                       Skolebakken 1, 8763 Rask Mølle
+      1106                Sognegårdsvej 1B, Lindved, 7100 Vejle
+      1107                          Skolevænget 4, 7160 Tørring
+      1108                             Kærvejen 30B, 7171 Uldum
+      1109                      Pogensvej 5, Aale, 7160 Tørring
+      1110                   Skolevej 103, Ølholm, 7160 Tørring
+      1111             Sejersvej 42, Sejerslev, 7900 Nykøbing M
+      1112             Poulsen Dalsvej 12, Galtrup, 7950 Erslev
+      1113              Smedebjergevej 61, Vejerslev, 7980 Vils
+      1114             Næssundvej 325A, V Hvidbjerg, 7960 Karby
+      1115                           Nygade 29, 7900 Nykøbing M
+      1116                        Frederiksgade 21A, 7800 Skive
+      1117                            Rosenbakken 8, 7800 Skive
+      1118                             Brårupvej 94, 7800 Skive
+      1119                            Skolevej 13, 7840 Højslev
+      1120          Hejlskovvej 27, Ørslevkloster, 7840 Højslev
+      1121                    Kisumvej 30, Rønbjerg, 7800 Skive
+      1122                      Rudemøllevej 3, Hem, 7800 Skive
+      1123                   Ålbækvej 16A, Lihme, 7860 Spøttrup
+      1124                 Andrupvej 1C, Oddense, 7860 Spøttrup
+      1125                Borgergade 16, Rødding, 7860 Spøttrup
+      1126                    Ringvej 24, Glyngøre, 7870 Roslev
+      1127                     Idrætsvej 15, Durup, 7870 Roslev
+      1128                               Viumvej 8, 7870 Roslev
+      1129                 Søndervænget 1, Jebjerg, 7870 Roslev
+      1130                 Nørregade 18, Balling, 7860 Spøttrup
+      1131              M. P. Stisens Vej 2, Breum, 7870 Roslev
+      1132                  Møllegade 5, Ramsing, 7860 Spøttrup
+      1133                      Jungetvej 3, Selde, 7870 Roslev
+      1134                     Hostrupvej 6, Lem, 7860 Spøttrup
+      1135                 Nr. Madsbadvej 36, Madsbad, 7884 Fur
+      1136                            Munkevej 9E, 7700 Thisted
+      1137                         Øster Alle 10, 7752 Snedsted
+      1138                          Idrætsvej 7, 7760 Hurup Thy
+      1139                   Fyrvej 104, Nytorp, 7730 Hanstholm
+      1140                    Hjørnet 2, Sjørring, 7700 Thisted
+      1141                     Gl. Feggesundvej 29, 7742 Vesløs
+      1142                       Teglgårdsvej 5, 7770 Vestervig
+      1143                      Ved Stadion 7, 7755 Bedsted Thy
+      1144                    Kirkebyvej 17, Nors, 7700 Thisted
+      1145                            Skolevej 2, 7741 Frøstrup
+      1146             Vesterhavsgade 13, Vorupør, 7700 Thisted
+      1147                 Kastanievej 4, Koldby, 7752 Snedsted
+      1148                Vesterbyvej 1, Østerild, 7700 Thisted
+      1149                Sennelsvej 128, Sennels, 7700 Thisted
+      1150                   Krovej 3, Klitmøller, 7700 Thisted
+      1151                Trehusevej 7, Frederiks, 7470 Karup J
+      1152             Birgittelystvej 2, Hald Ege, 8800 Viborg
+      1153                          Stadionvej 59, 7470 Karup J
+      1154                           Vordevej 1C, 8831 Løgstrup
+      1155                Kalkværksvej 1A, Mønsted, 8800 Viborg
+      1156                     Søndergade 56, 7850 Stoholm Jyll
+      1157                Dåsbjergvej 25A, Vridsted, 7800 Skive
+      1158                          Stadion Alle 3, 8800 Viborg
+      1159                   Vestre Ringvej 7, 8850 Bjerringbro
+      1160                Vorningvej 31, Hammershøj, 8830 Tjele
+      1161                            Rugvænget 2, 9632 Møldrup
+      1162                           Odshøjvej 65B, 8800 Viborg
+      1163                 Meldgårdsvej 26, Rødding, 8830 Tjele
+      1164                    Brandstrupvej 25, 8840 Rødkærsbro
+      1165                                 Kærvej 9, 8832 Skals
+      1166                         Tjelevej 9, Ørum, 8830 Tjele
+      1167       Dronninglundvej 8, Agersted, 9330 Dronninglund
+      1168                             Møllehusvej 7, 9340 Asaa
+      1169                     Rørholtvej 20, 9330 Dronninglund
+      1170       Ålborgvej 583, Flauenskjold, 9330 Dronninglund
+      1171                        Nørre Alle 3A, 9320 Hjallerup
+      1172            Anemonevej 5, Klokkerholm, 9320 Hjallerup
+      1173                       Knudsgade 15, 9700 Brønderslev
+      1174                      Tømmerbyvej 6, 9700 Brønderslev
+      1175                  Jens Thise Vej 33, 9700 Brønderslev
+      1176                        Elmevej 122, 9700 Brønderslev
+      1177                        Sølvgade 74, 9700 Brønderslev
+      1178                        Borgergade 30, 9740 Jerslev J
+      1179                         Hybenvej 3, 9700 Brønderslev
+      1180                             Kirkevej 19, 9990 Skagen
+      1181                             Møldamvej 9B, 9982 Ålbæk
+      1182                           Skagensvej 448, 9981 Jerup
+      1183         Grundtvigsvej 73, Elling, 9900 Frederikshavn
+      1184                            Skolevej 2, 9970 Strandby
+      1185          Harald Nielsens Plads 9, 9900 Frederikshavn
+      1186        Ravnshøjvej 155, Ravnshøj, 9900 Frederikshavn
+      1187                Brønderslevvej 99, 9900 Frederikshavn
+      1188                           Rådhuspladsen 2, 9300 Sæby
+      1189                               Ørnevej 8, 9352 Dybvad
+      1190                    Hjørringvej 105, Hørby, 9300 Sæby
+      1191            Hjørringvej 216A, Thorshøj, 9750 Østervrå
+      1192                  Østkystvejen 314, Voerså, 9300 Sæby
+      1193                    Idræts Alle 3, Syvsten, 9300 Sæby
+      1194                            Bredgade 6, 9750 Østervrå
+      1195                      Skolevænget 17A, 9620 Aalestrup
+      1196                     Jeppe Aakjærs Vej 27, 9640 Farsø
+      1197                    Farsøvej 13, Strandby, 9640 Farsø
+      1198                                Messevej 1, 9600 Aars
+      1199                  Hesselvej 34, Hvalpsund, 9640 Farsø
+      1200                    Vestrupvej 23, Vestrup, 9600 Aars
+      1201                           Stadionvej 1, 9631 Gedsted
+      1202                  Hvalpsundvej 13A, Hornum, 9600 Aars
+      1203                 Hovedgaden 79B, V Hornum, 9640 Farsø
+      1204                          Lanternevej 1, 9670 Løgstør
+      1205                          Seminarievej 27, 9681 Ranum
+      1206                 Brøndumvej 56, Brøndum, 9670 Løgstør
+      1207            Bjørnsholmvej 132, Overlade, 9670 Løgstør
+      1208                  Himmerlandsvej 8, Vegger, 9240 Nibe
+      1209                         Skolevej 4, Byrum, 9940 Læsø
+      1210                       Bavnebakken 103, 9530 Støvring
+      1211                     Himmerlandsvej 59, 9520 Skørping
+      1212                     Terndrup Center 6, 9575 Terndrup
+      1213                        Hjedsbækvej 326, 9541 Suldrup
+      1214                       Vestermarksvej 2, 9610 Nørager
+      1215              Strandvejen 21, Haverslev, 9610 Nørager
+      1216             Nibevej 177, Øster Hornum, 9530 Støvring
+      1217                               Skolevej 2, 9574 Bælum
+      1218                  Bygaden 19, Ravnkilde, 9610 Nørager
+      1219                    Blenstrup Halvej 1, 9520 Skørping
+      1220             Kirketerpvej 60, Kirketerp, 9541 Suldrup
+      1221                  Edderupvej 1, Assens, 9550 Mariager
+      1222                         Gl Hobrovej 1, 9550 Mariager
+      1223                              Hvarrevej 6, 9510 Arden
+      1224                  Ulstrupvej 3B, Valsgård, 9500 Hobro
+      1225              Ndr Truevej 14A, Vebbestrup, 9500 Hobro
+      1226                          Stadionvej 25, 9560 Hadsund
+      1227             Veddum Hovedgade 3, Veddum, 9560 Hadsund
+      1228                       Vikingvej 6, Als, 9560 Hadsund
+      1229                     Døstrupvej 23, Hørby, 9500 Hobro
+      1230              Præstemarken 2A, Sdr Onsild, 9500 Hobro
+      1231                            Amerikavej 22, 9500 Hobro
+      1232                      Jens Møllersvej 3, 9440 Aabybro
+      1233                 Idrætsvej 11, Biersted, 9440 Aabybro
+      1234           Gustav Zimmersvej 27, Nørhalne, 9430 Vadum
+      1235             Gl. Landevej 62B, Birkelse, 9440 Aabybro
+      1236                    Rønnebærvej 8, Gjøl, 9440 Aabybro
+      1237                   Tværgade 11, Ingstrup, 9480 Løkken
+      1238     Assenbækvej 33, V. Hjermitslev, 9700 Brønderslev
+      1239                             Damengvej 2, 9460 Brovst
+      1240                   Banevej 7, Halvrimmen, 9460 Brovst
+      1241                  Thyvej 16, Arentsminde, 9460 Brovst
+      1242                      Tranhøj 13, Tranum, 9460 Brovst
+      1243                Hovedgaden 26, Skovsgård, 9460 Brovst
+      1244                      Borups Alle 8, 9690 Fjerritslev
+      1245           Toftholmvej 16, V Thorup, 9690 Fjerritslev
+      1246              Ørebrovej 128, Ørebro, 9690 Fjerritslev
+      1247          Skolevænget 3B, Trekroner, 9690 Fjerritslev
+      1248                    Jetsmark Kirkevej 5, 9490 Pandrup
+      1249                       Vesterhavsvej 27, 9492 Blokhus
+      1250                               Nolsvej 1, 9493 Saltum
+      1251                    Lindholmsvej 65, 9400 Nørresundby
+      1252                 Lindholm Brygge 35, 9400 Nørresundby
+      1253                        Løvbakken 6, 9400 Nørresundby
+      1254                          Søndermarken 20, 9430 Vadum
+      1255                      Bakmøllevej 278, 9380 Vestbjerg
+      1256                             Elkærvej 2, 9381 Sulsted
+      1257                         Brorsonsvej 3A, 9310 Vodskov
+      1258                           På Sporet 8B, 9000 Aalborg
+      1259                         Skydebanevej 1, 9000 Aalborg
+      1260                           Kastetvej 83, 9000 Aalborg
+      1261                         Europa Plads 2, 9000 Aalborg
+      1262                       Provstejorden 15, 9000 Aalborg
+      1263                        Hobrovej 437, 9200 Aalborg SV
+      1264                          Under Lien 77, 9000 Aalborg
+      1265                        Hasserisvej 300, 9000 Aalborg
+      1266                 Frejlev Skolevej 11, 9200 Aalborg SV
+      1267              Svenstrup Skolevej 23, 9230 Svenstrup J
+      1268                        Sjællandsgade 2, 9000 Aalborg
+      1269                      Kjellerups Torv 5, 9000 Aalborg
+      1270               Willy Brandts Vej 31, 9220 Aalborg Øst
+      1271                         Vejgård Torv 3, 9000 Aalborg
+      1272                   Christen Kolds Vej 1, 9000 Aalborg
+      1273                        Budumvej 50, 9220 Aalborg Øst
+      1274                            Hellasvej 11, 9270 Klarup
+      1275                        Solhøjsvej 2, 9210 Aalborg SØ
+      1276                         Hadsundvej 407, 9260 Gistrup
+      1277                   Sohngårdsholmsvej 60, 9000 Aalborg
+      1278                      Rævedalsvej 5, 9230 Svenstrup J
+      1279                       Tornhøjvej 1, 9220 Aalborg Øst
+      1280           Halsvej 199A, Vester Hassing, 9310 Vodskov
+      1281                           Skovsgårdsvej 1, 9370 Hals
+      1282                      Nørtoftvej 5, Ulsted, 9370 Hals
+      1283                      Hobrovej 36, Vokslev, 9240 Nibe
+      1284                 Nymøllevej 118B, Farstrup, 9240 Nibe
+      1285                         Idrætsvej 3, 9293 Kongerslev
+      1286                 Gl. Egensevej 8, Mou, 9280 Storvorde
+      1287                        Tofthøjvej 40, 9280 Storvorde
+      1288            Stendyssevej 80F, Ø Horne, 9850 Hirtshals
+      1289                           Halvejen 4, 9850 Hirtshals
+      1290                          Nørregade 22, 9800 Hjørring
+      1291                Rævskærvej 12, Tornby, 9850 Hirtshals
+      1292                           Vesterbro 3, 9881 Bindslev
+      1293                 Østervej 10, Tversted, 9881 Bindslev
+      1294                                 Halvej 14, 9830 Tårs
+      1295                       Poulstrup Skolevej 5, 9760 Vrå
+      1296                  Asdalvej 14, Bjergby, 9800 Hjørring
+      1297                       Villerupvej 120, 9800 Hjørring
+      1298                   Vellingshøjvej 380B, 9800 Hjørring
+      1299                         Fuglsigvej 23, 9800 Hjørring
+      1300                            Bodøvej 13, 9800 Hjørring
+      1301                              Stadionvej 17, 9760 Vrå
+      1302                Sejlstrupvej 7, Hundelev, 9480 Løkken
+      1303                           Søndergade 42, 9480 Løkken
+      1304                          Islandsgade 22, 9870 Sindal
+      1305                Bøgstedvej 307, Astrup, 9800 Hjørring
+      1306                 Dvergetvedvej 95, Tolne, 9870 Sindal
+      1307                  Ugiltvej 304, Linderum, 9870 Sindal
+      1308                   Enghavevej 4A, Lendum, 9870 Sindal
            afstemningssted_adgangspunkt_x afstemningssted_adgangspunkt_y kommunekode
       1                         12.574849                       55.70477        0101
       2                         12.578824                       55.70876        0101
@@ -5554,24 +5594,24 @@
       352                       11.889265                       55.40894        0329
       353                       11.885205                       55.48311        0329
       354                       11.937608                       55.38553        0329
-      355                       11.414417                       55.29629        0330
-      356                       11.332774                       55.37258        0330
-      357                       11.437888                       55.36091        0330
+      355                       11.263992                       55.36280        0330
+      356                       11.180194                       55.36632        0330
+      357                       11.125635                       55.34202        0330
       358                       11.143617                       55.32931        0330
-      359                       11.125635                       55.34202        0330
-      360                       11.180194                       55.36632        0330
-      361                       11.263992                       55.36280        0330
-      362                       11.386161                       55.40662        0330
+      359                       11.266709                       55.30144        0330
+      360                       11.312297                       55.26205        0330
+      361                       11.188276                       55.21008        0330
+      362                       11.153574                       55.16086        0330
       363                       11.445520                       55.23531        0330
-      364                       11.312297                       55.26205        0330
-      365                       11.188276                       55.21008        0330
-      366                       11.266709                       55.30144        0330
-      367                       11.153574                       55.16086        0330
-      368                       11.362838                       55.40097        0330
+      364                       11.414417                       55.29629        0330
+      365                       11.332774                       55.37258        0330
+      366                       11.437888                       55.36091        0330
+      367                       11.401058                       55.47107        0330
+      368                       11.241941                       55.43049        0330
       369                       11.327235                       55.40169        0330
       370                       11.365790                       55.41723        0330
-      371                       11.401058                       55.47107        0330
-      372                       11.241941                       55.43049        0330
+      371                       11.386161                       55.40662        0330
+      372                       11.362838                       55.40097        0330
       373                       12.229491                       55.34493        0336
       374                       12.263552                       55.40268        0336
       375                       12.395915                       55.31067        0336
@@ -5690,7 +5730,7 @@
       488                        9.972452                       55.40168        0410
       489                        9.979099                       55.48449        0410
       490                       10.030122                       55.45401        0410
-      491                       14.708704                       55.09250        0411
+      491                       15.186521                       55.32047        0411
       492                        9.893908                       55.26486        0420
       493                        9.977125                       55.24036        0420
       494                        9.989558                       55.29957        0420
@@ -5859,7 +5899,7 @@
       657                        9.770207                       54.91113        0540
       658                        9.695633                       54.94304        0540
       659                        9.654584                       54.96388        0540
-      660                        9.670317                       54.88861        0540
+      660                        9.670352                       54.88867        0540
       661                        9.590017                       54.91959        0540
       662                        9.495156                       54.93586        0540
       663                        8.821057                       55.05878        0550
@@ -6001,7 +6041,7 @@
       799                        9.882515                       55.87103        0615
       800                        9.925733                       55.81816        0615
       801                        9.485986                       55.49472        0621
-      802                        9.477285                       55.49861        0621
+      802                        9.476825                       55.49857        0621
       803                        9.447170                       55.50229        0621
       804                        9.527939                       55.50299        0621
       805                        9.470687                       55.52820        0621
@@ -6181,323 +6221,333 @@
       979                        9.450081                       56.28115        0740
       980                        9.403273                       56.19645        0740
       981                        9.554338                       56.23252        0740
-      982                        9.688318                       56.15241        0740
+      982                        9.687711                       56.15325        0740
       983                        9.654012                       56.18183        0740
-      984                        9.519620                       56.21692        0740
-      985                        9.621972                       56.13691        0740
-      986                        9.434043                       56.33111        0740
-      987                        9.775825                       56.17712        0740
-      988                        9.335609                       56.28579        0740
-      989                        9.430339                       56.25637        0740
-      990                        9.696208                       56.18863        0740
-      991                        9.524273                       56.19064        0740
-      992                        9.514506                       56.02235        0740
-      993                        9.509850                       56.18383        0740
-      994                        9.486631                       56.11410        0740
-      995                        9.450513                       56.04076        0740
-      996                        9.564943                       56.17260        0740
-      997                        9.504204                       56.16049        0740
-      998                        9.540112                       56.17906        0740
-      999                        9.573187                       56.18439        0740
-      1000                       9.545651                       56.08938        0740
-      1001                       9.533673                       56.16582        0740
-      1002                       9.561705                       56.12646        0740
-      1003                      10.584934                       55.83348        0741
-      1004                      10.551682                       55.96543        0741
-      1005                       9.863115                       55.97617        0746
-      1006                       9.907593                       56.15051        0746
-      1007                       9.698812                       56.07697        0746
-      1008                      10.033910                       56.08964        0746
-      1009                       9.810960                       56.15249        0746
-      1010                       9.923672                       56.03517        0746
-      1011                       9.945200                       56.04538        0746
-      1012                       9.775650                       56.09405        0746
-      1013                       9.941894                       56.15545        0746
-      1014                       9.983251                       56.05788        0746
-      1015                       9.949922                       56.12004        0746
-      1016                      10.035102                       56.03196        0746
-      1017                      10.196748                       56.14380        0751
-      1018                      10.190332                       56.14780        0751
-      1019                      10.178171                       56.11841        0751
-      1020                      10.200676                       56.11518        0751
-      1021                      10.140480                       56.09008        0751
-      1022                      10.183323                       56.13127        0751
-      1023                      10.157503                       56.12721        0751
-      1024                      10.211609                       56.06157        0751
-      1025                      10.213776                       56.15344        0751
-      1026                      10.199034                       56.03945        0751
-      1027                      10.157019                       56.06887        0751
-      1028                      10.084158                       56.04215        0751
-      1029                      10.226829                       56.16536        0751
-      1030                      10.060183                       56.12392        0751
-      1031                      10.091251                       56.10697        0751
-      1032                      10.115003                       56.12990        0751
-      1033                      10.193690                       56.15492        0751
-      1034                      10.203206                       56.15263        0751
-      1035                      10.157079                       56.15933        0751
-      1036                      10.163680                       56.16930        0751
-      1037                      10.117698                       56.14953        0751
-      1038                      10.141810                       56.15905        0751
-      1039                      10.114627                       56.17465        0751
-      1040                      10.190083                       56.15608        0751
-      1041                      10.110684                       56.18834        0751
-      1042                       9.999224                       56.14566        0751
-      1043                      10.010965                       56.18864        0751
-      1044                      10.025058                       56.21199        0751
-      1045                      10.202540                       56.16245        0751
-      1046                      10.208733                       56.17553        0751
-      1047                      10.184485                       56.16482        0751
-      1048                      10.157948                       56.21863        0751
-      1049                      10.247242                       56.19383        0751
-      1050                      10.235670                       56.23661        0751
-      1051                      10.272163                       56.24319        0751
-      1052                      10.283078                       56.21224        0751
-      1053                      10.298241                       56.22668        0751
-      1054                      10.308426                       56.27153        0751
-      1055                      10.144040                       56.25245        0751
-      1056                      10.146492                       56.29854        0751
-      1057                      10.217002                       56.28729        0751
-      1058                      10.208001                       56.19326        0751
-      1059                      10.149489                       56.11126        0751
-      1060                      10.178463                       56.17111        0751
-      1061                      10.164975                       56.15063        0751
-      1062                      10.216895                       56.20357        0751
-      1063                      10.207346                       56.10404        0751
-      1064                      10.196322                       56.17383        0751
-      1065                      10.199095                       56.18595        0751
-      1066                       9.289447                       55.98427        0756
-      1067                       9.307347                       56.03296        0756
-      1068                       9.395768                       55.96125        0756
-      1069                       9.490910                       55.93206        0756
-      1070                       9.124042                       55.94173        0756
-      1071                       9.009151                       55.86268        0756
-      1072                       9.144847                       56.14415        0756
-      1073                       9.200951                       56.09855        0756
-      1074                       9.276613                       56.14472        0756
-      1075                       9.341719                       56.17058        0756
-      1076                       8.530874                       55.90412        0760
-      1077                       8.180908                       56.12857        0760
-      1078                       8.593524                       55.87110        0760
-      1079                       8.303274                       55.80929        0760
-      1080                       8.129355                       56.00745        0760
-      1081                       8.312047                       56.05395        0760
-      1082                       8.264781                       56.09698        0760
-      1083                       8.286521                       56.14384        0760
-      1084                       8.384713                       56.02584        0760
-      1085                       8.312255                       56.19758        0760
-      1086                       8.502880                       55.95304        0760
-      1087                       8.652270                       55.95801        0760
-      1088                       8.529868                       56.02313        0760
-      1089                       8.370432                       55.96438        0760
-      1090                       8.613464                       56.09136        0760
-      1091                       8.740174                       55.99639        0760
-      1092                       8.702094                       56.08689        0760
-      1093                       8.506483                       56.12856        0760
-      1094                       9.706766                       55.77105        0766
-      1095                       9.698021                       55.80223        0766
-      1096                       9.651753                       55.79725        0766
-      1097                       9.707371                       55.73241        0766
-      1098                       9.702758                       55.85212        0766
-      1099                       9.757553                       55.80777        0766
-      1100                       9.982575                       55.71084        0766
-      1101                       9.879428                       55.71601        0766
-      1102                       9.805015                       55.79103        0766
-      1103                       9.846017                       55.75877        0766
-      1104                       9.796287                       55.70376        0766
-      1105                       9.933911                       55.77380        0766
-      1106                      10.001832                       55.80619        0766
-      1107                       9.610686                       55.87483        0766
-      1108                       9.574530                       55.79092        0766
-      1109                       9.487216                       55.86034        0766
-      1110                       9.584380                       55.85120        0766
-      1111                       9.562931                       55.88898        0766
-      1112                       9.530895                       55.82956        0766
-      1113                       8.868576                       56.92279        0773
-      1114                       8.721583                       56.83732        0773
-      1115                       8.727439                       56.75595        0773
-      1116                       8.602433                       56.74367        0773
-      1117                       8.856850                       56.79746        0773
-      1118                       9.010773                       56.81835        0779
-      1119                       9.027094                       56.54465        0779
-      1120                       9.112981                       56.55318        0779
-      1121                       8.880016                       56.61550        0779
-      1122                       8.808926                       56.64477        0779
-      1123                       8.875789                       56.75568        0779
-      1124                       8.979563                       56.70059        0779
-      1125                       9.072778                       56.68840        0779
-      1126                       8.699602                       56.95585        0787
-      1127                       8.530701                       56.89099        0787
-      1128                       8.415043                       56.75381        0787
-      1129                       8.608791                       57.11054        0787
-      1130                       8.594861                       56.95407        0787
-      1131                       8.968940                       57.03088        0787
-      1132                       8.322863                       56.76469        0787
-      1133                       8.400171                       56.81045        0787
-      1134                       8.672960                       57.02237        0787
-      1135                       8.992609                       57.07783        0787
-      1136                       8.375608                       56.94954        0787
-      1137                       8.530201                       56.84672        0787
-      1138                       8.841711                       57.02890        0787
-      1139                       8.799690                       56.97091        0787
-      1140                       8.507265                       57.04089        0787
-      1141                       9.255626                       56.34575        0791
-      1142                       9.352645                       56.40166        0791
-      1143                       9.166850                       56.31308        0791
-      1144                       9.336489                       56.51310        0791
-      1145                       9.186008                       56.44669        0791
-      1146                       9.147800                       56.47762        0791
-      1147                       9.005729                       56.44662        0791
-      1148                       9.401512                       56.45667        0791
-      1149                       9.646562                       56.37804        0791
-      1150                       9.742295                       56.50544        0791
-      1151                       9.499060                       56.61916        0791
-      1152                       9.456610                       56.46196        0791
-      1153                       9.513482                       56.49929        0791
-      1154                       9.504369                       56.35638        0791
-      1155                       9.408703                       56.55559        0791
-      1156                       9.622154                       56.48421        0791
-      1157                      10.379485                       57.19623        0810
-      1158                      10.399592                       57.15071        0810
-      1159                      10.285558                       57.15167        0810
-      1160                      10.286440                       57.24977        0810
-      1161                      10.146363                       57.16949        0810
-      1162                      10.157267                       57.20765        0810
-      1163                       9.950402                       57.27463        0810
-      1164                       9.868483                       57.31853        0810
-      1165                       9.810491                       57.28940        0810
-      1166                      10.005002                       57.24728        0810
-      1167                      10.103587                       57.23942        0810
-      1168                      10.089577                       57.28428        0810
-      1169                       9.974737                       57.31444        0810
-      1170                      10.583058                       57.72297        0813
-      1171                      10.410608                       57.59528        0813
-      1172                      10.419586                       57.53549        0813
-      1173                      10.476583                       57.48066        0813
-      1174                      10.497623                       57.49045        0813
-      1175                      10.518188                       57.44220        0813
-      1176                      10.424059                       57.45220        0813
-      1177                      10.440422                       57.40574        0813
-      1178                      10.505512                       57.33374        0813
-      1179                      10.353576                       57.27514        0813
-      1180                      10.383453                       57.32230        0813
-      1181                      10.313438                       57.33530        0813
-      1182                      10.489550                       57.21162        0813
-      1183                      10.429307                       57.30811        0813
-      1184                      10.236940                       57.33989        0813
-      1185                       9.481214                       56.69157        0820
-      1186                       9.333242                       56.76989        0820
-      1187                       9.217109                       56.79147        0820
-      1188                       9.502377                       56.80362        0820
-      1189                       9.207231                       56.69522        0820
-      1190                       9.444945                       56.74993        0820
-      1191                       9.335320                       56.68690        0820
-      1192                       9.421357                       56.83952        0820
-      1193                       9.358388                       56.83685        0820
-      1194                       9.248872                       56.95687        0820
-      1195                       9.233828                       56.89918        0820
-      1196                       9.354616                       56.95679        0820
-      1197                       9.262191                       56.85936        0820
-      1198                       9.568928                       56.88529        0820
-      1199                      11.002824                       57.25253        0825
-      1200                       9.834390                       56.89094        0840
-      1201                       9.877006                       56.83409        0840
-      1202                      10.058498                       56.81223        0840
-      1203                       9.701409                       56.84925        0840
-      1204                       9.627727                       56.70722        0840
-      1205                       9.680049                       56.79095        0840
-      1206                       9.748632                       56.93609        0840
-      1207                      10.112726                       56.83170        0840
-      1208                       9.753490                       56.75503        0840
-      1209                      10.016117                       56.88020        0840
-      1210                       9.668334                       56.88871        0840
-      1211                      10.065080                       56.67439        0846
-      1212                       9.971922                       56.64523        0846
-      1213                       9.866175                       56.76376        0846
-      1214                       9.842338                       56.67228        0846
-      1215                       9.816866                       56.72733        0846
-      1216                      10.131137                       56.72170        0846
-      1217                      10.171332                       56.77558        0846
-      1218                      10.286687                       56.75609        0846
-      1219                       9.769048                       56.65327        0846
-      1220                       9.762314                       56.58795        0846
-      1221                       9.817042                       56.63332        0846
-      1222                       9.733163                       57.16175        0849
-      1223                       9.810160                       57.14711        0849
-      1224                       9.880893                       57.14983        0849
-      1225                       9.685776                       57.15035        0849
-      1226                       9.730999                       57.06962        0849
-      1227                       9.711389                       57.31440        0849
-      1228                       9.764603                       57.28587        0849
-      1229                       9.522126                       57.10069        0849
-      1230                       9.587705                       57.11083        0849
-      1231                       9.622525                       57.12254        0849
-      1232                       9.463404                       57.13078        0849
-      1233                       9.485858                       57.08919        0849
-      1234                       9.263728                       57.08967        0849
-      1235                       9.124001                       57.10196        0849
-      1236                       9.236867                       57.05371        0849
-      1237                       9.368709                       57.04973        0849
-      1238                       9.674371                       57.20954        0849
-      1239                       9.618267                       57.24852        0849
-      1240                       9.697656                       57.27578        0849
-      1241                       9.908413                       57.06895        0851
-      1242                       9.897234                       57.06357        0851
-      1243                       9.929204                       57.07397        0851
-      1244                       9.852474                       57.11884        0851
-      1245                       9.963653                       57.13568        0851
-      1246                       9.964569                       57.15770        0851
-      1247                      10.023166                       57.10870        0851
-      1248                       9.921179                       57.04191        0851
-      1249                       9.890549                       57.05531        0851
-      1250                       9.899043                       57.05420        0851
-      1251                       9.912608                       57.04327        0851
-      1252                       9.910417                       57.02822        0851
-      1253                       9.883657                       57.00594        0851
-      1254                       9.868908                       57.03406        0851
-      1255                       9.878043                       57.02579        0851
-      1256                       9.811200                       57.00847        0851
-      1257                       9.847180                       56.97398        0851
-      1258                       9.932889                       57.03958        0851
-      1259                       9.931594                       57.04636        0851
-      1260                       9.963170                       57.01834        0851
-      1261                       9.949787                       57.04224        0851
-      1262                       9.962095                       57.03859        0851
-      1263                       9.997789                       57.04017        0851
-      1264                      10.048014                       57.01113        0851
-      1265                       9.930798                       57.00538        0851
-      1266                      10.003264                       56.99186        0851
-      1267                       9.942816                       57.02579        0851
-      1268                       9.899527                       56.95183        0851
-      1269                      10.002144                       57.02492        0851
-      1270                      10.115414                       57.07241        0851
-      1271                      10.309738                       56.99936        0851
-      1272                      10.256908                       57.07868        0851
-      1273                       9.645561                       56.97805        0851
-      1274                       9.458018                       56.98345        0851
-      1275                      10.112989                       56.88913        0851
-      1276                      10.223552                       56.96696        0851
-      1277                      10.100862                       56.99531        0851
-      1278                      10.007778                       57.56324        0860
-      1279                       9.953142                       57.58171        0860
-      1280                       9.983526                       57.46253        0860
-      1281                       9.943550                       57.53273        0860
-      1282                      10.198763                       57.54169        0860
-      1283                      10.190833                       57.58680        0860
-      1284                      10.109547                       57.38468        0860
-      1285                      10.014096                       57.35655        0860
-      1286                      10.024065                       57.51502        0860
-      1287                       9.869066                       57.46139        0860
-      1288                       9.996344                       57.48203        0860
-      1289                      10.000804                       57.43653        0860
-      1290                       9.965507                       57.46384        0860
-      1291                       9.949881                       57.35018        0860
-      1292                       9.845033                       57.42473        0860
-      1293                       9.709745                       57.36739        0860
-      1294                      10.195047                       57.47745        0860
-      1295                      10.092726                       57.48073        0860
-      1296                      10.325725                       57.47734        0860
-      1297                      10.173427                       57.42717        0860
-      1298                      10.291655                       57.40804        0860
+      984                        9.621972                       56.13691        0740
+      985                        9.434043                       56.33111        0740
+      986                        9.775825                       56.17712        0740
+      987                        9.335609                       56.28579        0740
+      988                        9.430339                       56.25637        0740
+      989                        9.695195                       56.18846        0740
+      990                        9.524273                       56.19064        0740
+      991                        9.514506                       56.02235        0740
+      992                        9.509850                       56.18383        0740
+      993                        9.486631                       56.11410        0740
+      994                        9.450513                       56.04076        0740
+      995                        9.564943                       56.17260        0740
+      996                        9.540112                       56.17906        0740
+      997                        9.573187                       56.18439        0740
+      998                        9.545651                       56.08938        0740
+      999                        9.533673                       56.16582        0740
+      1000                       9.561705                       56.12646        0740
+      1001                      10.584934                       55.83348        0741
+      1002                      10.551682                       55.96543        0741
+      1003                       9.863115                       55.97617        0746
+      1004                       9.907593                       56.15051        0746
+      1005                       9.698812                       56.07697        0746
+      1006                      10.033910                       56.08964        0746
+      1007                       9.810960                       56.15249        0746
+      1008                       9.923672                       56.03517        0746
+      1009                       9.945200                       56.04538        0746
+      1010                       9.775650                       56.09405        0746
+      1011                       9.941894                       56.15545        0746
+      1012                       9.983251                       56.05788        0746
+      1013                       9.949922                       56.12004        0746
+      1014                      10.035102                       56.03196        0746
+      1015                      10.196748                       56.14380        0751
+      1016                      10.190332                       56.14780        0751
+      1017                      10.178171                       56.11841        0751
+      1018                      10.200676                       56.11518        0751
+      1019                      10.140480                       56.09008        0751
+      1020                      10.183323                       56.13127        0751
+      1021                      10.157503                       56.12721        0751
+      1022                      10.211609                       56.06157        0751
+      1023                      10.213776                       56.15344        0751
+      1024                      10.199034                       56.03945        0751
+      1025                      10.157019                       56.06887        0751
+      1026                      10.084158                       56.04215        0751
+      1027                      10.226829                       56.16536        0751
+      1028                      10.060183                       56.12392        0751
+      1029                      10.091251                       56.10697        0751
+      1030                      10.115003                       56.12990        0751
+      1031                      10.193690                       56.15492        0751
+      1032                      10.203206                       56.15263        0751
+      1033                      10.157079                       56.15933        0751
+      1034                      10.163680                       56.16930        0751
+      1035                      10.117698                       56.14953        0751
+      1036                      10.141810                       56.15905        0751
+      1037                      10.114627                       56.17465        0751
+      1038                      10.190083                       56.15608        0751
+      1039                      10.110684                       56.18834        0751
+      1040                       9.999224                       56.14566        0751
+      1041                      10.010965                       56.18864        0751
+      1042                      10.025058                       56.21199        0751
+      1043                      10.202540                       56.16245        0751
+      1044                      10.208733                       56.17553        0751
+      1045                      10.183826                       56.16488        0751
+      1046                      10.157948                       56.21863        0751
+      1047                      10.247242                       56.19383        0751
+      1048                      10.235670                       56.23661        0751
+      1049                      10.272163                       56.24319        0751
+      1050                      10.283078                       56.21224        0751
+      1051                      10.298241                       56.22668        0751
+      1052                      10.308426                       56.27153        0751
+      1053                      10.144040                       56.25245        0751
+      1054                      10.146492                       56.29854        0751
+      1055                      10.217002                       56.28729        0751
+      1056                      10.208001                       56.19326        0751
+      1057                      10.149489                       56.11126        0751
+      1058                      10.178463                       56.17111        0751
+      1059                      10.164975                       56.15063        0751
+      1060                      10.216895                       56.20357        0751
+      1061                      10.207346                       56.10404        0751
+      1062                      10.196322                       56.17383        0751
+      1063                      10.199095                       56.18595        0751
+      1064                       9.289447                       55.98427        0756
+      1065                       9.307347                       56.03296        0756
+      1066                       9.395768                       55.96125        0756
+      1067                       9.490910                       55.93206        0756
+      1068                       9.124042                       55.94173        0756
+      1069                       9.009151                       55.86268        0756
+      1070                       9.144847                       56.14415        0756
+      1071                       9.200951                       56.09855        0756
+      1072                       9.276613                       56.14472        0756
+      1073                       9.341719                       56.17058        0756
+      1074                       8.530874                       55.90412        0760
+      1075                       8.180908                       56.12857        0760
+      1076                       8.593524                       55.87110        0760
+      1077                       8.303274                       55.80929        0760
+      1078                       8.129355                       56.00745        0760
+      1079                       8.312047                       56.05395        0760
+      1080                       8.264781                       56.09698        0760
+      1081                       8.286521                       56.14384        0760
+      1082                       8.384713                       56.02584        0760
+      1083                       8.312255                       56.19758        0760
+      1084                       8.502880                       55.95304        0760
+      1085                       8.652270                       55.95801        0760
+      1086                       8.529868                       56.02313        0760
+      1087                       8.370432                       55.96438        0760
+      1088                       8.613464                       56.09136        0760
+      1089                       8.740174                       55.99639        0760
+      1090                       8.702094                       56.08689        0760
+      1091                       8.506483                       56.12856        0760
+      1092                       9.706766                       55.77105        0766
+      1093                       9.698021                       55.80223        0766
+      1094                       9.651753                       55.79725        0766
+      1095                       9.707371                       55.73241        0766
+      1096                       9.702758                       55.85212        0766
+      1097                       9.757553                       55.80777        0766
+      1098                       9.982575                       55.71084        0766
+      1099                       9.879428                       55.71601        0766
+      1100                       9.805015                       55.79103        0766
+      1101                       9.846017                       55.75877        0766
+      1102                       9.796287                       55.70376        0766
+      1103                       9.933911                       55.77380        0766
+      1104                      10.001832                       55.80619        0766
+      1105                       9.610686                       55.87483        0766
+      1106                       9.574530                       55.79092        0766
+      1107                       9.487216                       55.86034        0766
+      1108                       9.584380                       55.85120        0766
+      1109                       9.562931                       55.88898        0766
+      1110                       9.530895                       55.82956        0766
+      1111                       8.868576                       56.92279        0773
+      1112                       8.721583                       56.83732        0773
+      1113                       8.727439                       56.75595        0773
+      1114                       8.602433                       56.74367        0773
+      1115                       8.856850                       56.79746        0773
+      1116                       9.022418                       56.56740        0779
+      1117                       9.036709                       56.58137        0779
+      1118                       9.032643                       56.55064        0779
+      1119                       9.112981                       56.55318        0779
+      1120                       9.217837                       56.59988        0779
+      1121                       8.940054                       56.53459        0779
+      1122                       8.961478                       56.59621        0779
+      1123                       8.733099                       56.60196        0779
+      1124                       8.930913                       56.65008        0779
+      1125                       8.808926                       56.64477        0779
+      1126                       8.875789                       56.75568        0779
+      1127                       8.954776                       56.74227        0779
+      1128                       8.979563                       56.70059        0779
+      1129                       9.018887                       56.67154        0779
+      1130                       8.880016                       56.61550        0779
+      1131                       9.072778                       56.68840        0779
+      1132                       8.840788                       56.59563        0779
+      1133                       9.050488                       56.77787        0779
+      1134                       8.781806                       56.59060        0779
+      1135                       9.010773                       56.81835        0779
+      1136                       8.699602                       56.95585        0787
+      1137                       8.530701                       56.89099        0787
+      1138                       8.415043                       56.75381        0787
+      1139                       8.608791                       57.11054        0787
+      1140                       8.594861                       56.95407        0787
+      1141                       8.968940                       57.03088        0787
+      1142                       8.322863                       56.76469        0787
+      1143                       8.400171                       56.81045        0787
+      1144                       8.672960                       57.02237        0787
+      1145                       8.992609                       57.07783        0787
+      1146                       8.375608                       56.94954        0787
+      1147                       8.530201                       56.84672        0787
+      1148                       8.841711                       57.02890        0787
+      1149                       8.799690                       56.97091        0787
+      1150                       8.507265                       57.04089        0787
+      1151                       9.255626                       56.34575        0791
+      1152                       9.352645                       56.40166        0791
+      1153                       9.166850                       56.31308        0791
+      1154                       9.336489                       56.51310        0791
+      1155                       9.186008                       56.44669        0791
+      1156                       9.147800                       56.47762        0791
+      1157                       9.005729                       56.44662        0791
+      1158                       9.401512                       56.45667        0791
+      1159                       9.646562                       56.37804        0791
+      1160                       9.742295                       56.50544        0791
+      1161                       9.499060                       56.61916        0791
+      1162                       9.456610                       56.46196        0791
+      1163                       9.513482                       56.49929        0791
+      1164                       9.504369                       56.35638        0791
+      1165                       9.408703                       56.55559        0791
+      1166                       9.622154                       56.48421        0791
+      1167                      10.379485                       57.19623        0810
+      1168                      10.399592                       57.15071        0810
+      1169                      10.285558                       57.15167        0810
+      1170                      10.286440                       57.24977        0810
+      1171                      10.146363                       57.16949        0810
+      1172                      10.157267                       57.20765        0810
+      1173                       9.950402                       57.27463        0810
+      1174                       9.868483                       57.31853        0810
+      1175                       9.810491                       57.28940        0810
+      1176                      10.005002                       57.24728        0810
+      1177                      10.103587                       57.23942        0810
+      1178                      10.089577                       57.28428        0810
+      1179                       9.974737                       57.31444        0810
+      1180                      10.583058                       57.72297        0813
+      1181                      10.410608                       57.59528        0813
+      1182                      10.419586                       57.53549        0813
+      1183                      10.476583                       57.48066        0813
+      1184                      10.497623                       57.49045        0813
+      1185                      10.518188                       57.44220        0813
+      1186                      10.424059                       57.45220        0813
+      1187                      10.440422                       57.40574        0813
+      1188                      10.505512                       57.33374        0813
+      1189                      10.353576                       57.27514        0813
+      1190                      10.383453                       57.32230        0813
+      1191                      10.313438                       57.33530        0813
+      1192                      10.489550                       57.21162        0813
+      1193                      10.429307                       57.30811        0813
+      1194                      10.236940                       57.33989        0813
+      1195                       9.481214                       56.69157        0820
+      1196                       9.333242                       56.76989        0820
+      1197                       9.217109                       56.79147        0820
+      1198                       9.502377                       56.80362        0820
+      1199                       9.207231                       56.69522        0820
+      1200                       9.444945                       56.74993        0820
+      1201                       9.335320                       56.68690        0820
+      1202                       9.421357                       56.83952        0820
+      1203                       9.358388                       56.83685        0820
+      1204                       9.248872                       56.95687        0820
+      1205                       9.233828                       56.89918        0820
+      1206                       9.354616                       56.95679        0820
+      1207                       9.262191                       56.85936        0820
+      1208                       9.568928                       56.88529        0820
+      1209                      11.002824                       57.25253        0825
+      1210                       9.834390                       56.89094        0840
+      1211                       9.877006                       56.83409        0840
+      1212                      10.058498                       56.81223        0840
+      1213                       9.701409                       56.84925        0840
+      1214                       9.627727                       56.70722        0840
+      1215                       9.680049                       56.79095        0840
+      1216                       9.748632                       56.93609        0840
+      1217                      10.112726                       56.83170        0840
+      1218                       9.753490                       56.75503        0840
+      1219                      10.016117                       56.88020        0840
+      1220                       9.668334                       56.88871        0840
+      1221                      10.065080                       56.67439        0846
+      1222                       9.971922                       56.64523        0846
+      1223                       9.866175                       56.76376        0846
+      1224                       9.842338                       56.67228        0846
+      1225                       9.816866                       56.72733        0846
+      1226                      10.131137                       56.72170        0846
+      1227                      10.171332                       56.77558        0846
+      1228                      10.286687                       56.75609        0846
+      1229                       9.769048                       56.65327        0846
+      1230                       9.762314                       56.58795        0846
+      1231                       9.817042                       56.63332        0846
+      1232                       9.733163                       57.16175        0849
+      1233                       9.810160                       57.14711        0849
+      1234                       9.880893                       57.14983        0849
+      1235                       9.685776                       57.15035        0849
+      1236                       9.730999                       57.06962        0849
+      1237                       9.711389                       57.31440        0849
+      1238                       9.764603                       57.28587        0849
+      1239                       9.522126                       57.10069        0849
+      1240                       9.587705                       57.11083        0849
+      1241                       9.622525                       57.12254        0849
+      1242                       9.463404                       57.13078        0849
+      1243                       9.485858                       57.08919        0849
+      1244                       9.263728                       57.08967        0849
+      1245                       9.124001                       57.10196        0849
+      1246                       9.236867                       57.05371        0849
+      1247                       9.368709                       57.04973        0849
+      1248                       9.674371                       57.20954        0849
+      1249                       9.618267                       57.24852        0849
+      1250                       9.697656                       57.27578        0849
+      1251                       9.908413                       57.06895        0851
+      1252                       9.897234                       57.06357        0851
+      1253                       9.929204                       57.07397        0851
+      1254                       9.852474                       57.11884        0851
+      1255                       9.963653                       57.13568        0851
+      1256                       9.964569                       57.15770        0851
+      1257                      10.023166                       57.10870        0851
+      1258                       9.921179                       57.04191        0851
+      1259                       9.890549                       57.05531        0851
+      1260                       9.899043                       57.05420        0851
+      1261                       9.912608                       57.04327        0851
+      1262                       9.910417                       57.02822        0851
+      1263                       9.883657                       57.00594        0851
+      1264                       9.868908                       57.03406        0851
+      1265                       9.878043                       57.02579        0851
+      1266                       9.811200                       57.00847        0851
+      1267                       9.847180                       56.97398        0851
+      1268                       9.932889                       57.03958        0851
+      1269                       9.931594                       57.04636        0851
+      1270                       9.963170                       57.01834        0851
+      1271                       9.949787                       57.04224        0851
+      1272                       9.962095                       57.03859        0851
+      1273                       9.997789                       57.04017        0851
+      1274                      10.048014                       57.01113        0851
+      1275                       9.930798                       57.00538        0851
+      1276                      10.003264                       56.99186        0851
+      1277                       9.942816                       57.02579        0851
+      1278                       9.899527                       56.95183        0851
+      1279                      10.002144                       57.02492        0851
+      1280                      10.115414                       57.07241        0851
+      1281                      10.309738                       56.99936        0851
+      1282                      10.256908                       57.07868        0851
+      1283                       9.645561                       56.97805        0851
+      1284                       9.458018                       56.98345        0851
+      1285                      10.112989                       56.88913        0851
+      1286                      10.223552                       56.96696        0851
+      1287                      10.100862                       56.99531        0851
+      1288                      10.007778                       57.56324        0860
+      1289                       9.953142                       57.58171        0860
+      1290                       9.983526                       57.46253        0860
+      1291                       9.943550                       57.53273        0860
+      1292                      10.198763                       57.54169        0860
+      1293                      10.190833                       57.58680        0860
+      1294                      10.109547                       57.38468        0860
+      1295                      10.014096                       57.35655        0860
+      1296                      10.024065                       57.51502        0860
+      1297                       9.869066                       57.46139        0860
+      1298                       9.996344                       57.48203        0860
+      1299                      10.000804                       57.43653        0860
+      1300                       9.965507                       57.46384        0860
+      1301                       9.949881                       57.35018        0860
+      1302                       9.845033                       57.42473        0860
+      1303                       9.709745                       57.36739        0860
+      1304                      10.195047                       57.47745        0860
+      1305                      10.092726                       57.48073        0860
+      1306                      10.325725                       57.47734        0860
+      1307                      10.173427                       57.42717        0860
+      1308                      10.291655                       57.40804        0860
                  kommunenavn regionskode        regionsnavn opstillingskredsnummer
       1            København        1084 Region Hovedstaden                      1
       2            København        1084 Region Hovedstaden                      1
@@ -7488,7 +7538,7 @@
       987          Silkeborg        1082 Region Midtjylland                     77
       988          Silkeborg        1082 Region Midtjylland                     77
       989          Silkeborg        1082 Region Midtjylland                     77
-      990          Silkeborg        1082 Region Midtjylland                     77
+      990          Silkeborg        1082 Region Midtjylland                     78
       991          Silkeborg        1082 Region Midtjylland                     78
       992          Silkeborg        1082 Region Midtjylland                     78
       993          Silkeborg        1082 Region Midtjylland                     78
@@ -7499,10 +7549,10 @@
       998          Silkeborg        1082 Region Midtjylland                     78
       999          Silkeborg        1082 Region Midtjylland                     78
       1000         Silkeborg        1082 Region Midtjylland                     78
-      1001         Silkeborg        1082 Region Midtjylland                     78
-      1002         Silkeborg        1082 Region Midtjylland                     78
-      1003             Samsø        1082 Region Midtjylland                     70
-      1004             Samsø        1082 Region Midtjylland                     70
+      1001             Samsø        1082 Region Midtjylland                     70
+      1002             Samsø        1082 Region Midtjylland                     70
+      1003       Skanderborg        1082 Region Midtjylland                     70
+      1004       Skanderborg        1082 Region Midtjylland                     70
       1005       Skanderborg        1082 Region Midtjylland                     70
       1006       Skanderborg        1082 Region Midtjylland                     70
       1007       Skanderborg        1082 Region Midtjylland                     70
@@ -7513,57 +7563,57 @@
       1012       Skanderborg        1082 Region Midtjylland                     70
       1013       Skanderborg        1082 Region Midtjylland                     70
       1014       Skanderborg        1082 Region Midtjylland                     70
-      1015       Skanderborg        1082 Region Midtjylland                     70
-      1016       Skanderborg        1082 Region Midtjylland                     70
+      1015            Aarhus        1082 Region Midtjylland                     62
+      1016            Aarhus        1082 Region Midtjylland                     62
       1017            Aarhus        1082 Region Midtjylland                     62
       1018            Aarhus        1082 Region Midtjylland                     62
       1019            Aarhus        1082 Region Midtjylland                     62
-      1020            Aarhus        1082 Region Midtjylland                     62
-      1021            Aarhus        1082 Region Midtjylland                     62
-      1022            Aarhus        1082 Region Midtjylland                     63
-      1023            Aarhus        1082 Region Midtjylland                     63
+      1020            Aarhus        1082 Region Midtjylland                     63
+      1021            Aarhus        1082 Region Midtjylland                     63
+      1022            Aarhus        1082 Region Midtjylland                     62
+      1023            Aarhus        1082 Region Midtjylland                     65
       1024            Aarhus        1082 Region Midtjylland                     62
-      1025            Aarhus        1082 Region Midtjylland                     65
+      1025            Aarhus        1082 Region Midtjylland                     62
       1026            Aarhus        1082 Region Midtjylland                     62
-      1027            Aarhus        1082 Region Midtjylland                     62
-      1028            Aarhus        1082 Region Midtjylland                     62
-      1029            Aarhus        1082 Region Midtjylland                     65
+      1027            Aarhus        1082 Region Midtjylland                     65
+      1028            Aarhus        1082 Region Midtjylland                     63
+      1029            Aarhus        1082 Region Midtjylland                     63
       1030            Aarhus        1082 Region Midtjylland                     63
-      1031            Aarhus        1082 Region Midtjylland                     63
-      1032            Aarhus        1082 Region Midtjylland                     63
-      1033            Aarhus        1082 Region Midtjylland                     65
-      1034            Aarhus        1082 Region Midtjylland                     65
-      1035            Aarhus        1082 Region Midtjylland                     64
-      1036            Aarhus        1082 Region Midtjylland                     64
+      1031            Aarhus        1082 Region Midtjylland                     65
+      1032            Aarhus        1082 Region Midtjylland                     65
+      1033            Aarhus        1082 Region Midtjylland                     64
+      1034            Aarhus        1082 Region Midtjylland                     64
+      1035            Aarhus        1082 Region Midtjylland                     63
+      1036            Aarhus        1082 Region Midtjylland                     63
       1037            Aarhus        1082 Region Midtjylland                     63
-      1038            Aarhus        1082 Region Midtjylland                     63
+      1038            Aarhus        1082 Region Midtjylland                     64
       1039            Aarhus        1082 Region Midtjylland                     63
-      1040            Aarhus        1082 Region Midtjylland                     64
+      1040            Aarhus        1082 Region Midtjylland                     63
       1041            Aarhus        1082 Region Midtjylland                     63
       1042            Aarhus        1082 Region Midtjylland                     63
-      1043            Aarhus        1082 Region Midtjylland                     63
-      1044            Aarhus        1082 Region Midtjylland                     63
-      1045            Aarhus        1082 Region Midtjylland                     65
+      1043            Aarhus        1082 Region Midtjylland                     65
+      1044            Aarhus        1082 Region Midtjylland                     64
+      1045            Aarhus        1082 Region Midtjylland                     64
       1046            Aarhus        1082 Region Midtjylland                     64
-      1047            Aarhus        1082 Region Midtjylland                     64
+      1047            Aarhus        1082 Region Midtjylland                     65
       1048            Aarhus        1082 Region Midtjylland                     64
       1049            Aarhus        1082 Region Midtjylland                     65
-      1050            Aarhus        1082 Region Midtjylland                     64
+      1050            Aarhus        1082 Region Midtjylland                     65
       1051            Aarhus        1082 Region Midtjylland                     65
       1052            Aarhus        1082 Region Midtjylland                     65
-      1053            Aarhus        1082 Region Midtjylland                     65
-      1054            Aarhus        1082 Region Midtjylland                     65
+      1053            Aarhus        1082 Region Midtjylland                     64
+      1054            Aarhus        1082 Region Midtjylland                     64
       1055            Aarhus        1082 Region Midtjylland                     64
-      1056            Aarhus        1082 Region Midtjylland                     64
-      1057            Aarhus        1082 Region Midtjylland                     64
-      1058            Aarhus        1082 Region Midtjylland                     65
+      1056            Aarhus        1082 Region Midtjylland                     65
+      1057            Aarhus        1082 Region Midtjylland                     63
+      1058            Aarhus        1082 Region Midtjylland                     64
       1059            Aarhus        1082 Region Midtjylland                     63
-      1060            Aarhus        1082 Region Midtjylland                     64
-      1061            Aarhus        1082 Region Midtjylland                     63
-      1062            Aarhus        1082 Region Midtjylland                     65
-      1063            Aarhus        1082 Region Midtjylland                     62
-      1064            Aarhus        1082 Region Midtjylland                     64
-      1065            Aarhus        1082 Region Midtjylland                     64
+      1060            Aarhus        1082 Region Midtjylland                     65
+      1061            Aarhus        1082 Region Midtjylland                     62
+      1062            Aarhus        1082 Region Midtjylland                     64
+      1063            Aarhus        1082 Region Midtjylland                     64
+      1064      Ikast-Brande        1082 Region Midtjylland                     79
+      1065      Ikast-Brande        1082 Region Midtjylland                     79
       1066      Ikast-Brande        1082 Region Midtjylland                     79
       1067      Ikast-Brande        1082 Region Midtjylland                     79
       1068      Ikast-Brande        1082 Region Midtjylland                     79
@@ -7572,8 +7622,8 @@
       1071      Ikast-Brande        1082 Region Midtjylland                     79
       1072      Ikast-Brande        1082 Region Midtjylland                     79
       1073      Ikast-Brande        1082 Region Midtjylland                     79
-      1074      Ikast-Brande        1082 Region Midtjylland                     79
-      1075      Ikast-Brande        1082 Region Midtjylland                     79
+      1074 Ringkøbing-Skjern        1082 Region Midtjylland                     83
+      1075 Ringkøbing-Skjern        1082 Region Midtjylland                     83
       1076 Ringkøbing-Skjern        1082 Region Midtjylland                     83
       1077 Ringkøbing-Skjern        1082 Region Midtjylland                     83
       1078 Ringkøbing-Skjern        1082 Region Midtjylland                     83
@@ -7590,8 +7640,8 @@
       1089 Ringkøbing-Skjern        1082 Region Midtjylland                     83
       1090 Ringkøbing-Skjern        1082 Region Midtjylland                     83
       1091 Ringkøbing-Skjern        1082 Region Midtjylland                     83
-      1092 Ringkøbing-Skjern        1082 Region Midtjylland                     83
-      1093 Ringkøbing-Skjern        1082 Region Midtjylland                     83
+      1092         Hedensted        1082 Region Midtjylland                     72
+      1093         Hedensted        1082 Region Midtjylland                     72
       1094         Hedensted        1082 Region Midtjylland                     72
       1095         Hedensted        1082 Region Midtjylland                     72
       1096         Hedensted        1082 Region Midtjylland                     72
@@ -7609,13 +7659,13 @@
       1108         Hedensted        1082 Region Midtjylland                     72
       1109         Hedensted        1082 Region Midtjylland                     72
       1110         Hedensted        1082 Region Midtjylland                     72
-      1111         Hedensted        1082 Region Midtjylland                     72
-      1112         Hedensted        1082 Region Midtjylland                     72
+      1111             Morsø        1081 Region Nordjylland                     87
+      1112             Morsø        1081 Region Nordjylland                     87
       1113             Morsø        1081 Region Nordjylland                     87
       1114             Morsø        1081 Region Nordjylland                     87
       1115             Morsø        1081 Region Nordjylland                     87
-      1116             Morsø        1081 Region Nordjylland                     87
-      1117             Morsø        1081 Region Nordjylland                     87
+      1116             Skive        1082 Region Midtjylland                     74
+      1117             Skive        1082 Region Midtjylland                     74
       1118             Skive        1082 Region Midtjylland                     74
       1119             Skive        1082 Region Midtjylland                     74
       1120             Skive        1082 Region Midtjylland                     74
@@ -7624,112 +7674,112 @@
       1123             Skive        1082 Region Midtjylland                     74
       1124             Skive        1082 Region Midtjylland                     74
       1125             Skive        1082 Region Midtjylland                     74
-      1126           Thisted        1081 Region Nordjylland                     87
-      1127           Thisted        1081 Region Nordjylland                     87
-      1128           Thisted        1081 Region Nordjylland                     87
-      1129           Thisted        1081 Region Nordjylland                     87
-      1130           Thisted        1081 Region Nordjylland                     87
-      1131           Thisted        1081 Region Nordjylland                     87
-      1132           Thisted        1081 Region Nordjylland                     87
-      1133           Thisted        1081 Region Nordjylland                     87
-      1134           Thisted        1081 Region Nordjylland                     87
-      1135           Thisted        1081 Region Nordjylland                     87
+      1126             Skive        1082 Region Midtjylland                     74
+      1127             Skive        1082 Region Midtjylland                     74
+      1128             Skive        1082 Region Midtjylland                     74
+      1129             Skive        1082 Region Midtjylland                     74
+      1130             Skive        1082 Region Midtjylland                     74
+      1131             Skive        1082 Region Midtjylland                     74
+      1132             Skive        1082 Region Midtjylland                     74
+      1133             Skive        1082 Region Midtjylland                     74
+      1134             Skive        1082 Region Midtjylland                     74
+      1135             Skive        1082 Region Midtjylland                     74
       1136           Thisted        1081 Region Nordjylland                     87
       1137           Thisted        1081 Region Nordjylland                     87
       1138           Thisted        1081 Region Nordjylland                     87
       1139           Thisted        1081 Region Nordjylland                     87
       1140           Thisted        1081 Region Nordjylland                     87
-      1141            Viborg        1082 Region Midtjylland                     75
-      1142            Viborg        1082 Region Midtjylland                     75
-      1143            Viborg        1082 Region Midtjylland                     75
-      1144            Viborg        1082 Region Midtjylland                     75
-      1145            Viborg        1082 Region Midtjylland                     75
-      1146            Viborg        1082 Region Midtjylland                     75
-      1147            Viborg        1082 Region Midtjylland                     75
-      1148            Viborg        1082 Region Midtjylland                     75
-      1149            Viborg        1082 Region Midtjylland                     76
-      1150            Viborg        1082 Region Midtjylland                     76
-      1151            Viborg        1082 Region Midtjylland                     76
-      1152            Viborg        1082 Region Midtjylland                     76
-      1153            Viborg        1082 Region Midtjylland                     76
-      1154            Viborg        1082 Region Midtjylland                     76
-      1155            Viborg        1082 Region Midtjylland                     76
-      1156            Viborg        1082 Region Midtjylland                     76
-      1157       Brønderslev        1081 Region Nordjylland                     86
-      1158       Brønderslev        1081 Region Nordjylland                     86
-      1159       Brønderslev        1081 Region Nordjylland                     86
-      1160       Brønderslev        1081 Region Nordjylland                     86
-      1161       Brønderslev        1081 Region Nordjylland                     86
-      1162       Brønderslev        1081 Region Nordjylland                     86
-      1163       Brønderslev        1081 Region Nordjylland                     86
-      1164       Brønderslev        1081 Region Nordjylland                     86
-      1165       Brønderslev        1081 Region Nordjylland                     86
-      1166       Brønderslev        1081 Region Nordjylland                     86
+      1141           Thisted        1081 Region Nordjylland                     87
+      1142           Thisted        1081 Region Nordjylland                     87
+      1143           Thisted        1081 Region Nordjylland                     87
+      1144           Thisted        1081 Region Nordjylland                     87
+      1145           Thisted        1081 Region Nordjylland                     87
+      1146           Thisted        1081 Region Nordjylland                     87
+      1147           Thisted        1081 Region Nordjylland                     87
+      1148           Thisted        1081 Region Nordjylland                     87
+      1149           Thisted        1081 Region Nordjylland                     87
+      1150           Thisted        1081 Region Nordjylland                     87
+      1151            Viborg        1082 Region Midtjylland                     75
+      1152            Viborg        1082 Region Midtjylland                     75
+      1153            Viborg        1082 Region Midtjylland                     75
+      1154            Viborg        1082 Region Midtjylland                     75
+      1155            Viborg        1082 Region Midtjylland                     75
+      1156            Viborg        1082 Region Midtjylland                     75
+      1157            Viborg        1082 Region Midtjylland                     75
+      1158            Viborg        1082 Region Midtjylland                     75
+      1159            Viborg        1082 Region Midtjylland                     76
+      1160            Viborg        1082 Region Midtjylland                     76
+      1161            Viborg        1082 Region Midtjylland                     76
+      1162            Viborg        1082 Region Midtjylland                     76
+      1163            Viborg        1082 Region Midtjylland                     76
+      1164            Viborg        1082 Region Midtjylland                     76
+      1165            Viborg        1082 Region Midtjylland                     76
+      1166            Viborg        1082 Region Midtjylland                     76
       1167       Brønderslev        1081 Region Nordjylland                     86
       1168       Brønderslev        1081 Region Nordjylland                     86
       1169       Brønderslev        1081 Region Nordjylland                     86
-      1170     Frederikshavn        1081 Region Nordjylland                     84
-      1171     Frederikshavn        1081 Region Nordjylland                     84
-      1172     Frederikshavn        1081 Region Nordjylland                     84
-      1173     Frederikshavn        1081 Region Nordjylland                     84
-      1174     Frederikshavn        1081 Region Nordjylland                     84
-      1175     Frederikshavn        1081 Region Nordjylland                     84
-      1176     Frederikshavn        1081 Region Nordjylland                     84
-      1177     Frederikshavn        1081 Region Nordjylland                     84
-      1178     Frederikshavn        1081 Region Nordjylland                     84
-      1179     Frederikshavn        1081 Region Nordjylland                     84
+      1170       Brønderslev        1081 Region Nordjylland                     86
+      1171       Brønderslev        1081 Region Nordjylland                     86
+      1172       Brønderslev        1081 Region Nordjylland                     86
+      1173       Brønderslev        1081 Region Nordjylland                     86
+      1174       Brønderslev        1081 Region Nordjylland                     86
+      1175       Brønderslev        1081 Region Nordjylland                     86
+      1176       Brønderslev        1081 Region Nordjylland                     86
+      1177       Brønderslev        1081 Region Nordjylland                     86
+      1178       Brønderslev        1081 Region Nordjylland                     86
+      1179       Brønderslev        1081 Region Nordjylland                     86
       1180     Frederikshavn        1081 Region Nordjylland                     84
       1181     Frederikshavn        1081 Region Nordjylland                     84
       1182     Frederikshavn        1081 Region Nordjylland                     84
       1183     Frederikshavn        1081 Region Nordjylland                     84
       1184     Frederikshavn        1081 Region Nordjylland                     84
-      1185   Vesthimmerlands        1081 Region Nordjylland                     88
-      1186   Vesthimmerlands        1081 Region Nordjylland                     88
-      1187   Vesthimmerlands        1081 Region Nordjylland                     88
-      1188   Vesthimmerlands        1081 Region Nordjylland                     88
-      1189   Vesthimmerlands        1081 Region Nordjylland                     88
-      1190   Vesthimmerlands        1081 Region Nordjylland                     88
-      1191   Vesthimmerlands        1081 Region Nordjylland                     88
-      1192   Vesthimmerlands        1081 Region Nordjylland                     88
-      1193   Vesthimmerlands        1081 Region Nordjylland                     88
-      1194   Vesthimmerlands        1081 Region Nordjylland                     88
+      1185     Frederikshavn        1081 Region Nordjylland                     84
+      1186     Frederikshavn        1081 Region Nordjylland                     84
+      1187     Frederikshavn        1081 Region Nordjylland                     84
+      1188     Frederikshavn        1081 Region Nordjylland                     84
+      1189     Frederikshavn        1081 Region Nordjylland                     84
+      1190     Frederikshavn        1081 Region Nordjylland                     84
+      1191     Frederikshavn        1081 Region Nordjylland                     84
+      1192     Frederikshavn        1081 Region Nordjylland                     84
+      1193     Frederikshavn        1081 Region Nordjylland                     84
+      1194     Frederikshavn        1081 Region Nordjylland                     84
       1195   Vesthimmerlands        1081 Region Nordjylland                     88
       1196   Vesthimmerlands        1081 Region Nordjylland                     88
       1197   Vesthimmerlands        1081 Region Nordjylland                     88
       1198   Vesthimmerlands        1081 Region Nordjylland                     88
-      1199              Læsø        1081 Region Nordjylland                     84
-      1200            Rebild        1081 Region Nordjylland                     88
-      1201            Rebild        1081 Region Nordjylland                     88
-      1202            Rebild        1081 Region Nordjylland                     88
-      1203            Rebild        1081 Region Nordjylland                     88
-      1204            Rebild        1081 Region Nordjylland                     88
-      1205            Rebild        1081 Region Nordjylland                     88
-      1206            Rebild        1081 Region Nordjylland                     88
-      1207            Rebild        1081 Region Nordjylland                     88
-      1208            Rebild        1081 Region Nordjylland                     88
-      1209            Rebild        1081 Region Nordjylland                     88
+      1199   Vesthimmerlands        1081 Region Nordjylland                     88
+      1200   Vesthimmerlands        1081 Region Nordjylland                     88
+      1201   Vesthimmerlands        1081 Region Nordjylland                     88
+      1202   Vesthimmerlands        1081 Region Nordjylland                     88
+      1203   Vesthimmerlands        1081 Region Nordjylland                     88
+      1204   Vesthimmerlands        1081 Region Nordjylland                     88
+      1205   Vesthimmerlands        1081 Region Nordjylland                     88
+      1206   Vesthimmerlands        1081 Region Nordjylland                     88
+      1207   Vesthimmerlands        1081 Region Nordjylland                     88
+      1208   Vesthimmerlands        1081 Region Nordjylland                     88
+      1209              Læsø        1081 Region Nordjylland                     84
       1210            Rebild        1081 Region Nordjylland                     88
-      1211     Mariagerfjord        1081 Region Nordjylland                     89
-      1212     Mariagerfjord        1081 Region Nordjylland                     89
-      1213     Mariagerfjord        1081 Region Nordjylland                     89
-      1214     Mariagerfjord        1081 Region Nordjylland                     89
-      1215     Mariagerfjord        1081 Region Nordjylland                     89
-      1216     Mariagerfjord        1081 Region Nordjylland                     89
-      1217     Mariagerfjord        1081 Region Nordjylland                     89
-      1218     Mariagerfjord        1081 Region Nordjylland                     89
-      1219     Mariagerfjord        1081 Region Nordjylland                     89
-      1220     Mariagerfjord        1081 Region Nordjylland                     89
+      1211            Rebild        1081 Region Nordjylland                     88
+      1212            Rebild        1081 Region Nordjylland                     88
+      1213            Rebild        1081 Region Nordjylland                     88
+      1214            Rebild        1081 Region Nordjylland                     88
+      1215            Rebild        1081 Region Nordjylland                     88
+      1216            Rebild        1081 Region Nordjylland                     88
+      1217            Rebild        1081 Region Nordjylland                     88
+      1218            Rebild        1081 Region Nordjylland                     88
+      1219            Rebild        1081 Region Nordjylland                     88
+      1220            Rebild        1081 Region Nordjylland                     88
       1221     Mariagerfjord        1081 Region Nordjylland                     89
-      1222        Jammerbugt        1081 Region Nordjylland                     86
-      1223        Jammerbugt        1081 Region Nordjylland                     86
-      1224        Jammerbugt        1081 Region Nordjylland                     86
-      1225        Jammerbugt        1081 Region Nordjylland                     86
-      1226        Jammerbugt        1081 Region Nordjylland                     86
-      1227        Jammerbugt        1081 Region Nordjylland                     86
-      1228        Jammerbugt        1081 Region Nordjylland                     86
-      1229        Jammerbugt        1081 Region Nordjylland                     86
-      1230        Jammerbugt        1081 Region Nordjylland                     86
-      1231        Jammerbugt        1081 Region Nordjylland                     86
+      1222     Mariagerfjord        1081 Region Nordjylland                     89
+      1223     Mariagerfjord        1081 Region Nordjylland                     89
+      1224     Mariagerfjord        1081 Region Nordjylland                     89
+      1225     Mariagerfjord        1081 Region Nordjylland                     89
+      1226     Mariagerfjord        1081 Region Nordjylland                     89
+      1227     Mariagerfjord        1081 Region Nordjylland                     89
+      1228     Mariagerfjord        1081 Region Nordjylland                     89
+      1229     Mariagerfjord        1081 Region Nordjylland                     89
+      1230     Mariagerfjord        1081 Region Nordjylland                     89
+      1231     Mariagerfjord        1081 Region Nordjylland                     89
       1232        Jammerbugt        1081 Region Nordjylland                     86
       1233        Jammerbugt        1081 Region Nordjylland                     86
       1234        Jammerbugt        1081 Region Nordjylland                     86
@@ -7739,53 +7789,53 @@
       1238        Jammerbugt        1081 Region Nordjylland                     86
       1239        Jammerbugt        1081 Region Nordjylland                     86
       1240        Jammerbugt        1081 Region Nordjylland                     86
-      1241           Aalborg        1081 Region Nordjylland                     92
-      1242           Aalborg        1081 Region Nordjylland                     92
-      1243           Aalborg        1081 Region Nordjylland                     92
-      1244           Aalborg        1081 Region Nordjylland                     92
-      1245           Aalborg        1081 Region Nordjylland                     92
-      1246           Aalborg        1081 Region Nordjylland                     92
-      1247           Aalborg        1081 Region Nordjylland                     92
-      1248           Aalborg        1081 Region Nordjylland                     92
-      1249           Aalborg        1081 Region Nordjylland                     91
-      1250           Aalborg        1081 Region Nordjylland                     91
+      1241        Jammerbugt        1081 Region Nordjylland                     86
+      1242        Jammerbugt        1081 Region Nordjylland                     86
+      1243        Jammerbugt        1081 Region Nordjylland                     86
+      1244        Jammerbugt        1081 Region Nordjylland                     86
+      1245        Jammerbugt        1081 Region Nordjylland                     86
+      1246        Jammerbugt        1081 Region Nordjylland                     86
+      1247        Jammerbugt        1081 Region Nordjylland                     86
+      1248        Jammerbugt        1081 Region Nordjylland                     86
+      1249        Jammerbugt        1081 Region Nordjylland                     86
+      1250        Jammerbugt        1081 Region Nordjylland                     86
       1251           Aalborg        1081 Region Nordjylland                     92
-      1252           Aalborg        1081 Region Nordjylland                     91
-      1253           Aalborg        1081 Region Nordjylland                     91
-      1254           Aalborg        1081 Region Nordjylland                     91
-      1255           Aalborg        1081 Region Nordjylland                     91
-      1256           Aalborg        1081 Region Nordjylland                     91
-      1257           Aalborg        1081 Region Nordjylland                     91
-      1258           Aalborg        1081 Region Nordjylland                     90
-      1259           Aalborg        1081 Region Nordjylland                     90
-      1260           Aalborg        1081 Region Nordjylland                     90
-      1261           Aalborg        1081 Region Nordjylland                     90
-      1262           Aalborg        1081 Region Nordjylland                     90
-      1263           Aalborg        1081 Region Nordjylland                     90
-      1264           Aalborg        1081 Region Nordjylland                     90
-      1265           Aalborg        1081 Region Nordjylland                     90
-      1266           Aalborg        1081 Region Nordjylland                     90
-      1267           Aalborg        1081 Region Nordjylland                     90
-      1268           Aalborg        1081 Region Nordjylland                     91
+      1252           Aalborg        1081 Region Nordjylland                     92
+      1253           Aalborg        1081 Region Nordjylland                     92
+      1254           Aalborg        1081 Region Nordjylland                     92
+      1255           Aalborg        1081 Region Nordjylland                     92
+      1256           Aalborg        1081 Region Nordjylland                     92
+      1257           Aalborg        1081 Region Nordjylland                     92
+      1258           Aalborg        1081 Region Nordjylland                     92
+      1259           Aalborg        1081 Region Nordjylland                     91
+      1260           Aalborg        1081 Region Nordjylland                     91
+      1261           Aalborg        1081 Region Nordjylland                     92
+      1262           Aalborg        1081 Region Nordjylland                     91
+      1263           Aalborg        1081 Region Nordjylland                     91
+      1264           Aalborg        1081 Region Nordjylland                     91
+      1265           Aalborg        1081 Region Nordjylland                     91
+      1266           Aalborg        1081 Region Nordjylland                     91
+      1267           Aalborg        1081 Region Nordjylland                     91
+      1268           Aalborg        1081 Region Nordjylland                     90
       1269           Aalborg        1081 Region Nordjylland                     90
-      1270           Aalborg        1081 Region Nordjylland                     92
-      1271           Aalborg        1081 Region Nordjylland                     92
-      1272           Aalborg        1081 Region Nordjylland                     92
-      1273           Aalborg        1081 Region Nordjylland                     91
-      1274           Aalborg        1081 Region Nordjylland                     91
+      1270           Aalborg        1081 Region Nordjylland                     90
+      1271           Aalborg        1081 Region Nordjylland                     90
+      1272           Aalborg        1081 Region Nordjylland                     90
+      1273           Aalborg        1081 Region Nordjylland                     90
+      1274           Aalborg        1081 Region Nordjylland                     90
       1275           Aalborg        1081 Region Nordjylland                     90
       1276           Aalborg        1081 Region Nordjylland                     90
       1277           Aalborg        1081 Region Nordjylland                     90
-      1278          Hjørring        1081 Region Nordjylland                     85
-      1279          Hjørring        1081 Region Nordjylland                     85
-      1280          Hjørring        1081 Region Nordjylland                     85
-      1281          Hjørring        1081 Region Nordjylland                     85
-      1282          Hjørring        1081 Region Nordjylland                     85
-      1283          Hjørring        1081 Region Nordjylland                     85
-      1284          Hjørring        1081 Region Nordjylland                     85
-      1285          Hjørring        1081 Region Nordjylland                     85
-      1286          Hjørring        1081 Region Nordjylland                     85
-      1287          Hjørring        1081 Region Nordjylland                     85
+      1278           Aalborg        1081 Region Nordjylland                     91
+      1279           Aalborg        1081 Region Nordjylland                     90
+      1280           Aalborg        1081 Region Nordjylland                     92
+      1281           Aalborg        1081 Region Nordjylland                     92
+      1282           Aalborg        1081 Region Nordjylland                     92
+      1283           Aalborg        1081 Region Nordjylland                     91
+      1284           Aalborg        1081 Region Nordjylland                     91
+      1285           Aalborg        1081 Region Nordjylland                     90
+      1286           Aalborg        1081 Region Nordjylland                     90
+      1287           Aalborg        1081 Region Nordjylland                     90
       1288          Hjørring        1081 Region Nordjylland                     85
       1289          Hjørring        1081 Region Nordjylland                     85
       1290          Hjørring        1081 Region Nordjylland                     85
@@ -7797,6 +7847,16 @@
       1296          Hjørring        1081 Region Nordjylland                     85
       1297          Hjørring        1081 Region Nordjylland                     85
       1298          Hjørring        1081 Region Nordjylland                     85
+      1299          Hjørring        1081 Region Nordjylland                     85
+      1300          Hjørring        1081 Region Nordjylland                     85
+      1301          Hjørring        1081 Region Nordjylland                     85
+      1302          Hjørring        1081 Region Nordjylland                     85
+      1303          Hjørring        1081 Region Nordjylland                     85
+      1304          Hjørring        1081 Region Nordjylland                     85
+      1305          Hjørring        1081 Region Nordjylland                     85
+      1306          Hjørring        1081 Region Nordjylland                     85
+      1307          Hjørring        1081 Region Nordjylland                     85
+      1308          Hjørring        1081 Region Nordjylland                     85
            opstillingskredsnavn storkredsnummer    storkredsnavn valglandsdelsbogstav
       1                Østerbro               1        København                    A
       2                Østerbro               1        København                    A
@@ -8787,7 +8847,7 @@
       987        Silkeborg Nord               9      Vestjylland                    C
       988        Silkeborg Nord               9      Vestjylland                    C
       989        Silkeborg Nord               9      Vestjylland                    C
-      990        Silkeborg Nord               9      Vestjylland                    C
+      990         Silkeborg Syd               9      Vestjylland                    C
       991         Silkeborg Syd               9      Vestjylland                    C
       992         Silkeborg Syd               9      Vestjylland                    C
       993         Silkeborg Syd               9      Vestjylland                    C
@@ -8798,8 +8858,8 @@
       998         Silkeborg Syd               9      Vestjylland                    C
       999         Silkeborg Syd               9      Vestjylland                    C
       1000        Silkeborg Syd               9      Vestjylland                    C
-      1001        Silkeborg Syd               9      Vestjylland                    C
-      1002        Silkeborg Syd               9      Vestjylland                    C
+      1001          Skanderborg               8       Østjylland                    C
+      1002          Skanderborg               8       Østjylland                    C
       1003          Skanderborg               8       Østjylland                    C
       1004          Skanderborg               8       Østjylland                    C
       1005          Skanderborg               8       Østjylland                    C
@@ -8812,57 +8872,57 @@
       1012          Skanderborg               8       Østjylland                    C
       1013          Skanderborg               8       Østjylland                    C
       1014          Skanderborg               8       Østjylland                    C
-      1015          Skanderborg               8       Østjylland                    C
-      1016          Skanderborg               8       Østjylland                    C
+      1015           Aarhus Syd               8       Østjylland                    C
+      1016           Aarhus Syd               8       Østjylland                    C
       1017           Aarhus Syd               8       Østjylland                    C
       1018           Aarhus Syd               8       Østjylland                    C
       1019           Aarhus Syd               8       Østjylland                    C
-      1020           Aarhus Syd               8       Østjylland                    C
-      1021           Aarhus Syd               8       Østjylland                    C
-      1022          Aarhus Vest               8       Østjylland                    C
-      1023          Aarhus Vest               8       Østjylland                    C
+      1020          Aarhus Vest               8       Østjylland                    C
+      1021          Aarhus Vest               8       Østjylland                    C
+      1022           Aarhus Syd               8       Østjylland                    C
+      1023           Aarhus Øst               8       Østjylland                    C
       1024           Aarhus Syd               8       Østjylland                    C
-      1025           Aarhus Øst               8       Østjylland                    C
+      1025           Aarhus Syd               8       Østjylland                    C
       1026           Aarhus Syd               8       Østjylland                    C
-      1027           Aarhus Syd               8       Østjylland                    C
-      1028           Aarhus Syd               8       Østjylland                    C
-      1029           Aarhus Øst               8       Østjylland                    C
+      1027           Aarhus Øst               8       Østjylland                    C
+      1028          Aarhus Vest               8       Østjylland                    C
+      1029          Aarhus Vest               8       Østjylland                    C
       1030          Aarhus Vest               8       Østjylland                    C
-      1031          Aarhus Vest               8       Østjylland                    C
-      1032          Aarhus Vest               8       Østjylland                    C
-      1033           Aarhus Øst               8       Østjylland                    C
-      1034           Aarhus Øst               8       Østjylland                    C
-      1035          Aarhus Nord               8       Østjylland                    C
-      1036          Aarhus Nord               8       Østjylland                    C
+      1031           Aarhus Øst               8       Østjylland                    C
+      1032           Aarhus Øst               8       Østjylland                    C
+      1033          Aarhus Nord               8       Østjylland                    C
+      1034          Aarhus Nord               8       Østjylland                    C
+      1035          Aarhus Vest               8       Østjylland                    C
+      1036          Aarhus Vest               8       Østjylland                    C
       1037          Aarhus Vest               8       Østjylland                    C
-      1038          Aarhus Vest               8       Østjylland                    C
+      1038          Aarhus Nord               8       Østjylland                    C
       1039          Aarhus Vest               8       Østjylland                    C
-      1040          Aarhus Nord               8       Østjylland                    C
+      1040          Aarhus Vest               8       Østjylland                    C
       1041          Aarhus Vest               8       Østjylland                    C
       1042          Aarhus Vest               8       Østjylland                    C
-      1043          Aarhus Vest               8       Østjylland                    C
-      1044          Aarhus Vest               8       Østjylland                    C
-      1045           Aarhus Øst               8       Østjylland                    C
+      1043           Aarhus Øst               8       Østjylland                    C
+      1044          Aarhus Nord               8       Østjylland                    C
+      1045          Aarhus Nord               8       Østjylland                    C
       1046          Aarhus Nord               8       Østjylland                    C
-      1047          Aarhus Nord               8       Østjylland                    C
+      1047           Aarhus Øst               8       Østjylland                    C
       1048          Aarhus Nord               8       Østjylland                    C
       1049           Aarhus Øst               8       Østjylland                    C
-      1050          Aarhus Nord               8       Østjylland                    C
+      1050           Aarhus Øst               8       Østjylland                    C
       1051           Aarhus Øst               8       Østjylland                    C
       1052           Aarhus Øst               8       Østjylland                    C
-      1053           Aarhus Øst               8       Østjylland                    C
-      1054           Aarhus Øst               8       Østjylland                    C
+      1053          Aarhus Nord               8       Østjylland                    C
+      1054          Aarhus Nord               8       Østjylland                    C
       1055          Aarhus Nord               8       Østjylland                    C
-      1056          Aarhus Nord               8       Østjylland                    C
-      1057          Aarhus Nord               8       Østjylland                    C
-      1058           Aarhus Øst               8       Østjylland                    C
+      1056           Aarhus Øst               8       Østjylland                    C
+      1057          Aarhus Vest               8       Østjylland                    C
+      1058          Aarhus Nord               8       Østjylland                    C
       1059          Aarhus Vest               8       Østjylland                    C
-      1060          Aarhus Nord               8       Østjylland                    C
-      1061          Aarhus Vest               8       Østjylland                    C
-      1062           Aarhus Øst               8       Østjylland                    C
-      1063           Aarhus Syd               8       Østjylland                    C
-      1064          Aarhus Nord               8       Østjylland                    C
-      1065          Aarhus Nord               8       Østjylland                    C
+      1060           Aarhus Øst               8       Østjylland                    C
+      1061           Aarhus Syd               8       Østjylland                    C
+      1062          Aarhus Nord               8       Østjylland                    C
+      1063          Aarhus Nord               8       Østjylland                    C
+      1064                Ikast               9      Vestjylland                    C
+      1065                Ikast               9      Vestjylland                    C
       1066                Ikast               9      Vestjylland                    C
       1067                Ikast               9      Vestjylland                    C
       1068                Ikast               9      Vestjylland                    C
@@ -8871,8 +8931,8 @@
       1071                Ikast               9      Vestjylland                    C
       1072                Ikast               9      Vestjylland                    C
       1073                Ikast               9      Vestjylland                    C
-      1074                Ikast               9      Vestjylland                    C
-      1075                Ikast               9      Vestjylland                    C
+      1074           Ringkøbing               9      Vestjylland                    C
+      1075           Ringkøbing               9      Vestjylland                    C
       1076           Ringkøbing               9      Vestjylland                    C
       1077           Ringkøbing               9      Vestjylland                    C
       1078           Ringkøbing               9      Vestjylland                    C
@@ -8889,8 +8949,8 @@
       1089           Ringkøbing               9      Vestjylland                    C
       1090           Ringkøbing               9      Vestjylland                    C
       1091           Ringkøbing               9      Vestjylland                    C
-      1092           Ringkøbing               9      Vestjylland                    C
-      1093           Ringkøbing               9      Vestjylland                    C
+      1092            Hedensted               8       Østjylland                    C
+      1093            Hedensted               8       Østjylland                    C
       1094            Hedensted               8       Østjylland                    C
       1095            Hedensted               8       Østjylland                    C
       1096            Hedensted               8       Østjylland                    C
@@ -8908,13 +8968,13 @@
       1108            Hedensted               8       Østjylland                    C
       1109            Hedensted               8       Østjylland                    C
       1110            Hedensted               8       Østjylland                    C
-      1111            Hedensted               8       Østjylland                    C
-      1112            Hedensted               8       Østjylland                    C
+      1111              Thisted              10      Nordjylland                    C
+      1112              Thisted              10      Nordjylland                    C
       1113              Thisted              10      Nordjylland                    C
       1114              Thisted              10      Nordjylland                    C
       1115              Thisted              10      Nordjylland                    C
-      1116              Thisted              10      Nordjylland                    C
-      1117              Thisted              10      Nordjylland                    C
+      1116                Skive               9      Vestjylland                    C
+      1117                Skive               9      Vestjylland                    C
       1118                Skive               9      Vestjylland                    C
       1119                Skive               9      Vestjylland                    C
       1120                Skive               9      Vestjylland                    C
@@ -8923,80 +8983,80 @@
       1123                Skive               9      Vestjylland                    C
       1124                Skive               9      Vestjylland                    C
       1125                Skive               9      Vestjylland                    C
-      1126              Thisted              10      Nordjylland                    C
-      1127              Thisted              10      Nordjylland                    C
-      1128              Thisted              10      Nordjylland                    C
-      1129              Thisted              10      Nordjylland                    C
-      1130              Thisted              10      Nordjylland                    C
-      1131              Thisted              10      Nordjylland                    C
-      1132              Thisted              10      Nordjylland                    C
-      1133              Thisted              10      Nordjylland                    C
-      1134              Thisted              10      Nordjylland                    C
-      1135              Thisted              10      Nordjylland                    C
+      1126                Skive               9      Vestjylland                    C
+      1127                Skive               9      Vestjylland                    C
+      1128                Skive               9      Vestjylland                    C
+      1129                Skive               9      Vestjylland                    C
+      1130                Skive               9      Vestjylland                    C
+      1131                Skive               9      Vestjylland                    C
+      1132                Skive               9      Vestjylland                    C
+      1133                Skive               9      Vestjylland                    C
+      1134                Skive               9      Vestjylland                    C
+      1135                Skive               9      Vestjylland                    C
       1136              Thisted              10      Nordjylland                    C
       1137              Thisted              10      Nordjylland                    C
       1138              Thisted              10      Nordjylland                    C
       1139              Thisted              10      Nordjylland                    C
       1140              Thisted              10      Nordjylland                    C
-      1141          Viborg Vest               9      Vestjylland                    C
-      1142          Viborg Vest               9      Vestjylland                    C
-      1143          Viborg Vest               9      Vestjylland                    C
-      1144          Viborg Vest               9      Vestjylland                    C
-      1145          Viborg Vest               9      Vestjylland                    C
-      1146          Viborg Vest               9      Vestjylland                    C
-      1147          Viborg Vest               9      Vestjylland                    C
-      1148          Viborg Vest               9      Vestjylland                    C
-      1149           Viborg Øst               9      Vestjylland                    C
-      1150           Viborg Øst               9      Vestjylland                    C
-      1151           Viborg Øst               9      Vestjylland                    C
-      1152           Viborg Øst               9      Vestjylland                    C
-      1153           Viborg Øst               9      Vestjylland                    C
-      1154           Viborg Øst               9      Vestjylland                    C
-      1155           Viborg Øst               9      Vestjylland                    C
-      1156           Viborg Øst               9      Vestjylland                    C
-      1157          Brønderslev              10      Nordjylland                    C
-      1158          Brønderslev              10      Nordjylland                    C
-      1159          Brønderslev              10      Nordjylland                    C
-      1160          Brønderslev              10      Nordjylland                    C
-      1161          Brønderslev              10      Nordjylland                    C
-      1162          Brønderslev              10      Nordjylland                    C
-      1163          Brønderslev              10      Nordjylland                    C
-      1164          Brønderslev              10      Nordjylland                    C
-      1165          Brønderslev              10      Nordjylland                    C
-      1166          Brønderslev              10      Nordjylland                    C
+      1141              Thisted              10      Nordjylland                    C
+      1142              Thisted              10      Nordjylland                    C
+      1143              Thisted              10      Nordjylland                    C
+      1144              Thisted              10      Nordjylland                    C
+      1145              Thisted              10      Nordjylland                    C
+      1146              Thisted              10      Nordjylland                    C
+      1147              Thisted              10      Nordjylland                    C
+      1148              Thisted              10      Nordjylland                    C
+      1149              Thisted              10      Nordjylland                    C
+      1150              Thisted              10      Nordjylland                    C
+      1151          Viborg Vest               9      Vestjylland                    C
+      1152          Viborg Vest               9      Vestjylland                    C
+      1153          Viborg Vest               9      Vestjylland                    C
+      1154          Viborg Vest               9      Vestjylland                    C
+      1155          Viborg Vest               9      Vestjylland                    C
+      1156          Viborg Vest               9      Vestjylland                    C
+      1157          Viborg Vest               9      Vestjylland                    C
+      1158          Viborg Vest               9      Vestjylland                    C
+      1159           Viborg Øst               9      Vestjylland                    C
+      1160           Viborg Øst               9      Vestjylland                    C
+      1161           Viborg Øst               9      Vestjylland                    C
+      1162           Viborg Øst               9      Vestjylland                    C
+      1163           Viborg Øst               9      Vestjylland                    C
+      1164           Viborg Øst               9      Vestjylland                    C
+      1165           Viborg Øst               9      Vestjylland                    C
+      1166           Viborg Øst               9      Vestjylland                    C
       1167          Brønderslev              10      Nordjylland                    C
       1168          Brønderslev              10      Nordjylland                    C
       1169          Brønderslev              10      Nordjylland                    C
-      1170        Frederikshavn              10      Nordjylland                    C
-      1171        Frederikshavn              10      Nordjylland                    C
-      1172        Frederikshavn              10      Nordjylland                    C
-      1173        Frederikshavn              10      Nordjylland                    C
-      1174        Frederikshavn              10      Nordjylland                    C
-      1175        Frederikshavn              10      Nordjylland                    C
-      1176        Frederikshavn              10      Nordjylland                    C
-      1177        Frederikshavn              10      Nordjylland                    C
-      1178        Frederikshavn              10      Nordjylland                    C
-      1179        Frederikshavn              10      Nordjylland                    C
+      1170          Brønderslev              10      Nordjylland                    C
+      1171          Brønderslev              10      Nordjylland                    C
+      1172          Brønderslev              10      Nordjylland                    C
+      1173          Brønderslev              10      Nordjylland                    C
+      1174          Brønderslev              10      Nordjylland                    C
+      1175          Brønderslev              10      Nordjylland                    C
+      1176          Brønderslev              10      Nordjylland                    C
+      1177          Brønderslev              10      Nordjylland                    C
+      1178          Brønderslev              10      Nordjylland                    C
+      1179          Brønderslev              10      Nordjylland                    C
       1180        Frederikshavn              10      Nordjylland                    C
       1181        Frederikshavn              10      Nordjylland                    C
       1182        Frederikshavn              10      Nordjylland                    C
       1183        Frederikshavn              10      Nordjylland                    C
       1184        Frederikshavn              10      Nordjylland                    C
-      1185           Himmerland              10      Nordjylland                    C
-      1186           Himmerland              10      Nordjylland                    C
-      1187           Himmerland              10      Nordjylland                    C
-      1188           Himmerland              10      Nordjylland                    C
-      1189           Himmerland              10      Nordjylland                    C
-      1190           Himmerland              10      Nordjylland                    C
-      1191           Himmerland              10      Nordjylland                    C
-      1192           Himmerland              10      Nordjylland                    C
-      1193           Himmerland              10      Nordjylland                    C
-      1194           Himmerland              10      Nordjylland                    C
+      1185        Frederikshavn              10      Nordjylland                    C
+      1186        Frederikshavn              10      Nordjylland                    C
+      1187        Frederikshavn              10      Nordjylland                    C
+      1188        Frederikshavn              10      Nordjylland                    C
+      1189        Frederikshavn              10      Nordjylland                    C
+      1190        Frederikshavn              10      Nordjylland                    C
+      1191        Frederikshavn              10      Nordjylland                    C
+      1192        Frederikshavn              10      Nordjylland                    C
+      1193        Frederikshavn              10      Nordjylland                    C
+      1194        Frederikshavn              10      Nordjylland                    C
       1195           Himmerland              10      Nordjylland                    C
       1196           Himmerland              10      Nordjylland                    C
       1197           Himmerland              10      Nordjylland                    C
       1198           Himmerland              10      Nordjylland                    C
-      1199        Frederikshavn              10      Nordjylland                    C
+      1199           Himmerland              10      Nordjylland                    C
       1200           Himmerland              10      Nordjylland                    C
       1201           Himmerland              10      Nordjylland                    C
       1202           Himmerland              10      Nordjylland                    C
@@ -9006,29 +9066,29 @@
       1206           Himmerland              10      Nordjylland                    C
       1207           Himmerland              10      Nordjylland                    C
       1208           Himmerland              10      Nordjylland                    C
-      1209           Himmerland              10      Nordjylland                    C
+      1209        Frederikshavn              10      Nordjylland                    C
       1210           Himmerland              10      Nordjylland                    C
-      1211        Mariagerfjord              10      Nordjylland                    C
-      1212        Mariagerfjord              10      Nordjylland                    C
-      1213        Mariagerfjord              10      Nordjylland                    C
-      1214        Mariagerfjord              10      Nordjylland                    C
-      1215        Mariagerfjord              10      Nordjylland                    C
-      1216        Mariagerfjord              10      Nordjylland                    C
-      1217        Mariagerfjord              10      Nordjylland                    C
-      1218        Mariagerfjord              10      Nordjylland                    C
-      1219        Mariagerfjord              10      Nordjylland                    C
-      1220        Mariagerfjord              10      Nordjylland                    C
+      1211           Himmerland              10      Nordjylland                    C
+      1212           Himmerland              10      Nordjylland                    C
+      1213           Himmerland              10      Nordjylland                    C
+      1214           Himmerland              10      Nordjylland                    C
+      1215           Himmerland              10      Nordjylland                    C
+      1216           Himmerland              10      Nordjylland                    C
+      1217           Himmerland              10      Nordjylland                    C
+      1218           Himmerland              10      Nordjylland                    C
+      1219           Himmerland              10      Nordjylland                    C
+      1220           Himmerland              10      Nordjylland                    C
       1221        Mariagerfjord              10      Nordjylland                    C
-      1222          Brønderslev              10      Nordjylland                    C
-      1223          Brønderslev              10      Nordjylland                    C
-      1224          Brønderslev              10      Nordjylland                    C
-      1225          Brønderslev              10      Nordjylland                    C
-      1226          Brønderslev              10      Nordjylland                    C
-      1227          Brønderslev              10      Nordjylland                    C
-      1228          Brønderslev              10      Nordjylland                    C
-      1229          Brønderslev              10      Nordjylland                    C
-      1230          Brønderslev              10      Nordjylland                    C
-      1231          Brønderslev              10      Nordjylland                    C
+      1222        Mariagerfjord              10      Nordjylland                    C
+      1223        Mariagerfjord              10      Nordjylland                    C
+      1224        Mariagerfjord              10      Nordjylland                    C
+      1225        Mariagerfjord              10      Nordjylland                    C
+      1226        Mariagerfjord              10      Nordjylland                    C
+      1227        Mariagerfjord              10      Nordjylland                    C
+      1228        Mariagerfjord              10      Nordjylland                    C
+      1229        Mariagerfjord              10      Nordjylland                    C
+      1230        Mariagerfjord              10      Nordjylland                    C
+      1231        Mariagerfjord              10      Nordjylland                    C
       1232          Brønderslev              10      Nordjylland                    C
       1233          Brønderslev              10      Nordjylland                    C
       1234          Brønderslev              10      Nordjylland                    C
@@ -9038,53 +9098,53 @@
       1238          Brønderslev              10      Nordjylland                    C
       1239          Brønderslev              10      Nordjylland                    C
       1240          Brønderslev              10      Nordjylland                    C
-      1241         Aalborg Nord              10      Nordjylland                    C
-      1242         Aalborg Nord              10      Nordjylland                    C
-      1243         Aalborg Nord              10      Nordjylland                    C
-      1244         Aalborg Nord              10      Nordjylland                    C
-      1245         Aalborg Nord              10      Nordjylland                    C
-      1246         Aalborg Nord              10      Nordjylland                    C
-      1247         Aalborg Nord              10      Nordjylland                    C
-      1248         Aalborg Nord              10      Nordjylland                    C
-      1249         Aalborg Vest              10      Nordjylland                    C
-      1250         Aalborg Vest              10      Nordjylland                    C
+      1241          Brønderslev              10      Nordjylland                    C
+      1242          Brønderslev              10      Nordjylland                    C
+      1243          Brønderslev              10      Nordjylland                    C
+      1244          Brønderslev              10      Nordjylland                    C
+      1245          Brønderslev              10      Nordjylland                    C
+      1246          Brønderslev              10      Nordjylland                    C
+      1247          Brønderslev              10      Nordjylland                    C
+      1248          Brønderslev              10      Nordjylland                    C
+      1249          Brønderslev              10      Nordjylland                    C
+      1250          Brønderslev              10      Nordjylland                    C
       1251         Aalborg Nord              10      Nordjylland                    C
-      1252         Aalborg Vest              10      Nordjylland                    C
-      1253         Aalborg Vest              10      Nordjylland                    C
-      1254         Aalborg Vest              10      Nordjylland                    C
-      1255         Aalborg Vest              10      Nordjylland                    C
-      1256         Aalborg Vest              10      Nordjylland                    C
-      1257         Aalborg Vest              10      Nordjylland                    C
-      1258          Aalborg Øst              10      Nordjylland                    C
-      1259          Aalborg Øst              10      Nordjylland                    C
-      1260          Aalborg Øst              10      Nordjylland                    C
-      1261          Aalborg Øst              10      Nordjylland                    C
-      1262          Aalborg Øst              10      Nordjylland                    C
-      1263          Aalborg Øst              10      Nordjylland                    C
-      1264          Aalborg Øst              10      Nordjylland                    C
-      1265          Aalborg Øst              10      Nordjylland                    C
-      1266          Aalborg Øst              10      Nordjylland                    C
-      1267          Aalborg Øst              10      Nordjylland                    C
-      1268         Aalborg Vest              10      Nordjylland                    C
+      1252         Aalborg Nord              10      Nordjylland                    C
+      1253         Aalborg Nord              10      Nordjylland                    C
+      1254         Aalborg Nord              10      Nordjylland                    C
+      1255         Aalborg Nord              10      Nordjylland                    C
+      1256         Aalborg Nord              10      Nordjylland                    C
+      1257         Aalborg Nord              10      Nordjylland                    C
+      1258         Aalborg Nord              10      Nordjylland                    C
+      1259         Aalborg Vest              10      Nordjylland                    C
+      1260         Aalborg Vest              10      Nordjylland                    C
+      1261         Aalborg Nord              10      Nordjylland                    C
+      1262         Aalborg Vest              10      Nordjylland                    C
+      1263         Aalborg Vest              10      Nordjylland                    C
+      1264         Aalborg Vest              10      Nordjylland                    C
+      1265         Aalborg Vest              10      Nordjylland                    C
+      1266         Aalborg Vest              10      Nordjylland                    C
+      1267         Aalborg Vest              10      Nordjylland                    C
+      1268          Aalborg Øst              10      Nordjylland                    C
       1269          Aalborg Øst              10      Nordjylland                    C
-      1270         Aalborg Nord              10      Nordjylland                    C
-      1271         Aalborg Nord              10      Nordjylland                    C
-      1272         Aalborg Nord              10      Nordjylland                    C
-      1273         Aalborg Vest              10      Nordjylland                    C
-      1274         Aalborg Vest              10      Nordjylland                    C
+      1270          Aalborg Øst              10      Nordjylland                    C
+      1271          Aalborg Øst              10      Nordjylland                    C
+      1272          Aalborg Øst              10      Nordjylland                    C
+      1273          Aalborg Øst              10      Nordjylland                    C
+      1274          Aalborg Øst              10      Nordjylland                    C
       1275          Aalborg Øst              10      Nordjylland                    C
       1276          Aalborg Øst              10      Nordjylland                    C
       1277          Aalborg Øst              10      Nordjylland                    C
-      1278             Hjørring              10      Nordjylland                    C
-      1279             Hjørring              10      Nordjylland                    C
-      1280             Hjørring              10      Nordjylland                    C
-      1281             Hjørring              10      Nordjylland                    C
-      1282             Hjørring              10      Nordjylland                    C
-      1283             Hjørring              10      Nordjylland                    C
-      1284             Hjørring              10      Nordjylland                    C
-      1285             Hjørring              10      Nordjylland                    C
-      1286             Hjørring              10      Nordjylland                    C
-      1287             Hjørring              10      Nordjylland                    C
+      1278         Aalborg Vest              10      Nordjylland                    C
+      1279          Aalborg Øst              10      Nordjylland                    C
+      1280         Aalborg Nord              10      Nordjylland                    C
+      1281         Aalborg Nord              10      Nordjylland                    C
+      1282         Aalborg Nord              10      Nordjylland                    C
+      1283         Aalborg Vest              10      Nordjylland                    C
+      1284         Aalborg Vest              10      Nordjylland                    C
+      1285          Aalborg Øst              10      Nordjylland                    C
+      1286          Aalborg Øst              10      Nordjylland                    C
+      1287          Aalborg Øst              10      Nordjylland                    C
       1288             Hjørring              10      Nordjylland                    C
       1289             Hjørring              10      Nordjylland                    C
       1290             Hjørring              10      Nordjylland                    C
@@ -9096,6 +9156,16 @@
       1296             Hjørring              10      Nordjylland                    C
       1297             Hjørring              10      Nordjylland                    C
       1298             Hjørring              10      Nordjylland                    C
+      1299             Hjørring              10      Nordjylland                    C
+      1300             Hjørring              10      Nordjylland                    C
+      1301             Hjørring              10      Nordjylland                    C
+      1302             Hjørring              10      Nordjylland                    C
+      1303             Hjørring              10      Nordjylland                    C
+      1304             Hjørring              10      Nordjylland                    C
+      1305             Hjørring              10      Nordjylland                    C
+      1306             Hjørring              10      Nordjylland                    C
+      1307             Hjørring              10      Nordjylland                    C
+      1308             Hjørring              10      Nordjylland                    C
                  valglandsdelsnavn                   ændret               geo_ændret
       1                Hovedstaden 2024-04-24T21:01:20.921Z 2024-04-24T21:01:20.921Z
       2                Hovedstaden 2024-04-24T21:01:20.921Z 2024-04-24T21:01:20.921Z
@@ -9308,15 +9378,15 @@
       209              Hovedstaden 2024-04-03T21:01:29.714Z 2024-04-03T21:01:29.714Z
       210              Hovedstaden 2024-04-03T21:01:29.714Z 2024-04-03T21:01:29.714Z
       211              Hovedstaden 2024-04-03T21:01:29.714Z 2024-04-03T21:01:29.714Z
-      212              Hovedstaden 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
-      213              Hovedstaden 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
-      214              Hovedstaden 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
-      215              Hovedstaden 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
-      216              Hovedstaden 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
-      217              Hovedstaden 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
-      218              Hovedstaden 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
-      219              Hovedstaden 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
-      220              Hovedstaden 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
+      212              Hovedstaden 2024-10-17T21:05:54.514Z 2024-10-17T21:05:54.514Z
+      213              Hovedstaden 2024-10-17T21:05:54.514Z 2024-10-17T21:05:54.514Z
+      214              Hovedstaden 2024-10-17T21:05:54.514Z 2024-10-17T21:05:54.514Z
+      215              Hovedstaden 2024-10-17T21:05:54.514Z 2024-10-17T21:05:54.514Z
+      216              Hovedstaden 2024-10-17T21:05:54.514Z 2024-10-17T21:05:54.514Z
+      217              Hovedstaden 2024-10-17T21:05:54.514Z 2024-10-17T21:05:54.514Z
+      218              Hovedstaden 2024-10-17T21:05:54.514Z 2024-10-17T21:05:54.514Z
+      219              Hovedstaden 2024-10-17T21:05:54.514Z 2024-10-17T21:05:54.514Z
+      220              Hovedstaden 2024-10-17T21:05:54.514Z 2024-10-17T21:05:54.514Z
       221              Hovedstaden 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
       222              Hovedstaden 2024-03-05T22:01:36.617Z 2024-03-05T22:01:36.617Z
       223              Hovedstaden 2024-03-05T22:01:36.617Z 2024-03-05T22:01:36.617Z
@@ -9434,7 +9504,7 @@
       335      Sjælland-Syddanmark 2024-04-22T21:01:22.218Z 2024-04-22T21:01:22.218Z
       336      Sjælland-Syddanmark 2024-04-22T21:01:22.218Z 2024-04-22T21:01:22.218Z
       337      Sjælland-Syddanmark 2024-04-22T21:01:22.218Z 2024-04-22T21:01:22.218Z
-      338      Sjælland-Syddanmark 2024-04-22T21:01:22.218Z 2024-04-22T21:01:22.218Z
+      338      Sjælland-Syddanmark 2024-10-11T21:03:05.131Z 2024-10-11T21:03:05.131Z
       339      Sjælland-Syddanmark 2024-04-22T21:01:22.218Z 2024-04-22T21:01:22.218Z
       340      Sjælland-Syddanmark 2024-04-22T21:01:22.218Z 2024-04-22T21:01:22.218Z
       341      Sjælland-Syddanmark 2024-04-22T21:01:22.218Z 2024-04-22T21:01:22.218Z
@@ -9451,24 +9521,24 @@
       352      Sjælland-Syddanmark 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
       353      Sjælland-Syddanmark 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
       354      Sjælland-Syddanmark 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
-      355      Sjælland-Syddanmark 2024-02-28T22:01:20.513Z 2024-02-28T22:01:20.513Z
-      356      Sjælland-Syddanmark 2024-02-28T22:01:20.513Z 2024-02-28T22:01:20.513Z
-      357      Sjælland-Syddanmark 2024-02-28T22:01:20.513Z 2024-02-28T22:01:20.513Z
-      358      Sjælland-Syddanmark 2024-02-28T22:01:20.513Z 2024-02-28T22:01:20.513Z
-      359      Sjælland-Syddanmark 2024-02-28T22:01:20.513Z 2024-02-28T22:01:20.513Z
-      360      Sjælland-Syddanmark 2024-02-28T22:01:20.513Z 2024-02-28T22:01:20.513Z
-      361      Sjælland-Syddanmark 2024-02-28T22:01:20.513Z 2024-02-28T22:01:20.513Z
-      362      Sjælland-Syddanmark 2024-02-28T22:01:20.513Z 2024-02-28T22:01:20.513Z
-      363      Sjælland-Syddanmark 2024-02-28T22:01:20.513Z 2024-02-28T22:01:20.513Z
-      364      Sjælland-Syddanmark 2024-02-28T22:01:20.513Z 2024-02-28T22:01:20.513Z
-      365      Sjælland-Syddanmark 2024-02-28T22:01:20.513Z 2024-02-28T22:01:20.513Z
-      366      Sjælland-Syddanmark 2024-02-28T22:01:20.513Z 2024-02-28T22:01:20.513Z
-      367      Sjælland-Syddanmark 2024-02-28T22:01:20.513Z 2024-02-28T22:01:20.513Z
-      368      Sjælland-Syddanmark 2024-02-28T22:01:20.513Z 2024-02-28T22:01:20.513Z
-      369      Sjælland-Syddanmark 2024-02-28T22:01:20.513Z 2024-02-28T22:01:20.513Z
-      370      Sjælland-Syddanmark 2024-02-28T22:01:20.513Z 2024-02-28T22:01:20.513Z
-      371      Sjælland-Syddanmark 2024-02-28T22:01:20.513Z 2024-02-28T22:01:20.513Z
-      372      Sjælland-Syddanmark 2024-02-28T22:01:20.513Z 2024-02-28T22:01:20.513Z
+      355      Sjælland-Syddanmark 2024-10-08T21:03:05.039Z 2024-10-08T21:03:05.039Z
+      356      Sjælland-Syddanmark 2024-10-08T21:03:05.039Z 2024-10-08T21:03:05.039Z
+      357      Sjælland-Syddanmark 2024-10-08T21:03:05.039Z 2024-10-08T21:03:05.039Z
+      358      Sjælland-Syddanmark 2024-10-08T21:03:05.039Z 2024-10-08T21:03:05.039Z
+      359      Sjælland-Syddanmark 2024-10-08T21:03:05.039Z 2024-10-08T21:03:05.039Z
+      360      Sjælland-Syddanmark 2024-10-08T21:03:05.039Z 2024-10-08T21:03:05.039Z
+      361      Sjælland-Syddanmark 2024-10-08T21:03:05.039Z 2024-10-08T21:03:05.039Z
+      362      Sjælland-Syddanmark 2024-10-08T21:03:05.039Z 2024-10-08T21:03:05.039Z
+      363      Sjælland-Syddanmark 2024-10-08T21:03:05.039Z 2024-10-08T21:03:05.039Z
+      364      Sjælland-Syddanmark 2024-10-08T21:03:05.039Z 2024-10-08T21:03:05.039Z
+      365      Sjælland-Syddanmark 2024-10-08T21:03:05.039Z 2024-10-08T21:03:05.039Z
+      366      Sjælland-Syddanmark 2024-10-08T21:03:05.039Z 2024-10-08T21:03:05.039Z
+      367      Sjælland-Syddanmark 2024-10-08T21:03:05.039Z 2024-10-08T21:03:05.039Z
+      368      Sjælland-Syddanmark 2024-10-08T21:03:05.039Z 2024-10-08T21:03:05.039Z
+      369      Sjælland-Syddanmark 2024-10-08T21:03:05.039Z 2024-10-08T21:03:05.039Z
+      370      Sjælland-Syddanmark 2024-10-08T21:03:05.039Z 2024-10-08T21:03:05.039Z
+      371      Sjælland-Syddanmark 2024-10-08T21:03:05.039Z 2024-10-08T21:03:05.039Z
+      372      Sjælland-Syddanmark 2024-10-08T21:03:05.039Z 2024-10-08T21:03:05.039Z
       373      Sjælland-Syddanmark 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
       374      Sjælland-Syddanmark 2024-01-16T22:03:35.709Z 2024-01-16T22:03:35.709Z
       375      Sjælland-Syddanmark 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
@@ -9587,7 +9657,7 @@
       488      Sjælland-Syddanmark 2024-03-05T22:01:36.617Z 2024-03-05T22:01:36.617Z
       489      Sjælland-Syddanmark 2024-03-05T22:01:36.617Z 2024-03-05T22:01:36.617Z
       490      Sjælland-Syddanmark 2024-03-05T22:01:36.617Z 2024-03-05T22:01:36.617Z
-      491              Hovedstaden 2018-06-07T08:13:11.660Z 2018-04-30T15:23:13.528Z
+      491              Hovedstaden 2024-10-11T21:03:05.131Z 2024-10-11T21:03:05.131Z
       492      Sjælland-Syddanmark 2024-04-10T21:01:14.595Z 2024-04-10T21:01:14.595Z
       493      Sjælland-Syddanmark 2024-04-10T21:01:14.595Z 2024-04-10T21:01:14.595Z
       494      Sjælland-Syddanmark 2024-04-10T21:01:14.595Z 2024-04-10T21:01:14.595Z
@@ -9898,7 +9968,7 @@
       799  Midtjylland-Nordjylland 2024-05-07T21:01:19.937Z 2024-05-07T21:01:19.937Z
       800  Midtjylland-Nordjylland 2024-05-07T21:01:19.937Z 2024-05-07T21:01:19.937Z
       801      Sjælland-Syddanmark 2024-03-12T22:01:20.517Z 2024-03-12T22:01:20.517Z
-      802      Sjælland-Syddanmark 2024-03-12T22:01:20.517Z 2024-03-12T22:01:20.517Z
+      802      Sjælland-Syddanmark 2024-10-08T21:03:05.039Z 2024-03-12T22:01:20.517Z
       803      Sjælland-Syddanmark 2024-03-12T22:01:20.517Z 2024-03-12T22:01:20.517Z
       804      Sjælland-Syddanmark 2024-03-12T22:01:20.517Z 2024-03-12T22:01:20.517Z
       805      Sjælland-Syddanmark 2024-03-12T22:01:20.517Z 2024-03-12T22:01:20.517Z
@@ -10076,16 +10146,16 @@
       977  Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
       978  Midtjylland-Nordjylland 2024-04-10T21:01:14.595Z 2024-03-20T22:01:29.907Z
       979  Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
-      980  Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
-      981  Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
-      982  Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
+      980  Midtjylland-Nordjylland 2024-10-17T21:05:54.514Z 2024-10-17T21:05:54.514Z
+      981  Midtjylland-Nordjylland 2024-10-17T21:05:54.514Z 2024-10-17T21:05:54.514Z
+      982  Midtjylland-Nordjylland 2024-10-17T21:05:54.514Z 2024-03-20T22:01:29.907Z
       983  Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
       984  Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
       985  Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
       986  Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
       987  Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
       988  Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
-      989  Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
+      989  Midtjylland-Nordjylland 2024-10-17T21:05:54.514Z 2024-03-20T22:01:29.907Z
       990  Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
       991  Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
       992  Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
@@ -10095,24 +10165,24 @@
       996  Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
       997  Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
       998  Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
-      999  Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
+      999  Midtjylland-Nordjylland 2024-10-17T21:05:54.514Z 2024-10-17T21:05:54.514Z
       1000 Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
-      1001 Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
-      1002 Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
-      1003 Midtjylland-Nordjylland 2024-05-08T21:01:09.316Z 2024-05-07T21:01:19.937Z
-      1004 Midtjylland-Nordjylland 2024-05-07T21:01:19.937Z 2024-05-07T21:01:19.937Z
+      1001 Midtjylland-Nordjylland 2024-05-08T21:01:09.316Z 2024-05-07T21:01:19.937Z
+      1002 Midtjylland-Nordjylland 2024-05-07T21:01:19.937Z 2024-05-07T21:01:19.937Z
+      1003 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
+      1004 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
       1005 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
       1006 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
       1007 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
       1008 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
-      1009 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
+      1009 Midtjylland-Nordjylland 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
       1010 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
-      1011 Midtjylland-Nordjylland 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
-      1012 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
+      1011 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
+      1012 Midtjylland-Nordjylland 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
       1013 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
-      1014 Midtjylland-Nordjylland 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
-      1015 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
-      1016 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
+      1014 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
+      1015 Midtjylland-Nordjylland 2024-05-08T21:01:09.316Z 2024-05-08T21:01:09.316Z
+      1016 Midtjylland-Nordjylland 2024-05-08T21:01:09.316Z 2024-05-08T21:01:09.316Z
       1017 Midtjylland-Nordjylland 2024-05-08T21:01:09.316Z 2024-05-08T21:01:09.316Z
       1018 Midtjylland-Nordjylland 2024-05-08T21:01:09.316Z 2024-05-08T21:01:09.316Z
       1019 Midtjylland-Nordjylland 2024-05-08T21:01:09.316Z 2024-05-08T21:01:09.316Z
@@ -10122,9 +10192,9 @@
       1023 Midtjylland-Nordjylland 2024-05-08T21:01:09.316Z 2024-05-08T21:01:09.316Z
       1024 Midtjylland-Nordjylland 2024-05-08T21:01:09.316Z 2024-05-08T21:01:09.316Z
       1025 Midtjylland-Nordjylland 2024-05-08T21:01:09.316Z 2024-05-08T21:01:09.316Z
-      1026 Midtjylland-Nordjylland 2024-05-08T21:01:09.316Z 2024-05-08T21:01:09.316Z
+      1026 Midtjylland-Nordjylland 2024-05-16T21:01:20.858Z 2024-05-08T21:01:09.316Z
       1027 Midtjylland-Nordjylland 2024-05-08T21:01:09.316Z 2024-05-08T21:01:09.316Z
-      1028 Midtjylland-Nordjylland 2024-05-16T21:01:20.858Z 2024-05-08T21:01:09.316Z
+      1028 Midtjylland-Nordjylland 2024-05-08T21:01:09.316Z 2024-05-08T21:01:09.316Z
       1029 Midtjylland-Nordjylland 2024-05-08T21:01:09.316Z 2024-05-08T21:01:09.316Z
       1030 Midtjylland-Nordjylland 2024-05-08T21:01:09.316Z 2024-05-08T21:01:09.316Z
       1031 Midtjylland-Nordjylland 2024-05-08T21:01:09.316Z 2024-05-08T21:01:09.316Z
@@ -10160,8 +10230,8 @@
       1061 Midtjylland-Nordjylland 2024-05-08T21:01:09.316Z 2024-05-08T21:01:09.316Z
       1062 Midtjylland-Nordjylland 2024-05-08T21:01:09.316Z 2024-05-08T21:01:09.316Z
       1063 Midtjylland-Nordjylland 2024-05-08T21:01:09.316Z 2024-05-08T21:01:09.316Z
-      1064 Midtjylland-Nordjylland 2024-05-08T21:01:09.316Z 2024-05-08T21:01:09.316Z
-      1065 Midtjylland-Nordjylland 2024-05-08T21:01:09.316Z 2024-05-08T21:01:09.316Z
+      1064 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
+      1065 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
       1066 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
       1067 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
       1068 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
@@ -10170,8 +10240,8 @@
       1071 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
       1072 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
       1073 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
-      1074 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
-      1075 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
+      1074 Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
+      1075 Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
       1076 Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
       1077 Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
       1078 Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
@@ -10188,170 +10258,170 @@
       1089 Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
       1090 Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
       1091 Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
-      1092 Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
-      1093 Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
+      1092 Midtjylland-Nordjylland 2024-05-02T21:01:19.476Z 2024-04-04T21:01:31.352Z
+      1093 Midtjylland-Nordjylland 2024-05-02T21:01:19.476Z 2024-04-04T21:01:31.352Z
       1094 Midtjylland-Nordjylland 2024-05-02T21:01:19.476Z 2024-04-04T21:01:31.352Z
       1095 Midtjylland-Nordjylland 2024-05-02T21:01:19.476Z 2024-04-04T21:01:31.352Z
       1096 Midtjylland-Nordjylland 2024-05-02T21:01:19.476Z 2024-04-04T21:01:31.352Z
       1097 Midtjylland-Nordjylland 2024-05-02T21:01:19.476Z 2024-04-04T21:01:31.352Z
       1098 Midtjylland-Nordjylland 2024-05-02T21:01:19.476Z 2024-04-04T21:01:31.352Z
-      1099 Midtjylland-Nordjylland 2024-05-02T21:01:19.476Z 2024-04-04T21:01:31.352Z
+      1099 Midtjylland-Nordjylland 2024-04-04T21:01:31.352Z 2024-04-04T21:01:31.352Z
       1100 Midtjylland-Nordjylland 2024-05-02T21:01:19.476Z 2024-04-04T21:01:31.352Z
       1101 Midtjylland-Nordjylland 2024-04-04T21:01:31.352Z 2024-04-04T21:01:31.352Z
       1102 Midtjylland-Nordjylland 2024-05-02T21:01:19.476Z 2024-04-04T21:01:31.352Z
       1103 Midtjylland-Nordjylland 2024-04-04T21:01:31.352Z 2024-04-04T21:01:31.352Z
       1104 Midtjylland-Nordjylland 2024-05-02T21:01:19.476Z 2024-04-04T21:01:31.352Z
-      1105 Midtjylland-Nordjylland 2024-04-04T21:01:31.352Z 2024-04-04T21:01:31.352Z
-      1106 Midtjylland-Nordjylland 2024-05-02T21:01:19.476Z 2024-04-04T21:01:31.352Z
-      1107 Midtjylland-Nordjylland 2024-05-02T21:01:19.476Z 2024-04-04T21:01:31.352Z
-      1108 Midtjylland-Nordjylland 2024-05-02T21:01:19.476Z 2024-05-02T21:01:19.476Z
-      1109 Midtjylland-Nordjylland 2024-04-04T21:01:31.352Z 2024-04-04T21:01:31.352Z
-      1110 Midtjylland-Nordjylland 2024-04-04T21:01:31.352Z 2024-04-04T21:01:31.352Z
-      1111 Midtjylland-Nordjylland 2024-05-02T21:01:19.476Z 2024-04-04T21:01:31.352Z
-      1112 Midtjylland-Nordjylland 2024-05-02T21:01:19.476Z 2024-05-02T21:01:19.476Z
+      1105 Midtjylland-Nordjylland 2024-05-02T21:01:19.476Z 2024-04-04T21:01:31.352Z
+      1106 Midtjylland-Nordjylland 2024-05-02T21:01:19.476Z 2024-05-02T21:01:19.476Z
+      1107 Midtjylland-Nordjylland 2024-04-04T21:01:31.352Z 2024-04-04T21:01:31.352Z
+      1108 Midtjylland-Nordjylland 2024-04-04T21:01:31.352Z 2024-04-04T21:01:31.352Z
+      1109 Midtjylland-Nordjylland 2024-05-02T21:01:19.476Z 2024-04-04T21:01:31.352Z
+      1110 Midtjylland-Nordjylland 2024-05-02T21:01:19.476Z 2024-05-02T21:01:19.476Z
+      1111 Midtjylland-Nordjylland 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
+      1112 Midtjylland-Nordjylland 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
       1113 Midtjylland-Nordjylland 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
       1114 Midtjylland-Nordjylland 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
       1115 Midtjylland-Nordjylland 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
-      1116 Midtjylland-Nordjylland 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
-      1117 Midtjylland-Nordjylland 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
-      1118 Midtjylland-Nordjylland 2024-03-08T22:01:22.527Z 2024-03-08T22:01:22.527Z
-      1119 Midtjylland-Nordjylland 2024-03-22T22:01:41.450Z 2024-03-22T22:01:41.450Z
-      1120 Midtjylland-Nordjylland 2024-03-22T22:01:41.450Z 2024-03-22T22:01:41.450Z
-      1121 Midtjylland-Nordjylland 2024-03-08T22:01:22.527Z 2024-03-08T22:01:22.527Z
-      1122 Midtjylland-Nordjylland 2024-03-08T22:01:22.527Z 2024-03-08T22:01:22.527Z
-      1123 Midtjylland-Nordjylland 2024-03-22T22:01:41.450Z 2024-03-22T22:01:41.450Z
-      1124 Midtjylland-Nordjylland 2024-03-22T22:01:41.450Z 2024-03-22T22:01:41.450Z
-      1125 Midtjylland-Nordjylland 2024-03-08T22:01:22.527Z 2024-03-08T22:01:22.527Z
-      1126 Midtjylland-Nordjylland 2024-02-23T22:01:25.384Z 2024-02-23T22:01:25.384Z
-      1127 Midtjylland-Nordjylland 2024-02-23T22:01:25.384Z 2024-02-23T22:01:25.384Z
-      1128 Midtjylland-Nordjylland 2024-02-23T22:01:25.384Z 2024-02-23T22:01:25.384Z
-      1129 Midtjylland-Nordjylland 2024-02-23T22:01:25.384Z 2024-02-23T22:01:25.384Z
-      1130 Midtjylland-Nordjylland 2024-02-23T22:01:25.384Z 2024-02-23T22:01:25.384Z
-      1131 Midtjylland-Nordjylland 2024-02-23T22:01:25.384Z 2024-02-23T22:01:25.384Z
-      1132 Midtjylland-Nordjylland 2024-02-23T22:01:25.384Z 2024-02-23T22:01:25.384Z
-      1133 Midtjylland-Nordjylland 2024-02-23T22:01:25.384Z 2024-02-23T22:01:25.384Z
-      1134 Midtjylland-Nordjylland 2024-02-23T22:01:25.384Z 2024-02-23T22:01:25.384Z
-      1135 Midtjylland-Nordjylland 2024-02-23T22:01:25.384Z 2024-02-23T22:01:25.384Z
+      1116 Midtjylland-Nordjylland 2024-10-09T21:02:27.534Z 2024-10-09T21:02:27.534Z
+      1117 Midtjylland-Nordjylland 2024-10-09T21:02:27.534Z 2024-10-09T21:02:27.534Z
+      1118 Midtjylland-Nordjylland 2024-10-09T21:02:27.534Z 2024-10-09T21:02:27.534Z
+      1119 Midtjylland-Nordjylland 2024-10-09T21:02:27.534Z 2024-10-09T21:02:27.534Z
+      1120 Midtjylland-Nordjylland 2024-10-09T21:02:27.534Z 2024-10-09T21:02:27.534Z
+      1121 Midtjylland-Nordjylland 2024-10-09T21:02:27.534Z 2024-10-09T21:02:27.534Z
+      1122 Midtjylland-Nordjylland 2024-10-09T21:02:27.534Z 2024-10-09T21:02:27.534Z
+      1123 Midtjylland-Nordjylland 2024-10-09T21:02:27.534Z 2024-10-09T21:02:27.534Z
+      1124 Midtjylland-Nordjylland 2024-10-09T21:02:27.534Z 2024-10-09T21:02:27.534Z
+      1125 Midtjylland-Nordjylland 2024-10-09T21:02:27.534Z 2024-10-09T21:02:27.534Z
+      1126 Midtjylland-Nordjylland 2024-10-11T21:03:05.131Z 2024-10-11T21:03:05.131Z
+      1127 Midtjylland-Nordjylland 2024-10-09T21:02:27.534Z 2024-10-09T21:02:27.534Z
+      1128 Midtjylland-Nordjylland 2024-10-09T21:02:27.534Z 2024-10-09T21:02:27.534Z
+      1129 Midtjylland-Nordjylland 2024-10-09T21:02:27.534Z 2024-10-09T21:02:27.534Z
+      1130 Midtjylland-Nordjylland 2024-10-09T21:02:27.534Z 2024-10-09T21:02:27.534Z
+      1131 Midtjylland-Nordjylland 2024-10-09T21:02:27.534Z 2024-10-09T21:02:27.534Z
+      1132 Midtjylland-Nordjylland 2024-10-09T21:02:27.534Z 2024-10-09T21:02:27.534Z
+      1133 Midtjylland-Nordjylland 2024-10-09T21:02:27.534Z 2024-10-09T21:02:27.534Z
+      1134 Midtjylland-Nordjylland 2024-10-09T21:02:27.534Z 2024-10-09T21:02:27.534Z
+      1135 Midtjylland-Nordjylland 2024-03-08T22:01:22.527Z 2024-03-08T22:01:22.527Z
       1136 Midtjylland-Nordjylland 2024-02-23T22:01:25.384Z 2024-02-23T22:01:25.384Z
       1137 Midtjylland-Nordjylland 2024-02-23T22:01:25.384Z 2024-02-23T22:01:25.384Z
       1138 Midtjylland-Nordjylland 2024-02-23T22:01:25.384Z 2024-02-23T22:01:25.384Z
       1139 Midtjylland-Nordjylland 2024-02-23T22:01:25.384Z 2024-02-23T22:01:25.384Z
       1140 Midtjylland-Nordjylland 2024-02-23T22:01:25.384Z 2024-02-23T22:01:25.384Z
-      1141 Midtjylland-Nordjylland 2024-04-05T21:01:58.999Z 2024-04-05T21:01:58.999Z
-      1142 Midtjylland-Nordjylland 2024-04-05T21:01:58.999Z 2024-04-05T21:01:58.999Z
-      1143 Midtjylland-Nordjylland 2024-04-05T21:01:58.999Z 2024-04-05T21:01:58.999Z
-      1144 Midtjylland-Nordjylland 2024-04-05T21:01:58.999Z 2024-04-05T21:01:58.999Z
-      1145 Midtjylland-Nordjylland 2024-04-05T21:01:58.999Z 2024-04-05T21:01:58.999Z
-      1146 Midtjylland-Nordjylland 2024-04-05T21:01:58.999Z 2024-04-05T21:01:58.999Z
-      1147 Midtjylland-Nordjylland 2024-04-05T21:01:58.999Z 2024-04-05T21:01:58.999Z
-      1148 Midtjylland-Nordjylland 2024-04-05T21:01:58.999Z 2024-04-05T21:01:58.999Z
-      1149 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
-      1150 Midtjylland-Nordjylland 2024-04-05T21:01:58.999Z 2024-04-05T21:01:58.999Z
-      1151 Midtjylland-Nordjylland 2024-04-11T21:01:31.444Z 2024-04-05T21:01:58.999Z
+      1141 Midtjylland-Nordjylland 2024-02-23T22:01:25.384Z 2024-02-23T22:01:25.384Z
+      1142 Midtjylland-Nordjylland 2024-02-23T22:01:25.384Z 2024-02-23T22:01:25.384Z
+      1143 Midtjylland-Nordjylland 2024-02-23T22:01:25.384Z 2024-02-23T22:01:25.384Z
+      1144 Midtjylland-Nordjylland 2024-02-23T22:01:25.384Z 2024-02-23T22:01:25.384Z
+      1145 Midtjylland-Nordjylland 2024-02-23T22:01:25.384Z 2024-02-23T22:01:25.384Z
+      1146 Midtjylland-Nordjylland 2024-02-23T22:01:25.384Z 2024-02-23T22:01:25.384Z
+      1147 Midtjylland-Nordjylland 2024-02-23T22:01:25.384Z 2024-02-23T22:01:25.384Z
+      1148 Midtjylland-Nordjylland 2024-02-23T22:01:25.384Z 2024-02-23T22:01:25.384Z
+      1149 Midtjylland-Nordjylland 2024-02-23T22:01:25.384Z 2024-02-23T22:01:25.384Z
+      1150 Midtjylland-Nordjylland 2024-02-23T22:01:25.384Z 2024-02-23T22:01:25.384Z
+      1151 Midtjylland-Nordjylland 2024-04-05T21:01:58.999Z 2024-04-05T21:01:58.999Z
       1152 Midtjylland-Nordjylland 2024-04-05T21:01:58.999Z 2024-04-05T21:01:58.999Z
       1153 Midtjylland-Nordjylland 2024-04-05T21:01:58.999Z 2024-04-05T21:01:58.999Z
       1154 Midtjylland-Nordjylland 2024-04-05T21:01:58.999Z 2024-04-05T21:01:58.999Z
       1155 Midtjylland-Nordjylland 2024-04-05T21:01:58.999Z 2024-04-05T21:01:58.999Z
       1156 Midtjylland-Nordjylland 2024-04-05T21:01:58.999Z 2024-04-05T21:01:58.999Z
-      1157 Midtjylland-Nordjylland 2024-05-16T21:01:20.858Z 2024-05-16T21:01:20.858Z
-      1158 Midtjylland-Nordjylland 2024-05-16T21:01:20.858Z 2024-05-16T21:01:20.858Z
-      1159 Midtjylland-Nordjylland 2024-05-16T21:01:20.858Z 2024-05-16T21:01:20.858Z
-      1160 Midtjylland-Nordjylland 2024-05-16T21:01:20.858Z 2024-05-16T21:01:20.858Z
-      1161 Midtjylland-Nordjylland 2024-05-16T21:01:20.858Z 2024-05-16T21:01:20.858Z
-      1162 Midtjylland-Nordjylland 2024-05-16T21:01:20.858Z 2024-05-16T21:01:20.858Z
-      1163 Midtjylland-Nordjylland 2024-05-16T21:01:20.858Z 2024-05-16T21:01:20.858Z
-      1164 Midtjylland-Nordjylland 2024-05-16T21:01:20.858Z 2024-05-16T21:01:20.858Z
-      1165 Midtjylland-Nordjylland 2024-05-16T21:01:20.858Z 2024-05-16T21:01:20.858Z
-      1166 Midtjylland-Nordjylland 2024-05-16T21:01:20.858Z 2024-05-16T21:01:20.858Z
+      1157 Midtjylland-Nordjylland 2024-04-05T21:01:58.999Z 2024-04-05T21:01:58.999Z
+      1158 Midtjylland-Nordjylland 2024-04-05T21:01:58.999Z 2024-04-05T21:01:58.999Z
+      1159 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
+      1160 Midtjylland-Nordjylland 2024-04-05T21:01:58.999Z 2024-04-05T21:01:58.999Z
+      1161 Midtjylland-Nordjylland 2024-04-11T21:01:31.444Z 2024-04-05T21:01:58.999Z
+      1162 Midtjylland-Nordjylland 2024-04-05T21:01:58.999Z 2024-04-05T21:01:58.999Z
+      1163 Midtjylland-Nordjylland 2024-04-05T21:01:58.999Z 2024-04-05T21:01:58.999Z
+      1164 Midtjylland-Nordjylland 2024-04-05T21:01:58.999Z 2024-04-05T21:01:58.999Z
+      1165 Midtjylland-Nordjylland 2024-04-05T21:01:58.999Z 2024-04-05T21:01:58.999Z
+      1166 Midtjylland-Nordjylland 2024-04-05T21:01:58.999Z 2024-04-05T21:01:58.999Z
       1167 Midtjylland-Nordjylland 2024-05-16T21:01:20.858Z 2024-05-16T21:01:20.858Z
       1168 Midtjylland-Nordjylland 2024-05-16T21:01:20.858Z 2024-05-16T21:01:20.858Z
       1169 Midtjylland-Nordjylland 2024-05-16T21:01:20.858Z 2024-05-16T21:01:20.858Z
-      1170 Midtjylland-Nordjylland 2024-04-29T21:01:24.987Z 2024-04-29T21:01:24.987Z
-      1171 Midtjylland-Nordjylland 2024-04-29T21:01:24.987Z 2024-04-29T21:01:24.987Z
-      1172 Midtjylland-Nordjylland 2024-04-29T21:01:24.987Z 2024-04-29T21:01:24.987Z
-      1173 Midtjylland-Nordjylland 2024-05-07T21:01:19.937Z 2024-04-29T21:01:24.987Z
-      1174 Midtjylland-Nordjylland 2024-04-29T21:01:24.987Z 2024-04-29T21:01:24.987Z
-      1175 Midtjylland-Nordjylland 2024-04-29T21:01:24.987Z 2024-04-29T21:01:24.987Z
-      1176 Midtjylland-Nordjylland 2024-04-29T21:01:24.987Z 2024-04-29T21:01:24.987Z
-      1177 Midtjylland-Nordjylland 2024-04-29T21:01:24.987Z 2024-04-29T21:01:24.987Z
-      1178 Midtjylland-Nordjylland 2024-04-29T21:01:24.987Z 2024-04-29T21:01:24.987Z
-      1179 Midtjylland-Nordjylland 2024-05-07T21:01:19.937Z 2024-04-29T21:01:24.987Z
+      1170 Midtjylland-Nordjylland 2024-05-16T21:01:20.858Z 2024-05-16T21:01:20.858Z
+      1171 Midtjylland-Nordjylland 2024-05-16T21:01:20.858Z 2024-05-16T21:01:20.858Z
+      1172 Midtjylland-Nordjylland 2024-05-16T21:01:20.858Z 2024-05-16T21:01:20.858Z
+      1173 Midtjylland-Nordjylland 2024-05-16T21:01:20.858Z 2024-05-16T21:01:20.858Z
+      1174 Midtjylland-Nordjylland 2024-05-16T21:01:20.858Z 2024-05-16T21:01:20.858Z
+      1175 Midtjylland-Nordjylland 2024-05-16T21:01:20.858Z 2024-05-16T21:01:20.858Z
+      1176 Midtjylland-Nordjylland 2024-05-16T21:01:20.858Z 2024-05-16T21:01:20.858Z
+      1177 Midtjylland-Nordjylland 2024-05-16T21:01:20.858Z 2024-05-16T21:01:20.858Z
+      1178 Midtjylland-Nordjylland 2024-05-16T21:01:20.858Z 2024-05-16T21:01:20.858Z
+      1179 Midtjylland-Nordjylland 2024-05-16T21:01:20.858Z 2024-05-16T21:01:20.858Z
       1180 Midtjylland-Nordjylland 2024-04-29T21:01:24.987Z 2024-04-29T21:01:24.987Z
       1181 Midtjylland-Nordjylland 2024-04-29T21:01:24.987Z 2024-04-29T21:01:24.987Z
       1182 Midtjylland-Nordjylland 2024-04-29T21:01:24.987Z 2024-04-29T21:01:24.987Z
-      1183 Midtjylland-Nordjylland 2024-04-29T21:01:24.987Z 2024-04-29T21:01:24.987Z
+      1183 Midtjylland-Nordjylland 2024-05-07T21:01:19.937Z 2024-04-29T21:01:24.987Z
       1184 Midtjylland-Nordjylland 2024-04-29T21:01:24.987Z 2024-04-29T21:01:24.987Z
-      1185 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
-      1186 Midtjylland-Nordjylland 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
-      1187 Midtjylland-Nordjylland 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
-      1188 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
-      1189 Midtjylland-Nordjylland 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
-      1190 Midtjylland-Nordjylland 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
-      1191 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
-      1192 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
-      1193 Midtjylland-Nordjylland 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
-      1194 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
-      1195 Midtjylland-Nordjylland 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
-      1196 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
+      1185 Midtjylland-Nordjylland 2024-04-29T21:01:24.987Z 2024-04-29T21:01:24.987Z
+      1186 Midtjylland-Nordjylland 2024-04-29T21:01:24.987Z 2024-04-29T21:01:24.987Z
+      1187 Midtjylland-Nordjylland 2024-04-29T21:01:24.987Z 2024-04-29T21:01:24.987Z
+      1188 Midtjylland-Nordjylland 2024-04-29T21:01:24.987Z 2024-04-29T21:01:24.987Z
+      1189 Midtjylland-Nordjylland 2024-05-07T21:01:19.937Z 2024-04-29T21:01:24.987Z
+      1190 Midtjylland-Nordjylland 2024-04-29T21:01:24.987Z 2024-04-29T21:01:24.987Z
+      1191 Midtjylland-Nordjylland 2024-04-29T21:01:24.987Z 2024-04-29T21:01:24.987Z
+      1192 Midtjylland-Nordjylland 2024-04-29T21:01:24.987Z 2024-04-29T21:01:24.987Z
+      1193 Midtjylland-Nordjylland 2024-04-29T21:01:24.987Z 2024-04-29T21:01:24.987Z
+      1194 Midtjylland-Nordjylland 2024-04-29T21:01:24.987Z 2024-04-29T21:01:24.987Z
+      1195 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
+      1196 Midtjylland-Nordjylland 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
       1197 Midtjylland-Nordjylland 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
-      1198 Midtjylland-Nordjylland 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
-      1199 Midtjylland-Nordjylland 2018-07-10T21:09:46.035Z 2018-07-10T21:09:46.035Z
-      1200 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
+      1198 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
+      1199 Midtjylland-Nordjylland 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
+      1200 Midtjylland-Nordjylland 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
       1201 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
       1202 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
-      1203 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
+      1203 Midtjylland-Nordjylland 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
       1204 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
       1205 Midtjylland-Nordjylland 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
       1206 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
-      1207 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
-      1208 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
-      1209 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
-      1210 Midtjylland-Nordjylland 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
-      1211 Midtjylland-Nordjylland 2024-03-12T22:01:20.517Z 2024-03-12T22:01:20.517Z
-      1212 Midtjylland-Nordjylland 2024-03-12T22:01:20.517Z 2024-03-12T22:01:20.517Z
-      1213 Midtjylland-Nordjylland 2024-03-12T22:01:20.517Z 2024-03-12T22:01:20.517Z
-      1214 Midtjylland-Nordjylland 2024-03-12T22:01:20.517Z 2024-03-12T22:01:20.517Z
-      1215 Midtjylland-Nordjylland 2024-03-12T22:01:20.517Z 2024-03-12T22:01:20.517Z
-      1216 Midtjylland-Nordjylland 2024-03-12T22:01:20.517Z 2024-03-12T22:01:20.517Z
-      1217 Midtjylland-Nordjylland 2024-03-12T22:01:20.517Z 2024-03-12T22:01:20.517Z
+      1207 Midtjylland-Nordjylland 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
+      1208 Midtjylland-Nordjylland 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
+      1209 Midtjylland-Nordjylland 2018-07-10T21:09:46.035Z 2018-07-10T21:09:46.035Z
+      1210 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
+      1211 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
+      1212 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
+      1213 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
+      1214 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
+      1215 Midtjylland-Nordjylland 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
+      1216 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
+      1217 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
       1218 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
-      1219 Midtjylland-Nordjylland 2024-03-12T22:01:20.517Z 2024-03-12T22:01:20.517Z
-      1220 Midtjylland-Nordjylland 2024-03-12T22:01:20.517Z 2024-03-12T22:01:20.517Z
+      1219 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
+      1220 Midtjylland-Nordjylland 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
       1221 Midtjylland-Nordjylland 2024-03-12T22:01:20.517Z 2024-03-12T22:01:20.517Z
-      1222 Midtjylland-Nordjylland 2024-02-26T22:01:25.457Z 2024-02-26T22:01:25.457Z
-      1223 Midtjylland-Nordjylland 2024-04-24T21:01:20.921Z 2024-02-26T22:01:25.457Z
-      1224 Midtjylland-Nordjylland 2024-02-26T22:01:25.457Z 2024-02-26T22:01:25.457Z
-      1225 Midtjylland-Nordjylland 2024-02-26T22:01:25.457Z 2024-02-26T22:01:25.457Z
-      1226 Midtjylland-Nordjylland 2024-04-29T21:01:24.987Z 2024-02-26T22:01:25.457Z
-      1227 Midtjylland-Nordjylland 2024-02-26T22:01:25.457Z 2024-02-26T22:01:25.457Z
-      1228 Midtjylland-Nordjylland 2024-02-26T22:01:25.457Z 2024-02-26T22:01:25.457Z
-      1229 Midtjylland-Nordjylland 2024-02-26T22:01:25.457Z 2024-02-26T22:01:25.457Z
-      1230 Midtjylland-Nordjylland 2024-02-26T22:01:25.457Z 2024-02-26T22:01:25.457Z
-      1231 Midtjylland-Nordjylland 2024-02-26T22:01:25.457Z 2024-02-26T22:01:25.457Z
-      1232 Midtjylland-Nordjylland 2024-04-29T21:01:24.987Z 2024-02-26T22:01:25.457Z
-      1233 Midtjylland-Nordjylland 2024-02-26T22:01:25.457Z 2024-02-26T22:01:25.457Z
-      1234 Midtjylland-Nordjylland 2024-04-29T21:01:24.987Z 2024-02-26T22:01:25.457Z
+      1222 Midtjylland-Nordjylland 2024-03-12T22:01:20.517Z 2024-03-12T22:01:20.517Z
+      1223 Midtjylland-Nordjylland 2024-03-12T22:01:20.517Z 2024-03-12T22:01:20.517Z
+      1224 Midtjylland-Nordjylland 2024-03-12T22:01:20.517Z 2024-03-12T22:01:20.517Z
+      1225 Midtjylland-Nordjylland 2024-03-12T22:01:20.517Z 2024-03-12T22:01:20.517Z
+      1226 Midtjylland-Nordjylland 2024-03-12T22:01:20.517Z 2024-03-12T22:01:20.517Z
+      1227 Midtjylland-Nordjylland 2024-03-12T22:01:20.517Z 2024-03-12T22:01:20.517Z
+      1228 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
+      1229 Midtjylland-Nordjylland 2024-03-12T22:01:20.517Z 2024-03-12T22:01:20.517Z
+      1230 Midtjylland-Nordjylland 2024-03-12T22:01:20.517Z 2024-03-12T22:01:20.517Z
+      1231 Midtjylland-Nordjylland 2024-03-12T22:01:20.517Z 2024-03-12T22:01:20.517Z
+      1232 Midtjylland-Nordjylland 2024-02-26T22:01:25.457Z 2024-02-26T22:01:25.457Z
+      1233 Midtjylland-Nordjylland 2024-04-24T21:01:20.921Z 2024-02-26T22:01:25.457Z
+      1234 Midtjylland-Nordjylland 2024-02-26T22:01:25.457Z 2024-02-26T22:01:25.457Z
       1235 Midtjylland-Nordjylland 2024-02-26T22:01:25.457Z 2024-02-26T22:01:25.457Z
-      1236 Midtjylland-Nordjylland 2024-02-26T22:01:25.457Z 2024-02-26T22:01:25.457Z
+      1236 Midtjylland-Nordjylland 2024-04-29T21:01:24.987Z 2024-02-26T22:01:25.457Z
       1237 Midtjylland-Nordjylland 2024-02-26T22:01:25.457Z 2024-02-26T22:01:25.457Z
-      1238 Midtjylland-Nordjylland 2024-04-29T21:01:24.987Z 2024-02-26T22:01:25.457Z
+      1238 Midtjylland-Nordjylland 2024-02-26T22:01:25.457Z 2024-02-26T22:01:25.457Z
       1239 Midtjylland-Nordjylland 2024-02-26T22:01:25.457Z 2024-02-26T22:01:25.457Z
-      1240 Midtjylland-Nordjylland 2024-04-29T21:01:24.987Z 2024-02-26T22:01:25.457Z
-      1241 Midtjylland-Nordjylland 2024-02-08T22:01:20.857Z 2024-02-08T22:01:20.857Z
-      1242 Midtjylland-Nordjylland 2024-02-08T22:01:20.857Z 2024-02-08T22:01:20.857Z
-      1243 Midtjylland-Nordjylland 2024-02-08T22:01:20.857Z 2024-02-08T22:01:20.857Z
-      1244 Midtjylland-Nordjylland 2024-02-08T22:01:20.857Z 2024-02-08T22:01:20.857Z
-      1245 Midtjylland-Nordjylland 2024-04-30T21:01:22.627Z 2024-02-08T22:01:20.857Z
-      1246 Midtjylland-Nordjylland 2024-02-08T22:01:20.857Z 2024-02-08T22:01:20.857Z
-      1247 Midtjylland-Nordjylland 2024-02-08T22:01:20.857Z 2024-02-08T22:01:20.857Z
-      1248 Midtjylland-Nordjylland 2024-02-08T22:01:20.857Z 2024-02-08T22:01:20.857Z
-      1249 Midtjylland-Nordjylland 2024-02-08T22:01:20.857Z 2024-02-08T22:01:20.857Z
-      1250 Midtjylland-Nordjylland 2024-02-08T22:01:20.857Z 2024-02-08T22:01:20.857Z
+      1240 Midtjylland-Nordjylland 2024-02-26T22:01:25.457Z 2024-02-26T22:01:25.457Z
+      1241 Midtjylland-Nordjylland 2024-02-26T22:01:25.457Z 2024-02-26T22:01:25.457Z
+      1242 Midtjylland-Nordjylland 2024-04-29T21:01:24.987Z 2024-02-26T22:01:25.457Z
+      1243 Midtjylland-Nordjylland 2024-02-26T22:01:25.457Z 2024-02-26T22:01:25.457Z
+      1244 Midtjylland-Nordjylland 2024-04-29T21:01:24.987Z 2024-02-26T22:01:25.457Z
+      1245 Midtjylland-Nordjylland 2024-02-26T22:01:25.457Z 2024-02-26T22:01:25.457Z
+      1246 Midtjylland-Nordjylland 2024-02-26T22:01:25.457Z 2024-02-26T22:01:25.457Z
+      1247 Midtjylland-Nordjylland 2024-02-26T22:01:25.457Z 2024-02-26T22:01:25.457Z
+      1248 Midtjylland-Nordjylland 2024-04-29T21:01:24.987Z 2024-02-26T22:01:25.457Z
+      1249 Midtjylland-Nordjylland 2024-02-26T22:01:25.457Z 2024-02-26T22:01:25.457Z
+      1250 Midtjylland-Nordjylland 2024-04-29T21:01:24.987Z 2024-02-26T22:01:25.457Z
       1251 Midtjylland-Nordjylland 2024-02-08T22:01:20.857Z 2024-02-08T22:01:20.857Z
       1252 Midtjylland-Nordjylland 2024-02-08T22:01:20.857Z 2024-02-08T22:01:20.857Z
       1253 Midtjylland-Nordjylland 2024-02-08T22:01:20.857Z 2024-02-08T22:01:20.857Z
       1254 Midtjylland-Nordjylland 2024-02-08T22:01:20.857Z 2024-02-08T22:01:20.857Z
-      1255 Midtjylland-Nordjylland 2024-02-08T22:01:20.857Z 2024-02-08T22:01:20.857Z
+      1255 Midtjylland-Nordjylland 2024-04-30T21:01:22.627Z 2024-02-08T22:01:20.857Z
       1256 Midtjylland-Nordjylland 2024-02-08T22:01:20.857Z 2024-02-08T22:01:20.857Z
       1257 Midtjylland-Nordjylland 2024-02-08T22:01:20.857Z 2024-02-08T22:01:20.857Z
       1258 Midtjylland-Nordjylland 2024-02-08T22:01:20.857Z 2024-02-08T22:01:20.857Z
@@ -10374,16 +10444,16 @@
       1275 Midtjylland-Nordjylland 2024-02-08T22:01:20.857Z 2024-02-08T22:01:20.857Z
       1276 Midtjylland-Nordjylland 2024-02-08T22:01:20.857Z 2024-02-08T22:01:20.857Z
       1277 Midtjylland-Nordjylland 2024-02-08T22:01:20.857Z 2024-02-08T22:01:20.857Z
-      1278 Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
-      1279 Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
-      1280 Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
-      1281 Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
-      1282 Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
-      1283 Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
-      1284 Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
-      1285 Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
-      1286 Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
-      1287 Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
+      1278 Midtjylland-Nordjylland 2024-02-08T22:01:20.857Z 2024-02-08T22:01:20.857Z
+      1279 Midtjylland-Nordjylland 2024-02-08T22:01:20.857Z 2024-02-08T22:01:20.857Z
+      1280 Midtjylland-Nordjylland 2024-02-08T22:01:20.857Z 2024-02-08T22:01:20.857Z
+      1281 Midtjylland-Nordjylland 2024-02-08T22:01:20.857Z 2024-02-08T22:01:20.857Z
+      1282 Midtjylland-Nordjylland 2024-02-08T22:01:20.857Z 2024-02-08T22:01:20.857Z
+      1283 Midtjylland-Nordjylland 2024-02-08T22:01:20.857Z 2024-02-08T22:01:20.857Z
+      1284 Midtjylland-Nordjylland 2024-02-08T22:01:20.857Z 2024-02-08T22:01:20.857Z
+      1285 Midtjylland-Nordjylland 2024-02-08T22:01:20.857Z 2024-02-08T22:01:20.857Z
+      1286 Midtjylland-Nordjylland 2024-02-08T22:01:20.857Z 2024-02-08T22:01:20.857Z
+      1287 Midtjylland-Nordjylland 2024-02-08T22:01:20.857Z 2024-02-08T22:01:20.857Z
       1288 Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
       1289 Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
       1290 Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
@@ -10395,6 +10465,16 @@
       1296 Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
       1297 Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
       1298 Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
+      1299 Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
+      1300 Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
+      1301 Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
+      1302 Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
+      1303 Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
+      1304 Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
+      1305 Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
+      1306 Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
+      1307 Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
+      1308 Midtjylland-Nordjylland 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
            geo_version bbox_xmin bbox_ymin bbox_xmax bbox_ymax visueltcenter_x
       1              8 12.561791  55.69876 12.591171  55.70988       12.575179
       2              6 12.563570  55.70754 12.593895  55.73271       12.582667
@@ -10607,13 +10687,13 @@
       209            6 12.509640  55.85180 12.565345  55.89717       12.535217
       210            6 12.395747  55.86407 12.485526  55.90354       12.444601
       211            9 12.494773  55.88393 12.537896  55.91412       12.515990
-      212            4 12.391815  55.82736 12.434122  55.86829       12.411749
-      213            5 12.411589  55.79279 12.503270  55.83334       12.463346
+      212            5 12.391815  55.82736 12.434122  55.86829       12.411749
+      213            1 12.411589  55.79279 12.503270  55.83334       12.463346
       214            6 12.516406  55.80200 12.548539  55.83086       12.533155
-      215            5 12.423349  55.81723 12.521700  55.87924       12.464194
-      216            4 12.475901  55.81361 12.501029  55.83097       12.487076
-      217            4 12.407512  55.81146 12.460361  55.84761       12.434767
-      218            4 12.486129  55.81624 12.545706  55.85195       12.518420
+      215            7 12.423349  55.81723 12.521700  55.87924       12.464194
+      216            6 12.475901  55.81361 12.501029  55.83097       12.487076
+      217            5 12.407512  55.81146 12.460361  55.84761       12.434767
+      218            5 12.486129  55.81624 12.545706  55.85195       12.518420
       219            5 12.478674  55.79631 12.524651  55.82329       12.508335
       220            6 12.493153  55.80245 12.587418  55.86479       12.555954
       221            5 12.225413  55.69289 12.343459  55.72772       12.305157
@@ -10733,7 +10813,7 @@
       335            3 11.037846  55.66935 11.099158  55.69428       11.084410
       336            3 11.088943  55.65807 11.144765  55.69472       11.114192
       337            3 11.110075  55.63558 11.242178  55.73223       11.170560
-      338            3 10.929098  55.60942 11.199718  55.67658       11.138133
+      338            4 10.929098  55.60942 11.199718  55.67658       11.138133
       339            3 11.000891  55.68687 11.192095  55.75763       11.089945
       340            3 10.867132  55.71549 11.025389  55.75331       10.948190
       341            3 11.052430  55.68239 11.106342  55.69797       11.079634
@@ -10750,24 +10830,24 @@
       352            3 11.812763  55.37285 11.960991  55.44791       11.909665
       353            3 11.830209  55.45778 11.942855  55.52039       11.893990
       354            5 11.881034  55.36426 11.980639  55.41525       11.926817
-      355           10 11.307240  55.23876 11.485843  55.35368       11.413353
-      356            6 11.291456  55.31582 11.422576  55.38607       11.331890
-      357            7 11.383790  55.32900 11.523733  55.40097       11.468478
-      358            6 10.944094  55.30158 11.228761  55.34422       11.200351
-      359            8 11.091664  55.33102 11.165173  55.37073       11.133584
-      360            9 11.133319  55.33888 11.233146  55.39447       11.195922
-      361            6 11.209689  55.30493 11.321307  55.39533       11.259164
-      362            6 11.359404  55.38714 11.516021  55.44496       11.457440
+      355           11 11.209689  55.30493 11.321307  55.39533       11.259164
+      356            1 11.133319  55.33888 11.233146  55.39447       11.195922
+      357            7 11.091664  55.33102 11.165173  55.37073       11.133584
+      358            8 10.944094  55.30158 11.228761  55.34422       11.200351
+      359            7 11.189221  55.26172 11.307734  55.33201       11.252578
+      360            9 11.229399  55.18605 11.414004  55.31599       11.339079
+      361           10 11.165595  55.18369 11.222618  55.25109       11.187357
+      362            7 11.132100  55.13953 11.180262  55.17755       11.150306
       363            7 11.376172  55.18424 11.521557  55.27107       11.450078
-      364            4 11.229399  55.18605 11.414004  55.31599       11.339079
-      365            3 11.165595  55.18369 11.222618  55.25109       11.187357
-      366            6 11.189221  55.26172 11.307734  55.33201       11.252578
-      367            3 11.132100  55.13953 11.180262  55.17755       11.150306
-      368            7 11.321577  55.37438 11.443701  55.41181       11.364186
-      369            7 11.254226  55.37475 11.348945  55.43692       11.299924
-      370            6 11.306736  55.40528 11.396726  55.45024       11.352413
-      371            6 11.325060  55.41329 11.515586  55.51208       11.427974
-      372           10 11.185950  55.37490 11.340046  55.48056       11.248381
+      364            8 11.307240  55.23876 11.485843  55.35368       11.413353
+      365            5 11.291456  55.31582 11.422576  55.38607       11.331890
+      366            4 11.383790  55.32900 11.523733  55.40097       11.468478
+      367            7 11.325060  55.41329 11.515586  55.51208       11.427974
+      368            1 11.185950  55.37490 11.340046  55.48056       11.248381
+      369            1 11.254226  55.37475 11.348945  55.43692       11.299924
+      370            1 11.306736  55.40528 11.396726  55.45024       11.352413
+      371            4 11.359404  55.38714 11.516021  55.44496       11.457440
+      372            1 11.321577  55.37438 11.443701  55.41181       11.364186
       373            7 12.101095  55.28511 12.320629  55.40094       12.223330
       374            4 12.184565  55.35696 12.384996  55.42817       12.331147
       375            5 12.294152  55.28411 12.463312  55.38992       12.383301
@@ -10886,7 +10966,7 @@
       488            5  9.872433  55.33836 10.005871  55.44041        9.963840
       489            4  9.904224  55.44026 10.042848  55.53096        9.981990
       490            7  9.972634  55.42103 10.091966  55.48458       10.029583
-      491            1 15.171989  55.31682 15.199141  55.33081       15.189028
+      491            2 15.171989  55.31682 15.199141  55.33081       15.189028
       492            5  9.783101  55.23100  9.977215  55.33257        9.922778
       493            5  9.915770  55.12030 10.052809  55.27620        9.975334
       494            4  9.940285  55.26091 10.056877  55.32827        9.992472
@@ -11375,325 +11455,335 @@
       977            6  9.576019  56.20063  9.675159  56.28808        9.635089
       978            7  9.562760  56.17373  9.655843  56.21958        9.608793
       979            6  9.382903  56.26387  9.553181  56.32544        9.441460
-      980            4  9.306727  56.16646  9.446379  56.24677        9.398928
-      981            5  9.452305  56.20795  9.606362  56.26619        9.557195
+      980            5  9.306727  56.16626  9.499096  56.24677        9.400486
+      981            6  9.452223  56.20102  9.606362  56.26619        9.544396
       982            4  9.623982  56.11346  9.758728  56.17672        9.703840
       983            3  9.605344  56.16405  9.688097  56.19130        9.654314
-      984            6  9.425333  56.19555  9.567508  56.23303        9.529860
-      985            4  9.567068  56.12054  9.673884  56.16245        9.616389
-      986            5  9.381939  56.29634  9.482670  56.36973        9.436897
-      987            4  9.742146  56.15845  9.861559  56.19781        9.771171
-      988            7  9.222076  56.20479  9.410646  56.36120        9.330517
-      989            5  9.303916  56.21768  9.491023  56.27867        9.419818
-      990            3  9.646989  56.16689  9.752428  56.22090        9.688684
-      991            7  9.492825  56.17768  9.561827  56.21873        9.515463
-      992            7  9.447123  55.99335  9.609036  56.06316        9.561323
-      993            6  9.436621  56.16385  9.526809  56.20299        9.479167
-      994            4  9.396255  56.07158  9.538554  56.14644        9.459913
-      995            7  9.307539  56.00140  9.484165  56.10005        9.396489
-      996            3  9.553767  56.14362  9.636018  56.17599        9.593655
-      997            4  9.475379  56.13450  9.528486  56.17508        9.509249
-      998            5  9.520005  56.17035  9.554743  56.19200        9.537021
-      999            6  9.536446  56.16998  9.603232  56.20433        9.563234
-      1000           5  9.452970  56.04445  9.652342  56.13511        9.578084
-      1001           3  9.515807  56.14124  9.575440  56.17515        9.542609
-      1002           3  9.504795  56.11498  9.605682  56.15539        9.564271
-      1003           3 10.523148  55.76204 10.794138  55.95156       10.586124
-      1004           3 10.517208  55.89603 10.665860  56.00287       10.545559
-      1005           4  9.796316  55.95300  9.997453  56.02882        9.856312
-      1006           4  9.851300  56.12549  9.936113  56.20410        9.889677
-      1007           4  9.632019  56.03665  9.769791  56.12177        9.682424
-      1008           6  9.934695  56.04693 10.094144  56.11434       10.028743
-      1009           4  9.727912  56.09905  9.887294  56.17170        9.803995
-      1010           4  9.704907  56.00534  9.948405  56.08437        9.864775
-      1011           3  9.875780  56.02726  9.977468  56.08181        9.900592
-      1012           4  9.701668  56.03627  9.865107  56.13010        9.805590
-      1013           4  9.884011  56.14168  9.997826  56.21748        9.940256
-      1014           3  9.915648  56.03806 10.019943  56.09372        9.987577
-      1015           4  9.854215  56.07436  9.982663  56.14598        9.908705
-      1016           4  9.945627  55.98052 10.071357  56.06460       10.007679
-      1017           9 10.180299  56.11771 10.256959  56.16162       10.199364
-      1018           5 10.174638  56.13863 10.194566  56.14911       10.181012
-      1019           5 10.145089  56.09208 10.197128  56.12278       10.174249
-      1020           6 10.183123  56.10874 10.215518  56.12531       10.200806
-      1021           6 10.058833  56.06952 10.176264  56.11125       10.133907
-      1022           6 10.169748  56.12049 10.194720  56.13982       10.182432
-      1023           6 10.110632  56.10854 10.176003  56.14410       10.152269
-      1024           5 10.191180  56.04629 10.269903  56.08459       10.231111
-      1025           7 10.203003  56.14667 10.223232  56.17079       10.214252
-      1026           5 10.160087  56.00521 10.271728  56.05621       10.215329
-      1027           5 10.117013  56.04732 10.210031  56.09923       10.174252
-      1028           5 10.028483  55.99467 10.170004  56.07428       10.115072
-      1029           3 10.213570  56.15743 10.232635  56.16973       10.227293
-      1030           5  9.995670  56.10059 10.092301  56.14836       10.055674
-      1031          10 10.043055  56.08773 10.128489  56.12491       10.079985
-      1032           5 10.086406  56.12085 10.138119  56.14781       10.111443
-      1033           3 10.172768  56.14054 10.202492  56.15689       10.183553
-      1034           9 10.192730  56.14654 10.208562  56.16047       10.202520
-      1035           7 10.142644  56.15309 10.176506  56.16290       10.164506
-      1036           6 10.130561  56.15988 10.174040  56.18167       10.145656
-      1037           5 10.043672  56.13772 10.132224  56.17026       10.067881
-      1038           6 10.121930  56.14035 10.146967  56.17038       10.133427
-      1039           6 10.055201  56.16055 10.134290  56.19219       10.086788
-      1040           6 10.167978  56.15300 10.195176  56.16373       10.182754
-      1041           9 10.070862  56.17887 10.169488  56.22160       10.114835
-      1042           5  9.947674  56.10747 10.045520  56.18013       10.002037
-      1043           5  9.981382  56.15337 10.070618  56.20766       10.012270
-      1044           5  9.995471  56.18425 10.108178  56.23218       10.058215
-      1045           6 10.196020  56.15921 10.211478  56.17192       10.203235
-      1046           6 10.197933  56.16789 10.235324  56.18326       10.216705
-      1047          10 10.180497  56.15741 10.199097  56.17427       10.189177
-      1048           8 10.134932  56.18564 10.209561  56.24118       10.168952
-      1049           5 10.218018  56.18022 10.287286  56.20793       10.231616
-      1050           5 10.171870  56.21474 10.266637  56.26326       10.223931
-      1051           5 10.241685  56.23282 10.297683  56.28474       10.275510
-      1052           5 10.239825  56.20193 10.295261  56.23338       10.272173
-      1053           5 10.265139  56.21601 10.353405  56.26105       10.317486
-      1054           6 10.277732  56.24407 10.389815  56.29775       10.318840
-      1055           6 10.121690  56.21572 10.208243  56.28206       10.160264
-      1056           6 10.125219  56.27608 10.193548  56.30928       10.149460
-      1057           5 10.164824  56.25666 10.276730  56.33097       10.228334
-      1058           6 10.182332  56.18286 10.220771  56.20494       10.200579
-      1059           5 10.124294  56.10804 10.161301  56.12006       10.148006
-      1060           6 10.156399  56.16164 10.189539  56.18867       10.175805
-      1061           6 10.137651  56.13926 10.180390  56.15629       10.164555
-      1062           5 10.197054  56.19494 10.256471  56.21860       10.221157
-      1063           5 10.190357  56.07772 10.250945  56.12511       10.227999
-      1064           6 10.177338  56.17071 10.205991  56.19309       10.193874
-      1065           6 10.192580  56.18063 10.218338  56.18973       10.202299
-      1066           7  9.124781  55.93124  9.370686  56.05039        9.208623
-      1067           7  9.185428  55.98521  9.434925  56.07413        9.307878
-      1068           6  9.332529  55.90956  9.474925  56.00824        9.397692
-      1069           7  9.438214  55.89953  9.560382  55.98811        9.478457
-      1070           8  8.982441  55.86913  9.222586  56.00591        9.116949
-      1071           4  8.957713  55.83062  9.094876  55.91639        9.026661
-      1072           4  9.070677  56.09401  9.225888  56.20986        9.151807
-      1073           5  9.108584  56.04737  9.313685  56.12111        9.200088
-      1074           5  9.108796  56.07851  9.352123  56.27615        9.274213
-      1075           5  9.220846  56.08767  9.423618  56.22577        9.315871
-      1076           6  8.330191  55.83718  8.572421  55.93450        8.501695
-      1077           6  8.101375  56.09291  8.244370  56.17693        8.173016
-      1078           1  8.558842  55.80553  8.843056  55.93514        8.751117
-      1079           1  8.174358  55.77150  8.546978  55.89985        8.416959
-      1080           5  8.096765  55.81501  8.202105  56.09792        8.174011
-      1081           6  8.271203  56.00869  8.372686  56.08728        8.332142
-      1082           6  8.226917  56.07193  8.320272  56.12645        8.262640
-      1083           6  8.183174  56.08074  8.402446  56.18300        8.301603
-      1084           5  8.340808  56.01447  8.483734  56.08852        8.412645
-      1085           6  8.118195  56.15305  8.485376  56.26429        8.201008
-      1086           5  8.432040  55.91912  8.600086  55.98805        8.488793
-      1087           7  8.568342  55.90938  8.748125  56.01910        8.659571
-      1088           5  8.436481  55.95758  8.693803  56.08149        8.569120
-      1089           5  8.276414  55.91140  8.500865  56.02930        8.398528
-      1090           5  8.547670  56.04302  8.655627  56.12464        8.605140
-      1091           5  8.590994  55.96126  8.803330  56.07068        8.707700
-      1092           6  8.610711  56.04859  8.864470  56.14589        8.712476
-      1093           6  8.355089  56.07257  8.627565  56.19489        8.496880
-      1094           4  9.652401  55.73759  9.815811  55.79820        9.705142
-      1095           3  9.661539  55.78221  9.746967  55.82478        9.702881
-      1096           6  9.584682  55.75162  9.679613  55.83851        9.637159
-      1097           4  9.671851  55.70096  9.776851  55.75838        9.707318
-      1098           4  9.669572  55.81386  9.745656  55.86707        9.707326
-      1099           4  9.711122  55.78972  9.789944  55.84918        9.738956
-      1100           4  9.920345  55.69274 10.083241  55.77747        9.972292
-      1101           4  9.804046  55.67358  9.953363  55.74743        9.880095
-      1102           5  9.765819  55.75205  9.911962  55.81273        9.816648
-      1103           3  9.817848  55.73337  9.907072  55.78831        9.870121
-      1104           4  9.715125  55.66865  9.851153  55.75519        9.795259
-      1105           4  9.889715  55.72370  9.999529  55.80478        9.941169
-      1106           4  9.910758  55.77131 10.102431  55.84464        9.984152
-      1107           3  9.563080  55.82521  9.695077  55.92521        9.640744
-      1108          10  9.513549  55.77214  9.615478  55.83307        9.563160
-      1109           4  9.439937  55.83180  9.558025  55.88831        9.489734
-      1110           5  9.530956  55.82565  9.614504  55.86784        9.573790
-      1111           8  9.385731  55.86135  9.619937  55.92415        9.537124
-      1112           5  9.482602  55.79751  9.553257  55.85300        9.526156
-      1113           4  8.747733  56.85783  9.012292  56.98466        8.872195
-      1114           4  8.608245  56.78283  8.848080  56.89686        8.715908
-      1115           3  8.608287  56.66860  8.841543  56.78675        8.760548
-      1116           4  8.500846  56.69980  8.706424  56.80978        8.624617
-      1117           4  8.751368  56.76546  8.879823  56.82749        8.820691
-      1118           3  8.950742  56.79619  9.083800  56.84664        9.001132
-      1119           3  8.850906  56.48911  9.061111  56.62257        8.918882
-      1120           3  9.030763  56.51613  9.296043  56.66453        9.156750
-      1121           1  8.822510  56.56197  9.024050  56.69703        8.907928
-      1122           1  8.673816  56.54689  8.883437  56.69519        8.783014
-      1123           2  8.824783  56.70500  9.020702  56.79729        8.909407
-      1124           2  8.855760  56.61095  9.075408  56.73899        8.982787
-      1125           1  8.934633  56.63110  9.200571  56.80829        9.062558
-      1126           8  8.616825  56.91702  8.768855  57.02244        8.704426
-      1127           4  8.387122  56.84886  8.648863  56.93458        8.572212
-      1128           3  8.355072  56.67017  8.547214  56.81080        8.431727
-      1129           4  8.532791  57.05930  8.816176  57.12955        8.628266
-      1130           7  8.438779  56.90185  8.655956  57.04613        8.546555
-      1131           5  8.871579  56.97349  9.096024  57.06438        8.976331
-      1132           6  8.210070  56.67357  8.401382  56.81429        8.341324
-      1133           6  8.233464  56.76807  8.456554  56.90448        8.345312
-      1134           5  8.548766  56.98861  8.762674  57.07810        8.660253
-      1135           6  8.804248  57.04519  9.061797  57.15905        8.968991
-      1136           6  8.309140  56.89154  8.497404  57.02944        8.402288
-      1137           3  8.395105  56.79645  8.615894  56.89592        8.487893
-      1138           4  8.730971  56.98806  8.949427  57.09052        8.827449
-      1139           3  8.743679  56.94633  8.848411  57.00900        8.781924
-      1140           6  8.458550  57.01790  8.562477  57.06734        8.513573
-      1141           6  9.115673  56.29527  9.326459  56.39605        9.253854
-      1142           8  9.216949  56.34111  9.444202  56.43769        9.343499
-      1143           6  9.042353  56.21833  9.263736  56.37015        9.157998
-      1144           6  9.196167  56.46729  9.436062  56.57253        9.302477
-      1145           6  9.075396  56.38042  9.266482  56.49876        9.180546
-      1146           5  9.032521  56.45865  9.218815  56.53611        9.139030
-      1147           7  8.971688  56.36477  9.123539  56.52584        9.028594
-      1148          10  9.250270  56.39892  9.431734  56.49943        9.367398
-      1149           7  9.544813  56.30611  9.774046  56.45165        9.647427
-      1150           6  9.671560  56.43986  9.796499  56.57007        9.736904
-      1151           8  9.415658  56.54695  9.678021  56.68357        9.563748
-      1152          11  9.405631  56.36765  9.559929  56.50083        9.472231
-      1153           6  9.390153  56.46245  9.735105  56.59147        9.496495
-      1154           6  9.440898  56.30800  9.619004  56.40338        9.537608
-      1155           9  9.286382  56.53481  9.476528  56.67276        9.365274
-      1156           5  9.514939  56.42316  9.700456  56.54256        9.621862
-      1157           6 10.332044  57.17773 10.423352  57.23884       10.382965
-      1158           6 10.309878  57.06945 10.442731  57.18301       10.364365
-      1159           6 10.184323  57.10528 10.376853  57.21300       10.282210
-      1160           9 10.229079  57.19618 10.384145  57.27819       10.313682
-      1161           6 10.098031  57.11135 10.261597  57.21950       10.159636
-      1162           6 10.030360  57.14849 10.267522  57.25187       10.175983
-      1163           7  9.836244  57.21532 10.018265  57.30117        9.915079
-      1164           6  9.824227  57.28834  9.928107  57.34301        9.880188
-      1165           6  9.738432  57.21641  9.913709  57.31695        9.828028
-      1166           6  9.928072  57.18592 10.081711  57.27701       10.003036
-      1167           5 10.028694  57.20081 10.136521  57.26681       10.096442
-      1168           6  9.988721  57.24537 10.223986  57.33998       10.149037
-      1169           6  9.917747  57.28828 10.046640  57.33645        9.970836
-      1170           8 10.466872  57.68635 10.652457  57.75433       10.516054
-      1171           3 10.267596  57.51957 10.527196  57.70565       10.384580
-      1172           5 10.348342  57.49449 10.479695  57.57211       10.407130
-      1173           5 10.368526  57.45669 10.516219  57.51103       10.446682
-      1174           5 10.446381  57.46516 10.530686  57.51172       10.485280
-      1175           6 10.453989  57.37538 10.628102  57.50115       10.520215
-      1176           9 10.297397  57.38786 10.480621  57.48122       10.365494
-      1177           6 10.376552  57.37233 10.497399  57.46087       10.421748
-      1178           5 10.380829  57.27148 10.549567  57.39060       10.486401
-      1179           6 10.290029  57.25808 10.429969  57.30981       10.368498
-      1180           5 10.329782  57.29772 10.432770  57.38627       10.383585
-      1181           7 10.258785  57.28507 10.358482  57.38262       10.305571
-      1182           5 10.364141  57.16884 10.551414  57.28083       10.464698
-      1183           5 10.399860  57.25514 10.502701  57.35504       10.454235
-      1184           9 10.179613  57.24615 10.323734  57.38541       10.252368
-      1185           9  9.421868  56.66853  9.627652  56.74342        9.534176
-      1186           2  9.259706  56.72687  9.461205  56.82630        9.335870
-      1187           3  9.168244  56.75480  9.291534  56.83909        9.224215
-      1188           4  9.445115  56.77434  9.594577  56.88892        9.516836
-      1189           3  9.159859  56.66474  9.347117  56.75824        9.284465
-      1190           3  9.378031  56.73156  9.550156  56.78996        9.490756
-      1191           7  9.308945  56.63682  9.476633  56.73767        9.378436
-      1192           4  9.379885  56.80469  9.521526  56.93327        9.466980
-      1193           3  9.254040  56.80830  9.428329  56.89770        9.350558
-      1194           4  9.170308  56.92609  9.331585  57.03075        9.267688
-      1195           3  9.068293  56.85967  9.380983  56.94936        9.220988
-      1196           4  9.283678  56.88277  9.441012  57.01244        9.360616
-      1197           3  9.203141  56.83040  9.348720  56.90227        9.255293
-      1198           6  9.548171  56.79488  9.660553  56.89537        9.595553
-      1199           2 10.853633  57.17081 11.202740  57.36572       11.008011
-      1200           3  9.738870  56.80643  9.879305  56.92323        9.805919
-      1201           3  9.815694  56.79748  9.984509  56.90733        9.906908
-      1202           3  9.899518  56.78925 10.104539  56.86907        9.979610
-      1203           5  9.612154  56.78861  9.815061  56.88506        9.706208
-      1204           6  9.517105  56.65095  9.751524  56.80330        9.676460
-      1205           3  9.600844  56.73909  9.711131  56.80345        9.660023
-      1206           3  9.708476  56.89413  9.837824  56.97155        9.775167
-      1207           3 10.044706  56.75384 10.230677  56.87312       10.128000
-      1208           3  9.690525  56.71721  9.813449  56.79633        9.736524
-      1209           3  9.960767  56.79216 10.132153  56.91192       10.012849
-      1210           2  9.574379  56.86244  9.747443  56.92673        9.684805
-      1211           4 10.036782  56.64546 10.197616  56.70577       10.118370
-      1212           6  9.867422  56.56994 10.134205  56.68315       10.027675
-      1213           4  9.837262  56.73775 10.058585  56.80436        9.890992
-      1214           4  9.801537  56.64450 10.021929  56.72107        9.907822
-      1215           4  9.746253  56.68126 10.027966  56.81652        9.838780
-      1216           5  9.987870  56.68904 10.261171  56.76653       10.076279
-      1217           4 10.121311  56.72971 10.234096  56.79832       10.188656
-      1218           5 10.187462  56.70270 10.339753  56.86113       10.258635
-      1219          12  9.527137  56.61224  9.814686  56.72005        9.608403
-      1220           5  9.635240  56.55005  9.889727  56.62915        9.774679
-      1221           4  9.761995  56.59238  9.902292  56.66412        9.858937
-      1222           4  9.697975  57.11820  9.850005  57.22963        9.797570
-      1223           3  9.754086  57.12346  9.844051  57.18121        9.812564
-      1224           4  9.821113  57.13681  9.920574  57.20826        9.875121
-      1225           4  9.607325  57.09498  9.776352  57.17763        9.705797
-      1226           4  9.648631  57.06086  9.794650  57.10825        9.730361
-      1227           4  9.637840  57.29383  9.773583  57.35596        9.703659
-      1228           3  9.697293  57.25962  9.784698  57.30627        9.759600
-      1229           4  9.493920  57.07398  9.570198  57.13573        9.527577
-      1230           4  9.516610  57.03323  9.652426  57.14356        9.579652
-      1231           4  9.580022  57.08822  9.685927  57.16590        9.616584
-      1232           4  9.366420  57.08915  9.609968  57.19684        9.454251
-      1233           4  9.414231  57.02859  9.531509  57.11695        9.472150
-      1234           4  9.211980  57.07613  9.395929  57.16211        9.291506
-      1235           4  9.029885  57.03106  9.238742  57.15864        9.124247
-      1236           4  9.145396  57.01805  9.327937  57.08975        9.216930
-      1237           4  9.241070  57.00704  9.435384  57.10303        9.374141
-      1238           4  9.540246  57.16382  9.774554  57.26361        9.657456
-      1239           4  9.474965  57.18076  9.669711  57.28110        9.597165
-      1240           4  9.607488  57.22286  9.762310  57.30632        9.686818
-      1241           6  9.895885  57.05489  9.932554  57.10008        9.910512
-      1242           5  9.839117  57.05647  9.935696  57.10921        9.877373
-      1243           7  9.911160  57.05309 10.000860  57.11017        9.950310
-      1244           6  9.742074  57.08910  9.928477  57.14325        9.862290
-      1245           1  9.896534  57.10341 10.001131  57.15255        9.958258
-      1246           8  9.835097  57.13361 10.048277  57.23098        9.959831
-      1247           8  9.972641  57.07144 10.162598  57.17797       10.062430
-      1248           3  9.916317  57.03899  9.931508  57.04558        9.922554
-      1249           7  9.812654  57.04552  9.909554  57.08495        9.843494
-      1250           6  9.897491  57.04910  9.917977  57.05710        9.908152
-      1251           5  9.897287  57.03712  9.932217  57.05325        9.910066
-      1252           7  9.888703  57.01051  9.929174  57.04075        9.909609
-      1253           5  9.829110  56.99008  9.903818  57.02473        9.863139
-      1254           5  9.828279  57.02982  9.903005  57.05147        9.869360
-      1255           3  9.847919  57.01741  9.897354  57.03595        9.867067
-      1256           7  9.668910  56.95628  9.849853  57.05316        9.763292
-      1257           4  9.772523  56.94197  9.875449  56.99747        9.831556
-      1258           7  9.919324  57.02936  9.945497  57.04285        9.929025
-      1259           3  9.925689  57.04015  9.962889  57.05499        9.936952
-      1260           6  9.931824  56.99948 10.010405  57.03330        9.976280
-      1261           5  9.935678  57.02080  9.964715  57.04493        9.947502
-      1262           7  9.948065  57.01912  9.975970  57.05376        9.961527
-      1263           6  9.957655  57.02866 10.070923  57.07949       10.003925
-      1264           4 10.012118  56.98564 10.100321  57.04594       10.062247
-      1265           5  9.888336  56.98309  9.970261  57.01446        9.929851
-      1266           6  9.929267  56.89981 10.089894  57.02322       10.007378
-      1267           3  9.903401  57.00688  9.952118  57.03207        9.922038
-      1268           5  9.822765  56.88469  9.955997  57.00330        9.885844
-      1269           6  9.967141  57.01646 10.034818  57.03872       10.001518
-      1270           4 10.036176  56.99724 10.257790  57.11791       10.163111
-      1271           4 10.199769  56.95137 10.389516  57.09106       10.285127
-      1272           4 10.217489  57.04359 10.336659  57.11073       10.281431
-      1273           6  9.503953  56.87676  9.731984  57.01291        9.659909
-      1274           5  9.390076  56.91708  9.613638  57.02635        9.477665
-      1275           6 10.055726  56.86898 10.181932  56.94246       10.120437
-      1276           4 10.137087  56.81008 10.308293  56.98802       10.214819
-      1277           6 10.023220  56.92293 10.192269  57.03299       10.113639
-      1278           6  9.949831  57.52907 10.075873  57.59283       10.022203
-      1279           6  9.929942  57.56726 10.005658  57.59970        9.968996
-      1280           6  9.974654  57.44642 10.006136  57.47043        9.990980
-      1281           6  9.863286  57.48926  9.988691  57.57844        9.933674
-      1282           5 10.136353  57.50428 10.265262  57.56521       10.199792
-      1283           6 10.050082  57.53426 10.337733  57.62059       10.266739
-      1284           5 10.043623  57.32274 10.243973  57.42567       10.140786
-      1285           5  9.931944  57.31380 10.090565  57.42968       10.022286
-      1286           5  9.973915  57.49036 10.149347  57.56465       10.099891
-      1287           6  9.773746  57.43401  9.922402  57.51635        9.862336
-      1288           5  9.905849  57.45397 10.047760  57.51444       10.001455
-      1289           6  9.937999  57.41208 10.078691  57.45662       10.023465
-      1290           5  9.906183  57.41916  9.989969  57.47997        9.950938
-      1291           5  9.787565  57.31972 10.001600  57.42692        9.886273
-      1292           6  9.746747  57.39583  9.929104  57.45277        9.798226
-      1293           5  9.688909  57.30670  9.833548  57.41712        9.747471
-      1294           5 10.125611  57.43762 10.266136  57.52515       10.194085
-      1295           5 10.030499  57.44507 10.150646  57.51025       10.090299
-      1296           6 10.225708  57.44613 10.414681  57.55467       10.295524
-      1297           8 10.049455  57.39277 10.259971  57.46096       10.163708
-      1298           9 10.202667  57.37496 10.394707  57.48897       10.286978
+      984            4  9.567068  56.12054  9.673884  56.16245        9.616389
+      985            5  9.381939  56.29634  9.482670  56.36973        9.436897
+      986            4  9.742146  56.15845  9.861559  56.19781        9.771171
+      987            7  9.222076  56.20479  9.410646  56.36120        9.330517
+      988            5  9.303916  56.21768  9.491023  56.27867        9.419818
+      989            3  9.646989  56.16689  9.752428  56.22090        9.688684
+      990            7  9.492825  56.17768  9.561827  56.21873        9.515463
+      991            7  9.447123  55.99335  9.609036  56.06316        9.561323
+      992            6  9.436621  56.16385  9.526809  56.20299        9.479167
+      993            4  9.396255  56.07158  9.538554  56.14644        9.459913
+      994            7  9.307539  56.00140  9.484165  56.10005        9.396489
+      995            3  9.553767  56.14362  9.636018  56.17599        9.593655
+      996            5  9.520005  56.17035  9.554743  56.19200        9.537021
+      997            6  9.536446  56.16998  9.603232  56.20433        9.563234
+      998            5  9.452970  56.04445  9.652342  56.13511        9.578084
+      999            4  9.475379  56.13429  9.575440  56.17531        9.523057
+      1000           3  9.504795  56.11498  9.605682  56.15539        9.564271
+      1001           3 10.523148  55.76204 10.794138  55.95156       10.586124
+      1002           3 10.517208  55.89603 10.665860  56.00287       10.545559
+      1003           4  9.796316  55.95300  9.997453  56.02882        9.856312
+      1004           4  9.851300  56.12549  9.936113  56.20410        9.889677
+      1005           4  9.632019  56.03665  9.769791  56.12177        9.682424
+      1006           6  9.934695  56.04693 10.094144  56.11434       10.028743
+      1007           4  9.727912  56.09905  9.887294  56.17170        9.803995
+      1008           4  9.704907  56.00534  9.948405  56.08437        9.864775
+      1009           3  9.875780  56.02726  9.977468  56.08181        9.900592
+      1010           4  9.701668  56.03627  9.865107  56.13010        9.805590
+      1011           4  9.884011  56.14168  9.997826  56.21748        9.940256
+      1012           3  9.915648  56.03806 10.019943  56.09372        9.987577
+      1013           4  9.854215  56.07436  9.982663  56.14598        9.908705
+      1014           4  9.945627  55.98052 10.071357  56.06460       10.007679
+      1015           9 10.180299  56.11771 10.256959  56.16162       10.199364
+      1016           5 10.174638  56.13863 10.194566  56.14911       10.181012
+      1017           5 10.145089  56.09208 10.197128  56.12278       10.174249
+      1018           6 10.183123  56.10874 10.215518  56.12531       10.200806
+      1019           6 10.058833  56.06952 10.176264  56.11125       10.133907
+      1020           6 10.169748  56.12049 10.194720  56.13982       10.182432
+      1021           6 10.110632  56.10854 10.176003  56.14410       10.152269
+      1022           5 10.191180  56.04629 10.269903  56.08459       10.231111
+      1023           7 10.203003  56.14667 10.223232  56.17079       10.214252
+      1024           5 10.160087  56.00521 10.271728  56.05621       10.215329
+      1025           5 10.117013  56.04732 10.210031  56.09923       10.174252
+      1026           5 10.028483  55.99467 10.170004  56.07428       10.115072
+      1027           3 10.213570  56.15743 10.232635  56.16973       10.227293
+      1028           5  9.995670  56.10059 10.092301  56.14836       10.055674
+      1029          10 10.043055  56.08773 10.128489  56.12491       10.079985
+      1030           5 10.086406  56.12085 10.138119  56.14781       10.111443
+      1031           3 10.172768  56.14054 10.202492  56.15689       10.183553
+      1032           9 10.192730  56.14654 10.208562  56.16047       10.202520
+      1033           7 10.142644  56.15309 10.176506  56.16290       10.164506
+      1034           6 10.130561  56.15988 10.174040  56.18167       10.145656
+      1035           5 10.043672  56.13772 10.132224  56.17026       10.067881
+      1036           6 10.121930  56.14035 10.146967  56.17038       10.133427
+      1037           6 10.055201  56.16055 10.134290  56.19219       10.086788
+      1038           6 10.167978  56.15300 10.195176  56.16373       10.182754
+      1039           9 10.070862  56.17887 10.169488  56.22160       10.114835
+      1040           5  9.947674  56.10747 10.045520  56.18013       10.002037
+      1041           5  9.981382  56.15337 10.070618  56.20766       10.012270
+      1042           5  9.995471  56.18425 10.108178  56.23218       10.058215
+      1043           6 10.196020  56.15921 10.211478  56.17192       10.203235
+      1044           6 10.197933  56.16789 10.235324  56.18326       10.216705
+      1045          10 10.180497  56.15741 10.199097  56.17427       10.189177
+      1046           8 10.134932  56.18564 10.209561  56.24118       10.168952
+      1047           5 10.218018  56.18022 10.287286  56.20793       10.231616
+      1048           5 10.171870  56.21474 10.266637  56.26326       10.223931
+      1049           5 10.241685  56.23282 10.297683  56.28474       10.275510
+      1050           5 10.239825  56.20193 10.295261  56.23338       10.272173
+      1051           5 10.265139  56.21601 10.353405  56.26105       10.317486
+      1052           6 10.277732  56.24407 10.389815  56.29775       10.318840
+      1053           6 10.121690  56.21572 10.208243  56.28206       10.160264
+      1054           6 10.125219  56.27608 10.193548  56.30928       10.149460
+      1055           5 10.164824  56.25666 10.276730  56.33097       10.228334
+      1056           6 10.182332  56.18286 10.220771  56.20494       10.200579
+      1057           5 10.124294  56.10804 10.161301  56.12006       10.148006
+      1058           6 10.156399  56.16164 10.189539  56.18867       10.175805
+      1059           6 10.137651  56.13926 10.180390  56.15629       10.164555
+      1060           5 10.197054  56.19494 10.256471  56.21860       10.221157
+      1061           5 10.190357  56.07772 10.250945  56.12511       10.227999
+      1062           6 10.177338  56.17071 10.205991  56.19309       10.193874
+      1063           6 10.192580  56.18063 10.218338  56.18973       10.202299
+      1064           7  9.124781  55.93124  9.370686  56.05039        9.208623
+      1065           7  9.185428  55.98521  9.434925  56.07413        9.307878
+      1066           6  9.332529  55.90956  9.474925  56.00824        9.397692
+      1067           7  9.438214  55.89953  9.560382  55.98811        9.478457
+      1068           8  8.982441  55.86913  9.222586  56.00591        9.116949
+      1069           4  8.957713  55.83062  9.094876  55.91639        9.026661
+      1070           4  9.070677  56.09401  9.225888  56.20986        9.151807
+      1071           5  9.108584  56.04737  9.313685  56.12111        9.200088
+      1072           5  9.108796  56.07851  9.352123  56.27615        9.274213
+      1073           5  9.220846  56.08767  9.423618  56.22577        9.315871
+      1074           6  8.330191  55.83718  8.572421  55.93450        8.501695
+      1075           6  8.101375  56.09291  8.244370  56.17693        8.173016
+      1076           1  8.558842  55.80553  8.843056  55.93514        8.751117
+      1077           1  8.174358  55.77150  8.546978  55.89985        8.416959
+      1078           5  8.096765  55.81501  8.202105  56.09792        8.174011
+      1079           6  8.271203  56.00869  8.372686  56.08728        8.332142
+      1080           6  8.226917  56.07193  8.320272  56.12645        8.262640
+      1081           6  8.183174  56.08074  8.402446  56.18300        8.301603
+      1082           5  8.340808  56.01447  8.483734  56.08852        8.412645
+      1083           6  8.118195  56.15305  8.485376  56.26429        8.201008
+      1084           5  8.432040  55.91912  8.600086  55.98805        8.488793
+      1085           7  8.568342  55.90938  8.748125  56.01910        8.659571
+      1086           5  8.436481  55.95758  8.693803  56.08149        8.569120
+      1087           5  8.276414  55.91140  8.500865  56.02930        8.398528
+      1088           5  8.547670  56.04302  8.655627  56.12464        8.605140
+      1089           5  8.590994  55.96126  8.803330  56.07068        8.707700
+      1090           6  8.610711  56.04859  8.864470  56.14589        8.712476
+      1091           6  8.355089  56.07257  8.627565  56.19489        8.496880
+      1092           4  9.652401  55.73759  9.815811  55.79820        9.705142
+      1093           3  9.661539  55.78221  9.746967  55.82478        9.702881
+      1094           6  9.584682  55.75162  9.679613  55.83851        9.637159
+      1095           4  9.671851  55.70096  9.776851  55.75838        9.707318
+      1096           4  9.669572  55.81386  9.745656  55.86707        9.707326
+      1097           4  9.711122  55.78972  9.789944  55.84918        9.738956
+      1098           4  9.920345  55.69274 10.083241  55.77747        9.972292
+      1099           4  9.804046  55.67358  9.953363  55.74743        9.880095
+      1100           5  9.765819  55.75205  9.911962  55.81273        9.816648
+      1101           3  9.817848  55.73337  9.907072  55.78831        9.870121
+      1102           4  9.715125  55.66865  9.851153  55.75519        9.795259
+      1103           4  9.889715  55.72370  9.999529  55.80478        9.941169
+      1104           4  9.910758  55.77131 10.102431  55.84464        9.984152
+      1105           3  9.563080  55.82521  9.695077  55.92521        9.640744
+      1106          10  9.513549  55.77214  9.615478  55.83307        9.563160
+      1107           4  9.439937  55.83180  9.558025  55.88831        9.489734
+      1108           5  9.530956  55.82565  9.614504  55.86784        9.573790
+      1109           8  9.385731  55.86135  9.619937  55.92415        9.537124
+      1110           5  9.482602  55.79751  9.553257  55.85300        9.526156
+      1111           4  8.747733  56.85783  9.012292  56.98466        8.872195
+      1112           4  8.608245  56.78283  8.848080  56.89686        8.715908
+      1113           3  8.608287  56.66860  8.841543  56.78675        8.760548
+      1114           4  8.500846  56.69980  8.706424  56.80978        8.624617
+      1115           4  8.751368  56.76546  8.879823  56.82749        8.820691
+      1116           1  8.873596  56.55018  9.056460  56.62257        8.916314
+      1117           1  8.977275  56.56262  9.058706  56.61700        9.022966
+      1118           1  8.981282  56.51563  9.061017  56.56430        9.019024
+      1119           1  9.030763  56.51633  9.192017  56.61785        9.130359
+      1120           1  9.103321  56.52454  9.296043  56.66449        9.219805
+      1121           1  8.851128  56.48911  9.006878  56.56616        8.923882
+      1122           1  8.921915  56.56207  9.024014  56.63994        8.977684
+      1123           1  8.674252  56.56771  8.781916  56.64448        8.724002
+      1124           1  8.882204  56.61851  8.985395  56.67976        8.932159
+      1125           1  8.760692  56.61570  8.860761  56.69517        8.807109
+      1126           2  8.824444  56.70500  8.956015  56.79728        8.859274
+      1127           1  8.875136  56.71176  9.020686  56.76742        8.940308
+      1128           1  8.855760  56.66492  9.075408  56.73899        8.950843
+      1129           1  8.969034  56.61102  9.060263  56.69360        9.014607
+      1130           1  8.822510  56.58061  8.910899  56.69700        8.859713
+      1131           1  9.026090  56.63110  9.200189  56.73649        9.090430
+      1132           1  8.791244  56.54714  8.883437  56.62719        8.834861
+      1133           1  8.934633  56.72398  9.137902  56.80829        9.062548
+      1134           1  8.741662  56.55207  8.832886  56.62398        8.777292
+      1135           3  8.950742  56.79619  9.083800  56.84664        9.001132
+      1136           8  8.616825  56.91702  8.768855  57.02244        8.704426
+      1137           4  8.387122  56.84886  8.648863  56.93458        8.572212
+      1138           3  8.355072  56.67017  8.547214  56.81080        8.431727
+      1139           4  8.532791  57.05930  8.816176  57.12955        8.628266
+      1140           7  8.438779  56.90185  8.655956  57.04613        8.546555
+      1141           5  8.871579  56.97349  9.096024  57.06438        8.976331
+      1142           6  8.210070  56.67357  8.401382  56.81429        8.341324
+      1143           6  8.233464  56.76807  8.456554  56.90448        8.345312
+      1144           5  8.548766  56.98861  8.762674  57.07810        8.660253
+      1145           6  8.804248  57.04519  9.061797  57.15905        8.968991
+      1146           6  8.309140  56.89154  8.497404  57.02944        8.402288
+      1147           3  8.395105  56.79645  8.615894  56.89592        8.487893
+      1148           4  8.730971  56.98806  8.949427  57.09052        8.827449
+      1149           3  8.743679  56.94633  8.848411  57.00900        8.781924
+      1150           6  8.458550  57.01790  8.562477  57.06734        8.513573
+      1151           6  9.115673  56.29527  9.326459  56.39605        9.253854
+      1152           8  9.216949  56.34111  9.444202  56.43769        9.343499
+      1153           6  9.042353  56.21833  9.263736  56.37015        9.157998
+      1154           6  9.196167  56.46729  9.436062  56.57253        9.302477
+      1155           6  9.075396  56.38042  9.266482  56.49876        9.180546
+      1156           5  9.032521  56.45865  9.218815  56.53611        9.139030
+      1157           7  8.971688  56.36477  9.123539  56.52584        9.028594
+      1158          10  9.250270  56.39892  9.431734  56.49943        9.367398
+      1159           7  9.544813  56.30611  9.774046  56.45165        9.647427
+      1160           6  9.671560  56.43986  9.796499  56.57007        9.736904
+      1161           8  9.415658  56.54695  9.678021  56.68357        9.563748
+      1162          11  9.405631  56.36765  9.559929  56.50083        9.472231
+      1163           6  9.390153  56.46245  9.735105  56.59147        9.496495
+      1164           6  9.440898  56.30800  9.619004  56.40338        9.537608
+      1165           9  9.286382  56.53481  9.476528  56.67276        9.365274
+      1166           5  9.514939  56.42316  9.700456  56.54256        9.621862
+      1167           6 10.332044  57.17773 10.423352  57.23884       10.382965
+      1168           6 10.309878  57.06945 10.442731  57.18301       10.364365
+      1169           6 10.184323  57.10528 10.376853  57.21300       10.282210
+      1170           9 10.229079  57.19618 10.384145  57.27819       10.313682
+      1171           6 10.098031  57.11135 10.261597  57.21950       10.159636
+      1172           6 10.030360  57.14849 10.267522  57.25187       10.175983
+      1173           7  9.836244  57.21532 10.018265  57.30117        9.915079
+      1174           6  9.824227  57.28834  9.928107  57.34301        9.880188
+      1175           6  9.738432  57.21641  9.913709  57.31695        9.828028
+      1176           6  9.928072  57.18592 10.081711  57.27701       10.003036
+      1177           5 10.028694  57.20081 10.136521  57.26681       10.096442
+      1178           6  9.988721  57.24537 10.223986  57.33998       10.149037
+      1179           6  9.917747  57.28828 10.046640  57.33645        9.970836
+      1180           8 10.466872  57.68635 10.652457  57.75433       10.516054
+      1181           3 10.267596  57.51957 10.527196  57.70565       10.384580
+      1182           5 10.348342  57.49449 10.479695  57.57211       10.407130
+      1183           5 10.368526  57.45669 10.516219  57.51103       10.446682
+      1184           5 10.446381  57.46516 10.530686  57.51172       10.485280
+      1185           6 10.453989  57.37538 10.628102  57.50115       10.520215
+      1186           9 10.297397  57.38786 10.480621  57.48122       10.365494
+      1187           6 10.376552  57.37233 10.497399  57.46087       10.421748
+      1188           5 10.380829  57.27148 10.549567  57.39060       10.486401
+      1189           6 10.290029  57.25808 10.429969  57.30981       10.368498
+      1190           5 10.329782  57.29772 10.432770  57.38627       10.383585
+      1191           7 10.258785  57.28507 10.358482  57.38262       10.305571
+      1192           5 10.364141  57.16884 10.551414  57.28083       10.464698
+      1193           5 10.399860  57.25514 10.502701  57.35504       10.454235
+      1194           9 10.179613  57.24615 10.323734  57.38541       10.252368
+      1195           9  9.421868  56.66853  9.627652  56.74342        9.534176
+      1196           2  9.259706  56.72687  9.461205  56.82630        9.335870
+      1197           3  9.168244  56.75480  9.291534  56.83909        9.224215
+      1198           4  9.445115  56.77434  9.594577  56.88892        9.516836
+      1199           3  9.159859  56.66474  9.347117  56.75824        9.284465
+      1200           3  9.378031  56.73156  9.550156  56.78996        9.490756
+      1201           7  9.308945  56.63682  9.476633  56.73767        9.378436
+      1202           4  9.379885  56.80469  9.521526  56.93327        9.466980
+      1203           3  9.254040  56.80830  9.428329  56.89770        9.350558
+      1204           4  9.170308  56.92609  9.331585  57.03075        9.267688
+      1205           3  9.068293  56.85967  9.380983  56.94936        9.220988
+      1206           4  9.283678  56.88277  9.441012  57.01244        9.360616
+      1207           3  9.203141  56.83040  9.348720  56.90227        9.255293
+      1208           6  9.548171  56.79488  9.660553  56.89537        9.595553
+      1209           2 10.853633  57.17081 11.202740  57.36572       11.008011
+      1210           3  9.738870  56.80643  9.879305  56.92323        9.805919
+      1211           3  9.815694  56.79748  9.984509  56.90733        9.906908
+      1212           3  9.899518  56.78925 10.104539  56.86907        9.979610
+      1213           5  9.612154  56.78861  9.815061  56.88506        9.706208
+      1214           6  9.517105  56.65095  9.751524  56.80330        9.676460
+      1215           3  9.600844  56.73909  9.711131  56.80345        9.660023
+      1216           3  9.708476  56.89413  9.837824  56.97155        9.775167
+      1217           3 10.044706  56.75384 10.230677  56.87312       10.128000
+      1218           3  9.690525  56.71721  9.813449  56.79633        9.736524
+      1219           3  9.960767  56.79216 10.132153  56.91192       10.012849
+      1220           2  9.574379  56.86244  9.747443  56.92673        9.684805
+      1221           4 10.036782  56.64546 10.197616  56.70577       10.118370
+      1222           6  9.867422  56.56994 10.134205  56.68315       10.027675
+      1223           4  9.837262  56.73775 10.058585  56.80436        9.890992
+      1224           4  9.801537  56.64450 10.021929  56.72107        9.907822
+      1225           4  9.746253  56.68126 10.027966  56.81652        9.838780
+      1226           5  9.987870  56.68904 10.261171  56.76653       10.076279
+      1227           4 10.121311  56.72971 10.234096  56.79832       10.188656
+      1228           5 10.187462  56.70270 10.339753  56.86113       10.258635
+      1229          12  9.527137  56.61224  9.814686  56.72005        9.608403
+      1230           5  9.635240  56.55005  9.889727  56.62915        9.774679
+      1231           4  9.761995  56.59238  9.902292  56.66412        9.858937
+      1232           4  9.697975  57.11820  9.850005  57.22963        9.797570
+      1233           3  9.754086  57.12346  9.844051  57.18121        9.812564
+      1234           4  9.821113  57.13681  9.920574  57.20826        9.875121
+      1235           4  9.607325  57.09498  9.776352  57.17763        9.705797
+      1236           4  9.648631  57.06086  9.794650  57.10825        9.730361
+      1237           4  9.637840  57.29383  9.773583  57.35596        9.703659
+      1238           3  9.697293  57.25962  9.784698  57.30627        9.759600
+      1239           4  9.493920  57.07398  9.570198  57.13573        9.527577
+      1240           4  9.516610  57.03323  9.652426  57.14356        9.579652
+      1241           4  9.580022  57.08822  9.685927  57.16590        9.616584
+      1242           4  9.366420  57.08915  9.609968  57.19684        9.454251
+      1243           4  9.414231  57.02859  9.531509  57.11695        9.472150
+      1244           4  9.211980  57.07613  9.395929  57.16211        9.291506
+      1245           4  9.029885  57.03106  9.238742  57.15864        9.124247
+      1246           4  9.145396  57.01805  9.327937  57.08975        9.216930
+      1247           4  9.241070  57.00704  9.435384  57.10303        9.374141
+      1248           4  9.540246  57.16382  9.774554  57.26361        9.657456
+      1249           4  9.474965  57.18076  9.669711  57.28110        9.597165
+      1250           4  9.607488  57.22286  9.762310  57.30632        9.686818
+      1251           6  9.895885  57.05489  9.932554  57.10008        9.910512
+      1252           5  9.839117  57.05647  9.935696  57.10921        9.877373
+      1253           7  9.911160  57.05309 10.000860  57.11017        9.950310
+      1254           6  9.742074  57.08910  9.928477  57.14325        9.862290
+      1255           1  9.896534  57.10341 10.001131  57.15255        9.958258
+      1256           8  9.835097  57.13361 10.048277  57.23098        9.959831
+      1257           8  9.972641  57.07144 10.162598  57.17797       10.062430
+      1258           3  9.916317  57.03899  9.931508  57.04558        9.922554
+      1259           7  9.812654  57.04552  9.909554  57.08495        9.843494
+      1260           6  9.897491  57.04910  9.917977  57.05710        9.908152
+      1261           5  9.897287  57.03712  9.932217  57.05325        9.910066
+      1262           7  9.888703  57.01051  9.929174  57.04075        9.909609
+      1263           5  9.829110  56.99008  9.903818  57.02473        9.863139
+      1264           5  9.828279  57.02982  9.903005  57.05147        9.869360
+      1265           3  9.847919  57.01741  9.897354  57.03595        9.867067
+      1266           7  9.668910  56.95628  9.849853  57.05316        9.763292
+      1267           4  9.772523  56.94197  9.875449  56.99747        9.831556
+      1268           7  9.919324  57.02936  9.945497  57.04285        9.929025
+      1269           3  9.925689  57.04015  9.962889  57.05499        9.936952
+      1270           6  9.931824  56.99948 10.010405  57.03330        9.976280
+      1271           5  9.935678  57.02080  9.964715  57.04493        9.947502
+      1272           7  9.948065  57.01912  9.975970  57.05376        9.961527
+      1273           6  9.957655  57.02866 10.070923  57.07949       10.003925
+      1274           4 10.012118  56.98564 10.100321  57.04594       10.062247
+      1275           5  9.888336  56.98309  9.970261  57.01446        9.929851
+      1276           6  9.929267  56.89981 10.089894  57.02322       10.007378
+      1277           3  9.903401  57.00688  9.952118  57.03207        9.922038
+      1278           5  9.822765  56.88469  9.955997  57.00330        9.885844
+      1279           6  9.967141  57.01646 10.034818  57.03872       10.001518
+      1280           4 10.036176  56.99724 10.257790  57.11791       10.163111
+      1281           4 10.199769  56.95137 10.389516  57.09106       10.285127
+      1282           4 10.217489  57.04359 10.336659  57.11073       10.281431
+      1283           6  9.503953  56.87676  9.731984  57.01291        9.659909
+      1284           5  9.390076  56.91708  9.613638  57.02635        9.477665
+      1285           6 10.055726  56.86898 10.181932  56.94246       10.120437
+      1286           4 10.137087  56.81008 10.308293  56.98802       10.214819
+      1287           6 10.023220  56.92293 10.192269  57.03299       10.113639
+      1288           6  9.949831  57.52907 10.075873  57.59283       10.022203
+      1289           6  9.929942  57.56726 10.005658  57.59970        9.968996
+      1290           6  9.974654  57.44642 10.006136  57.47043        9.990980
+      1291           6  9.863286  57.48926  9.988691  57.57844        9.933674
+      1292           5 10.136353  57.50428 10.265262  57.56521       10.199792
+      1293           6 10.050082  57.53426 10.337733  57.62059       10.266739
+      1294           5 10.043623  57.32274 10.243973  57.42567       10.140786
+      1295           5  9.931944  57.31380 10.090565  57.42968       10.022286
+      1296           5  9.973915  57.49036 10.149347  57.56465       10.099891
+      1297           6  9.773746  57.43401  9.922402  57.51635        9.862336
+      1298           5  9.905849  57.45397 10.047760  57.51444       10.001455
+      1299           6  9.937999  57.41208 10.078691  57.45662       10.023465
+      1300           5  9.906183  57.41916  9.989969  57.47997        9.950938
+      1301           5  9.787565  57.31972 10.001600  57.42692        9.886273
+      1302           6  9.746747  57.39583  9.929104  57.45277        9.798226
+      1303           5  9.688909  57.30670  9.833548  57.41712        9.747471
+      1304           5 10.125611  57.43762 10.266136  57.52515       10.194085
+      1305           5 10.030499  57.44507 10.150646  57.51025       10.090299
+      1306           6 10.225708  57.44613 10.414681  57.55467       10.295524
+      1307           8 10.049455  57.39277 10.259971  57.46096       10.163708
+      1308           9 10.202667  57.37496 10.394707  57.48897       10.286978
            visueltcenter_y
       1           55.70476
       2           55.71087
@@ -12049,24 +12139,24 @@
       352         55.41549
       353         55.49139
       354         55.38642
-      355         55.32154
-      356         55.36089
-      357         55.36446
+      355         55.35067
+      356         55.36623
+      357         55.34968
       358         55.31881
-      359         55.34968
-      360         55.36623
-      361         55.35067
-      362         55.41601
+      359         55.30445
+      360         55.23831
+      361         55.20356
+      362         55.15836
       363         55.23884
-      364         55.23831
-      365         55.20356
-      366         55.30445
-      367         55.15836
-      368         55.38855
+      364         55.32154
+      365         55.36089
+      366         55.36446
+      367         55.45692
+      368         55.43979
       369         55.40144
       370         55.42617
-      371         55.45692
-      372         55.43979
+      371         55.41601
+      372         55.38855
       373         55.36244
       374         55.38233
       375         55.33160
@@ -12674,325 +12764,335 @@
       977         56.23572
       978         56.19206
       979         56.28514
-      980         56.20118
-      981         56.24332
+      980         56.20114
+      981         56.23269
       982         56.14668
       983         56.17842
-      984         56.21571
-      985         56.14282
-      986         56.33253
-      987         56.17720
-      988         56.28909
-      989         56.24672
-      990         56.19847
-      991         56.19533
-      992         56.03189
-      993         56.18254
-      994         56.10676
-      995         56.05614
-      996         56.15976
-      997         56.15917
-      998         56.17853
-      999         56.18413
-      1000        56.09090
-      1001        56.15892
-      1002        56.13201
-      1003        55.80308
-      1004        55.96596
-      1005        55.99125
-      1006        56.15409
-      1007        56.08098
-      1008        56.08770
-      1009        56.13286
-      1010        56.03689
-      1011        56.06500
-      1012        56.07716
-      1013        56.18970
-      1014        56.05995
-      1015        56.10785
-      1016        56.02377
-      1017        56.13994
-      1018        56.14268
-      1019        56.11045
-      1020        56.11580
-      1021        56.09111
-      1022        56.12757
-      1023        56.13006
-      1024        56.06360
-      1025        56.16615
-      1026        56.03096
-      1027        56.07168
-      1028        56.03527
-      1029        56.16598
-      1030        56.12646
-      1031        56.10456
-      1032        56.13533
-      1033        56.15037
-      1034        56.15695
-      1035        56.15860
-      1036        56.17471
-      1037        56.15218
-      1038        56.15432
-      1039        56.17531
-      1040        56.15703
-      1041        56.19952
-      1042        56.14135
-      1043        56.19159
-      1044        56.21092
-      1045        56.16355
-      1046        56.17502
-      1047        56.16386
-      1048        56.21989
-      1049        56.19067
-      1050        56.23535
-      1051        56.25290
-      1052        56.21374
-      1053        56.24128
-      1054        56.27495
-      1055        56.25816
-      1056        56.29067
-      1057        56.29727
-      1058        56.19542
-      1059        56.11308
-      1060        56.17877
-      1061        56.14909
-      1062        56.20606
-      1063        56.09180
-      1064        56.17685
-      1065        56.18412
-      1066        56.00963
-      1067        56.04080
-      1068        55.96396
-      1069        55.94884
-      1070        55.94439
-      1071        55.87741
-      1072        56.14083
-      1073        56.08669
-      1074        56.12746
-      1075        56.17215
-      1076        55.88723
-      1077        56.12820
-      1078        55.86627
-      1079        55.83226
-      1080        55.86177
-      1081        56.04079
-      1082        56.09759
-      1083        56.14493
-      1084        56.05724
-      1085        56.20066
-      1086        55.94692
-      1087        55.94935
-      1088        56.00480
-      1089        55.98485
-      1090        56.07210
-      1091        56.04078
-      1092        56.09657
-      1093        56.13048
-      1094        55.76328
-      1095        55.80124
-      1096        55.80627
-      1097        55.72483
-      1098        55.85377
-      1099        55.82222
-      1100        55.71152
-      1101        55.71224
-      1102        55.78198
-      1103        55.75252
-      1104        55.70316
-      1105        55.76675
-      1106        55.80455
-      1107        55.87775
-      1108        55.79572
-      1109        55.85742
-      1110        55.84524
-      1111        55.88516
-      1112        55.82885
-      1113        56.92110
-      1114        56.84384
-      1115        56.74813
-      1116        56.75867
-      1117        56.80047
-      1118        56.82526
-      1119        56.53420
-      1120        56.55955
-      1121        56.64683
-      1122        56.60150
-      1123        56.75000
-      1124        56.68813
-      1125        56.76068
-      1126        56.97653
-      1127        56.89392
-      1128        56.73909
-      1129        57.09957
-      1130        56.97472
-      1131        57.03626
-      1132        56.75868
-      1133        56.85240
-      1134        57.04035
-      1135        57.10657
-      1136        56.93979
-      1137        56.83617
-      1138        57.04574
-      1139        56.97558
-      1140        57.03512
-      1141        56.33727
-      1142        56.38716
-      1143        56.30524
-      1144        56.49535
-      1145        56.42914
-      1146        56.48909
-      1147        56.46364
-      1148        56.45007
-      1149        56.39957
-      1150        56.49757
-      1151        56.59315
-      1152        56.42666
-      1153        56.52122
-      1154        56.35604
-      1155        56.60144
-      1156        56.48322
-      1157        57.19682
-      1158        57.10963
-      1159        57.14829
-      1160        57.23766
-      1161        57.15496
-      1162        57.22199
-      1163        57.25209
-      1164        57.31620
-      1165        57.27863
-      1166        57.23351
-      1167        57.23678
-      1168        57.29433
-      1169        57.31359
-      1170        57.70550
-      1171        57.62378
-      1172        57.53106
-      1173        57.48093
-      1174        57.49203
-      1175        57.44733
-      1176        57.42804
-      1177        57.39723
-      1178        57.36245
-      1179        57.28216
-      1180        57.31937
-      1181        57.32442
-      1182        57.23071
-      1183        57.28296
-      1184        57.27834
-      1185        56.70875
-      1186        56.77688
-      1187        56.80450
-      1188        56.81139
-      1189        56.72348
-      1190        56.76077
-      1191        56.69720
-      1192        56.89931
-      1193        56.84142
-      1194        56.95242
-      1195        56.90246
-      1196        56.92869
-      1197        56.85581
-      1198        56.85244
-      1199        57.26614
-      1200        56.87482
-      1201        56.85949
-      1202        56.81117
-      1203        56.83174
-      1204        56.70644
-      1205        56.77677
-      1206        56.93136
-      1207        56.82191
-      1208        56.75459
-      1209        56.88190
-      1210        56.90017
-      1211        56.67426
-      1212        56.63385
-      1213        56.77371
-      1214        56.67585
-      1215        56.72359
-      1216        56.73026
-      1217        56.77159
-      1218        56.75665
-      1219        56.65284
-      1220        56.58837
-      1221        56.61507
-      1222        57.19912
-      1223        57.14986
-      1224        57.15849
-      1225        57.12288
-      1226        57.08249
-      1227        57.32188
-      1228        57.27773
-      1229        57.10970
-      1230        57.06886
-      1231        57.12636
-      1232        57.14686
-      1233        57.06676
-      1234        57.11672
-      1235        57.10279
-      1236        57.05677
-      1237        57.06188
-      1238        57.19874
-      1239        57.23519
-      1240        57.27522
-      1241        57.08362
-      1242        57.08674
-      1243        57.09220
-      1244        57.11930
-      1245        57.12725
-      1246        57.17337
-      1247        57.12349
-      1248        57.04279
-      1249        57.06430
-      1250        57.05304
-      1251        57.04537
-      1252        57.03077
-      1253        57.00730
-      1254        57.04019
-      1255        57.02496
-      1256        57.01113
-      1257        56.96810
-      1258        57.03616
-      1259        57.04525
-      1260        57.01123
-      1261        57.03655
-      1262        57.04477
-      1263        57.05683
-      1264        57.02654
-      1265        56.99841
-      1266        56.93598
-      1267        57.01784
-      1268        56.92516
-      1269        57.02713
-      1270        57.06837
-      1271        57.01952
-      1272        57.08125
-      1273        56.95292
-      1274        56.97664
-      1275        56.90075
-      1276        56.94750
-      1277        56.98315
-      1278        57.55942
-      1279        57.58042
-      1280        57.46021
-      1281        57.52626
-      1282        57.53642
-      1283        57.58150
-      1284        57.37524
-      1285        57.37254
-      1286        57.53173
-      1287        57.47215
-      1288        57.48718
-      1289        57.43590
-      1290        57.45749
-      1291        57.37206
-      1292        57.42203
-      1293        57.36378
-      1294        57.48220
-      1295        57.47483
-      1296        57.51140
-      1297        57.43070
-      1298        57.40023
+      984         56.14282
+      985         56.33253
+      986         56.17720
+      987         56.28909
+      988         56.24672
+      989         56.19847
+      990         56.19533
+      991         56.03189
+      992         56.18254
+      993         56.10676
+      994         56.05614
+      995         56.15976
+      996         56.17853
+      997         56.18413
+      998         56.09090
+      999         56.15685
+      1000        56.13201
+      1001        55.80308
+      1002        55.96596
+      1003        55.99125
+      1004        56.15409
+      1005        56.08098
+      1006        56.08770
+      1007        56.13286
+      1008        56.03689
+      1009        56.06500
+      1010        56.07716
+      1011        56.18970
+      1012        56.05995
+      1013        56.10785
+      1014        56.02377
+      1015        56.13994
+      1016        56.14268
+      1017        56.11045
+      1018        56.11580
+      1019        56.09111
+      1020        56.12757
+      1021        56.13006
+      1022        56.06360
+      1023        56.16615
+      1024        56.03096
+      1025        56.07168
+      1026        56.03527
+      1027        56.16598
+      1028        56.12646
+      1029        56.10456
+      1030        56.13533
+      1031        56.15037
+      1032        56.15695
+      1033        56.15860
+      1034        56.17471
+      1035        56.15218
+      1036        56.15432
+      1037        56.17531
+      1038        56.15703
+      1039        56.19952
+      1040        56.14135
+      1041        56.19159
+      1042        56.21092
+      1043        56.16355
+      1044        56.17502
+      1045        56.16386
+      1046        56.21989
+      1047        56.19067
+      1048        56.23535
+      1049        56.25290
+      1050        56.21374
+      1051        56.24128
+      1052        56.27495
+      1053        56.25816
+      1054        56.29067
+      1055        56.29727
+      1056        56.19542
+      1057        56.11308
+      1058        56.17877
+      1059        56.14909
+      1060        56.20606
+      1061        56.09180
+      1062        56.17685
+      1063        56.18412
+      1064        56.00963
+      1065        56.04080
+      1066        55.96396
+      1067        55.94884
+      1068        55.94439
+      1069        55.87741
+      1070        56.14083
+      1071        56.08669
+      1072        56.12746
+      1073        56.17215
+      1074        55.88723
+      1075        56.12820
+      1076        55.86627
+      1077        55.83226
+      1078        55.86177
+      1079        56.04079
+      1080        56.09759
+      1081        56.14493
+      1082        56.05724
+      1083        56.20066
+      1084        55.94692
+      1085        55.94935
+      1086        56.00480
+      1087        55.98485
+      1088        56.07210
+      1089        56.04078
+      1090        56.09657
+      1091        56.13048
+      1092        55.76328
+      1093        55.80124
+      1094        55.80627
+      1095        55.72483
+      1096        55.85377
+      1097        55.82222
+      1098        55.71152
+      1099        55.71224
+      1100        55.78198
+      1101        55.75252
+      1102        55.70316
+      1103        55.76675
+      1104        55.80455
+      1105        55.87775
+      1106        55.79572
+      1107        55.85742
+      1108        55.84524
+      1109        55.88516
+      1110        55.82885
+      1111        56.92110
+      1112        56.84384
+      1113        56.74813
+      1114        56.75867
+      1115        56.80047
+      1116        56.56887
+      1117        56.59324
+      1118        56.53809
+      1119        56.55245
+      1120        56.60445
+      1121        56.52472
+      1122        56.61428
+      1123        56.59769
+      1124        56.65037
+      1125        56.64488
+      1126        56.72259
+      1127        56.74262
+      1128        56.69605
+      1129        56.67271
+      1130        56.66879
+      1131        56.69991
+      1132        56.57827
+      1133        56.76069
+      1134        56.57532
+      1135        56.82526
+      1136        56.97653
+      1137        56.89392
+      1138        56.73909
+      1139        57.09957
+      1140        56.97472
+      1141        57.03626
+      1142        56.75868
+      1143        56.85240
+      1144        57.04035
+      1145        57.10657
+      1146        56.93979
+      1147        56.83617
+      1148        57.04574
+      1149        56.97558
+      1150        57.03512
+      1151        56.33727
+      1152        56.38716
+      1153        56.30524
+      1154        56.49535
+      1155        56.42914
+      1156        56.48909
+      1157        56.46364
+      1158        56.45007
+      1159        56.39957
+      1160        56.49757
+      1161        56.59315
+      1162        56.42666
+      1163        56.52122
+      1164        56.35604
+      1165        56.60144
+      1166        56.48322
+      1167        57.19682
+      1168        57.10963
+      1169        57.14829
+      1170        57.23766
+      1171        57.15496
+      1172        57.22199
+      1173        57.25209
+      1174        57.31620
+      1175        57.27863
+      1176        57.23351
+      1177        57.23678
+      1178        57.29433
+      1179        57.31359
+      1180        57.70550
+      1181        57.62378
+      1182        57.53106
+      1183        57.48093
+      1184        57.49203
+      1185        57.44733
+      1186        57.42804
+      1187        57.39723
+      1188        57.36245
+      1189        57.28216
+      1190        57.31937
+      1191        57.32442
+      1192        57.23071
+      1193        57.28296
+      1194        57.27834
+      1195        56.70875
+      1196        56.77688
+      1197        56.80450
+      1198        56.81139
+      1199        56.72348
+      1200        56.76077
+      1201        56.69720
+      1202        56.89931
+      1203        56.84142
+      1204        56.95242
+      1205        56.90246
+      1206        56.92869
+      1207        56.85581
+      1208        56.85244
+      1209        57.26614
+      1210        56.87482
+      1211        56.85949
+      1212        56.81117
+      1213        56.83174
+      1214        56.70644
+      1215        56.77677
+      1216        56.93136
+      1217        56.82191
+      1218        56.75459
+      1219        56.88190
+      1220        56.90017
+      1221        56.67426
+      1222        56.63385
+      1223        56.77371
+      1224        56.67585
+      1225        56.72359
+      1226        56.73026
+      1227        56.77159
+      1228        56.75665
+      1229        56.65284
+      1230        56.58837
+      1231        56.61507
+      1232        57.19912
+      1233        57.14986
+      1234        57.15849
+      1235        57.12288
+      1236        57.08249
+      1237        57.32188
+      1238        57.27773
+      1239        57.10970
+      1240        57.06886
+      1241        57.12636
+      1242        57.14686
+      1243        57.06676
+      1244        57.11672
+      1245        57.10279
+      1246        57.05677
+      1247        57.06188
+      1248        57.19874
+      1249        57.23519
+      1250        57.27522
+      1251        57.08362
+      1252        57.08674
+      1253        57.09220
+      1254        57.11930
+      1255        57.12725
+      1256        57.17337
+      1257        57.12349
+      1258        57.04279
+      1259        57.06430
+      1260        57.05304
+      1261        57.04537
+      1262        57.03077
+      1263        57.00730
+      1264        57.04019
+      1265        57.02496
+      1266        57.01113
+      1267        56.96810
+      1268        57.03616
+      1269        57.04525
+      1270        57.01123
+      1271        57.03655
+      1272        57.04477
+      1273        57.05683
+      1274        57.02654
+      1275        56.99841
+      1276        56.93598
+      1277        57.01784
+      1278        56.92516
+      1279        57.02713
+      1280        57.06837
+      1281        57.01952
+      1282        57.08125
+      1283        56.95292
+      1284        56.97664
+      1285        56.90075
+      1286        56.94750
+      1287        56.98315
+      1288        57.55942
+      1289        57.58042
+      1290        57.46021
+      1291        57.52626
+      1292        57.53642
+      1293        57.58150
+      1294        57.37524
+      1295        57.37254
+      1296        57.53173
+      1297        57.47215
+      1298        57.48718
+      1299        57.43590
+      1300        57.45749
+      1301        57.37206
+      1302        57.42203
+      1303        57.36378
+      1304        57.48220
+      1305        57.47483
+      1306        57.51140
+      1307        57.43070
+      1308        57.40023
 
 ---
 
@@ -13135,7 +13235,7 @@
       33    Region Sjælland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
       34    Region Sjælland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
       35    Region Sjælland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
-      36    Region Sjælland 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
+      36    Region Sjælland 2024-10-11T21:03:05.131Z 2024-10-11T21:03:05.131Z
       37    Region Sjælland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
       38    Region Sjælland 2024-01-16T22:03:35.709Z 2024-01-16T22:03:35.709Z
       39    Region Sjælland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
@@ -13187,7 +13287,7 @@
       85 Region Midtjylland 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
       86 Region Midtjylland 2024-02-05T22:01:25.064Z 2024-02-05T22:01:25.064Z
       87 Region Nordjylland 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
-      88 Region Midtjylland 2024-01-23T22:04:07.687Z 2024-01-23T22:04:07.687Z
+      88 Region Midtjylland 2024-10-11T21:03:05.131Z 2024-10-11T21:03:05.131Z
       89 Region Nordjylland 2024-01-26T22:04:04.599Z 2024-01-26T22:04:04.599Z
       90 Region Midtjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
       91 Region Nordjylland 2024-01-19T22:03:58.050Z 2024-01-19T22:03:58.050Z
@@ -13235,7 +13335,7 @@
       33           8 11.260944  55.72537 11.795871  56.01064       11.600739
       34           4 11.343549  55.50500 11.875866  55.81899       11.545908
       35           8 11.819714  55.12861 12.297351  55.40819       12.093626
-      36           5 10.855227  55.45596 11.482513  55.92302       11.229003
+      36           6 10.855227  55.45596 11.482513  55.92302       11.229003
       37           4 11.627909  55.34902 11.991784  55.56821       11.815109
       38           9 10.936170  55.13308 11.536868  55.51866       11.345088
       39           4 12.097322  55.23274 12.466392  55.43018       12.344159
@@ -13287,7 +13387,7 @@
       85          14  8.092887  55.77099  8.865425  56.26529        8.540724
       86          15  9.383846  55.66668 10.104658  55.92590        9.822722
       87           3  8.498513  56.66822  9.012292  56.98466        8.707843
-      88           4  8.672500  56.48878  9.297479  56.84630        8.913308
+      88           5  8.672500  56.48878  9.297479  56.84630        8.913308
       89           7  8.202766  56.66934  9.096269  57.15903        8.472871
       90          14  8.971569  56.21609  9.798870  56.68427        9.549801
       91           8  9.735609  57.06945 10.448834  57.34353       10.278219
@@ -13421,12 +13521,12 @@
                            ændret               geo_ændret geo_version bbox_xmin
       1  2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z          31  9.029507
       2  2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z          19  9.651496
-      3  2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z          34  8.071126
+      3  2024-10-11T21:03:05.131Z 2024-10-11T21:03:05.131Z          35  8.071126
       4  2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z          21  8.744429
       5  2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z          13  8.065758
       6  2024-01-23T22:04:07.687Z 2024-01-23T22:04:07.687Z          14  9.646247
       7  2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z          17 10.909367
-      8  2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z          21 10.845942
+      8  2024-10-11T21:03:05.131Z 2024-10-11T21:03:05.131Z          22 10.845942
       9  2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z          17 11.641795
       10 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z          18 12.144761
       11 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z          18 12.438249
@@ -13452,16 +13552,16 @@
     Output
         dagi_id kode               navn nuts2                   ændret
       1  389098 1081 Region Nordjylland  DK05 2024-10-04T21:02:54.978Z
-      2  389101 1082 Region Midtjylland  DK04 2024-10-04T21:02:54.978Z
+      2  389101 1082 Region Midtjylland  DK04 2024-10-11T21:03:05.131Z
       3  389102 1083  Region Syddanmark  DK03 2024-10-04T21:02:54.978Z
       4  389099 1084 Region Hovedstaden  DK01 2024-10-04T21:02:54.978Z
-      5  389100 1085    Region Sjælland  DK02 2024-10-04T21:02:54.978Z
+      5  389100 1085    Region Sjælland  DK02 2024-10-11T21:03:05.131Z
                       geo_ændret geo_version bbox_xmin bbox_ymin bbox_xmax bbox_ymax
       1 2024-10-04T21:02:54.978Z          32  8.189517  56.53455  11.22599  57.76025
-      2 2024-10-04T21:02:54.978Z          42  8.078876  55.64438  11.66419  56.84326
+      2 2024-10-11T21:03:05.131Z          43  8.078876  55.64438  11.66419  56.84326
       3 2024-10-04T21:02:54.978Z          32  8.063203  54.71828  10.99555  55.95325
       4 2024-10-04T21:02:54.978Z          31 11.602116  54.98355  15.31831  56.20520
-      5 2024-10-04T21:02:54.978Z          27 10.814805  54.54441  12.64552  56.01731
+      5 2024-10-11T21:03:05.131Z          28 10.814805  54.54441  12.64552  56.01731
         visueltcenter_x visueltcenter_y
       1       10.112829        57.30716
       2        9.605032        56.23399
