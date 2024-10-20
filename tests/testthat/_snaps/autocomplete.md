@@ -601,44 +601,44 @@
       
       [[3]]$afstemningsområde
       [[3]]$afstemningsområde$ændret
-      [1] "2024-03-08T22:01:22.527Z"
+      [1] "2024-10-09T21:02:27.534Z"
       
       [[3]]$afstemningsområde$geo_version
       [1] 1
       
       [[3]]$afstemningsområde$geo_ændret
-      [1] "2024-03-08T22:01:22.527Z"
+      [1] "2024-10-09T21:02:27.534Z"
       
       [[3]]$afstemningsområde$bbox
       [[3]]$afstemningsområde$bbox[[1]]
-      [1] 8.673816
+      [1] 8.760692
       
       [[3]]$afstemningsområde$bbox[[2]]
-      [1] 56.54689
+      [1] 56.6157
       
       [[3]]$afstemningsområde$bbox[[3]]
-      [1] 8.883437
+      [1] 8.860761
       
       [[3]]$afstemningsområde$bbox[[4]]
-      [1] 56.69519
+      [1] 56.69517
       
       
       [[3]]$afstemningsområde$visueltcenter
       [[3]]$afstemningsområde$visueltcenter[[1]]
-      [1] 8.783014
+      [1] 8.807109
       
       [[3]]$afstemningsområde$visueltcenter[[2]]
-      [1] 56.6015
+      [1] 56.64488
       
       
       [[3]]$afstemningsområde$href
-      [1] "https://api.dataforsyningen.dk/afstemningsomraader/779/24"
+      [1] "https://api.dataforsyningen.dk/afstemningsomraader/779/10"
       
       [[3]]$afstemningsområde$dagi_id
-      [1] "748656"
+      [1] "748884"
       
       [[3]]$afstemningsområde$nummer
-      [1] "24"
+      [1] "10"
       
       [[3]]$afstemningsområde$navn
       [1] "Rødding"
