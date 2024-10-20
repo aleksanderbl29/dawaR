@@ -17,6 +17,7 @@ cli
 CMD
 Codecov
 Config
+config
 cowplot
 cph
 cran
@@ -49,6 +50,7 @@ httr
 json
 Klimadatastyrelsen
 knitr
+kodiak
 kommune
 lattitude
 MacOS
@@ -67,6 +69,7 @@ sdfi
 SHA
 testthat
 tidyRSS
+toml
 unlist
 VignetteBuilder
 WGS
