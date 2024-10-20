@@ -2,8 +2,7 @@ test_that("Available sections can be called and returns in the proper format", {
   adresser_sections <- c(
     "adgangsadresser", "adresser", "autocomplete",
     "navngivneveje", "vejstykker", "vejnavne",
-    "vejnavnpostnummerrelationer", "supplerendebynavne2",
-    "postnumre"
+    "vejnavnpostnummerrelationer"
   )
 
   dagi_sections <- c(
@@ -16,7 +15,7 @@ test_that("Available sections can be called and returns in the proper format", {
 
   matrikelkortet <- c("ejerlav", "jordstykker")
 
-  stednavne <- c("steder", "stednavne2", "stednavntyper", "bebyggelser")
+  stednavne <- c("steder", "stednavne2", "bebyggelser")
 
   bygningspolygoner <- c("bygninger")
 

@@ -13,16 +13,19 @@
 #' x <- get_data("regioner")
 #' head(x)
 get_data <- function(section,
-                     as_list = FALSE) {
+                     as_list = FALSE, ...) {
   if (!section %in% available_sections()) {
     cli::cli_abort("You have provided section {.var {section}}.
                    It is not available through the api")
   }
 
+  params <- rlang::list2(...)
+
   response <- dawa(
     section = section,
     verbose = FALSE,
-    struktur = "flad"
+    struktur = "flad",
+    func_params = params
   )
 
   if (as_list == TRUE) {
@@ -33,8 +36,18 @@ get_data <- function(section,
     })
   } else if (as_list == FALSE) {
     df <- do.call(rbind.data.frame, response)
-    df[[1]] <- as.double(df[[1]])
-    df[[2]] <- as.double(df[[2]])
+
+    if ("kode" %in% colnames(df)) {
+      df[["kode"]] <- as.double(df[["kode"]])
+    }
+
+    if ("dagi_id" %in% colnames(df)) {
+      df[["dagi_id"]] <- as.double(df[["dagi_id"]])
+    }
+
+    if ("nummer" %in% colnames(df)) {
+      df[["nummer"]] <- as.double(df[["nummer"]])
+    }
 
     output <- df
   }

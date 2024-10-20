@@ -23,6 +23,10 @@
 #' @param dry_run With this option enabled, the function will output the request
 #'   that has been created - Without sending it to the api. This is useful for
 #'   debugging.
+#' @param func_params Option to include extra parameters (just like `...`
+#'   above). This option is used to pass down the dot-inputs from `get_data()`
+#'   and `get_map_data()`. It is recommended to use the dynamic dots instead of
+#'   this option, as an end user.
 #'
 #' @returns By default returns the API response as a list output. For
 #'   `geojson(z)` formats it returns the raw json. When `dry_run = TRUE` it
@@ -40,7 +44,8 @@ dawa <- function(section,
                  format = NULL,
                  verbose = TRUE,
                  cache = TRUE,
-                 dry_run = FALSE) {
+                 dry_run = FALSE,
+                 func_params = list()) {
   if (!is.null(format)) {
     format <- match.arg(format, c(
       "json", "jsonp", "ndjson",
@@ -52,7 +57,6 @@ dawa <- function(section,
       cli::cli_abort("{.var append_to_url} must be of type {.var character}")
     }
   }
-
 
   params <- list(
     ...,
@@ -66,7 +70,8 @@ dawa <- function(section,
   base_request <- httr2::request(base_url) |>
     httr2::req_url_path_append(section) |>
     httr2::req_url_path_append(append_to_url) |>
-    httr2::req_url_query(!!!params) |>
+    httr2::req_url_query(!!!params) |> # user provided query params
+    httr2::req_url_query(!!!func_params) |> # list of inputs from funcs
     httr2::req_user_agent("dawaR (https://dawar.aleksanderbl.dk)")
 
   if (cache == TRUE) {
