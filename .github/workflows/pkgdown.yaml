@@ -12,7 +12,6 @@ on:
       - '.github/workflows/pkgdown.yaml'
 
   pull_request:
-    branches: [main]
   release:
     types: [published]
   workflow_dispatch:
