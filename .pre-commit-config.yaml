@@ -12,6 +12,7 @@ repos:
         -    cli
         -    httr2
         -    sf
+        -    memoise
         -    tidyRSS
     # codemeta must be above use-tidy-description when both are used
     # -   id: codemeta-description-updated
@@ -63,6 +64,7 @@ repos:
           (?x)^(
           .Rprofile|
           renv/.*|
+          benchmarking/.*|
           )$
 -   repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.6.0
