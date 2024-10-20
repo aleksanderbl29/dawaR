@@ -1,3 +1,5 @@
+# dawaR (development version)
+
 # dawaR 0.2.2 (2024-10-20)
 
 * Add option to specify functions in `available_sections()`
