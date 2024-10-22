@@ -16,6 +16,7 @@
 ^pkgdown$
 ^renv$
 ^renv\.lock$
+^status-message
 ^sticker.R
 ^vignettes/.quarto
 ^vignettes/articles$
