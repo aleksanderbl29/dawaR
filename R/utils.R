@@ -1,3 +1,12 @@
+# onAttach ----
+.onAttach <- function(...) {
+  httr2::request("https://github.com/aleksanderbl29/dawar/")
+
+  packageStartupMessage("## Test")
+}
+
+
+
 available_coordinates <- function() {
   x <- c(
     "WGS84",
