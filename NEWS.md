@@ -1,8 +1,10 @@
-# dawaR (development version)
+# dawaR 0.2.3
+
+* Initial CRAN submission.
+* Add package startup message
 
 # dawaR 0.2.2 (2024-10-20)
 
-* Initial CRAN submission.
 * Add option to specify functions in `available_sections()`
   * Also add tests for all available sections for `get_data()` and `get_map_data()`
 
