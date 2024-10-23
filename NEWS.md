@@ -2,6 +2,7 @@
 
 # dawaR 0.2.2 (2024-10-20)
 
+* Initial CRAN submission.
 * Add option to specify functions in `available_sections()`
   * Also add tests for all available sections for `get_data()` and `get_map_data()`
 
@@ -18,7 +19,6 @@
 
 # dawaR 0.1.0 (2024-09-16)
 
-* Initial CRAN submission.
 * Added functions base:
   * `dawa()`
   * `reverse()`

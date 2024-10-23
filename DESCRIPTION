@@ -1,6 +1,6 @@
 Package: dawaR
 Title: An API Wrapper Package for DAWA - The Danish Address Web API
-Date: 2024-09-16
+Date: 2024-10-23
 Version: 0.2.2.9000
 Authors@R: 
     person("Aleksander", "Bang-Larsen", , "contact@aleksanderbl.dk",
