@@ -1,3 +1,8 @@
+# dawaR 0.2.3
+
+* Initial CRAN submission.
+* Add package startup message
+
 # dawaR 0.2.2 (2024-10-20)
 
 * Add option to specify functions in `available_sections()`
@@ -16,7 +21,6 @@
 
 # dawaR 0.1.0 (2024-09-16)
 
-* Initial CRAN submission.
 * Added functions base:
   * `dawa()`
   * `reverse()`

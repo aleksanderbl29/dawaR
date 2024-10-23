@@ -1,3 +1,18 @@
+# onAttach ----
+.onAttach <- function(...) {
+  get_status_message() |>
+    packageStartupMessage()
+}
+
+# nolint start
+get_status_message <- function() {
+  httr2::request("https://raw.githubusercontent.com/aleksanderbl29/dawaR/refs/heads/main/status-message") |>
+    httr2::req_perform() |>
+    httr2::resp_body_string() |>
+    gsub("\\n", "\n", x = _)
+}
+# nolint end
+
 available_coordinates <- function() {
   x <- c(
     "WGS84",
