@@ -1,9 +1,3 @@
-# onAttach ----
-.onAttach <- function(...) {
-  get_status_message() |>
-    packageStartupMessage()
-}
-
 # nolint start
 get_status_message <- function() {
   httr2::request("https://raw.githubusercontent.com/aleksanderbl29/dawaR/refs/heads/main/status-message") |>
