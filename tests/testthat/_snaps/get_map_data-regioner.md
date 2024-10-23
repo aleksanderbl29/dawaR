@@ -3,8 +3,9 @@
     Code
       get_map_data(type = "regioner", cache = TRUE)
     Message
-      Fetching data from the API
-      Reading data to `st`
+      > Getting data on `regioner`. This usually takes 10.24s.
+      Fetching data from the API. This will take some time.
+      Reading data to `st`.
       Converting map data to `sf` object
     Output
       Simple feature collection with 5 features and 9 fields
@@ -30,8 +31,9 @@
     Code
       get_map_data(type = "regioner", cache = FALSE)
     Message
-      Fetching data from the API
-      Reading data to `st`
+      > Getting data on `regioner`. This usually takes 10.24s.
+      Fetching data from the API. This will take some time.
+      Reading data to `st`.
       Converting map data to `sf` object
     Output
       Simple feature collection with 5 features and 9 fields
@@ -58,6 +60,7 @@
       get_map_data(type = "regioner")
     Message
       > Using cached response.
+      Change this behaviour by setting cache = FALSE
     Output
       Simple feature collection with 5 features and 9 fields
       Geometry type: MULTIPOLYGON
@@ -83,6 +86,7 @@
       get_map_data(type = "regioner")
     Message
       > Using cached response.
+      Change this behaviour by setting cache = FALSE
     Output
       Simple feature collection with 5 features and 9 fields
       Geometry type: MULTIPOLYGON
@@ -108,6 +112,7 @@
       get_map_data(type = "regioner")
     Message
       > Using cached response.
+      Change this behaviour by setting cache = FALSE
     Output
       Simple feature collection with 5 features and 9 fields
       Geometry type: MULTIPOLYGON

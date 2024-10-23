@@ -3,8 +3,9 @@
     Code
       get_map_data(type = "politikredse", cache = TRUE)
     Message
-      Fetching data from the API
-      Reading data to `st`
+      > Getting data on `politikredse`. This usually takes 14.14s.
+      Fetching data from the API. This will take some time.
+      Reading data to `st`.
       Converting map data to `sf` object
     Output
       Simple feature collection with 12 features and 8 fields
@@ -52,8 +53,9 @@
     Code
       get_map_data(type = "politikredse", cache = FALSE)
     Message
-      Fetching data from the API
-      Reading data to `st`
+      > Getting data on `politikredse`. This usually takes 14.14s.
+      Fetching data from the API. This will take some time.
+      Reading data to `st`.
       Converting map data to `sf` object
     Output
       Simple feature collection with 12 features and 8 fields
@@ -102,6 +104,7 @@
       get_map_data(type = "politikredse")
     Message
       > Using cached response.
+      Change this behaviour by setting cache = FALSE
     Output
       Simple feature collection with 12 features and 8 fields
       Geometry type: MULTIPOLYGON
@@ -149,6 +152,7 @@
       get_map_data(type = "politikredse")
     Message
       > Using cached response.
+      Change this behaviour by setting cache = FALSE
     Output
       Simple feature collection with 12 features and 8 fields
       Geometry type: MULTIPOLYGON
@@ -196,6 +200,7 @@
       get_map_data(type = "politikredse")
     Message
       > Using cached response.
+      Change this behaviour by setting cache = FALSE
     Output
       Simple feature collection with 12 features and 8 fields
       Geometry type: MULTIPOLYGON

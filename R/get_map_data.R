@@ -22,7 +22,8 @@
 get_map_data <- function(type, cache = TRUE) {
   if (cache == TRUE) {
     if (memoise::has_cache(get_map_data_w_cache)(type)) {
-      cli::cli_alert("Using cached response.")
+      cli::cli_alert("Using cached response.
+                        Change this behaviour by setting cache = FALSE")
     }
 
     get_map_data_w_cache(type = type)
@@ -43,7 +44,19 @@ get_map_data_nocache <- function(type, cache = FALSE) {
 
   check_sf_installation(verbose = FALSE)
 
-  cli::cli_progress_message("Fetching data from the API")
+  time_info <- api_timings[type]
+
+  if (is.na(names(time_info))) {
+    time_info <- "a very long time"
+  }
+
+  cli::cli_alert(
+    "Getting data on {.var {type}}. This usually takes {time_info}."
+  )
+
+  cli::cli_progress_message(
+    "Fetching data from the API. This will take some time."
+  )
 
   api_response <- dawa(
     section = type,
@@ -52,7 +65,8 @@ get_map_data_nocache <- function(type, cache = FALSE) {
     cache = cache
   )
 
-  cli::cli_progress_message("Reading data to `st`")
+  cli::cli_progress_message("Reading data to `st`.
+                              This will also take some time.")
 
   resp_st <- sf::st_read(
     api_response,

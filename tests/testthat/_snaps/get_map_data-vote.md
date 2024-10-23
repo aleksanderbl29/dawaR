@@ -3,8 +3,9 @@
     Code
       get_map_data(type = "afstemningsomraader", cache = TRUE)
     Message
-      Fetching data from the API
-      Reading data to `st`
+      > Getting data on `afstemningsomraader`. This usually takes 18.77s.
+      Fetching data from the API. This will take some time.
+      Reading data to `st`.
       Converting map data to `sf` object
     Output
       Simple feature collection with 1308 features and 23 fields
@@ -107,8 +108,9 @@
     Code
       get_map_data(type = "afstemningsomraader", cache = FALSE)
     Message
-      Fetching data from the API
-      Reading data to `st`
+      > Getting data on `afstemningsomraader`. This usually takes 18.77s.
+      Fetching data from the API. This will take some time.
+      Reading data to `st`.
       Converting map data to `sf` object
     Output
       Simple feature collection with 1298 features and 23 fields
@@ -212,6 +214,7 @@
       get_map_data(type = "afstemningsomraader")
     Message
       > Using cached response.
+      Change this behaviour by setting cache = FALSE
     Output
       Simple feature collection with 1298 features and 23 fields
       Geometry type: MULTIPOLYGON
@@ -314,6 +317,7 @@
       get_map_data(type = "afstemningsomraader")
     Message
       > Using cached response.
+      Change this behaviour by setting cache = FALSE
     Output
       Simple feature collection with 1298 features and 23 fields
       Geometry type: MULTIPOLYGON
@@ -416,6 +420,7 @@
       get_map_data(type = "afstemningsomraader")
     Message
       > Using cached response.
+      Change this behaviour by setting cache = FALSE
     Output
       Simple feature collection with 1298 features and 23 fields
       Geometry type: MULTIPOLYGON

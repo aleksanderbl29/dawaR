@@ -3,8 +3,9 @@
     Code
       get_map_data(type = "kommuner", cache = TRUE)
     Message
-      Fetching data from the API
-      Reading data to `st`
+      > Getting data on `kommuner`. This usually takes 13.13s.
+      Fetching data from the API. This will take some time.
+      Reading data to `st`.
       Converting map data to `sf` object
     Output
       Simple feature collection with 99 features and 11 fields
@@ -52,8 +53,9 @@
     Code
       get_map_data(type = "kommuner", cache = FALSE)
     Message
-      Fetching data from the API
-      Reading data to `st`
+      > Getting data on `kommuner`. This usually takes 13.13s.
+      Fetching data from the API. This will take some time.
+      Reading data to `st`.
       Converting map data to `sf` object
     Output
       Simple feature collection with 99 features and 11 fields
@@ -102,6 +104,7 @@
       get_map_data(type = "kommuner")
     Message
       > Using cached response.
+      Change this behaviour by setting cache = FALSE
     Output
       Simple feature collection with 99 features and 11 fields
       Geometry type: MULTIPOLYGON
@@ -149,6 +152,7 @@
       get_map_data(type = "kommuner")
     Message
       > Using cached response.
+      Change this behaviour by setting cache = FALSE
     Output
       Simple feature collection with 99 features and 11 fields
       Geometry type: MULTIPOLYGON
@@ -196,6 +200,7 @@
       get_map_data(type = "kommuner")
     Message
       > Using cached response.
+      Change this behaviour by setting cache = FALSE
     Output
       Simple feature collection with 99 features and 11 fields
       Geometry type: MULTIPOLYGON

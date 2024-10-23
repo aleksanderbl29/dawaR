@@ -5,12 +5,15 @@
 
 <!-- badges: start -->
 
-[![R-CMD-check](https://github.com/aleksanderbl29/dawaR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/aleksanderbl29/dawaR/actions/workflows/R-CMD-check.yaml)
-[![Codecov test
-coverage](https://codecov.io/gh/aleksanderbl29/dawaR/graph/badge.svg)](https://app.codecov.io/gh/aleksanderbl29/dawaR)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/dawaR)](https://CRAN.R-project.org/package=dawaR)
 [![r-universe](https://aleksanderbl29.r-universe.dev/badges/dawaR)](https://aleksanderbl29.r-universe.dev/dawaR)
+[![R-CMD-check](https://github.com/aleksanderbl29/dawaR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/aleksanderbl29/dawaR/actions/workflows/R-CMD-check.yaml)
+[![Codecov test
+coverage](https://codecov.io/gh/aleksanderbl29/dawaR/graph/badge.svg)](https://app.codecov.io/gh/aleksanderbl29/dawaR)
+[![Project Status: Active – The project has reached a stable, usable
+state and is being actively
+developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 <!-- badges: end -->
 
 The goal of `{dawaR}` is to make access to the Danish Web Address API
@@ -30,12 +33,12 @@ install.packages(
 )
 ```
 
-You can install the development version of `{dawaR}` from
+You can install the latest development version of `{dawaR}` from
 [GitHub](https://github.com/aleksanderbl29/dawaR) with:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("aleksanderbl29/dawaR")
+devtools::install_github("aleksanderbl29/dawaR@devel")
 ```
 
 If you install the package in an environment configured with
