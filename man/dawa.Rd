@@ -11,7 +11,8 @@ dawa(
   format = NULL,
   verbose = TRUE,
   cache = TRUE,
-  dry_run = FALSE
+  dry_run = FALSE,
+  func_params = list()
 )
 }
 \arguments{
@@ -37,6 +38,11 @@ info can be found in the documentation for \code{httr2::req_cache()}.}
 \item{dry_run}{With this option enabled, the function will output the request
 that has been created - Without sending it to the api. This is useful for
 debugging.}
+
+\item{func_params}{Option to include extra parameters (just like \code{...}
+above). This option is used to pass down the dot-inputs from \code{get_data()}
+and \code{get_map_data()}. It is recommended to use the dynamic dots instead of
+this option, as an end user.}
 }
 \value{
 By default returns the API response as a list output. For
