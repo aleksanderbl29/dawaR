@@ -9,6 +9,7 @@
 ^\.pre-commit-config\.yaml$
 ^_pkgdown\.yml$
 ^benchmarking$
+^codemeta\.json$
 ^cran-comments\.md$
 ^dawaR\.Rproj$
 ^doc$
@@ -16,6 +17,7 @@
 ^pkgdown$
 ^renv$
 ^renv\.lock$
+^status-message
 ^sticker.R
 ^vignettes/.quarto
 ^vignettes/articles$

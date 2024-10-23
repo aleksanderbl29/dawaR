@@ -3,8 +3,9 @@
     Code
       get_map_data(type = "afstemningsomraader", cache = TRUE)
     Message
-      Fetching data from the API
-      Reading data to `st`
+      > Getting data on `afstemningsomraader`. This usually takes 18.77s.
+      Fetching data from the API. This will take some time.
+      Reading data to `st`.
       Converting map data to `sf` object
     Output
       Simple feature collection with 1308 features and 23 fields
@@ -107,11 +108,12 @@
     Code
       get_map_data(type = "afstemningsomraader", cache = FALSE)
     Message
-      Fetching data from the API
-      Reading data to `st`
+      > Getting data on `afstemningsomraader`. This usually takes 18.77s.
+      Fetching data from the API. This will take some time.
+      Reading data to `st`.
       Converting map data to `sf` object
     Output
-      Simple feature collection with 1298 features and 23 fields
+      Simple feature collection with 1308 features and 23 fields
       Geometry type: MULTIPOLYGON
       Dimension:     XY
       Bounding box:  xmin: 8.07251 ymin: 54.55908 xmax: 15.1974 ymax: 57.75257
@@ -189,7 +191,7 @@
       3  2024-04-24 21:01:20 2024-04-24 21:01:20           6        12.56874
       4  2024-04-24 21:01:20 2024-04-24 21:01:20           7        12.56014
       5  2024-04-24 21:01:20 2024-04-24 21:01:20           7        12.56856
-      6  2024-04-24 21:01:20 2024-04-24 21:01:20           6        12.60509
+      6  2024-10-04 21:02:54 2024-10-04 21:02:54           7        12.60509
       7  2024-04-24 21:01:20 2024-04-24 21:01:20           6        12.59872
       8  2024-04-24 21:01:20 2024-04-24 21:01:20           7        12.56478
       9  2024-04-29 21:01:24 2024-04-24 21:01:20           8        12.56800
@@ -200,7 +202,7 @@
       3         55.69809 MULTIPOLYGON (((12.56136 55...
       4         55.70791 MULTIPOLYGON (((12.55314 55...
       5         55.71552 MULTIPOLYGON (((12.55859 55...
-      6         55.65088 MULTIPOLYGON (((12.59358 55...
+      6         55.65088 MULTIPOLYGON (((12.60903 55...
       7         55.66024 MULTIPOLYGON (((12.58392 55...
       8         55.62848 MULTIPOLYGON (((12.50475 55...
       9         55.64696 MULTIPOLYGON (((12.55133 55...
@@ -212,8 +214,9 @@
       get_map_data(type = "afstemningsomraader")
     Message
       > Using cached response.
+      Change this behaviour by setting cache = FALSE
     Output
-      Simple feature collection with 1298 features and 23 fields
+      Simple feature collection with 1308 features and 23 fields
       Geometry type: MULTIPOLYGON
       Dimension:     XY
       Bounding box:  xmin: 8.07251 ymin: 54.55908 xmax: 15.1974 ymax: 57.75257
@@ -291,7 +294,7 @@
       3  2024-04-24 21:01:20 2024-04-24 21:01:20           6        12.56874
       4  2024-04-24 21:01:20 2024-04-24 21:01:20           7        12.56014
       5  2024-04-24 21:01:20 2024-04-24 21:01:20           7        12.56856
-      6  2024-04-24 21:01:20 2024-04-24 21:01:20           6        12.60509
+      6  2024-10-04 21:02:54 2024-10-04 21:02:54           7        12.60509
       7  2024-04-24 21:01:20 2024-04-24 21:01:20           6        12.59872
       8  2024-04-24 21:01:20 2024-04-24 21:01:20           7        12.56478
       9  2024-04-29 21:01:24 2024-04-24 21:01:20           8        12.56800
@@ -302,7 +305,7 @@
       3         55.69809 MULTIPOLYGON (((12.56136 55...
       4         55.70791 MULTIPOLYGON (((12.55314 55...
       5         55.71552 MULTIPOLYGON (((12.55859 55...
-      6         55.65088 MULTIPOLYGON (((12.59358 55...
+      6         55.65088 MULTIPOLYGON (((12.60903 55...
       7         55.66024 MULTIPOLYGON (((12.58392 55...
       8         55.62848 MULTIPOLYGON (((12.50475 55...
       9         55.64696 MULTIPOLYGON (((12.55133 55...
@@ -314,8 +317,9 @@
       get_map_data(type = "afstemningsomraader")
     Message
       > Using cached response.
+      Change this behaviour by setting cache = FALSE
     Output
-      Simple feature collection with 1298 features and 23 fields
+      Simple feature collection with 1308 features and 23 fields
       Geometry type: MULTIPOLYGON
       Dimension:     XY
       Bounding box:  xmin: 8.07251 ymin: 54.55908 xmax: 15.1974 ymax: 57.75257
@@ -393,7 +397,7 @@
       3  2024-04-24 21:01:20 2024-04-24 21:01:20           6        12.56874
       4  2024-04-24 21:01:20 2024-04-24 21:01:20           7        12.56014
       5  2024-04-24 21:01:20 2024-04-24 21:01:20           7        12.56856
-      6  2024-04-24 21:01:20 2024-04-24 21:01:20           6        12.60509
+      6  2024-10-04 21:02:54 2024-10-04 21:02:54           7        12.60509
       7  2024-04-24 21:01:20 2024-04-24 21:01:20           6        12.59872
       8  2024-04-24 21:01:20 2024-04-24 21:01:20           7        12.56478
       9  2024-04-29 21:01:24 2024-04-24 21:01:20           8        12.56800
@@ -404,7 +408,7 @@
       3         55.69809 MULTIPOLYGON (((12.56136 55...
       4         55.70791 MULTIPOLYGON (((12.55314 55...
       5         55.71552 MULTIPOLYGON (((12.55859 55...
-      6         55.65088 MULTIPOLYGON (((12.59358 55...
+      6         55.65088 MULTIPOLYGON (((12.60903 55...
       7         55.66024 MULTIPOLYGON (((12.58392 55...
       8         55.62848 MULTIPOLYGON (((12.50475 55...
       9         55.64696 MULTIPOLYGON (((12.55133 55...
@@ -416,8 +420,9 @@
       get_map_data(type = "afstemningsomraader")
     Message
       > Using cached response.
+      Change this behaviour by setting cache = FALSE
     Output
-      Simple feature collection with 1298 features and 23 fields
+      Simple feature collection with 1308 features and 23 fields
       Geometry type: MULTIPOLYGON
       Dimension:     XY
       Bounding box:  xmin: 8.07251 ymin: 54.55908 xmax: 15.1974 ymax: 57.75257
@@ -495,7 +500,7 @@
       3  2024-04-24 21:01:20 2024-04-24 21:01:20           6        12.56874
       4  2024-04-24 21:01:20 2024-04-24 21:01:20           7        12.56014
       5  2024-04-24 21:01:20 2024-04-24 21:01:20           7        12.56856
-      6  2024-04-24 21:01:20 2024-04-24 21:01:20           6        12.60509
+      6  2024-10-04 21:02:54 2024-10-04 21:02:54           7        12.60509
       7  2024-04-24 21:01:20 2024-04-24 21:01:20           6        12.59872
       8  2024-04-24 21:01:20 2024-04-24 21:01:20           7        12.56478
       9  2024-04-29 21:01:24 2024-04-24 21:01:20           8        12.56800
@@ -506,7 +511,7 @@
       3         55.69809 MULTIPOLYGON (((12.56136 55...
       4         55.70791 MULTIPOLYGON (((12.55314 55...
       5         55.71552 MULTIPOLYGON (((12.55859 55...
-      6         55.65088 MULTIPOLYGON (((12.59358 55...
+      6         55.65088 MULTIPOLYGON (((12.60903 55...
       7         55.66024 MULTIPOLYGON (((12.58392 55...
       8         55.62848 MULTIPOLYGON (((12.50475 55...
       9         55.64696 MULTIPOLYGON (((12.55133 55...

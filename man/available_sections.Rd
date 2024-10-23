@@ -4,7 +4,7 @@
 \alias{available_sections}
 \title{List of available sections for \code{dawa()}}
 \usage{
-available_sections(as_list = FALSE, format = NULL, verbose = TRUE)
+available_sections(as_list = FALSE, format = NULL, verbose = TRUE, func = NULL)
 }
 \arguments{
 \item{as_list}{This options controls the output format. The output is either
@@ -16,6 +16,9 @@ format that is specified.}
 
 \item{verbose}{whether or not to provide \code{{cli}} output for the user. Enabled
 by default, but disabled for all functions that wrap this function}
+
+\item{func}{Sepcify the function you would like to ensure section
+compatability with.}
 }
 \value{
 The function returns either a named list or an atomic vector with the
@@ -24,7 +27,7 @@ available sections in the API. The format is decided by \code{as_list}.
 \description{
 Simple function to list all available options for the \code{section}
 parameter in \code{dawa()}. Useful when getting to know the base api function of
-this package.
+this package. To filter based on funciton usage you can provide \code{format = "geojson"} to ensure compatability with \code{get_map_data()} and \code{func = "get_data"} to ensure compatability with \code{get_data()}.
 }
 \examples{
 

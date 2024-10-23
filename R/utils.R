@@ -1,3 +1,18 @@
+# onAttach ----
+.onAttach <- function(...) {
+  get_status_message() |>
+    packageStartupMessage()
+}
+
+# nolint start
+get_status_message <- function() {
+  httr2::request("https://raw.githubusercontent.com/aleksanderbl29/dawaR/refs/heads/main/status-message") |>
+    httr2::req_perform() |>
+    httr2::resp_body_string() |>
+    gsub("\\n", "\n", x = _)
+}
+# nolint end
+
 available_coordinates <- function() {
   x <- c(
     "WGS84",
@@ -37,3 +52,21 @@ coordinate_type <- function(type) {
   }
   return(type_to_return)
 }
+
+api_timings <- list(
+  # this is from /benchmarking/timing.qmd and the accompanying
+  # /benchmarking/map_timings.rda
+  afstemningsomraader = "18.77s",
+  kommuner = "13.13s",
+  landsdele = "10.13s",
+  menighedsraadsafstemningsomraader = "25.9s",
+  opstillingskredse = "14.14s",
+  politikredse = "14.14s",
+  postnumre = "9.34s",
+  regioner = "10.24s",
+  retskredse = "11.44s",
+  sogne = "26.71s",
+  steder = "2.9m",
+  storkredse = "11.16s",
+  vlaglandsdele = "10.47s"
+)

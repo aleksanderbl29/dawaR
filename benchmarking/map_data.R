@@ -70,3 +70,5 @@ microbenchmark::microbenchmark(
   temp_httr2(),
   times = 10
 )
+
+profvis::profvis(get_map_data("sogne"))

@@ -13,29 +13,37 @@
 #'
 #' @return Returns a `data.frame` object that contains polygons (or points) for
 #'   the section provided.
+#'
+#' @inheritParams dawa
+#'
 #' @export
 #'
 #' @examples
 #' x <- get_map_data("regioner")
 #' ggplot2::ggplot(x) +
 #'   ggplot2::geom_sf()
-get_map_data <- function(type, cache = TRUE) {
+get_map_data <- function(type, cache = TRUE, ...) {
+  params <- rlang::list2(...)
+
   if (cache == TRUE) {
-    if (memoise::has_cache(get_map_data_w_cache)(type)) {
-      cli::cli_alert("Using cached response.")
+    if (memoise::has_cache(get_map_data_w_cache)(type, params)) {
+      cli::cli_alert("Using cached response.
+                        Change this behaviour by setting cache = FALSE")
     }
 
-    get_map_data_w_cache(type = type)
+    get_map_data_w_cache(type = type, params = params)
   } else if (cache == FALSE) {
-    get_map_data_nocache(type = type, cache = FALSE)
+    get_map_data_nocache(type = type, cache = FALSE, params = params)
   }
 }
 
-get_map_data_w_cache <- memoise::memoise(function(type) {
-  get_map_data_nocache(type = type, cache = TRUE)
+#' @importFrom rlang list2
+get_map_data_w_cache <- memoise::memoise(function(type, params = list()) {
+  get_map_data_nocache(type = type, cache = TRUE, params = params)
 })
 
-get_map_data_nocache <- function(type, cache = FALSE) {
+#' @importFrom rlang list2
+get_map_data_nocache <- function(type, cache = FALSE, params = list()) {
   if (!type %in% available_sections(format = "geojson", verbose = FALSE)) {
     cli::cli_abort("You have provided type {.var {type}}
                    which is not compatible with this function.")
@@ -43,16 +51,34 @@ get_map_data_nocache <- function(type, cache = FALSE) {
 
   check_sf_installation(verbose = FALSE)
 
-  cli::cli_progress_message("Fetching data from the API")
+  if (length(params) == 0) {
+    params <- NULL
+  }
+
+  time_info <- api_timings[type]
+
+  if (is.na(names(time_info))) {
+    time_info <- "a very long time"
+  }
+
+  cli::cli_alert(
+    "Getting data on {.var {type}}. This usually takes {time_info}."
+  )
+
+  cli::cli_progress_message(
+    "Fetching data from the API. This will take some time."
+  )
 
   api_response <- dawa(
     section = type,
     format = "geojson",
     verbose = FALSE,
-    cache = cache
+    cache = cache,
+    func_params = params
   )
 
-  cli::cli_progress_message("Reading data to `st`")
+  cli::cli_progress_message("Reading data to `st`.
+                              This will also take some time.")
 
   resp_st <- sf::st_read(
     api_response,
