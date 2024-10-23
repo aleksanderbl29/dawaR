@@ -7,7 +7,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">dawaR</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.1.0</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.2.3</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,7 +41,7 @@
 <div class="row">
   <main id="main" class="col-md-9"><div class="page-header">
       <img src="../logo.png" class="logo" alt=""><h1>Get data from section</h1>
-      <small class="dont-index">Source: <a href="https://github.com/aleksanderbl29/dawaR/blob/v0.1.0/R/get_data.R" class="external-link"><code>R/get_data.R</code></a></small>
+      <small class="dont-index">Source: <a href="https://github.com/aleksanderbl29/dawaR/blob/main/R/get_data.R" class="external-link"><code>R/get_data.R</code></a></small>
       <div class="d-none name"><code>get_data.Rd</code></div>
     </div>
 
@@ -51,7 +51,7 @@
 
     <div class="section level2">
     <h2 id="ref-usage">Usage<a class="anchor" aria-label="anchor" href="#ref-usage"></a></h2>
-    <div class="sourceCode"><pre class="sourceCode r"><code><span><span class="fu">get_data</span><span class="op">(</span><span class="va">section</span>, as_list <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></span></code></pre></div>
+    <div class="sourceCode"><pre class="sourceCode r"><code><span><span class="fu">get_data</span><span class="op">(</span><span class="va">section</span>, as_list <span class="op">=</span> <span class="cn">FALSE</span>, <span class="va">...</span><span class="op">)</span></span></code></pre></div>
     </div>
 
     <div class="section level2">
@@ -64,8 +64,12 @@
 
 
 <dt id="arg-as-list">as_list<a class="anchor" aria-label="anchor" href="#arg-as-list"></a></dt>
-<dd><p>Wether or not to return the data as a list or in a dataframe.
+<dd><p>Whether or not to return the data as a list or in a dataframe.
 Data.frame is the default output.</p></dd>
+
+
+<dt id="arg--">...<a class="anchor" aria-label="anchor" href="#arg--"></a></dt>
+<dd><p>&lt;<code><a href="https://rlang.r-lib.org/reference/dyn-dots.html" class="external-link">dynamic-dots</a></code>&gt; input query parameters.</p></dd>
 
 </dl></div>
     <div class="section level2">

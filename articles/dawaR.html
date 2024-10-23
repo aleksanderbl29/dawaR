@@ -26,7 +26,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">dawaR</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.1.0</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.2.3</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -75,7 +75,7 @@
       <img src="../logo.png" class="logo" alt=""><h1>Getting Started</h1>
             
       
-      <small class="dont-index">Source: <a href="https://github.com/aleksanderbl29/dawaR/blob/v0.1.0/vignettes/dawaR.Rmd" class="external-link"><code>vignettes/dawaR.Rmd</code></a></small>
+      <small class="dont-index">Source: <a href="https://github.com/aleksanderbl29/dawaR/blob/main/vignettes/dawaR.Rmd" class="external-link"><code>vignettes/dawaR.Rmd</code></a></small>
       <div class="d-none name"><code>dawaR.Rmd</code></div>
     </div>
 
@@ -150,6 +150,10 @@ with <a href="https://ggplot2.tidyverse.org" class="external-link">ggplot2</a>.<
 <span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://ggplot2.tidyverse.org" class="external-link">ggplot2</a></span><span class="op">)</span></span>
 <span></span>
 <span><span class="va">municipalities</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/get_map_data.html">get_map_data</a></span><span class="op">(</span><span class="st">"kommuner"</span><span class="op">)</span></span>
+<span><span class="co">#&gt; → Getting data on `kommuner`. This usually takes 13.13s.</span></span>
+<span><span class="co">#&gt; Fetching data from the API. This will take some time.</span></span>
+<span><span class="co">#&gt; Reading data to `st`.</span></span>
+<span><span class="co">#&gt; Converting map data to `sf` object</span></span>
 <span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html" class="external-link">ggplot</a></span><span class="op">(</span><span class="va">municipalities</span>, <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html" class="external-link">aes</a></span><span class="op">(</span>fill <span class="op">=</span> <span class="va">regionsnavn</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span></span>
 <span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggsf.html" class="external-link">geom_sf</a></span><span class="op">(</span>color <span class="op">=</span> <span class="st">"black"</span><span class="op">)</span> <span class="op">+</span></span>
 <span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/labs.html" class="external-link">labs</a></span><span class="op">(</span>fill <span class="op">=</span> <span class="st">"Region"</span><span class="op">)</span> <span class="op">+</span></span>

@@ -15,7 +15,7 @@ to a list object."><meta property="og:image" content="https://dawar.aleksanderbl
 
     <a class="navbar-brand me-2" href="../index.html">dawaR</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.1.0</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.2.3</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,7 +49,7 @@ to a list object."><meta property="og:image" content="https://dawar.aleksanderbl
 <div class="row">
   <main id="main" class="col-md-9"><div class="page-header">
       <img src="../logo.png" class="logo" alt=""><h1>Base API function</h1>
-      <small class="dont-index">Source: <a href="https://github.com/aleksanderbl29/dawaR/blob/v0.1.0/R/base_api.R" class="external-link"><code>R/base_api.R</code></a></small>
+      <small class="dont-index">Source: <a href="https://github.com/aleksanderbl29/dawaR/blob/main/R/base_api.R" class="external-link"><code>R/base_api.R</code></a></small>
       <div class="d-none name"><code>dawa.Rd</code></div>
     </div>
 
@@ -70,7 +70,8 @@ to a list object.</p>
 <span>  format <span class="op">=</span> <span class="cn">NULL</span>,</span>
 <span>  verbose <span class="op">=</span> <span class="cn">TRUE</span>,</span>
 <span>  cache <span class="op">=</span> <span class="cn">TRUE</span>,</span>
-<span>  dry_run <span class="op">=</span> <span class="cn">FALSE</span></span>
+<span>  dry_run <span class="op">=</span> <span class="cn">FALSE</span>,</span>
+<span>  func_params <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/list.html" class="external-link">list</a></span><span class="op">(</span><span class="op">)</span></span>
 <span><span class="op">)</span></span></code></pre></div>
     </div>
 
@@ -113,6 +114,13 @@ info can be found in the documentation for <code><a href="https://httr2.r-lib.or
 <dd><p>With this option enabled, the function will output the request
 that has been created - Without sending it to the api. This is useful for
 debugging.</p></dd>
+
+
+<dt id="arg-func-params">func_params<a class="anchor" aria-label="anchor" href="#arg-func-params"></a></dt>
+<dd><p>Option to include extra parameters (just like <code>...</code>
+above). This option is used to pass down the dot-inputs from <code><a href="get_data.html">get_data()</a></code>
+and <code><a href="get_map_data.html">get_map_data()</a></code>. It is recommended to use the dynamic dots instead of
+this option, as an end user.</p></dd>
 
 </dl></div>
     <div class="section level2">
