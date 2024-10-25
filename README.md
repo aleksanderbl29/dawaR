@@ -48,8 +48,10 @@ as intended.
 
 ## Usage
 
-Be sure to see the [getting started](articles/dawaR.html) and the [guide
-on how to make maps with {dawaR}](articles//printing_maps.html).
+Be sure to see the [getting
+started](https://dawar.aleksanderbl.dk/articles/dawaR.html) and the
+[guide on how to make maps with
+{dawaR}](https://dawar.aleksanderbl.dk/articles/printing_maps.html).
 
 ## DAWA *will* be phased out
 
