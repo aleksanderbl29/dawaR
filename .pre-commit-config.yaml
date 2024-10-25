@@ -47,6 +47,7 @@ repos:
           \.github/workflows/.*|
           data/.*|
           renv/.*|
+          CRAN-SUBMISSION|
           )$
     -   id: lintr
     -   id: readme-rmd-rendered

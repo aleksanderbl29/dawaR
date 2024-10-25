@@ -27,7 +27,9 @@ time as that is the \emph{local time} for the API. You can change that behavior 
 setting \code{Sys.setenv(TZ = "Your/Timezone")}.
 }
 \examples{
+\dontrun{
 x <- get_map_data("regioner")
 ggplot2::ggplot(x) +
   ggplot2::geom_sf()
+}
 }
