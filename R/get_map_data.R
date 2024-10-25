@@ -19,9 +19,11 @@
 #' @export
 #'
 #' @examples
+#' \dontrun{
 #' x <- get_map_data("regioner")
 #' ggplot2::ggplot(x) +
 #'   ggplot2::geom_sf()
+#' }
 get_map_data <- function(type, cache = TRUE, ...) {
   params <- rlang::list2(...)
 
