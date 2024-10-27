@@ -8,8 +8,8 @@ Authors@R:
            comment = c(ORCID = "0009-0007-7984-4650"))
 Description: Functions for interacting with all sections of
     the official Danish Address Web API (also known as DAWA). The development
-    of this package is completely independent from the Klimadatastyrelsen who
-    maintains the API.
+    of this package is completely independent from the government agency, 
+    Klimadatastyrelsen, who maintains the API.
 License: GPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
