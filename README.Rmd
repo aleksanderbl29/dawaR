@@ -44,7 +44,7 @@ install.packages("dawaR")
 
 ```{r r_universe_instruct, echo=FALSE, results='asis'}
 if (is_on_cran) {
-  cat("Or you can install `{dawaR}` from r-universe with:")
+  cat("Or you can install the latest pre-release version of `{dawaR}` from r-universe with:")
 } else if (!is_on_cran) {
   cat("You can install `{dawaR}` from r-universe with:")
 }

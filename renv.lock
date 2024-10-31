@@ -17,7 +17,7 @@
       "Package": "BH",
       "Version": "1.84.0-0",
       "Source": "Repository",
-      "Repository": "https://cloud.r-project.org",
+      "Repository": "CRAN",
       "Hash": "a8235afbcd6316e6e91433ea47661013"
     },
     "DBI": {
@@ -82,7 +82,7 @@
       "Package": "anytime",
       "Version": "0.3.9",
       "Source": "Repository",
-      "Repository": "https://cloud.r-project.org",
+      "Repository": "RSPM",
       "Requirements": [
         "BH",
         "R",
@@ -407,13 +407,13 @@
     },
     "renv": {
       "Package": "renv",
-      "Version": "1.0.10",
+      "Version": "1.0.11",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "utils"
       ],
-      "Hash": "d0387d5687ec933dd7587efd4cfa2d85"
+      "Hash": "47623f66b4e80b3b0587bc5d7b309888"
     },
     "rlang": {
       "Package": "rlang",
@@ -491,7 +491,7 @@
       "Package": "tidyRSS",
       "Version": "2.0.7",
       "Source": "Repository",
-      "Repository": "https://cloud.r-project.org",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "anytime",
@@ -562,7 +562,7 @@
     },
     "withr": {
       "Package": "withr",
-      "Version": "3.0.1",
+      "Version": "3.0.2",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -570,7 +570,7 @@
         "grDevices",
         "graphics"
       ],
-      "Hash": "07909200e8bbe90426fbfeb73e1e27aa"
+      "Hash": "cc2d62c76458d425210d1eb1478b30b4"
     },
     "wk": {
       "Package": "wk",

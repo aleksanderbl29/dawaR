@@ -21,17 +21,14 @@ convenient for many more users.
 
 ## Installation
 
-You can install `{dawaR}` from r-universe with:
+You can install `{dawaR}` from CRAN with:
 
 ``` r
-install.packages(
-  "dawaR",
-  repos = c(
-    aleksanderbl29 = "https://aleksanderbl29.r-universe.dev",
-    getOption("repos")
-  )
-)
+install.packages("dawaR")
 ```
+
+Or you can install the latest pre-release version of `{dawaR}` from
+r-universe with:
 
 You can install the latest development version of `{dawaR}` from
 [GitHub](https://github.com/aleksanderbl29/dawaR) with:
