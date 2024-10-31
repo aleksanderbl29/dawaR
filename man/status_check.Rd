@@ -19,8 +19,9 @@ only returned if \code{return_df = TRUE}.
 }
 \description{
 This function fetches the status of all available SDFI services.
-This package depends on at least one of these. It checks \href{https://erdataforsyningennede.site24x7statusiq.com/}{this status url}. The status can
-also be followed on the official \href{https://x.com/DriftDataforsyn}{X-page}.
+This package depends on at least one of these. It checks the official
+status page. The status can also be followed on their official X-page
+\verb{@DriftDataforsyn}.
 }
 \examples{
 

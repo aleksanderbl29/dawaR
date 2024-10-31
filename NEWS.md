@@ -1,4 +1,4 @@
-# dawaR 0.2.3
+# dawaR 0.2.3 (2024-10-23)
 
 * Initial CRAN submission.
 * Add package startup message

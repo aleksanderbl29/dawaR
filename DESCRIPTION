@@ -1,15 +1,16 @@
 Package: dawaR
-Title: An API Wrapper Package for DAWA - The Danish Address Web API
-Date: 2024-10-23
+Title: An API Wrapper for 'DAWA' - 'The Danish Address Web API'
+Date: 2024-10-28
 Version: 0.2.3
 Authors@R: 
     person("Aleksander", "Bang-Larsen", , "contact@aleksanderbl.dk",
            role = c("aut", "cre", "cph"),
            comment = c(ORCID = "0009-0007-7984-4650"))
-Description: Package providing functions to interact with all sections of
-    the official Danish Address Web API (also known as DAWA). The development
-    of this package is completely independent from the 
-    [government entity that maintains the API](sdfi.dk).
+Description: Functions for interacting with all sections of
+    the official 'Danish Address Web API' (also known as 'DAWA') 
+    <https://api.dataforsyningen.dk>. The development of this package is
+    completely independent from the government agency, Klimadatastyrelsen,
+    who maintains the API.
 License: GPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)

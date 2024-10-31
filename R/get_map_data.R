@@ -19,9 +19,11 @@
 #' @export
 #'
 #' @examples
+#' \dontrun{
 #' x <- get_map_data("regioner")
 #' ggplot2::ggplot(x) +
 #'   ggplot2::geom_sf()
+#' }
 get_map_data <- function(type, cache = TRUE, ...) {
   params <- rlang::list2(...)
 
@@ -37,12 +39,12 @@ get_map_data <- function(type, cache = TRUE, ...) {
   }
 }
 
-#' @importFrom rlang splice list2
+#' @importFrom rlang list2
 get_map_data_w_cache <- memoise::memoise(function(type, params = list()) {
   get_map_data_nocache(type = type, cache = TRUE, params = params)
 })
 
-#' @importFrom rlang splice list2
+#' @importFrom rlang list2
 get_map_data_nocache <- function(type, cache = FALSE, params = list()) {
   if (!type %in% available_sections(format = "geojson", verbose = FALSE)) {
     cli::cli_abort("You have provided type {.var {type}}
