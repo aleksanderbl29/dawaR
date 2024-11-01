@@ -30,6 +30,10 @@ jobs:
           - {os: ubuntu-24.04,   r: 'devel', http-user-agent: 'release'}
           - {os: ubuntu-24.04,   r: 'release'}
           - {os: ubuntu-24.04,   r: 'oldrel-1'}
+          - {os: ubuntu-22.04,   r: 'renv'}
+          - {os: ubuntu-24.04,   r: 'renv'}
+          - {os: macos-latest,   r: 'renv'}
+          - {os: windows-latest, r: 'renv'}
 
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
