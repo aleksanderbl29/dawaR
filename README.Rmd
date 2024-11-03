@@ -50,7 +50,7 @@ if (is_on_cran) {
 }
 ```
 
-```{r r_universe, eval=FALSE, include=!is_on_cran}
+```{r r_universe, eval=FALSE}
 install.packages(
   "dawaR",
   repos = c(
