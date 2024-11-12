@@ -9,3 +9,4 @@ docs
 /doc/
 /Meta/
 *.eml
+gem_data.R
