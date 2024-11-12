@@ -1,4 +1,10 @@
 # nolint start
+.onAttach <- function(...) {
+  packageStartupMessage("## {dawaR} provides data from the Danish Agency of Climate Data")
+  packageStartupMessage("## Terms and conditions apply.")
+  packageStartupMessage("## Read more at: https://dawadocs.dataforsyningen.dk/dok/om#vilkaar")
+}
+
 get_status_message <- function() {
   httr2::request("https://raw.githubusercontent.com/aleksanderbl29/dawaR/refs/heads/main/status-message") |>
     httr2::req_perform() |>

@@ -1,7 +1,10 @@
+# dawaR 0.2.4
+
+* Add package startup message on terms and conditions.
+
 # dawaR 0.2.3 (2024-10-23)
 
 * Initial CRAN submission.
-* Add package startup message
 
 # dawaR 0.2.2 (2024-10-20)
 
