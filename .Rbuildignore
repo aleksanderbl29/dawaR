@@ -1,4 +1,4 @@
-^.lintr
+^.lintr$
 ^CRAN-SUBMISSION$
 ^LICENSE\.md$
 ^Meta$
@@ -14,10 +14,11 @@
 ^dawaR\.Rproj$
 ^doc$
 ^docs$
+^gem_data.R$
 ^pkgdown$
 ^renv$
 ^renv\.lock$
-^status-message
-^sticker.R
-^vignettes/.quarto
+^status-message$
+^sticker.R$
+^vignettes/.quarto$
 ^vignettes/articles$
