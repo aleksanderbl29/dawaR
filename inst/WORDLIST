@@ -84,6 +84,7 @@ grey
 href
 https
 httr
+ignorable
 importIntoEnv
 io
 issueTracker
@@ -116,6 +117,7 @@ POSIXt
 postnumre
 pre
 programmingLanguage
+Rbuildignore
 RDX
 README
 readme
