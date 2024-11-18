@@ -82,7 +82,7 @@ dawa <- function(section,
     httr2::req_url_query(!!!func_params) |> # list of inputs from funcs
     httr2::req_user_agent(
       paste0(
-        "dawaR_", packageDescription("dawaR", fields = "Version"),
+        "dawaR_", utils::packageDescription("dawaR", fields = "Version"),
         " at https://dawar.aleksanderbl.dk)"
       )
     ) |>
