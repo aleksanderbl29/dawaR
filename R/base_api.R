@@ -72,7 +72,14 @@ dawa <- function(section,
     httr2::req_url_path_append(append_to_url) |>
     httr2::req_url_query(!!!params) |> # user provided query params
     httr2::req_url_query(!!!func_params) |> # list of inputs from funcs
-    httr2::req_user_agent("dawaR (https://dawar.aleksanderbl.dk)")
+    httr2::req_user_agent(
+      paste0(
+        "dawaR_", packageDescription("dawaR", fields = "Version"),
+        " at https://dawar.aleksanderbl.dk)"
+      )
+    ) |>
+    httr2::req_timeout(10) |> # Timeout limit of 10 seconds
+    httr2::req_retry(max_tries = 3) # Retry on transient erros 503 and 429
 
   if (cache == TRUE) {
     temp_dir <- tempdir() # Location for caching the response
