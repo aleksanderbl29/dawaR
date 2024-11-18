@@ -33,6 +33,7 @@
 #'   returns the request that has been created but does not run it.
 #'
 #' @export
+#' @importFrom utils packageDescription
 #'
 #' @examples
 #' x <- dawa(section = "sogne")
