@@ -12,7 +12,7 @@
 ^codemeta\.json$
 ^cran-comments\.md$
 ^dawaR\.Rproj$
-^dev/$
+^dev$
 ^doc$
 ^docs$
 ^gem_data.R$

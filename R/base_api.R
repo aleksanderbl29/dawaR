@@ -65,6 +65,14 @@ dawa <- function(section,
 
   base_url <- "https://api.dataforsyningen.dk"
 
+  if (!connection_check()) {
+    # cli::cli_abort(
+    #   "You do not have access to api.dataforsyningen.dk.
+    #     Please check your connection settings.")
+    cli::cli_alert_warning("You do not have access to api.dataforsyningen.dk.
+        Please check your connection settings.")
+  }
+
   section_info(section, verbose)
 
   base_request <- httr2::request(base_url) |>
@@ -78,8 +86,9 @@ dawa <- function(section,
         " at https://dawar.aleksanderbl.dk)"
       )
     ) |>
-    httr2::req_timeout(10) |> # Timeout limit of 10 seconds
-    httr2::req_retry(max_tries = 3) # Retry on transient erros 503 and 429
+    httr2::req_timeout(100) |> # Timeout limit of 10 seconds
+    httr2::req_retry(max_tries = 3) |> # Retry on transient erros 503 and 429
+    httr2::req_error(is_error = function(resp) FALSE) # Do not error
 
   if (cache == TRUE) {
     temp_dir <- tempdir() # Location for caching the response
@@ -97,15 +106,27 @@ dawa <- function(section,
   if (dry_run == TRUE) {
     httr2::req_dry_run(dawa_request)
   } else if (dry_run == FALSE) {
-    if (!is.null(format)) {
-      if (format %in% c("geojson", "geojsonz")) {
-        httr2::req_perform(dawa_request) |>
-          httr2::resp_body_string()
-      }
-    } else {
-      httr2::req_perform(dawa_request) |>
-        httr2::resp_body_json()
+    resp <- httr2::req_perform(dawa_request)
+  }
+
+  if (httr2::resp_is_error(resp)) {
+    cli::cli_alert_danger("The API returned a {resp$status_code} error.")
+    cli::cli_alert_danger("No content will be returned")
+  }
+
+  if (!is.null(format) && !httr2::resp_is_error(resp)) {
+    if (format %in% c("geojson", "geojsonz")) {
+      resp |>
+        httr2::resp_body_string()
     }
+    # nolint start
+  } else if (httr2::resp_content_type(resp) != "application/json" &&
+    httr2::resp_is_error(resp)) {
+    # nolint end
+    cli::cli_abort("The API did not return JSON")
+  } else if (!httr2::resp_is_error(resp)) {
+    resp |>
+      httr2::resp_body_json()
   }
 }
 
