@@ -241,6 +241,12 @@
       ],
       "Hash": "5899f1eaa825580172bb56c08266f37c"
     },
+    "httpuv": {
+      "Package": "httpuv",
+      "Version": "1.6.15",
+      "Source": "Repository",
+      "Repository": "CRAN"
+    },
     "httr": {
       "Package": "httr",
       "Version": "1.4.7",
