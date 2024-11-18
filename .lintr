@@ -6,4 +6,5 @@ exclusions: list(
   "R/status_check.R" = list(
     cyclocomp_linter = 1:100),
   "tests",
-  "README.Rmd")
+  "README.Rmd",
+  "dev")
