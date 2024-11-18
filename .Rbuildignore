@@ -12,6 +12,7 @@
 ^codemeta\.json$
 ^cran-comments\.md$
 ^dawaR\.Rproj$
+^dev/$
 ^doc$
 ^docs$
 ^gem_data.R$
