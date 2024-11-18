@@ -496,3 +496,18 @@
       
       
 
+---
+
+    Code
+      dawa("regioner", dry_run = TRUE)
+    Message
+      > Requesting `regioner` from DAWA
+      i Accessing <https://api.dataforsyningen.dk/regioner>
+    Output
+      GET /regioner HTTP/1.1
+      Host: api.dataforsyningen.dk
+      User-Agent: dawaR_0.2.5 at https://dawar.aleksanderbl.dk)
+      Accept: */*
+      Accept-Encoding: gzip
+      
+

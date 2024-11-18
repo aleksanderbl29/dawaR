@@ -105,7 +105,7 @@ dawa <- function(section,
   }
 
   if (dry_run == TRUE) {
-    httr2::req_dry_run(dawa_request)
+    return(httr2::req_dry_run(dawa_request))
   } else if (dry_run == FALSE) {
     resp <- httr2::req_perform(dawa_request)
   }
