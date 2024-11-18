@@ -113,7 +113,6 @@ dawa <- function(section,
   if (httr2::resp_is_error(resp)) {
     cli::cli_alert_danger("The API returned a {resp$status_code} error.")
     cli::cli_alert_danger("No content will be returned")
-    return(NULL)
   }
 
   if (!is.null(format) && !httr2::resp_is_error(resp)) {
@@ -123,7 +122,7 @@ dawa <- function(section,
     }
     # nolint start
   } else if (httr2::resp_content_type(resp) != "application/json" &&
-    httr2::resp_is_error(resp)) {
+    !httr2::resp_is_error(resp)) {
     # nolint end
     cli::cli_abort("The API did not return JSON")
   } else if (!httr2::resp_is_error(resp)) {

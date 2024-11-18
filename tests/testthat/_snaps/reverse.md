@@ -294,6 +294,4 @@
     Message
       x The API returned a 404 error.
       x No content will be returned
-    Output
-      NULL
 
