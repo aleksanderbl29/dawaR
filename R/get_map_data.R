@@ -79,13 +79,20 @@ get_map_data_nocache <- function(type, cache = FALSE, params = list()) {
     func_params = params
   )
 
+  temp_file <- tempfile(fileext = ".json")
+  con <- file(temp_file, "w", encoding = "UTF-8")
+  writeLines(api_response, con)
+  close(con)
+
   cli::cli_progress_message("Reading data to `st`.
                               This will also take some time.")
 
   resp_st <- sf::st_read(
-    api_response,
+    temp_file,
     quiet = TRUE
   )
+
+  unlink(temp_file)
 
   cli::cli_progress_message("Converting map data to `sf` object")
 
