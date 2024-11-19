@@ -79,7 +79,7 @@ get_map_data_nocache <- function(type, cache = FALSE, params = list()) {
     func_params = params
   )
 
-  temp_file <- tempfile(fileext = ".geojson")
+  temp_file <- tempfile(fileext = ".json")
   con <- file(temp_file, "w", encoding = "UTF-8")
   writeLines(api_response, con)
   close(con)
@@ -89,7 +89,8 @@ get_map_data_nocache <- function(type, cache = FALSE, params = list()) {
 
   resp_st <- sf::st_read(
     temp_file,
-    quiet = TRUE
+    quiet = TRUE,
+    driver = "GeoJSON"
   )
 
   unlink(temp_file)
