@@ -89,8 +89,7 @@ get_map_data_nocache <- function(type, cache = FALSE, params = list()) {
 
   resp_st <- sf::st_read(
     temp_file,
-    quiet = TRUE,
-    driver = "GeoJSON"
+    quiet = TRUE
   )
 
   unlink(temp_file)
