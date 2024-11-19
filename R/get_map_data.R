@@ -80,7 +80,9 @@ get_map_data_nocache <- function(type, cache = FALSE, params = list()) {
   )
 
   temp_file <- tempfile(fileext = ".geojson")
-  writeLines(api_response, temp_file)
+  con <- file(temp_file, "w", encoding = "UTF-8")
+  writeLines(api_response, con)
+  close(con)
 
   cli::cli_progress_message("Reading data to `st`.
                               This will also take some time.")
