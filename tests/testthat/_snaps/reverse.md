@@ -287,11 +287,3 @@
       [1] "https://api.dataforsyningen.dk/politikredse/1466"
       
 
----
-
-    Code
-      reverse("regioner", y = 47.8703370940483, x = 15.7457353678998, verbose = FALSE)
-    Message
-      x The API returned a 404 error.
-      x No content will be returned
-

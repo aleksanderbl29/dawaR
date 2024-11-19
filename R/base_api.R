@@ -67,11 +67,9 @@ dawa <- function(section,
   base_url <- "https://api.dataforsyningen.dk"
 
   if (!connection_check()) {
-    # cli::cli_abort(
-    #   "You do not have access to api.dataforsyningen.dk.
-    #     Please check your connection settings.")
     cli::cli_alert_warning("You do not have access to api.dataforsyningen.dk.
         Please check your connection settings.")
+    return(NULL) # Exit early if no connection is detected
   }
 
   section_info(section, verbose)
@@ -88,8 +86,7 @@ dawa <- function(section,
       )
     ) |>
     httr2::req_timeout(100) |> # Timeout limit of 10 seconds
-    httr2::req_retry(max_tries = 3) |> # Retry on transient erros 503 and 429
-    httr2::req_error(is_error = function(resp) FALSE) # Do not error
+    httr2::req_retry(max_tries = 3) # Retry on transient erros 503 and 429
 
   if (cache == TRUE) {
     temp_dir <- tempdir() # Location for caching the response
@@ -107,7 +104,15 @@ dawa <- function(section,
   if (dry_run == TRUE) {
     return(httr2::req_dry_run(dawa_request))
   } else if (dry_run == FALSE) {
-    resp <- httr2::req_perform(dawa_request)
+    tryCatch(
+      {
+        resp <- httr2::req_perform(dawa_request)
+      },
+      error = function(e) {
+        cli::cli_alert_danger("Request failed: {e$message}")
+        resp <- resp
+      }
+    )
   }
 
   if (httr2::resp_is_error(resp)) {
@@ -116,18 +121,32 @@ dawa <- function(section,
   }
 
   if (!is.null(format) && !httr2::resp_is_error(resp)) {
-    if (format %in% c("geojson", "geojsonz")) {
-      resp |>
-        httr2::resp_body_string()
-    }
+    tryCatch(
+      {
+        if (format %in% c("geojson", "geojsonz")) {
+          return(resp |> httr2::resp_body_string())
+        }
+      },
+      error = function(e) {
+        cli::cli_alert_danger("Failed to parse response: {e$message}")
+        return(NULL)
+      }
+    )
     # nolint start
   } else if (httr2::resp_content_type(resp) != "application/json" &&
     !httr2::resp_is_error(resp)) {
     # nolint end
     cli::cli_abort("The API did not return JSON")
   } else if (!httr2::resp_is_error(resp)) {
-    resp |>
-      httr2::resp_body_json()
+    tryCatch(
+      {
+        return(resp |> httr2::resp_body_json())
+      },
+      error = function(e) {
+        cli::cli_alert_danger("Failed to parse response: {e$message}")
+        return(NULL)
+      }
+    )
   }
 }
 
