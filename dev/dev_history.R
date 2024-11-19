@@ -16,6 +16,11 @@ testthat::test_dir("tests/testthat/")
 # Run examples
 devtools::run_examples()
 
+# Run vignettes 30 times
+for (i in 1:30) {
+  devtools::build_vignettes()
+}
+
 # autotest::autotest_package(test = TRUE)
 
 # Check package as CRAN using the correct CRAN repo

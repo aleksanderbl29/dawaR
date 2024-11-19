@@ -30,3 +30,8 @@ status_check()
 status_check(return_df = TRUE)
 
 }
+\seealso{
+Other Connection checks: 
+\code{\link{connection_check}()}
+}
+\concept{Connection checks}

@@ -1,3 +1,8 @@
+# dawaR 0.2.5
+
+* The base api function `dawa()` now fails gracefully.
+  * This trickles down to `get_data()`, `get_map_data()`, `autocomplete()` and `reverse()` functions.
+
 # dawaR 0.2.4
 
 * Add package startup message on terms and conditions.

@@ -16,7 +16,7 @@ test_that("reverse geocode returns information reliably", {
     x = 11.5534117505933
   ))
 
-  ## Coords from austria
+  ## Coords from austria - Fails hard
   expect_error(reverse("regioner",
     y = 47.870337094048274,
     x = 15.74573536789984,

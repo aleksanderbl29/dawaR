@@ -15,6 +15,7 @@
 #'   only returned if `return_df = TRUE`.
 #'
 #' @importFrom tidyRSS tidyfeed
+#' @family Connection checks
 #' @export
 #'
 #' @examples
@@ -108,5 +109,41 @@ status_check <- function(return_df = FALSE, error_if_unavailable = FALSE) {
 
   if (return_df == TRUE) {
     return(dataframe)
+  }
+}
+
+
+#' Check that **R** has access to resources at `https://api.dataforsyningen.dk`
+#' @returns Returns a logical
+#' @examples
+#' \donttest{
+#' connection_check()
+#' }
+#'
+#' @importFrom curl curl_download
+#' @importFrom utils download.file
+#' @family Connection checks
+#'
+#' @export
+connection_check <- function() {
+  temp_file <- tempfile()
+  http_url <- "https://api.dataforsyningen.dk/postnumre"
+  if (.Platform$OS.type == "unix") {
+    suppressWarnings(
+      try(curl::curl_download(http_url, temp_file, quiet = TRUE, ),
+        silent = TRUE
+      )
+    )
+  } else {
+    suppressWarnings(
+      try(utils::download.file(http_url, temp_file, quiet = TRUE),
+        silent = TRUE
+      )
+    )
+  }
+  if (is.na(file.info(temp_file)$size)) {
+    FALSE
+  } else {
+    TRUE
   }
 }

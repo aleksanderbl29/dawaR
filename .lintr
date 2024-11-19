@@ -5,6 +5,8 @@ encoding: "UTF-8"
 exclusions: list(
   "R/status_check.R" = list(
     cyclocomp_linter = 1:100),
+  "R/base_api.R" = list(
+    cyclocomp_linter = 41:130),
   "tests",
   "README.Rmd",
   "dev")

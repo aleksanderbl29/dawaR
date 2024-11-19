@@ -16,4 +16,11 @@ test_that("API base function properly", {
 
   expect_snapshot(dawa("regioner"))
   expect_snapshot(dawa("regioner", cache = FALSE))
+
+  expect_error(
+    dawa(
+      section = "regioner",
+      append_to_url = 1234
+    )
+  )
 })
