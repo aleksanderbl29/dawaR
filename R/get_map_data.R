@@ -82,7 +82,7 @@ get_map_data_nocache <- function(type, cache = FALSE, params = list()) {
   # Create temp directory and safe filename
   temp_dir <- tempdir()
   safe_filename <- gsub("[^[:alnum:]]", "_", type)
-  temp_file <- file.path(temp_dir, paste0(safe_filename, ".json"))
+  temp_file <- file.path(temp_dir, safe_filename)
 
   con <- file(temp_file, "w", encoding = "UTF-8")
   writeLines(api_response, con)
