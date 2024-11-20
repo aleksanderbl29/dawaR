@@ -48,7 +48,7 @@ get_map_data_w_cache <- memoise::memoise(function(type, params = list()) {
 get_map_data_nocache <- function(type, cache = FALSE, params = list()) {
   if (!type %in% available_sections(format = "geojson", verbose = FALSE)) {
     cli::cli_abort("You have provided type {.var {type}}
-                   which is not compatible with this function.")
+                    which is not compatible with this function.")
   }
 
   check_sf_installation(verbose = FALSE)
@@ -79,7 +79,11 @@ get_map_data_nocache <- function(type, cache = FALSE, params = list()) {
     func_params = params
   )
 
-  temp_file <- tempfile(fileext = ".json")
+  # Create temp directory and safe filename
+  temp_dir <- tempdir()
+  safe_filename <- gsub("[^[:alnum:]]", "_", type)
+  temp_file <- file.path(temp_dir, safe_filename)
+
   con <- file(temp_file, "w", encoding = "UTF-8")
   writeLines(api_response, con)
   close(con)
@@ -92,6 +96,7 @@ get_map_data_nocache <- function(type, cache = FALSE, params = list()) {
     quiet = TRUE
   )
 
+  # Clean up temp file
   unlink(temp_file)
 
   cli::cli_progress_message("Converting map data to `sf` object")
