@@ -84,9 +84,7 @@ get_map_data_nocache <- function(type, cache = FALSE, params = list()) {
   safe_filename <- tolower(type)
   temp_file <- file.path(temp_dir, safe_filename)
 
-  con <- file(temp_file, "w", encoding = "UTF-8")
-  writeLines(api_response, con)
-  close(con)
+  writeLines(api_response, temp_file)
 
   cli::cli_progress_message("Reading data to `st`.
                               This will also take some time.")
