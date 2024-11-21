@@ -89,13 +89,16 @@ get_map_data_nocache <- function(type, cache = FALSE, params = list()) {
   cli::cli_progress_message("Reading data to `st`.
                               This will also take some time.")
 
+  # Clean up api response
+  rm(api_response)
+
   resp_st <- sf::st_read(
     temp_file,
     quiet = TRUE
   )
 
   # Clean up temp file
-  unlink(temp_file)
+  rm(temp_file)
 
   cli::cli_progress_message("Converting map data to `sf` object")
 
