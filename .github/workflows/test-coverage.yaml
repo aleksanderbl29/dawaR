@@ -24,11 +24,13 @@ jobs:
           use-public-rspm: true
           r-version: 'renv'
 
-      - uses: r-lib/actions/setup-r-dependencies@v2
-        with:
-          cache-version: 2
-          extra-packages: any::covr, any::xml2
-          needs: coverage
+      # - uses: r-lib/actions/setup-r-dependencies@v2
+      #   with:
+      #     cache-version: 2
+      #     extra-packages: any::covr, any::xml2
+      #     needs: coverage
+
+      - name: r-lib/actions/setup-renv@v2
 
       - name: Test coverage
         run: |
