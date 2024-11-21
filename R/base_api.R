@@ -101,6 +101,8 @@ dawa <- function(section,
     cli::cli_alert_info("Accessing {.url {dawa_request[1]}}")
   }
 
+  resp <- NULL
+
   if (dry_run == TRUE) {
     return(httr2::req_dry_run(dawa_request))
   } else if (dry_run == FALSE) {
