@@ -30,7 +30,7 @@ jobs:
       #     extra-packages: any::covr, any::xml2
       #     needs: coverage
 
-      - name: r-lib/actions/setup-renv@v2
+      - uses: r-lib/actions/setup-renv@v2
 
       - name: Test coverage
         run: |
