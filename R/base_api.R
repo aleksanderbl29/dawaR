@@ -126,12 +126,12 @@ dawa <- function(section,
     )
   }
 
-  if (httr2::resp_is_error(resp)) {
+  if (is.null(resp)) {
     cli::cli_alert_danger("The API returned a {resp$status_code} error.")
     cli::cli_alert_danger("No content will be returned")
   }
 
-  if (!is.null(format) && !httr2::resp_is_error(resp)) {
+  if (!is.null(format) && !is.null(resp) && !httr2::resp_is_error(resp)) {
     tryCatch(
       {
         if (format %in% c("geojson", "geojsonz")) {
@@ -140,22 +140,20 @@ dawa <- function(section,
       },
       error = function(e) {
         cli::cli_alert_danger("Failed to parse response: {e$message}")
-        return(NULL)
       }
     )
     # nolint start
   } else if (httr2::resp_content_type(resp) != "application/json" &&
-    !httr2::resp_is_error(resp)) {
+    !is.null(resp) && !httr2::resp_is_error(resp)) {
     # nolint end
     cli::cli_abort("The API did not return JSON")
-  } else if (!httr2::resp_is_error(resp)) {
+  } else if (!is.null(resp) && !httr2::resp_is_error(resp)) {
     tryCatch(
       {
         return(resp |> httr2::resp_body_json())
       },
       error = function(e) {
         cli::cli_alert_danger("Failed to parse response: {e$message}")
-        return(NULL)
       }
     )
   }
