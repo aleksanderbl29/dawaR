@@ -1,4 +1,5 @@
 test_that("reverse geocode returns information reliably", {
+  skip_if_not(connection_check())
   expect_snapshot(reverse("regioner", x = 12.58515, y = 55.68324))
 
   expect_snapshot(reverse("afstemningsomraader",

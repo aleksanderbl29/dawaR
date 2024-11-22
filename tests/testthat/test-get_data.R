@@ -1,4 +1,5 @@
 test_that("get_data() returns data and in the proper format", {
+  skip_if_not(connection_check())
   response <- get_data("regioner")
   response_no_list <- get_data("regioner", as_list = FALSE)
   response_list <- get_data("regioner", as_list = TRUE)
