@@ -64,6 +64,15 @@ dawa <- function(section,
     format = format
   )
 
+  # Add landpostnumre parameter to specify only postal codes on land
+  # see issue #100
+  if (section == "postnumre") {
+    params <- append(
+      params,
+      list(landpostnumre = "")
+    )
+  }
+
   base_url <- "https://api.dataforsyningen.dk"
 
   if (!connection_check()) {
