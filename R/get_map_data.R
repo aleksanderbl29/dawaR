@@ -91,6 +91,8 @@ get_map_data_nocache <- function(type, cache = FALSE, params = list()) {
 
   # Clean up api response
   rm(api_response)
+  # Garbagecollect
+  gc(verbose = FALSE)
 
   resp_st <- sf::st_read(
     temp_file,
