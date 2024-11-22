@@ -1,4 +1,5 @@
 test_that("API base function properly", {
+  skip_if_not(connection_check())
   # Call unsupported part of api and return error
   expect_error(dawa(section = "base"))
   expect_error(dawa(section = "supermarked"))
@@ -16,4 +17,11 @@ test_that("API base function properly", {
 
   expect_snapshot(dawa("regioner"))
   expect_snapshot(dawa("regioner", cache = FALSE))
+
+  expect_error(
+    dawa(
+      section = "regioner",
+      append_to_url = 1234
+    )
+  )
 })

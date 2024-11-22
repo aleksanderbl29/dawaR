@@ -81,9 +81,11 @@ Github
 github
 givenName
 grey
+Hotfix
 href
 https
 httr
+ignorable
 importIntoEnv
 io
 issueTracker
@@ -116,6 +118,7 @@ POSIXt
 postnumre
 pre
 programmingLanguage
+Rbuildignore
 RDX
 README
 readme
@@ -131,6 +134,7 @@ retskredse
 rlang
 rmapshaper
 rmarkdown
+rmd
 Roxygen
 RoxygenNote
 rstudio

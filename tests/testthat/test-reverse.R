@@ -1,4 +1,5 @@
 test_that("reverse geocode returns information reliably", {
+  skip_if_not(connection_check())
   expect_snapshot(reverse("regioner", x = 12.58515, y = 55.68324))
 
   expect_snapshot(reverse("afstemningsomraader",
@@ -16,7 +17,7 @@ test_that("reverse geocode returns information reliably", {
     x = 11.5534117505933
   ))
 
-  ## Coords from austria
+  ## Coords from austria - Fails hard
   expect_error(reverse("regioner",
     y = 47.870337094048274,
     x = 15.74573536789984,

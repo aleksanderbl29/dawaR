@@ -36,6 +36,8 @@ status_check(return_df = TRUE)
 
 You can also use the `status_check(error_if_unavailable = TRUE)` as a test to stop your script if one of the services is currently unavailable.
 
+For more granular handling of connection errors, you can use `connection_check()` which simply returns a logical value to help you determine how to handle the connection.
+
 ## DAWA *will* be phased out
 
 The government entity that maintains the Danish Web Address API has disclosed that the API will be phased out at some point. When that time comes, this package will become deprecated and I will have another package ready to provide the same functionality. The service that is to replace DAWA is called Datafordeleren (The Data Distribution) and is in the works. Some functionality in relation to The Central Register of Buildings (BBR) has already been moved to the new service.

@@ -33,6 +33,7 @@
 #'   returns the request that has been created but does not run it.
 #'
 #' @export
+#' @importFrom utils packageDescription
 #'
 #' @examples
 #' x <- dawa(section = "sogne")
@@ -63,7 +64,22 @@ dawa <- function(section,
     format = format
   )
 
+  # Add landpostnumre parameter to specify only postal codes on land
+  # see issue #100
+  if (section == "postnumre") {
+    params <- append(
+      params,
+      list(landpostnumre = "")
+    )
+  }
+
   base_url <- "https://api.dataforsyningen.dk"
+
+  if (!connection_check()) {
+    cli::cli_alert_warning("You do not have access to api.dataforsyningen.dk.
+        Please check your connection settings.")
+    return(NULL) # Exit early if no connection is detected
+  }
 
   section_info(section, verbose)
 
@@ -72,7 +88,14 @@ dawa <- function(section,
     httr2::req_url_path_append(append_to_url) |>
     httr2::req_url_query(!!!params) |> # user provided query params
     httr2::req_url_query(!!!func_params) |> # list of inputs from funcs
-    httr2::req_user_agent("dawaR (https://dawar.aleksanderbl.dk)")
+    httr2::req_user_agent(
+      paste0(
+        "dawaR_", utils::packageDescription("dawaR", fields = "Version"),
+        " at https://dawar.aleksanderbl.dk)"
+      )
+    ) |>
+    httr2::req_timeout(100) |> # Timeout limit of 10 seconds
+    httr2::req_retry(max_tries = 3) # Retry on transient erros 503 and 429
 
   if (cache == TRUE) {
     temp_dir <- tempdir() # Location for caching the response
@@ -87,18 +110,52 @@ dawa <- function(section,
     cli::cli_alert_info("Accessing {.url {dawa_request[1]}}")
   }
 
+  resp <- NULL
+
   if (dry_run == TRUE) {
-    httr2::req_dry_run(dawa_request)
+    return(httr2::req_dry_run(dawa_request))
   } else if (dry_run == FALSE) {
-    if (!is.null(format)) {
-      if (format %in% c("geojson", "geojsonz")) {
-        httr2::req_perform(dawa_request) |>
-          httr2::resp_body_string()
+    tryCatch(
+      {
+        resp <- httr2::req_perform(dawa_request)
+      },
+      error = function(e) {
+        cli::cli_alert_danger("Request failed: {e$message}")
+        resp <- resp
       }
-    } else {
-      httr2::req_perform(dawa_request) |>
-        httr2::resp_body_json()
-    }
+    )
+  }
+
+  if (is.null(resp)) {
+    cli::cli_alert_danger("The API returned a {resp$status_code} error.")
+    cli::cli_alert_danger("No content will be returned")
+  }
+
+  if (!is.null(format) && !is.null(resp) && !httr2::resp_is_error(resp)) {
+    tryCatch(
+      {
+        if (format %in% c("geojson", "geojsonz")) {
+          return(resp |> httr2::resp_body_string())
+        }
+      },
+      error = function(e) {
+        cli::cli_alert_danger("Failed to parse response: {e$message}")
+      }
+    )
+    # nolint start
+  } else if (httr2::resp_content_type(resp) != "application/json" &&
+    !is.null(resp) && !httr2::resp_is_error(resp)) {
+    # nolint end
+    cli::cli_abort("The API did not return JSON")
+  } else if (!is.null(resp) && !httr2::resp_is_error(resp)) {
+    tryCatch(
+      {
+        return(resp |> httr2::resp_body_json())
+      },
+      error = function(e) {
+        cli::cli_alert_danger("Failed to parse response: {e$message}")
+      }
+    )
   }
 }
 
