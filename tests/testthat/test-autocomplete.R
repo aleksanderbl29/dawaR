@@ -1,4 +1,5 @@
 test_that("Autocomplete returns the right answer", {
+  skip_if_not(connection_check())
   expect_snapshot(autocomplete(section = "regioner", input = "Dok"))
   expect_snapshot(autocomplete(section = "kommuner", input = "Dok"))
   expect_snapshot(autocomplete(section = "politikredse", input = "Dok"))
