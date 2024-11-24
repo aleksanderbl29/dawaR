@@ -7,7 +7,9 @@
 #'
 #' @return Returns either a dataframe with all the data for the specified
 #'   section or a list with the same information.
+#'
 #' @export
+#' @family Data functions
 #'
 #' @examples
 #' x <- get_data("regioner")
