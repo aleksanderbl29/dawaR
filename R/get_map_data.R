@@ -17,6 +17,7 @@
 #' @inheritParams dawa
 #'
 #' @export
+#' @family Data functions
 #'
 #' @examples
 #' \dontrun{

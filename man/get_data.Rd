@@ -26,3 +26,8 @@ Get data from section
 x <- get_data("regioner")
 head(x)
 }
+\seealso{
+Other Data functions: 
+\code{\link{get_map_data}()}
+}
+\concept{Data functions}
