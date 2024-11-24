@@ -33,3 +33,8 @@ ggplot2::ggplot(x) +
   ggplot2::geom_sf()
 }
 }
+\seealso{
+Other Data functions: 
+\code{\link{get_data}()}
+}
+\concept{Data functions}

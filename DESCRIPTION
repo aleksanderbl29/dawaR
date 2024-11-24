@@ -2,10 +2,14 @@ Package: dawaR
 Title: An API Wrapper for 'DAWA' - 'The Danish Address Web API'
 Date: 2024-11-23
 Version: 0.2.6
-Authors@R: 
+Authors@R: c(
     person("Aleksander", "Bang-Larsen", , "contact@aleksanderbl.dk",
            role = c("aut", "cre", "cph"),
-           comment = c(ORCID = "0009-0007-7984-4650"))
+           comment = c(ORCID = "0009-0007-7984-4650")),
+    person("Agency of Climate Data", role = c("ctb"),
+           comment = c(NOTE = "The Danish Agency of Climate Data provides this
+           API for the public and have not actively contributed to the
+           development nor distribution in this package.")))
 Description: Functions for interacting with all sections of
     the official 'Danish Address Web API' (also known as 'DAWA') 
     <https://api.dataforsyningen.dk>. The development of this package is
