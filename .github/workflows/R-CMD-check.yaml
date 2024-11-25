@@ -44,7 +44,7 @@ jobs:
 
       # Cache dependencies based on renv.lock and DESCRIPTION
       - name: Cache R packages
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: |
             ${{ runner.tool_cache }}/R
