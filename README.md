@@ -45,7 +45,7 @@ You can install the latest development version of `{dawaR}` from
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("aleksanderbl29/dawaR@devel")
+devtools::install_github("aleksanderbl29/dawaR")
 ```
 
 If you install the package in an environment configured with
