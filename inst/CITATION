@@ -6,7 +6,7 @@ bibentry(
 bibentry(
   bibtype  = "misc",
   key      = "apidawa",
-  title    = "{DAWA}: {Denmark's Address Web API} at {The datadistribution} - Through {dawaR}",
+  title    = "{DAWA}: {Denmark's Address Web API} at {The Data Distribution} - Through {dawaR}",
   author   = person("Agency of Climate Data}"),
   year     = "2024",
   url      = "https://dawadocs.dataforsyningen.dk/dok/guides"
