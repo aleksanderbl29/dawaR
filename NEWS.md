@@ -1,3 +1,5 @@
+# dawaR (development version)
+
 # dawaR 0.2.6 (2024-11-23)
 
 * The base api function `dawa()` now fails gracefully.
