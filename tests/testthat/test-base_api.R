@@ -1,8 +1,16 @@
 test_that("API base function properly", {
-  skip_if_not(connection_check())
+  # skip_if_not(connection_check())
   # Call unsupported part of api and return error
-  expect_error(dawa(section = "base"))
-  expect_error(dawa(section = "supermarked"))
+
+  vcr::use_cassette("unsupported_1", {
+    call1 <- dawa(section = "base")
+  })
+  expect_error(call1)
+
+  vcr::use_cassette("supermarked", {
+    call2 <- dawa(section = "supermarked")
+  })
+  expect_error(call2)
 
 
   old <- httr2::request(
