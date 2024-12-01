@@ -1,5 +1,6 @@
-test_that("Get map data errs correctly", {
-  skip_if_not(connection_check())
-  expect_snapshot_error(get_map_data("fisk"))
-  expect_error(get_map_data("fisk"))
+vcr::use_cassette("get_map_data_errs_correctly", {
+  test_that("Get map data errs correctly", {
+    expect_snapshot_error(get_map_data("fisk"))
+    expect_error(get_map_data("fisk"))
+  })
 })
