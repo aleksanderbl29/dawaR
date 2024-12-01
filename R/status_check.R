@@ -5,6 +5,10 @@
 #'   status page. The status can also be followed on their official X-page
 #'   `@DriftDataforsyn`.
 #'
+#' @note Please note that the status at the status page is only checked at
+#'   regular intervals. If you would like to know if your machine can access the
+#'   serviceses, please try `connection_check()` as well.
+#'
 #'
 #' @param return_df This option makes the function return a data.frame object
 #'   with the services and their statuses listed
