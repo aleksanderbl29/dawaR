@@ -36,9 +36,11 @@
 #' @importFrom utils packageDescription
 #'
 #' @examples
-#' x <- dawa(section = "sogne")
+#' if (connection_check()) {
+#'   x <- dawa(section = "sogne")
 #'
-#' x[[1]]
+#'   x[[1]]
+#' }
 dawa <- function(section,
                  ...,
                  append_to_url = NULL,
@@ -184,7 +186,9 @@ dawa <- function(section,
 #' @export
 #'
 #' @examples
-#' reverse("regioner", x = 12.58515, y = 55.68324)
+#' if (connection_check()) {
+#'   reverse("regioner", x = 12.58515, y = 55.68324)
+#' }
 reverse <- function(section, x, y, verbose = TRUE, type = NULL, ...) {
   if (!is.null(type)) {
     if (check_coordinate_type(type)) {
@@ -222,7 +226,9 @@ reverse <- function(section, x, y, verbose = TRUE, type = NULL, ...) {
 #' @export
 #'
 #' @examples
-#' autocomplete("regioner", "midt")
+#' if (connection_check()) {
+#'   autocomplete("regioner", "midt")
+#' }
 autocomplete <- function(section, input, ...) {
   dawa(
     section = section,

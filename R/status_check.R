@@ -19,11 +19,11 @@
 #' @export
 #'
 #' @examples
+#' if (connection_check()) {
+#'   status_check()
 #'
-#' status_check()
-#'
-#' status_check(return_df = TRUE)
-#'
+#'   status_check(return_df = TRUE)
+#' }
 status_check <- function(return_df = FALSE, error_if_unavailable = FALSE) {
   status_url <- "https://erdataforsyningennede.site24x7statusiq.com/rss"
 

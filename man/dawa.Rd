@@ -57,7 +57,9 @@ in this package. By default it reformats the api response (which is json)
 to a list object.
 }
 \examples{
-x <- dawa(section = "sogne")
+if (connection_check()) {
+  x <- dawa(section = "sogne")
 
-x[[1]]
+  x[[1]]
+}
 }

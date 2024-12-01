@@ -12,8 +12,10 @@
 #' @family Data functions
 #'
 #' @examples
-#' x <- get_data("regioner")
-#' head(x)
+#' if (connection_check()) {
+#'   x <- get_data("regioner")
+#'   head(x)
+#' }
 get_data <- function(section,
                      as_list = FALSE, ...) {
   if (!section %in% available_sections()) {

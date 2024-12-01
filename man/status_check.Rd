@@ -24,11 +24,11 @@ status page. The status can also be followed on their official X-page
 \verb{@DriftDataforsyn}.
 }
 \examples{
+if (connection_check()) {
+  status_check()
 
-status_check()
-
-status_check(return_df = TRUE)
-
+  status_check(return_df = TRUE)
+}
 }
 \seealso{
 Other Connection checks: 
