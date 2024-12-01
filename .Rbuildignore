@@ -17,6 +17,7 @@
 ^docs$
 ^gem_data.R$
 ^pkgdown$
+^pre-compute-vignettes.R$
 ^renv$
 ^renv\.lock$
 ^status-message$
