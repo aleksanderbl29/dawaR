@@ -17,10 +17,10 @@
 ^docs$
 ^gem_data.R$
 ^pkgdown$
-^pre-compute-vignettes.R$
 ^renv$
 ^renv\.lock$
 ^status-message$
 ^sticker.R$
 ^vignettes/.quarto$
 ^vignettes/articles$
+^vignettes/pre-compute.R$
