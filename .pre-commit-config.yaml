@@ -48,6 +48,7 @@ repos:
           data/.*|
           renv/.*|
           CRAN-SUBMISSION|
+          tests/.*|
           )$
     -   id: lintr
     -   id: readme-rmd-rendered
