@@ -21,3 +21,5 @@ if (interactive()) {
   suppressMessages(require(testthat))
   devtools::dev_sitrep()
 }
+
+
