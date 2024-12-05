@@ -97,22 +97,22 @@ available<a class="anchor" aria-label="anchor" href="#use-status_check-to-assert
 the API.</p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="../reference/status_check.html">status_check</a></span><span class="op">(</span><span class="op">)</span></span>
-<span><span class="co">#&gt; <span style="color: #00BB00;">✔</span> All systems are operational</span></span></code></pre></div>
+<span><span class="co">#&gt; <span style="color: #BB0000;">✖</span> WMS - forvaltning2 and sdfekort.dk are not operational</span></span></code></pre></div>
 <p>It is also possible to return a dataframe specifying the individual
 status of each service provided by the government entity that maintains
 DAWA. This is particularly useful if you would like to use it in any
 further analyses.</p>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="../reference/status_check.html">status_check</a></span><span class="op">(</span>return_df <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
-<span><span class="co">#&gt; <span style="color: #00BB00;">✔</span> All systems are operational</span></span>
+<span><span class="co">#&gt; <span style="color: #BB0000;">✖</span> WMS - forvaltning2 and sdfekort.dk are not operational</span></span>
 <span><span class="co">#&gt;              service status</span></span>
 <span><span class="co">#&gt; 1           Adresser     OK</span></span>
 <span><span class="co">#&gt; 2         Arkiv kort     OK</span></span>
 <span><span class="co">#&gt; 3 Dataforsyningen.dk     OK</span></span>
 <span><span class="co">#&gt; 4               FTPS     OK</span></span>
 <span><span class="co">#&gt; 5            Gsearch     OK</span></span>
-<span><span class="co">#&gt; 6 WMS - forvaltning2     OK</span></span>
-<span><span class="co">#&gt; 7        sdfekort.dk     OK</span></span></code></pre></div>
+<span><span class="co">#&gt; 6 WMS - forvaltning2   Down</span></span>
+<span><span class="co">#&gt; 7        sdfekort.dk   Down</span></span></code></pre></div>
 <p>You can also use the
 <code>status_check(error_if_unavailable = TRUE)</code> as a test to stop
 your script if one of the services is currently unavailable.</p>
