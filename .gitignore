@@ -10,3 +10,4 @@ docs
 /Meta/
 *.eml
 gem_data.R
+.vscode
