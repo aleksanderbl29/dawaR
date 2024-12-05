@@ -13,7 +13,7 @@ status page. The status can also be followed on their official X-page
 
     <a class="navbar-brand me-2" href="../index.html">dawaR</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.2.6.9000</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">0.2.7</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -83,6 +83,12 @@ in the event that one or more services are unreachable.</p></dd>
 only returned if <code>return_df = TRUE</code>.</p>
     </div>
     <div class="section level2">
+    <h2 id="note">Note<a class="anchor" aria-label="anchor" href="#note"></a></h2>
+    <p>Please note that the status at the status page is only checked at
+regular intervals. If you would like to know if your machine can access the
+serviceses, please try <code><a href="connection_check.html">connection_check()</a></code> as well.</p>
+    </div>
+    <div class="section level2">
     <h2 id="see-also">See also<a class="anchor" aria-label="anchor" href="#see-also"></a></h2>
     <div class="dont-index"><p>Other Connection checks:
 <code><a href="connection_check.html">connection_check</a>()</code></p></div>
@@ -90,21 +96,21 @@ only returned if <code>return_df = TRUE</code>.</p>
 
     <div class="section level2">
     <h2 id="ref-examples">Examples<a class="anchor" aria-label="anchor" href="#ref-examples"></a></h2>
-    <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span></span></span>
-<span class="r-in"><span><span class="fu">status_check</span><span class="op">(</span><span class="op">)</span></span></span>
-<span class="r-msg co"><span class="r-pr">#&gt;</span> <span style="color: #00BB00;">✔</span> All systems are operational</span>
+    <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="kw">if</span> <span class="op">(</span><span class="fu"><a href="connection_check.html">connection_check</a></span><span class="op">(</span><span class="op">)</span><span class="op">)</span> <span class="op">{</span></span></span>
+<span class="r-in"><span>  <span class="fu">status_check</span><span class="op">(</span><span class="op">)</span></span></span>
 <span class="r-in"><span></span></span>
-<span class="r-in"><span><span class="fu">status_check</span><span class="op">(</span>return_df <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span></span>
-<span class="r-msg co"><span class="r-pr">#&gt;</span> <span style="color: #00BB00;">✔</span> All systems are operational</span>
+<span class="r-in"><span>  <span class="fu">status_check</span><span class="op">(</span>return_df <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span></span>
+<span class="r-in"><span><span class="op">}</span></span></span>
+<span class="r-msg co"><span class="r-pr">#&gt;</span> <span style="color: #BB0000;">✖</span> WMS - forvaltning2 and sdfekort.dk are not operational</span>
+<span class="r-msg co"><span class="r-pr">#&gt;</span> <span style="color: #BB0000;">✖</span> WMS - forvaltning2 and sdfekort.dk are not operational</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>              service status</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> 1           Adresser     OK</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> 2         Arkiv kort     OK</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> 3 Dataforsyningen.dk     OK</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> 4               FTPS     OK</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> 5            Gsearch     OK</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 6 WMS - forvaltning2     OK</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 7        sdfekort.dk     OK</span>
-<span class="r-in"><span></span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 6 WMS - forvaltning2   Down</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 7        sdfekort.dk   Down</span>
 </code></pre></div>
     </div>
   </main><aside class="col-md-3"><nav id="toc" aria-label="Table of contents"><h2>On this page</h2>

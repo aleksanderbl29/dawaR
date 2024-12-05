@@ -13,7 +13,7 @@ Denmark is provided, the function will fail with a code 404."><meta property="og
 
     <a class="navbar-brand me-2" href="../index.html">dawaR</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.2.6.9000</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">0.2.7</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -106,7 +106,9 @@ for the location that is input.</p>
 
     <div class="section level2">
     <h2 id="ref-examples">Examples<a class="anchor" aria-label="anchor" href="#ref-examples"></a></h2>
-    <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="fu">reverse</span><span class="op">(</span><span class="st">"regioner"</span>, x <span class="op">=</span> <span class="fl">12.58515</span>, y <span class="op">=</span> <span class="fl">55.68324</span><span class="op">)</span></span></span>
+    <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="kw">if</span> <span class="op">(</span><span class="fu"><a href="connection_check.html">connection_check</a></span><span class="op">(</span><span class="op">)</span><span class="op">)</span> <span class="op">{</span></span></span>
+<span class="r-in"><span>  <span class="fu">reverse</span><span class="op">(</span><span class="st">"regioner"</span>, x <span class="op">=</span> <span class="fl">12.58515</span>, y <span class="op">=</span> <span class="fl">55.68324</span><span class="op">)</span></span></span>
+<span class="r-in"><span><span class="op">}</span></span></span>
 <span class="r-msg co"><span class="r-pr">#&gt;</span> → Requesting `regioner - reverse` from DAWA</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> $ændret</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [1] "2024-10-04T21:02:54.978Z"</span>
