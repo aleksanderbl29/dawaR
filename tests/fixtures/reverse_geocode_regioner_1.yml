@@ -1,0 +1,48 @@
+http_interactions:
+- request:
+    method: get
+    uri: https://api.dataforsyningen.dk/regioner/reverse?x=12.58515&y=55.68324
+    body:
+      encoding: ''
+      string: ''
+    headers: []
+  response:
+    status:
+      status_code: 200
+      message: OK
+    headers:
+      x-gravitee-client-identifier: 948768a6f45dd39605267d52f6a113932f9da99bc9daeffbbcc2165499a39266
+      access-control-allow-origin: '*'
+      content-type: application/json; charset=UTF-8
+      cache-control: max-age=86400
+      vary: Accept-Encoding
+      date: Thu, 05 Dec 2024 10:09:08 GMT
+      x-gravitee-transaction-id: daf28445-a6a8-4306-b284-45a6a87306a1
+      x-gravitee-request-id: daf28445-a6a8-4306-b284-45a6a87306a1
+      content-encoding: gzip
+    body:
+      encoding: ''
+      file: no
+      string: |-
+        {
+          "ændret": "2024-10-04T21:02:54.978Z",
+          "geo_version": 31,
+          "geo_ændret": "2024-10-04T21:02:54.978Z",
+          "bbox": [
+            11.60211644,
+            54.98354657,
+            15.31831444,
+            56.20520188
+          ],
+          "visueltcenter": [
+            12.27937393,
+            55.97238879
+          ],
+          "dagi_id": "389099",
+          "kode": "1084",
+          "navn": "Region Hovedstaden",
+          "nuts2": "DK01",
+          "href": "https://api.dataforsyningen.dk/regioner/1084"
+        }
+  recorded_at: 2024-12-05 10:09:08 GMT
+  recorded_with: vcr/1.6.0, webmockr/1.0.0

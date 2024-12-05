@@ -12,8 +12,10 @@
 #' @family Data functions
 #'
 #' @examples
-#' x <- get_data("regioner")
-#' head(x)
+#' if (connection_check()) {
+#'   x <- get_data("regioner")
+#'   head(x)
+#' }
 get_data <- function(section,
                      as_list = FALSE, ...) {
   if (!section %in% available_sections()) {
@@ -22,6 +24,12 @@ get_data <- function(section,
   }
 
   params <- rlang::list2(...)
+
+  if (!connection_check()) {
+    cli::cli_alert_warning("You do not have access to api.dataforsyningen.dk.
+        Please check your connection settings.")
+    return(NULL) # Exit early if no connection is detected
+  }
 
   response <- dawa(
     section = section,

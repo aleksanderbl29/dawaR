@@ -1,25 +1,25 @@
-# Autocomplete returns the right answer
+# Autocomplete returns the right answer for regioner with input Dok
 
     Code
       autocomplete(section = "regioner", input = "Dok")
     Output
       list()
 
----
+# Autocomplete returns the right answer for kommuner with input Dok
 
     Code
       autocomplete(section = "kommuner", input = "Dok")
     Output
       list()
 
----
+# Autocomplete returns the right answer for politikredse with input Dok
 
     Code
       autocomplete(section = "politikredse", input = "Dok")
     Output
       list()
 
----
+# Autocomplete returns the right answer for afstemningsomraader with input Dok
 
     Code
       autocomplete(section = "afstemningsomraader", input = "Dok")
@@ -283,56 +283,56 @@
       
       
 
----
+# Autocomplete returns the right answer for regioner with input Æbel
 
     Code
       autocomplete(section = "regioner", input = "Æbel")
     Output
       list()
 
----
+# Autocomplete returns the right answer for kommuner with input Æbel
 
     Code
       autocomplete(section = "kommuner", input = "Æbel")
     Output
       list()
 
----
+# Autocomplete returns the right answer for politikredse with input Æbel
 
     Code
       autocomplete(section = "politikredse", input = "Æbel")
     Output
       list()
 
----
+# Autocomplete returns the right answer for afstemningsomraader with input Æbel
 
     Code
       autocomplete(section = "afstemningsomraader", input = "Æbel")
     Output
       list()
 
----
+# Autocomplete returns the right answer for regioner with input Røddi
 
     Code
       autocomplete(section = "regioner", input = "Røddi")
     Output
       list()
 
----
+# Autocomplete returns the right answer for kommuner with input Røddi
 
     Code
       autocomplete(section = "kommuner", input = "Røddi")
     Output
       list()
 
----
+# Autocomplete returns the right answer for politikredse with input Røddi
 
     Code
       autocomplete(section = "politikredse", input = "Røddi")
     Output
       list()
 
----
+# Autocomplete returns the right answer for afstemningsomraader with input Røddi
 
     Code
       autocomplete(section = "afstemningsomraader", input = "Røddi")
@@ -725,14 +725,14 @@
       
       
 
----
+# Autocomplete returns the right answer for regioner with input brønder
 
     Code
       autocomplete(section = "regioner", input = "brønder")
     Output
       list()
 
----
+# Autocomplete returns the right answer for kommuner with input brønder
 
     Code
       autocomplete(section = "kommuner", input = "brønder")
@@ -805,14 +805,14 @@
       
       
 
----
+# Autocomplete returns the right answer for politikredse with input brønder
 
     Code
       autocomplete(section = "politikredse", input = "brønder")
     Output
       list()
 
----
+# Autocomplete returns the right answer for afstemningsomraader with input brønder
 
     Code
       autocomplete(section = "afstemningsomraader", input = "brønder")

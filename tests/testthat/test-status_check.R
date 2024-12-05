@@ -1,4 +1,5 @@
 test_that("Status check function parses the rss feed and returns a dataframe if specified", {
+  skip_on_cran()
   observed_df <- status_check(return_df = TRUE)
 
   services <- list(
@@ -17,6 +18,7 @@ test_that("Status check function parses the rss feed and returns a dataframe if 
 })
 
 cli::test_that_cli("Status check message prints properly in {cli}", {
+  skip_on_cran()
   testthat::expect_snapshot({
     status_check()
   })

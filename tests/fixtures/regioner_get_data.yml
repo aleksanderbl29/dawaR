@@ -1,0 +1,101 @@
+http_interactions:
+- request:
+    method: get
+    uri: https://api.dataforsyningen.dk/regioner?struktur=flad
+    body:
+      encoding: ''
+      string: ''
+    headers: []
+  response:
+    status:
+      status_code: 200
+      message: OK
+    headers:
+      x-gravitee-client-identifier: 948768a6f45dd39605267d52f6a113932f9da99bc9daeffbbcc2165499a39266
+      access-control-allow-origin: '*'
+      content-type: application/json; charset=UTF-8
+      cache-control: max-age=86400
+      vary: Accept-Encoding
+      date: Thu, 05 Dec 2024 10:08:40 GMT
+      x-gravitee-transaction-id: cd4f451c-32d0-45c2-8f45-1c32d065c202
+      x-gravitee-request-id: cd4f451c-32d0-45c2-8f45-1c32d065c202
+      content-encoding: gzip
+    body:
+      encoding: ''
+      file: no
+      string: |-
+        [
+        {
+          "dagi_id": "389098",
+          "kode": "1081",
+          "navn": "Region Nordjylland",
+          "nuts2": "DK05",
+          "ændret": "2024-10-04T21:02:54.978Z",
+          "geo_ændret": "2024-10-04T21:02:54.978Z",
+          "geo_version": 32,
+          "bbox_xmin": 8.18951662,
+          "bbox_ymin": 56.53454667,
+          "bbox_xmax": 11.22599137,
+          "bbox_ymax": 57.76025478,
+          "visueltcenter_x": 10.11282907,
+          "visueltcenter_y": 57.30715928
+        }, {
+          "dagi_id": "389101",
+          "kode": "1082",
+          "navn": "Region Midtjylland",
+          "nuts2": "DK04",
+          "ændret": "2024-10-11T21:03:05.131Z",
+          "geo_ændret": "2024-10-11T21:03:05.131Z",
+          "geo_version": 43,
+          "bbox_xmin": 8.07887623,
+          "bbox_ymin": 55.64437916,
+          "bbox_xmax": 11.66419061,
+          "bbox_ymax": 56.84325702,
+          "visueltcenter_x": 9.60503157,
+          "visueltcenter_y": 56.23399042
+        }, {
+          "dagi_id": "389102",
+          "kode": "1083",
+          "navn": "Region Syddanmark",
+          "nuts2": "DK03",
+          "ændret": "2024-10-04T21:02:54.978Z",
+          "geo_ændret": "2024-10-04T21:02:54.978Z",
+          "geo_version": 32,
+          "bbox_xmin": 8.06320315,
+          "bbox_ymin": 54.71828064,
+          "bbox_xmax": 10.99555236,
+          "bbox_ymax": 55.95324986,
+          "visueltcenter_x": 9.02846054,
+          "visueltcenter_y": 55.56316696
+        }, {
+          "dagi_id": "389099",
+          "kode": "1084",
+          "navn": "Region Hovedstaden",
+          "nuts2": "DK01",
+          "ændret": "2024-10-04T21:02:54.978Z",
+          "geo_ændret": "2024-10-04T21:02:54.978Z",
+          "geo_version": 31,
+          "bbox_xmin": 11.60211644,
+          "bbox_ymin": 54.98354657,
+          "bbox_xmax": 15.31831444,
+          "bbox_ymax": 56.20520188,
+          "visueltcenter_x": 12.27937393,
+          "visueltcenter_y": 55.97238879
+        }, {
+          "dagi_id": "389100",
+          "kode": "1085",
+          "navn": "Region Sjælland",
+          "nuts2": "DK02",
+          "ændret": "2024-10-22T21:04:04.354Z",
+          "geo_ændret": "2024-10-22T21:04:04.354Z",
+          "geo_version": 29,
+          "bbox_xmin": 10.8148054,
+          "bbox_ymin": 54.54440636,
+          "bbox_xmax": 12.64551576,
+          "bbox_ymax": 56.0173058,
+          "visueltcenter_x": 11.62131942,
+          "visueltcenter_y": 55.43978536
+        }
+        ]
+  recorded_at: 2024-12-05 10:08:40 GMT
+  recorded_with: vcr/1.6.0, webmockr/1.0.0

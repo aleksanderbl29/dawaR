@@ -1,27 +1,35 @@
 test_that("API base function properly", {
-  skip_if_not(connection_check())
-  # Call unsupported part of api and return error
+  # Test error cases without VCR since they don't make API calls
   expect_error(dawa(section = "base"))
   expect_error(dawa(section = "supermarked"))
+})
 
-
-  old <- httr2::request(
-    "https://api.dataforsyningen.dk/sogne"
-  ) |>
+test_that("Compare sogne API results", {
+  skip_on_cran()
+  old_result <- httr2::request("https://api.dataforsyningen.dk/sogne") |>
     httr2::req_perform() |>
     httr2::resp_body_json()
 
-  new <- dawa("sogne", verbose = FALSE)
+  new_result <- dawa("sogne", verbose = FALSE)
 
-  expect_equal(old[[1]], new[[1]])
+  expect_equal(old_result[[1]], new_result[[1]])
+})
 
-  expect_snapshot(dawa("regioner"))
-  expect_snapshot(dawa("regioner", cache = FALSE))
+vcr::use_cassette("regioner_api_default", {
+  test_that("Test regioner default", {
+    expect_snapshot(dawa("regioner"))
+  })
+})
 
-  expect_error(
-    dawa(
-      section = "regioner",
-      append_to_url = 1234
-    )
-  )
+vcr::use_cassette("regioner_api_no_cache", {
+  test_that("Test regioner no cache", {
+    expect_snapshot(dawa("regioner", cache = FALSE))
+  })
+})
+
+test_that("Test invalid append", {
+  expect_error(dawa(
+    section = "regioner",
+    append_to_url = 1234
+  ))
 })

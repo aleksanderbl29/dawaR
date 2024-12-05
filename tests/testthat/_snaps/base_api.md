@@ -1,4 +1,4 @@
-# API base function properly
+# Test regioner default
 
     Code
       dawa("regioner")
@@ -247,7 +247,7 @@
       
       
 
----
+# Test regioner no cache
 
     Code
       dawa("regioner", cache = FALSE)

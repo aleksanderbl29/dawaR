@@ -24,7 +24,7 @@ library(dawaR)
 
 To get a dataframe of all the regions in Denmark, you can use the `get_data()` function.
 
-```{r}
+```{r get-data}
 get_data("regioner")
 ```
 
@@ -39,7 +39,7 @@ library(dplyr)
 
 The function `get_data()` fetches the data in `json` format and by default transforms it to a data.frame.
 
-```{r}
+```{r nordjylland}
 library(dawaR)
 library(dplyr)
 
@@ -58,7 +58,7 @@ Here we have extracted all the municipalities that are in "Region Nordjylland". 
 
 The function `get_map_data()` fetches data in `geojson` format and transforms the geometries to `{sf}` polygons. These polygons can be drawn as nice maps with `{ggplot2}`.
 
-```{r municipality_map}
+```{r municipality_map, output=FALSE}
 library(dawaR)
 library(ggplot2)
 

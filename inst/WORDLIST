@@ -1,6 +1,7 @@
 addExports
 addImports
 Adressers
+aes
 Afstemningsomraader
 afstemningsomraader
 agr
@@ -54,6 +55,8 @@ dawadocs
 dawaR
 dawar
 desc
+devtools
+df
 dir
 dk
 doi
@@ -64,6 +67,7 @@ dropdown
 dynam
 ec
 ETRS
+eval
 expr
 familyName
 fileSize
@@ -73,6 +77,7 @@ fO
 funciton
 fx
 geocode
+geojson
 getClasses
 getenv
 getGeneric
@@ -96,6 +101,8 @@ Klimadatastyrelsen
 klimadatastyrelsen
 knitr
 kommune
+kommunenavn
+kommuner
 Konstanze
 landsdele
 lattitude
@@ -108,14 +115,18 @@ memoise
 microbenchmark
 mtime
 navbar
+navn
 nchar
 NextMethod
 Nordjylland
+nordjylland
 nrow
 oI
 ORCID
 orcid
 pC
+pkgdown
+politikredse
 POSIXt
 postnumre
 pre
@@ -125,6 +136,8 @@ RDX
 README
 readme
 reformats
+regioner
+regionsnavn
 regmatches
 relatedLink
 releaseNotes
@@ -144,6 +157,7 @@ runtimePlatform
 sameAs
 sdfi
 Sepcify
+serviceses
 setopt
 SHA
 simpleMessage
@@ -160,13 +174,18 @@ SystemRequirements
 Sї
 testthat
 tidyRSS
+tidyverse
 Tilgået
 tzones
 unlist
 uS
 usingTools
 valglandsdele
+vcr
 VignetteBuilder
+VignetteEncoding
+VignetteEngine
+VignetteIndexEntry
 WGS
 writeBlock
 writeLines

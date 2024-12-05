@@ -36,9 +36,11 @@
 #' @importFrom utils packageDescription
 #'
 #' @examples
-#' x <- dawa(section = "sogne")
+#' if (connection_check()) {
+#'   x <- dawa(section = "sogne")
 #'
-#' x[[1]]
+#'   x[[1]]
+#' }
 dawa <- function(section,
                  ...,
                  append_to_url = NULL,
@@ -129,6 +131,7 @@ dawa <- function(section,
   if (is.null(resp)) {
     cli::cli_alert_danger("The API returned a {resp$status_code} error.")
     cli::cli_alert_danger("No content will be returned")
+    return(resp)
   }
 
   if (!is.null(format) && !is.null(resp) && !httr2::resp_is_error(resp)) {
@@ -143,8 +146,8 @@ dawa <- function(section,
       }
     )
     # nolint start
-  } else if (httr2::resp_content_type(resp) != "application/json" &&
-    !is.null(resp) && !httr2::resp_is_error(resp)) {
+  } else if (!is.null(resp) && !httr2::resp_is_error(resp) &&
+    httr2::resp_content_type(resp) != "application/json") {
     # nolint end
     cli::cli_abort("The API did not return JSON")
   } else if (!is.null(resp) && !httr2::resp_is_error(resp)) {
@@ -184,7 +187,9 @@ dawa <- function(section,
 #' @export
 #'
 #' @examples
-#' reverse("regioner", x = 12.58515, y = 55.68324)
+#' if (connection_check()) {
+#'   reverse("regioner", x = 12.58515, y = 55.68324)
+#' }
 reverse <- function(section, x, y, verbose = TRUE, type = NULL, ...) {
   if (!is.null(type)) {
     if (check_coordinate_type(type)) {
@@ -192,6 +197,12 @@ reverse <- function(section, x, y, verbose = TRUE, type = NULL, ...) {
     }
   } else {
     coord <- type
+  }
+
+  if (!connection_check()) {
+    cli::cli_alert_warning("You do not have access to api.dataforsyningen.dk.
+        Please check your connection settings.")
+    return(NULL) # Exit early if no connection is detected
   }
 
   section_info(section, verbose, type = "reverse")
@@ -222,8 +233,16 @@ reverse <- function(section, x, y, verbose = TRUE, type = NULL, ...) {
 #' @export
 #'
 #' @examples
-#' autocomplete("regioner", "midt")
+#' if (connection_check()) {
+#'   autocomplete("regioner", "midt")
+#' }
 autocomplete <- function(section, input, ...) {
+  if (!connection_check()) {
+    cli::cli_alert_warning("You do not have access to api.dataforsyningen.dk.
+        Please check your connection settings.")
+    return(NULL) # Exit early if no connection is detected
+  }
+
   dawa(
     section = section,
     append_to_url = "autocomplete",

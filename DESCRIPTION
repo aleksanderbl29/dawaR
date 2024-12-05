@@ -11,7 +11,7 @@ Authors@R: c(
            API for the public and have not actively contributed to the
            development nor distribution in this package.")))
 Description: Functions for interacting with all sections of
-    the official 'Danish Address Web API' (also known as 'DAWA') 
+    the official 'Danish Address Web API' (also known as 'DAWA')
     <https://api.dataforsyningen.dk>. The development of this package is
     completely independent from the government agency, Klimadatastyrelsen,
     who maintains the API.
@@ -21,7 +21,7 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
 URL: https://dawar.aleksanderbl.dk/, https://github.com/aleksanderbl29/dawaR
 BugReports: https://github.com/aleksanderbl29/dawaR/issues
-Suggests: 
+Suggests:
     knitr,
     rmarkdown,
     ggplot2,
@@ -29,12 +29,15 @@ Suggests:
     cowplot (>= 1.1.0),
     rmapshaper (>= 0.5.0),
     microbenchmark (>= 1.5.0),
-    dplyr
+    pkgdown,
+    dplyr,
+    devtools,
+    vcr (>= 0.6.0)
 Config/testthat/edition: 3
 Config/testthat/parallel: true
 Depends:
   R (>= 3.5.0)
-Imports: 
+Imports:
     memoise (>= 2.0.0),
     cli,
     httr2,
