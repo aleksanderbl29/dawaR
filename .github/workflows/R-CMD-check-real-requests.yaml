@@ -7,7 +7,7 @@ on:
   schedule:
       - cron:  '0 12 * * 1'
 
-name: R-CMD-check
+name: R-CMD-check with real requests
 
 jobs:
   R-CMD-check:
@@ -16,7 +16,7 @@ jobs:
     name: ${{ matrix.config.os }} (${{ matrix.config.r }})
 
     strategy:
-      fail-fast: false
+      fail-fast: true
       matrix:
         config:
           - {os: ubuntu-latest,   r: 'release'}
