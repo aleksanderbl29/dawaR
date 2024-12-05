@@ -1,8 +1,13 @@
 test_that("get_data() returns data and in the proper format", {
-  skip_if_not(connection_check())
-  response <- get_data("regioner")
-  response_no_list <- get_data("regioner", as_list = FALSE)
-  response_list <- get_data("regioner", as_list = TRUE)
+  vcr::use_cassette("regioner_get_data", {
+    response <- get_data("regioner")
+  })
+  vcr::use_cassette("regioner_get_data_no_list", {
+    response_no_list <- get_data("regioner", as_list = FALSE)
+  })
+  vcr::use_cassette("regioner_get_data_list", {
+    response_list <- get_data("regioner", as_list = TRUE)
+  })
 
   expected_list <- list(
     dagi_id = 389098,
@@ -26,11 +31,31 @@ test_that("get_data() returns data and in the proper format", {
   expect_equal(response[1, ], expected[1, ])
   expect_equal(response_no_list[1, ], expected_no_list[1, ])
   expect_equal(response_list[[1]], expected_list)
+})
 
+test_that("get_data(section = 'afstemningsomraader') snapshot", {
+  skip_on_cran()
   expect_snapshot(get_data(section = "afstemningsomraader"))
-  expect_snapshot(get_data(section = "kommuner"))
-  expect_snapshot(get_data(section = "politikredse"))
-  expect_snapshot(get_data(section = "regioner"))
+})
 
+vcr::use_cassette("get_data_kommuner_snapshot", {
+  test_that("get_data(section = 'kommuner') snapshot", {
+    expect_snapshot(get_data(section = "kommuner"))
+  })
+})
+
+vcr::use_cassette("get_data_politikredse_snapshot", {
+  test_that("get_data(section = 'politikredse') snapshot", {
+    expect_snapshot(get_data(section = "politikredse"))
+  })
+})
+
+vcr::use_cassette("get_data_regioner_snapshot", {
+  test_that("get_data(section = 'regioner') snapshot", {
+    expect_snapshot(get_data(section = "regioner"))
+  })
+})
+
+test_that("get_data(section = 'section that does not exists') error", {
   expect_error(get_data(section = "section that does not exists"))
 })

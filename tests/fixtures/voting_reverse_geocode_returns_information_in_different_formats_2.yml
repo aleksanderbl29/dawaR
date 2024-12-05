@@ -1,0 +1,83 @@
+http_interactions:
+- request:
+    method: get
+    uri: https://api.dataforsyningen.dk/afstemningsomraader/reverse?x=12.58515&y=55.68324
+    body:
+      encoding: ''
+      string: ''
+    headers: []
+  response:
+    status:
+      status_code: 200
+      message: OK
+    headers:
+      x-gravitee-client-identifier: 948768a6f45dd39605267d52f6a113932f9da99bc9daeffbbcc2165499a39266
+      content-type: application/json; charset=UTF-8
+      cache-control: max-age=86400
+      vary: Accept-Encoding
+      date: Thu, 05 Dec 2024 10:08:36 GMT
+      x-gravitee-transaction-id: a789ebfd-3273-4a27-89eb-fd32732a2753
+      x-gravitee-request-id: a789ebfd-3273-4a27-89eb-fd32732a2753
+      content-encoding: gzip
+    body:
+      encoding: ''
+      file: no
+      string: |-
+        {
+          "ændret": "2024-04-24T21:01:20.921Z",
+          "geo_version": 9,
+          "geo_ændret": "2024-04-24T21:01:20.921Z",
+          "bbox": [
+            12.56174278,
+            55.67167972,
+            12.60247309,
+            55.69652398
+          ],
+          "visueltcenter": [
+            12.58836986,
+            55.68591197
+          ],
+          "href": "https://api.dataforsyningen.dk/afstemningsomraader/101/14",
+          "dagi_id": "707672",
+          "nummer": "14",
+          "navn": "3. Øst",
+          "afstemningssted": {
+            "navn": "Nyboder Skole",
+            "adgangsadresse": {
+              "href": "https://api.dataforsyningen.dk/adgangsadresser/0a3f507b-342a-32b8-e044-0003ba298018",
+              "id": "0a3f507b-342a-32b8-e044-0003ba298018",
+              "adressebetegnelse": "Øster Voldgade 15, 1350 København K",
+              "koordinater": [
+                12.58624455,
+                55.69057176
+              ]
+            }
+          },
+          "kommune": {
+            "href": "https://api.dataforsyningen.dk/kommuner/0101",
+            "kode": "0101",
+            "navn": "København"
+          },
+          "region": {
+            "href": "https://api.dataforsyningen.dk/regioner/1084",
+            "kode": "1084",
+            "navn": "Region Hovedstaden"
+          },
+          "opstillingskreds": {
+            "href": "https://api.dataforsyningen.dk/opstillingskredse/3",
+            "nummer": "3",
+            "navn": "Indre By"
+          },
+          "storkreds": {
+            "href": "https://api.dataforsyningen.dk/storkredse/1",
+            "nummer": "1",
+            "navn": "København"
+          },
+          "valglandsdel": {
+            "href": "https://api.dataforsyningen.dk/valglandsdele/A",
+            "bogstav": "A",
+            "navn": "Hovedstaden"
+          }
+        }
+  recorded_at: 2024-12-05 10:08:37 GMT
+  recorded_with: vcr/1.6.0, webmockr/1.0.0

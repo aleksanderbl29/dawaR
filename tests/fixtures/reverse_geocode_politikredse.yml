@@ -1,0 +1,46 @@
+http_interactions:
+- request:
+    method: get
+    uri: https://api.dataforsyningen.dk/politikredse/reverse?x=11.55341&y=55.32309
+    body:
+      encoding: ''
+      string: ''
+    headers: []
+  response:
+    status:
+      status_code: 200
+      message: OK
+    headers:
+      x-gravitee-client-identifier: 948768a6f45dd39605267d52f6a113932f9da99bc9daeffbbcc2165499a39266
+      content-type: application/json; charset=UTF-8
+      cache-control: max-age=86400
+      vary: Accept-Encoding
+      date: Thu, 05 Dec 2024 10:09:11 GMT
+      x-gravitee-transaction-id: 562b028d-b444-4f44-ab02-8db444cf443c
+      x-gravitee-request-id: 562b028d-b444-4f44-ab02-8db444cf443c
+      content-encoding: gzip
+    body:
+      encoding: ''
+      file: no
+      string: |-
+        {
+          "ændret": "2024-10-22T21:04:04.354Z",
+          "geo_version": 18,
+          "geo_ændret": "2024-10-22T21:04:04.354Z",
+          "bbox": [
+            10.90936714,
+            54.54440636,
+            12.60710481,
+            55.60197214
+          ],
+          "visueltcenter": [
+            11.49387303,
+            55.35123766
+          ],
+          "dagi_id": "403211",
+          "kode": "1466",
+          "navn": "Sydsjællands og Lolland-Falsters Politi",
+          "href": "https://api.dataforsyningen.dk/politikredse/1466"
+        }
+  recorded_at: 2024-12-05 10:09:11 GMT
+  recorded_with: vcr/1.6.0, webmockr/1.0.0

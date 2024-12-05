@@ -23,12 +23,17 @@ This package depends on at least one of these. It checks the official
 status page. The status can also be followed on their official X-page
 \verb{@DriftDataforsyn}.
 }
+\note{
+Please note that the status at the status page is only checked at
+regular intervals. If you would like to know if your machine can access the
+serviceses, please try \code{connection_check()} as well.
+}
 \examples{
+if (connection_check()) {
+  status_check()
 
-status_check()
-
-status_check(return_df = TRUE)
-
+  status_check(return_df = TRUE)
+}
 }
 \seealso{
 Other Connection checks: 

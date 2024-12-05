@@ -1,0 +1,30 @@
+http_interactions:
+- request:
+    method: get
+    uri: https://api.dataforsyningen.dk/afstemningsomraader/autocomplete?q=%C3%86bel
+    body:
+      encoding: ''
+      string: ''
+    headers: []
+  response:
+    status:
+      status_code: 200
+      message: OK
+    headers:
+      x-gravitee-client-identifier: 948768a6f45dd39605267d52f6a113932f9da99bc9daeffbbcc2165499a39266
+      content-type: application/json; charset=UTF-8
+      cache-control: max-age=86400
+      vary: Accept-Encoding
+      date: Thu, 05 Dec 2024 10:08:42 GMT
+      x-gravitee-transaction-id: 53437181-d2a5-4501-8371-81d2a51501d6
+      x-gravitee-request-id: 53437181-d2a5-4501-8371-81d2a51501d6
+      content-encoding: gzip
+    body:
+      encoding: ''
+      file: no
+      string: |-
+        [
+
+        ]
+  recorded_at: 2024-12-05 10:08:42 GMT
+  recorded_with: vcr/1.6.0, webmockr/1.0.0

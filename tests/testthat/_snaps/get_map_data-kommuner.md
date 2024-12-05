@@ -1,4 +1,4 @@
-# get_map_data() fetches data properly and provides `kommuner` in the proper format
+# get_map_data() fetches data properly and provides `kommuner` in the proper format with cache = TRUE
 
     Code
       get_map_data(type = "kommuner", cache = TRUE)

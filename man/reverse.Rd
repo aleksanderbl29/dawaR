@@ -37,5 +37,7 @@ or UTM zone 32 can be provided as well. When coordinates from outside of
 Denmark is provided, the function will fail with a code \code{404}.
 }
 \examples{
-reverse("regioner", x = 12.58515, y = 55.68324)
+if (connection_check()) {
+  reverse("regioner", x = 12.58515, y = 55.68324)
+}
 }

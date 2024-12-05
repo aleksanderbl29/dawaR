@@ -23,5 +23,7 @@ This function is very handy when needing to either validate or
 simply "fill in gaps" with autocompletion from the API.
 }
 \examples{
-autocomplete("regioner", "midt")
+if (connection_check()) {
+  autocomplete("regioner", "midt")
+}
 }
