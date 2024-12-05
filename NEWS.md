@@ -1,4 +1,6 @@
-# dawaR (development version)
+# dawaR 0.2.7 (2024-12-05)
+
+* Ensure cran checks does not fail
 
 # dawaR 0.2.6 (2024-11-23)
 
