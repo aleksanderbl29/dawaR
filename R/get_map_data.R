@@ -58,6 +58,12 @@ get_map_data_nocache <- function(type, cache = FALSE, params = list()) {
     params <- NULL
   }
 
+  if (!connection_check()) {
+    cli::cli_alert_warning("You do not have access to api.dataforsyningen.dk.
+        Please check your connection settings.")
+    return(NULL) # Exit early if no connection is detected
+  }
+
   time_info <- api_timings[type]
 
   if (is.na(names(time_info))) {
@@ -79,6 +85,11 @@ get_map_data_nocache <- function(type, cache = FALSE, params = list()) {
     cache = cache,
     func_params = params
   )
+
+  if (is.null(api_response)) {
+    cli::cli_alert_danger("The API did not return anything.")
+    return(NULL)
+  }
 
   # Create temp directory and safe filename
   temp_dir <- tempdir()

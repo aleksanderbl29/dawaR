@@ -7,12 +7,16 @@ vignette: >
   %\VignetteEncoding{UTF-8}
 ---
 
-
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
 
 This package has multiple use cases, though they all revolve around data from the Danish Web Address API. If the below examples are not enough, please do read through the other vignettes. First we need to load the package.
 
-
-``` r
+```{r setup}
 library(dawaR)
 ```
 
@@ -20,40 +24,32 @@ library(dawaR)
 
 To get a dataframe of all the regions in Denmark, you can use the `get_data()` function.
 
-
-``` r
+```{r get-data}
 get_data("regioner")
-#> ! You do not have access to api.dataforsyningen.dk.
-#> Please check your connection settings.
-#> Error in do.call(rbind.data.frame, response): andet argument skal være en liste
 ```
 
 This will return data on each of the five regions.
 
 ### Using DAWA to crosstab municipalities and their regions.
 
-
+```{r, include=FALSE}
+library(dplyr)
+```
 
 
 The function `get_data()` fetches the data in `json` format and by default transforms it to a data.frame.
 
-
-``` r
+```{r nordjylland}
 library(dawaR)
 library(dplyr)
 
 municipalities <- get_data("kommuner")
-#> ! You do not have access to api.dataforsyningen.dk.
-#> Please check your connection settings.
-#> Error in do.call(rbind.data.frame, response): andet argument skal være en liste
 
 nordjylland <- municipalities |>
   filter(regionsnavn == "Region Nordjylland") |>
   pull(navn)
-#> Error: objekt 'municipalities' blev ikke fundet
 
 nordjylland
-#> Error: objekt 'nordjylland' blev ikke fundet
 ```
 
 Here we have extracted all the municipalities that are in "Region Nordjylland". The same can be done for voting precincts or police regions. It can also be done for addresses and others. Look through the available sections with `available_sections()`.
@@ -62,23 +58,15 @@ Here we have extracted all the municipalities that are in "Region Nordjylland". 
 
 The function `get_map_data()` fetches data in `geojson` format and transforms the geometries to `{sf}` polygons. These polygons can be drawn as nice maps with `{ggplot2}`.
 
-
-``` r
+```{r municipality_map, output=FALSE}
 library(dawaR)
 library(ggplot2)
 
 municipalities <- get_map_data("kommuner")
-#> → Getting data on `kommuner`. This usually takes 13.13s.
-#> Fetching data from the API. This will take some time.                                                      ! You do not have access to api.dataforsyningen.dk.
-#> Please check your connection settings.
-#> Fetching data from the API. This will take some time.
-#> Error in writeLines(api_response, temp_file): kan kun skrive tegnobjekter
-#> 
 ggplot(municipalities, aes(fill = regionsnavn)) +
   geom_sf(color = "black") +
   labs(fill = "Region") +
   cowplot::theme_map()
-#> Error: objekt 'municipalities' blev ikke fundet
 ```
 
 For more information on how to plot maps with `{dawaR}` please consult `vignette("printing_maps")`.

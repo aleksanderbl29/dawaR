@@ -1,4 +1,4 @@
-# reverse geocode returns information reliably
+# reverse geocode regioner 1
 
     Code
       reverse("regioner", x = 12.58515, y = 55.68324)
@@ -52,7 +52,7 @@
       [1] "https://api.dataforsyningen.dk/regioner/1084"
       
 
----
+# reverse geocode afstemningsomraader
 
     Code
       reverse("afstemningsomraader", x = 10.2147102008892, y = 56.1535382215792)
@@ -182,7 +182,7 @@
       
       
 
----
+# reverse geocode regioner 2
 
     Code
       reverse("regioner", y = 56.9605461150057, x = 9.28423598747354)
@@ -236,7 +236,7 @@
       [1] "https://api.dataforsyningen.dk/regioner/1081"
       
 
----
+# reverse geocode politikredse
 
     Code
       reverse("politikredse", y = 55.3230944206779, x = 11.5534117505933)
@@ -286,4 +286,15 @@
       $href
       [1] "https://api.dataforsyningen.dk/politikredse/1466"
       
+
+# reverse geocode regioner error
+
+    Code
+      reverse("regioner", y = 47.8703370940483, x = 15.7457353678998, verbose = FALSE)
+    Message
+      x Request failed: HTTP 404 Not Found.
+      x The API returned a  error.
+      x No content will be returned
+    Output
+      NULL
 

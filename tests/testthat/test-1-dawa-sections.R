@@ -1,9 +1,8 @@
-vcr::use_cassette("all_sections_are_applicable_for_dawa", {
-  test_that("All sections are applicable for dawa", {
-    for (section in available_sections()) {
-      expect_no_error(
-        dawa(section = section, per_side = 50)
-      )
-    }
-  })
+test_that("All sections are applicable for dawa", {
+  skip_on_cran()
+  for (section in available_sections()) {
+    expect_no_error(
+      dawa(section = section, per_side = 50)
+    )
+  }
 })

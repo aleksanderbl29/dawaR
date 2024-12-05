@@ -3,26 +3,26 @@
     Code
       status_check()
     Message
-      v All systems are operational
+      x WMS - forvaltning2 and sdfekort.dk are not operational
 
 # Status check message prints properly in {cli} [ansi]
 
     Code
       status_check()
     Message
-      [32mv[39m All systems are operational
+      [31mx[39m WMS - forvaltning2 and sdfekort.dk are not operational
 
 # Status check message prints properly in {cli} [unicode]
 
     Code
       status_check()
     Message
-      ✔ All systems are operational
+      ✖ WMS - forvaltning2 and sdfekort.dk are not operational
 
 # Status check message prints properly in {cli} [fancy]
 
     Code
       status_check()
     Message
-      [32m✔[39m All systems are operational
+      [31m✖[39m WMS - forvaltning2 and sdfekort.dk are not operational
 

@@ -1,4 +1,4 @@
-# Voting reverse geocode returns information in different formats
+# Voting reverse geocode returns information in default format
 
     Code
       vote_rev(x = 12.58515, y = 55.68324)
@@ -7,7 +7,7 @@
     Output
       [1] "Nyboder Skole"
 
----
+# Voting reverse geocode returns information as dataframe
 
     Code
       vote_rev(x = 12.58515, y = 55.68324, as_df = TRUE)
@@ -19,7 +19,7 @@
                     region constituency
       1 Region Hovedstaden     Indre By
 
----
+# Voting reverse geocode returns information as list
 
     Code
       vote_rev(x = 12.58515, y = 55.68324, as_list = TRUE)
@@ -42,14 +42,14 @@
       [1] "Indre By"
       
 
-# Afstemningsomraader autocomplete returns the right answer
+# Afstemningsomraader autocomplete returns the right answer for 'Dok'
 
     Code
       vote_ac(input = "Dok")
     Output
       [1] "DOKK1"
 
----
+# Afstemningsomraader autocomplete returns the right answer for 'Æbel'
 
     Code
       vote_ac(input = "Æbel")
@@ -58,14 +58,14 @@
     Output
       [1] NA
 
----
+# Afstemningsomraader autocomplete returns the right answer for 'Røddi'
 
     Code
       vote_ac(input = "Røddi")
     Output
       [1] "Rødding"
 
----
+# Afstemningsomraader autocomplete returns the right answer for 'brønder'
 
     Code
       vote_ac(input = "brønder")

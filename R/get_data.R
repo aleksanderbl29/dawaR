@@ -25,6 +25,12 @@ get_data <- function(section,
 
   params <- rlang::list2(...)
 
+  if (!connection_check()) {
+    cli::cli_alert_warning("You do not have access to api.dataforsyningen.dk.
+        Please check your connection settings.")
+    return(NULL) # Exit early if no connection is detected
+  }
+
   response <- dawa(
     section = section,
     verbose = FALSE,

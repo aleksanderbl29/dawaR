@@ -131,6 +131,7 @@ dawa <- function(section,
   if (is.null(resp)) {
     cli::cli_alert_danger("The API returned a {resp$status_code} error.")
     cli::cli_alert_danger("No content will be returned")
+    return(resp)
   }
 
   if (!is.null(format) && !is.null(resp) && !httr2::resp_is_error(resp)) {
@@ -145,8 +146,8 @@ dawa <- function(section,
       }
     )
     # nolint start
-  } else if (httr2::resp_content_type(resp) != "application/json" &&
-    !is.null(resp) && !httr2::resp_is_error(resp)) {
+  } else if (!is.null(resp) && !httr2::resp_is_error(resp) &&
+    httr2::resp_content_type(resp) != "application/json") {
     # nolint end
     cli::cli_abort("The API did not return JSON")
   } else if (!is.null(resp) && !httr2::resp_is_error(resp)) {
@@ -198,6 +199,12 @@ reverse <- function(section, x, y, verbose = TRUE, type = NULL, ...) {
     coord <- type
   }
 
+  if (!connection_check()) {
+    cli::cli_alert_warning("You do not have access to api.dataforsyningen.dk.
+        Please check your connection settings.")
+    return(NULL) # Exit early if no connection is detected
+  }
+
   section_info(section, verbose, type = "reverse")
 
   dawa(
@@ -230,6 +237,12 @@ reverse <- function(section, x, y, verbose = TRUE, type = NULL, ...) {
 #'   autocomplete("regioner", "midt")
 #' }
 autocomplete <- function(section, input, ...) {
+  if (!connection_check()) {
+    cli::cli_alert_warning("You do not have access to api.dataforsyningen.dk.
+        Please check your connection settings.")
+    return(NULL) # Exit early if no connection is detected
+  }
+
   dawa(
     section = section,
     append_to_url = "autocomplete",

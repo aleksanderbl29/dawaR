@@ -1,0 +1,31 @@
+http_interactions:
+- request:
+    method: get
+    uri: https://api.dataforsyningen.dk/regioner/autocomplete?q=R%C3%B8ddi
+    body:
+      encoding: ''
+      string: ''
+    headers: []
+  response:
+    status:
+      status_code: 200
+      message: OK
+    headers:
+      x-gravitee-client-identifier: 948768a6f45dd39605267d52f6a113932f9da99bc9daeffbbcc2165499a39266
+      access-control-allow-origin: '*'
+      content-type: application/json; charset=UTF-8
+      cache-control: max-age=86400
+      vary: Accept-Encoding
+      date: Thu, 05 Dec 2024 10:08:43 GMT
+      x-gravitee-transaction-id: c013c464-ee0e-436c-93c4-64ee0e836ca3
+      x-gravitee-request-id: c013c464-ee0e-436c-93c4-64ee0e836ca3
+      content-encoding: gzip
+    body:
+      encoding: ''
+      file: no
+      string: |-
+        [
+
+        ]
+  recorded_at: 2024-12-05 10:08:43 GMT
+  recorded_with: vcr/1.6.0, webmockr/1.0.0

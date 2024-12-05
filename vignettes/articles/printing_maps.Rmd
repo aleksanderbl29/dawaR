@@ -7,14 +7,20 @@ vignette: >
   %\VignetteEncoding{UTF-8}
 ---
 
-
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.width = 12,
+  fig.height = 9
+)
+```
 
 This article will show you how to use `get_map_data()` and `{ggplot2}` to draw nice looking maps of Denmark.
 
 First we need to load the packages. Here, we only load `{ggplot2}` to minimize dependencies, but you can definitely load the entire `{tidyverse}` for convenience.
 
-
-``` r
+```{r setup, message=FALSE}
 library(dawaR)
 library(ggplot2)
 ```
@@ -23,36 +29,26 @@ library(ggplot2)
 
 After loading the required packages we need to get the map data. We will request map data for all (98) danish municipalities. The danish word for *municipality* is *kommune* which is what we will request.
 
-
-``` r
+```{r get_data_municipality}
 municipalities <- get_map_data("kommuner")
-#> → Getting data on `kommuner`. This usually takes 13.13s.
-#> Fetching data from the API. This will take some time.                                                      ! You do not have access to api.dataforsyningen.dk.
-#> Please check your connection settings.
-#> Fetching data from the API. This will take some time.
-#> Error in writeLines(api_response, temp_file): kan kun skrive tegnobjekter
-#> 
 ```
 
 In the dropdown below you can see the `head()` of the data we have received.
 
 <details>
   <summary>`head(municipalities)`</summary>
-  
-  ```
-  #> Error: objekt 'municipalities' blev ikke fundet
+  ```{r, echo = FALSE, eval = TRUE}
+head(municipalities)
   ```
 </details>
 
 The data can then be passed to a `ggplot2::geom_sf()` to print the map. I have also specified that the fill color should be based on the municipality name to make it a bit more colorful.
 
-
-``` r
+```{r print_map_municipality}
 ggplot(municipalities, aes(fill = navn)) +
   geom_sf() +
   cowplot::theme_map() +
   theme(legend.position = "none")
-#> Error: objekt 'municipalities' blev ikke fundet
 ```
 
 ## Drawing maps with many lines
@@ -61,25 +57,15 @@ The above example is not very resource intensive. Trying to plot all the danish 
 
 First we get the data with `get_map_data()` and provide the *afstemningsomraader* (voting areas) as the type.
 
-
-``` r
+```{r get_voting_data}
 voting <- get_map_data("afstemningsomraader")
-#> → Getting data on `afstemningsomraader`. This usually takes 18.77s.
-#> Fetching data from the API. This will take some time.                                                      ! You do not have access to api.dataforsyningen.dk.
-#> Please check your connection settings.
-#> Fetching data from the API. This will take some time.
-#> Error in writeLines(api_response, temp_file): kan kun skrive tegnobjekter
-#> 
 ```
 
 Then let's quickly examine how many more polygons we now have to draw.
 
-
-``` r
+```{r compare_rows}
 nrow(municipalities)
-#> Error: objekt 'municipalities' blev ikke fundet
 nrow(voting)
-#> Error: objekt 'voting' blev ikke fundet
 ```
 
 I have printed the amount of polygons for the municipality level as well as the voting precinct level.
@@ -89,25 +75,21 @@ To plot all these polygons takes a substantial amount of time - You can either j
 To accommodate this larger number of polygons we will simplify the lines that make up said polygons.
 
 
-
-``` r
+```{r simplify}
 voting_simplified <- rmapshaper::ms_simplify(
   voting,
   keep = 0.01,
   keep_shapes = TRUE
 )
-#> Error: objekt 'voting' blev ikke fundet
 ```
 
 After simplifying the data we can now plot it.
 
-
-``` r
+```{r plot_voting}
 ggplot(voting_simplified, aes(fill = kommunenavn, color = navn)) +
   geom_sf() +
   cowplot::theme_map() +
   theme(legend.position = "none")
-#> Error: objekt 'voting_simplified' blev ikke fundet
 ```
 
 Here, I have colored the shapes based on the municipality and then turned the lines of each shape to a different color based on the voting precincts name.
@@ -116,22 +98,14 @@ Here, I have colored the shapes based on the municipality and then turned the li
 
 If you would like to plot how different municipalities are distributed in the police regions you can simply get the data for both maps and pass them as their own dataset/geom combos in `{ggplot2}`.
 
-
-``` r
+```{r}
 police <- get_map_data("politikredse")
-#> → Getting data on `politikredse`. This usually takes 14.14s.
-#> Fetching data from the API. This will take some time.                                                      ! You do not have access to api.dataforsyningen.dk.
-#> Please check your connection settings.
-#> Fetching data from the API. This will take some time.
-#> Error in writeLines(api_response, temp_file): kan kun skrive tegnobjekter
-#> 
 # We will reuse the municipality data from earlier.
 ```
 
 Then you can pass it to `{ggplot2}` as follows.
 
-
-``` r
+```{r}
 ggplot() +
   geom_sf(
     data = police,
@@ -145,7 +119,6 @@ ggplot() +
   ) +
   cowplot::theme_map() +
   theme(legend.position = "none")
-#> Error: objekt 'police' blev ikke fundet
 ```
 
 As you can see, we have now produced a map with shapes from different subsections of Denmark.
