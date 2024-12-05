@@ -85,8 +85,10 @@ section or a list with the same information.</p>
 
     <div class="section level2">
     <h2 id="ref-examples">Examples<a class="anchor" aria-label="anchor" href="#ref-examples"></a></h2>
-    <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="va">x</span> <span class="op">&lt;-</span> <span class="fu">get_data</span><span class="op">(</span><span class="st">"regioner"</span><span class="op">)</span></span></span>
-<span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/utils/head.html" class="external-link">head</a></span><span class="op">(</span><span class="va">x</span><span class="op">)</span></span></span>
+    <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="kw">if</span> <span class="op">(</span><span class="fu"><a href="connection_check.html">connection_check</a></span><span class="op">(</span><span class="op">)</span><span class="op">)</span> <span class="op">{</span></span></span>
+<span class="r-in"><span>  <span class="va">x</span> <span class="op">&lt;-</span> <span class="fu">get_data</span><span class="op">(</span><span class="st">"regioner"</span><span class="op">)</span></span></span>
+<span class="r-in"><span>  <span class="fu"><a href="https://rdrr.io/r/utils/head.html" class="external-link">head</a></span><span class="op">(</span><span class="va">x</span><span class="op">)</span></span></span>
+<span class="r-in"><span><span class="op">}</span></span></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>   dagi_id kode               navn nuts2                   ændret</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> 1  389098 1081 Region Nordjylland  DK05 2024-10-04T21:02:54.978Z</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> 2  389101 1082 Region Midtjylland  DK04 2024-10-11T21:03:05.131Z</span>
