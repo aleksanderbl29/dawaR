@@ -6,8 +6,8 @@ Authors@R: c(
     person("Aleksander", "Bang-Larsen", , "contact@aleksanderbl.dk",
            role = c("aut", "cre", "cph"),
            comment = c(ORCID = "0009-0007-7984-4650")),
-    person("Agency of Climate Data", role = c("ctb"),
-           comment = c(NOTE = "The Danish Agency of Climate Data provides this
+    person(given = "Agency of Climate Data", role = c("ctb"),
+           comment = c("The Danish Agency of Climate Data provides this
            API for the public and have not actively contributed to the
            development nor distribution in this package.")))
 Description: Functions for interacting with all sections of

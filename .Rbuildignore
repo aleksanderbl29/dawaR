@@ -17,6 +17,7 @@
 ^doc$
 ^docs$
 ^gem_data.R$
+^inst/*.eml$
 ^pkgdown$
 ^renv$
 ^renv\.lock$
