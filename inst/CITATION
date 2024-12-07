@@ -5,18 +5,18 @@ bibentry(
 
 bibentry(
   bibtype  = "misc",
-  key      = "apidawa",
+  key      = "apidawa_en",
   title    = "{DAWA}: {Denmark's Address Web API} at {The Data Distribution} - Through {dawaR}",
-  author   = person("Agency of Climate Data}"),
+  author   = person("Agency of Climate Data"),
   year     = "2024",
   url      = "https://dawadocs.dataforsyningen.dk/dok/guides"
 )
 
 bibentry(
   bibtype  = "misc",
-  key      = "apidawa",
+  key      = "apidawa_dk",
   title    = "{DAWA}: {Danmarks Adressers Web API} hos {Dataforsyningen} - Tilgået med {dawaR}",
-  author   = "Klimadatastyrelsen",
+  author   = person("Klimadatastyrelsen"),
   year     = "2024",
   url      = "https://dawadocs.dataforsyningen.dk/dok/guides"
 )
