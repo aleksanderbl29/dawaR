@@ -1,4 +1,5 @@
 ^.lintr$
+^.vscode$
 ^CRAN-SUBMISSION$
 ^LICENSE\.md$
 ^Meta$
@@ -16,6 +17,7 @@
 ^doc$
 ^docs$
 ^gem_data.R$
+^inst/*.eml$
 ^pkgdown$
 ^renv$
 ^renv\.lock$

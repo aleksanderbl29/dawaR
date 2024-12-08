@@ -1,4 +1,4 @@
-# dawaR 0.2.7 (2024-12-05)
+# dawaR 0.2.7 (2024-12-07)
 
 * Ensure cran checks does not fail
 
