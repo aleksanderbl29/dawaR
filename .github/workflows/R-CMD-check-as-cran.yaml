@@ -42,8 +42,6 @@ jobs:
           http-user-agent: ${{ matrix.config.http-user-agent }}
           use-public-rspm: true
 
-      - run: "NOT_CRAN=false"
-
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
           cache-version: 3
