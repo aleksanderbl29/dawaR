@@ -29,6 +29,7 @@ jobs:
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
       R_KEEP_PKG_SOURCE: yes
+      NOT_CRAN: false
 
     steps:
       - uses: actions/checkout@v4
@@ -40,6 +41,8 @@ jobs:
           r-version: ${{ matrix.config.r }}
           http-user-agent: ${{ matrix.config.http-user-agent }}
           use-public-rspm: true
+
+      - run: "NOT_CRAN=false"
 
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:

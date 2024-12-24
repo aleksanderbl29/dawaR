@@ -1,5 +1,6 @@
 test_that("Status check function parses the rss feed and returns a dataframe if specified", {
   skip_on_cran()
+  skip_on_ci()
   observed_df <- status_check(return_df = TRUE)
 
   services <- list(
