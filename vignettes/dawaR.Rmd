@@ -39,7 +39,7 @@ library(dplyr)
 
 The function `get_data()` fetches the data in `json` format and by default transforms it to a data.frame.
 
-```{r nordjylland}
+```{r nordjylland, eval=FALSE}
 library(dawaR)
 library(dplyr)
 
@@ -48,17 +48,21 @@ municipalities <- get_data("kommuner")
 nordjylland <- municipalities |>
   filter(regionsnavn == "Region Nordjylland") |>
   pull(navn)
-
-nordjylland
 ```
 
+``` r
+nordjylland
+#>  [1] "Morsø"           "Thisted"         "Brønderslev"     "Frederikshavn"  
+#>  [5] "Vesthimmerlands" "Læsø"            "Rebild"          "Mariagerfjord"  
+#>  [9] "Jammerbugt"      "Aalborg"         "Hjørring"
+```
 Here we have extracted all the municipalities that are in "Region Nordjylland". The same can be done for voting precincts or police regions. It can also be done for addresses and others. Look through the available sections with `available_sections()`.
 
 ### Using DAWA map data
 
 The function `get_map_data()` fetches data in `geojson` format and transforms the geometries to `{sf}` polygons. These polygons can be drawn as nice maps with `{ggplot2}`.
 
-```{r municipality_map, output=FALSE}
+```{r municipality_map, output=FALSE, eval=FALSE}
 library(dawaR)
 library(ggplot2)
 

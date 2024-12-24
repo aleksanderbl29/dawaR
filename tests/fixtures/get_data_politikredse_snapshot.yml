@@ -11,13 +11,13 @@ http_interactions:
       status_code: 200
       message: OK
     headers:
-      x-gravitee-client-identifier: 948768a6f45dd39605267d52f6a113932f9da99bc9daeffbbcc2165499a39266
+      x-gravitee-client-identifier: 38beb9d21ed1371fa32420f02c924a9e066e36339500664c02f9a5b0f6a9fa58
       content-type: application/json; charset=UTF-8
       cache-control: max-age=86400
       vary: Accept-Encoding
-      date: Thu, 05 Dec 2024 10:08:46 GMT
-      x-gravitee-transaction-id: d1dcbe2b-52c0-4f13-9cbe-2b52c0af13d3
-      x-gravitee-request-id: d1dcbe2b-52c0-4f13-9cbe-2b52c0af13d3
+      date: Tue, 24 Dec 2024 09:52:03 GMT
+      x-gravitee-transaction-id: 237d6b51-7c64-41ac-bd6b-517c6481acef
+      x-gravitee-request-id: 237d6b51-7c64-41ac-bd6b-517c6481acef
       content-encoding: gzip
     body:
       encoding: ''
@@ -67,9 +67,9 @@ http_interactions:
           "dagi_id": "403215",
           "kode": "1463",
           "navn": "Sydøstjyllands Politi",
-          "ændret": "2024-11-29T22:03:07.187Z",
-          "geo_ændret": "2024-11-29T22:03:07.187Z",
-          "geo_version": 22,
+          "ændret": "2024-12-09T22:03:11.287Z",
+          "geo_ændret": "2024-12-09T22:03:11.287Z",
+          "geo_version": 23,
           "bbox_xmin": 8.74442934,
           "bbox_ymin": 55.30202819,
           "bbox_xmax": 10.37913063,
@@ -182,5 +182,5 @@ http_interactions:
           "visueltcenter_y": 55.12789092
         }
         ]
-  recorded_at: 2024-12-05 10:08:46 GMT
+  recorded_at: 2024-12-24 09:52:03 GMT
   recorded_with: vcr/1.6.0, webmockr/1.0.0
