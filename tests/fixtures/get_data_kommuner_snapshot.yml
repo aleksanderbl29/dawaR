@@ -11,14 +11,14 @@ http_interactions:
       status_code: 200
       message: OK
     headers:
-      x-gravitee-client-identifier: 948768a6f45dd39605267d52f6a113932f9da99bc9daeffbbcc2165499a39266
+      x-gravitee-client-identifier: 38beb9d21ed1371fa32420f02c924a9e066e36339500664c02f9a5b0f6a9fa58
       access-control-allow-origin: '*'
       content-type: application/json; charset=UTF-8
       cache-control: max-age=86400
       vary: Accept-Encoding
-      date: Thu, 05 Dec 2024 10:08:45 GMT
-      x-gravitee-transaction-id: dc764c2e-bbf1-4cc8-b64c-2ebbf1ecc80b
-      x-gravitee-request-id: dc764c2e-bbf1-4cc8-b64c-2ebbf1ecc80b
+      date: Tue, 24 Dec 2024 09:52:01 GMT
+      x-gravitee-transaction-id: 10252b39-d563-41ad-a52b-39d563e1ad72
+      x-gravitee-request-id: 10252b39-d563-41ad-a52b-39d563e1ad72
       content-encoding: gzip
     body:
       encoding: ''
@@ -368,9 +368,9 @@ http_interactions:
           "regionskode": "1084",
           "udenforkommuneinddeling": false,
           "regionsnavn": "Region Hovedstaden",
-          "ændret": "2024-02-05T22:01:25.064Z",
-          "geo_ændret": "2024-02-05T22:01:25.064Z",
-          "geo_version": 5,
+          "ændret": "2024-12-09T22:03:11.287Z",
+          "geo_ændret": "2024-12-09T22:03:11.287Z",
+          "geo_version": 6,
           "bbox_xmin": 12.07304508,
           "bbox_ymin": 55.84073142,
           "bbox_xmax": 12.40267468,
@@ -432,9 +432,9 @@ http_interactions:
           "regionskode": "1084",
           "udenforkommuneinddeling": false,
           "regionsnavn": "Region Hovedstaden",
-          "ændret": "2024-10-04T21:02:54.978Z",
-          "geo_ændret": "2024-10-04T21:02:54.978Z",
-          "geo_version": 8,
+          "ændret": "2024-12-09T22:03:11.287Z",
+          "geo_ændret": "2024-12-09T22:03:11.287Z",
+          "geo_version": 9,
           "bbox_xmin": 11.84322909,
           "bbox_ymin": 55.70923571,
           "bbox_xmax": 12.23827122,
@@ -1328,9 +1328,9 @@ http_interactions:
           "regionskode": "1082",
           "udenforkommuneinddeling": false,
           "regionsnavn": "Region Midtjylland",
-          "ændret": "2024-11-29T22:03:07.187Z",
-          "geo_ændret": "2024-11-29T22:03:07.187Z",
-          "geo_version": 8,
+          "ændret": "2024-12-09T22:03:11.287Z",
+          "geo_ændret": "2024-12-09T22:03:11.287Z",
+          "geo_version": 9,
           "bbox_xmin": 9.63068161,
           "bbox_ymin": 55.95220047,
           "bbox_xmax": 10.09706899,
@@ -1584,9 +1584,9 @@ http_interactions:
           "regionskode": "1081",
           "udenforkommuneinddeling": false,
           "regionsnavn": "Region Nordjylland",
-          "ændret": "2023-03-24T22:28:38.837Z",
-          "geo_ændret": "2023-03-24T22:28:38.837Z",
-          "geo_version": 9,
+          "ændret": "2024-12-11T22:03:17.839Z",
+          "geo_ændret": "2024-12-11T22:03:17.839Z",
+          "geo_version": 10,
           "bbox_xmin": 9.38901906,
           "bbox_ymin": 56.80924853,
           "bbox_xmax": 10.39465954,
@@ -1611,5 +1611,5 @@ http_interactions:
           "visueltcenter_y": 57.4684031
         }
         ]
-  recorded_at: 2024-12-05 10:08:45 GMT
+  recorded_at: 2024-12-24 09:52:01 GMT
   recorded_with: vcr/1.6.0, webmockr/1.0.0
