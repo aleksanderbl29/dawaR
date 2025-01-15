@@ -15,9 +15,9 @@ http_interactions:
       content-type: application/json; charset=UTF-8
       cache-control: max-age=86400
       vary: Accept-Encoding
-      date: Wed, 15 Jan 2025 10:04:32 GMT
-      x-gravitee-transaction-id: 5599c56c-bd98-4676-99c5-6cbd981676a2
-      x-gravitee-request-id: 5599c56c-bd98-4676-99c5-6cbd981676a2
+      date: Wed, 15 Jan 2025 11:30:52 GMT
+      x-gravitee-transaction-id: 3bc1ed02-322d-44f6-81ed-02322d54f6c9
+      x-gravitee-request-id: 3bc1ed02-322d-44f6-81ed-02322d54f6c9
       content-encoding: gzip
     body:
       encoding: ''
@@ -79,5 +79,5 @@ http_interactions:
             "navn": "Hovedstaden"
           }
         }
-  recorded_at: 2025-01-15 10:04:32 GMT
+  recorded_at: 2025-01-15 11:30:52 GMT
   recorded_with: vcr/1.6.0, webmockr/1.0.0
