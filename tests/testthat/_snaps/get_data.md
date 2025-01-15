@@ -2073,7 +2073,7 @@
       762                                                         Varnæs Skole
       763                                                    Slogs Herreds Hus
       764                                                          Borgerhuset
-      765                                             Bjerndrup Forsamlingshus
+      765                                                        Kliplevhallen
       766                                                       Grænsehallerne
       767                                                         Valdemarshus
       768                                                 Sønderjyllandshallen
@@ -2480,7 +2480,7 @@
       1169                                                  Brønderslev Hallen
       1170                                    Stenum Kultur- og Forsamlingshus
       1171                                             Manna-Thise Samlingshus
-      1172                                                       Østsidehallen
+      1172                                                       Samlingshuset
       1173                                                         Hallund Kro
       1174                                                      Borgen Jerslev
       1175                                           Serritslev Forsamlingshus
@@ -3378,7 +3378,7 @@
       762  0a3f508b-c1ad-32b8-e044-0003ba298018
       763  0a3f508c-9c7b-32b8-e044-0003ba298018
       764  0a3f508c-9f13-32b8-e044-0003ba298018
-      765  0a3f508b-bfc7-32b8-e044-0003ba298018
+      765  0a3f508b-c6dc-32b8-e044-0003ba298018
       766  6e336683-41da-43ae-b4d0-6bc138250ef1
       767  0a3f508b-3bbf-32b8-e044-0003ba298018
       768  0a3f508c-e17a-32b8-e044-0003ba298018
@@ -3785,7 +3785,7 @@
       1169 0a3f5099-4997-32b8-e044-0003ba298018
       1170 0a3f5099-5a86-32b8-e044-0003ba298018
       1171 0a3f5099-47dc-32b8-e044-0003ba298018
-      1172 0a3f5099-52fb-32b8-e044-0003ba298018
+      1172 bdd77a9b-5e1b-4ff3-90e8-32ab232a6838
       1173 0a3f5099-57da-32b8-e044-0003ba298018
       1174 0a3f5099-3afc-32b8-e044-0003ba298018
       1175 0a3f5099-46a0-32b8-e044-0003ba298018
@@ -4683,7 +4683,7 @@
       762            Varnæs Kirkevej 15A, Varnæs, 6200 Aabenraa
       763       Slogsherredsvej 20, Bylderup, 6372 Bylderup-Bov
       764                          Tinglev Midt 2, 6360 Tinglev
-      765         Bjerndrup Bygade 36, Bjerndrup, 6200 Aabenraa
+      765                  Skolegade 13, Kliplev, 6200 Aabenraa
       766                              Harkærvej 13, 6340 Kruså
       767                        Valdemarsgade 11, 6330 Padborg
       768                    H P Hanssens Gade 7, 6200 Aabenraa
@@ -5090,7 +5090,7 @@
       1169                       Knudsgade 15, 9700 Brønderslev
       1170                      Tømmerbyvej 6, 9700 Brønderslev
       1171                  Jens Thise Vej 33, 9700 Brønderslev
-      1172                        Elmevej 122, 9700 Brønderslev
+      1172                        Elmevej 124, 9700 Brønderslev
       1173                        Sølvgade 74, 9700 Brønderslev
       1174                        Borgergade 30, 9740 Jerslev J
       1175                         Hybenvej 3, 9700 Brønderslev
@@ -5988,7 +5988,7 @@
       762                        9.570994                       55.01087        0580
       763                        9.102368                       54.94584        0580
       764                        9.251067                       54.93535        0580
-      765                        9.329928                       54.93109        0580
+      765                        9.407213                       54.93829        0580
       766                        9.411022                       54.84929        0580
       767                        9.360574                       54.82445        0580
       768                        9.420865                       55.04747        0580
@@ -6395,7 +6395,7 @@
       1169                       9.950402                       57.27463        0810
       1170                       9.868483                       57.31853        0810
       1171                       9.810491                       57.28940        0810
-      1172                      10.005002                       57.24728        0810
+      1172                      10.004536                       57.24764        0810
       1173                      10.103587                       57.23942        0810
       1174                      10.089577                       57.28428        0810
       1175                       9.974737                       57.31444        0810
@@ -9894,7 +9894,7 @@
       753      Sjælland-Syddanmark 2024-04-25T21:01:17.779Z 2024-04-25T21:01:17.779Z
       754      Sjælland-Syddanmark 2024-04-25T21:01:17.779Z 2024-04-25T21:01:17.779Z
       755      Sjælland-Syddanmark 2024-04-25T21:01:17.779Z 2024-04-25T21:01:17.779Z
-      756      Sjælland-Syddanmark 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
+      756      Sjælland-Syddanmark 2025-01-14T22:03:26.490Z 2025-01-14T22:03:26.490Z
       757      Sjælland-Syddanmark 2024-04-25T21:01:17.779Z 2024-04-25T21:01:17.779Z
       758      Sjælland-Syddanmark 2024-04-25T21:01:17.779Z 2024-04-25T21:01:17.779Z
       759      Sjælland-Syddanmark 2024-04-25T21:01:17.779Z 2024-04-25T21:01:17.779Z
@@ -9903,7 +9903,7 @@
       762      Sjælland-Syddanmark 2024-04-25T21:01:17.779Z 2024-04-25T21:01:17.779Z
       763      Sjælland-Syddanmark 2024-04-25T21:01:17.779Z 2024-04-25T21:01:17.779Z
       764      Sjælland-Syddanmark 2024-04-25T21:01:17.779Z 2024-04-25T21:01:17.779Z
-      765      Sjælland-Syddanmark 2024-04-25T21:01:17.779Z 2024-04-25T21:01:17.779Z
+      765      Sjælland-Syddanmark 2025-01-14T22:03:26.490Z 2024-04-25T21:01:17.779Z
       766      Sjælland-Syddanmark 2024-04-25T21:01:17.779Z 2024-04-25T21:01:17.779Z
       767      Sjælland-Syddanmark 2024-04-25T21:01:17.779Z 2024-04-25T21:01:17.779Z
       768      Sjælland-Syddanmark 2024-04-25T21:01:17.779Z 2024-04-25T21:01:17.779Z
@@ -10310,7 +10310,7 @@
       1169 Midtjylland-Nordjylland 2024-05-16T21:01:20.858Z 2024-05-16T21:01:20.858Z
       1170 Midtjylland-Nordjylland 2024-05-16T21:01:20.858Z 2024-05-16T21:01:20.858Z
       1171 Midtjylland-Nordjylland 2024-05-16T21:01:20.858Z 2024-05-16T21:01:20.858Z
-      1172 Midtjylland-Nordjylland 2024-05-16T21:01:20.858Z 2024-05-16T21:01:20.858Z
+      1172 Midtjylland-Nordjylland 2025-01-14T22:03:26.490Z 2024-05-16T21:01:20.858Z
       1173 Midtjylland-Nordjylland 2024-05-16T21:01:20.858Z 2024-05-16T21:01:20.858Z
       1174 Midtjylland-Nordjylland 2024-05-16T21:01:20.858Z 2024-05-16T21:01:20.858Z
       1175 Midtjylland-Nordjylland 2024-05-16T21:01:20.858Z 2024-05-16T21:01:20.858Z
@@ -11199,7 +11199,7 @@
       753            6  9.256526  55.08562  9.408248  55.16810        9.333753
       754            7  9.112290  55.03743  9.240937  55.10820        9.187993
       755            8  9.218195  55.03723  9.372835  55.13944        9.291266
-      756            7  9.382327  55.04110  9.573964  55.15399        9.485537
+      756            8  9.382327  55.04110  9.573964  55.15399        9.485537
       757            7  9.192482  55.00503  9.386222  55.05315        9.291591
       758            7  9.069649  54.97646  9.221685  55.05737        9.139455
       759            9  9.164846  54.92938  9.370251  55.02945        9.251718
