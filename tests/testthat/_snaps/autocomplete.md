@@ -952,7 +952,7 @@
       
       [[2]]$afstemningsområde
       [[2]]$afstemningsområde$ændret
-      [1] "2024-05-16T21:01:20.858Z"
+      [1] "2025-01-14T22:03:26.490Z"
       
       [[2]]$afstemningsområde$geo_version
       [1] 6
@@ -996,24 +996,24 @@
       
       [[2]]$afstemningsområde$afstemningssted
       [[2]]$afstemningsområde$afstemningssted$navn
-      [1] "Østsidehallen"
+      [1] "Samlingshuset"
       
       [[2]]$afstemningsområde$afstemningssted$adgangsadresse
       [[2]]$afstemningsområde$afstemningssted$adgangsadresse$href
-      [1] "https://api.dataforsyningen.dk/adgangsadresser/0a3f5099-52fb-32b8-e044-0003ba298018"
+      [1] "https://api.dataforsyningen.dk/adgangsadresser/bdd77a9b-5e1b-4ff3-90e8-32ab232a6838"
       
       [[2]]$afstemningsområde$afstemningssted$adgangsadresse$id
-      [1] "0a3f5099-52fb-32b8-e044-0003ba298018"
+      [1] "bdd77a9b-5e1b-4ff3-90e8-32ab232a6838"
       
       [[2]]$afstemningsområde$afstemningssted$adgangsadresse$adressebetegnelse
-      [1] "Elmevej 122, 9700 Brønderslev"
+      [1] "Elmevej 124, 9700 Brønderslev"
       
       [[2]]$afstemningsområde$afstemningssted$adgangsadresse$koordinater
       [[2]]$afstemningsområde$afstemningssted$adgangsadresse$koordinater[[1]]
-      [1] 10.005
+      [1] 10.00454
       
       [[2]]$afstemningsområde$afstemningssted$adgangsadresse$koordinater[[2]]
-      [1] 57.24728
+      [1] 57.24764
       
       
       

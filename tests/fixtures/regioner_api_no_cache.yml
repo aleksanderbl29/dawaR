@@ -11,14 +11,14 @@ http_interactions:
       status_code: 200
       message: OK
     headers:
-      x-gravitee-client-identifier: 38beb9d21ed1371fa32420f02c924a9e066e36339500664c02f9a5b0f6a9fa58
+      x-gravitee-client-identifier: 948768a6f45dd39605267d52f6a113932f9da99bc9daeffbbcc2165499a39266
       access-control-allow-origin: '*'
       content-type: application/json; charset=UTF-8
       cache-control: no-cache
       vary: Accept-Encoding
-      date: Tue, 24 Dec 2024 09:51:55 GMT
-      x-gravitee-transaction-id: d6eed74b-ee28-4ea2-aed7-4bee286ea2af
-      x-gravitee-request-id: d6eed74b-ee28-4ea2-aed7-4bee286ea2af
+      date: Wed, 15 Jan 2025 10:04:35 GMT
+      x-gravitee-transaction-id: 6843ef4b-f194-494a-83ef-4bf194494ab3
+      x-gravitee-request-id: 6843ef4b-f194-494a-83ef-4bf194494ab3
       content-encoding: gzip
     body:
       encoding: ''
@@ -45,9 +45,9 @@ http_interactions:
           "nuts2": "DK05",
           "href": "https://api.dataforsyningen.dk/regioner/1081"
         }, {
-          "ændret": "2024-10-11T21:03:05.131Z",
-          "geo_version": 43,
-          "geo_ændret": "2024-10-11T21:03:05.131Z",
+          "ændret": "2025-01-01T22:02:15.652Z",
+          "geo_version": 44,
+          "geo_ændret": "2025-01-01T22:02:15.652Z",
           "bbox": [
             8.07887623,
             55.64437916,
@@ -55,8 +55,8 @@ http_interactions:
             56.84325702
           ],
           "visueltcenter": [
-            9.60503157,
-            56.23399042
+            9.60503514,
+            56.23399153
           ],
           "dagi_id": "389101",
           "kode": "1082",
@@ -64,9 +64,9 @@ http_interactions:
           "nuts2": "DK04",
           "href": "https://api.dataforsyningen.dk/regioner/1082"
         }, {
-          "ændret": "2024-10-04T21:02:54.978Z",
-          "geo_version": 32,
-          "geo_ændret": "2024-10-04T21:02:54.978Z",
+          "ændret": "2025-01-01T22:02:15.652Z",
+          "geo_version": 33,
+          "geo_ændret": "2025-01-01T22:02:15.652Z",
           "bbox": [
             8.06320315,
             54.71828064,
@@ -122,5 +122,5 @@ http_interactions:
           "href": "https://api.dataforsyningen.dk/regioner/1085"
         }
         ]
-  recorded_at: 2024-12-24 09:51:55 GMT
+  recorded_at: 2025-01-15 10:04:35 GMT
   recorded_with: vcr/1.6.0, webmockr/1.0.0
