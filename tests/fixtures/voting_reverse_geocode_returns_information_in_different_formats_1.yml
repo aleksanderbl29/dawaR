@@ -11,13 +11,13 @@ http_interactions:
       status_code: 200
       message: OK
     headers:
-      x-gravitee-client-identifier: 38beb9d21ed1371fa32420f02c924a9e066e36339500664c02f9a5b0f6a9fa58
+      x-gravitee-client-identifier: 948768a6f45dd39605267d52f6a113932f9da99bc9daeffbbcc2165499a39266
       content-type: application/json; charset=UTF-8
       cache-control: max-age=86400
       vary: Accept-Encoding
-      date: Tue, 24 Dec 2024 09:51:52 GMT
-      x-gravitee-transaction-id: 9e3d7546-38cd-4bfd-bd75-4638cd0bfd8e
-      x-gravitee-request-id: 9e3d7546-38cd-4bfd-bd75-4638cd0bfd8e
+      date: Wed, 15 Jan 2025 15:34:49 GMT
+      x-gravitee-transaction-id: a6503070-f536-4946-9030-70f536d946fd
+      x-gravitee-request-id: a6503070-f536-4946-9030-70f536d946fd
       content-encoding: gzip
     body:
       encoding: ''
@@ -79,5 +79,5 @@ http_interactions:
             "navn": "Hovedstaden"
           }
         }
-  recorded_at: 2024-12-24 09:51:52 GMT
+  recorded_at: 2025-01-15 15:34:49 GMT
   recorded_with: vcr/1.6.0, webmockr/1.0.0

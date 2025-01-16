@@ -307,9 +307,9 @@
       301   707376     13                          Nr. Asmindrup
       302   708890      1                             Holbæk Øst
       303   705950      2                            Holbæk Vest
-      304   702906      3                            Holbæk Midt
+      304   702906      3                                   Tuse
       305   705924      4                               Vipperød
-      306   705958      5                                   Tuse
+      306   705958      5                            Holbæk Midt
       307   708868      6                                   Udby
       308   708878      7                                Tølløse
       309   701294      8                            St. Merløse
@@ -621,8 +621,8 @@
       615   702246      2                             Ærøskøbing
       616   700952      3                                   Søby
       617   706096      1                         Haderslev Nord
-      618   707626      2                          Haderslev Syd
-      619   704724      3                         Haderslev Vest
+      618   707626      2                               Marstrup
+      619   704724      3                           Over Jerstal
       620   701494      4                                Moltrup
       621   704736      5                              Fjelstrup
       622   709256      6                                Aastrup
@@ -631,9 +631,9 @@
       625   710846      9                                 Starup
       626   711872     10                               Kelstrup
       627   709412     11                                Hoptrup
-      628   703422     12                               Marstrup
+      628   703422     12                          Haderslev Syd
       629   703202     13                               Hammelev
-      630   706202     14                           Over Jerstal
+      630   706202     14                         Haderslev Vest
       631   703080     15                                Bevtoft
       632   704730     16                             Skrydstrup
       633   707620     17                                 Vojens
@@ -834,8 +834,8 @@
       828   700984     13                      Kvartershuset Syd
       829   705620     14                        CSV - Vejle Syd
       830   703998     15                 Rødkilde Gymnasium Syd
-      831   702280     16                     Skibet Hallen Nord
-      832   711436     17                              Give Nord
+      831   702280     16                          Skibet Hallen
+      832   711436     17                                   Give
       833   700940     18                          Thyregod Nord
       834   706950     19                          Gadbjerg Nord
       835   700946     20                           Givskud Nord
@@ -1612,9 +1612,9 @@
       301                                         Nr. Asmindrup Forsamlingshus
       302                                                     Bjergmarkshallen
       303                                                        Absalonskolen
-      304                                                             Elværket
+      304                                                          Tuse Hallen
       305                                                      Vipperød Hallen
-      306                                                          Tuse Hallen
+      306                                                             Elværket
       307                                                    Tuse Næs Hallerne
       308                                                       Tølløse Hallen
       309                                                Merløse Fritidscenter
@@ -1926,8 +1926,8 @@
       615                                                           Ærø Rådhus
       616                                                          Café Arthur
       617                                               Haderslev Idrætscenter
-      618                                                          Erlev Skole
-      619                                                  Sct. Severin Skolen
+      618                                                      Marstrup Hallen
+      619                                              Skausminde Områdecenter
       620                                      Moltrup Idrætsforenings Klubhus
       621                                             Fjelstrup Forsamlingshus
       622                                                   Nordenfjords Huset
@@ -1936,9 +1936,9 @@
       625                                                        Starup Hallen
       626                                                           Næs Hallen
       627                                             Hoptrup Aktivitetscenter
-      628                                                      Marstrup Hallen
+      628                                                          Erlev Skole
       629                                                      Hammelev Hallen
-      630                                              Skausminde Områdecenter
+      630                                                  Sct. Severin Skolen
       631                                               Bevtoft Forsamlingshus
       632                                                  Skrydstrup Sognehus
       633                                                      Vojens Hallerne
@@ -2073,7 +2073,7 @@
       762                                                         Varnæs Skole
       763                                                    Slogs Herreds Hus
       764                                                          Borgerhuset
-      765                                             Bjerndrup Forsamlingshus
+      765                                                        Kliplevhallen
       766                                                       Grænsehallerne
       767                                                         Valdemarshus
       768                                                 Sønderjyllandshallen
@@ -2139,8 +2139,8 @@
       828                                                        Kvartershuset
       829                                                          CSV - Vejle
       830                                                   Rødkilde Gymnasium
-      831                                                        Skibet Hallen
-      832                                                           Ikærhallen
+      831                                             Skibet Hallen - Kabyssen
+      832                                                    Give Idrætscenter
       833                                                      Center Thyregod
       834                                                       Gadbjerg Skole
       835                                                        Givskud Skole
@@ -2480,7 +2480,7 @@
       1169                                                  Brønderslev Hallen
       1170                                    Stenum Kultur- og Forsamlingshus
       1171                                             Manna-Thise Samlingshus
-      1172                                                       Østsidehallen
+      1172                                                       Samlingshuset
       1173                                                         Hallund Kro
       1174                                                      Borgen Jerslev
       1175                                           Serritslev Forsamlingshus
@@ -2917,9 +2917,9 @@
       301  0a3f5084-ba88-32b8-e044-0003ba298018
       302  0a3f5083-1dbd-32b8-e044-0003ba298018
       303  0a3f5083-5285-32b8-e044-0003ba298018
-      304  56267bfc-4d7a-693c-e044-0003ba298018
+      304  1f289f18-88a5-372c-e044-0003ba298018
       305  0a3f5083-4263-32b8-e044-0003ba298018
-      306  1f289f18-88a5-372c-e044-0003ba298018
+      306  56267bfc-4d7a-693c-e044-0003ba298018
       307  0a3f5083-517e-32b8-e044-0003ba298018
       308  0a3f5085-0d06-32b8-e044-0003ba298018
       309  0a3f5085-06c1-32b8-e044-0003ba298018
@@ -3231,8 +3231,8 @@
       615  0a3f508a-eadf-32b8-e044-0003ba298018
       616  0a3f508a-eca2-32b8-e044-0003ba298018
       617  0a3f508b-ae80-32b8-e044-0003ba298018
-      618  0a3f508b-81f7-32b8-e044-0003ba298018
-      619  0a3f508b-a240-32b8-e044-0003ba298018
+      618  0a3f508b-9dad-32b8-e044-0003ba298018
+      619  0a3f508c-c11b-32b8-e044-0003ba298018
       620  0a3f508b-a2b3-32b8-e044-0003ba298018
       621  0a3f508b-62fe-32b8-e044-0003ba298018
       622  0a3f508b-83c9-32b8-e044-0003ba298018
@@ -3241,9 +3241,9 @@
       625  0a3f508b-af02-32b8-e044-0003ba298018
       626  0a3f508b-9a10-32b8-e044-0003ba298018
       627  0a3f508b-9fb7-32b8-e044-0003ba298018
-      628  0a3f508b-9dad-32b8-e044-0003ba298018
+      628  0a3f508b-81f7-32b8-e044-0003ba298018
       629  0a3f508c-bf4c-32b8-e044-0003ba298018
-      630  0a3f508c-c11b-32b8-e044-0003ba298018
+      630  0a3f508b-a240-32b8-e044-0003ba298018
       631  0a3f508b-ff6f-32b8-e044-0003ba298018
       632  0a3f508c-caa6-32b8-e044-0003ba298018
       633  12e4ec90-cd60-402e-8e40-c3aaf71c876f
@@ -3378,7 +3378,7 @@
       762  0a3f508b-c1ad-32b8-e044-0003ba298018
       763  0a3f508c-9c7b-32b8-e044-0003ba298018
       764  0a3f508c-9f13-32b8-e044-0003ba298018
-      765  0a3f508b-bfc7-32b8-e044-0003ba298018
+      765  0a3f508b-c6dc-32b8-e044-0003ba298018
       766  6e336683-41da-43ae-b4d0-6bc138250ef1
       767  0a3f508b-3bbf-32b8-e044-0003ba298018
       768  0a3f508c-e17a-32b8-e044-0003ba298018
@@ -3445,8 +3445,8 @@
       829  6e50eb56-f3d9-4127-8c32-172d5f9667f7
       830  921f6f1e-6ff7-4d55-bf9a-2813bef106ba
       831  0a3f5090-ccfe-32b8-e044-0003ba298018
-      832  2dad4b3d-91de-48d4-9b47-6c2601c67935
-      833  0a3f508f-6169-32b8-e044-0003ba298018
+      832  0a3f508f-61b4-32b8-e044-0003ba298018
+      833  0a3f508f-6168-32b8-e044-0003ba298018
       834  18f563fd-67e8-437e-8161-e0fb2c60243c
       835  0a3f508f-6494-32b8-e044-0003ba298018
       836  0a3f508f-50e7-32b8-e044-0003ba298018
@@ -3785,7 +3785,7 @@
       1169 0a3f5099-4997-32b8-e044-0003ba298018
       1170 0a3f5099-5a86-32b8-e044-0003ba298018
       1171 0a3f5099-47dc-32b8-e044-0003ba298018
-      1172 0a3f5099-52fb-32b8-e044-0003ba298018
+      1172 bdd77a9b-5e1b-4ff3-90e8-32ab232a6838
       1173 0a3f5099-57da-32b8-e044-0003ba298018
       1174 0a3f5099-3afc-32b8-e044-0003ba298018
       1175 0a3f5099-46a0-32b8-e044-0003ba298018
@@ -4222,9 +4222,9 @@
       301                 Asmindrupvej 34, 4572 Nørre Asmindrup
       302                             Bispehøjen 2, 4300 Holbæk
       303                           Vandtårnsvej 3, 4300 Holbæk
-      304                            Gasværksvej 9, 4300 Holbæk
+      304                       Tuse Byvej 8, Tuse, 4300 Holbæk
       305                           Rensdyrvej 4, 4390 Vipperød
-      306                       Tuse Byvej 8, Tuse, 4300 Holbæk
+      306                            Gasværksvej 9, 4300 Holbæk
       307                   Udby Kirkevej 23, Udby, 4300 Holbæk
       308                             Sportsvej 2, 4340 Tølløse
       309                      Holbækvej 34, 4370 Store Merløse
@@ -4536,8 +4536,8 @@
       615                            Statene 2, 5970 Ærøskøbing
       616                           Ellehøjvej 1, 5985 Søby Ærø
       617                          Stadionvej 5, 6100 Haderslev
-      618               Gammel Hørregårdsvej 29, 6100 Haderslev
-      619                         Moltrupvej 1A, 6100 Haderslev
+      618             Kærsmindevej 3A, Marstrup, 6100 Haderslev
+      619         Hovedgaden Øst 61A, Over Jerstal, 6500 Vojens
       620              Møllesvinget 58, Moltrup, 6100 Haderslev
       621             Stadion Alle 4, Fjelstrup, 6100 Haderslev
       622                       Aastrup Alle 73, 6100 Haderslev
@@ -4546,9 +4546,9 @@
       625                   Starup Skolevej 33A, 6100 Haderslev
       626                    Kelstrup Bygade 45, 6100 Haderslev
       627                  Lillegård 7, Hoptrup, 6100 Haderslev
-      628             Kærsmindevej 3A, Marstrup, 6100 Haderslev
+      628               Gammel Hørregårdsvej 29, 6100 Haderslev
       629            Hammelev Bygade 28A, Hammelev, 6500 Vojens
-      630         Hovedgaden Øst 61A, Over Jerstal, 6500 Vojens
+      630                         Moltrupvej 1A, 6100 Haderslev
       631                      Neder Jerstalvej 2, 6541 Bevtoft
       632                   Ribevej 51, Skrydstrup, 6500 Vojens
       633                          Stadionparken 6, 6500 Vojens
@@ -4683,7 +4683,7 @@
       762            Varnæs Kirkevej 15A, Varnæs, 6200 Aabenraa
       763       Slogsherredsvej 20, Bylderup, 6372 Bylderup-Bov
       764                          Tinglev Midt 2, 6360 Tinglev
-      765         Bjerndrup Bygade 36, Bjerndrup, 6200 Aabenraa
+      765                  Skolegade 13, Kliplev, 6200 Aabenraa
       766                              Harkærvej 13, 6340 Kruså
       767                        Valdemarsgade 11, 6330 Padborg
       768                    H P Hanssens Gade 7, 6200 Aabenraa
@@ -4750,8 +4750,8 @@
       829                            Solsikkevej 8F, 7100 Vejle
       830                           Rødkildevej 42B, 7100 Vejle
       831                              Jennumvej 10, 7100 Vejle
-      832                              Torvegade 75B, 7323 Give
-      833                   Søndergade 27E, Thyregod, 7323 Give
+      832                             Søndermarken 1, 7323 Give
+      833                   Søndergade 27D, Thyregod, 7323 Give
       834                           Langgade 78B, 7321 Gadbjerg
       835                      Vejlevej 47A, Givskud, 7323 Give
       836                 Gammelbyvej 41A, Grønbjerg, 7323 Give
@@ -5090,7 +5090,7 @@
       1169                       Knudsgade 15, 9700 Brønderslev
       1170                      Tømmerbyvej 6, 9700 Brønderslev
       1171                  Jens Thise Vej 33, 9700 Brønderslev
-      1172                        Elmevej 122, 9700 Brønderslev
+      1172                        Elmevej 124, 9700 Brønderslev
       1173                        Sølvgade 74, 9700 Brønderslev
       1174                        Borgergade 30, 9740 Jerslev J
       1175                         Hybenvej 3, 9700 Brønderslev
@@ -5527,9 +5527,9 @@
       301                       11.622929                       55.88685        0306
       302                       11.737935                       55.70803        0316
       303                       11.700699                       55.71049        0316
-      304                       11.712254                       55.71945        0316
+      304                       11.628813                       55.71292        0316
       305                       11.734322                       55.66937        0316
-      306                       11.628813                       55.71292        0316
+      306                       11.712254                       55.71945        0316
       307                       11.701246                       55.75479        0316
       308                       11.758954                       55.61755        0316
       309                       11.710683                       55.54748        0316
@@ -5841,8 +5841,8 @@
       615                       10.406206                       54.88949        0492
       616                       10.260619                       54.94131        0492
       617                        9.489286                       55.26155        0510
-      618                        9.485485                       55.23828        0510
-      619                        9.477745                       55.25415        0510
+      618                        9.444628                       55.20688        0510
+      619                        9.304780                       55.19705        0510
       620                        9.449402                       55.28355        0510
       621                        9.559214                       55.32228        0510
       622                        9.555228                       55.27019        0510
@@ -5851,9 +5851,9 @@
       625                        9.540935                       55.23225        0510
       626                        9.555558                       55.19799        0510
       627                        9.455156                       55.18098        0510
-      628                        9.444628                       55.20688        0510
+      628                        9.485485                       55.23828        0510
       629                        9.383617                       55.24626        0510
-      630                        9.304780                       55.19705        0510
+      630                        9.477745                       55.25415        0510
       631                        9.210875                       55.19913        0510
       632                        9.252496                       55.24135        0510
       633                        9.313702                       55.25144        0510
@@ -5988,7 +5988,7 @@
       762                        9.570994                       55.01087        0580
       763                        9.102368                       54.94584        0580
       764                        9.251067                       54.93535        0580
-      765                        9.329928                       54.93109        0580
+      765                        9.407213                       54.93829        0580
       766                        9.411022                       54.84929        0580
       767                        9.360574                       54.82445        0580
       768                        9.420865                       55.04747        0580
@@ -6055,8 +6055,8 @@
       829                        9.513025                       55.69574        0630
       830                        9.554680                       55.71065        0630
       831                        9.439843                       55.70658        0630
-      832                        9.248846                       55.84036        0630
-      833                        9.261129                       55.90592        0630
+      832                        9.233593                       55.83993        0630
+      833                        9.260698                       55.90615        0630
       834                        9.322704                       55.77070        0630
       835                        9.349772                       55.81407        0630
       836                        9.124898                       55.81216        0630
@@ -6395,7 +6395,7 @@
       1169                       9.950402                       57.27463        0810
       1170                       9.868483                       57.31853        0810
       1171                       9.810491                       57.28940        0810
-      1172                      10.005002                       57.24728        0810
+      1172                      10.004536                       57.24764        0810
       1173                      10.103587                       57.23942        0810
       1174                      10.089577                       57.28428        0810
       1175                       9.974737                       57.31444        0810
@@ -9204,7 +9204,7 @@
       63               Hovedstaden 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
       64               Hovedstaden 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
       65               Hovedstaden 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
-      66               Hovedstaden 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
+      66               Hovedstaden 2025-01-01T22:02:15.652Z 2025-01-01T22:02:15.652Z
       67               Hovedstaden 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
       68               Hovedstaden 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
       69               Hovedstaden 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
@@ -9240,9 +9240,9 @@
       99               Hovedstaden 2024-04-24T21:01:20.921Z 2024-04-24T21:01:20.921Z
       100              Hovedstaden 2024-04-24T21:01:20.921Z 2024-04-24T21:01:20.921Z
       101              Hovedstaden 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
-      102              Hovedstaden 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
-      103              Hovedstaden 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
-      104              Hovedstaden 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
+      102              Hovedstaden 2025-01-01T22:02:15.652Z 2025-01-01T22:02:15.652Z
+      103              Hovedstaden 2025-01-01T22:02:15.652Z 2025-01-01T22:02:15.652Z
+      104              Hovedstaden 2025-01-01T22:02:15.652Z 2025-01-01T22:02:15.652Z
       105              Hovedstaden 2024-01-26T22:04:04.599Z 2024-01-26T22:04:04.599Z
       106              Hovedstaden 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
       107              Hovedstaden 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
@@ -9283,7 +9283,7 @@
       142              Hovedstaden 2024-05-07T21:01:19.937Z 2024-05-07T21:01:19.937Z
       143              Hovedstaden 2024-05-07T21:01:19.937Z 2024-05-07T21:01:19.937Z
       144              Hovedstaden 2024-05-07T21:01:19.937Z 2024-05-07T21:01:19.937Z
-      145              Hovedstaden 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
+      145              Hovedstaden 2025-01-01T22:02:15.652Z 2025-01-01T22:02:15.652Z
       146              Hovedstaden 2024-05-07T21:01:19.937Z 2024-05-07T21:01:19.937Z
       147              Hovedstaden 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
       148              Hovedstaden 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
@@ -9442,9 +9442,9 @@
       301      Sjælland-Syddanmark 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
       302      Sjælland-Syddanmark 2024-10-31T22:03:00.468Z 2024-10-31T22:03:00.468Z
       303      Sjælland-Syddanmark 2024-10-31T22:03:00.468Z 2024-10-31T22:03:00.468Z
-      304      Sjælland-Syddanmark 2024-10-31T22:03:00.468Z 2024-10-31T22:03:00.468Z
+      304      Sjælland-Syddanmark 2025-01-13T22:06:29.479Z 2025-01-13T22:06:29.479Z
       305      Sjælland-Syddanmark 2024-10-31T22:03:00.468Z 2024-10-31T22:03:00.468Z
-      306      Sjælland-Syddanmark 2024-10-31T22:03:00.468Z 2024-10-31T22:03:00.468Z
+      306      Sjælland-Syddanmark 2025-01-13T22:06:29.479Z 2025-01-13T22:06:29.479Z
       307      Sjælland-Syddanmark 2024-10-31T22:03:00.468Z 2024-10-31T22:03:00.468Z
       308      Sjælland-Syddanmark 2024-10-31T22:03:00.468Z 2024-10-31T22:03:00.468Z
       309      Sjælland-Syddanmark 2024-10-31T22:03:00.468Z 2024-10-31T22:03:00.468Z
@@ -9626,7 +9626,7 @@
       485      Sjælland-Syddanmark 2024-03-05T22:01:36.617Z 2024-03-05T22:01:36.617Z
       486      Sjælland-Syddanmark 2024-03-05T22:01:36.617Z 2024-03-05T22:01:36.617Z
       487      Sjælland-Syddanmark 2024-03-05T22:01:36.617Z 2024-03-05T22:01:36.617Z
-      488      Sjælland-Syddanmark 2024-12-11T22:03:17.839Z 2024-12-11T22:03:17.839Z
+      488      Sjælland-Syddanmark 2025-01-01T22:02:15.652Z 2025-01-01T22:02:15.652Z
       489      Sjælland-Syddanmark 2024-03-05T22:01:36.617Z 2024-03-05T22:01:36.617Z
       490      Sjælland-Syddanmark 2024-03-05T22:01:36.617Z 2024-03-05T22:01:36.617Z
       491              Hovedstaden 2024-10-11T21:03:05.131Z 2024-10-11T21:03:05.131Z
@@ -9635,12 +9635,12 @@
       494      Sjælland-Syddanmark 2024-04-10T21:01:14.595Z 2024-04-10T21:01:14.595Z
       495      Sjælland-Syddanmark 2024-04-10T21:01:14.595Z 2024-04-10T21:01:14.595Z
       496      Sjælland-Syddanmark 2024-04-10T21:01:14.595Z 2024-04-10T21:01:14.595Z
-      497      Sjælland-Syddanmark 2024-12-11T22:03:17.839Z 2024-12-11T22:03:17.839Z
+      497      Sjælland-Syddanmark 2025-01-01T22:02:15.652Z 2025-01-01T22:02:15.652Z
       498      Sjælland-Syddanmark 2024-04-10T21:01:14.595Z 2024-04-10T21:01:14.595Z
       499      Sjælland-Syddanmark 2024-04-10T21:01:14.595Z 2024-04-10T21:01:14.595Z
       500      Sjælland-Syddanmark 2024-04-10T21:01:14.595Z 2024-04-10T21:01:14.595Z
       501      Sjælland-Syddanmark 2024-04-10T21:01:14.595Z 2024-04-10T21:01:14.595Z
-      502      Sjælland-Syddanmark 2024-12-11T22:03:17.839Z 2024-12-11T22:03:17.839Z
+      502      Sjælland-Syddanmark 2025-01-01T22:02:15.652Z 2025-01-01T22:02:15.652Z
       503      Sjælland-Syddanmark 2024-04-10T21:01:14.595Z 2024-04-10T21:01:14.595Z
       504      Sjælland-Syddanmark 2024-04-10T21:01:14.595Z 2024-04-10T21:01:14.595Z
       505      Sjælland-Syddanmark 2024-04-10T21:01:14.595Z 2024-04-10T21:01:14.595Z
@@ -9705,7 +9705,7 @@
       564      Sjælland-Syddanmark 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
       565      Sjælland-Syddanmark 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
       566      Sjælland-Syddanmark 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
-      567      Sjælland-Syddanmark 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
+      567      Sjælland-Syddanmark 2025-01-01T22:02:15.652Z 2025-01-01T22:02:15.652Z
       568      Sjælland-Syddanmark 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
       569      Sjælland-Syddanmark 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
       570      Sjælland-Syddanmark 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
@@ -9756,8 +9756,8 @@
       615      Sjælland-Syddanmark 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
       616      Sjælland-Syddanmark 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
       617      Sjælland-Syddanmark 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
-      618      Sjælland-Syddanmark 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
-      619      Sjælland-Syddanmark 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
+      618      Sjælland-Syddanmark 2025-01-13T22:06:29.479Z 2025-01-13T22:06:29.479Z
+      619      Sjælland-Syddanmark 2025-01-13T22:06:29.479Z 2025-01-13T22:06:29.479Z
       620      Sjælland-Syddanmark 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
       621      Sjælland-Syddanmark 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
       622      Sjælland-Syddanmark 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
@@ -9766,9 +9766,9 @@
       625      Sjælland-Syddanmark 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
       626      Sjælland-Syddanmark 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
       627      Sjælland-Syddanmark 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
-      628      Sjælland-Syddanmark 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
+      628      Sjælland-Syddanmark 2025-01-13T22:06:29.479Z 2025-01-13T22:06:29.479Z
       629      Sjælland-Syddanmark 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
-      630      Sjælland-Syddanmark 2024-04-02T21:01:41.890Z 2024-03-20T22:01:29.907Z
+      630      Sjælland-Syddanmark 2025-01-13T22:06:29.479Z 2025-01-13T22:06:29.479Z
       631      Sjælland-Syddanmark 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
       632      Sjælland-Syddanmark 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
       633      Sjælland-Syddanmark 2024-03-20T22:01:29.907Z 2024-03-20T22:01:29.907Z
@@ -9890,11 +9890,11 @@
       749      Sjælland-Syddanmark 2024-02-26T22:01:25.457Z 2024-02-26T22:01:25.457Z
       750      Sjælland-Syddanmark 2024-02-26T22:01:25.457Z 2024-02-26T22:01:25.457Z
       751      Sjælland-Syddanmark 2024-02-26T22:01:25.457Z 2024-02-26T22:01:25.457Z
-      752      Sjælland-Syddanmark 2024-12-11T22:03:17.839Z 2024-12-11T22:03:17.839Z
+      752      Sjælland-Syddanmark 2025-01-01T22:02:15.652Z 2025-01-01T22:02:15.652Z
       753      Sjælland-Syddanmark 2024-04-25T21:01:17.779Z 2024-04-25T21:01:17.779Z
       754      Sjælland-Syddanmark 2024-04-25T21:01:17.779Z 2024-04-25T21:01:17.779Z
       755      Sjælland-Syddanmark 2024-04-25T21:01:17.779Z 2024-04-25T21:01:17.779Z
-      756      Sjælland-Syddanmark 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
+      756      Sjælland-Syddanmark 2025-01-14T22:03:26.490Z 2025-01-14T22:03:26.490Z
       757      Sjælland-Syddanmark 2024-04-25T21:01:17.779Z 2024-04-25T21:01:17.779Z
       758      Sjælland-Syddanmark 2024-04-25T21:01:17.779Z 2024-04-25T21:01:17.779Z
       759      Sjælland-Syddanmark 2024-04-25T21:01:17.779Z 2024-04-25T21:01:17.779Z
@@ -9903,7 +9903,7 @@
       762      Sjælland-Syddanmark 2024-04-25T21:01:17.779Z 2024-04-25T21:01:17.779Z
       763      Sjælland-Syddanmark 2024-04-25T21:01:17.779Z 2024-04-25T21:01:17.779Z
       764      Sjælland-Syddanmark 2024-04-25T21:01:17.779Z 2024-04-25T21:01:17.779Z
-      765      Sjælland-Syddanmark 2024-04-25T21:01:17.779Z 2024-04-25T21:01:17.779Z
+      765      Sjælland-Syddanmark 2025-01-14T22:03:26.490Z 2024-04-25T21:01:17.779Z
       766      Sjælland-Syddanmark 2024-04-25T21:01:17.779Z 2024-04-25T21:01:17.779Z
       767      Sjælland-Syddanmark 2024-04-25T21:01:17.779Z 2024-04-25T21:01:17.779Z
       768      Sjælland-Syddanmark 2024-04-25T21:01:17.779Z 2024-04-25T21:01:17.779Z
@@ -9935,7 +9935,7 @@
       794  Midtjylland-Nordjylland 2024-05-07T21:01:19.937Z 2024-05-07T21:01:19.937Z
       795  Midtjylland-Nordjylland 2024-05-07T21:01:19.937Z 2024-05-07T21:01:19.937Z
       796  Midtjylland-Nordjylland 2024-05-07T21:01:19.937Z 2024-05-07T21:01:19.937Z
-      797  Midtjylland-Nordjylland 2024-12-11T22:03:17.839Z 2024-12-11T22:03:17.839Z
+      797  Midtjylland-Nordjylland 2025-01-01T22:02:15.652Z 2025-01-01T22:02:15.652Z
       798  Midtjylland-Nordjylland 2024-05-07T21:01:19.937Z 2024-05-07T21:01:19.937Z
       799  Midtjylland-Nordjylland 2024-05-07T21:01:19.937Z 2024-05-07T21:01:19.937Z
       800  Midtjylland-Nordjylland 2024-05-07T21:01:19.937Z 2024-05-07T21:01:19.937Z
@@ -9959,35 +9959,35 @@
       818      Sjælland-Syddanmark 2024-05-14T21:01:16.814Z 2024-05-14T21:01:16.814Z
       819      Sjælland-Syddanmark 2024-05-14T21:01:16.814Z 2024-05-14T21:01:16.814Z
       820      Sjælland-Syddanmark 2024-05-14T21:01:16.814Z 2024-05-14T21:01:16.814Z
-      821      Sjælland-Syddanmark 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
+      821      Sjælland-Syddanmark 2025-01-11T22:03:07.920Z 2025-01-11T22:03:07.920Z
       822      Sjælland-Syddanmark 2024-05-14T21:01:16.814Z 2024-05-14T21:01:16.814Z
       823      Sjælland-Syddanmark 2024-05-14T21:01:16.814Z 2024-05-14T21:01:16.814Z
-      824      Sjælland-Syddanmark 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
+      824      Sjælland-Syddanmark 2025-01-11T22:03:07.920Z 2025-01-11T22:03:07.920Z
       825      Sjælland-Syddanmark 2024-05-14T21:01:16.814Z 2024-05-14T21:01:16.814Z
       826      Sjælland-Syddanmark 2024-05-14T21:01:16.814Z 2024-05-14T21:01:16.814Z
       827      Sjælland-Syddanmark 2024-05-14T21:01:16.814Z 2024-05-14T21:01:16.814Z
       828      Sjælland-Syddanmark 2024-05-14T21:01:16.814Z 2024-05-14T21:01:16.814Z
       829      Sjælland-Syddanmark 2024-05-14T21:01:16.814Z 2024-05-14T21:01:16.814Z
       830      Sjælland-Syddanmark 2024-05-14T21:01:16.814Z 2024-05-14T21:01:16.814Z
-      831      Sjælland-Syddanmark 2024-06-07T21:01:24.304Z 2024-06-07T21:01:24.304Z
-      832      Sjælland-Syddanmark 2024-05-14T21:01:16.814Z 2024-05-14T21:01:16.814Z
-      833      Sjælland-Syddanmark 2024-05-14T21:01:16.814Z 2024-05-14T21:01:16.814Z
+      831      Sjælland-Syddanmark 2025-01-11T22:03:07.920Z 2025-01-11T22:03:07.920Z
+      832      Sjælland-Syddanmark 2025-01-11T22:03:07.920Z 2025-01-11T22:03:07.920Z
+      833      Sjælland-Syddanmark 2025-01-11T22:03:07.920Z 2025-01-11T22:03:07.920Z
       834      Sjælland-Syddanmark 2024-05-14T21:01:16.814Z 2024-05-14T21:01:16.814Z
       835      Sjælland-Syddanmark 2024-05-14T21:01:16.814Z 2024-05-14T21:01:16.814Z
       836      Sjælland-Syddanmark 2024-05-14T21:01:16.814Z 2024-05-14T21:01:16.814Z
       837      Sjælland-Syddanmark 2024-05-14T21:01:16.814Z 2024-05-14T21:01:16.814Z
       838      Sjælland-Syddanmark 2024-05-14T21:01:16.814Z 2024-05-14T21:01:16.814Z
       839      Sjælland-Syddanmark 2024-05-14T21:01:16.814Z 2024-05-14T21:01:16.814Z
-      840      Sjælland-Syddanmark 2024-05-14T21:01:16.814Z 2024-05-14T21:01:16.814Z
-      841      Sjælland-Syddanmark 2024-12-11T22:03:17.839Z 2024-12-11T22:03:17.839Z
-      842      Sjælland-Syddanmark 2024-05-14T21:01:16.814Z 2024-05-14T21:01:16.814Z
-      843      Sjælland-Syddanmark 2024-05-14T21:01:16.814Z 2024-05-14T21:01:16.814Z
-      844      Sjælland-Syddanmark 2024-05-14T21:01:16.814Z 2024-05-14T21:01:16.814Z
+      840      Sjælland-Syddanmark 2025-01-11T22:03:07.920Z 2025-01-11T22:03:07.920Z
+      841      Sjælland-Syddanmark 2025-01-11T22:03:07.920Z 2025-01-11T22:03:07.920Z
+      842      Sjælland-Syddanmark 2025-01-11T22:03:07.920Z 2025-01-11T22:03:07.920Z
+      843      Sjælland-Syddanmark 2025-01-11T22:03:07.920Z 2025-01-11T22:03:07.920Z
+      844      Sjælland-Syddanmark 2025-01-11T22:03:07.920Z 2025-01-11T22:03:07.920Z
       845      Sjælland-Syddanmark 2024-05-14T21:01:16.814Z 2024-05-14T21:01:16.814Z
       846      Sjælland-Syddanmark 2024-05-14T21:01:16.814Z 2024-05-14T21:01:16.814Z
       847      Sjælland-Syddanmark 2024-05-14T21:01:16.814Z 2024-05-14T21:01:16.814Z
       848      Sjælland-Syddanmark 2024-05-14T21:01:16.814Z 2024-05-14T21:01:16.814Z
-      849      Sjælland-Syddanmark 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
+      849      Sjælland-Syddanmark 2025-01-11T22:03:07.920Z 2025-01-11T22:03:07.920Z
       850  Midtjylland-Nordjylland 2024-04-03T21:01:29.714Z 2024-04-03T21:01:29.714Z
       851  Midtjylland-Nordjylland 2024-04-03T21:01:29.714Z 2024-04-03T21:01:29.714Z
       852  Midtjylland-Nordjylland 2024-05-03T21:01:19.534Z 2024-04-03T21:01:29.714Z
@@ -10057,7 +10057,7 @@
       916  Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
       917  Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
       918  Midtjylland-Nordjylland 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
-      919  Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
+      919  Midtjylland-Nordjylland 2025-01-01T22:02:15.652Z 2025-01-01T22:02:15.652Z
       920  Midtjylland-Nordjylland 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
       921  Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
       922  Midtjylland-Nordjylland 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
@@ -10067,7 +10067,7 @@
       926  Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
       927  Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
       928  Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
-      929  Midtjylland-Nordjylland 2024-01-23T22:04:07.687Z 2024-01-23T22:04:07.687Z
+      929  Midtjylland-Nordjylland 2025-01-01T22:02:15.652Z 2025-01-01T22:02:15.652Z
       930  Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
       931  Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
       932  Midtjylland-Nordjylland 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
@@ -10078,12 +10078,12 @@
       937  Midtjylland-Nordjylland 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
       938  Midtjylland-Nordjylland 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
       939  Midtjylland-Nordjylland 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
-      940  Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
+      940  Midtjylland-Nordjylland 2025-01-01T22:02:15.652Z 2025-01-01T22:02:15.652Z
       941  Midtjylland-Nordjylland 2018-06-07T08:13:11.660Z 2018-04-30T15:23:13.528Z
       942  Midtjylland-Nordjylland 2018-06-07T08:13:11.660Z 2018-04-30T15:23:13.528Z
       943  Midtjylland-Nordjylland 2024-05-02T21:01:19.476Z 2024-05-02T21:01:19.476Z
       944  Midtjylland-Nordjylland 2024-05-02T21:01:19.476Z 2024-05-02T21:01:19.476Z
-      945  Midtjylland-Nordjylland 2024-12-11T22:03:17.839Z 2024-12-11T22:03:17.839Z
+      945  Midtjylland-Nordjylland 2025-01-01T22:02:15.652Z 2025-01-01T22:02:15.652Z
       946  Midtjylland-Nordjylland 2024-05-02T21:01:19.476Z 2024-05-02T21:01:19.476Z
       947  Midtjylland-Nordjylland 2024-05-02T21:01:19.476Z 2024-05-02T21:01:19.476Z
       948  Midtjylland-Nordjylland 2024-05-02T21:01:19.476Z 2024-05-02T21:01:19.476Z
@@ -10240,7 +10240,7 @@
       1099 Midtjylland-Nordjylland 2024-04-04T21:01:31.352Z 2024-04-04T21:01:31.352Z
       1100 Midtjylland-Nordjylland 2024-05-02T21:01:19.476Z 2024-04-04T21:01:31.352Z
       1101 Midtjylland-Nordjylland 2024-05-02T21:01:19.476Z 2024-04-04T21:01:31.352Z
-      1102 Midtjylland-Nordjylland 2024-12-11T22:03:17.839Z 2024-12-11T22:03:17.839Z
+      1102 Midtjylland-Nordjylland 2025-01-01T22:02:15.652Z 2025-01-01T22:02:15.652Z
       1103 Midtjylland-Nordjylland 2024-04-04T21:01:31.352Z 2024-04-04T21:01:31.352Z
       1104 Midtjylland-Nordjylland 2024-04-04T21:01:31.352Z 2024-04-04T21:01:31.352Z
       1105 Midtjylland-Nordjylland 2024-05-02T21:01:19.476Z 2024-04-04T21:01:31.352Z
@@ -10253,7 +10253,7 @@
       1112 Midtjylland-Nordjylland 2024-10-09T21:02:27.534Z 2024-10-09T21:02:27.534Z
       1113 Midtjylland-Nordjylland 2024-10-09T21:02:27.534Z 2024-10-09T21:02:27.534Z
       1114 Midtjylland-Nordjylland 2024-10-09T21:02:27.534Z 2024-10-09T21:02:27.534Z
-      1115 Midtjylland-Nordjylland 2024-12-11T22:03:17.839Z 2024-12-11T22:03:17.839Z
+      1115 Midtjylland-Nordjylland 2025-01-01T22:02:15.652Z 2025-01-01T22:02:15.652Z
       1116 Midtjylland-Nordjylland 2024-10-09T21:02:27.534Z 2024-10-09T21:02:27.534Z
       1117 Midtjylland-Nordjylland 2024-10-09T21:02:27.534Z 2024-10-09T21:02:27.534Z
       1118 Midtjylland-Nordjylland 2024-10-09T21:02:27.534Z 2024-10-09T21:02:27.534Z
@@ -10290,7 +10290,7 @@
       1149 Midtjylland-Nordjylland 2024-11-25T22:05:32.264Z 2024-11-25T22:05:32.264Z
       1150 Midtjylland-Nordjylland 2024-04-05T21:01:58.999Z 2024-04-05T21:01:58.999Z
       1151 Midtjylland-Nordjylland 2024-04-05T21:01:58.999Z 2024-04-05T21:01:58.999Z
-      1152 Midtjylland-Nordjylland 2024-12-11T22:03:17.839Z 2024-12-11T22:03:17.839Z
+      1152 Midtjylland-Nordjylland 2025-01-01T22:02:15.652Z 2025-01-01T22:02:15.652Z
       1153 Midtjylland-Nordjylland 2024-04-05T21:01:58.999Z 2024-04-05T21:01:58.999Z
       1154 Midtjylland-Nordjylland 2024-04-05T21:01:58.999Z 2024-04-05T21:01:58.999Z
       1155 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
@@ -10310,7 +10310,7 @@
       1169 Midtjylland-Nordjylland 2024-05-16T21:01:20.858Z 2024-05-16T21:01:20.858Z
       1170 Midtjylland-Nordjylland 2024-05-16T21:01:20.858Z 2024-05-16T21:01:20.858Z
       1171 Midtjylland-Nordjylland 2024-05-16T21:01:20.858Z 2024-05-16T21:01:20.858Z
-      1172 Midtjylland-Nordjylland 2024-05-16T21:01:20.858Z 2024-05-16T21:01:20.858Z
+      1172 Midtjylland-Nordjylland 2025-01-14T22:03:26.490Z 2024-05-16T21:01:20.858Z
       1173 Midtjylland-Nordjylland 2024-05-16T21:01:20.858Z 2024-05-16T21:01:20.858Z
       1174 Midtjylland-Nordjylland 2024-05-16T21:01:20.858Z 2024-05-16T21:01:20.858Z
       1175 Midtjylland-Nordjylland 2024-05-16T21:01:20.858Z 2024-05-16T21:01:20.858Z
@@ -10344,17 +10344,17 @@
       1203 Midtjylland-Nordjylland 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
       1204 Midtjylland-Nordjylland 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
       1205 Midtjylland-Nordjylland 2018-07-10T21:09:46.035Z 2018-07-10T21:09:46.035Z
-      1206 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
+      1206 Midtjylland-Nordjylland 2025-01-01T22:02:15.652Z 2025-01-01T22:02:15.652Z
       1207 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
       1208 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
       1209 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
       1210 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
       1211 Midtjylland-Nordjylland 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
-      1212 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
+      1212 Midtjylland-Nordjylland 2025-01-01T22:02:15.652Z 2025-01-01T22:02:15.652Z
       1213 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
       1214 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
       1215 Midtjylland-Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
-      1216 Midtjylland-Nordjylland 2024-12-11T22:03:17.839Z 2024-12-11T22:03:17.839Z
+      1216 Midtjylland-Nordjylland 2025-01-01T22:02:15.652Z 2025-01-01T22:02:15.652Z
       1217 Midtjylland-Nordjylland 2024-03-12T22:01:20.517Z 2024-03-12T22:01:20.517Z
       1218 Midtjylland-Nordjylland 2024-03-12T22:01:20.517Z 2024-03-12T22:01:20.517Z
       1219 Midtjylland-Nordjylland 2024-03-12T22:01:20.517Z 2024-03-12T22:01:20.517Z
@@ -10417,7 +10417,7 @@
       1276 Midtjylland-Nordjylland 2024-02-08T22:01:20.857Z 2024-02-08T22:01:20.857Z
       1277 Midtjylland-Nordjylland 2024-02-08T22:01:20.857Z 2024-02-08T22:01:20.857Z
       1278 Midtjylland-Nordjylland 2024-02-08T22:01:20.857Z 2024-02-08T22:01:20.857Z
-      1279 Midtjylland-Nordjylland 2024-12-11T22:03:17.839Z 2024-12-11T22:03:17.839Z
+      1279 Midtjylland-Nordjylland 2025-01-01T22:02:15.652Z 2025-01-01T22:02:15.652Z
       1280 Midtjylland-Nordjylland 2024-02-08T22:01:20.857Z 2024-02-08T22:01:20.857Z
       1281 Midtjylland-Nordjylland 2024-02-08T22:01:20.857Z 2024-02-08T22:01:20.857Z
       1282 Midtjylland-Nordjylland 2024-02-08T22:01:20.857Z 2024-02-08T22:01:20.857Z
@@ -10509,7 +10509,7 @@
       63             4 12.344413  55.71990 12.391139  55.73684       12.363860
       64             4 12.337679  55.73294 12.387063  55.75080       12.372187
       65             5 12.319932  55.72007 12.356273  55.74339       12.334604
-      66             4 12.367064  55.69638 12.424254  55.72223       12.394314
+      66             5 12.367064  55.69638 12.424254  55.72223       12.394314
       67             6 12.382931  55.70845 12.428213  55.73887       12.405675
       68             4 12.263027  55.74008 12.336581  55.76439       12.321131
       69             4 12.354839  55.72733 12.405998  55.76181       12.382704
@@ -10545,9 +10545,9 @@
       99            12 12.383124  55.66128 12.407013  55.67720       12.394600
       100            6 12.388829  55.65750 12.425168  55.67636       12.408488
       101           10 12.367115  55.65965 12.390711  55.67397       12.379480
-      102            8 12.384245  55.68525 12.430941  55.71016       12.411217
-      103            8 12.394903  55.67349 12.432520  55.69155       12.419330
-      104            6 12.412882  55.70676 12.460113  55.73345       12.439827
+      102            9 12.384245  55.68525 12.430941  55.71016       12.411217
+      103            9 12.394903  55.67349 12.432520  55.69155       12.419330
+      104            7 12.412882  55.70677 12.460113  55.73345       12.439838
       105            5 12.398738  55.72435 12.451602  55.74288       12.422122
       106            4 12.392091  55.73719 12.448339  55.75990       12.427170
       107           10 12.309073  55.66856 12.398680  55.71188       12.362390
@@ -10588,7 +10588,7 @@
       142            5 12.447633  55.67104 12.475963  55.69239       12.465958
       143            5 12.442338  55.66953 12.460005  55.67826       12.449956
       144            7 12.422804  55.66856 12.460659  55.69248       12.440855
-      145            9 12.425908  55.68820 12.455210  55.71565       12.441047
+      145           10 12.425908  55.68820 12.455210  55.71565       12.441047
       146            4 12.446594  55.66461 12.460512  55.67149       12.451650
       147            8 12.208891  55.60871 12.334243  55.64063       12.307487
       148            4 12.321837  55.60654 12.351399  55.62341       12.336710
@@ -10747,9 +10747,9 @@
       301            3 11.583582  55.85930 11.671234  55.89826       11.629973
       302            4 11.719600  55.69440 11.794578  55.73438       11.756611
       303            5 11.644378  55.67363 11.729107  55.72144       11.692492
-      304            5 11.701001  55.70509 11.730609  55.72388       11.715249
+      304            6 11.571097  55.67445 11.678223  55.77588       11.617609
       305            4 11.662813  55.62602 11.813863  55.71163       11.735808
-      306            4 11.571097  55.67445 11.678223  55.77588       11.617609
+      306            5 11.701001  55.70509 11.730609  55.72388       11.715249
       307            4 11.638871  55.72953 11.773868  55.79851       11.700281
       308            4 11.673549  55.57345 11.822824  55.65730       11.727979
       309            5 11.661016  55.50500 11.860795  55.60679       11.783667
@@ -10931,7 +10931,7 @@
       485            4  9.715545  55.39548  9.917277  55.47619        9.859251
       486            5  9.843260  55.46554  9.954468  55.51579        9.890614
       487            4  9.687091  55.34861  9.975024  55.45895        9.894828
-      488            6  9.872433  55.33836 10.005871  55.44041        9.963840
+      488            7  9.872433  55.33836 10.005871  55.44041        9.963840
       489            4  9.904224  55.44026 10.042848  55.53096        9.981990
       490            7  9.972634  55.42103 10.091966  55.48458       10.029583
       491            2 15.171989  55.31682 15.199141  55.33081       15.189028
@@ -10940,12 +10940,12 @@
       494            4  9.940285  55.26091 10.056877  55.32827        9.992472
       495            6  9.765491  55.27602 10.026152  55.36386        9.948413
       496            5  9.922868  55.34083 10.082254  55.39207       10.016112
-      497            7  9.985885  55.38470 10.095906  55.43352       10.030930
+      497            8  9.985885  55.38470 10.095906  55.43352       10.030930
       498            7 10.014124  55.29608 10.159083  55.38405       10.099993
       499            6 10.006415  55.26411 10.132150  55.32981       10.049577
       500            6 10.010337  55.22058 10.108068  55.28700       10.065135
       501            6 10.092909  55.23997 10.176927  55.30541       10.143697
-      502            7 10.063305  55.35671 10.206573  55.43076       10.134900
+      502            8 10.063305  55.35671 10.206573  55.43076       10.134900
       503            7  9.980775  55.17588 10.086419  55.23121       10.039498
       504            7 10.047800  55.17477 10.192552  55.24937       10.128954
       505            7 10.119183  55.15932 10.225531  55.22437       10.180079
@@ -11010,7 +11010,7 @@
       564            2 10.314366  55.40266 10.363099  55.42386       10.334786
       565            4 10.268946  55.38251 10.341061  55.42955       10.308971
       566            5 10.217263  55.41006 10.319935  55.44531       10.265202
-      567            6 10.175540  55.35009 10.321650  55.41973       10.239802
+      567            7 10.175540  55.35009 10.321650  55.41973       10.239802
       568            2 10.342500  55.37640 10.397216  55.39737       10.365477
       569            2 10.369416  55.36799 10.397692  55.38854       10.385469
       570            2 10.394326  55.34920 10.482289  55.38736       10.444116
@@ -11061,8 +11061,8 @@
       615            2 10.318451  54.81574 10.466372  54.91531       10.399500
       616            2 10.201543  54.87630 10.344710  54.97185       10.298105
       617            7  9.463518  55.24714  9.522799  55.28873        9.490236
-      618            9  9.437195  55.21000  9.522955  55.25095        9.481712
-      619            4  9.403641  55.22587  9.483566  55.27438        9.438633
+      618           10  9.372147  55.18423  9.476821  55.23057        9.429988
+      619            5  9.252610  55.14958  9.397546  55.21896        9.343822
       620            4  9.379160  55.27013  9.526259  55.35026        9.446081
       621            5  9.505516  55.29127  9.650907  55.35812        9.609377
       622            4  9.503488  55.24861  9.672297  55.31414        9.548723
@@ -11071,9 +11071,9 @@
       625            5  9.505497  55.20921  9.616766  55.25481        9.543538
       626            5  9.469845  55.15492  9.626092  55.22977        9.535274
       627            5  9.372643  55.12553  9.521169  55.20916        9.449242
-      628            3  9.372147  55.18423  9.476821  55.23057        9.429988
+      628            4  9.437195  55.21000  9.522955  55.25095        9.481712
       629            4  9.300157  55.21319  9.423991  55.28259        9.373647
-      630            5  9.252610  55.14958  9.397546  55.21896        9.343822
+      630            6  9.403641  55.22587  9.483566  55.27438        9.438633
       631            5  9.103321  55.13093  9.296913  55.23288        9.207883
       632            4  9.189735  55.21069  9.319814  55.26633        9.248695
       633            4  9.243260  55.23273  9.381015  55.29399        9.303116
@@ -11195,11 +11195,11 @@
       749            4  9.029329  55.42960  9.130531  55.50950        9.081659
       750            4  9.150650  55.44018  9.303602  55.52708        9.221091
       751            3  9.136487  55.48505  9.274929  55.56400        9.197033
-      752            4  9.084828  55.53224  9.279778  55.61903        9.165625
+      752            5  9.084828  55.53224  9.279778  55.61903        9.165625
       753            6  9.256526  55.08562  9.408248  55.16810        9.333753
       754            7  9.112290  55.03743  9.240937  55.10820        9.187993
       755            8  9.218195  55.03723  9.372835  55.13944        9.291266
-      756            7  9.382327  55.04110  9.573964  55.15399        9.485537
+      756            8  9.382327  55.04110  9.573964  55.15399        9.485537
       757            7  9.192482  55.00503  9.386222  55.05315        9.291591
       758            7  9.069649  54.97646  9.221685  55.05737        9.139455
       759            9  9.164846  54.92938  9.370251  55.02945        9.251718
@@ -11240,7 +11240,7 @@
       794            6  9.683551  55.92978  9.834048  56.01962        9.751295
       795            6  9.790721  55.91555  9.946244  55.97341        9.850695
       796            5  9.879847  55.89456 10.036545  55.99325        9.983670
-      797           10  9.941968  55.86000 10.049466  55.95030        9.985887
+      797           11  9.941968  55.86000 10.049466  55.95030        9.985887
       798            5  9.605242  55.93609  9.704446  56.00564        9.661586
       799            5  9.877539  55.86594  9.892813  55.87913        9.886065
       800            6  9.878740  55.80158  9.960538  55.83696        9.910726
@@ -11264,35 +11264,35 @@
       818            5  9.665673  55.60853  9.750489  55.66686        9.712077
       819            9  9.487785  55.57819  9.631550  55.66313        9.560146
       820           10  9.342276  55.61282  9.456739  55.68881        9.387147
-      821            8  9.184780  55.56686  9.386244  55.67190        9.289363
+      821           10  9.184780  55.56686  9.386244  55.67190        9.289363
       822            7  9.408822  55.63050  9.485050  55.69253        9.447962
       823           15  9.367942  55.57039  9.498418  55.63596        9.425608
-      824            7  9.429224  55.67071  9.547906  55.72244        9.463582
+      824            8  9.429224  55.67071  9.547906  55.72244        9.463582
       825            6  9.451508  55.63228  9.562488  55.69359        9.509103
       826            6  9.537353  55.63775  9.611286  55.69357        9.576322
       827            4  9.531296  55.68631  9.609235  55.70331        9.547524
       828            5  9.515719  55.66520  9.553753  55.69180        9.532601
       829            4  9.497924  55.68203  9.541075  55.70013        9.519092
       830            5  9.535791  55.70069  9.566926  55.71393        9.549509
-      831            5  9.401863  55.68709  9.499125  55.72776        9.445888
-      832            7  9.069858  55.78569  9.299186  55.90247        9.180349
-      833            4  9.149902  55.86686  9.391685  55.95672        9.263034
+      831            6  9.401863  55.68709  9.499125  55.72776        9.445888
+      832            8  9.069858  55.78569  9.299186  55.90247        9.180349
+      833            5  9.149902  55.86686  9.391685  55.95672        9.263034
       834            7  9.242771  55.73262  9.375779  55.79985        9.307135
       835            6  9.273291  55.78506  9.398012  55.85435        9.328892
       836            5  9.054747  55.74856  9.215900  55.84464        9.123669
       837           10  9.154404  55.72110  9.270954  55.80616        9.237154
       838            4  9.283451  55.83123  9.460888  55.92023        9.391115
       839            8  9.346247  55.72292  9.504560  55.80187        9.416709
-      840            8  9.385259  55.76226  9.518366  55.84737        9.469424
-      841           12  9.491330  55.75153  9.598954  55.79600        9.541524
-      842            4  9.279858  55.64834  9.430692  55.73835        9.368155
-      843            6  9.229253  55.66010  9.375084  55.76044        9.297503
-      844            7  9.148749  55.62617  9.292630  55.73452        9.212848
+      840            9  9.385259  55.76226  9.518366  55.84737        9.469424
+      841           14  9.491330  55.75153  9.598954  55.79600        9.541524
+      842            5  9.279858  55.64834  9.430692  55.73835        9.368155
+      843            7  9.229253  55.66010  9.375084  55.76044        9.297503
+      844            8  9.148749  55.62617  9.292630  55.73452        9.212848
       845            6  9.537013  55.70434  9.623235  55.76432        9.571822
       846            4  9.596297  55.70738  9.686739  55.75989        9.652378
       847            4  9.575456  55.70377  9.630508  55.73605        9.606481
       848            6  9.522104  55.71597  9.547416  55.75782        9.533056
-      849            8  9.444627  55.71371  9.531476  55.75923        9.495354
+      849            9  9.444627  55.71371  9.531476  55.75923        9.495354
       850            8  8.923452  56.11236  9.011871  56.16396        8.966541
       851           10  8.912190  55.98279  9.132343  56.04929        8.997483
       852            5  8.744612  55.97412  8.938863  56.06822        8.848917
@@ -11362,7 +11362,7 @@
       916            6 10.267695  56.43235 10.479993  56.49479       10.387020
       917            6 10.260857  56.38312 10.548564  56.46028       10.356862
       918            4 10.400969  56.43956 10.587510  56.52965       10.503330
-      919            5  9.964034  56.31927 10.096022  56.39161       10.052644
+      919            6  9.964034  56.31927 10.096022  56.39161       10.052644
       920            2  9.939216  56.29456 10.074049  56.36780        9.992797
       921            4 10.058026  56.27886 10.198805  56.35493       10.115444
       922            2  9.831089  56.22497  9.974834  56.32098        9.932992
@@ -11372,7 +11372,7 @@
       926            4  9.934480  56.22448 10.072317  56.28001        9.994083
       927            5  9.687796  56.33034  9.873496  56.45082        9.773772
       928            6  9.659714  56.25692  9.903900  56.34418        9.821417
-      929            4  9.818450  56.30447  9.966148  56.39482        9.897941
+      929            5  9.818450  56.30447  9.966148  56.39482        9.897941
       930            4 10.064775  56.21586 10.129646  56.25633       10.097525
       931            7 10.082956  56.33724 10.243262  56.39395       10.161740
       932            3  9.910859  56.20522 10.034629  56.25195        9.970494
@@ -11383,12 +11383,12 @@
       937            2 10.172229  55.89423 10.289042  55.94092       10.225842
       938            2 10.123204  55.83577 10.245714  55.92409       10.163553
       939            2 10.080656  55.86564 10.181316  55.94496       10.125956
-      940            4 10.015034  55.87805 10.097854  55.95780       10.054399
+      940            5 10.015034  55.87805 10.097854  55.95780       10.054399
       941            1 10.030396  55.84193 10.126799  55.86995       10.067453
       942            1 10.355028  55.94303 10.464073  55.96158       10.435448
       943            6  9.797226  56.37897  9.930617  56.41989        9.883582
       944            6  9.838682  56.40975  9.980012  56.45107        9.880940
-      945            7  9.909430  56.36928 10.027878  56.43118        9.975020
+      945            8  9.909430  56.36928 10.027878  56.43118        9.975020
       946            6 10.118074  56.61539 10.358036  56.71541       10.255838
       947            8 10.148782  56.58378 10.363775  56.68240       10.248853
       948            6 10.145906  56.53037 10.260408  56.60924       10.205361
@@ -11545,7 +11545,7 @@
       1099           4  9.889715  55.72370  9.999529  55.80478        9.941169
       1100           4  9.910758  55.77131 10.102431  55.84464        9.984152
       1101           3  9.563080  55.82521  9.695077  55.92521        9.640744
-      1102          11  9.513549  55.77214  9.615478  55.83307        9.563160
+      1102          12  9.513549  55.77214  9.615478  55.83307        9.563160
       1103           4  9.439937  55.83180  9.558025  55.88831        9.489734
       1104           5  9.530956  55.82565  9.614504  55.86784        9.573790
       1105           8  9.385731  55.86135  9.619937  55.92415        9.537124
@@ -11558,7 +11558,7 @@
       1112           1  8.873596  56.55018  9.056460  56.62257        8.916314
       1113           1  8.977275  56.56262  9.058706  56.61700        9.022966
       1114           1  8.981282  56.51563  9.061017  56.56430        9.019024
-      1115           2  9.030763  56.51633  9.192017  56.61785        9.130359
+      1115           3  9.030763  56.51633  9.192017  56.61785        9.130359
       1116           1  9.103321  56.52454  9.296043  56.66449        9.219805
       1117           1  8.851128  56.48911  9.006878  56.56616        8.923882
       1118           1  8.921915  56.56207  9.024014  56.63994        8.977684
@@ -11595,7 +11595,7 @@
       1149           7  9.042353  56.21833  9.263736  56.37015        9.157998
       1150           6  9.196167  56.46729  9.436062  56.57253        9.302477
       1151           6  9.075396  56.38042  9.266482  56.49876        9.180546
-      1152           6  9.032521  56.45865  9.218815  56.53611        9.139030
+      1152           7  9.032521  56.45865  9.218815  56.53611        9.139030
       1153           7  8.971688  56.36477  9.123539  56.52584        9.028594
       1154          10  9.250270  56.39892  9.431734  56.49943        9.367398
       1155           7  9.544813  56.30611  9.774046  56.45165        9.647427
@@ -11649,17 +11649,17 @@
       1203           3  9.203141  56.83040  9.348720  56.90227        9.255293
       1204           6  9.548171  56.79488  9.660553  56.89537        9.595553
       1205           2 10.853633  57.17081 11.202740  57.36572       11.008011
-      1206           3  9.738870  56.80643  9.879305  56.92323        9.805919
+      1206           4  9.738870  56.80643  9.879305  56.92323        9.805919
       1207           3  9.815694  56.79748  9.984509  56.90733        9.906908
       1208           3  9.899518  56.78925 10.104539  56.86907        9.979610
       1209           5  9.612154  56.78861  9.815061  56.88506        9.706208
       1210           6  9.517105  56.65095  9.751524  56.80330        9.676460
       1211           3  9.600844  56.73909  9.711131  56.80345        9.660023
-      1212           3  9.708476  56.89413  9.837824  56.97155        9.775167
+      1212           4  9.708476  56.89413  9.837824  56.97155        9.775167
       1213           3 10.044706  56.75384 10.230677  56.87312       10.128000
       1214           3  9.690525  56.71721  9.813449  56.79633        9.736524
       1215           3  9.960767  56.79216 10.132153  56.91192       10.012849
-      1216           3  9.574379  56.86244  9.747443  56.92673        9.684805
+      1216           4  9.574379  56.86244  9.747443  56.92673        9.684805
       1217           4 10.036782  56.64546 10.197616  56.70577       10.118370
       1218           6  9.867422  56.56994 10.134205  56.68315       10.027675
       1219           4  9.837262  56.73775 10.058585  56.80436        9.890992
@@ -11722,7 +11722,7 @@
       1276           4 10.036176  56.99724 10.257790  57.11791       10.163111
       1277           4 10.199769  56.95137 10.389516  57.09106       10.285127
       1278           4 10.217489  57.04359 10.336659  57.11073       10.281431
-      1279           7  9.503953  56.87676  9.731984  57.01291        9.659909
+      1279           8  9.503953  56.87676  9.731984  57.01291        9.659909
       1280           5  9.390076  56.91708  9.613638  57.02635        9.477665
       1281           6 10.055726  56.86898 10.181932  56.94246       10.120437
       1282           4 10.137087  56.81008 10.308293  56.98802       10.214819
@@ -12052,9 +12052,9 @@
       301         55.88114
       302         55.70990
       303         55.70079
-      304         55.71571
+      304         55.72927
       305         55.66614
-      306         55.72927
+      306         55.71571
       307         55.75894
       308         55.60800
       309         55.56911
@@ -12366,8 +12366,8 @@
       615         54.85589
       616         54.90727
       617         55.26490
-      618         55.23274
-      619         55.25507
+      618         55.21275
+      619         55.18841
       620         55.29395
       621         55.33332
       622         55.27248
@@ -12376,9 +12376,9 @@
       625         55.23107
       626         55.19338
       627         55.17119
-      628         55.21275
+      628         55.23274
       629         55.23979
-      630         55.18841
+      630         55.25507
       631         55.19830
       632         55.23532
       633         55.26620
@@ -13162,18 +13162,18 @@
                 regionsnavn                   ændret               geo_ændret
       1  Region Hovedstaden 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
       2  Region Hovedstaden 2024-01-16T22:03:35.709Z 2024-01-16T22:03:35.709Z
-      3  Region Hovedstaden 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
+      3  Region Hovedstaden 2025-01-01T22:02:15.652Z 2025-01-01T22:02:15.652Z
       4  Region Hovedstaden 2024-01-10T22:10:55.667Z 2024-01-10T22:10:55.667Z
       5  Region Hovedstaden 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
       6  Region Hovedstaden 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
       7  Region Hovedstaden 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
-      8  Region Hovedstaden 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
-      9  Region Hovedstaden 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
+      8  Region Hovedstaden 2025-01-01T22:02:15.652Z 2025-01-01T22:02:15.652Z
+      9  Region Hovedstaden 2025-01-01T22:02:15.652Z 2025-01-01T22:02:15.652Z
       10 Region Hovedstaden 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
       11 Region Hovedstaden 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
       12 Region Hovedstaden 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
       13 Region Hovedstaden 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
-      14 Region Hovedstaden 2024-01-23T22:04:07.687Z 2024-01-23T22:04:07.687Z
+      14 Region Hovedstaden 2025-01-01T22:02:15.652Z 2025-01-01T22:02:15.652Z
       15 Region Hovedstaden 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
       16 Region Hovedstaden 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
       17 Region Hovedstaden 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
@@ -13206,13 +13206,13 @@
       44    Region Sjælland 2024-10-22T21:04:04.354Z 2024-10-22T21:04:04.354Z
       45    Region Sjælland 2024-01-16T22:03:35.709Z 2024-01-16T22:03:35.709Z
       46 Region Hovedstaden 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
-      47  Region Syddanmark 2024-01-19T22:03:58.050Z 2024-01-19T22:03:58.050Z
+      47  Region Syddanmark 2025-01-01T22:02:15.652Z 2025-01-01T22:02:15.652Z
       48 Region Hovedstaden 2018-08-28T21:13:21.723Z 2018-08-28T21:13:21.723Z
-      49  Region Syddanmark 2024-01-23T22:04:07.687Z 2024-01-23T22:04:07.687Z
+      49  Region Syddanmark 2025-01-01T22:02:15.652Z 2025-01-01T22:02:15.652Z
       50  Region Syddanmark 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
       51  Region Syddanmark 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
       52  Region Syddanmark 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
-      53  Region Syddanmark 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
+      53  Region Syddanmark 2025-01-01T22:02:15.652Z 2025-01-01T22:02:15.652Z
       54  Region Syddanmark 2024-01-19T22:03:58.050Z 2024-01-19T22:03:58.050Z
       55  Region Syddanmark 2024-01-19T22:03:58.050Z 2024-01-19T22:03:58.050Z
       56  Region Syddanmark 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
@@ -13224,56 +13224,56 @@
       62  Region Syddanmark 2024-01-10T22:10:55.667Z 2024-01-10T22:10:55.667Z
       63  Region Syddanmark 2018-04-30T15:23:13.528Z 2014-11-04T15:16:59.935Z
       64  Region Syddanmark 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
-      65  Region Syddanmark 2024-01-10T22:10:55.667Z 2024-01-10T22:10:55.667Z
+      65  Region Syddanmark 2025-01-01T22:02:15.652Z 2025-01-01T22:02:15.652Z
       66  Region Syddanmark 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
       67  Region Syddanmark 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
-      68 Region Midtjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
+      68 Region Midtjylland 2025-01-01T22:02:15.652Z 2025-01-01T22:02:15.652Z
       69  Region Syddanmark 2024-01-30T22:08:47.445Z 2024-01-30T22:08:47.445Z
-      70  Region Syddanmark 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
+      70  Region Syddanmark 2025-01-01T22:02:15.652Z 2025-01-01T22:02:15.652Z
       71 Region Midtjylland 2024-01-26T22:04:04.599Z 2024-01-26T22:04:04.599Z
       72 Region Midtjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
       73 Region Midtjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
       74 Region Midtjylland 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
       75 Region Midtjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
       76 Region Midtjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
-      77 Region Midtjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
-      78 Region Midtjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
-      79 Region Midtjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
+      77 Region Midtjylland 2025-01-01T22:02:15.652Z 2025-01-01T22:02:15.652Z
+      78 Region Midtjylland 2025-01-01T22:02:15.652Z 2025-01-01T22:02:15.652Z
+      79 Region Midtjylland 2025-01-01T22:02:15.652Z 2025-01-01T22:02:15.652Z
       80 Region Midtjylland 2024-01-23T22:04:07.687Z 2024-01-23T22:04:07.687Z
       81 Region Midtjylland 2018-04-30T15:23:13.528Z 2016-08-11T22:11:04.361Z
       82 Region Midtjylland 2024-12-09T22:03:11.287Z 2024-12-09T22:03:11.287Z
       83 Region Midtjylland 2024-11-29T22:03:07.187Z 2024-11-29T22:03:07.187Z
       84 Region Midtjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
       85 Region Midtjylland 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
-      86 Region Midtjylland 2024-02-05T22:01:25.064Z 2024-02-05T22:01:25.064Z
+      86 Region Midtjylland 2025-01-01T22:02:15.652Z 2025-01-01T22:02:15.652Z
       87 Region Nordjylland 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
-      88 Region Midtjylland 2024-10-11T21:03:05.131Z 2024-10-11T21:03:05.131Z
+      88 Region Midtjylland 2025-01-01T22:02:15.652Z 2025-01-01T22:02:15.652Z
       89 Region Nordjylland 2024-01-26T22:04:04.599Z 2024-01-26T22:04:04.599Z
-      90 Region Midtjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
+      90 Region Midtjylland 2025-01-01T22:02:15.652Z 2025-01-01T22:02:15.652Z
       91 Region Nordjylland 2024-01-19T22:03:58.050Z 2024-01-19T22:03:58.050Z
       92 Region Nordjylland 2024-01-19T22:03:58.050Z 2024-01-19T22:03:58.050Z
       93 Region Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
       94 Region Nordjylland 2018-08-28T21:13:21.723Z 2018-08-28T21:13:21.723Z
-      95 Region Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
+      95 Region Nordjylland 2025-01-01T22:02:15.652Z 2025-01-01T22:02:15.652Z
       96 Region Nordjylland 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z
       97 Region Nordjylland 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z
-      98 Region Nordjylland 2024-12-11T22:03:17.839Z 2024-12-11T22:03:17.839Z
+      98 Region Nordjylland 2025-01-01T22:02:15.652Z 2025-01-01T22:02:15.652Z
       99 Region Nordjylland 2024-01-19T22:03:58.050Z 2024-01-19T22:03:58.050Z
          geo_version bbox_xmin bbox_ymin bbox_xmax bbox_ymax visueltcenter_x
       1           21 12.444411  55.60647 12.736586  55.73588       12.493909
       2            7 12.490279  55.66557 12.558735  55.69897       12.523733
-      3            7 12.259589  55.69631 12.430162  55.76439       12.368516
+      3            8 12.259589  55.69631 12.430162  55.76439       12.368516
       4            7 12.359173  55.60626 12.461969  55.67369       12.404382
       5            3 12.553622  55.53632 12.718328  55.61098       12.650228
       6            7 12.496208  55.72128 12.607258  55.78205       12.550720
       7            5 12.412688  55.71507 12.525682  55.77743       12.476203
-      8           10 12.367012  55.65733 12.434125  55.71057       12.409234
-      9            4 12.389486  55.70676 12.462399  55.75990       12.425817
+      8           11 12.367012  55.65733 12.434125  55.71057       12.409234
+      9            5 12.389487  55.70677 12.462399  55.75990       12.425817
       10          10 12.306709  55.64055 12.398680  55.71188       12.352320
       11           6 12.422340  55.59723 12.510124  55.66750       12.468534
       12           5 12.145272  55.60097 12.352465  55.71114       12.257832
       13           7 12.412005  55.75671 12.598891  55.81406       12.511274
-      14           6 12.422463  55.66409 12.482673  55.71569       12.448662
+      14           7 12.422463  55.66409 12.482673  55.71569       12.448662
       15           7 12.207765  55.59303 12.403545  55.64120       12.334461
       16           7 12.505768  55.56413 12.829432  55.68026       12.551281
       17           3 12.338712  55.60935 12.408682  55.65683       12.365717
@@ -13306,13 +13306,13 @@
       44           3 11.518389  54.55467 12.175868  54.97797       11.961873
       45           7 11.603971  54.86839 12.568522  55.16240       11.973794
       46           4 14.668214  54.98372 15.187727  55.30220       14.883675
-      47           6  9.656119  55.33764 10.093883  55.55587        9.907862
+      47           7  9.656119  55.33764 10.093883  55.55587        9.907862
       48           1 15.171989  55.31682 15.199141  55.33081       15.189028
-      49           5  9.762515  55.11801 10.297717  55.43509       10.041207
+      49           6  9.762515  55.11801 10.297717  55.43509       10.037172
       50          10 10.056464  55.00006 10.666746  55.34823       10.366047
       51           3 10.475017  55.32023 10.805388  55.62193       10.571204
       52           3 10.528597  55.17105 10.862201  55.42672       10.678198
-      53           8 10.173702  55.28490 10.582207  55.48396       10.298485
+      53           9 10.173702  55.28490 10.582207  55.48396       10.298485
       54           7 10.359536  54.93841 10.889796  55.22806       10.523267
       55           8  9.976905  55.40123 10.566861  55.64846       10.167788
       56           5 10.526018  54.71828 10.956591  55.17036       10.708714
@@ -13324,40 +13324,40 @@
       62          10  8.292417  55.21869  8.938998  55.59857        8.720948
       63           1  8.327577  55.33805  8.535026  55.47482        8.421049
       64           5  8.065758  55.47534  8.914783  55.85062        8.606227
-      65           7  8.761758  55.28910  9.304381  55.62773        9.050244
+      65           8  8.761758  55.28910  9.304381  55.62773        9.050244
       66           5  9.004937  54.79910  9.634218  55.16837        9.277053
       67           9  9.556754  55.50773  9.859819  55.62963        9.655169
-      68          16  9.459423  55.74087 10.373804  56.07069        9.799237
+      68          17  9.459423  55.74087 10.373804  56.07069        9.799237
       69          13  9.214398  55.30751  9.696384  55.63058        9.403976
-      70          22  9.054495  55.56518  9.756053  55.95680        9.368324
+      70          23  9.054495  55.56518  9.756053  55.95680        9.278657
       71          20  8.431278  55.87838  9.189631  56.41390        8.894163
       72          12  8.109089  56.22607  9.002688  56.56633        8.828456
       73          16  8.109333  56.34631  8.527174  56.71215        8.288727
       74           7  8.388037  56.38698  8.713027  56.69364        8.576056
       75          14 10.153221  56.09022 10.854457  56.45257       10.511269
       76           8 10.212281  56.28091 11.658486  56.75999       10.758491
-      77           9  9.658532  56.18512 10.245026  56.45097        9.917762
-      78           5 10.009895  55.83339 10.466396  56.02631       10.146012
-      79          10  9.774598  56.36615 10.364959  56.71800       10.089756
+      77          10  9.658532  56.18512 10.245026  56.45097        9.917762
+      78           6 10.009895  55.83339 10.466396  56.02631       10.146012
+      79          11  9.774598  56.36615 10.364959  56.71800       10.089756
       80           8  9.220867  55.99187  9.865396  56.37012        9.560594
       81           2 10.512070  55.76204 10.796509  56.00287       10.586118
       82           9  9.630682  55.95220 10.097069  56.21902        9.849076
       83          11  9.944940  55.99249 10.390981  56.33280       10.103605
       84          13  8.957317  55.82939  9.564576  56.27619        9.231095
       85          14  8.092887  55.77099  8.865425  56.26529        8.540724
-      86          15  9.383846  55.66668 10.104658  55.92590        9.822722
+      86          16  9.383846  55.66668 10.104658  55.92590        9.822722
       87           3  8.498513  56.66822  9.012292  56.98466        8.707843
-      88           5  8.672500  56.48878  9.297479  56.84630        8.913308
+      88           6  8.672500  56.48878  9.297479  56.84630        8.913308
       89           7  8.202766  56.66934  9.096269  57.15903        8.472871
-      90          14  8.971569  56.21609  9.798870  56.68427        9.549801
+      90          15  8.971569  56.21609  9.798870  56.68427        9.549801
       91           8  9.735609  57.06945 10.448834  57.34353       10.278219
       92          14 10.177233  57.16784 10.652457  57.75720       10.413739
       93          15  9.067890  56.63600  9.662933  57.03085        9.383750
       94           2 10.853633  57.17081 11.202740  57.36572       11.008011
-      95          11  9.517105  56.64719 10.233842  56.97248        9.760377
+      95          12  9.517105  56.64719 10.233842  56.97248        9.760377
       96          19  9.526280  56.54612 10.339753  56.86569        9.925576
       97           5  9.029866  57.00445  9.924241  57.35758        9.621991
-      98          10  9.389019  56.80925 10.394660  57.23315        9.997100
+      98          11  9.389019  56.80925 10.394660  57.23315        9.997100
       99           8  9.688909  57.30159 10.417179  57.62306       10.077907
          visueltcenter_y
       1         55.70409
@@ -13368,7 +13368,7 @@
       6         55.75098
       7         55.73987
       8         55.69596
-      9         55.74143
+      9         55.74142
       10        55.68497
       11        55.63137
       12        55.66696
@@ -13408,7 +13408,7 @@
       46        55.12789
       47        55.45747
       48        55.31982
-      49        55.30087
+      49        55.29205
       50        55.21254
       51        55.39108
       52        55.27681
@@ -13429,7 +13429,7 @@
       67        55.56444
       68        55.90695
       69        55.42633
-      70        55.74364
+      70        55.82355
       71        56.21557
       72        56.43000
       73        56.47239
@@ -13480,22 +13480,22 @@
       12  403213 1471                        Bornholms Politi
                            ændret               geo_ændret geo_version bbox_xmin
       1  2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z          31  9.029507
-      2  2024-11-29T22:03:07.187Z 2024-11-29T22:03:07.187Z          20  9.651496
+      2  2025-01-01T22:02:15.652Z 2025-01-01T22:02:15.652Z          21  9.651496
       3  2024-10-11T21:03:05.131Z 2024-10-11T21:03:05.131Z          35  8.071126
-      4  2024-12-09T22:03:11.287Z 2024-12-09T22:03:11.287Z          23  8.744429
-      5  2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z          13  8.065758
+      4  2025-01-01T22:02:15.652Z 2025-01-01T22:02:15.652Z          24  8.744429
+      5  2025-01-01T22:02:15.652Z 2025-01-01T22:02:15.652Z          14  8.065758
       6  2024-01-23T22:04:07.687Z 2024-01-23T22:04:07.687Z          14  9.646247
       7  2024-10-22T21:04:04.354Z 2024-10-22T21:04:04.354Z          18 10.909367
       8  2024-10-11T21:03:05.131Z 2024-10-11T21:03:05.131Z          22 10.845942
       9  2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z          17 11.641795
-      10 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z          18 12.144761
+      10 2025-01-01T22:02:15.652Z 2025-01-01T22:02:15.652Z          19 12.144761
       11 2024-10-04T21:02:54.978Z 2024-10-04T21:02:54.978Z          18 12.438249
       12 2023-03-24T22:28:38.837Z 2023-03-24T22:28:38.837Z           7 14.668214
          bbox_ymin bbox_xmax bbox_ymax visueltcenter_x visueltcenter_y
       1   56.53455  11.22599  57.76284       10.112820        57.30715
       2   55.74770  11.65849  56.76423       10.656381        56.38459
       3   55.77099   9.88373  57.15595        9.077020        56.24601
-      4   55.30203  10.37913  56.22038        9.277883        55.75836
+      4   55.30203  10.37913  56.22038        9.255433        55.75475
       5   54.79601  10.09808  55.84711        9.075210        55.15993
       6   54.71828  10.98005  55.65061       10.457141        55.23531
       7   54.54441  12.60710  55.60197       11.493873        55.35124

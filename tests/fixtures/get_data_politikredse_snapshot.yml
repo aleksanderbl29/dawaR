@@ -11,13 +11,13 @@ http_interactions:
       status_code: 200
       message: OK
     headers:
-      x-gravitee-client-identifier: 38beb9d21ed1371fa32420f02c924a9e066e36339500664c02f9a5b0f6a9fa58
+      x-gravitee-client-identifier: 948768a6f45dd39605267d52f6a113932f9da99bc9daeffbbcc2165499a39266
       content-type: application/json; charset=UTF-8
       cache-control: max-age=86400
       vary: Accept-Encoding
-      date: Tue, 24 Dec 2024 09:52:03 GMT
-      x-gravitee-transaction-id: 237d6b51-7c64-41ac-bd6b-517c6481acef
-      x-gravitee-request-id: 237d6b51-7c64-41ac-bd6b-517c6481acef
+      date: Wed, 15 Jan 2025 15:35:00 GMT
+      x-gravitee-transaction-id: 0725f15c-3366-46c8-a5f1-5c336636c852
+      x-gravitee-request-id: 0725f15c-3366-46c8-a5f1-5c336636c852
       content-encoding: gzip
     body:
       encoding: ''
@@ -41,9 +41,9 @@ http_interactions:
           "dagi_id": "403214",
           "kode": "1461",
           "navn": "Østjyllands Politi",
-          "ændret": "2024-11-29T22:03:07.187Z",
-          "geo_ændret": "2024-11-29T22:03:07.187Z",
-          "geo_version": 20,
+          "ændret": "2025-01-01T22:02:15.652Z",
+          "geo_ændret": "2025-01-01T22:02:15.652Z",
+          "geo_version": 21,
           "bbox_xmin": 9.65149577,
           "bbox_ymin": 55.74769587,
           "bbox_xmax": 11.65848576,
@@ -67,22 +67,22 @@ http_interactions:
           "dagi_id": "403215",
           "kode": "1463",
           "navn": "Sydøstjyllands Politi",
-          "ændret": "2024-12-09T22:03:11.287Z",
-          "geo_ændret": "2024-12-09T22:03:11.287Z",
-          "geo_version": 23,
+          "ændret": "2025-01-01T22:02:15.652Z",
+          "geo_ændret": "2025-01-01T22:02:15.652Z",
+          "geo_version": 24,
           "bbox_xmin": 8.74442934,
           "bbox_ymin": 55.30202819,
           "bbox_xmax": 10.37913063,
           "bbox_ymax": 56.22038391,
-          "visueltcenter_x": 9.2778825,
-          "visueltcenter_y": 55.75836248
+          "visueltcenter_x": 9.25543277,
+          "visueltcenter_y": 55.754748
         }, {
           "dagi_id": "403220",
           "kode": "1464",
           "navn": "Syd- og Sønderjyllands Politi",
-          "ændret": "2024-10-04T21:02:54.978Z",
-          "geo_ændret": "2024-10-04T21:02:54.978Z",
-          "geo_version": 13,
+          "ændret": "2025-01-01T22:02:15.652Z",
+          "geo_ændret": "2025-01-01T22:02:15.652Z",
+          "geo_version": 14,
           "bbox_xmin": 8.06575777,
           "bbox_ymin": 54.79601303,
           "bbox_xmax": 10.09808354,
@@ -145,9 +145,9 @@ http_interactions:
           "dagi_id": "403219",
           "kode": "1469",
           "navn": "Københavns Vestegns Politi",
-          "ændret": "2024-10-04T21:02:54.978Z",
-          "geo_ændret": "2024-10-04T21:02:54.978Z",
-          "geo_version": 18,
+          "ændret": "2025-01-01T22:02:15.652Z",
+          "geo_ændret": "2025-01-01T22:02:15.652Z",
+          "geo_version": 19,
           "bbox_xmin": 12.14476073,
           "bbox_ymin": 55.58994556,
           "bbox_xmax": 12.52568184,
@@ -182,5 +182,5 @@ http_interactions:
           "visueltcenter_y": 55.12789092
         }
         ]
-  recorded_at: 2024-12-24 09:52:03 GMT
+  recorded_at: 2025-01-15 15:35:00 GMT
   recorded_with: vcr/1.6.0, webmockr/1.0.0

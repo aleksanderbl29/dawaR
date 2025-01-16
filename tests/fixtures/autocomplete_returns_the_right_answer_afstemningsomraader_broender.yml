@@ -11,13 +11,13 @@ http_interactions:
       status_code: 200
       message: OK
     headers:
-      x-gravitee-client-identifier: 38beb9d21ed1371fa32420f02c924a9e066e36339500664c02f9a5b0f6a9fa58
+      x-gravitee-client-identifier: 948768a6f45dd39605267d52f6a113932f9da99bc9daeffbbcc2165499a39266
       content-type: application/json; charset=UTF-8
       cache-control: max-age=86400
       vary: Accept-Encoding
-      date: Tue, 24 Dec 2024 09:52:06 GMT
-      x-gravitee-transaction-id: 9c48d592-2c23-468c-88d5-922c23a68c9f
-      x-gravitee-request-id: 9c48d592-2c23-468c-88d5-922c23a68c9f
+      date: Wed, 15 Jan 2025 15:35:04 GMT
+      x-gravitee-transaction-id: bcf27b2a-a91f-4fc5-b27b-2aa91f4fc5a4
+      x-gravitee-request-id: bcf27b2a-a91f-4fc5-b27b-2aa91f4fc5a4
       content-encoding: gzip
     body:
       encoding: ''
@@ -85,7 +85,7 @@ http_interactions:
         }, {
           "tekst": "Ø. Brønderslev",
           "afstemningsområde": {
-            "ændret": "2024-05-16T21:01:20.858Z",
+            "ændret": "2025-01-14T22:03:26.490Z",
             "geo_version": 6,
             "geo_ændret": "2024-05-16T21:01:20.858Z",
             "bbox": [
@@ -103,14 +103,14 @@ http_interactions:
             "nummer": "50",
             "navn": "Ø. Brønderslev",
             "afstemningssted": {
-              "navn": "Østsidehallen",
+              "navn": "Samlingshuset",
               "adgangsadresse": {
-                "href": "https://api.dataforsyningen.dk/adgangsadresser/0a3f5099-52fb-32b8-e044-0003ba298018",
-                "id": "0a3f5099-52fb-32b8-e044-0003ba298018",
-                "adressebetegnelse": "Elmevej 122, 9700 Brønderslev",
+                "href": "https://api.dataforsyningen.dk/adgangsadresser/bdd77a9b-5e1b-4ff3-90e8-32ab232a6838",
+                "id": "bdd77a9b-5e1b-4ff3-90e8-32ab232a6838",
+                "adressebetegnelse": "Elmevej 124, 9700 Brønderslev",
                 "koordinater": [
-                  10.00500168,
-                  57.24728374
+                  10.00453584,
+                  57.24763792
                 ]
               }
             },
@@ -780,5 +780,5 @@ http_interactions:
           }
         }
         ]
-  recorded_at: 2024-12-24 09:52:06 GMT
+  recorded_at: 2025-01-15 15:35:05 GMT
   recorded_with: vcr/1.6.0, webmockr/1.0.0
