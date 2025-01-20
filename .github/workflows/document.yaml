@@ -31,6 +31,14 @@ jobs:
           use-public-rspm: true
           r-version: 'renv'
 
+      - name: Cache renv packages
+        uses: actions/cache@v4
+        with:
+          path: renv/library
+          key: ${{ runner.os }}-renv-document-${{ hashFiles('renv.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-renv-document-
+
       - name: Install dependencies
         uses: r-lib/actions/setup-r-dependencies@v2
         with:

@@ -38,6 +38,14 @@ jobs:
           http-user-agent: ${{ matrix.config.http-user-agent }}
           use-public-rspm: true
 
+      - name: Cache renv packages
+        uses: actions/cache@v4
+        with:
+          path: renv/library
+          key: ${{ runner.os }}-renv-${{ matrix.config.r }}-${{ hashFiles('renv.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-renv-${{ matrix.config.r }}-
+
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
           extra-packages: any::rcmdcheck
