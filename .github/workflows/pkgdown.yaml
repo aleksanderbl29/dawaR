@@ -28,6 +28,7 @@ jobs:
       group: pkgdown-${{ github.event_name != 'pull_request' || github.run_id }}
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+      RENV_PATHS_ROOT: ~/.local/share/renv
     permissions:
       contents: write
     steps:
@@ -39,6 +40,13 @@ jobs:
         with:
           use-public-rspm: true
           r-version: 'renv'
+
+      - name: Cache packages
+        uses: actions/cache@v4
+        with:
+          path: ${{ env.RENV_PATHS_ROOT }}
+          key: ${{ runner.os }}-renv-${{ hashFiles('**/renv.lock') }}
+          restore-keys: ${{ runner.os }}-renv-
 
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
