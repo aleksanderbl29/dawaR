@@ -11,12 +11,9 @@ permissions:
 
 jobs:
   create_pull_request:
-
     runs-on: ubuntu-24.04
-
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
-
     steps:
       - uses: actions/checkout@v4
         with:
@@ -28,9 +25,17 @@ jobs:
           git reset --hard main
 
       - name: Create Pull Request
+        id: cpr
         uses: peter-evans/create-pull-request@v7
         with:
           branch: update-universe-release
           commit-message: update universe release
           title: Update R-Universe release
           body: This PR is automatically created and pushes recent additions from the main branch to the r-universe release branch.
+
+      - name: Enable auto-merge
+        if: steps.cpr.outputs.pull-request-number
+        run: |
+          gh pr merge --auto --merge "${{ steps.cpr.outputs.pull-request-number }}"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
