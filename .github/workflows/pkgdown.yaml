@@ -54,6 +54,19 @@ jobs:
           extra-packages: any::pkgdown, local::.
           needs: website
 
+      - name: Cache R packages
+        uses: actions/cache@v4
+        with:
+          path: |
+            ${{ env.R_LIBS_USER }}
+            ~/.local/share/renv
+            ~/.cache/R
+            ~/.local/R
+          key: ${{ runner.os }}-r-pkgdown-${{ hashFiles('DESCRIPTION') }}-${{ hashFiles('**/renv.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-r-pkgdown-
+            ${{ runner.os }}-r-
+
       - name: Build site
         run: pkgdown::build_site_github_pages(new_process = FALSE, install = FALSE)
         shell: Rscript {0}

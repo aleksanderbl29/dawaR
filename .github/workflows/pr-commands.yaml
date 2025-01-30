@@ -34,6 +34,19 @@ jobs:
           extra-packages: any::roxygen2
           needs: pr-document
 
+      - name: Cache R packages
+        uses: actions/cache@v4
+        with:
+          path: |
+            ${{ env.R_LIBS_USER }}
+            ~/.local/share/renv
+            ~/.cache/R
+            ~/.local/R
+          key: ${{ runner.os }}-r-pr-commands-${{ hashFiles('DESCRIPTION') }}-${{ hashFiles('**/renv.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-r-pr-commands-
+            ${{ runner.os }}-r-
+
       - name: Document
         run: roxygen2::roxygenise()
         shell: Rscript {0}

@@ -50,6 +50,19 @@ jobs:
             roxygen2
             devtools
 
+      - name: Cache R packages
+        uses: actions/cache@v4
+        with:
+          path: |
+            ${{ env.R_LIBS_USER }}
+            ~/.local/share/renv
+            ~/.cache/R
+            ~/.local/R
+          key: ${{ runner.os }}-r-document-${{ hashFiles('DESCRIPTION') }}-${{ hashFiles('**/renv.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-r-document-
+            ${{ runner.os }}-r-
+
       - name: Document
         run: roxygen2::roxygenise()
         shell: Rscript {0}
