@@ -53,6 +53,19 @@ jobs:
           extra-packages: any::rcmdcheck
           needs: check
 
+      - name: Cache R packages
+        uses: actions/cache@v4
+        with:
+          path: |
+            ${{ env.R_LIBS_USER }}
+            ~/.local/share/renv
+            ~/.cache/R
+            ~/.local/R
+          key: ${{ runner.os }}-r-${{ matrix.config.r }}-real-${{ hashFiles('DESCRIPTION') }}-${{ hashFiles('**/renv.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-r-${{ matrix.config.r }}-real-
+            ${{ runner.os }}-r-
+
       - uses: r-lib/actions/check-r-package@v2
         with:
           upload-snapshots: true

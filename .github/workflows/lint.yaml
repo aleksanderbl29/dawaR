@@ -34,6 +34,19 @@ jobs:
           extra-packages: any::lintr, local::.
           needs: lint
 
+      - name: Cache R packages
+        uses: actions/cache@v4
+        with:
+          path: |
+            ${{ env.R_LIBS_USER }}
+            ~/.local/share/renv
+            ~/.cache/R
+            ~/.local/R
+          key: ${{ runner.os }}-r-lint-${{ hashFiles('DESCRIPTION') }}-${{ hashFiles('**/renv.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-r-lint-
+            ${{ runner.os }}-r-
+
       - name: Lint
         run: lintr::lint_package()
         shell: Rscript {0}
