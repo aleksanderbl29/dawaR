@@ -16,9 +16,9 @@ http_interactions:
       content-type: application/json; charset=UTF-8
       cache-control: max-age=86400
       vary: Accept-Encoding
-      date: Mon, 20 Jan 2025 08:52:19 GMT
-      x-gravitee-transaction-id: f97871d0-7095-44e6-b871-d07095a4e67f
-      x-gravitee-request-id: f97871d0-7095-44e6-b871-d07095a4e67f
+      date: Thu, 30 Jan 2025 23:49:05 GMT
+      x-gravitee-transaction-id: 7b254549-964e-49b5-a545-49964e29b5ad
+      x-gravitee-request-id: 7b254549-964e-49b5-a545-49964e29b5ad
       content-encoding: gzip
     body:
       encoding: ''
@@ -44,5 +44,5 @@ http_interactions:
           "nuts2": "DK01",
           "href": "https://api.dataforsyningen.dk/regioner/1084"
         }
-  recorded_at: 2025-01-20 08:52:19 GMT
+  recorded_at: 2025-01-30 23:49:05 GMT
   recorded_with: vcr/1.6.0, webmockr/1.0.0
