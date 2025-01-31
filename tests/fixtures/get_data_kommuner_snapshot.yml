@@ -16,9 +16,9 @@ http_interactions:
       content-type: application/json; charset=UTF-8
       cache-control: max-age=86400
       vary: Accept-Encoding
-      date: Mon, 20 Jan 2025 08:52:00 GMT
-      x-gravitee-transaction-id: 2013317a-7c00-4257-9331-7a7c00425704
-      x-gravitee-request-id: 2013317a-7c00-4257-9331-7a7c00425704
+      date: Thu, 30 Jan 2025 23:48:38 GMT
+      x-gravitee-transaction-id: 81386a7a-87f3-4f7e-b86a-7a87f35f7ea8
+      x-gravitee-request-id: 81386a7a-87f3-4f7e-b86a-7a87f35f7ea8
       content-encoding: gzip
     body:
       encoding: ''
@@ -1611,5 +1611,5 @@ http_interactions:
           "visueltcenter_y": 57.4684031
         }
         ]
-  recorded_at: 2025-01-20 08:52:00 GMT
+  recorded_at: 2025-01-30 23:48:38 GMT
   recorded_with: vcr/1.6.0, webmockr/1.0.0
