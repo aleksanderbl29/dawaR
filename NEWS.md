@@ -1,7 +1,8 @@
-# dawaR 0.2.8 (2025-02-13)
+# dawaR 0.3.0 (2025-02-13)
 
+* This is a small breaking change.
+* The package now needs at least 4.1.0 to function.
 * Remove native pipe placeholder usage to ensure R-version compatability.
-  * This does not change anything for the end user. The pipe placeholder syntax was used in a backend function that is not in use for any of the exported functions.
 
 # dawaR 0.2.7 (2024-12-07)
 
