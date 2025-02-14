@@ -1,10 +1,12 @@
-# dawaR 0.2.7.9000 (development version)
+# dawaR 0.3.0 (2025-02-13)
 
-* Remove native pipe placeholder usage to ensure R-version compatability
+* This is a small breaking change.
+* The package now needs at least 4.1.0 to function.
+* Remove native pipe placeholder usage to ensure R-version compatability.
 
 # dawaR 0.2.7 (2024-12-07)
 
-* Ensure cran checks does not fail
+* Ensure cran checks does not fail.
 
 # dawaR 0.2.6 (2024-11-23)
 

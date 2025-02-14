@@ -15,9 +15,9 @@ http_interactions:
       content-type: application/json; charset=UTF-8
       cache-control: max-age=86400
       vary: Accept-Encoding
-      date: Thu, 30 Jan 2025 23:49:06 GMT
-      x-gravitee-transaction-id: 55d76cc0-318c-4d9c-976c-c0318c8d9c39
-      x-gravitee-request-id: 55d76cc0-318c-4d9c-976c-c0318c8d9c39
+      date: Thu, 13 Feb 2025 20:31:42 GMT
+      x-gravitee-transaction-id: 957325b6-c424-4866-b325-b6c4249866f1
+      x-gravitee-request-id: 957325b6-c424-4866-b325-b6c4249866f1
       content-encoding: gzip
     body:
       encoding: ''
@@ -79,5 +79,5 @@ http_interactions:
             "navn": "Midtjylland-Nordjylland"
           }
         }
-  recorded_at: 2025-01-30 23:49:06 GMT
+  recorded_at: 2025-02-13 20:31:42 GMT
   recorded_with: vcr/1.6.0, webmockr/1.0.0

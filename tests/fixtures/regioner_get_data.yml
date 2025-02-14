@@ -16,9 +16,9 @@ http_interactions:
       content-type: application/json; charset=UTF-8
       cache-control: max-age=86400
       vary: Accept-Encoding
-      date: Thu, 30 Jan 2025 23:48:34 GMT
-      x-gravitee-transaction-id: bd987c98-fbc8-4b4b-987c-98fbc87b4bbf
-      x-gravitee-request-id: bd987c98-fbc8-4b4b-987c-98fbc87b4bbf
+      date: Thu, 13 Feb 2025 20:33:22 GMT
+      x-gravitee-transaction-id: cd94c919-a9ba-497a-94c9-19a9ba897a17
+      x-gravitee-request-id: cd94c919-a9ba-497a-94c9-19a9ba897a17
       content-encoding: gzip
     body:
       encoding: ''
@@ -44,15 +44,15 @@ http_interactions:
           "kode": "1082",
           "navn": "Region Midtjylland",
           "nuts2": "DK04",
-          "ændret": "2025-01-01T22:02:15.652Z",
-          "geo_ændret": "2025-01-01T22:02:15.652Z",
-          "geo_version": 44,
+          "ændret": "2025-02-04T22:02:46.244Z",
+          "geo_ændret": "2025-02-04T22:02:46.244Z",
+          "geo_version": 45,
           "bbox_xmin": 8.07887623,
           "bbox_ymin": 55.64437916,
           "bbox_xmax": 11.66419061,
           "bbox_ymax": 56.84325702,
-          "visueltcenter_x": 9.60503514,
-          "visueltcenter_y": 56.23399153
+          "visueltcenter_x": 9.60503157,
+          "visueltcenter_y": 56.23399042
         }, {
           "dagi_id": "389102",
           "kode": "1083",
@@ -97,5 +97,5 @@ http_interactions:
           "visueltcenter_y": 55.43978536
         }
         ]
-  recorded_at: 2025-01-30 23:48:34 GMT
+  recorded_at: 2025-02-13 20:33:22 GMT
   recorded_with: vcr/1.6.0, webmockr/1.0.0

@@ -16,9 +16,9 @@ http_interactions:
       content-type: application/json; charset=UTF-8
       cache-control: max-age=86400
       vary: Accept-Encoding
-      date: Thu, 30 Jan 2025 23:48:38 GMT
-      x-gravitee-transaction-id: 81386a7a-87f3-4f7e-b86a-7a87f35f7ea8
-      x-gravitee-request-id: 81386a7a-87f3-4f7e-b86a-7a87f35f7ea8
+      date: Thu, 13 Feb 2025 20:31:18 GMT
+      x-gravitee-transaction-id: d2263953-8d14-4587-a639-538d14f5874d
+      x-gravitee-request-id: d2263953-8d14-4587-a639-538d14f5874d
       content-encoding: gzip
     body:
       encoding: ''
@@ -1056,9 +1056,9 @@ http_interactions:
           "regionskode": "1083",
           "udenforkommuneinddeling": false,
           "regionsnavn": "Region Syddanmark",
-          "ændret": "2025-01-01T22:02:15.652Z",
-          "geo_ændret": "2025-01-01T22:02:15.652Z",
-          "geo_version": 8,
+          "ændret": "2025-02-04T22:02:46.244Z",
+          "geo_ændret": "2025-02-04T22:02:46.244Z",
+          "geo_version": 9,
           "bbox_xmin": 8.76175841,
           "bbox_ymin": 55.28909667,
           "bbox_xmax": 9.30438073,
@@ -1120,9 +1120,9 @@ http_interactions:
           "regionskode": "1083",
           "udenforkommuneinddeling": false,
           "regionsnavn": "Region Syddanmark",
-          "ændret": "2024-01-30T22:08:47.445Z",
-          "geo_ændret": "2024-01-30T22:08:47.445Z",
-          "geo_version": 13,
+          "ændret": "2025-02-04T22:02:46.244Z",
+          "geo_ændret": "2025-02-04T22:02:46.244Z",
+          "geo_version": 14,
           "bbox_xmin": 9.21439766,
           "bbox_ymin": 55.30750617,
           "bbox_xmax": 9.69638424,
@@ -1136,15 +1136,15 @@ http_interactions:
           "regionskode": "1083",
           "udenforkommuneinddeling": false,
           "regionsnavn": "Region Syddanmark",
-          "ændret": "2025-01-01T22:02:15.652Z",
-          "geo_ændret": "2025-01-01T22:02:15.652Z",
-          "geo_version": 23,
+          "ændret": "2025-02-04T22:02:46.244Z",
+          "geo_ændret": "2025-02-04T22:02:46.244Z",
+          "geo_version": 24,
           "bbox_xmin": 9.05449491,
           "bbox_ymin": 55.56517972,
           "bbox_xmax": 9.75605304,
           "bbox_ymax": 55.95679785,
-          "visueltcenter_x": 9.27865722,
-          "visueltcenter_y": 55.82354523
+          "visueltcenter_x": 9.36401747,
+          "visueltcenter_y": 55.69959549
         }, {
           "dagi_id": "389181",
           "kode": "0657",
@@ -1184,9 +1184,9 @@ http_interactions:
           "regionskode": "1082",
           "udenforkommuneinddeling": false,
           "regionsnavn": "Region Midtjylland",
-          "ændret": "2024-10-04T21:02:54.978Z",
-          "geo_ændret": "2024-10-04T21:02:54.978Z",
-          "geo_version": 16,
+          "ændret": "2025-02-04T22:02:46.244Z",
+          "geo_ændret": "2025-02-04T22:02:46.244Z",
+          "geo_version": 17,
           "bbox_xmin": 8.10933285,
           "bbox_ymin": 56.34631007,
           "bbox_xmax": 8.52717395,
@@ -1248,9 +1248,9 @@ http_interactions:
           "regionskode": "1082",
           "udenforkommuneinddeling": false,
           "regionsnavn": "Region Midtjylland",
-          "ændret": "2025-01-01T22:02:15.652Z",
-          "geo_ændret": "2025-01-01T22:02:15.652Z",
-          "geo_version": 10,
+          "ændret": "2025-02-11T22:03:01.550Z",
+          "geo_ændret": "2025-02-11T22:03:01.550Z",
+          "geo_version": 12,
           "bbox_xmin": 9.65853159,
           "bbox_ymin": 56.18511894,
           "bbox_xmax": 10.24502597,
@@ -1328,13 +1328,13 @@ http_interactions:
           "regionskode": "1082",
           "udenforkommuneinddeling": false,
           "regionsnavn": "Region Midtjylland",
-          "ændret": "2024-12-09T22:03:11.287Z",
-          "geo_ændret": "2024-12-09T22:03:11.287Z",
-          "geo_version": 9,
+          "ændret": "2025-02-11T22:03:01.550Z",
+          "geo_ændret": "2025-02-11T22:03:01.550Z",
+          "geo_version": 11,
           "bbox_xmin": 9.63068161,
           "bbox_ymin": 55.95220047,
-          "bbox_xmax": 10.09706899,
-          "bbox_ymax": 56.21901825,
+          "bbox_xmax": 10.0970481,
+          "bbox_ymax": 56.21828668,
           "visueltcenter_x": 9.84907585,
           "visueltcenter_y": 56.08709974
         }, {
@@ -1392,9 +1392,9 @@ http_interactions:
           "regionskode": "1082",
           "udenforkommuneinddeling": false,
           "regionsnavn": "Region Midtjylland",
-          "ændret": "2025-01-01T22:02:15.652Z",
-          "geo_ændret": "2025-01-01T22:02:15.652Z",
-          "geo_version": 16,
+          "ændret": "2025-02-04T22:02:46.244Z",
+          "geo_ændret": "2025-02-04T22:02:46.244Z",
+          "geo_version": 17,
           "bbox_xmin": 9.38384648,
           "bbox_ymin": 55.66667969,
           "bbox_xmax": 10.10465758,
@@ -1611,5 +1611,5 @@ http_interactions:
           "visueltcenter_y": 57.4684031
         }
         ]
-  recorded_at: 2025-01-30 23:48:38 GMT
+  recorded_at: 2025-02-13 20:31:18 GMT
   recorded_with: vcr/1.6.0, webmockr/1.0.0
