@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-      - cron:  '0 12 * * 1'
+      - cron: '17 13 5 * *'
 
 name: R-CMD-check with real requests
 
