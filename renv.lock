@@ -5557,14 +5557,14 @@
       "Roxygen": "list(markdown = TRUE)",
       "RoxygenNote": "7.2.3",
       "SystemRequirements": "Subversion for install_svn, git for install_git",
-      "Author": "Gábor Csárdi [aut, cre], Jim Hester [aut], Hadley Wickham [aut], Winston Chang [aut], Martin Morgan [aut], Dan Tenenbaum [aut], Posit Software, PBC [cph, fnd], Ascent Digital Services [cph]",
-      "Maintainer": "Gábor Csárdi <csardi.gabor@gmail.com>",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteRepo": "remotes",
       "RemoteUsername": "r-lib",
-      "RemotePkgRef": "r-lib/remotes",
-      "RemoteSha": "39a6a813bbbb3df2780280a3613bc4ecc31bc1fc"
+      "RemoteSha": "bcd35d5ce22d7565397dea1bcf3f1bba5fd96d3e",
+      "NeedsCompilation": "no",
+      "Author": "Gábor Csárdi [aut, cre], Jim Hester [aut], Hadley Wickham [aut], Winston Chang [aut], Martin Morgan [aut], Dan Tenenbaum [aut], Posit Software, PBC [cph, fnd], Ascent Digital Services [cph]",
+      "Maintainer": "Gábor Csárdi <csardi.gabor@gmail.com>"
     },
     "renv": {
       "Package": "renv",
