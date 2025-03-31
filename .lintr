@@ -1,6 +1,7 @@
 linters: linters_with_defaults(
   object_usage_linter = NULL,
-  cyclocomp_linter(complexity_limit = 17L))
+  cyclocomp_linter(complexity_limit = 17L),
+  return_linter = NULL)
 encoding: "UTF-8"
 exclusions: list(
   "R/status_check.R" = list(

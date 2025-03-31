@@ -11,13 +11,13 @@ http_interactions:
       status_code: 200
       message: OK
     headers:
-      x-gravitee-client-identifier: 948768a6f45dd39605267d52f6a113932f9da99bc9daeffbbcc2165499a39266
+      x-gravitee-client-identifier: 3d5c78aed2b561d089a652f9b0d5b8d38b580aea4591927650ad7f3e45bb966f
       content-type: application/json; charset=UTF-8
       cache-control: max-age=86400
       vary: Accept-Encoding
-      date: Thu, 13 Feb 2025 20:31:12 GMT
-      x-gravitee-transaction-id: 2c7ba44a-2d17-4886-bba4-4a2d17988649
-      x-gravitee-request-id: 2c7ba44a-2d17-4886-bba4-4a2d17988649
+      date: Wed, 26 Feb 2025 13:58:16 GMT
+      x-gravitee-transaction-id: b3ab4bf9-53e1-4a19-ab4b-f953e15a1950
+      x-gravitee-request-id: b3ab4bf9-53e1-4a19-ab4b-f953e15a1950
       content-encoding: gzip
     body:
       encoding: ''
@@ -26,5 +26,5 @@ http_interactions:
         [
 
         ]
-  recorded_at: 2025-02-13 20:31:12 GMT
-  recorded_with: vcr/1.6.0, webmockr/1.0.0
+  recorded_at: 2025-02-26 13:58:16 GMT
+  recorded_with: vcr/1.6.0, webmockr/2.0.0

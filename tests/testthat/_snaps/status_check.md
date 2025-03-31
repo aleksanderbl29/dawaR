@@ -3,26 +3,26 @@
     Code
       status_check()
     Message
-      x WMS - forvaltning2 and sdfekort.dk are not operational
+      x Adresser, Arkiv kort, Dataforsyningen.dk, FTPS, Gsearch, WMS - forvaltning2, and sdfekort.dk are not operational
 
 # Status check message prints properly in {cli} [ansi]
 
     Code
       status_check()
     Message
-      [31mx[39m WMS - forvaltning2 and sdfekort.dk are not operational
+      [31mx[39m Adresser, Arkiv kort, Dataforsyningen.dk, FTPS, Gsearch, WMS - forvaltning2, and sdfekort.dk are not operational
 
 # Status check message prints properly in {cli} [unicode]
 
     Code
       status_check()
     Message
-      ✖ WMS - forvaltning2 and sdfekort.dk are not operational
+      ✖ Adresser, Arkiv kort, Dataforsyningen.dk, FTPS, Gsearch, WMS - forvaltning2, and sdfekort.dk are not operational
 
 # Status check message prints properly in {cli} [fancy]
 
     Code
       status_check()
     Message
-      [31m✖[39m WMS - forvaltning2 and sdfekort.dk are not operational
+      [31m✖[39m Adresser, Arkiv kort, Dataforsyningen.dk, FTPS, Gsearch, WMS - forvaltning2, and sdfekort.dk are not operational
 
