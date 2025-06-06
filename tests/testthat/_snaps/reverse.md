@@ -244,13 +244,13 @@
       > Requesting `politikredse - reverse` from DAWA
     Output
       $ændret
-      [1] "2024-10-22T21:04:04.354Z"
+      [1] "2025-05-14T21:02:41.891Z"
       
       $geo_version
-      [1] 18
+      [1] 19
       
       $geo_ændret
-      [1] "2024-10-22T21:04:04.354Z"
+      [1] "2025-05-14T21:02:41.891Z"
       
       $bbox
       $bbox[[1]]

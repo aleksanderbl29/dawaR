@@ -11,14 +11,14 @@ http_interactions:
       status_code: 200
       message: OK
     headers:
-      x-gravitee-client-identifier: 3d5c78aed2b561d089a652f9b0d5b8d38b580aea4591927650ad7f3e45bb966f
+      x-gravitee-client-identifier: ba2fd62a350a38ea99d7226c07bf038267905ff3be49ab7bf917b0e45361b5a9
       access-control-allow-origin: '*'
       content-type: application/json; charset=UTF-8
       cache-control: max-age=86400
       vary: Accept-Encoding
-      date: Wed, 26 Feb 2025 14:06:52 GMT
-      x-gravitee-transaction-id: af9e75bd-1cb2-4102-9e75-bd1cb2f102db
-      x-gravitee-request-id: af9e75bd-1cb2-4102-9e75-bd1cb2f102db
+      date: Fri, 06 Jun 2025 13:39:21 GMT
+      x-gravitee-transaction-id: d713ec95-8b74-4980-93ec-958b749980ae
+      x-gravitee-request-id: d713ec95-8b74-4980-93ec-958b749980ae
       content-encoding: gzip
     body:
       encoding: ''
@@ -45,9 +45,9 @@ http_interactions:
           "nuts2": "DK05",
           "href": "https://api.dataforsyningen.dk/regioner/1081"
         }, {
-          "ændret": "2025-02-04T22:02:46.244Z",
-          "geo_version": 45,
-          "geo_ændret": "2025-02-04T22:02:46.244Z",
+          "ændret": "2025-05-14T21:02:41.891Z",
+          "geo_version": 46,
+          "geo_ændret": "2025-05-14T21:02:41.891Z",
           "bbox": [
             8.07887623,
             55.64437916,
@@ -64,9 +64,9 @@ http_interactions:
           "nuts2": "DK04",
           "href": "https://api.dataforsyningen.dk/regioner/1082"
         }, {
-          "ændret": "2025-01-01T22:02:15.652Z",
-          "geo_version": 33,
-          "geo_ændret": "2025-01-01T22:02:15.652Z",
+          "ændret": "2025-05-14T21:02:41.891Z",
+          "geo_version": 34,
+          "geo_ændret": "2025-05-14T21:02:41.891Z",
           "bbox": [
             8.06320315,
             54.71828064,
@@ -102,9 +102,9 @@ http_interactions:
           "nuts2": "DK01",
           "href": "https://api.dataforsyningen.dk/regioner/1084"
         }, {
-          "ændret": "2024-10-22T21:04:04.354Z",
-          "geo_version": 29,
-          "geo_ændret": "2024-10-22T21:04:04.354Z",
+          "ændret": "2025-05-14T21:02:41.891Z",
+          "geo_version": 30,
+          "geo_ændret": "2025-05-14T21:02:41.891Z",
           "bbox": [
             10.8148054,
             54.54440636,
@@ -122,5 +122,5 @@ http_interactions:
           "href": "https://api.dataforsyningen.dk/regioner/1085"
         }
         ]
-  recorded_at: 2025-02-26 14:06:52 GMT
-  recorded_with: vcr/1.6.0, webmockr/2.0.0
+  recorded_at: 2025-06-06 13:39:21 GMT
+  recorded_with: vcr/1.7.0, webmockr/2.0.0
