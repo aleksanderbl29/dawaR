@@ -11,22 +11,22 @@ http_interactions:
       status_code: 200
       message: OK
     headers:
-      x-gravitee-client-identifier: 3d5c78aed2b561d089a652f9b0d5b8d38b580aea4591927650ad7f3e45bb966f
+      x-gravitee-client-identifier: ba2fd62a350a38ea99d7226c07bf038267905ff3be49ab7bf917b0e45361b5a9
       content-type: application/json; charset=UTF-8
       cache-control: max-age=86400
       vary: Accept-Encoding
-      date: Wed, 26 Feb 2025 13:58:50 GMT
-      x-gravitee-transaction-id: 25b9fc55-ca32-42b6-b9fc-55ca3232b6f4
-      x-gravitee-request-id: 25b9fc55-ca32-42b6-b9fc-55ca3232b6f4
+      date: Fri, 06 Jun 2025 13:39:57 GMT
+      x-gravitee-transaction-id: 5a8b2436-8c04-44b8-8b24-368c0434b8af
+      x-gravitee-request-id: 5a8b2436-8c04-44b8-8b24-368c0434b8af
       content-encoding: gzip
     body:
       encoding: ''
       file: no
       string: |-
         {
-          "ændret": "2024-10-22T21:04:04.354Z",
-          "geo_version": 18,
-          "geo_ændret": "2024-10-22T21:04:04.354Z",
+          "ændret": "2025-05-14T21:02:41.891Z",
+          "geo_version": 19,
+          "geo_ændret": "2025-05-14T21:02:41.891Z",
           "bbox": [
             10.90936714,
             54.54440636,
@@ -42,5 +42,5 @@ http_interactions:
           "navn": "Sydsjællands og Lolland-Falsters Politi",
           "href": "https://api.dataforsyningen.dk/politikredse/1466"
         }
-  recorded_at: 2025-02-26 13:58:50 GMT
-  recorded_with: vcr/1.6.0, webmockr/2.0.0
+  recorded_at: 2025-06-06 13:39:57 GMT
+  recorded_with: vcr/1.7.0, webmockr/2.0.0
