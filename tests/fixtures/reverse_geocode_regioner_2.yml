@@ -11,14 +11,14 @@ http_interactions:
       status_code: 200
       message: OK
     headers:
-      x-gravitee-client-identifier: 3d5c78aed2b561d089a652f9b0d5b8d38b580aea4591927650ad7f3e45bb966f
+      x-gravitee-client-identifier: ba2fd62a350a38ea99d7226c07bf038267905ff3be49ab7bf917b0e45361b5a9
       access-control-allow-origin: '*'
       content-type: application/json; charset=UTF-8
       cache-control: max-age=86400
       vary: Accept-Encoding
-      date: Wed, 26 Feb 2025 13:58:49 GMT
-      x-gravitee-transaction-id: 9d55dc21-3f63-445e-95dc-213f63c45e5c
-      x-gravitee-request-id: 9d55dc21-3f63-445e-95dc-213f63c45e5c
+      date: Fri, 06 Jun 2025 13:39:56 GMT
+      x-gravitee-transaction-id: 6efa1ea2-d4f5-4272-ba1e-a2d4f542726d
+      x-gravitee-request-id: 6efa1ea2-d4f5-4272-ba1e-a2d4f542726d
       content-encoding: gzip
     body:
       encoding: ''
@@ -44,5 +44,5 @@ http_interactions:
           "nuts2": "DK05",
           "href": "https://api.dataforsyningen.dk/regioner/1081"
         }
-  recorded_at: 2025-02-26 13:58:49 GMT
-  recorded_with: vcr/1.6.0, webmockr/2.0.0
+  recorded_at: 2025-06-06 13:39:56 GMT
+  recorded_with: vcr/1.7.0, webmockr/2.0.0

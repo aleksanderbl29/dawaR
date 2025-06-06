@@ -11,14 +11,14 @@ http_interactions:
       status_code: 200
       message: OK
     headers:
-      x-gravitee-client-identifier: 8157a8dbd461af2990bb3503dd938dcedb12b2c0136d57fc1490608f93978fb6
+      x-gravitee-client-identifier: ba2fd62a350a38ea99d7226c07bf038267905ff3be49ab7bf917b0e45361b5a9
       access-control-allow-origin: '*'
       content-type: application/json; charset=UTF-8
       cache-control: max-age=86400
       vary: Accept-Encoding
-      date: Mon, 03 Mar 2025 08:29:02 GMT
-      x-gravitee-transaction-id: 9c42eb3d-533b-4c74-82eb-3d533b6c74eb
-      x-gravitee-request-id: 9c42eb3d-533b-4c74-82eb-3d533b6c74eb
+      date: Fri, 06 Jun 2025 13:52:52 GMT
+      x-gravitee-transaction-id: cb061ad4-b3ea-40d0-861a-d4b3ea20d019
+      x-gravitee-request-id: cb061ad4-b3ea-40d0-861a-d4b3ea20d019
       content-encoding: gzip
     body:
       encoding: ''
@@ -44,9 +44,9 @@ http_interactions:
           "kode": "1082",
           "navn": "Region Midtjylland",
           "nuts2": "DK04",
-          "ændret": "2025-02-04T22:02:46.244Z",
-          "geo_ændret": "2025-02-04T22:02:46.244Z",
-          "geo_version": 45,
+          "ændret": "2025-05-14T21:02:41.891Z",
+          "geo_ændret": "2025-05-14T21:02:41.891Z",
+          "geo_version": 46,
           "bbox_xmin": 8.07887623,
           "bbox_ymin": 55.64437916,
           "bbox_xmax": 11.66419061,
@@ -58,9 +58,9 @@ http_interactions:
           "kode": "1083",
           "navn": "Region Syddanmark",
           "nuts2": "DK03",
-          "ændret": "2025-01-01T22:02:15.652Z",
-          "geo_ændret": "2025-01-01T22:02:15.652Z",
-          "geo_version": 33,
+          "ændret": "2025-05-14T21:02:41.891Z",
+          "geo_ændret": "2025-05-14T21:02:41.891Z",
+          "geo_version": 34,
           "bbox_xmin": 8.06320315,
           "bbox_ymin": 54.71828064,
           "bbox_xmax": 10.99555236,
@@ -86,9 +86,9 @@ http_interactions:
           "kode": "1085",
           "navn": "Region Sjælland",
           "nuts2": "DK02",
-          "ændret": "2024-10-22T21:04:04.354Z",
-          "geo_ændret": "2024-10-22T21:04:04.354Z",
-          "geo_version": 29,
+          "ændret": "2025-05-14T21:02:41.891Z",
+          "geo_ændret": "2025-05-14T21:02:41.891Z",
+          "geo_version": 30,
           "bbox_xmin": 10.8148054,
           "bbox_ymin": 54.54440636,
           "bbox_xmax": 12.64551576,
@@ -97,5 +97,5 @@ http_interactions:
           "visueltcenter_y": 55.43978536
         }
         ]
-  recorded_at: 2025-03-03 08:29:02 GMT
-  recorded_with: vcr/1.6.0, webmockr/2.0.0
+  recorded_at: 2025-06-06 13:52:52 GMT
+  recorded_with: vcr/1.7.0, webmockr/2.0.0
