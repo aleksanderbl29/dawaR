@@ -47,48 +47,13 @@ status_check <- function(return_df = FALSE, error_if_unavailable = FALSE) {
   )
 
   # nolint start
-  status <- list(
-    if (nchar(rss_resp$item_title[1]) == nchar(paste0(services[1], " - Operational"))) {
-      "OK"
-    } else {
-      "Down"
-    },
-    if (nchar(rss_resp$item_title[2]) == nchar(paste0(services[2], " - Operational"))) {
-      "OK"
-    } else {
-      "Down"
-    },
-    if (nchar(rss_resp$item_title[3]) == nchar(paste0(services[3], " - Operational"))) {
-      "OK"
-    } else {
-      "Down"
-    },
-    if (nchar(rss_resp$item_title[4]) == nchar(paste0(services[4], " - Operational"))) {
-      "OK"
-    } else {
-      "Down"
-    },
-    if (nchar(rss_resp$item_title[5]) == nchar(paste0(services[5], " - Operational"))) {
-      "OK"
-    } else {
-      "Down"
-    },
-    if (nchar(rss_resp$item_title[6]) == nchar(paste0(services[6], " - Operational"))) {
-      "OK"
-    } else {
-      "Down"
-    },
-    if (nchar(rss_resp$item_title[7]) == nchar(paste0(services[7], " - Operational"))) {
-      "OK"
-    } else {
-      "Down"
-    },
-    if (nchar(rss_resp$item_title[8]) == nchar(paste0(services[8], " - Operational"))) {
+  status <- sapply(seq_along(services), function(i) {
+    if (nchar(rss_resp$item_title[i]) == nchar(paste0(services[i], " - Operational"))) {
       "OK"
     } else {
       "Down"
     }
-  )
+  })
   # nolint end
 
   overall_list <- list(services, status)
