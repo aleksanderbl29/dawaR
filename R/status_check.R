@@ -82,6 +82,11 @@ status_check <- function(return_df = FALSE, error_if_unavailable = FALSE) {
       "OK"
     } else {
       "Down"
+    },
+    if (nchar(rss_resp$item_title[8]) == nchar(paste0(services[8], " - Operational"))) {
+      "OK"
+    } else {
+      "Down"
     }
   )
   # nolint end
