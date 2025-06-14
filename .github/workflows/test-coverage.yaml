@@ -46,6 +46,7 @@ jobs:
 
       - name: Test coverage
         run: |
+          options(testthat.default_reporter = "Junit")
           cov <- covr::package_coverage(
             quiet = FALSE,
             clean = FALSE,
