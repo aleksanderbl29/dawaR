@@ -97,7 +97,7 @@ status_check <- function(return_df = FALSE, error_if_unavailable = FALSE) {
 
   colnames(dataframe) <- c("service", "status")
 
-  if (sum(nchar(dataframe$status)) == 14) {
+  if (sum(nchar(dataframe$status)) == (2 * nrow(rss_resp))) {
     operational <- TRUE
   } else {
     operational <- FALSE
