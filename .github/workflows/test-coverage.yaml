@@ -46,6 +46,7 @@ jobs:
 
       - name: Test coverage
         run: |
+          options(testthat.default_reporter = "Junit")
           cov <- covr::package_coverage(
             quiet = FALSE,
             clean = FALSE,
@@ -61,6 +62,13 @@ jobs:
           plugins: noop
           disable_search: true
           token: ${{ secrets.CODECOV_TOKEN }}
+
+      - name: Upload test results to Codecov
+        if: ${{ !cancelled() }}
+        uses: codecov/test-results-action@v1
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+
 
       - name: Show testthat output
         if: always()
