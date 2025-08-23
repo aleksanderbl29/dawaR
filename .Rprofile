@@ -1,6 +1,5 @@
 if (Sys.info()[["sysname"]] == "Darwin") {
-  options(repos = c(CRAN = "https://cran.rstudio.com/"),
-          renv.config.pak.enabled = TRUE)
+  options(repos = c(CRAN = "https://cran.rstudio.com/"))
 } else if (Sys.info()[["sysname"]] == "Linux") {
   options(repos = c(
     binary = "https://packagemanager.rstudio.com/all/__linux__/focal/latest",
