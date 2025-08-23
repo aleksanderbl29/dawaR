@@ -95,21 +95,21 @@ available<a class="anchor" aria-label="anchor" href="#use-status_check-to-assert
 the API.</p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="../reference/status_check.html">status_check</a></span><span class="op">(</span><span class="op">)</span></span>
-<span><span class="co">#&gt; <span style="color: #00BB00;">✔</span> All systems are operational</span></span></code></pre></div>
+<span><span class="co">#&gt; <span style="color: #BB0000;">✖</span> /rest/gsearch/v2.0/adresse, Adresser, Arkiv kort, Dataforsyningen.dk, FTPS, and WMS:forvaltning2 are not operational</span></span></code></pre></div>
 <p>It is also possible to return a dataframe specifying the individual
 status of each service provided by the government entity that maintains
 DAWA. This is particularly useful if you would like to use it in any
 further analyses.</p>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="../reference/status_check.html">status_check</a></span><span class="op">(</span>return_df <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
-<span><span class="co">#&gt; <span style="color: #00BB00;">✔</span> All systems are operational</span></span>
+<span><span class="co">#&gt; <span style="color: #BB0000;">✖</span> /rest/gsearch/v2.0/adresse, Adresser, Arkiv kort, Dataforsyningen.dk, FTPS, and WMS:forvaltning2 are not operational</span></span>
 <span><span class="co">#&gt;                      service status</span></span>
-<span><span class="co">#&gt; 1 /rest/gsearch/v2.0/adresse     OK</span></span>
-<span><span class="co">#&gt; 2                   Adresser     OK</span></span>
-<span><span class="co">#&gt; 3                 Arkiv kort     OK</span></span>
-<span><span class="co">#&gt; 4         Dataforsyningen.dk     OK</span></span>
-<span><span class="co">#&gt; 5                       FTPS     OK</span></span>
-<span><span class="co">#&gt; 6           WMS:forvaltning2     OK</span></span>
+<span><span class="co">#&gt; 1 /rest/gsearch/v2.0/adresse   Down</span></span>
+<span><span class="co">#&gt; 2                   Adresser   Down</span></span>
+<span><span class="co">#&gt; 3                 Arkiv kort   Down</span></span>
+<span><span class="co">#&gt; 4         Dataforsyningen.dk   Down</span></span>
+<span><span class="co">#&gt; 5                       FTPS   Down</span></span>
+<span><span class="co">#&gt; 6           WMS:forvaltning2   Down</span></span>
 <span><span class="co">#&gt; 7    WMS:topo_skaermkort_DAF     OK</span></span>
 <span><span class="co">#&gt; 8                sdfekort.dk     OK</span></span></code></pre></div>
 <p>You can also use the
