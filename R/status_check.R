@@ -35,6 +35,8 @@ status_check <- function(return_df = FALSE, error_if_unavailable = FALSE) {
     rss_resp <- tidyRSS::tidyfeed(status_url)
   )
 
+  rss_resp$item_title
+
   services <- list(
     "/rest/gsearch/v2.0/adresse",
     "Adresser",
