@@ -4,12 +4,12 @@ test_that("Status check function parses the rss feed and returns a dataframe if 
   observed_df <- status_check(return_df = TRUE)
 
   services <- list(
-    "WMS:forvaltning2",
     "/rest/gsearch/v2.0/adresse",
     "Adresser",
     "Arkiv kort",
     "Dataforsyningen.dk",
     "FTPS",
+    "WMS:forvaltning2",
     "WMS:topo_skaermkort_DAF",
     "sdfekort.dk"
   )

@@ -35,13 +35,15 @@ status_check <- function(return_df = FALSE, error_if_unavailable = FALSE) {
     rss_resp <- tidyRSS::tidyfeed(status_url)
   )
 
+  rss_resp$item_title
+
   services <- list(
-    "WMS:forvaltning2",
     "/rest/gsearch/v2.0/adresse",
     "Adresser",
     "Arkiv kort",
     "Dataforsyningen.dk",
     "FTPS",
+    "WMS:forvaltning2",
     "WMS:topo_skaermkort_DAF",
     "sdfekort.dk"
   )
