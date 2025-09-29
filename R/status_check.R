@@ -35,54 +35,27 @@ status_check <- function(return_df = FALSE, error_if_unavailable = FALSE) {
     rss_resp <- tidyRSS::tidyfeed(status_url)
   )
 
+  rss_resp$item_title
+
   services <- list(
+    "/rest/gsearch/v2.0/adresse",
     "Adresser",
     "Arkiv kort",
     "Dataforsyningen.dk",
     "FTPS",
-    "Gsearch",
-    "WMS - forvaltning2",
+    "WMS:forvaltning2",
+    "WMS:topo_skaermkort_DAF",
     "sdfekort.dk"
   )
 
   # nolint start
-  status <- list(
-    if (nchar(rss_resp$item_title[1]) == nchar(paste0(services[1], " - Operational"))) {
-      "OK"
-    } else {
-      "Down"
-    },
-    if (nchar(rss_resp$item_title[2]) == nchar(paste0(services[2], " - Operational"))) {
-      "OK"
-    } else {
-      "Down"
-    },
-    if (nchar(rss_resp$item_title[3]) == nchar(paste0(services[3], " - Operational"))) {
-      "OK"
-    } else {
-      "Down"
-    },
-    if (nchar(rss_resp$item_title[4]) == nchar(paste0(services[4], " - Operational"))) {
-      "OK"
-    } else {
-      "Down"
-    },
-    if (nchar(rss_resp$item_title[5]) == nchar(paste0(services[5], " - Operational"))) {
-      "OK"
-    } else {
-      "Down"
-    },
-    if (nchar(rss_resp$item_title[6]) == nchar(paste0(services[6], " - Operational"))) {
-      "OK"
-    } else {
-      "Down"
-    },
-    if (nchar(rss_resp$item_title[7]) == nchar(paste0(services[7], " - Operational"))) {
+  status <- sapply(seq_along(services), function(i) {
+    if (nchar(rss_resp$item_title[i]) == nchar(paste0(services[i], " - Operational"))) {
       "OK"
     } else {
       "Down"
     }
-  )
+  })
   # nolint end
 
   overall_list <- list(services, status)
@@ -91,7 +64,7 @@ status_check <- function(return_df = FALSE, error_if_unavailable = FALSE) {
 
   colnames(dataframe) <- c("service", "status")
 
-  if (sum(nchar(dataframe$status)) == 14) {
+  if (sum(nchar(dataframe$status)) == (2 * nrow(rss_resp))) {
     operational <- TRUE
   } else {
     operational <- FALSE
