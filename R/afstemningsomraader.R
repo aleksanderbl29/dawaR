@@ -1,13 +1,13 @@
 afstemningsomraader <- function(func, ...) {
   if (func == "reverse") {
-    vote_rev(!!!...)
+    vote_rev(...)
   } else if (func == "autocomplete") {
-    vote_ac(!!!...)
+    vote_ac(...)
   }
 }
 
 vote <- function(...) {
-  afstemningsomraader(!!!...)
+  afstemningsomraader(...)
 }
 
 vote_rev <- function(x,

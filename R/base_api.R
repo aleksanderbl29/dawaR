@@ -34,6 +34,7 @@
 #'
 #' @export
 #' @importFrom utils packageDescription
+#' @importFrom rlang inject
 #'
 #' @examples
 #' if (connection_check()) {
@@ -85,19 +86,21 @@ dawa <- function(section,
 
   section_info(section, verbose)
 
-  base_request <- httr2::request(base_url) |>
-    httr2::req_url_path_append(section) |>
-    httr2::req_url_path_append(append_to_url) |>
-    httr2::req_url_query(!!!params) |> # user provided query params
-    httr2::req_url_query(!!!func_params) |> # list of inputs from funcs
-    httr2::req_user_agent(
-      paste0(
-        "dawaR_", utils::packageDescription("dawaR", fields = "Version"),
-        " at https://dawar.aleksanderbl.dk)"
-      )
-    ) |>
-    httr2::req_timeout(100) |> # Timeout limit of 10 seconds
-    httr2::req_retry(max_tries = 3) # Retry on transient erros 503 and 429
+  base_request <- rlang::inject(
+    httr2::request(base_url) |>
+      httr2::req_url_path_append(section) |>
+      httr2::req_url_path_append(append_to_url) |>
+      httr2::req_url_query(!!!params) |> # user provided query params
+      httr2::req_url_query(!!!func_params) |> # list of inputs from funcs
+      httr2::req_user_agent(
+        paste0(
+          "dawaR_", utils::packageDescription("dawaR", fields = "Version"),
+          " at https://dawar.aleksanderbl.dk)"
+        )
+      ) |>
+      httr2::req_timeout(100) |> # Timeout limit of 10 seconds
+      httr2::req_retry(max_tries = 3) # Retry on transient erros 503 and 429
+  )
 
   if (cache == TRUE) {
     temp_dir <- tempdir() # Location for caching the response
@@ -248,6 +251,6 @@ autocomplete <- function(section, input, ...) {
     append_to_url = "autocomplete",
     verbose = FALSE,
     q = input,
-    ... = ...
+    ...
   )
 }
