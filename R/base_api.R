@@ -34,7 +34,6 @@
 #'
 #' @export
 #' @importFrom utils packageDescription
-#' @importFrom rlang inject
 #'
 #' @examples
 #' if (connection_check()) {
@@ -86,21 +85,29 @@ dawa <- function(section,
 
   section_info(section, verbose)
 
-  base_request <- rlang::inject(
-    httr2::request(base_url) |>
-      httr2::req_url_path_append(section) |>
-      httr2::req_url_path_append(append_to_url) |>
-      httr2::req_url_query(!!!params) |> # user provided query params
-      httr2::req_url_query(!!!func_params) |> # list of inputs from funcs
-      httr2::req_user_agent(
-        paste0(
-          "dawaR_", utils::packageDescription("dawaR", fields = "Version"),
-          " at https://dawar.aleksanderbl.dk)"
-        )
-      ) |>
-      httr2::req_timeout(100) |> # Timeout limit of 100 seconds
-      httr2::req_retry(max_tries = 3) # Retry on transient errors 503 and 429
-  )
+  base_request <- httr2::request(base_url) |>
+    httr2::req_url_path_append(section) |>
+    httr2::req_url_path_append(append_to_url)
+
+  # Add query parameters from params list
+  if (length(params) > 0) {
+    base_request <- do.call(httr2::req_url_query, c(list(base_request), params))
+  }
+
+  # Add query parameters from func_params list
+  if (length(func_params) > 0) {
+    base_request <- do.call(httr2::req_url_query, c(list(base_request), func_params))
+  }
+
+  base_request <- base_request |>
+    httr2::req_user_agent(
+      paste0(
+        "dawaR_", utils::packageDescription("dawaR", fields = "Version"),
+        " at https://dawar.aleksanderbl.dk)"
+      )
+    ) |>
+    httr2::req_timeout(100) |> # Timeout limit of 100 seconds
+    httr2::req_retry(max_tries = 3) # Retry on transient errors 503 and 429
 
   if (cache == TRUE) {
     temp_dir <- tempdir() # Location for caching the response
