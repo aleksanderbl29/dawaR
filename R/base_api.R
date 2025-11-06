@@ -98,8 +98,8 @@ dawa <- function(section,
           " at https://dawar.aleksanderbl.dk)"
         )
       ) |>
-      httr2::req_timeout(100) |> # Timeout limit of 10 seconds
-      httr2::req_retry(max_tries = 3) # Retry on transient erros 503 and 429
+      httr2::req_timeout(100) |> # Timeout limit of 100 seconds
+      httr2::req_retry(max_tries = 3) # Retry on transient errors 503 and 429
   )
 
   if (cache == TRUE) {
