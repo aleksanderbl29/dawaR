@@ -30,6 +30,10 @@ vote_rev <- function(x,
     srid = coord
   )
 
+  if (is.null(response)) {
+    return(NULL)
+  }
+
   name <- response$afstemningssted$navn
   address <- response$afstemningssted$adgangsadresse$adressebetegnelse
   municipality <- response$kommune$navn
@@ -62,6 +66,10 @@ vote_ac <- function(input) {
     section = "afstemningsomraader",
     input = input
   )
+
+  if (is.null(response)) {
+    return(NULL)
+  }
 
   if (length(response) > 1) {
     output <- response[[1]][[2]]$navn
