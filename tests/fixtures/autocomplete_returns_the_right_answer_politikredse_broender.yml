@@ -1,30 +1,22 @@
 http_interactions:
 - request:
-    method: get
+    method: GET
     uri: https://api.dataforsyningen.dk/politikredse/autocomplete?q=br%C3%B8nder
-    body:
-      encoding: ''
-      string: ''
-    headers: []
   response:
-    status:
-      status_code: 200
-      message: OK
+    status: 200
     headers:
-      x-gravitee-client-identifier: ba2fd62a350a38ea99d7226c07bf038267905ff3be49ab7bf917b0e45361b5a9
+      x-gravitee-client-identifier: 6ec4c28309a4772ef3b30a3d18dfb1085706dc5fe885acfd3fe8116b9cffb2af
       content-type: application/json; charset=UTF-8
       cache-control: max-age=86400
       vary: Accept-Encoding
-      date: Fri, 06 Jun 2025 13:39:32 GMT
-      x-gravitee-transaction-id: c01e35c1-5a4c-42b0-9e35-c15a4cf2b0ee
-      x-gravitee-request-id: c01e35c1-5a4c-42b0-9e35-c15a4cf2b0ee
+      date: Mon, 17 Nov 2025 08:21:01 GMT
+      x-gravitee-transaction-id: 9d538e88-460b-478d-938e-88460be78dea
+      x-gravitee-request-id: 9d538e88-460b-478d-938e-88460be78dea
       content-encoding: gzip
     body:
-      encoding: ''
-      file: no
       string: |-
         [
 
         ]
-  recorded_at: 2025-06-06 13:39:32 GMT
-  recorded_with: vcr/1.7.0, webmockr/2.0.0
+  recorded_at: 2025-11-17 08:21:01
+recorded_with: VCR-vcr/2.0.0

@@ -1,32 +1,24 @@
 http_interactions:
 - request:
-    method: get
+    method: GET
     uri: https://api.dataforsyningen.dk/afstemningsomraader/reverse?x=10.21471&y=56.15354
-    body:
-      encoding: ''
-      string: ''
-    headers: []
   response:
-    status:
-      status_code: 200
-      message: OK
+    status: 200
     headers:
-      x-gravitee-client-identifier: ba2fd62a350a38ea99d7226c07bf038267905ff3be49ab7bf917b0e45361b5a9
+      x-gravitee-client-identifier: 6ec4c28309a4772ef3b30a3d18dfb1085706dc5fe885acfd3fe8116b9cffb2af
       content-type: application/json; charset=UTF-8
       cache-control: max-age=86400
       vary: Accept-Encoding
-      date: Fri, 06 Jun 2025 13:39:56 GMT
-      x-gravitee-transaction-id: f20cdb5d-2225-4f5e-8cdb-5d2225ff5efc
-      x-gravitee-request-id: f20cdb5d-2225-4f5e-8cdb-5d2225ff5efc
+      date: Mon, 17 Nov 2025 08:21:26 GMT
+      x-gravitee-transaction-id: 6aecc9e2-750e-4766-acc9-e2750e5766d9
+      x-gravitee-request-id: 6aecc9e2-750e-4766-acc9-e2750e5766d9
       content-encoding: gzip
     body:
-      encoding: ''
-      file: no
       string: |-
         {
-          "ændret": "2024-05-08T21:01:09.316Z",
-          "geo_version": 7,
-          "geo_ændret": "2024-05-08T21:01:09.316Z",
+          "ændret": "2025-08-29T21:03:18.900Z",
+          "geo_version": 8,
+          "geo_ændret": "2025-07-08T21:03:05.192Z",
           "bbox": [
             10.20300286,
             56.14667099,
@@ -40,7 +32,7 @@ http_interactions:
           "href": "https://api.dataforsyningen.dk/afstemningsomraader/751/10",
           "dagi_id": "708544",
           "nummer": "10",
-          "navn": "DOKK1",
+          "navn": "DOKK1, Aarhus C",
           "afstemningssted": {
             "navn": "DOKK1",
             "adgangsadresse": {
@@ -79,5 +71,5 @@ http_interactions:
             "navn": "Midtjylland-Nordjylland"
           }
         }
-  recorded_at: 2025-06-06 13:39:56 GMT
-  recorded_with: vcr/1.7.0, webmockr/2.0.0
+  recorded_at: 2025-11-17 08:21:26
+recorded_with: VCR-vcr/2.0.0

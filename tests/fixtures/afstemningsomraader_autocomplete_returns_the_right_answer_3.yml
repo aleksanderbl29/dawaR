@@ -1,27 +1,19 @@
 http_interactions:
 - request:
-    method: get
+    method: GET
     uri: https://api.dataforsyningen.dk/afstemningsomraader/autocomplete?q=R%C3%B8ddi
-    body:
-      encoding: ''
-      string: ''
-    headers: []
   response:
-    status:
-      status_code: 200
-      message: OK
+    status: 200
     headers:
-      x-gravitee-client-identifier: ba2fd62a350a38ea99d7226c07bf038267905ff3be49ab7bf917b0e45361b5a9
+      x-gravitee-client-identifier: 6ec4c28309a4772ef3b30a3d18dfb1085706dc5fe885acfd3fe8116b9cffb2af
       content-type: application/json; charset=UTF-8
       cache-control: max-age=86400
       vary: Accept-Encoding
-      date: Fri, 06 Jun 2025 13:39:24 GMT
-      x-gravitee-transaction-id: 05907060-8ef2-4c8f-9070-608ef24c8f13
-      x-gravitee-request-id: 05907060-8ef2-4c8f-9070-608ef24c8f13
+      date: Mon, 17 Nov 2025 08:20:54 GMT
+      x-gravitee-transaction-id: b42482f2-7c37-46f7-a482-f27c3756f704
+      x-gravitee-request-id: b42482f2-7c37-46f7-a482-f27c3756f704
       content-encoding: gzip
     body:
-      encoding: ''
-      file: no
       string: |-
         [
         {
@@ -85,9 +77,9 @@ http_interactions:
         }, {
           "tekst": "Rødding",
           "afstemningsområde": {
-            "ændret": "2024-02-26T22:01:25.457Z",
-            "geo_version": 5,
-            "geo_ændret": "2024-02-26T22:01:25.457Z",
+            "ændret": "2025-09-04T21:02:04.819Z",
+            "geo_version": 6,
+            "geo_ændret": "2025-09-04T21:02:04.819Z",
             "bbox": [
               9.00513178,
               55.31078106,
@@ -143,9 +135,9 @@ http_interactions:
         }, {
           "tekst": "Rødding",
           "afstemningsområde": {
-            "ændret": "2024-10-09T21:02:27.534Z",
-            "geo_version": 1,
-            "geo_ændret": "2024-10-09T21:02:27.534Z",
+            "ændret": "2025-08-25T21:04:13.312Z",
+            "geo_version": 2,
+            "geo_ændret": "2025-08-25T21:04:13.312Z",
             "bbox": [
               8.76069179,
               56.61569751,
@@ -200,5 +192,5 @@ http_interactions:
           }
         }
         ]
-  recorded_at: 2025-06-06 13:39:24 GMT
-  recorded_with: vcr/1.7.0, webmockr/2.0.0
+  recorded_at: 2025-11-17 08:20:54
+recorded_with: VCR-vcr/2.0.0

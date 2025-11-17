@@ -1,28 +1,20 @@
 http_interactions:
 - request:
-    method: get
+    method: GET
     uri: https://api.dataforsyningen.dk/regioner?cache=no-cache
-    body:
-      encoding: ''
-      string: ''
-    headers: []
   response:
-    status:
-      status_code: 200
-      message: OK
+    status: 200
     headers:
-      x-gravitee-client-identifier: ba2fd62a350a38ea99d7226c07bf038267905ff3be49ab7bf917b0e45361b5a9
+      x-gravitee-client-identifier: 6ec4c28309a4772ef3b30a3d18dfb1085706dc5fe885acfd3fe8116b9cffb2af
       access-control-allow-origin: '*'
       content-type: application/json; charset=UTF-8
       cache-control: no-cache
       vary: Accept-Encoding
-      date: Fri, 06 Jun 2025 13:39:22 GMT
-      x-gravitee-transaction-id: 27f3f378-0641-4ab0-b3f3-780641dab040
-      x-gravitee-request-id: 27f3f378-0641-4ab0-b3f3-780641dab040
+      date: Mon, 17 Nov 2025 08:20:52 GMT
+      x-gravitee-transaction-id: f05076aa-bee7-4818-9076-aabee7281817
+      x-gravitee-request-id: f05076aa-bee7-4818-9076-aabee7281817
       content-encoding: gzip
     body:
-      encoding: ''
-      file: no
       string: |-
         [
         {
@@ -45,9 +37,9 @@ http_interactions:
           "nuts2": "DK05",
           "href": "https://api.dataforsyningen.dk/regioner/1081"
         }, {
-          "ændret": "2025-05-14T21:02:41.891Z",
-          "geo_version": 46,
-          "geo_ændret": "2025-05-14T21:02:41.891Z",
+          "ændret": "2025-07-11T21:05:02.274Z",
+          "geo_version": 47,
+          "geo_ændret": "2025-07-11T21:05:02.274Z",
           "bbox": [
             8.07887623,
             55.64437916,
@@ -55,8 +47,8 @@ http_interactions:
             56.84325702
           ],
           "visueltcenter": [
-            9.60503157,
-            56.23399042
+            9.5984783,
+            56.23405681
           ],
           "dagi_id": "389101",
           "kode": "1082",
@@ -122,5 +114,5 @@ http_interactions:
           "href": "https://api.dataforsyningen.dk/regioner/1085"
         }
         ]
-  recorded_at: 2025-06-06 13:39:22 GMT
-  recorded_with: vcr/1.7.0, webmockr/2.0.0
+  recorded_at: 2025-11-17 08:20:52
+recorded_with: VCR-vcr/2.0.0

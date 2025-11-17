@@ -1,28 +1,20 @@
 http_interactions:
 - request:
-    method: get
+    method: GET
     uri: https://api.dataforsyningen.dk/regioner?struktur=flad
-    body:
-      encoding: ''
-      string: ''
-    headers: []
   response:
-    status:
-      status_code: 200
-      message: OK
+    status: 200
     headers:
-      x-gravitee-client-identifier: ba2fd62a350a38ea99d7226c07bf038267905ff3be49ab7bf917b0e45361b5a9
+      x-gravitee-client-identifier: 6ec4c28309a4772ef3b30a3d18dfb1085706dc5fe885acfd3fe8116b9cffb2af
       access-control-allow-origin: '*'
       content-type: application/json; charset=UTF-8
       cache-control: max-age=86400
       vary: Accept-Encoding
-      date: Fri, 06 Jun 2025 13:52:52 GMT
-      x-gravitee-transaction-id: cb061ad4-b3ea-40d0-861a-d4b3ea20d019
-      x-gravitee-request-id: cb061ad4-b3ea-40d0-861a-d4b3ea20d019
+      date: Mon, 17 Nov 2025 08:20:53 GMT
+      x-gravitee-transaction-id: c9974b9b-0c7a-44d2-974b-9b0c7ac4d26a
+      x-gravitee-request-id: c9974b9b-0c7a-44d2-974b-9b0c7ac4d26a
       content-encoding: gzip
     body:
-      encoding: ''
-      file: no
       string: |-
         [
         {
@@ -44,15 +36,15 @@ http_interactions:
           "kode": "1082",
           "navn": "Region Midtjylland",
           "nuts2": "DK04",
-          "ændret": "2025-05-14T21:02:41.891Z",
-          "geo_ændret": "2025-05-14T21:02:41.891Z",
-          "geo_version": 46,
+          "ændret": "2025-07-11T21:05:02.274Z",
+          "geo_ændret": "2025-07-11T21:05:02.274Z",
+          "geo_version": 47,
           "bbox_xmin": 8.07887623,
           "bbox_ymin": 55.64437916,
           "bbox_xmax": 11.66419061,
           "bbox_ymax": 56.84325702,
-          "visueltcenter_x": 9.60503157,
-          "visueltcenter_y": 56.23399042
+          "visueltcenter_x": 9.5984783,
+          "visueltcenter_y": 56.23405681
         }, {
           "dagi_id": "389102",
           "kode": "1083",
@@ -97,5 +89,5 @@ http_interactions:
           "visueltcenter_y": 55.43978536
         }
         ]
-  recorded_at: 2025-06-06 13:52:52 GMT
-  recorded_with: vcr/1.7.0, webmockr/2.0.0
+  recorded_at: 2025-11-17 08:20:59
+recorded_with: VCR-vcr/2.0.0

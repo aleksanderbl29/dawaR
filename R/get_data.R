@@ -38,6 +38,10 @@ get_data <- function(section,
     func_params = params
   )
 
+  if (is.null(response)) {
+    return(NULL)
+  }
+
   if (as_list == TRUE) {
     output <- lapply(response, function(x) {
       x[1] <- as.numeric(x[1]) # Convert the first element to double
