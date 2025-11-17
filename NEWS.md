@@ -1,3 +1,9 @@
+# dawaR 0.3.1 (2025-11-17)
+
+* This is a small internal change.
+* HTTP functions that return non-OK response now returns NULL early.
+  * Throws warning instead of error.
+
 # dawaR 0.3.0 (2025-02-13)
 
 * This is a small breaking change.
