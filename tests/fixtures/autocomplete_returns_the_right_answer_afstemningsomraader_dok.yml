@@ -1,35 +1,27 @@
 http_interactions:
 - request:
-    method: get
+    method: GET
     uri: https://api.dataforsyningen.dk/afstemningsomraader/autocomplete?q=Dok
-    body:
-      encoding: ''
-      string: ''
-    headers: []
   response:
-    status:
-      status_code: 200
-      message: OK
+    status: 200
     headers:
-      x-gravitee-client-identifier: ba2fd62a350a38ea99d7226c07bf038267905ff3be49ab7bf917b0e45361b5a9
+      x-gravitee-client-identifier: 6ec4c28309a4772ef3b30a3d18dfb1085706dc5fe885acfd3fe8116b9cffb2af
       content-type: application/json; charset=UTF-8
       cache-control: max-age=86400
       vary: Accept-Encoding
-      date: Fri, 06 Jun 2025 13:39:22 GMT
-      x-gravitee-transaction-id: d9e3f0be-6feb-413d-a3f0-be6feb613d6d
-      x-gravitee-request-id: d9e3f0be-6feb-413d-a3f0-be6feb613d6d
+      date: Mon, 17 Nov 2025 08:20:52 GMT
+      x-gravitee-transaction-id: 8e1a7c8e-4d37-4d0e-9a7c-8e4d376d0e3f
+      x-gravitee-request-id: 8e1a7c8e-4d37-4d0e-9a7c-8e4d376d0e3f
       content-encoding: gzip
     body:
-      encoding: ''
-      file: no
       string: |-
         [
         {
-          "tekst": "DOKK1",
+          "tekst": "DOKK1, Aarhus C",
           "afstemningsområde": {
-            "ændret": "2024-05-08T21:01:09.316Z",
-            "geo_version": 7,
-            "geo_ændret": "2024-05-08T21:01:09.316Z",
+            "ændret": "2025-08-29T21:03:18.900Z",
+            "geo_version": 8,
+            "geo_ændret": "2025-07-08T21:03:05.192Z",
             "bbox": [
               10.20300286,
               56.14667099,
@@ -43,7 +35,7 @@ http_interactions:
             "href": "https://api.dataforsyningen.dk/afstemningsomraader/751/10",
             "dagi_id": "708544",
             "nummer": "10",
-            "navn": "DOKK1",
+            "navn": "DOKK1, Aarhus C",
             "afstemningssted": {
               "navn": "DOKK1",
               "adgangsadresse": {
@@ -85,9 +77,9 @@ http_interactions:
         }, {
           "tekst": "Farsø",
           "afstemningsområde": {
-            "ændret": "2023-03-24T22:28:38.837Z",
-            "geo_version": 2,
-            "geo_ændret": "2023-03-24T22:28:38.837Z",
+            "ændret": "2025-07-23T21:02:59.001Z",
+            "geo_version": 3,
+            "geo_ændret": "2025-07-23T21:02:59.001Z",
             "bbox": [
               9.25970617,
               56.72686765,
@@ -142,5 +134,5 @@ http_interactions:
           }
         }
         ]
-  recorded_at: 2025-06-06 13:39:22 GMT
-  recorded_with: vcr/1.7.0, webmockr/2.0.0
+  recorded_at: 2025-11-17 08:20:52
+recorded_with: VCR-vcr/2.0.0

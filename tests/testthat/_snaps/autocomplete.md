@@ -26,17 +26,17 @@
     Output
       [[1]]
       [[1]]$tekst
-      [1] "DOKK1"
+      [1] "DOKK1, Aarhus C"
       
       [[1]]$afstemningsområde
       [[1]]$afstemningsområde$ændret
-      [1] "2024-05-08T21:01:09.316Z"
+      [1] "2025-08-29T21:03:18.900Z"
       
       [[1]]$afstemningsområde$geo_version
-      [1] 7
+      [1] 8
       
       [[1]]$afstemningsområde$geo_ændret
-      [1] "2024-05-08T21:01:09.316Z"
+      [1] "2025-07-08T21:03:05.192Z"
       
       [[1]]$afstemningsområde$bbox
       [[1]]$afstemningsområde$bbox[[1]]
@@ -70,7 +70,7 @@
       [1] "10"
       
       [[1]]$afstemningsområde$navn
-      [1] "DOKK1"
+      [1] "DOKK1, Aarhus C"
       
       [[1]]$afstemningsområde$afstemningssted
       [[1]]$afstemningsområde$afstemningssted$navn
@@ -159,13 +159,13 @@
       
       [[2]]$afstemningsområde
       [[2]]$afstemningsområde$ændret
-      [1] "2023-03-24T22:28:38.837Z"
+      [1] "2025-07-23T21:02:59.001Z"
       
       [[2]]$afstemningsområde$geo_version
-      [1] 2
+      [1] 3
       
       [[2]]$afstemningsområde$geo_ændret
-      [1] "2023-03-24T22:28:38.837Z"
+      [1] "2025-07-23T21:02:59.001Z"
       
       [[2]]$afstemningsområde$bbox
       [[2]]$afstemningsområde$bbox[[1]]
@@ -472,13 +472,13 @@
       
       [[2]]$afstemningsområde
       [[2]]$afstemningsområde$ændret
-      [1] "2024-02-26T22:01:25.457Z"
+      [1] "2025-09-04T21:02:04.819Z"
       
       [[2]]$afstemningsområde$geo_version
-      [1] 5
+      [1] 6
       
       [[2]]$afstemningsområde$geo_ændret
-      [1] "2024-02-26T22:01:25.457Z"
+      [1] "2025-09-04T21:02:04.819Z"
       
       [[2]]$afstemningsområde$bbox
       [[2]]$afstemningsområde$bbox[[1]]
@@ -601,13 +601,13 @@
       
       [[3]]$afstemningsområde
       [[3]]$afstemningsområde$ændret
-      [1] "2024-10-09T21:02:27.534Z"
+      [1] "2025-08-25T21:04:13.312Z"
       
       [[3]]$afstemningsområde$geo_version
-      [1] 1
+      [1] 2
       
       [[3]]$afstemningsområde$geo_ændret
-      [1] "2024-10-09T21:02:27.534Z"
+      [1] "2025-08-25T21:04:13.312Z"
       
       [[3]]$afstemningsområde$bbox
       [[3]]$afstemningsområde$bbox[[1]]
@@ -823,13 +823,13 @@
       
       [[1]]$afstemningsområde
       [[1]]$afstemningsområde$ændret
-      [1] "2024-05-16T21:01:20.858Z"
+      [1] "2025-09-11T21:02:14.519Z"
       
       [[1]]$afstemningsområde$geo_version
-      [1] 7
+      [1] 8
       
       [[1]]$afstemningsområde$geo_ændret
-      [1] "2024-05-16T21:01:20.858Z"
+      [1] "2025-09-11T21:02:14.519Z"
       
       [[1]]$afstemningsområde$bbox
       [[1]]$afstemningsområde$bbox[[1]]
@@ -952,13 +952,13 @@
       
       [[2]]$afstemningsområde
       [[2]]$afstemningsområde$ændret
-      [1] "2025-01-14T22:03:26.490Z"
+      [1] "2025-09-11T21:02:14.519Z"
       
       [[2]]$afstemningsområde$geo_version
-      [1] 6
+      [1] 7
       
       [[2]]$afstemningsområde$geo_ændret
-      [1] "2024-05-16T21:01:20.858Z"
+      [1] "2025-09-11T21:02:14.519Z"
       
       [[2]]$afstemningsområde$bbox
       [[2]]$afstemningsområde$bbox[[1]]
@@ -1081,13 +1081,13 @@
       
       [[3]]$afstemningsområde
       [[3]]$afstemningsområde$ændret
-      [1] "2024-05-16T21:01:20.858Z"
+      [1] "2025-09-11T21:02:14.519Z"
       
       [[3]]$afstemningsområde$geo_version
-      [1] 6
+      [1] 7
       
       [[3]]$afstemningsområde$geo_ændret
-      [1] "2024-05-16T21:01:20.858Z"
+      [1] "2025-09-11T21:02:14.519Z"
       
       [[3]]$afstemningsområde$bbox
       [[3]]$afstemningsområde$bbox[[1]]
@@ -1210,13 +1210,13 @@
       
       [[4]]$afstemningsområde
       [[4]]$afstemningsområde$ændret
-      [1] "2024-05-16T21:01:20.858Z"
+      [1] "2025-09-11T21:02:14.519Z"
       
       [[4]]$afstemningsområde$geo_version
-      [1] 6
+      [1] 7
       
       [[4]]$afstemningsområde$geo_ændret
-      [1] "2024-05-16T21:01:20.858Z"
+      [1] "2025-09-11T21:02:14.519Z"
       
       [[4]]$afstemningsområde$bbox
       [[4]]$afstemningsområde$bbox[[1]]
@@ -1335,72 +1335,72 @@
       
       [[5]]
       [[5]]$tekst
-      [1] "Hjallerup"
+      [1] "Flauenskjold"
       
       [[5]]$afstemningsområde
       [[5]]$afstemningsområde$ændret
-      [1] "2024-05-16T21:01:20.858Z"
+      [1] "2025-09-11T21:02:14.519Z"
       
       [[5]]$afstemningsområde$geo_version
-      [1] 6
+      [1] 10
       
       [[5]]$afstemningsområde$geo_ændret
-      [1] "2024-05-16T21:01:20.858Z"
+      [1] "2025-09-11T21:02:14.519Z"
       
       [[5]]$afstemningsområde$bbox
       [[5]]$afstemningsområde$bbox[[1]]
-      [1] 10.09803
+      [1] 10.22908
       
       [[5]]$afstemningsområde$bbox[[2]]
-      [1] 57.11135
+      [1] 57.19618
       
       [[5]]$afstemningsområde$bbox[[3]]
-      [1] 10.2616
+      [1] 10.38415
       
       [[5]]$afstemningsområde$bbox[[4]]
-      [1] 57.2195
+      [1] 57.27819
       
       
       [[5]]$afstemningsområde$visueltcenter
       [[5]]$afstemningsområde$visueltcenter[[1]]
-      [1] 10.15964
+      [1] 10.31368
       
       [[5]]$afstemningsområde$visueltcenter[[2]]
-      [1] 57.15496
+      [1] 57.23766
       
       
       [[5]]$afstemningsområde$href
-      [1] "https://api.dataforsyningen.dk/afstemningsomraader/810/5"
+      [1] "https://api.dataforsyningen.dk/afstemningsomraader/810/4"
       
       [[5]]$afstemningsområde$dagi_id
-      [1] "700990"
+      [1] "700996"
       
       [[5]]$afstemningsområde$nummer
-      [1] "5"
+      [1] "4"
       
       [[5]]$afstemningsområde$navn
-      [1] "Hjallerup"
+      [1] "Flauenskjold"
       
       [[5]]$afstemningsområde$afstemningssted
       [[5]]$afstemningsområde$afstemningssted$navn
-      [1] "Hjallerup Kulturhus"
+      [1] "Flauenskjold Kulturhus"
       
       [[5]]$afstemningsområde$afstemningssted$adgangsadresse
       [[5]]$afstemningsområde$afstemningssted$adgangsadresse$href
-      [1] "https://api.dataforsyningen.dk/adgangsadresser/0a3f5099-6f13-32b8-e044-0003ba298018"
+      [1] "https://api.dataforsyningen.dk/adgangsadresser/0a3f5099-7dfe-32b8-e044-0003ba298018"
       
       [[5]]$afstemningsområde$afstemningssted$adgangsadresse$id
-      [1] "0a3f5099-6f13-32b8-e044-0003ba298018"
+      [1] "0a3f5099-7dfe-32b8-e044-0003ba298018"
       
       [[5]]$afstemningsområde$afstemningssted$adgangsadresse$adressebetegnelse
-      [1] "Nørre Alle 3A, 9320 Hjallerup"
+      [1] "Ålborgvej 583, Flauenskjold, 9330 Dronninglund"
       
       [[5]]$afstemningsområde$afstemningssted$adgangsadresse$koordinater
       [[5]]$afstemningsområde$afstemningssted$adgangsadresse$koordinater[[1]]
-      [1] 10.14636
+      [1] 10.28644
       
       [[5]]$afstemningsområde$afstemningssted$adgangsadresse$koordinater[[2]]
-      [1] 57.16949
+      [1] 57.24977
       
       
       
@@ -1464,72 +1464,72 @@
       
       [[6]]
       [[6]]$tekst
-      [1] "Klokkerholm"
+      [1] "Hjallerup"
       
       [[6]]$afstemningsområde
       [[6]]$afstemningsområde$ændret
-      [1] "2024-05-16T21:01:20.858Z"
+      [1] "2025-09-11T21:02:14.519Z"
       
       [[6]]$afstemningsområde$geo_version
-      [1] 6
+      [1] 7
       
       [[6]]$afstemningsområde$geo_ændret
-      [1] "2024-05-16T21:01:20.858Z"
+      [1] "2025-09-11T21:02:14.519Z"
       
       [[6]]$afstemningsområde$bbox
       [[6]]$afstemningsområde$bbox[[1]]
-      [1] 10.03036
+      [1] 10.09803
       
       [[6]]$afstemningsområde$bbox[[2]]
-      [1] 57.14849
+      [1] 57.11135
       
       [[6]]$afstemningsområde$bbox[[3]]
-      [1] 10.26752
+      [1] 10.2616
       
       [[6]]$afstemningsområde$bbox[[4]]
-      [1] 57.25187
+      [1] 57.2195
       
       
       [[6]]$afstemningsområde$visueltcenter
       [[6]]$afstemningsområde$visueltcenter[[1]]
-      [1] 10.17598
+      [1] 10.15964
       
       [[6]]$afstemningsområde$visueltcenter[[2]]
-      [1] 57.22199
+      [1] 57.15496
       
       
       [[6]]$afstemningsområde$href
-      [1] "https://api.dataforsyningen.dk/afstemningsomraader/810/6"
+      [1] "https://api.dataforsyningen.dk/afstemningsomraader/810/5"
       
       [[6]]$afstemningsområde$dagi_id
-      [1] "704006"
+      [1] "700990"
       
       [[6]]$afstemningsområde$nummer
-      [1] "6"
+      [1] "5"
       
       [[6]]$afstemningsområde$navn
-      [1] "Klokkerholm"
+      [1] "Hjallerup"
       
       [[6]]$afstemningsområde$afstemningssted
       [[6]]$afstemningsområde$afstemningssted$navn
-      [1] "Klokkerholm Hallen"
+      [1] "Hjallerup Kulturhus"
       
       [[6]]$afstemningsområde$afstemningssted$adgangsadresse
       [[6]]$afstemningsområde$afstemningssted$adgangsadresse$href
-      [1] "https://api.dataforsyningen.dk/adgangsadresser/0a3f5099-5fb9-32b8-e044-0003ba298018"
+      [1] "https://api.dataforsyningen.dk/adgangsadresser/0a3f5099-6f14-32b8-e044-0003ba298018"
       
       [[6]]$afstemningsområde$afstemningssted$adgangsadresse$id
-      [1] "0a3f5099-5fb9-32b8-e044-0003ba298018"
+      [1] "0a3f5099-6f14-32b8-e044-0003ba298018"
       
       [[6]]$afstemningsområde$afstemningssted$adgangsadresse$adressebetegnelse
-      [1] "Anemonevej 5, Klokkerholm, 9320 Hjallerup"
+      [1] "Nørre Alle 3B, 9320 Hjallerup"
       
       [[6]]$afstemningsområde$afstemningssted$adgangsadresse$koordinater
       [[6]]$afstemningsområde$afstemningssted$adgangsadresse$koordinater[[1]]
-      [1] 10.15727
+      [1] 10.14569
       
       [[6]]$afstemningsområde$afstemningssted$adgangsadresse$koordinater[[2]]
-      [1] 57.20765
+      [1] 57.16972
       
       
       
@@ -1593,72 +1593,72 @@
       
       [[7]]
       [[7]]$tekst
-      [1] "Hallund"
+      [1] "Klokkerholm"
       
       [[7]]$afstemningsområde
       [[7]]$afstemningsområde$ændret
-      [1] "2024-05-16T21:01:20.858Z"
+      [1] "2025-09-11T21:02:14.519Z"
       
       [[7]]$afstemningsområde$geo_version
-      [1] 5
+      [1] 7
       
       [[7]]$afstemningsområde$geo_ændret
-      [1] "2024-05-16T21:01:20.858Z"
+      [1] "2025-09-11T21:02:14.519Z"
       
       [[7]]$afstemningsområde$bbox
       [[7]]$afstemningsområde$bbox[[1]]
-      [1] 10.02869
+      [1] 10.03036
       
       [[7]]$afstemningsområde$bbox[[2]]
-      [1] 57.20081
+      [1] 57.14849
       
       [[7]]$afstemningsområde$bbox[[3]]
-      [1] 10.13652
+      [1] 10.26752
       
       [[7]]$afstemningsområde$bbox[[4]]
-      [1] 57.26681
+      [1] 57.25187
       
       
       [[7]]$afstemningsområde$visueltcenter
       [[7]]$afstemningsområde$visueltcenter[[1]]
-      [1] 10.09644
+      [1] 10.17598
       
       [[7]]$afstemningsområde$visueltcenter[[2]]
-      [1] 57.23678
+      [1] 57.22199
       
       
       [[7]]$afstemningsområde$href
-      [1] "https://api.dataforsyningen.dk/afstemningsomraader/810/56"
+      [1] "https://api.dataforsyningen.dk/afstemningsomraader/810/6"
       
       [[7]]$afstemningsområde$dagi_id
-      [1] "704018"
+      [1] "704006"
       
       [[7]]$afstemningsområde$nummer
-      [1] "56"
+      [1] "6"
       
       [[7]]$afstemningsområde$navn
-      [1] "Hallund"
+      [1] "Klokkerholm"
       
       [[7]]$afstemningsområde$afstemningssted
       [[7]]$afstemningsområde$afstemningssted$navn
-      [1] "Hallund Kro"
+      [1] "Klokkerholm Hallen"
       
       [[7]]$afstemningsområde$afstemningssted$adgangsadresse
       [[7]]$afstemningsområde$afstemningssted$adgangsadresse$href
-      [1] "https://api.dataforsyningen.dk/adgangsadresser/0a3f5099-57da-32b8-e044-0003ba298018"
+      [1] "https://api.dataforsyningen.dk/adgangsadresser/0a3f5099-5fb9-32b8-e044-0003ba298018"
       
       [[7]]$afstemningsområde$afstemningssted$adgangsadresse$id
-      [1] "0a3f5099-57da-32b8-e044-0003ba298018"
+      [1] "0a3f5099-5fb9-32b8-e044-0003ba298018"
       
       [[7]]$afstemningsområde$afstemningssted$adgangsadresse$adressebetegnelse
-      [1] "Sølvgade 74, 9700 Brønderslev"
+      [1] "Anemonevej 5, Klokkerholm, 9320 Hjallerup"
       
       [[7]]$afstemningsområde$afstemningssted$adgangsadresse$koordinater
       [[7]]$afstemningsområde$afstemningssted$adgangsadresse$koordinater[[1]]
-      [1] 10.10359
+      [1] 10.15727
       
       [[7]]$afstemningsområde$afstemningssted$adgangsadresse$koordinater[[2]]
-      [1] 57.23942
+      [1] 57.20765
       
       
       
@@ -1722,72 +1722,72 @@
       
       [[8]]
       [[8]]$tekst
-      [1] "Jerslev"
+      [1] "Hallund"
       
       [[8]]$afstemningsområde
       [[8]]$afstemningsområde$ændret
-      [1] "2024-05-16T21:01:20.858Z"
+      [1] "2025-09-11T21:02:14.519Z"
       
       [[8]]$afstemningsområde$geo_version
       [1] 6
       
       [[8]]$afstemningsområde$geo_ændret
-      [1] "2024-05-16T21:01:20.858Z"
+      [1] "2025-09-11T21:02:14.519Z"
       
       [[8]]$afstemningsområde$bbox
       [[8]]$afstemningsområde$bbox[[1]]
-      [1] 9.988721
+      [1] 10.02869
       
       [[8]]$afstemningsområde$bbox[[2]]
-      [1] 57.24537
+      [1] 57.20081
       
       [[8]]$afstemningsområde$bbox[[3]]
-      [1] 10.22399
+      [1] 10.13652
       
       [[8]]$afstemningsområde$bbox[[4]]
-      [1] 57.33998
+      [1] 57.26681
       
       
       [[8]]$afstemningsområde$visueltcenter
       [[8]]$afstemningsområde$visueltcenter[[1]]
-      [1] 10.14904
+      [1] 10.09644
       
       [[8]]$afstemningsområde$visueltcenter[[2]]
-      [1] 57.29433
+      [1] 57.23678
       
       
       [[8]]$afstemningsområde$href
-      [1] "https://api.dataforsyningen.dk/afstemningsomraader/810/70"
+      [1] "https://api.dataforsyningen.dk/afstemningsomraader/810/56"
       
       [[8]]$afstemningsområde$dagi_id
-      [1] "711454"
+      [1] "704018"
       
       [[8]]$afstemningsområde$nummer
-      [1] "70"
+      [1] "56"
       
       [[8]]$afstemningsområde$navn
-      [1] "Jerslev"
+      [1] "Hallund"
       
       [[8]]$afstemningsområde$afstemningssted
       [[8]]$afstemningsområde$afstemningssted$navn
-      [1] "Borgen Jerslev"
+      [1] "Hallund Kro"
       
       [[8]]$afstemningsområde$afstemningssted$adgangsadresse
       [[8]]$afstemningsområde$afstemningssted$adgangsadresse$href
-      [1] "https://api.dataforsyningen.dk/adgangsadresser/0a3f5099-3afc-32b8-e044-0003ba298018"
+      [1] "https://api.dataforsyningen.dk/adgangsadresser/0a3f5099-57da-32b8-e044-0003ba298018"
       
       [[8]]$afstemningsområde$afstemningssted$adgangsadresse$id
-      [1] "0a3f5099-3afc-32b8-e044-0003ba298018"
+      [1] "0a3f5099-57da-32b8-e044-0003ba298018"
       
       [[8]]$afstemningsområde$afstemningssted$adgangsadresse$adressebetegnelse
-      [1] "Borgergade 30, 9740 Jerslev J"
+      [1] "Sølvgade 74, 9700 Brønderslev"
       
       [[8]]$afstemningsområde$afstemningssted$adgangsadresse$koordinater
       [[8]]$afstemningsområde$afstemningssted$adgangsadresse$koordinater[[1]]
-      [1] 10.08958
+      [1] 10.10359
       
       [[8]]$afstemningsområde$afstemningssted$adgangsadresse$koordinater[[2]]
-      [1] 57.28428
+      [1] 57.23942
       
       
       
@@ -1855,13 +1855,13 @@
       
       [[9]]$afstemningsområde
       [[9]]$afstemningsområde$ændret
-      [1] "2024-05-16T21:01:20.858Z"
+      [1] "2025-09-11T21:02:14.519Z"
       
       [[9]]$afstemningsområde$geo_version
-      [1] 6
+      [1] 7
       
       [[9]]$afstemningsområde$geo_ændret
-      [1] "2024-05-16T21:01:20.858Z"
+      [1] "2025-09-11T21:02:14.519Z"
       
       [[9]]$afstemningsområde$bbox
       [[9]]$afstemningsområde$bbox[[1]]
@@ -1984,13 +1984,13 @@
       
       [[10]]$afstemningsområde
       [[10]]$afstemningsområde$ændret
-      [1] "2024-05-16T21:01:20.858Z"
+      [1] "2025-09-11T21:02:14.519Z"
       
       [[10]]$afstemningsområde$geo_version
-      [1] 6
+      [1] 7
       
       [[10]]$afstemningsområde$geo_ændret
-      [1] "2024-05-16T21:01:20.858Z"
+      [1] "2025-09-11T21:02:14.519Z"
       
       [[10]]$afstemningsområde$bbox
       [[10]]$afstemningsområde$bbox[[1]]
@@ -2109,72 +2109,72 @@
       
       [[11]]
       [[11]]$tekst
-      [1] "Flauenskjold"
+      [1] "Stenum"
       
       [[11]]$afstemningsområde
       [[11]]$afstemningsområde$ændret
-      [1] "2024-05-16T21:01:20.858Z"
+      [1] "2025-09-11T21:02:14.519Z"
       
       [[11]]$afstemningsområde$geo_version
-      [1] 9
+      [1] 7
       
       [[11]]$afstemningsområde$geo_ændret
-      [1] "2024-05-16T21:01:20.858Z"
+      [1] "2025-09-11T21:02:14.519Z"
       
       [[11]]$afstemningsområde$bbox
       [[11]]$afstemningsområde$bbox[[1]]
-      [1] 10.22908
+      [1] 9.824227
       
       [[11]]$afstemningsområde$bbox[[2]]
-      [1] 57.19618
+      [1] 57.28834
       
       [[11]]$afstemningsområde$bbox[[3]]
-      [1] 10.38415
+      [1] 9.928107
       
       [[11]]$afstemningsområde$bbox[[4]]
-      [1] 57.27819
+      [1] 57.34301
       
       
       [[11]]$afstemningsområde$visueltcenter
       [[11]]$afstemningsområde$visueltcenter[[1]]
-      [1] 10.31368
+      [1] 9.880188
       
       [[11]]$afstemningsområde$visueltcenter[[2]]
-      [1] 57.23766
+      [1] 57.3162
       
       
       [[11]]$afstemningsområde$href
-      [1] "https://api.dataforsyningen.dk/afstemningsomraader/810/4"
+      [1] "https://api.dataforsyningen.dk/afstemningsomraader/810/34"
       
       [[11]]$afstemningsområde$dagi_id
-      [1] "700996"
+      [1] "702304"
       
       [[11]]$afstemningsområde$nummer
-      [1] "4"
+      [1] "34"
       
       [[11]]$afstemningsområde$navn
-      [1] "Flauenskjold"
+      [1] "Stenum"
       
       [[11]]$afstemningsområde$afstemningssted
       [[11]]$afstemningsområde$afstemningssted$navn
-      [1] "Jyske Ås Kulturhus"
+      [1] "Stenum Kultur- og Forsamlingshus"
       
       [[11]]$afstemningsområde$afstemningssted$adgangsadresse
       [[11]]$afstemningsområde$afstemningssted$adgangsadresse$href
-      [1] "https://api.dataforsyningen.dk/adgangsadresser/0a3f5099-7dfe-32b8-e044-0003ba298018"
+      [1] "https://api.dataforsyningen.dk/adgangsadresser/0a3f5099-5a86-32b8-e044-0003ba298018"
       
       [[11]]$afstemningsområde$afstemningssted$adgangsadresse$id
-      [1] "0a3f5099-7dfe-32b8-e044-0003ba298018"
+      [1] "0a3f5099-5a86-32b8-e044-0003ba298018"
       
       [[11]]$afstemningsområde$afstemningssted$adgangsadresse$adressebetegnelse
-      [1] "Ålborgvej 583, Flauenskjold, 9330 Dronninglund"
+      [1] "Tømmerbyvej 6, 9700 Brønderslev"
       
       [[11]]$afstemningsområde$afstemningssted$adgangsadresse$koordinater
       [[11]]$afstemningsområde$afstemningssted$adgangsadresse$koordinater[[1]]
-      [1] 10.28644
+      [1] 9.868483
       
       [[11]]$afstemningsområde$afstemningssted$adgangsadresse$koordinater[[2]]
-      [1] 57.24977
+      [1] 57.31853
       
       
       
@@ -2238,72 +2238,72 @@
       
       [[12]]
       [[12]]$tekst
-      [1] "Stenum"
+      [1] "Thise"
       
       [[12]]$afstemningsområde
       [[12]]$afstemningsområde$ændret
-      [1] "2024-05-16T21:01:20.858Z"
+      [1] "2025-09-11T21:02:14.519Z"
       
       [[12]]$afstemningsområde$geo_version
-      [1] 6
+      [1] 7
       
       [[12]]$afstemningsområde$geo_ændret
-      [1] "2024-05-16T21:01:20.858Z"
+      [1] "2025-09-11T21:02:14.519Z"
       
       [[12]]$afstemningsområde$bbox
       [[12]]$afstemningsområde$bbox[[1]]
-      [1] 9.824227
+      [1] 9.738432
       
       [[12]]$afstemningsområde$bbox[[2]]
-      [1] 57.28834
+      [1] 57.21641
       
       [[12]]$afstemningsområde$bbox[[3]]
-      [1] 9.928107
+      [1] 9.913709
       
       [[12]]$afstemningsområde$bbox[[4]]
-      [1] 57.34301
+      [1] 57.31695
       
       
       [[12]]$afstemningsområde$visueltcenter
       [[12]]$afstemningsområde$visueltcenter[[1]]
-      [1] 9.880188
+      [1] 9.828028
       
       [[12]]$afstemningsområde$visueltcenter[[2]]
-      [1] 57.3162
+      [1] 57.27863
       
       
       [[12]]$afstemningsområde$href
-      [1] "https://api.dataforsyningen.dk/afstemningsomraader/810/34"
+      [1] "https://api.dataforsyningen.dk/afstemningsomraader/810/40"
       
       [[12]]$afstemningsområde$dagi_id
-      [1] "702304"
+      [1] "704012"
       
       [[12]]$afstemningsområde$nummer
-      [1] "34"
+      [1] "40"
       
       [[12]]$afstemningsområde$navn
-      [1] "Stenum"
+      [1] "Thise"
       
       [[12]]$afstemningsområde$afstemningssted
       [[12]]$afstemningsområde$afstemningssted$navn
-      [1] "Stenum Kultur- og Forsamlingshus"
+      [1] "Manna-Thise Samlingshus"
       
       [[12]]$afstemningsområde$afstemningssted$adgangsadresse
       [[12]]$afstemningsområde$afstemningssted$adgangsadresse$href
-      [1] "https://api.dataforsyningen.dk/adgangsadresser/0a3f5099-5a86-32b8-e044-0003ba298018"
+      [1] "https://api.dataforsyningen.dk/adgangsadresser/0a3f5099-47dc-32b8-e044-0003ba298018"
       
       [[12]]$afstemningsområde$afstemningssted$adgangsadresse$id
-      [1] "0a3f5099-5a86-32b8-e044-0003ba298018"
+      [1] "0a3f5099-47dc-32b8-e044-0003ba298018"
       
       [[12]]$afstemningsområde$afstemningssted$adgangsadresse$adressebetegnelse
-      [1] "Tømmerbyvej 6, 9700 Brønderslev"
+      [1] "Jens Thise Vej 33, 9700 Brønderslev"
       
       [[12]]$afstemningsområde$afstemningssted$adgangsadresse$koordinater
       [[12]]$afstemningsområde$afstemningssted$adgangsadresse$koordinater[[1]]
-      [1] 9.868483
+      [1] 9.810491
       
       [[12]]$afstemningsområde$afstemningssted$adgangsadresse$koordinater[[2]]
-      [1] 57.31853
+      [1] 57.2894
       
       
       
@@ -2367,72 +2367,72 @@
       
       [[13]]
       [[13]]$tekst
-      [1] "Thise"
+      [1] "Jerslev"
       
       [[13]]$afstemningsområde
       [[13]]$afstemningsområde$ændret
-      [1] "2024-05-16T21:01:20.858Z"
+      [1] "2025-09-11T21:02:14.519Z"
       
       [[13]]$afstemningsområde$geo_version
-      [1] 6
+      [1] 7
       
       [[13]]$afstemningsområde$geo_ændret
-      [1] "2024-05-16T21:01:20.858Z"
+      [1] "2025-09-11T21:02:14.519Z"
       
       [[13]]$afstemningsområde$bbox
       [[13]]$afstemningsområde$bbox[[1]]
-      [1] 9.738432
+      [1] 9.988721
       
       [[13]]$afstemningsområde$bbox[[2]]
-      [1] 57.21641
+      [1] 57.24537
       
       [[13]]$afstemningsområde$bbox[[3]]
-      [1] 9.913709
+      [1] 10.22399
       
       [[13]]$afstemningsområde$bbox[[4]]
-      [1] 57.31695
+      [1] 57.33998
       
       
       [[13]]$afstemningsområde$visueltcenter
       [[13]]$afstemningsområde$visueltcenter[[1]]
-      [1] 9.828028
+      [1] 10.14904
       
       [[13]]$afstemningsområde$visueltcenter[[2]]
-      [1] 57.27863
+      [1] 57.29433
       
       
       [[13]]$afstemningsområde$href
-      [1] "https://api.dataforsyningen.dk/afstemningsomraader/810/40"
+      [1] "https://api.dataforsyningen.dk/afstemningsomraader/810/70"
       
       [[13]]$afstemningsområde$dagi_id
-      [1] "704012"
+      [1] "711454"
       
       [[13]]$afstemningsområde$nummer
-      [1] "40"
+      [1] "70"
       
       [[13]]$afstemningsområde$navn
-      [1] "Thise"
+      [1] "Jerslev"
       
       [[13]]$afstemningsområde$afstemningssted
       [[13]]$afstemningsområde$afstemningssted$navn
-      [1] "Manna-Thise Samlingshus"
+      [1] "Hallen på Toftegårdsskolen"
       
       [[13]]$afstemningsområde$afstemningssted$adgangsadresse
       [[13]]$afstemningsområde$afstemningssted$adgangsadresse$href
-      [1] "https://api.dataforsyningen.dk/adgangsadresser/0a3f5099-47dc-32b8-e044-0003ba298018"
+      [1] "https://api.dataforsyningen.dk/adgangsadresser/0a3f5099-52f2-32b8-e044-0003ba298018"
       
       [[13]]$afstemningsområde$afstemningssted$adgangsadresse$id
-      [1] "0a3f5099-47dc-32b8-e044-0003ba298018"
+      [1] "0a3f5099-52f2-32b8-e044-0003ba298018"
       
       [[13]]$afstemningsområde$afstemningssted$adgangsadresse$adressebetegnelse
-      [1] "Jens Thise Vej 33, 9700 Brønderslev"
+      [1] "Sdr Ringgade 79, 9740 Jerslev J"
       
       [[13]]$afstemningsområde$afstemningssted$adgangsadresse$koordinater
       [[13]]$afstemningsområde$afstemningssted$adgangsadresse$koordinater[[1]]
-      [1] 9.810491
+      [1] 10.09459
       
       [[13]]$afstemningsområde$afstemningssted$adgangsadresse$koordinater[[2]]
-      [1] 57.2894
+      [1] 57.28189
       
       
       

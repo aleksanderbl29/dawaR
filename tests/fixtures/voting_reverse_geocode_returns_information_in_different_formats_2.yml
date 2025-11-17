@@ -1,55 +1,47 @@
 http_interactions:
 - request:
-    method: get
+    method: GET
     uri: https://api.dataforsyningen.dk/afstemningsomraader/reverse?x=12.58515&y=55.68324
-    body:
-      encoding: ''
-      string: ''
-    headers: []
   response:
-    status:
-      status_code: 200
-      message: OK
+    status: 200
     headers:
-      x-gravitee-client-identifier: ba2fd62a350a38ea99d7226c07bf038267905ff3be49ab7bf917b0e45361b5a9
+      x-gravitee-client-identifier: 6ec4c28309a4772ef3b30a3d18dfb1085706dc5fe885acfd3fe8116b9cffb2af
       content-type: application/json; charset=UTF-8
       cache-control: max-age=86400
       vary: Accept-Encoding
-      date: Fri, 06 Jun 2025 13:39:20 GMT
-      x-gravitee-transaction-id: f56128b9-aef3-4522-a128-b9aef31522d7
-      x-gravitee-request-id: f56128b9-aef3-4522-a128-b9aef31522d7
+      date: Mon, 17 Nov 2025 08:20:50 GMT
+      x-gravitee-transaction-id: 6d0c1070-d9e2-4e86-8c10-70d9e25e86c3
+      x-gravitee-request-id: 6d0c1070-d9e2-4e86-8c10-70d9e25e86c3
       content-encoding: gzip
     body:
-      encoding: ''
-      file: no
       string: |-
         {
-          "ændret": "2024-04-24T21:01:20.921Z",
-          "geo_version": 9,
-          "geo_ændret": "2024-04-24T21:01:20.921Z",
+          "ændret": "2025-08-21T21:04:39.524Z",
+          "geo_version": 1,
+          "geo_ændret": "2025-08-21T21:04:39.524Z",
           "bbox": [
             12.56174278,
-            55.67167972,
-            12.60247309,
-            55.69652398
+            55.67188281,
+            12.59515507,
+            55.69226454
           ],
           "visueltcenter": [
-            12.58836986,
-            55.68591197
+            12.56971453,
+            55.68836538
           ],
-          "href": "https://api.dataforsyningen.dk/afstemningsomraader/101/14",
-          "dagi_id": "707672",
-          "nummer": "14",
-          "navn": "3. Øst",
+          "href": "https://api.dataforsyningen.dk/afstemningsomraader/101/64",
+          "dagi_id": "749404",
+          "nummer": "64",
+          "navn": "3. Sølvgade",
           "afstemningssted": {
-            "navn": "Nyboder Skole",
+            "navn": "Sølvgades Skole",
             "adgangsadresse": {
-              "href": "https://api.dataforsyningen.dk/adgangsadresser/0a3f507b-342a-32b8-e044-0003ba298018",
-              "id": "0a3f507b-342a-32b8-e044-0003ba298018",
-              "adressebetegnelse": "Øster Voldgade 15, 1350 København K",
+              "href": "https://api.dataforsyningen.dk/adgangsadresser/0a3f507b-097b-32b8-e044-0003ba298018",
+              "id": "0a3f507b-097b-32b8-e044-0003ba298018",
+              "adressebetegnelse": "Sølvgade 16, 1307 København K",
               "koordinater": [
-                12.58624455,
-                55.69057176
+                12.58324185,
+                55.68649336
               ]
             }
           },
@@ -79,5 +71,5 @@ http_interactions:
             "navn": "Hovedstaden"
           }
         }
-  recorded_at: 2025-06-06 13:39:21 GMT
-  recorded_with: vcr/1.7.0, webmockr/2.0.0
+  recorded_at: 2025-11-17 08:20:51
+recorded_with: VCR-vcr/2.0.0

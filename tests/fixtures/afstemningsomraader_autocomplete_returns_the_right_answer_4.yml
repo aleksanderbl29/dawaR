@@ -1,35 +1,27 @@
 http_interactions:
 - request:
-    method: get
+    method: GET
     uri: https://api.dataforsyningen.dk/afstemningsomraader/autocomplete?q=br%C3%B8nder
-    body:
-      encoding: ''
-      string: ''
-    headers: []
   response:
-    status:
-      status_code: 200
-      message: OK
+    status: 200
     headers:
-      x-gravitee-client-identifier: ba2fd62a350a38ea99d7226c07bf038267905ff3be49ab7bf917b0e45361b5a9
+      x-gravitee-client-identifier: 6ec4c28309a4772ef3b30a3d18dfb1085706dc5fe885acfd3fe8116b9cffb2af
       content-type: application/json; charset=UTF-8
       cache-control: max-age=86400
       vary: Accept-Encoding
-      date: Fri, 06 Jun 2025 13:39:25 GMT
-      x-gravitee-transaction-id: a4b4df9d-3687-434e-b4df-9d3687034e45
-      x-gravitee-request-id: a4b4df9d-3687-434e-b4df-9d3687034e45
+      date: Mon, 17 Nov 2025 08:20:55 GMT
+      x-gravitee-transaction-id: 72739d4c-686a-4695-b39d-4c686a7695f5
+      x-gravitee-request-id: 72739d4c-686a-4695-b39d-4c686a7695f5
       content-encoding: gzip
     body:
-      encoding: ''
-      file: no
       string: |-
         [
         {
           "tekst": "Brønderslev",
           "afstemningsområde": {
-            "ændret": "2024-05-16T21:01:20.858Z",
-            "geo_version": 7,
-            "geo_ændret": "2024-05-16T21:01:20.858Z",
+            "ændret": "2025-09-11T21:02:14.519Z",
+            "geo_version": 8,
+            "geo_ændret": "2025-09-11T21:02:14.519Z",
             "bbox": [
               9.8362436,
               57.21532223,
@@ -85,9 +77,9 @@ http_interactions:
         }, {
           "tekst": "Ø. Brønderslev",
           "afstemningsområde": {
-            "ændret": "2025-01-14T22:03:26.490Z",
-            "geo_version": 6,
-            "geo_ændret": "2024-05-16T21:01:20.858Z",
+            "ændret": "2025-09-11T21:02:14.519Z",
+            "geo_version": 7,
+            "geo_ændret": "2025-09-11T21:02:14.519Z",
             "bbox": [
               9.92807169,
               57.18591894,
@@ -143,9 +135,9 @@ http_interactions:
         }, {
           "tekst": "Agersted",
           "afstemningsområde": {
-            "ændret": "2024-05-16T21:01:20.858Z",
-            "geo_version": 6,
-            "geo_ændret": "2024-05-16T21:01:20.858Z",
+            "ændret": "2025-09-11T21:02:14.519Z",
+            "geo_version": 7,
+            "geo_ændret": "2025-09-11T21:02:14.519Z",
             "bbox": [
               10.33204359,
               57.17772902,
@@ -201,9 +193,9 @@ http_interactions:
         }, {
           "tekst": "Dronninglund",
           "afstemningsområde": {
-            "ændret": "2024-05-16T21:01:20.858Z",
-            "geo_version": 6,
-            "geo_ændret": "2024-05-16T21:01:20.858Z",
+            "ændret": "2025-09-11T21:02:14.519Z",
+            "geo_version": 7,
+            "geo_ændret": "2025-09-11T21:02:14.519Z",
             "bbox": [
               10.18432302,
               57.10527796,
@@ -257,11 +249,69 @@ http_interactions:
             }
           }
         }, {
+          "tekst": "Flauenskjold",
+          "afstemningsområde": {
+            "ændret": "2025-09-11T21:02:14.519Z",
+            "geo_version": 10,
+            "geo_ændret": "2025-09-11T21:02:14.519Z",
+            "bbox": [
+              10.22907863,
+              57.19617684,
+              10.3841454,
+              57.27818869
+            ],
+            "visueltcenter": [
+              10.31368242,
+              57.2376556
+            ],
+            "href": "https://api.dataforsyningen.dk/afstemningsomraader/810/4",
+            "dagi_id": "700996",
+            "nummer": "4",
+            "navn": "Flauenskjold",
+            "afstemningssted": {
+              "navn": "Flauenskjold Kulturhus",
+              "adgangsadresse": {
+                "href": "https://api.dataforsyningen.dk/adgangsadresser/0a3f5099-7dfe-32b8-e044-0003ba298018",
+                "id": "0a3f5099-7dfe-32b8-e044-0003ba298018",
+                "adressebetegnelse": "Ålborgvej 583, Flauenskjold, 9330 Dronninglund",
+                "koordinater": [
+                  10.28644042,
+                  57.2497663
+                ]
+              }
+            },
+            "kommune": {
+              "href": "https://api.dataforsyningen.dk/kommuner/0810",
+              "kode": "0810",
+              "navn": "Brønderslev"
+            },
+            "region": {
+              "href": "https://api.dataforsyningen.dk/regioner/1081",
+              "kode": "1081",
+              "navn": "Region Nordjylland"
+            },
+            "opstillingskreds": {
+              "href": "https://api.dataforsyningen.dk/opstillingskredse/86",
+              "nummer": "86",
+              "navn": "Brønderslev"
+            },
+            "storkreds": {
+              "href": "https://api.dataforsyningen.dk/storkredse/10",
+              "nummer": "10",
+              "navn": "Nordjylland"
+            },
+            "valglandsdel": {
+              "href": "https://api.dataforsyningen.dk/valglandsdele/C",
+              "bogstav": "C",
+              "navn": "Midtjylland-Nordjylland"
+            }
+          }
+        }, {
           "tekst": "Hjallerup",
           "afstemningsområde": {
-            "ændret": "2024-05-16T21:01:20.858Z",
-            "geo_version": 6,
-            "geo_ændret": "2024-05-16T21:01:20.858Z",
+            "ændret": "2025-09-11T21:02:14.519Z",
+            "geo_version": 7,
+            "geo_ændret": "2025-09-11T21:02:14.519Z",
             "bbox": [
               10.09803145,
               57.11134647,
@@ -279,12 +329,12 @@ http_interactions:
             "afstemningssted": {
               "navn": "Hjallerup Kulturhus",
               "adgangsadresse": {
-                "href": "https://api.dataforsyningen.dk/adgangsadresser/0a3f5099-6f13-32b8-e044-0003ba298018",
-                "id": "0a3f5099-6f13-32b8-e044-0003ba298018",
-                "adressebetegnelse": "Nørre Alle 3A, 9320 Hjallerup",
+                "href": "https://api.dataforsyningen.dk/adgangsadresser/0a3f5099-6f14-32b8-e044-0003ba298018",
+                "id": "0a3f5099-6f14-32b8-e044-0003ba298018",
+                "adressebetegnelse": "Nørre Alle 3B, 9320 Hjallerup",
                 "koordinater": [
-                  10.1463627,
-                  57.16949185
+                  10.14569223,
+                  57.16971583
                 ]
               }
             },
@@ -317,9 +367,9 @@ http_interactions:
         }, {
           "tekst": "Klokkerholm",
           "afstemningsområde": {
-            "ændret": "2024-05-16T21:01:20.858Z",
-            "geo_version": 6,
-            "geo_ændret": "2024-05-16T21:01:20.858Z",
+            "ændret": "2025-09-11T21:02:14.519Z",
+            "geo_version": 7,
+            "geo_ændret": "2025-09-11T21:02:14.519Z",
             "bbox": [
               10.03035957,
               57.14848765,
@@ -375,9 +425,9 @@ http_interactions:
         }, {
           "tekst": "Hallund",
           "afstemningsområde": {
-            "ændret": "2024-05-16T21:01:20.858Z",
-            "geo_version": 5,
-            "geo_ændret": "2024-05-16T21:01:20.858Z",
+            "ændret": "2025-09-11T21:02:14.519Z",
+            "geo_version": 6,
+            "geo_ændret": "2025-09-11T21:02:14.519Z",
             "bbox": [
               10.02869354,
               57.20081345,
@@ -431,69 +481,11 @@ http_interactions:
             }
           }
         }, {
-          "tekst": "Jerslev",
-          "afstemningsområde": {
-            "ændret": "2024-05-16T21:01:20.858Z",
-            "geo_version": 6,
-            "geo_ændret": "2024-05-16T21:01:20.858Z",
-            "bbox": [
-              9.98872135,
-              57.24536942,
-              10.22398553,
-              57.33998437
-            ],
-            "visueltcenter": [
-              10.14903723,
-              57.29432864
-            ],
-            "href": "https://api.dataforsyningen.dk/afstemningsomraader/810/70",
-            "dagi_id": "711454",
-            "nummer": "70",
-            "navn": "Jerslev",
-            "afstemningssted": {
-              "navn": "Borgen Jerslev",
-              "adgangsadresse": {
-                "href": "https://api.dataforsyningen.dk/adgangsadresser/0a3f5099-3afc-32b8-e044-0003ba298018",
-                "id": "0a3f5099-3afc-32b8-e044-0003ba298018",
-                "adressebetegnelse": "Borgergade 30, 9740 Jerslev J",
-                "koordinater": [
-                  10.08957723,
-                  57.28428119
-                ]
-              }
-            },
-            "kommune": {
-              "href": "https://api.dataforsyningen.dk/kommuner/0810",
-              "kode": "0810",
-              "navn": "Brønderslev"
-            },
-            "region": {
-              "href": "https://api.dataforsyningen.dk/regioner/1081",
-              "kode": "1081",
-              "navn": "Region Nordjylland"
-            },
-            "opstillingskreds": {
-              "href": "https://api.dataforsyningen.dk/opstillingskredse/86",
-              "nummer": "86",
-              "navn": "Brønderslev"
-            },
-            "storkreds": {
-              "href": "https://api.dataforsyningen.dk/storkredse/10",
-              "nummer": "10",
-              "navn": "Nordjylland"
-            },
-            "valglandsdel": {
-              "href": "https://api.dataforsyningen.dk/valglandsdele/C",
-              "bogstav": "C",
-              "navn": "Midtjylland-Nordjylland"
-            }
-          }
-        }, {
           "tekst": "Serritslev",
           "afstemningsområde": {
-            "ændret": "2024-05-16T21:01:20.858Z",
-            "geo_version": 6,
-            "geo_ændret": "2024-05-16T21:01:20.858Z",
+            "ændret": "2025-09-11T21:02:14.519Z",
+            "geo_version": 7,
+            "geo_ændret": "2025-09-11T21:02:14.519Z",
             "bbox": [
               9.91774655,
               57.28828128,
@@ -549,9 +541,9 @@ http_interactions:
         }, {
           "tekst": "Asaa",
           "afstemningsområde": {
-            "ændret": "2024-05-16T21:01:20.858Z",
-            "geo_version": 6,
-            "geo_ændret": "2024-05-16T21:01:20.858Z",
+            "ændret": "2025-09-11T21:02:14.519Z",
+            "geo_version": 7,
+            "geo_ændret": "2025-09-11T21:02:14.519Z",
             "bbox": [
               10.30987815,
               57.06944718,
@@ -605,69 +597,11 @@ http_interactions:
             }
           }
         }, {
-          "tekst": "Flauenskjold",
-          "afstemningsområde": {
-            "ændret": "2024-05-16T21:01:20.858Z",
-            "geo_version": 9,
-            "geo_ændret": "2024-05-16T21:01:20.858Z",
-            "bbox": [
-              10.22907863,
-              57.19617684,
-              10.3841454,
-              57.27818869
-            ],
-            "visueltcenter": [
-              10.31368242,
-              57.2376556
-            ],
-            "href": "https://api.dataforsyningen.dk/afstemningsomraader/810/4",
-            "dagi_id": "700996",
-            "nummer": "4",
-            "navn": "Flauenskjold",
-            "afstemningssted": {
-              "navn": "Jyske Ås Kulturhus",
-              "adgangsadresse": {
-                "href": "https://api.dataforsyningen.dk/adgangsadresser/0a3f5099-7dfe-32b8-e044-0003ba298018",
-                "id": "0a3f5099-7dfe-32b8-e044-0003ba298018",
-                "adressebetegnelse": "Ålborgvej 583, Flauenskjold, 9330 Dronninglund",
-                "koordinater": [
-                  10.28644042,
-                  57.2497663
-                ]
-              }
-            },
-            "kommune": {
-              "href": "https://api.dataforsyningen.dk/kommuner/0810",
-              "kode": "0810",
-              "navn": "Brønderslev"
-            },
-            "region": {
-              "href": "https://api.dataforsyningen.dk/regioner/1081",
-              "kode": "1081",
-              "navn": "Region Nordjylland"
-            },
-            "opstillingskreds": {
-              "href": "https://api.dataforsyningen.dk/opstillingskredse/86",
-              "nummer": "86",
-              "navn": "Brønderslev"
-            },
-            "storkreds": {
-              "href": "https://api.dataforsyningen.dk/storkredse/10",
-              "nummer": "10",
-              "navn": "Nordjylland"
-            },
-            "valglandsdel": {
-              "href": "https://api.dataforsyningen.dk/valglandsdele/C",
-              "bogstav": "C",
-              "navn": "Midtjylland-Nordjylland"
-            }
-          }
-        }, {
           "tekst": "Stenum",
           "afstemningsområde": {
-            "ændret": "2024-05-16T21:01:20.858Z",
-            "geo_version": 6,
-            "geo_ændret": "2024-05-16T21:01:20.858Z",
+            "ændret": "2025-09-11T21:02:14.519Z",
+            "geo_version": 7,
+            "geo_ændret": "2025-09-11T21:02:14.519Z",
             "bbox": [
               9.82422669,
               57.28834145,
@@ -723,9 +657,9 @@ http_interactions:
         }, {
           "tekst": "Thise",
           "afstemningsområde": {
-            "ændret": "2024-05-16T21:01:20.858Z",
-            "geo_version": 6,
-            "geo_ændret": "2024-05-16T21:01:20.858Z",
+            "ændret": "2025-09-11T21:02:14.519Z",
+            "geo_version": 7,
+            "geo_ændret": "2025-09-11T21:02:14.519Z",
             "bbox": [
               9.73843165,
               57.21641023,
@@ -778,7 +712,65 @@ http_interactions:
               "navn": "Midtjylland-Nordjylland"
             }
           }
+        }, {
+          "tekst": "Jerslev",
+          "afstemningsområde": {
+            "ændret": "2025-09-11T21:02:14.519Z",
+            "geo_version": 7,
+            "geo_ændret": "2025-09-11T21:02:14.519Z",
+            "bbox": [
+              9.98872135,
+              57.24536942,
+              10.22398553,
+              57.33998437
+            ],
+            "visueltcenter": [
+              10.14903723,
+              57.29432864
+            ],
+            "href": "https://api.dataforsyningen.dk/afstemningsomraader/810/70",
+            "dagi_id": "711454",
+            "nummer": "70",
+            "navn": "Jerslev",
+            "afstemningssted": {
+              "navn": "Hallen på Toftegårdsskolen",
+              "adgangsadresse": {
+                "href": "https://api.dataforsyningen.dk/adgangsadresser/0a3f5099-52f2-32b8-e044-0003ba298018",
+                "id": "0a3f5099-52f2-32b8-e044-0003ba298018",
+                "adressebetegnelse": "Sdr Ringgade 79, 9740 Jerslev J",
+                "koordinater": [
+                  10.0945862,
+                  57.28189364
+                ]
+              }
+            },
+            "kommune": {
+              "href": "https://api.dataforsyningen.dk/kommuner/0810",
+              "kode": "0810",
+              "navn": "Brønderslev"
+            },
+            "region": {
+              "href": "https://api.dataforsyningen.dk/regioner/1081",
+              "kode": "1081",
+              "navn": "Region Nordjylland"
+            },
+            "opstillingskreds": {
+              "href": "https://api.dataforsyningen.dk/opstillingskredse/86",
+              "nummer": "86",
+              "navn": "Brønderslev"
+            },
+            "storkreds": {
+              "href": "https://api.dataforsyningen.dk/storkredse/10",
+              "nummer": "10",
+              "navn": "Nordjylland"
+            },
+            "valglandsdel": {
+              "href": "https://api.dataforsyningen.dk/valglandsdele/C",
+              "bogstav": "C",
+              "navn": "Midtjylland-Nordjylland"
+            }
+          }
         }
         ]
-  recorded_at: 2025-06-06 13:39:25 GMT
-  recorded_with: vcr/1.7.0, webmockr/2.0.0
+  recorded_at: 2025-11-17 08:20:55
+recorded_with: VCR-vcr/2.0.0
