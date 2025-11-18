@@ -3,4 +3,4 @@
 0 errors | 0 warnings | 1 note
 
 * This is a new release.
-* This fixes the NOTEs that appear on CRAN checks currently.
+* This fixes the test failures that appear on CRAN checks currently.

@@ -207,7 +207,7 @@ reverse <- function(section, x, y, verbose = TRUE, type = NULL, ...) {
 
   section_info(section, verbose, type = "reverse")
 
-  dawa(
+  response <- dawa(
     section = section,
     append_to_url = "reverse",
     verbose = FALSE,
@@ -216,6 +216,15 @@ reverse <- function(section, x, y, verbose = TRUE, type = NULL, ...) {
     srid = coord,
     ...
   )
+
+  if (is.null(response)) {
+    if (verbose) {
+      cli::cli_alert_warning("The API did not return any data.")
+    }
+    return(NULL)
+  }
+
+  return(response)
 }
 
 #' Base function for interacting with `autocomplete` of sections.
@@ -243,11 +252,17 @@ autocomplete <- function(section, input, ...) {
     return(NULL) # Exit early if no connection is detected
   }
 
-  dawa(
+  response <- dawa(
     section = section,
     append_to_url = "autocomplete",
     verbose = FALSE,
     q = input,
     ... = ...
   )
+
+  if (is.null(response)) {
+    return(NULL)
+  }
+
+  return(response)
 }

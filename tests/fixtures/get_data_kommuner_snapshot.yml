@@ -1,28 +1,20 @@
 http_interactions:
 - request:
-    method: get
+    method: GET
     uri: https://api.dataforsyningen.dk/kommuner?struktur=flad
-    body:
-      encoding: ''
-      string: ''
-    headers: []
   response:
-    status:
-      status_code: 200
-      message: OK
+    status: 200
     headers:
-      x-gravitee-client-identifier: ba2fd62a350a38ea99d7226c07bf038267905ff3be49ab7bf917b0e45361b5a9
+      x-gravitee-client-identifier: 6ec4c28309a4772ef3b30a3d18dfb1085706dc5fe885acfd3fe8116b9cffb2af
       access-control-allow-origin: '*'
       content-type: application/json; charset=UTF-8
       cache-control: max-age=86400
       vary: Accept-Encoding
-      date: Fri, 06 Jun 2025 13:39:27 GMT
-      x-gravitee-transaction-id: b904b815-faf7-4f4d-84b8-15faf78f4d3b
-      x-gravitee-request-id: b904b815-faf7-4f4d-84b8-15faf78f4d3b
+      date: Mon, 17 Nov 2025 08:20:57 GMT
+      x-gravitee-transaction-id: 85f781f5-2f48-48b6-b781-f52f4848b685
+      x-gravitee-request-id: 85f781f5-2f48-48b6-b781-f52f4848b685
       content-encoding: gzip
     body:
-      encoding: ''
-      file: no
       string: |-
         [
         {
@@ -1184,9 +1176,9 @@ http_interactions:
           "regionskode": "1082",
           "udenforkommuneinddeling": false,
           "regionsnavn": "Region Midtjylland",
-          "ændret": "2025-02-04T22:02:46.244Z",
-          "geo_ændret": "2025-02-04T22:02:46.244Z",
-          "geo_version": 17,
+          "ændret": "2025-07-11T21:05:02.274Z",
+          "geo_ændret": "2025-07-11T21:05:02.274Z",
+          "geo_version": 18,
           "bbox_xmin": 8.10933285,
           "bbox_ymin": 56.34631007,
           "bbox_xmax": 8.52717395,
@@ -1611,5 +1603,5 @@ http_interactions:
           "visueltcenter_y": 57.4684031
         }
         ]
-  recorded_at: 2025-06-06 13:39:26 GMT
-  recorded_with: vcr/1.7.0, webmockr/2.0.0
+  recorded_at: 2025-11-17 08:20:57
+recorded_with: VCR-vcr/2.0.0

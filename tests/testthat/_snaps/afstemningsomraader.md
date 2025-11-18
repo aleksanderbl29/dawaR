@@ -5,7 +5,7 @@
     Message
       > Requesting `afstemningsomraader - reverse` from DAWA
     Output
-      [1] "Nyboder Skole"
+      [1] "Sølvgades Skole"
 
 # Voting reverse geocode returns information as dataframe
 
@@ -14,10 +14,10 @@
     Message
       > Requesting `afstemningsomraader - reverse` from DAWA
     Output
-                 name                             address municipality
-      1 Nyboder Skole Øster Voldgade 15, 1350 København K    København
-                    region constituency
-      1 Region Hovedstaden     Indre By
+                   name                       address municipality             region
+      1 Sølvgades Skole Sølvgade 16, 1307 København K    København Region Hovedstaden
+        constituency
+      1     Indre By
 
 # Voting reverse geocode returns information as list
 
@@ -27,10 +27,10 @@
       > Requesting `afstemningsomraader - reverse` from DAWA
     Output
       $name
-      [1] "Nyboder Skole"
+      [1] "Sølvgades Skole"
       
       $address
-      [1] "Øster Voldgade 15, 1350 København K"
+      [1] "Sølvgade 16, 1307 København K"
       
       $municipality
       [1] "København"
@@ -47,7 +47,7 @@
     Code
       vote_ac(input = "Dok")
     Output
-      [1] "DOKK1"
+      [1] "DOKK1, Aarhus C"
 
 # Afstemningsomraader autocomplete returns the right answer for 'Æbel'
 

@@ -60,13 +60,13 @@
       > Requesting `afstemningsomraader - reverse` from DAWA
     Output
       $ændret
-      [1] "2024-05-08T21:01:09.316Z"
+      [1] "2025-08-29T21:03:18.900Z"
       
       $geo_version
-      [1] 7
+      [1] 8
       
       $geo_ændret
-      [1] "2024-05-08T21:01:09.316Z"
+      [1] "2025-07-08T21:03:05.192Z"
       
       $bbox
       $bbox[[1]]
@@ -100,7 +100,7 @@
       [1] "10"
       
       $navn
-      [1] "DOKK1"
+      [1] "DOKK1, Aarhus C"
       
       $afstemningssted
       $afstemningssted$navn
