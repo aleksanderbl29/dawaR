@@ -14,7 +14,7 @@
 ## Citation
 
 Source:
-[`inst/CITATION`](https://github.com/aleksanderbl29/dawaR/blob/v0.3.1/inst/CITATION)
+[`inst/CITATION`](https://github.com/aleksanderbl29/dawaR/blob/main/inst/CITATION)
 
 Bang-Larsen A (2025). *dawaR: An API Wrapper for 'DAWA' - 'The Danish
 Address Web API'*. R package version 0.3.1,

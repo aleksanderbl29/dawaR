@@ -17,7 +17,7 @@ current status of the API.
 
 ``` r
 status_check()
-#> ✔ All systems are operational
+#> ✖ Arkiv kort is not operational
 ```
 
 It is also possible to return a dataframe specifying the individual
@@ -27,11 +27,11 @@ further analyses.
 
 ``` r
 status_check(return_df = TRUE)
-#> ✔ All systems are operational
+#> ✖ Arkiv kort is not operational
 #>                      service status
-#> 1 /rest/gsearch/v2.0/adresse     OK
-#> 2                   Adresser     OK
-#> 3                 Arkiv kort     OK
+#> 1                 Arkiv kort   Down
+#> 2 /rest/gsearch/v2.0/adresse     OK
+#> 3                   Adresser     OK
 #> 4         Dataforsyningen.dk     OK
 #> 5                       FTPS     OK
 #> 6           WMS:forvaltning2     OK
