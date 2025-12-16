@@ -19,6 +19,11 @@ developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.re
 The goal of `{dawaR}` is to make access to the Danish Web Address API
 convenient for many more users.
 
+> The deprecation date for DAWA has been published. The service will be
+> shut down on the first of July 2026. Address data on DAWA (and in this
+> package) will not be updated after april 2026. Read more:
+> <https://dataforsyningen.dk/data/4924>
+
 ## Installation
 
 You can install `{dawaR}` from CRAN with:
@@ -61,6 +66,8 @@ started](https://dawar.aleksanderbl.dk/articles/dawaR.html) and the
 {dawaR}](https://dawar.aleksanderbl.dk/articles/printing_maps.html).
 
 ## DAWA *will* be phased out
+
+> THE DATE IS 1st of July 2026
 
 The government entity that maintains the Danish Web Address API has
 disclosed that the API will be phased out at some point. When that time
