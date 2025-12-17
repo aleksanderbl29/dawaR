@@ -48,7 +48,7 @@ received.
       #> 5  389107 0155        Dragør        1084                   FALSE
       #> 6  389108 0157      Gentofte        1084                   FALSE
       #>          regionsnavn              ændret          geo_ændret geo_version
-      #> 1 Region Hovedstaden 2024-10-04 21:02:54 2024-10-04 21:02:54          21
+      #> 1 Region Hovedstaden 2025-12-16 22:02:01 2025-12-16 22:02:01          22
       #> 2 Region Hovedstaden 2024-01-16 22:03:35 2024-01-16 22:03:35           7
       #> 3 Region Hovedstaden 2025-05-14 21:02:41 2025-05-14 21:02:41           9
       #> 4 Region Hovedstaden 2024-01-10 22:10:55 2024-01-10 22:10:55           7

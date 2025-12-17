@@ -2,6 +2,8 @@
 
 ## dawaR 0.3.2 (2025-12-16)
 
+CRAN release: 2025-12-16
+
 - This is a small internal change.
 - Removes tests for autocomplete functionality.
   - This function will be removed completely at some point (july 2026 at
