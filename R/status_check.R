@@ -38,9 +38,9 @@ status_check <- function(return_df = FALSE, error_if_unavailable = FALSE) {
   rss_resp$item_title
 
   services <- list(
+    "Arkiv kort",
     "/rest/gsearch/v2.0/adresse",
     "Adresser",
-    "Arkiv kort",
     "Dataforsyningen.dk",
     "FTPS",
     "WMS:forvaltning2",
@@ -50,7 +50,10 @@ status_check <- function(return_df = FALSE, error_if_unavailable = FALSE) {
 
   # nolint start
   status <- sapply(seq_along(services), function(i) {
-    if (nchar(rss_resp$item_title[i]) == nchar(paste0(services[i], " - Operational"))) {
+    if (
+      nchar(rss_resp$item_title[i]) ==
+        nchar(paste0(services[i], " - Operational"))
+    ) {
       "OK"
     } else {
       "Down"
@@ -74,7 +77,6 @@ status_check <- function(return_df = FALSE, error_if_unavailable = FALSE) {
     not_op <- dataframe[dataframe$status != "OK", ]
     offline_service <- not_op$service
   }
-
 
   if (operational == TRUE) {
     cli::cli_alert_success("All systems are operational")
@@ -107,13 +109,15 @@ connection_check <- function() {
   http_url <- "https://api.dataforsyningen.dk/postnumre"
   if (.Platform$OS.type == "unix") {
     suppressWarnings(
-      try(curl::curl_download(http_url, temp_file, quiet = TRUE, ),
+      try(
+        curl::curl_download(http_url, temp_file, quiet = TRUE, ),
         silent = TRUE
       )
     )
   } else {
     suppressWarnings(
-      try(utils::download.file(http_url, temp_file, quiet = TRUE),
+      try(
+        utils::download.file(http_url, temp_file, quiet = TRUE),
         silent = TRUE
       )
     )

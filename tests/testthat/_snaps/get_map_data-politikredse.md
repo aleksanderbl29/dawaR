@@ -15,7 +15,7 @@
       Geodetic CRS:  WGS 84
       First 10 features:
          dagi_id kode                                    navn              ændret
-      1   403210 1460                     Nordjyllands Politi 2024-10-04 21:02:54
+      1   403210 1460                     Nordjyllands Politi 2025-12-16 22:02:01
       2   403214 1461                      Østjyllands Politi 2025-02-11 22:03:01
       3   403221 1462            Midt- og Vestjyllands Politi 2025-07-11 21:05:02
       4   403215 1463                   Sydøstjyllands Politi 2025-05-14 21:02:41
@@ -26,7 +26,7 @@
       9   403218 1468                    Nordsjællands Politi 2025-05-14 21:02:41
       10  403219 1469              Københavns Vestegns Politi 2025-05-14 21:02:41
                   geo_ændret geo_version visueltcenter_x visueltcenter_y
-      1  2024-10-04 21:02:54          31       10.112820        57.30715
+      1  2025-12-16 22:02:01          32       10.112820        57.30715
       2  2025-02-11 22:03:01          23       10.656381        56.38459
       3  2025-07-11 21:05:02          37        9.077020        56.24601
       4  2025-05-14 21:02:41          27        9.298166        55.76097
@@ -63,7 +63,7 @@
       Geodetic CRS:  WGS 84
       First 10 features:
          dagi_id kode                                    navn              ændret
-      1   403210 1460                     Nordjyllands Politi 2024-10-04 21:02:54
+      1   403210 1460                     Nordjyllands Politi 2025-12-16 22:02:01
       2   403214 1461                      Østjyllands Politi 2025-02-11 22:03:01
       3   403221 1462            Midt- og Vestjyllands Politi 2025-07-11 21:05:02
       4   403215 1463                   Sydøstjyllands Politi 2025-05-14 21:02:41
@@ -74,7 +74,7 @@
       9   403218 1468                    Nordsjællands Politi 2025-05-14 21:02:41
       10  403219 1469              Københavns Vestegns Politi 2025-05-14 21:02:41
                   geo_ændret geo_version visueltcenter_x visueltcenter_y
-      1  2024-10-04 21:02:54          31       10.112820        57.30715
+      1  2025-12-16 22:02:01          32       10.112820        57.30715
       2  2025-02-11 22:03:01          23       10.656381        56.38459
       3  2025-07-11 21:05:02          37        9.077020        56.24601
       4  2025-05-14 21:02:41          27        9.298166        55.76097
@@ -113,7 +113,7 @@
       Geodetic CRS:  WGS 84
       First 10 features:
          dagi_id kode                                    navn              ændret
-      1   403210 1460                     Nordjyllands Politi 2024-10-04 21:02:54
+      1   403210 1460                     Nordjyllands Politi 2025-12-16 22:02:01
       2   403214 1461                      Østjyllands Politi 2025-02-11 22:03:01
       3   403221 1462            Midt- og Vestjyllands Politi 2025-07-11 21:05:02
       4   403215 1463                   Sydøstjyllands Politi 2025-05-14 21:02:41
@@ -124,7 +124,7 @@
       9   403218 1468                    Nordsjællands Politi 2025-05-14 21:02:41
       10  403219 1469              Københavns Vestegns Politi 2025-05-14 21:02:41
                   geo_ændret geo_version visueltcenter_x visueltcenter_y
-      1  2024-10-04 21:02:54          31       10.112820        57.30715
+      1  2025-12-16 22:02:01          32       10.112820        57.30715
       2  2025-02-11 22:03:01          23       10.656381        56.38459
       3  2025-07-11 21:05:02          37        9.077020        56.24601
       4  2025-05-14 21:02:41          27        9.298166        55.76097
@@ -161,7 +161,7 @@
       Geodetic CRS:  WGS 84
       First 10 features:
          dagi_id kode                                    navn              ændret
-      1   403210 1460                     Nordjyllands Politi 2024-10-04 21:02:54
+      1   403210 1460                     Nordjyllands Politi 2025-12-16 22:02:01
       2   403214 1461                      Østjyllands Politi 2025-02-11 22:03:01
       3   403221 1462            Midt- og Vestjyllands Politi 2025-07-11 21:05:02
       4   403215 1463                   Sydøstjyllands Politi 2025-05-14 21:02:41
@@ -172,7 +172,7 @@
       9   403218 1468                    Nordsjællands Politi 2025-05-14 21:02:41
       10  403219 1469              Københavns Vestegns Politi 2025-05-14 21:02:41
                   geo_ændret geo_version visueltcenter_x visueltcenter_y
-      1  2024-10-04 21:02:54          31       10.112820        57.30715
+      1  2025-12-16 22:02:01          32       10.112820        57.30715
       2  2025-02-11 22:03:01          23       10.656381        56.38459
       3  2025-07-11 21:05:02          37        9.077020        56.24601
       4  2025-05-14 21:02:41          27        9.298166        55.76097
@@ -209,7 +209,7 @@
       Geodetic CRS:  WGS 84
       First 10 features:
          dagi_id kode                                    navn              ændret
-      1   403210 1460                     Nordjyllands Politi 2024-10-04 21:02:54
+      1   403210 1460                     Nordjyllands Politi 2025-12-16 22:02:01
       2   403214 1461                      Østjyllands Politi 2025-02-11 22:03:01
       3   403221 1462            Midt- og Vestjyllands Politi 2025-07-11 21:05:02
       4   403215 1463                   Sydøstjyllands Politi 2025-05-14 21:02:41
@@ -220,7 +220,7 @@
       9   403218 1468                    Nordsjællands Politi 2025-05-14 21:02:41
       10  403219 1469              Københavns Vestegns Politi 2025-05-14 21:02:41
                   geo_ændret geo_version visueltcenter_x visueltcenter_y
-      1  2024-10-04 21:02:54          31       10.112820        57.30715
+      1  2025-12-16 22:02:01          32       10.112820        57.30715
       2  2025-02-11 22:03:01          23       10.656381        56.38459
       3  2025-07-11 21:05:02          37        9.077020        56.24601
       4  2025-05-14 21:02:41          27        9.298166        55.76097

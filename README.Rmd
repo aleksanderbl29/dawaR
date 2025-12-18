@@ -27,6 +27,11 @@ knitr::opts_chunk$set(
 
 The goal of `{dawaR}` is to make access to the Danish Web Address API convenient for many more users.
 
+> The deprecation date for DAWA has been published.
+> The service will be shut down on the first of July 2026.
+> Address data on DAWA (and in this package) will not be updated after april 2026.
+> Read more: [https://dataforsyningen.dk/data/4924](https://dataforsyningen.dk/data/4924)
+
 ## Installation
 
 ```{r check_cran, include=FALSE}
@@ -74,6 +79,8 @@ If you install the package in an environment configured with [`renv`](https://rs
 Be sure to see the [getting started](https://dawar.aleksanderbl.dk/articles/dawaR.html) and the [guide on how to make maps with {dawaR}](https://dawar.aleksanderbl.dk/articles/printing_maps.html).
 
 ## DAWA *will* be phased out
+
+> THE DATE IS 1st of July 2026
 
 The government entity that maintains the Danish Web Address API has disclosed that the API will be phased out at some point. When that time comes, this package will become deprecated and I will have another package ready to provide the same functionality. The service that is to replace DAWA is called Datafordeleren (The Data Distribution) and is in the works. Some functionality in relation to The Central Register of Buildings (BBR) has already been moved to the new service.
 
