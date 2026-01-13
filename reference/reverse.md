@@ -59,13 +59,13 @@ if (connection_check()) {
 }
 #> → Requesting `regioner - reverse` from DAWA
 #> $ændret
-#> [1] "2025-12-16T22:02:01.924Z"
+#> [1] "2026-01-01T22:02:26.282Z"
 #> 
 #> $geo_version
-#> [1] 32
+#> [1] 33
 #> 
 #> $geo_ændret
-#> [1] "2025-12-16T22:02:01.924Z"
+#> [1] "2026-01-01T22:02:26.282Z"
 #> 
 #> $bbox
 #> $bbox[[1]]
@@ -83,10 +83,10 @@ if (connection_check()) {
 #> 
 #> $visueltcenter
 #> $visueltcenter[[1]]
-#> [1] 12.27937
+#> [1] 12.28011
 #> 
 #> $visueltcenter[[2]]
-#> [1] 55.97239
+#> [1] 55.97838
 #> 
 #> 
 #> $dagi_id
