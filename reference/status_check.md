@@ -49,15 +49,15 @@ if (connection_check()) {
 
   status_check(return_df = TRUE)
 }
-#> ✖ Arkiv kort is not operational
-#> ✖ Arkiv kort is not operational
+#> ✖ /rest/gsearch/v2.0/adresse, Adresser, Dataforsyningen.dk, FTPS, WMS:forvaltning2, and sdfekort.dk are not operational
+#> ✖ /rest/gsearch/v2.0/adresse, Adresser, Dataforsyningen.dk, FTPS, WMS:forvaltning2, and sdfekort.dk are not operational
 #>                      service status
-#> 1                 Arkiv kort   Down
-#> 2 /rest/gsearch/v2.0/adresse     OK
-#> 3                   Adresser     OK
-#> 4         Dataforsyningen.dk     OK
-#> 5                       FTPS     OK
-#> 6           WMS:forvaltning2     OK
+#> 1                 Arkiv kort     OK
+#> 2 /rest/gsearch/v2.0/adresse   Down
+#> 3                   Adresser   Down
+#> 4         Dataforsyningen.dk   Down
+#> 5                       FTPS   Down
+#> 6           WMS:forvaltning2   Down
 #> 7    WMS:topo_skaermkort_DAF     OK
-#> 8                sdfekort.dk     OK
+#> 8                sdfekort.dk   Down
 ```

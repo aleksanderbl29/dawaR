@@ -6,6 +6,7 @@ This vignette is intended to help resolve issues when installing
 resolve the issue that is printed below.
 
 ``` r
+
 renv::install("aleksanderbl29/dawaR")
 #> # Downloading packages -------------------------------------------------------
 #> - Downloading sf from CRAN ...                  OK [18.6 Mb in 1.8s]
@@ -59,6 +60,7 @@ CRAN repo before installing the package.
 You can do as follows:
 
 ``` r
+
 options(repos = c(CRAN = "https://cran.rstudio.com/"))
 renv::remove("sf")
 renv::purge("sf")

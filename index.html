@@ -12,8 +12,8 @@
 <link rel="icon" sizes="any" href="favicon.ico">
 <link rel="manifest" href="site.webmanifest">
 <script src="lightswitch.js"></script><script src="deps/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link href="deps/bootstrap-5.3.1/bootstrap.min.css" rel="stylesheet">
-<script src="deps/bootstrap-5.3.1/bootstrap.bundle.min.js"></script><link href="deps/font-awesome-6.5.2/css/all.min.css" rel="stylesheet">
+<link href="deps/bootstrap-5.3.8/bootstrap.min.css" rel="stylesheet">
+<script src="deps/bootstrap-5.3.8/bootstrap.bundle.min.js"></script><link href="deps/font-awesome-6.5.2/css/all.min.css" rel="stylesheet">
 <link href="deps/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet">
 <script src="deps/headroom-0.11.0/headroom.min.js"></script><script src="deps/headroom-0.11.0/jQuery.headroom.min.js"></script><script src="deps/bootstrap-toc-1.0.1/bootstrap-toc.min.js"></script><script src="deps/clipboard.js-2.0.11/clipboard.min.js"></script><script src="deps/search-1.0.0/autocomplete.jquery.min.js"></script><script src="deps/search-1.0.0/fuse.min.js"></script><script src="deps/search-1.0.0/mark.min.js"></script><!-- pkgdown --><script src="pkgdown.js"></script><meta property="og:title" content="An API Wrapper for DAWA - The Danish Address Web API">
 <meta name="description" content="Functions for interacting with all sections of the official Danish Address Web API (also known as DAWA) &lt;https://api.dataforsyningen.dk&gt;. The development of this package is completely independent from the government agency, Klimadatastyrelsen, who maintains the API.">
@@ -79,7 +79,7 @@
 
 <p>The goal of <a href="https://dawar.aleksanderbl.dk/">dawaR</a> is to make access to the Danish Web Address API convenient for many more users.</p>
 <blockquote>
-<p>The deprecation date for DAWA has been published. The service will be shut down on the first of July 2026. Address data on DAWA (and in this package) will not be updated after april 2026. Read more: <a href="https://dataforsyningen.dk/data/4924" class="external-link uri">https://dataforsyningen.dk/data/4924</a></p>
+<p>The deprecation date for DAWA has been published. The service will be shut down on the first of October 2026. Address data on DAWA (and in this package) will not be updated after June 2026. Read more: <a href="https://dataforsyningen.dk/data/4924" class="external-link uri">https://dataforsyningen.dk/data/4924</a></p>
 </blockquote>
 <div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
@@ -99,7 +99,7 @@
 <p>You can install the latest development version of <a href="https://dawar.aleksanderbl.dk/">dawaR</a> from <a href="https://github.com/aleksanderbl29/dawaR" class="external-link">GitHub</a> with:</p>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co"># install.packages("devtools")</span></span>
-<span><span class="fu">devtools</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html" class="external-link">install_github</a></span><span class="op">(</span><span class="st">"aleksanderbl29/dawaR"</span><span class="op">)</span></span></code></pre></div>
+<span><span class="fu">devtools</span><span class="fu">::</span><span class="fu"><a href="https://devtools.r-lib.org/reference/install-deprecated.html" class="external-link">install_github</a></span><span class="op">(</span><span class="st">"aleksanderbl29/dawaR"</span><span class="op">)</span></span></code></pre></div>
 <p>If you install the package in an environment configured with <a href="https://rstudio.github.io/renv/index.html" class="external-link"><code>renv</code></a> on MacOS, please consult <code><a href="articles/renv-issues.html">vignette("renv-issues")</a></code> to ensure that <code><a href="reference/get_map_data.html">get_map_data()</a></code> works as intended.</p>
 </div>
 <div class="section level2">
@@ -111,7 +111,7 @@
 <h2 id="dawa-will-be-phased-out">DAWA <em>will</em> be phased out<a class="anchor" aria-label="anchor" href="#dawa-will-be-phased-out"></a>
 </h2>
 <blockquote>
-<p>THE DATE IS 1st of July 2026</p>
+<p>THE DATE IS 1st of October 2026</p>
 </blockquote>
 <p>The government entity that maintains the Danish Web Address API has disclosed that the API will be phased out at some point. When that time comes, this package will become deprecated and I will have another package ready to provide the same functionality. The service that is to replace DAWA is called Datafordeleren (The Data Distribution) and is in the works. Some functionality in relation to The Central Register of Buildings (BBR) has already been moved to the new service.</p>
 <p>If you know how to read danish (or use machine-translation) you can keep yourself up to date on <a href="https://dataforsyningen.dk/data/4924" class="external-link">this page</a>.</p>
@@ -163,7 +163,7 @@
 </div>
 
 <div class="pkgdown-footer-right">
-  <p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.2.0.</p>
+  <p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.2.1.</p>
 </div>
 
     </footer>

@@ -47,6 +47,7 @@ available sections in the API. The format is decided by `as_list`.
 ## Examples
 
 ``` r
+
 available_sections()
 #>  [1] "adgangsadresser"                   "adresser"                         
 #>  [3] "afstemningsomraader"               "autocomplete"                     

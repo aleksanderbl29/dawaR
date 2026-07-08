@@ -11,6 +11,7 @@ you can definitely load the entire
 [tidyverse](https://tidyverse.tidyverse.org) for convenience.
 
 ``` r
+
 library(dawaR)
 library(ggplot2)
 ```
@@ -22,6 +23,7 @@ request map data for all (98) danish municipalities. The danish word for
 *municipality* is *kommune* which is what we will request.
 
 ``` r
+
 municipalities <- get_map_data("kommuner")
 #> → Getting data on `kommuner`. This usually takes 13.13s.
 #> Fetching data from the API. This will take some time.
@@ -48,12 +50,12 @@ received.
       #> 5  389107 0155        Dragør        1084                   FALSE
       #> 6  389108 0157      Gentofte        1084                   FALSE
       #>          regionsnavn              ændret          geo_ændret geo_version
-      #> 1 Region Hovedstaden 2026-01-01 22:02:26 2026-01-01 22:02:26          23
+      #> 1 Region Hovedstaden 2026-03-27 22:17:36 2026-03-27 22:17:36          28
       #> 2 Region Hovedstaden 2024-01-16 22:03:35 2024-01-16 22:03:35           7
       #> 3 Region Hovedstaden 2025-05-14 21:02:41 2025-05-14 21:02:41           9
-      #> 4 Region Hovedstaden 2024-01-10 22:10:55 2024-01-10 22:10:55           7
+      #> 4 Region Hovedstaden 2026-02-16 22:06:23 2026-02-16 22:06:23           9
       #> 5 Region Hovedstaden 2023-03-24 22:28:38 2023-03-24 22:28:38           3
-      #> 6 Region Hovedstaden 2024-10-04 21:02:54 2024-10-04 21:02:54           7
+      #> 6 Region Hovedstaden 2026-02-26 22:13:10 2026-02-26 22:13:10           8
       #>   visueltcenter_x visueltcenter_y                       geometry
       #> 1        12.49391        55.70409 MULTIPOLYGON (((12.56767 55...
       #> 2        12.52373        55.67937 MULTIPOLYGON (((12.53735 55...
@@ -68,6 +70,7 @@ to print the map. I have also specified that the fill color should be
 based on the municipality name to make it a bit more colorful.
 
 ``` r
+
 ggplot(municipalities, aes(fill = navn)) +
   geom_sf() +
   cowplot::theme_map() +
@@ -83,7 +86,7 @@ danish voting precincts on the other hand, is somewhat more intensive.
 To ease the production of such maps, I will now demonstrate how easy it
 is to simplify the lines (without loss of substantial quality) to faster
 plot the map. We will use the
-[`rmapshaper::ms_simplify()`](https://rdrr.io/pkg/rmapshaper/man/ms_simplify.html)
+[`rmapshaper::ms_simplify()`](http://andyteucher.ca/rmapshaper/reference/ms_simplify.md)
 function to do this.
 
 First we get the data with
@@ -91,6 +94,7 @@ First we get the data with
 and provide the *afstemningsomraader* (voting areas) as the type.
 
 ``` r
+
 voting <- get_map_data("afstemningsomraader")
 #> → Getting data on `afstemningsomraader`. This usually takes 18.77s.
 #> Fetching data from the API. This will take some time.
@@ -101,10 +105,11 @@ voting <- get_map_data("afstemningsomraader")
 Then let’s quickly examine how many more polygons we now have to draw.
 
 ``` r
+
 nrow(municipalities)
 #> [1] 99
 nrow(voting)
-#> [1] 1315
+#> [1] 1314
 ```
 
 I have printed the amount of polygons for the municipality level as well
@@ -118,6 +123,7 @@ To accommodate this larger number of polygons we will simplify the lines
 that make up said polygons.
 
 ``` r
+
 voting_simplified <- rmapshaper::ms_simplify(
   voting,
   keep = 0.01,
@@ -128,6 +134,7 @@ voting_simplified <- rmapshaper::ms_simplify(
 After simplifying the data we can now plot it.
 
 ``` r
+
 ggplot(voting_simplified, aes(fill = kommunenavn, color = navn)) +
   geom_sf() +
   cowplot::theme_map() +
@@ -148,6 +155,7 @@ them as their own dataset/geom combos in
 [ggplot2](https://ggplot2.tidyverse.org).
 
 ``` r
+
 police <- get_map_data("politikredse")
 #> → Getting data on `politikredse`. This usually takes 14.14s.
 #> Fetching data from the API. This will take some time.
@@ -160,6 +168,7 @@ Then you can pass it to [ggplot2](https://ggplot2.tidyverse.org) as
 follows.
 
 ``` r
+
 ggplot() +
   geom_sf(
     data = police,

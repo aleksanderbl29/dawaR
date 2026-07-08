@@ -1,12 +1,12 @@
-pandoc: 3.1.11
-pkgdown: 2.2.0
+pandoc: 3.8.3
+pkgdown: 2.2.1
 pkgdown_sha: ~
 articles:
   dawaR: dawaR.html
   articles/printing_maps: printing_maps.html
   renv-issues: renv-issues.html
   status: status.html
-last_built: 2026-01-13T08:02Z
+last_built: 2026-07-08T04:55Z
 urls:
   reference: https://dawar.aleksanderbl.dk/reference
   article: https://dawar.aleksanderbl.dk/articles

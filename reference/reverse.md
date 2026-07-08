@@ -59,13 +59,13 @@ if (connection_check()) {
 }
 #> → Requesting `regioner - reverse` from DAWA
 #> $ændret
-#> [1] "2026-01-01T22:02:26.282Z"
+#> [1] "2026-03-27T22:17:36.249Z"
 #> 
 #> $geo_version
-#> [1] 33
+#> [1] 37
 #> 
 #> $geo_ændret
-#> [1] "2026-01-01T22:02:26.282Z"
+#> [1] "2026-03-27T22:17:36.249Z"
 #> 
 #> $bbox
 #> $bbox[[1]]
