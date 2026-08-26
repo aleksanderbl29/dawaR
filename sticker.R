@@ -20,8 +20,16 @@ p <- ggplot() +
   cowplot::theme_map() +
   theme(legend.position = "none")
 
-sticker(p,
-  package = "dawaR", p_size = 35, p_color = "black", s_x = 1, s_y = .75,
-  h_color = "#D41624", h_fill = "white",
-  s_width = 1.3, s_height = 1, filename = "inst/figures/sticker.png"
+sticker(
+  p,
+  package = "dawaR",
+  p_size = 35,
+  p_color = "black",
+  s_x = 1,
+  s_y = .75,
+  h_color = "#D41624",
+  h_fill = "white",
+  s_width = 1.3,
+  s_height = 1,
+  filename = "inst/figures/sticker.png"
 )
