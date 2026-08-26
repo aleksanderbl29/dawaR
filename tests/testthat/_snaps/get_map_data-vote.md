@@ -8,7 +8,7 @@
       Reading data to `st`.
       Converting map data to `sf` object
     Output
-      Simple feature collection with 1315 features and 23 fields
+      Simple feature collection with 1314 features and 23 fields
       Geometry type: MULTIPOLYGON
       Dimension:     XY
       Bounding box:  xmin: 8.07251 ymin: 54.55908 xmax: 15.1974 ymax: 57.75257
@@ -22,7 +22,7 @@
       5   710802      6     1. Nordvest         Kildevældsskolen
       6   711204      7 2. Sundbyvester        Sundby Idrætspark
       7   706166      8         2. Nord      Amager Fælled Skole
-      8   706562      9      2. Ørestad        Ørestad Gymnasium
+      8   706562      9      2. Ørestad            Ørestad Skole
       9   712286     10         2. Vest Skolen på Islands Brygge
       10  711926     11     3. Indre By             Rådhushallen
                      afstemningsstedadresseid
@@ -33,7 +33,7 @@
       5  0a3f507a-4387-32b8-e044-0003ba298018
       6  0a3f507a-6784-32b8-e044-0003ba298018
       7  0a3f507b-05f2-32b8-e044-0003ba298018
-      8  0a3f507b-3021-32b8-e044-0003ba298018
+      8  20d7372c-7d2b-4ee3-a55c-54da765f5d84
       9  0a3f507a-3e64-32b8-e044-0003ba298018
       10 0a3f507a-ec01-32b8-e044-0003ba298018
                     afstemningsstedadressebetegnelse afstemningssted_adgangspunkt_x
@@ -44,7 +44,7 @@
       5            Bellmansgade 5A, 2100 København Ø                       12.56941
       6             Englandsvej 61, 2300 København S                       12.59996
       7            Sundholmsvej 2A, 2300 København S                       12.59499
-      8      Ørestads Boulevard 75, 2300 København S                       12.58104
+      8     Arne Jacobsens Allé 21, 2300 København S                       12.58144
       9            Artillerivej 57, 2300 København S                       12.58333
       10           Rådhuspladsen 1, 1550 København V                       12.56958
          afstemningssted_adgangspunkt_y kommunekode kommunenavn regionskode
@@ -55,7 +55,7 @@
       5                        55.71540        0101   København        1084
       6                        55.65023        0101   København        1084
       7                        55.66245        0101   København        1084
-      8                        55.63175        0101   København        1084
+      8                        55.63111        0101   København        1084
       9                        55.66292        0101   København        1084
       10                       55.67563        0101   København        1084
                 regionsnavn opstillingskredsnummer opstillingskredsnavn
@@ -88,7 +88,7 @@
       5  2025-08-21 21:04:39 2025-08-21 21:04:39           8        12.56856
       6  2025-08-21 21:04:39 2025-08-21 21:04:39           8        12.60509
       7  2025-08-21 21:04:39 2025-08-21 21:04:39           7        12.59394
-      8  2025-12-16 22:02:01 2025-12-16 22:02:01           9        12.55095
+      8  2026-03-27 22:17:36 2026-03-27 22:17:36          12        12.55095
       9  2025-08-21 21:04:39 2025-08-21 21:04:39           9        12.56800
       10 2025-08-21 21:04:39 2025-08-21 21:04:39          10        12.56623
          visueltcenter_y                       geometry
@@ -99,7 +99,7 @@
       5         55.71552 MULTIPOLYGON (((12.55859 55...
       6         55.65088 MULTIPOLYGON (((12.59358 55...
       7         55.66577 MULTIPOLYGON (((12.58392 55...
-      8         55.62567 MULTIPOLYGON (((12.50475 55...
+      8         55.62567 MULTIPOLYGON (((12.58604 55...
       9         55.64696 MULTIPOLYGON (((12.55133 55...
       10        55.68159 MULTIPOLYGON (((12.55518 55...
 
@@ -113,7 +113,7 @@
       Reading data to `st`.
       Converting map data to `sf` object
     Output
-      Simple feature collection with 1315 features and 23 fields
+      Simple feature collection with 1314 features and 23 fields
       Geometry type: MULTIPOLYGON
       Dimension:     XY
       Bounding box:  xmin: 8.07251 ymin: 54.55908 xmax: 15.1974 ymax: 57.75257
@@ -127,7 +127,7 @@
       5   710802      6     1. Nordvest         Kildevældsskolen
       6   711204      7 2. Sundbyvester        Sundby Idrætspark
       7   706166      8         2. Nord      Amager Fælled Skole
-      8   706562      9      2. Ørestad        Ørestad Gymnasium
+      8   706562      9      2. Ørestad            Ørestad Skole
       9   712286     10         2. Vest Skolen på Islands Brygge
       10  711926     11     3. Indre By             Rådhushallen
                      afstemningsstedadresseid
@@ -138,7 +138,7 @@
       5  0a3f507a-4387-32b8-e044-0003ba298018
       6  0a3f507a-6784-32b8-e044-0003ba298018
       7  0a3f507b-05f2-32b8-e044-0003ba298018
-      8  0a3f507b-3021-32b8-e044-0003ba298018
+      8  20d7372c-7d2b-4ee3-a55c-54da765f5d84
       9  0a3f507a-3e64-32b8-e044-0003ba298018
       10 0a3f507a-ec01-32b8-e044-0003ba298018
                     afstemningsstedadressebetegnelse afstemningssted_adgangspunkt_x
@@ -149,7 +149,7 @@
       5            Bellmansgade 5A, 2100 København Ø                       12.56941
       6             Englandsvej 61, 2300 København S                       12.59996
       7            Sundholmsvej 2A, 2300 København S                       12.59499
-      8      Ørestads Boulevard 75, 2300 København S                       12.58104
+      8     Arne Jacobsens Allé 21, 2300 København S                       12.58144
       9            Artillerivej 57, 2300 København S                       12.58333
       10           Rådhuspladsen 1, 1550 København V                       12.56958
          afstemningssted_adgangspunkt_y kommunekode kommunenavn regionskode
@@ -160,7 +160,7 @@
       5                        55.71540        0101   København        1084
       6                        55.65023        0101   København        1084
       7                        55.66245        0101   København        1084
-      8                        55.63175        0101   København        1084
+      8                        55.63111        0101   København        1084
       9                        55.66292        0101   København        1084
       10                       55.67563        0101   København        1084
                 regionsnavn opstillingskredsnummer opstillingskredsnavn
@@ -193,7 +193,7 @@
       5  2025-08-21 21:04:39 2025-08-21 21:04:39           8        12.56856
       6  2025-08-21 21:04:39 2025-08-21 21:04:39           8        12.60509
       7  2025-08-21 21:04:39 2025-08-21 21:04:39           7        12.59394
-      8  2025-12-16 22:02:01 2025-12-16 22:02:01           9        12.55095
+      8  2026-03-27 22:17:36 2026-03-27 22:17:36          12        12.55095
       9  2025-08-21 21:04:39 2025-08-21 21:04:39           9        12.56800
       10 2025-08-21 21:04:39 2025-08-21 21:04:39          10        12.56623
          visueltcenter_y                       geometry
@@ -204,7 +204,7 @@
       5         55.71552 MULTIPOLYGON (((12.55859 55...
       6         55.65088 MULTIPOLYGON (((12.59358 55...
       7         55.66577 MULTIPOLYGON (((12.58392 55...
-      8         55.62567 MULTIPOLYGON (((12.50475 55...
+      8         55.62567 MULTIPOLYGON (((12.58604 55...
       9         55.64696 MULTIPOLYGON (((12.55133 55...
       10        55.68159 MULTIPOLYGON (((12.55518 55...
 
@@ -216,7 +216,7 @@
       > Using cached response.
       Change this behaviour by setting cache = FALSE
     Output
-      Simple feature collection with 1315 features and 23 fields
+      Simple feature collection with 1314 features and 23 fields
       Geometry type: MULTIPOLYGON
       Dimension:     XY
       Bounding box:  xmin: 8.07251 ymin: 54.55908 xmax: 15.1974 ymax: 57.75257
@@ -230,7 +230,7 @@
       5   710802      6     1. Nordvest         Kildevældsskolen
       6   711204      7 2. Sundbyvester        Sundby Idrætspark
       7   706166      8         2. Nord      Amager Fælled Skole
-      8   706562      9      2. Ørestad        Ørestad Gymnasium
+      8   706562      9      2. Ørestad            Ørestad Skole
       9   712286     10         2. Vest Skolen på Islands Brygge
       10  711926     11     3. Indre By             Rådhushallen
                      afstemningsstedadresseid
@@ -241,7 +241,7 @@
       5  0a3f507a-4387-32b8-e044-0003ba298018
       6  0a3f507a-6784-32b8-e044-0003ba298018
       7  0a3f507b-05f2-32b8-e044-0003ba298018
-      8  0a3f507b-3021-32b8-e044-0003ba298018
+      8  20d7372c-7d2b-4ee3-a55c-54da765f5d84
       9  0a3f507a-3e64-32b8-e044-0003ba298018
       10 0a3f507a-ec01-32b8-e044-0003ba298018
                     afstemningsstedadressebetegnelse afstemningssted_adgangspunkt_x
@@ -252,7 +252,7 @@
       5            Bellmansgade 5A, 2100 København Ø                       12.56941
       6             Englandsvej 61, 2300 København S                       12.59996
       7            Sundholmsvej 2A, 2300 København S                       12.59499
-      8      Ørestads Boulevard 75, 2300 København S                       12.58104
+      8     Arne Jacobsens Allé 21, 2300 København S                       12.58144
       9            Artillerivej 57, 2300 København S                       12.58333
       10           Rådhuspladsen 1, 1550 København V                       12.56958
          afstemningssted_adgangspunkt_y kommunekode kommunenavn regionskode
@@ -263,7 +263,7 @@
       5                        55.71540        0101   København        1084
       6                        55.65023        0101   København        1084
       7                        55.66245        0101   København        1084
-      8                        55.63175        0101   København        1084
+      8                        55.63111        0101   København        1084
       9                        55.66292        0101   København        1084
       10                       55.67563        0101   København        1084
                 regionsnavn opstillingskredsnummer opstillingskredsnavn
@@ -296,7 +296,7 @@
       5  2025-08-21 21:04:39 2025-08-21 21:04:39           8        12.56856
       6  2025-08-21 21:04:39 2025-08-21 21:04:39           8        12.60509
       7  2025-08-21 21:04:39 2025-08-21 21:04:39           7        12.59394
-      8  2025-12-16 22:02:01 2025-12-16 22:02:01           9        12.55095
+      8  2026-03-27 22:17:36 2026-03-27 22:17:36          12        12.55095
       9  2025-08-21 21:04:39 2025-08-21 21:04:39           9        12.56800
       10 2025-08-21 21:04:39 2025-08-21 21:04:39          10        12.56623
          visueltcenter_y                       geometry
@@ -307,7 +307,7 @@
       5         55.71552 MULTIPOLYGON (((12.55859 55...
       6         55.65088 MULTIPOLYGON (((12.59358 55...
       7         55.66577 MULTIPOLYGON (((12.58392 55...
-      8         55.62567 MULTIPOLYGON (((12.50475 55...
+      8         55.62567 MULTIPOLYGON (((12.58604 55...
       9         55.64696 MULTIPOLYGON (((12.55133 55...
       10        55.68159 MULTIPOLYGON (((12.55518 55...
 
@@ -319,7 +319,7 @@
       > Using cached response.
       Change this behaviour by setting cache = FALSE
     Output
-      Simple feature collection with 1315 features and 23 fields
+      Simple feature collection with 1314 features and 23 fields
       Geometry type: MULTIPOLYGON
       Dimension:     XY
       Bounding box:  xmin: 8.07251 ymin: 54.55908 xmax: 15.1974 ymax: 57.75257
@@ -333,7 +333,7 @@
       5   710802      6     1. Nordvest         Kildevældsskolen
       6   711204      7 2. Sundbyvester        Sundby Idrætspark
       7   706166      8         2. Nord      Amager Fælled Skole
-      8   706562      9      2. Ørestad        Ørestad Gymnasium
+      8   706562      9      2. Ørestad            Ørestad Skole
       9   712286     10         2. Vest Skolen på Islands Brygge
       10  711926     11     3. Indre By             Rådhushallen
                      afstemningsstedadresseid
@@ -344,7 +344,7 @@
       5  0a3f507a-4387-32b8-e044-0003ba298018
       6  0a3f507a-6784-32b8-e044-0003ba298018
       7  0a3f507b-05f2-32b8-e044-0003ba298018
-      8  0a3f507b-3021-32b8-e044-0003ba298018
+      8  20d7372c-7d2b-4ee3-a55c-54da765f5d84
       9  0a3f507a-3e64-32b8-e044-0003ba298018
       10 0a3f507a-ec01-32b8-e044-0003ba298018
                     afstemningsstedadressebetegnelse afstemningssted_adgangspunkt_x
@@ -355,7 +355,7 @@
       5            Bellmansgade 5A, 2100 København Ø                       12.56941
       6             Englandsvej 61, 2300 København S                       12.59996
       7            Sundholmsvej 2A, 2300 København S                       12.59499
-      8      Ørestads Boulevard 75, 2300 København S                       12.58104
+      8     Arne Jacobsens Allé 21, 2300 København S                       12.58144
       9            Artillerivej 57, 2300 København S                       12.58333
       10           Rådhuspladsen 1, 1550 København V                       12.56958
          afstemningssted_adgangspunkt_y kommunekode kommunenavn regionskode
@@ -366,7 +366,7 @@
       5                        55.71540        0101   København        1084
       6                        55.65023        0101   København        1084
       7                        55.66245        0101   København        1084
-      8                        55.63175        0101   København        1084
+      8                        55.63111        0101   København        1084
       9                        55.66292        0101   København        1084
       10                       55.67563        0101   København        1084
                 regionsnavn opstillingskredsnummer opstillingskredsnavn
@@ -399,7 +399,7 @@
       5  2025-08-21 21:04:39 2025-08-21 21:04:39           8        12.56856
       6  2025-08-21 21:04:39 2025-08-21 21:04:39           8        12.60509
       7  2025-08-21 21:04:39 2025-08-21 21:04:39           7        12.59394
-      8  2025-12-16 22:02:01 2025-12-16 22:02:01           9        12.55095
+      8  2026-03-27 22:17:36 2026-03-27 22:17:36          12        12.55095
       9  2025-08-21 21:04:39 2025-08-21 21:04:39           9        12.56800
       10 2025-08-21 21:04:39 2025-08-21 21:04:39          10        12.56623
          visueltcenter_y                       geometry
@@ -410,7 +410,7 @@
       5         55.71552 MULTIPOLYGON (((12.55859 55...
       6         55.65088 MULTIPOLYGON (((12.59358 55...
       7         55.66577 MULTIPOLYGON (((12.58392 55...
-      8         55.62567 MULTIPOLYGON (((12.50475 55...
+      8         55.62567 MULTIPOLYGON (((12.58604 55...
       9         55.64696 MULTIPOLYGON (((12.55133 55...
       10        55.68159 MULTIPOLYGON (((12.55518 55...
 
@@ -422,7 +422,7 @@
       > Using cached response.
       Change this behaviour by setting cache = FALSE
     Output
-      Simple feature collection with 1315 features and 23 fields
+      Simple feature collection with 1314 features and 23 fields
       Geometry type: MULTIPOLYGON
       Dimension:     XY
       Bounding box:  xmin: 8.07251 ymin: 54.55908 xmax: 15.1974 ymax: 57.75257
@@ -436,7 +436,7 @@
       5   710802      6     1. Nordvest         Kildevældsskolen
       6   711204      7 2. Sundbyvester        Sundby Idrætspark
       7   706166      8         2. Nord      Amager Fælled Skole
-      8   706562      9      2. Ørestad        Ørestad Gymnasium
+      8   706562      9      2. Ørestad            Ørestad Skole
       9   712286     10         2. Vest Skolen på Islands Brygge
       10  711926     11     3. Indre By             Rådhushallen
                      afstemningsstedadresseid
@@ -447,7 +447,7 @@
       5  0a3f507a-4387-32b8-e044-0003ba298018
       6  0a3f507a-6784-32b8-e044-0003ba298018
       7  0a3f507b-05f2-32b8-e044-0003ba298018
-      8  0a3f507b-3021-32b8-e044-0003ba298018
+      8  20d7372c-7d2b-4ee3-a55c-54da765f5d84
       9  0a3f507a-3e64-32b8-e044-0003ba298018
       10 0a3f507a-ec01-32b8-e044-0003ba298018
                     afstemningsstedadressebetegnelse afstemningssted_adgangspunkt_x
@@ -458,7 +458,7 @@
       5            Bellmansgade 5A, 2100 København Ø                       12.56941
       6             Englandsvej 61, 2300 København S                       12.59996
       7            Sundholmsvej 2A, 2300 København S                       12.59499
-      8      Ørestads Boulevard 75, 2300 København S                       12.58104
+      8     Arne Jacobsens Allé 21, 2300 København S                       12.58144
       9            Artillerivej 57, 2300 København S                       12.58333
       10           Rådhuspladsen 1, 1550 København V                       12.56958
          afstemningssted_adgangspunkt_y kommunekode kommunenavn regionskode
@@ -469,7 +469,7 @@
       5                        55.71540        0101   København        1084
       6                        55.65023        0101   København        1084
       7                        55.66245        0101   København        1084
-      8                        55.63175        0101   København        1084
+      8                        55.63111        0101   København        1084
       9                        55.66292        0101   København        1084
       10                       55.67563        0101   København        1084
                 regionsnavn opstillingskredsnummer opstillingskredsnavn
@@ -502,7 +502,7 @@
       5  2025-08-21 21:04:39 2025-08-21 21:04:39           8        12.56856
       6  2025-08-21 21:04:39 2025-08-21 21:04:39           8        12.60509
       7  2025-08-21 21:04:39 2025-08-21 21:04:39           7        12.59394
-      8  2025-12-16 22:02:01 2025-12-16 22:02:01           9        12.55095
+      8  2026-03-27 22:17:36 2026-03-27 22:17:36          12        12.55095
       9  2025-08-21 21:04:39 2025-08-21 21:04:39           9        12.56800
       10 2025-08-21 21:04:39 2025-08-21 21:04:39          10        12.56623
          visueltcenter_y                       geometry
@@ -513,7 +513,7 @@
       5         55.71552 MULTIPOLYGON (((12.55859 55...
       6         55.65088 MULTIPOLYGON (((12.59358 55...
       7         55.66577 MULTIPOLYGON (((12.58392 55...
-      8         55.62567 MULTIPOLYGON (((12.50475 55...
+      8         55.62567 MULTIPOLYGON (((12.58604 55...
       9         55.64696 MULTIPOLYGON (((12.55133 55...
       10        55.68159 MULTIPOLYGON (((12.55518 55...
 
