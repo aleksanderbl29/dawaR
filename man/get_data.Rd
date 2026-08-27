@@ -29,7 +29,7 @@ if (connection_check()) {
 }
 }
 \seealso{
-Other Data functions: 
-\code{\link{get_map_data}()}
+Other Data functions:
+\code{\link[=get_map_data]{get_map_data()}}
 }
 \concept{Data functions}

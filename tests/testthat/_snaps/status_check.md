@@ -3,26 +3,26 @@
     Code
       status_check()
     Message
-      x Arkiv kort is not operational
+      x /rest/gsearch/v2.0/adresse, Adresser, Dataforsyningen.dk, FTPS, WMS:forvaltning2, and sdfekort.dk are not operational
 
 # Status check message prints properly in {cli} [ansi]
 
     Code
       status_check()
     Message
-      [31mx[39m Arkiv kort is not operational
+      [31mx[39m /rest/gsearch/v2.0/adresse, Adresser, Dataforsyningen.dk, FTPS, WMS:forvaltning2, and sdfekort.dk are not operational
 
 # Status check message prints properly in {cli} [unicode]
 
     Code
       status_check()
     Message
-      ✖ Arkiv kort is not operational
+      ✖ /rest/gsearch/v2.0/adresse, Adresser, Dataforsyningen.dk, FTPS, WMS:forvaltning2, and sdfekort.dk are not operational
 
 # Status check message prints properly in {cli} [fancy]
 
     Code
       status_check()
     Message
-      [31m✖[39m Arkiv kort is not operational
+      [31m✖[39m /rest/gsearch/v2.0/adresse, Adresser, Dataforsyningen.dk, FTPS, WMS:forvaltning2, and sdfekort.dk are not operational
 

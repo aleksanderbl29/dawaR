@@ -26,16 +26,16 @@
       9   389111 0163        Herlev        1084                   FALSE
       10  389112 0165   Albertslund        1084                   FALSE
                 regionsnavn              ændret          geo_ændret geo_version
-      1  Region Hovedstaden 2025-12-16 22:02:01 2025-12-16 22:02:01          22
+      1  Region Hovedstaden 2026-03-27 22:17:36 2026-03-27 22:17:36          28
       2  Region Hovedstaden 2024-01-16 22:03:35 2024-01-16 22:03:35           7
       3  Region Hovedstaden 2025-05-14 21:02:41 2025-05-14 21:02:41           9
-      4  Region Hovedstaden 2024-01-10 22:10:55 2024-01-10 22:10:55           7
+      4  Region Hovedstaden 2026-02-16 22:06:23 2026-02-16 22:06:23           9
       5  Region Hovedstaden 2023-03-24 22:28:38 2023-03-24 22:28:38           3
-      6  Region Hovedstaden 2024-10-04 21:02:54 2024-10-04 21:02:54           7
+      6  Region Hovedstaden 2026-02-26 22:13:10 2026-02-26 22:13:10           8
       7  Region Hovedstaden 2025-05-14 21:02:41 2025-05-14 21:02:41           6
-      8  Region Hovedstaden 2025-05-14 21:02:41 2025-05-14 21:02:41          12
+      8  Region Hovedstaden 2026-01-16 22:05:30 2026-01-16 22:05:30          13
       9  Region Hovedstaden 2025-05-14 21:02:41 2025-05-14 21:02:41           6
-      10 Region Hovedstaden 2025-05-14 21:02:41 2025-05-14 21:02:41          11
+      10 Region Hovedstaden 2026-02-16 22:06:23 2026-02-16 22:06:23          13
          visueltcenter_x visueltcenter_y                       geometry
       1         12.49391        55.70409 MULTIPOLYGON (((12.56767 55...
       2         12.52373        55.67937 MULTIPOLYGON (((12.53735 55...
@@ -76,16 +76,16 @@
       9   389111 0163        Herlev        1084                   FALSE
       10  389112 0165   Albertslund        1084                   FALSE
                 regionsnavn              ændret          geo_ændret geo_version
-      1  Region Hovedstaden 2025-12-16 22:02:01 2025-12-16 22:02:01          22
+      1  Region Hovedstaden 2026-03-27 22:17:36 2026-03-27 22:17:36          28
       2  Region Hovedstaden 2024-01-16 22:03:35 2024-01-16 22:03:35           7
       3  Region Hovedstaden 2025-05-14 21:02:41 2025-05-14 21:02:41           9
-      4  Region Hovedstaden 2024-01-10 22:10:55 2024-01-10 22:10:55           7
+      4  Region Hovedstaden 2026-02-16 22:06:23 2026-02-16 22:06:23           9
       5  Region Hovedstaden 2023-03-24 22:28:38 2023-03-24 22:28:38           3
-      6  Region Hovedstaden 2024-10-04 21:02:54 2024-10-04 21:02:54           7
+      6  Region Hovedstaden 2026-02-26 22:13:10 2026-02-26 22:13:10           8
       7  Region Hovedstaden 2025-05-14 21:02:41 2025-05-14 21:02:41           6
-      8  Region Hovedstaden 2025-05-14 21:02:41 2025-05-14 21:02:41          12
+      8  Region Hovedstaden 2026-01-16 22:05:30 2026-01-16 22:05:30          13
       9  Region Hovedstaden 2025-05-14 21:02:41 2025-05-14 21:02:41           6
-      10 Region Hovedstaden 2025-05-14 21:02:41 2025-05-14 21:02:41          11
+      10 Region Hovedstaden 2026-02-16 22:06:23 2026-02-16 22:06:23          13
          visueltcenter_x visueltcenter_y                       geometry
       1         12.49391        55.70409 MULTIPOLYGON (((12.56767 55...
       2         12.52373        55.67937 MULTIPOLYGON (((12.53735 55...
@@ -124,16 +124,16 @@
       9   389111 0163        Herlev        1084                   FALSE
       10  389112 0165   Albertslund        1084                   FALSE
                 regionsnavn              ændret          geo_ændret geo_version
-      1  Region Hovedstaden 2025-12-16 22:02:01 2025-12-16 22:02:01          22
+      1  Region Hovedstaden 2026-03-27 22:17:36 2026-03-27 22:17:36          28
       2  Region Hovedstaden 2024-01-16 22:03:35 2024-01-16 22:03:35           7
       3  Region Hovedstaden 2025-05-14 21:02:41 2025-05-14 21:02:41           9
-      4  Region Hovedstaden 2024-01-10 22:10:55 2024-01-10 22:10:55           7
+      4  Region Hovedstaden 2026-02-16 22:06:23 2026-02-16 22:06:23           9
       5  Region Hovedstaden 2023-03-24 22:28:38 2023-03-24 22:28:38           3
-      6  Region Hovedstaden 2024-10-04 21:02:54 2024-10-04 21:02:54           7
+      6  Region Hovedstaden 2026-02-26 22:13:10 2026-02-26 22:13:10           8
       7  Region Hovedstaden 2025-05-14 21:02:41 2025-05-14 21:02:41           6
-      8  Region Hovedstaden 2025-05-14 21:02:41 2025-05-14 21:02:41          12
+      8  Region Hovedstaden 2026-01-16 22:05:30 2026-01-16 22:05:30          13
       9  Region Hovedstaden 2025-05-14 21:02:41 2025-05-14 21:02:41           6
-      10 Region Hovedstaden 2025-05-14 21:02:41 2025-05-14 21:02:41          11
+      10 Region Hovedstaden 2026-02-16 22:06:23 2026-02-16 22:06:23          13
          visueltcenter_x visueltcenter_y                       geometry
       1         12.49391        55.70409 MULTIPOLYGON (((12.56767 55...
       2         12.52373        55.67937 MULTIPOLYGON (((12.53735 55...
@@ -172,16 +172,16 @@
       9   389111 0163        Herlev        1084                   FALSE
       10  389112 0165   Albertslund        1084                   FALSE
                 regionsnavn              ændret          geo_ændret geo_version
-      1  Region Hovedstaden 2025-12-16 22:02:01 2025-12-16 22:02:01          22
+      1  Region Hovedstaden 2026-03-27 22:17:36 2026-03-27 22:17:36          28
       2  Region Hovedstaden 2024-01-16 22:03:35 2024-01-16 22:03:35           7
       3  Region Hovedstaden 2025-05-14 21:02:41 2025-05-14 21:02:41           9
-      4  Region Hovedstaden 2024-01-10 22:10:55 2024-01-10 22:10:55           7
+      4  Region Hovedstaden 2026-02-16 22:06:23 2026-02-16 22:06:23           9
       5  Region Hovedstaden 2023-03-24 22:28:38 2023-03-24 22:28:38           3
-      6  Region Hovedstaden 2024-10-04 21:02:54 2024-10-04 21:02:54           7
+      6  Region Hovedstaden 2026-02-26 22:13:10 2026-02-26 22:13:10           8
       7  Region Hovedstaden 2025-05-14 21:02:41 2025-05-14 21:02:41           6
-      8  Region Hovedstaden 2025-05-14 21:02:41 2025-05-14 21:02:41          12
+      8  Region Hovedstaden 2026-01-16 22:05:30 2026-01-16 22:05:30          13
       9  Region Hovedstaden 2025-05-14 21:02:41 2025-05-14 21:02:41           6
-      10 Region Hovedstaden 2025-05-14 21:02:41 2025-05-14 21:02:41          11
+      10 Region Hovedstaden 2026-02-16 22:06:23 2026-02-16 22:06:23          13
          visueltcenter_x visueltcenter_y                       geometry
       1         12.49391        55.70409 MULTIPOLYGON (((12.56767 55...
       2         12.52373        55.67937 MULTIPOLYGON (((12.53735 55...
@@ -220,16 +220,16 @@
       9   389111 0163        Herlev        1084                   FALSE
       10  389112 0165   Albertslund        1084                   FALSE
                 regionsnavn              ændret          geo_ændret geo_version
-      1  Region Hovedstaden 2025-12-16 22:02:01 2025-12-16 22:02:01          22
+      1  Region Hovedstaden 2026-03-27 22:17:36 2026-03-27 22:17:36          28
       2  Region Hovedstaden 2024-01-16 22:03:35 2024-01-16 22:03:35           7
       3  Region Hovedstaden 2025-05-14 21:02:41 2025-05-14 21:02:41           9
-      4  Region Hovedstaden 2024-01-10 22:10:55 2024-01-10 22:10:55           7
+      4  Region Hovedstaden 2026-02-16 22:06:23 2026-02-16 22:06:23           9
       5  Region Hovedstaden 2023-03-24 22:28:38 2023-03-24 22:28:38           3
-      6  Region Hovedstaden 2024-10-04 21:02:54 2024-10-04 21:02:54           7
+      6  Region Hovedstaden 2026-02-26 22:13:10 2026-02-26 22:13:10           8
       7  Region Hovedstaden 2025-05-14 21:02:41 2025-05-14 21:02:41           6
-      8  Region Hovedstaden 2025-05-14 21:02:41 2025-05-14 21:02:41          12
+      8  Region Hovedstaden 2026-01-16 22:05:30 2026-01-16 22:05:30          13
       9  Region Hovedstaden 2025-05-14 21:02:41 2025-05-14 21:02:41           6
-      10 Region Hovedstaden 2025-05-14 21:02:41 2025-05-14 21:02:41          11
+      10 Region Hovedstaden 2026-02-16 22:06:23 2026-02-16 22:06:23          13
          visueltcenter_x visueltcenter_y                       geometry
       1         12.49391        55.70409 MULTIPOLYGON (((12.56767 55...
       2         12.52373        55.67937 MULTIPOLYGON (((12.53735 55...

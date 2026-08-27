@@ -1,7 +1,7 @@
 Package: dawaR
 Title: An API Wrapper for 'DAWA' - 'The Danish Address Web API'
-Date: 2025-12-16
-Version: 0.3.2
+Date: 2026-08-26
+Version: 0.3.3
 Authors@R: c(
     person("Aleksander", "Bang-Larsen", , "contact@aleksanderbl.dk",
            role = c("aut", "cre", "cph"),
@@ -18,7 +18,6 @@ Description: Functions for interacting with all sections of
 License: GPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.3
 URL: https://dawar.aleksanderbl.dk/, https://github.com/aleksanderbl29/dawaR
 BugReports: https://github.com/aleksanderbl29/dawaR/issues
 Suggests:
@@ -47,3 +46,4 @@ Imports:
     curl,
     utils
 VignetteBuilder: knitr
+Config/roxygen2/version: 8.1.0
