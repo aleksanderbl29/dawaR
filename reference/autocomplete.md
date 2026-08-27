@@ -37,6 +37,7 @@ the input.
 if (connection_check()) {
   autocomplete("regioner", "midt")
 }
+#> Warning: DAWA is deprecated and is scheduled to shut down on October 1, 2026. Functions that depend on the API will stop working after that date. See https://dataforsyningen.dk/data/4924 for details.
 #> [[1]]
 #> [[1]]$tekst
 #> [1] "1082 Region Midtjylland"

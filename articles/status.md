@@ -6,6 +6,7 @@ First we load the package
 
 library(dawaR)
 #> ## {dawaR} provides data from the Danish Agency of Climate Data
+#> ## DAWA is scheduled to shut down on October 1, 2026.
 #> ## Terms and conditions apply.
 #> ## Read more at: https://dawadocs.dataforsyningen.dk/dok/om#vilkaar
 ```

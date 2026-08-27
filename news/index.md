@@ -1,5 +1,11 @@
 # Changelog
 
+## dawaR 0.3.3 (2026-08-26)
+
+- Warn users once per session that the DAWA API is deprecated and
+  scheduled to shut down on October 1, 2026.
+- Show the shutdown date in the package startup message.
+
 ## dawaR 0.3.2 (2025-12-16)
 
 CRAN release: 2025-12-16

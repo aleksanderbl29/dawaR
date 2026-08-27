@@ -25,6 +25,9 @@ request map data for all (98) danish municipalities. The danish word for
 ``` r
 
 municipalities <- get_map_data("kommuner")
+#> Warning: DAWA is deprecated and is scheduled to shut down on October 1, 2026.
+#> Functions that depend on the API will stop working after that date. See
+#> https://dataforsyningen.dk/data/4924 for details.
 #> → Getting data on `kommuner`. This usually takes 13.13s.
 #> Fetching data from the API. This will take some time.
 #> Reading data to `st`.

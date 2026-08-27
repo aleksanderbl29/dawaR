@@ -9,6 +9,7 @@ package.
 
 library(dawaR)
 #> ## {dawaR} provides data from the Danish Agency of Climate Data
+#> ## DAWA is scheduled to shut down on October 1, 2026.
 #> ## Terms and conditions apply.
 #> ## Read more at: https://dawadocs.dataforsyningen.dk/dok/om#vilkaar
 ```
@@ -22,6 +23,9 @@ function.
 ``` r
 
 get_data("regioner")
+#> Warning: DAWA is deprecated and is scheduled to shut down on October 1, 2026.
+#> Functions that depend on the API will stop working after that date. See
+#> https://dataforsyningen.dk/data/4924 for details.
 #>   dagi_id kode               navn nuts2                   ændret
 #> 1  389098 1081 Region Nordjylland  DK05 2026-01-01T22:02:26.282Z
 #> 2  389101 1082 Region Midtjylland  DK04 2025-07-11T21:05:02.274Z
