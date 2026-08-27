@@ -10,11 +10,7 @@ vote <- function(...) {
   afstemningsomraader(!!!...)
 }
 
-vote_rev <- function(x,
-                     y,
-                     type = NULL,
-                     as_df = FALSE,
-                     as_list = FALSE) {
+vote_rev <- function(x, y, type = NULL, as_df = FALSE, as_list = FALSE) {
   if (!is.null(type)) {
     if (check_coordinate_type(type)) {
       coord <- coordinate_type(type)

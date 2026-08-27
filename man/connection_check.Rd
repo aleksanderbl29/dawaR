@@ -19,7 +19,7 @@ connection_check()
 
 }
 \seealso{
-Other Connection checks: 
-\code{\link{status_check}()}
+Other Connection checks:
+\code{\link[=status_check]{status_check()}}
 }
 \concept{Connection checks}
