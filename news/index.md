@@ -1,6 +1,22 @@
 # Changelog
 
+## dawaR 0.3.4 (2026-09-15)
+
+CRAN release: 2026-09-16
+
+- Update
+  [`status_check()`](https://dawar.aleksanderbl.dk/reference/status_check.md)
+  to discover services from the current status feed instead of relying
+  on a fixed list and item order.
+- Handle missing service titles without causing examples or vignettes to
+  fail.
+- Replace live status-feed tests with deterministic mocked responses and
+  add coverage for operational, unavailable, and missing-title
+  responses.
+
 ## dawaR 0.3.3 (2026-08-26)
+
+CRAN release: 2026-08-27
 
 - Warn users once per session that the DAWA API is deprecated and
   scheduled to shut down on October 1, 2026.

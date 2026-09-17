@@ -20,7 +20,7 @@ current status of the API.
 ``` r
 
 status_check()
-#> ✖ /rest/gsearch/v2.0/adresse, Adresser, Dataforsyningen.dk, FTPS, WMS:forvaltning2, and sdfekort.dk are not operational
+#> ✔ All systems are operational
 ```
 
 It is also possible to return a dataframe specifying the individual
@@ -31,16 +31,15 @@ further analyses.
 ``` r
 
 status_check(return_df = TRUE)
-#> ✖ /rest/gsearch/v2.0/adresse, Adresser, Dataforsyningen.dk, FTPS, WMS:forvaltning2, and sdfekort.dk are not operational
-#>                      service status
-#> 1                 Arkiv kort     OK
-#> 2 /rest/gsearch/v2.0/adresse   Down
-#> 3                   Adresser   Down
-#> 4         Dataforsyningen.dk   Down
-#> 5                       FTPS   Down
-#> 6           WMS:forvaltning2   Down
-#> 7    WMS:topo_skaermkort_DAF     OK
-#> 8                sdfekort.dk   Down
+#> ✔ All systems are operational
+#>                            service status
+#> 1                       /adresser?     OK
+#> 2         /rest/arkivmeta/v3/kort?     OK
+#> 3      /rest/gsearch/v2.0/adresse?     OK
+#> 4 /wms/forvaltning2?REQUEST=GetMap     OK
+#> 5               Dataforsyningen.dk     OK
+#> 6                             FTPS     OK
+#> 7                  kortoverblik.dk     OK
 ```
 
 You can also use the `status_check(error_if_unavailable = TRUE)` as a

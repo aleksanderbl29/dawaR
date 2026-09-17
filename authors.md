@@ -17,14 +17,14 @@ Source:
 [`inst/CITATION`](https://github.com/aleksanderbl29/dawaR/blob/main/inst/CITATION)
 
 Bang-Larsen A (2026). *dawaR: An API Wrapper for 'DAWA' - 'The Danish
-Address Web API'*. R package version 0.3.3,
+Address Web API'*. R package version 0.3.4,
 <https://dawar.aleksanderbl.dk/>.
 
     @Manual{dawaR,
       title = {dawaR: An API Wrapper for 'DAWA' - 'The Danish Address Web API'},
       author = {Aleksander Bang-Larsen},
       year = {2026},
-      note = {R package version 0.3.3},
+      note = {R package version 0.3.4},
       url = {https://dawar.aleksanderbl.dk/},
     }
 
