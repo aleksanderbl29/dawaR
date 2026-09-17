@@ -1,15 +1,27 @@
 test_that("Available sections can be called and returns in the proper format", {
   adresser_sections <- c(
-    "adgangsadresser", "adresser", "autocomplete",
-    "navngivneveje", "vejstykker", "vejnavne",
+    "adgangsadresser",
+    "adresser",
+    "autocomplete",
+    "navngivneveje",
+    "vejstykker",
+    "vejnavne",
     "vejnavnpostnummerrelationer"
   )
 
   dagi_sections <- c(
-    "afstemningsomraader", "kommuner", "landsdele",
-    "menighedsraadsafstemningsomraader", "opstillingskredse",
-    "politikredse", "postnumre", "regioner", "retskredse",
-    "sogne", "storkredse", "supplerendebynavne2",
+    "afstemningsomraader",
+    "kommuner",
+    "landsdele",
+    "menighedsraadsafstemningsomraader",
+    "opstillingskredse",
+    "politikredse",
+    "postnumre",
+    "regioner",
+    "retskredse",
+    "sogne",
+    "storkredse",
+    "supplerendebynavne2",
     "valglandsdele"
   )
 

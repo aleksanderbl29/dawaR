@@ -27,10 +27,12 @@
 #'
 #' available_sections(as_list = TRUE)
 #'
-available_sections <- function(as_list = FALSE,
-                               format = NULL,
-                               verbose = TRUE,
-                               func = NULL) {
+available_sections <- function(
+  as_list = FALSE,
+  format = NULL,
+  verbose = TRUE,
+  func = NULL
+) {
   adresser_sections <- c(
     "adgangsadresser",
     "adresser",
@@ -90,9 +92,14 @@ available_sections <- function(as_list = FALSE,
   if (!is.null(func)) {
     if (func == "get_data") {
       not_friendly <- c(
-        "adresser", "adgangsadresser", "autocomplete",
-        "bebyggelser", "navngivneveje", "steder",
-        "stednavne2", "vejnavnpostnummerrelationer",
+        "adresser",
+        "adgangsadresser",
+        "autocomplete",
+        "bebyggelser",
+        "navngivneveje",
+        "steder",
+        "stednavne2",
+        "vejnavnpostnummerrelationer",
         "vejstykker"
       )
       adresser_sections <-

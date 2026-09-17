@@ -1,12 +1,42 @@
 # nolint start
+.dawaR_env <- new.env(parent = emptyenv())
+
+.dawaR_env$deprecation_warning_shown <- FALSE
+
+warn_api_deprecation <- function() {
+  if (isTRUE(.dawaR_env$deprecation_warning_shown)) {
+    return(invisible(NULL))
+  }
+
+  warning(
+    paste(
+      "DAWA is deprecated and is scheduled to shut down on October 1, 2026.",
+      "Functions that depend on the API will stop working after that date.",
+      "See https://dataforsyningen.dk/data/4924 for details."
+    ),
+    call. = FALSE,
+    immediate. = TRUE
+  )
+
+  .dawaR_env$deprecation_warning_shown <- TRUE
+  invisible(NULL)
+}
+
 .onAttach <- function(...) {
-  packageStartupMessage("## {dawaR} provides data from the Danish Agency of Climate Data")
+  packageStartupMessage(
+    "## {dawaR} provides data from the Danish Agency of Climate Data"
+  )
+  packageStartupMessage("## DAWA is scheduled to shut down on October 1, 2026.")
   packageStartupMessage("## Terms and conditions apply.")
-  packageStartupMessage("## Read more at: https://dawadocs.dataforsyningen.dk/dok/om#vilkaar")
+  packageStartupMessage(
+    "## Read more at: https://dawadocs.dataforsyningen.dk/dok/om#vilkaar"
+  )
 }
 
 get_status_message <- function() {
-  body <- httr2::request("https://raw.githubusercontent.com/aleksanderbl29/dawaR/refs/heads/main/status-message") |>
+  body <- httr2::request(
+    "https://raw.githubusercontent.com/aleksanderbl29/dawaR/refs/heads/main/status-message"
+  ) |>
     httr2::req_perform() |>
     httr2::resp_body_string()
 
@@ -37,10 +67,16 @@ coordinate_type <- function(type) {
   if (check_coordinate_type(type)) {
     if (type %in% c("WGS84", "4326")) {
       type_to_return <- "4326"
-    } else if (type %in% c(
-      "ETRS89", "UTM zone 32 Nord",
-      "UTM32", "utm32", "25832"
-    )) {
+    } else if (
+      type %in%
+        c(
+          "ETRS89",
+          "UTM zone 32 Nord",
+          "UTM32",
+          "utm32",
+          "25832"
+        )
+    ) {
       type_to_return <- "25832"
     }
   } else {

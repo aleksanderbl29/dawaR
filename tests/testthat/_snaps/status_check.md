@@ -1,28 +1,28 @@
-# Status check message prints properly in {cli} [plain]
+# status_check reports an operational feed [plain]
 
     Code
       status_check()
     Message
-      x Arkiv kort is not operational
+      v All systems are operational
 
-# Status check message prints properly in {cli} [ansi]
-
-    Code
-      status_check()
-    Message
-      [31mx[39m Arkiv kort is not operational
-
-# Status check message prints properly in {cli} [unicode]
+# status_check reports an operational feed [ansi]
 
     Code
       status_check()
     Message
-      ✖ Arkiv kort is not operational
+      [32mv[39m All systems are operational
 
-# Status check message prints properly in {cli} [fancy]
+# status_check reports an operational feed [unicode]
 
     Code
       status_check()
     Message
-      [31m✖[39m Arkiv kort is not operational
+      ✔ All systems are operational
+
+# status_check reports an operational feed [fancy]
+
+    Code
+      status_check()
+    Message
+      [32m✔[39m All systems are operational
 

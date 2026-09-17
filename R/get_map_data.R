@@ -26,12 +26,16 @@
 #'   ggplot2::geom_sf()
 #' }
 get_map_data <- function(type, cache = TRUE, ...) {
+  warn_api_deprecation()
+
   params <- rlang::list2(...)
 
   if (cache == TRUE) {
     if (memoise::has_cache(get_map_data_w_cache)(type, params)) {
-      cli::cli_alert("Using cached response.
-                        Change this behaviour by setting cache = FALSE")
+      cli::cli_alert(
+        "Using cached response.
+                        Change this behaviour by setting cache = FALSE"
+      )
     }
 
     get_map_data_w_cache(type = type, params = params)
@@ -48,8 +52,10 @@ get_map_data_w_cache <- memoise::memoise(function(type, params = list()) {
 #' @importFrom rlang list2
 get_map_data_nocache <- function(type, cache = FALSE, params = list()) {
   if (!type %in% available_sections(format = "geojson", verbose = FALSE)) {
-    cli::cli_abort("You have provided type {.var {type}}
-                    which is not compatible with this function.")
+    cli::cli_abort(
+      "You have provided type {.var {type}}
+                    which is not compatible with this function."
+    )
   }
 
   check_sf_installation(verbose = FALSE)
@@ -59,8 +65,10 @@ get_map_data_nocache <- function(type, cache = FALSE, params = list()) {
   }
 
   if (!connection_check()) {
-    cli::cli_alert_warning("You do not have access to api.dataforsyningen.dk.
-        Please check your connection settings.")
+    cli::cli_alert_warning(
+      "You do not have access to api.dataforsyningen.dk.
+        Please check your connection settings."
+    )
     return(NULL) # Exit early if no connection is detected
   }
 
@@ -98,8 +106,10 @@ get_map_data_nocache <- function(type, cache = FALSE, params = list()) {
 
   writeLines(api_response, temp_file)
 
-  cli::cli_progress_message("Reading data to `st`.
-                              This will also take some time.")
+  cli::cli_progress_message(
+    "Reading data to `st`.
+                              This will also take some time."
+  )
 
   # Clean up api response
   rm(api_response)

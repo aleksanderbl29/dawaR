@@ -20,8 +20,8 @@ The goal of `{dawaR}` is to make access to the Danish Web Address API
 convenient for many more users.
 
 > The deprecation date for DAWA has been published. The service will be
-> shut down on the first of July 2026. Address data on DAWA (and in this
-> package) will not be updated after april 2026. Read more:
+> shut down on the first of October 2026. Address data on DAWA (and in this
+> package) has not been updated since June 2026. Read more:
 > <https://dataforsyningen.dk/data/4924>
 
 ## Installation
@@ -67,7 +67,7 @@ started](https://dawar.aleksanderbl.dk/articles/dawaR.html) and the
 
 ## DAWA *will* be phased out
 
-> THE DATE IS 1st of July 2026
+> THE DATE IS 1st of October 2026
 
 The government entity that maintains the Danish Web Address API has
 disclosed that the API will be phased out at some point. When that time
@@ -81,8 +81,6 @@ If you know how to read danish (or use machine-translation) you can keep
 yourself up to date on [this
 page](https://dataforsyningen.dk/data/4924).
 
-But no worries! It does not sound like the shutdown of DAWA will happen
-anytime soon or without due notice. You can read more about this and
-read the history of updates in `vignette("status")`. Any minor updates
-will be shown there. Major ones will be on this page. Both will be
-communicated with `lifecycle` in the functions.
+You can read more about this and read the history of updates in
+`vignette("status")`. Any minor updates will be shown there. Major ones
+will be on this page.

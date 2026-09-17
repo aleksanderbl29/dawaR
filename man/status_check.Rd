@@ -36,7 +36,7 @@ if (connection_check()) {
 }
 }
 \seealso{
-Other Connection checks: 
-\code{\link{connection_check}()}
+Other Connection checks:
+\code{\link[=connection_check]{connection_check()}}
 }
 \concept{Connection checks}

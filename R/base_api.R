@@ -41,19 +41,30 @@
 #'
 #'   x[[1]]
 #' }
-dawa <- function(section,
-                 ...,
-                 append_to_url = NULL,
-                 format = NULL,
-                 verbose = TRUE,
-                 cache = TRUE,
-                 dry_run = FALSE,
-                 func_params = list()) {
+dawa <- function(
+  section,
+  ...,
+  append_to_url = NULL,
+  format = NULL,
+  verbose = TRUE,
+  cache = TRUE,
+  dry_run = FALSE,
+  func_params = list()
+) {
+  warn_api_deprecation()
+
   if (!is.null(format)) {
-    format <- match.arg(format, c(
-      "json", "jsonp", "ndjson",
-      "csv", "geojson", "geojsonz"
-    ))
+    format <- match.arg(
+      format,
+      c(
+        "json",
+        "jsonp",
+        "ndjson",
+        "csv",
+        "geojson",
+        "geojsonz"
+      )
+    )
   }
   if (!is.null(append_to_url)) {
     if (!typeof(append_to_url) == "character") {
@@ -78,8 +89,10 @@ dawa <- function(section,
   base_url <- "https://api.dataforsyningen.dk"
 
   if (!connection_check()) {
-    cli::cli_alert_warning("You do not have access to api.dataforsyningen.dk.
-        Please check your connection settings.")
+    cli::cli_alert_warning(
+      "You do not have access to api.dataforsyningen.dk.
+        Please check your connection settings."
+    )
     return(NULL) # Exit early if no connection is detected
   }
 
@@ -92,7 +105,8 @@ dawa <- function(section,
     httr2::req_url_query(!!!func_params) |> # list of inputs from funcs
     httr2::req_user_agent(
       paste0(
-        "dawaR_", utils::packageDescription("dawaR", fields = "Version"),
+        "dawaR_",
+        utils::packageDescription("dawaR", fields = "Version"),
         " at https://dawar.aleksanderbl.dk)"
       )
     ) |>
@@ -146,8 +160,11 @@ dawa <- function(section,
       }
     )
     # nolint start
-  } else if (!is.null(resp) && !httr2::resp_is_error(resp) &&
-    httr2::resp_content_type(resp) != "application/json") {
+  } else if (
+    !is.null(resp) &&
+      !httr2::resp_is_error(resp) &&
+      httr2::resp_content_type(resp) != "application/json"
+  ) {
     # nolint end
     cli::cli_abort("The API did not return JSON")
   } else if (!is.null(resp) && !httr2::resp_is_error(resp)) {
@@ -191,6 +208,8 @@ dawa <- function(section,
 #'   reverse("regioner", x = 12.58515, y = 55.68324)
 #' }
 reverse <- function(section, x, y, verbose = TRUE, type = NULL, ...) {
+  warn_api_deprecation()
+
   if (!is.null(type)) {
     if (check_coordinate_type(type)) {
       coord <- coordinate_type(type)
@@ -200,8 +219,10 @@ reverse <- function(section, x, y, verbose = TRUE, type = NULL, ...) {
   }
 
   if (!connection_check()) {
-    cli::cli_alert_warning("You do not have access to api.dataforsyningen.dk.
-        Please check your connection settings.")
+    cli::cli_alert_warning(
+      "You do not have access to api.dataforsyningen.dk.
+        Please check your connection settings."
+    )
     return(NULL) # Exit early if no connection is detected
   }
 
@@ -246,9 +267,13 @@ reverse <- function(section, x, y, verbose = TRUE, type = NULL, ...) {
 #'   autocomplete("regioner", "midt")
 #' }
 autocomplete <- function(section, input, ...) {
+  warn_api_deprecation()
+
   if (!connection_check()) {
-    cli::cli_alert_warning("You do not have access to api.dataforsyningen.dk.
-        Please check your connection settings.")
+    cli::cli_alert_warning(
+      "You do not have access to api.dataforsyningen.dk.
+        Please check your connection settings."
+    )
     return(NULL) # Exit early if no connection is detected
   }
 

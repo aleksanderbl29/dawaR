@@ -1,3 +1,17 @@
+# dawaR 0.3.4 (2026-09-15)
+
+* Update `status_check()` to discover services from the current status feed
+  instead of relying on a fixed list and item order.
+* Handle missing service titles without causing examples or vignettes to fail.
+* Replace live status-feed tests with deterministic mocked responses and add
+  coverage for operational, unavailable, and missing-title responses.
+
+# dawaR 0.3.3 (2026-08-26)
+
+* Warn users once per session that the DAWA API is deprecated and scheduled to
+  shut down on October 1, 2026.
+* Show the shutdown date in the package startup message.
+
 # dawaR 0.3.2 (2025-12-16)
 
 * This is a small internal change.

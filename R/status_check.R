@@ -35,58 +35,31 @@ status_check <- function(return_df = FALSE, error_if_unavailable = FALSE) {
     rss_resp <- tidyRSS::tidyfeed(status_url)
   )
 
-  rss_resp$item_title
+  item_titles <- rss_resp$item_title
+  item_titles <- item_titles[!is.na(item_titles) & nzchar(trimws(item_titles))]
 
-  services <- list(
-    "Arkiv kort",
-    "/rest/gsearch/v2.0/adresse",
-    "Adresser",
-    "Dataforsyningen.dk",
-    "FTPS",
-    "WMS:forvaltning2",
-    "WMS:topo_skaermkort_DAF",
-    "sdfekort.dk"
+  if (length(item_titles) == 0) {
+    cli::cli_abort("The status feed did not contain any services.")
+  }
+
+  dataframe <- data.frame(
+    service = sub(" - [^-]+$", "", item_titles),
+    status = ifelse(grepl(" - Operational$", item_titles), "OK", "Down")
   )
 
-  # nolint start
-  status <- sapply(seq_along(services), function(i) {
-    if (
-      nchar(rss_resp$item_title[i]) ==
-        nchar(paste0(services[i], " - Operational"))
-    ) {
-      "OK"
-    } else {
-      "Down"
-    }
-  })
-  # nolint end
+  operational <- all(dataframe$status == "OK")
 
-  overall_list <- list(services, status)
-
-  dataframe <- as.data.frame(do.call(cbind, overall_list))
-
-  colnames(dataframe) <- c("service", "status")
-
-  if (sum(nchar(dataframe$status)) == (2 * nrow(rss_resp))) {
-    operational <- TRUE
-  } else {
-    operational <- FALSE
-  }
-
-  if (operational == FALSE) {
-    not_op <- dataframe[dataframe$status != "OK", ]
-    offline_service <- not_op$service
-  }
-
-  if (operational == TRUE) {
+  if (operational) {
     cli::cli_alert_success("All systems are operational")
-  } else if (operational == FALSE && error_if_unavailable == TRUE) {
+  } else if (error_if_unavailable) {
+    offline_service <- dataframe$service[dataframe$status != "OK"]
     cli::cli_abort("{offline_service} {?is/are} not operational")
-  } else if (operational == FALSE && error_if_unavailable == FALSE) {
+  } else {
+    offline_service <- dataframe$service[dataframe$status != "OK"]
     cli::cli_alert_danger("{offline_service} {?is/are} not operational")
   }
 
-  if (return_df == TRUE) {
+  if (return_df) {
     return(dataframe)
   }
 }

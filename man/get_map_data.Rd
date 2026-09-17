@@ -34,7 +34,7 @@ ggplot2::ggplot(x) +
 }
 }
 \seealso{
-Other Data functions: 
-\code{\link{get_data}()}
+Other Data functions:
+\code{\link[=get_data]{get_data()}}
 }
 \concept{Data functions}
