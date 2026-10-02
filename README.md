@@ -19,6 +19,12 @@ developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.re
 The goal of `{dawaR}` is to make access to the Danish Web Address API
 convenient for many more users.
 
+## DEPRECATION
+
+This package has been removed from CRAN because the upstream Danish Web Address API has been shut down.
+
+- The package [`{geodk}`](https://github.com/rOpenGov/geodk) package will *at some point* be compatible with the new API.
+
 > The deprecation date for DAWA has been published. The service will be
 > shut down on the first of October 2026. Address data on DAWA (and in this
 > package) has not been updated since June 2026. Read more:
